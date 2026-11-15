@@ -79,7 +79,8 @@ def main():
         b = Image.open(os.path.join(OUT, n + ".png")).convert("RGBA")
         scale = max(1, min(6, 384 // a.width))
         w = a.width * scale
-        pics = [("Original", a.convert("RGB")), ("Português", b.convert("RGB"))]
+        main = "Português (main version)" if spec.get("alts") else "Português"
+        pics = [("Original", a.convert("RGB")), (main, b.convert("RGB"))]
         if spec.get("alpha"):
             pics += [("Original gloss", a.getchannel("A")), ("Portuguese gloss", b.getchannel("A"))]
         # "alts": {label: overrides for the first text line} shows other candidates (e.g. fonts) to choose from.
