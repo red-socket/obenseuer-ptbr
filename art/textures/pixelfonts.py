@@ -105,5 +105,14 @@ _BORDER_LOW = {
     "L": (["#."] * 4 + ["##"], 0),                                      # drawn
 }
 
+# exit_sign_001_e (20x20): 1-px capitals like EXIT, all drawn. 3 wide and 6 rows (EXIT has 7) so SAÍDA and a
+# 2-pixel acute fit in the rows the original lettering uses.
+_EXIT = {
+    "S": (["###", "#..", "###", "..#", "..#", "###"], 0),
+    "A": ([".#.", "#.#", "#.#", "###", "#.#", "#.#"], 0),
+    "D": (["##.", "#.#", "#.#", "#.#", "#.#", "##."], 0),
+    "Í": ([".#", "#.", "..", "#.", "#.", "#.", "#.", "#.", "#."], 0),
+}
+
 PIXEL_FONTS = {"oos": _OOS, "bergmann": _BERG, "border-top": _BORDER_TOP, "border-mid": _BORDER_MID,
-               "border-low": _BORDER_LOW}
+               "border-low": _BORDER_LOW, "exit": _EXIT}

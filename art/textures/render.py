@@ -38,23 +38,27 @@ def hexrgb(c):
     return tuple(int(c[i:i + 2], 16) for i in (0, 2, 4))
 
 
-def regrain(out, mask, rect, radius, seed):
+def regrain(out, mask, rect, radius, seed, local):
     """Inpainting is smooth; grainy textures show the patch. Give every inpainted pixel the fine detail
-    (pixel minus its blurred surroundings) of a random untouched pixel nearby whose blurred colour is close."""
-    base = cv2.GaussianBlur(out.astype(float), (0, 0), 1.2)
-    detail = out.astype(float) - base
+    (pixel minus its blurred surroundings) of a random untouched pixel nearby whose blurred colour is close.
+    local: work inside rect only (for isolated erases), so a frame or border next to it doesn't leak in."""
+    x0, y0, x1, y1 = rect if local else (0, 0, out.shape[1], out.shape[0])
+    sub = out[y0:y1, x0:x1].astype(float)
+    m = mask[y0:y1, x0:x1]
+    base = cv2.GaussianBlur(sub, (0, 0), 1.2, borderType=cv2.BORDER_REFLECT)
+    detail = sub - base
     rng = np.random.default_rng(seed)
-    h, w = mask.shape
-    res = out.astype(float)
-    x0, y0, x1, y1 = rect
-    for y, x in zip(*np.nonzero(mask[y0:y1, x0:x1])):
-        y, x = y + y0, x + x0
+    h, w = m.shape
+    res = sub.copy()
+    for y, x in zip(*np.nonzero(m)):
         for _ in range(40):
             sy, sx = y + rng.integers(-radius, radius + 1), x + rng.integers(-radius, radius + 1)
-            if 0 <= sy < h and 0 <= sx < w and not mask[sy, sx] and np.abs(base[sy, sx] - base[y, x]).sum() < 45:
+            if 0 <= sy < h and 0 <= sx < w and not m[sy, sx] and np.abs(base[sy, sx] - base[y, x]).sum() < 45:
                 res[y, x] = base[y, x] + detail[sy, sx]
                 break
-    return np.clip(res + 0.5, 0, 255).astype(np.uint8)
+    out = out.copy()
+    out[y0:y1, x0:x1] = np.clip(res + 0.5, 0, 255).astype(np.uint8)
+    return out
 
 
 def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, isolate=False, grain=0):
@@ -89,7 +93,7 @@ def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, is
     else:
         out = cv2.inpaint(rgb, mask, radius, cv2.INPAINT_TELEA)
     if grain:
-        out = regrain(out, mask > 0, rect, grain, x0 * 1000 + y0)
+        out = regrain(out, mask > 0, rect, grain, x0 * 1000 + y0, isolate)
     return out
 
 
@@ -99,8 +103,19 @@ def fill(rgb, rect, color):
     return rgb
 
 
+def line_bbox(f, line, tr):
+    """Ink bbox of a line with tr extra pixels between letters."""
+    b = f.getbbox(line)
+    if not tr or len(line) < 2:
+        return b
+    adv = sum(f.getlength(c) for c in line[:-1]) + tr * (len(line) - 1)
+    return (f.getbbox(line[0])[0], b[1], int(adv + f.getbbox(line[-1])[2]), b[3])
+
+
 def text_layer(size, t):
-    """Text t (dict) drawn into its box at SS times the resolution; returns a float alpha mask at 1x."""
+    """Text t (dict) drawn into its box at SS times the resolution; returns a float alpha mask at 1x.
+    "tracking" adds that many em between letters. "baseline" puts the first line's baseline on that row
+    (the row under the capitals) instead of centring the ink vertically, so accents don't shift the text."""
     w, h = size
     x0, y0, x1, y1 = t["box"]
     rot = t.get("rotate", 0)
@@ -115,7 +130,7 @@ def text_layer(size, t):
         f = ImageFont.truetype(font_path, px)
         if t.get("weight"):   # variable fonts: wght axis
             f.set_variation_by_axes([t["weight"]])
-        boxes = [f.getbbox(l) for l in lines]
+        boxes = [line_bbox(f, l, t.get("tracking", 0) * px) for l in lines]
         hb = f.getbbox("Hgjpy")   # ink height of a line; accents may reach into the gap above
         lh = hb[3] - hb[1]
         width = max(b[2] - b[0] for b in boxes)
@@ -136,18 +151,23 @@ def text_layer(size, t):
         else:
             hi = mid - 1
     f, tw, th, lh = measure(lo)
+    tr = t.get("tracking", 0) * lo
     canvas = Image.new("L", (tw + 8 * SS, th + 8 * SS), 0)
     d = ImageDraw.Draw(canvas)
     y = 4 * SS - f.getbbox("Hgjpy")[1]
+    base = y + f.getmetrics()[0]   # baseline of the first line
     for line in lines:
-        b = f.getbbox(line)
+        b = line_bbox(f, line, tr)
         lw = b[2] - b[0]
         align = t.get("align", "center")
         x = 4 * SS + (0 if align == "left" else (tw - lw) if align == "right" else (tw - lw) // 2) - b[0]
-        d.text((x, y), line, font=f, fill=255,
-               stroke_width=int(t.get("stroke", 0) * SS))
+        for c in (line if tr else [line]):
+            d.text((x, y), c, font=f, fill=255, stroke_width=int(t.get("stroke", 0) * SS))
+            x += f.getlength(c) + tr
         y += lh + int(gap * lh)
-    canvas = canvas.crop(canvas.getbbox() or (0, 0, 1, 1))
+    crop = canvas.getbbox() or (0, 0, 1, 1)
+    canvas = canvas.crop(crop)
+    base -= crop[1]
     # Optional stretch to the box (signs often use condensed or wide lettering).
     sx = t.get("squeeze", 1.0)
     cw, ch = canvas.size
@@ -155,6 +175,7 @@ def text_layer(size, t):
         nw, nh = bw * SS, bh * SS
     else:
         nw, nh = int(cw * sx), int(ch * t.get("vsqueeze", 1.0))
+    base = base * max(1, nh) / ch
     canvas = canvas.resize((max(1, nw), max(1, nh)), Image.LANCZOS)
     if rot:
         canvas = canvas.rotate(rot, expand=True, resample=Image.BICUBIC)
@@ -165,6 +186,8 @@ def text_layer(size, t):
         cx = x0 * SS
     if t.get("valign") == "top":
         cy = y0 * SS
+    if "baseline" in t and not rot:
+        cy = int(t["baseline"] * SS - base)
     full.paste(canvas, (cx, cy))
     small = np.asarray(full.resize((w, h), Image.BOX)).astype(float) / 255.0
     if t.get("crisp"):   # pixel-art lettering: no anti-aliasing
@@ -201,12 +224,18 @@ def pixel_layer(size, t, name):
     return mask * t.get("opacity", 1.0)
 
 
-def ink(t, a, name):
+def ink(t, a, name, rgb):
     """Per-pixel ink colour (h, w, 3) for text t drawn with mask a. Worn signs don't have flat ink:
     "shade": [top, bottom] brightness added from the top to the bottom row of the text,
-    "mottle": strength of blotchy variation (stains)."""
+    "mottle": strength of blotchy variation (stains),
+    "ink_from": [dx, dy] takes the colour from the cleaned texture that far away (e.g. the sign's own paint)."""
     h, w = a.shape
     col = np.zeros((h, w, 3)) + np.array(hexrgb(t["color"]), float)
+    if t.get("ink_from"):
+        dx, dy = t["ink_from"]
+        ys = np.clip(np.arange(h) + dy, 0, h - 1)
+        xs = np.clip(np.arange(w) + dx, 0, w - 1)
+        col = rgb[ys][:, xs].astype(float)
     rows = np.nonzero(a.any(axis=1))[0]
     if t.get("shade") and len(rows):
         top, bottom = t["shade"]
@@ -254,7 +283,7 @@ def render(name, spec, save=True):
             u = cv2.GaussianBlur(rng.random(a.shape), (0, 0), 1.2)
             u = (u - u.min()) / (np.ptp(u) or 1)
             a = a * (1 - t["wear"] * u ** 2)   # squared: mostly intact, a few patches worn away
-        out = out * (1 - a[:, :, None]) + ink(t, a, name) * a[:, :, None]
+        out = out * (1 - a[:, :, None]) + ink(t, a, name, rgb) * a[:, :, None]
         if aspec and "letters" in aspec:
             aout = aout * (1 - a) + t.get("alpha", aspec["letters"]) * a
     res = np.dstack([np.clip(out + 0.5, 0, 255).astype(np.uint8), np.clip(aout + 0.5, 0, 255).astype(np.uint8)])

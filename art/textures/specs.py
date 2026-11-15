@@ -181,6 +181,134 @@ SPECS = {
         "text": [{"box": [22, 8, 108, 88], "font": "gochi", "color": "#1e1e1e", "leading": 0.05,
                   "wear": 0.75, "mottle": 10, "text": "Tijolos\nnão são\nbem-vindos\naqui"}],
     },
+
+    # ---- Batch 02: screens, exit signs, notices ----
+    # Ticket machine (passport check) screens: bold sans ~7 px caps on a lighter panel (x 18-107, rows 88-118).
+    # The original lettering is narrower than Liberation Sans Bold, hence the squeeze.
+    "ticket_machine_002_screen_default_1": {
+        "en": 'PUT THE PASSPORT INTO THE SLOT (arrows point at the slot)',
+        "note": '"INSIRA O PASSAPORTE NA ABERTURA" doesn\'t fit two lines at this size, so it drops "into the slot"; the arrows still point at it.',
+        "erase": [{"rect": [17, 89, 110, 118], "thresh": 60, "isolate": True, "grain": 3}],
+        "text": [{"box": [18, 89, 107, 103], "font": "sans-bold", "size": 10, "squeeze": 0.87, "baseline": 102,
+                  "color": "#2d3f48", "text": "INSIRA O"},
+                 {"box": [18, 103, 107, 118], "font": "sans-bold", "size": 10, "squeeze": 0.87, "baseline": 112,
+                  "color": "#2d3f48", "text": "PASSAPORTE"}],
+    },
+    "ticket_machine_002_screen_default_2": {
+        "en": 'PUT THE PASSPORT INTO THE SLOT (arrows point at the slot)',
+        "note": 'Second animation frame of the screen before (arrows moved).',
+        "erase": [{"rect": [17, 89, 110, 118], "thresh": 60, "isolate": True, "grain": 3}],
+        "text": [{"box": [18, 89, 107, 103], "font": "sans-bold", "size": 10, "squeeze": 0.87, "baseline": 102,
+                  "color": "#2d3f48", "text": "INSIRA O"},
+                 {"box": [18, 103, 107, 118], "font": "sans-bold", "size": 10, "squeeze": 0.87, "baseline": 112,
+                  "color": "#2d3f48", "text": "PASSAPORTE"}],
+    },
+    "ticket_machine_002_screen_valid": {
+        "en": 'PASSPORT IS VALID!',
+        "erase": [{"rect": [17, 89, 110, 118], "thresh": 60, "isolate": True, "grain": 3}],
+        "text": [{"box": [18, 89, 107, 103], "font": "sans-bold", "size": 10, "squeeze": 0.87, "baseline": 102,
+                  "color": "#314e4a", "text": "PASSAPORTE"},
+                 {"box": [18, 103, 107, 118], "font": "sans-bold", "size": 10, "squeeze": 0.87, "baseline": 112,
+                  "color": "#314e4a", "text": "VÁLIDO!"}],
+    },
+    "ticket_machine_002_screen_not_valid_1": {
+        "en": 'PASSPORT IS NOT VALID!',
+        "erase": [{"rect": [17, 89, 110, 118], "thresh": 60, "isolate": True, "grain": 3}],
+        "text": [{"box": [18, 89, 107, 103], "font": "sans-bold", "size": 10, "squeeze": 0.87, "baseline": 102,
+                  "color": "#2e3f47", "text": "PASSAPORTE"},
+                 {"box": [18, 103, 107, 118], "font": "sans-bold", "size": 10, "squeeze": 0.87, "baseline": 112,
+                  "color": "#2e3f47", "text": "INVÁLIDO!"}],
+    },
+    "ticket_machine_002_screen_wait_1": {
+        "en": 'PLEASE WAIT',
+        "note": 'The four frames animate the dots; the word stays put (left-aligned) like the original.',
+        "erase": [{"rect": [17, 89, 110, 118], "thresh": 60, "isolate": True, "grain": 3}],
+        "text": [{"box": [37, 95, 107, 110], "font": "sans-bold", "size": 10, "squeeze": 0.87, "baseline": 107,
+                  "align": "left", "color": "#2d3f48", "text": "AGUARDE"}],
+    },
+    "ticket_machine_002_screen_wait_2": {
+        "en": 'PLEASE WAIT.',
+        "erase": [{"rect": [17, 89, 110, 118], "thresh": 60, "isolate": True, "grain": 3}],
+        "text": [{"box": [37, 95, 107, 110], "font": "sans-bold", "size": 10, "squeeze": 0.87, "baseline": 107,
+                  "align": "left", "color": "#2d3f48", "text": "AGUARDE."}],
+    },
+    "ticket_machine_002_screen_wait_3": {
+        "en": 'PLEASE WAIT..',
+        "erase": [{"rect": [17, 89, 110, 118], "thresh": 60, "isolate": True, "grain": 3}],
+        "text": [{"box": [37, 95, 107, 110], "font": "sans-bold", "size": 10, "squeeze": 0.87, "baseline": 107,
+                  "align": "left", "color": "#2d3f48", "text": "AGUARDE.."}],
+    },
+    "ticket_machine_002_screen_wait_4": {
+        "en": 'PLEASE WAIT...',
+        "erase": [{"rect": [17, 89, 110, 118], "thresh": 60, "isolate": True, "grain": 3}],
+        "text": [{"box": [37, 95, 107, 110], "font": "sans-bold", "size": 10, "squeeze": 0.87, "baseline": 107,
+                  "align": "left", "color": "#2d3f48", "text": "AGUARDE..."}],
+    },
+    # ATM screens (bank SBB, flags = language buttons, both kept). Smooth gradient, so no grain needed.
+    "ATM_screen_001": {
+        "en": 'WELCOME (vertical)',
+        "note": '"BEM-VINDO" is what Brazilian ATMs say. Gender-neutral alternative: "BOAS-VINDAS".',
+        "erase": [{"rect": [53, 29, 70, 100], "mode": "light", "thresh": 25, "k": 9}],
+        "text": [{"box": [53, 20, 70, 108], "font": "sans", "rotate": 90, "color": "#ecf6f7", "stroke": 0.3,
+                  "text": "BEM-VINDO"}],
+    },
+    "ATM_screen_001_out_of_order": {
+        "en": 'OUT OF ORDER (vertical, in a red frame)',
+        "erase": [{"rect": [56, 30, 68, 99], "mode": "light", "thresh": 40, "k": 7, "isolate": True}],
+        "text": [{"box": [56, 32, 68, 98], "font": "roboto-cond", "rotate": 90, "color": "#ffffff", "text": "FORA DE SERVIÇO"}],
+    },
+    # Tiny green exit light, 20x20 pixel lettering.
+    "exit_sign_001_e": {
+        "en": 'EXIT',
+        "note": 'Pixel letters drawn to match EXIT, one row shorter so the accent fits above them (a single pixel read as a lowercase i).',
+        "erase": [{"rect": [0, 0, 20, 10], "color": "#000000"}],
+        "text": [{"pixel": "exit", "box": [0, 0, 20, 0], "baselines": [8], "color": "#228322", "text": "SAÍDA"}],
+    },
+    # Mall corridor signs: wide-tracked caps (12 px) on a light band (rows 213-247), arrow kept.
+    "sign_002_exit_mallment_left": {
+        "en": 'EXIT TO BAZAAR (arrow left)',
+        "note": 'Bazaar is "Bazar" in the game text. The full phrase needs tighter spacing than the original; the shorter option keeps its wide spacing.',
+        "erase": [{"rect": [48, 215, 244, 246], "mode": "dark", "thresh": 30, "k": 9, "isolate": True}],
+        "text": [{"box": [50, 214, 240, 246], "font": "sans", "stroke": 0.25, "size": 17, "tracking": 0.1, "baseline": 237,
+                  "color": "#030303", "text": "SAÍDA PARA O BAZAR"}],
+        "alts": {"SAÍDA – BAZAR": {"text": "SAÍDA – BAZAR", "tracking": 0.4}},
+    },
+    "sign_002_exit_mallment_left_corner": {
+        "en": 'EXIT TO BAZAAR (arrow up-left)',
+        "erase": [{"rect": [52, 215, 244, 246], "mode": "dark", "thresh": 30, "k": 9, "isolate": True}],
+        "text": [{"box": [53, 214, 242, 246], "font": "sans", "stroke": 0.25, "size": 17, "tracking": 0.1, "baseline": 237,
+                  "color": "#030303", "text": "SAÍDA PARA O BAZAR"}],
+        "alts": {"SAÍDA – BAZAR": {"text": "SAÍDA – BAZAR", "tracking": 0.4}},
+    },
+    "sign_002_exit_mallment_down": {
+        "en": 'EXIT TO BAZAAR (arrow down)',
+        "erase": [{"rect": [14, 215, 205, 246], "mode": "dark", "thresh": 30, "k": 9, "isolate": True}],
+        "text": [{"box": [16, 214, 206, 246], "font": "sans", "stroke": 0.25, "size": 17, "tracking": 0.1, "baseline": 237,
+                  "color": "#030303", "text": "SAÍDA PARA O BAZAR"}],
+        "alts": {"SAÍDA – BAZAR": {"text": "SAÍDA – BAZAR", "tracking": 0.4}},
+    },
+    # Apartment building plate: light bold caps on a dark grainy panel.
+    "apartment_sign_001_guard": {
+        "en": 'CALL THE GUARD',
+        "note": '"Guarda" as in the dialogue speaker names.',
+        "erase": [{"rect": [4, 62, 124, 104], "mode": "light", "thresh": 30, "k": 9, "grain": 3}],
+        "text": [{"box": [4, 60, 124, 80], "font": "sans-bold", "size": 19.5, "baseline": 79, "color": "#c7c7ca",
+                  "mottle": 8, "text": "CHAME"},
+                 {"box": [4, 83, 124, 103], "font": "sans-bold", "size": 19.5, "baseline": 102, "color": "#c7c7ca",
+                  "mottle": 8, "text": "O GUARDA"}],
+    },
+    # Water tank plate: CAUTION in yellow on a black box, HOT WATER in black on yellow; both speckled with grime,
+    # so the new letters take their colour from the sign's own paint (ink_from).
+    "tank_modular_sign_001": {
+        "en": 'CAUTION / HOT WATER',
+        "note": 'CAUTION is "CUIDADO", as WARNING on the batch 01 plates.',
+        "erase": [{"rect": [27, 13, 100, 28], "mode": "light", "thresh": 40, "k": 7, "grain": 3},
+                  {"rect": [24, 34, 104, 49], "mode": "dark", "thresh": 40, "k": 7, "grain": 3}],
+        "text": [{"box": [28, 14, 99, 27], "font": "roboto-cond-bold", "stretch": True, "color": "#b09050",
+                  "ink_from": [0, 21], "text": "CUIDADO"},
+                 {"box": [26, 31, 102, 48], "font": "roboto-cond-bold", "stretch": True, "color": "#101010",
+                  "ink_from": [0, -21], "text": "ÁGUA QUENTE"}],
+    },
 }
 
 # Review batches: each is checked by the user, texture by texture, against the original.
@@ -191,6 +319,12 @@ BATCHES = {
            "Sign Private Property_0", "sign_004_camera", "sign_004_border", "sign_004_bergmann",
            "sign_004_bergmann_2", "sign_004_bio2", "sign_004_construction", "sign_009", "sign_009_radioactive",
            "sign_009_authorized_only", "sign_police_checkpoint", "sign_004_no_bricks"],
+    "02": ["ticket_machine_002_screen_default_1", "ticket_machine_002_screen_default_2", "ticket_machine_002_screen_valid",
+           "ticket_machine_002_screen_not_valid_1", "ticket_machine_002_screen_wait_1", "ticket_machine_002_screen_wait_2",
+           "ticket_machine_002_screen_wait_3", "ticket_machine_002_screen_wait_4", "ATM_screen_001",
+           "ATM_screen_001_out_of_order", "exit_sign_001_e", "sign_002_exit_mallment_left",
+           "sign_002_exit_mallment_left_corner", "sign_002_exit_mallment_down", "apartment_sign_001_guard",
+           "tank_modular_sign_001"],
 }
 
 NUMBERS = {}
