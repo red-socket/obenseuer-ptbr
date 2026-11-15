@@ -1,0 +1,3068 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Obenseuer PT-BR\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: SRC/AmountSliderUI.cs:168
+#: SRC/ItemInfoPanel.cs:257
+#: SRC/ShopBaseUI.cs:453
+#: SRC/ShopBaseUI.cs:454
+#, fuzzy
+msgid "Sell"
+msgstr "Vender"
+
+#: SRC/AmountSliderUI.cs:172
+#: SRC/ItemInfoPanel.cs:265
+#: SRC/ShopBaseUI.cs:506
+#: SRC/ShopBaseUI.cs:507
+#: SRC/VendingMachineItemUI.cs:61
+#: SRC/VendingMachineItemUI.cs:68
+#, fuzzy
+msgid "Buy"
+msgstr "Comprar"
+
+#: SRC/AmountSliderUI.cs:176
+#: SRC/InteractableLadder.cs:156
+#: SRC/InventoryNavigationHandler.cs:445
+#, fuzzy
+msgid "Drop"
+msgstr "Largar"
+
+#: SRC/AmountSliderUI.cs:179
+#, fuzzy
+msgid "Plant"
+msgstr "Plantar"
+
+#: SRC/AmountSliderUI.cs:182
+#: SRC/BuildingSystemMenu.cs:531
+#: SRC/Tutorial.cs:297
+#, fuzzy
+msgid "Move"
+msgstr "Mover"
+
+#: SRC/AmountSliderUI.cs:203
+#, fuzzy
+msgid "Amount: {0}"
+msgstr "Quantidade: {0}"
+
+#: SRC/AmountSliderUI.cs:206
+#: SRC/ItemInfoPanel.cs:238
+#, fuzzy
+msgid "Price: {0}"
+msgstr "Preço: {0}"
+
+#: SRC/ApartmentInfoUI.cs:129
+#, fuzzy
+msgid "Value: {0} RM"
+msgstr "Valor: {0} RM"
+
+#: SRC/ApartmentInfoUI.cs:162
+#, fuzzy
+msgid "{0} OC/{1}"
+msgstr "{0} OC/{1}"
+
+#: SRC/ApartmentInfoUI.cs:164
+#, fuzzy
+msgid "{0} RM/{1}"
+msgstr "{0} RM/{1}"
+
+#: SRC/ApartmentInfoUI.cs:207
+#, fuzzy
+msgid "Apartment: {0}"
+msgstr "Apartamento: {0}"
+
+#: SRC/ApartmentInfoUI.cs:290
+#, fuzzy
+msgid "The resident prevents upgrading the apartment"
+msgstr "O morador impede a reforma do apartamento"
+
+#: SRC/ApartmentInfoUI.cs:296
+#, fuzzy
+msgid "The apartment has not been cleared"
+msgstr "O apartamento não foi limpo"
+
+#: SRC/ApartmentInfoUI.cs:298
+#, fuzzy
+msgid "Cleared: {0}%"
+msgstr "Limpo: {0}%"
+
+#: SRC/ApartmentInfoUI.cs:302
+#, fuzzy
+msgid "The apartment has not been examined"
+msgstr "O apartamento não foi examinado"
+
+#: SRC/ApartmentInfoUI.cs:306
+#, fuzzy
+msgid "Examined: {0}%"
+msgstr "Examinado: {0}%"
+
+#: SRC/ApartmentRentUI.cs:77
+#: SRC/ApartmentRentUI.cs:85
+#, fuzzy
+msgid "Moving: "
+msgstr "Mudança: "
+
+#: SRC/ApartmentRentUI.cs:79
+#, fuzzy
+msgid ""
+"\n"
+"Cancel the eviction"
+msgstr ""
+"\n"
+"Cancelar o despejo"
+
+#: SRC/ApartmentRentUI.cs:87
+#, fuzzy
+msgid ""
+"\n"
+"Evict the resident"
+msgstr ""
+"\n"
+"Despejar o morador"
+
+#: SRC/ApartmentRentUI.cs:93
+#, fuzzy
+msgid "Evict the resident"
+msgstr "Despejar o morador"
+
+#: SRC/ApartmentRentUI.cs:157
+#, fuzzy
+msgid "Already Occupied!"
+msgstr "Já está ocupado!"
+
+#: SRC/ApartmentRentUI.cs:160
+#, fuzzy
+msgid "Wrong Size!"
+msgstr "Tamanho errado!"
+
+#: SRC/ApartmentRentUI.cs:163
+#, fuzzy
+msgid "The tenement needs upgrades!"
+msgstr "O prédio precisa de melhorias!"
+
+#: SRC/ApartmentRentUI.cs:166
+#, fuzzy
+msgid "The apartment needs upgrades!"
+msgstr "O apartamento precisa de melhorias!"
+
+#: SRC/ApartmentRentUI.cs:169
+#, fuzzy
+msgid "Your apartment!"
+msgstr "Seu apartamento!"
+
+#: SRC/BankExchangeRateSign.cs:55
+#, fuzzy
+msgid "RM "
+msgstr "RM "
+
+#: SRC/BankExchangeRateSign.cs:55
+#, fuzzy
+msgid "OC "
+msgstr "OC "
+
+#: SRC/BankUI.cs:274
+#: SRC/BankUI.cs:548
+#, fuzzy
+msgid "Account: {0} OC"
+msgstr "Conta: {0} OC"
+
+#: SRC/BankUI.cs:275
+#: SRC/BankUI.cs:549
+#, fuzzy
+msgid "Wallet: {0} OC"
+msgstr "Carteira: {0} OC"
+
+#: SRC/BankUI.cs:276
+#, fuzzy
+msgid "0 OC"
+msgstr "0 OC"
+
+#: SRC/BankUI.cs:298
+#: SRC/BankUI.cs:321
+#: SRC/BankUI.cs:379
+#: SRC/BankUI.cs:402
+#, fuzzy
+msgid "Account: "
+msgstr "Conta: "
+
+#: SRC/BankUI.cs:298
+#: SRC/BankUI.cs:299
+#: SRC/BankUI.cs:321
+#: SRC/BankUI.cs:322
+#: SRC/BankUI.cs:682
+#: SRC/ItemInfoPanel.cs:647
+#, fuzzy
+msgid " OC"
+msgstr " OC"
+
+#: SRC/BankUI.cs:299
+#: SRC/BankUI.cs:322
+#: SRC/BankUI.cs:380
+#: SRC/BankUI.cs:403
+#, fuzzy
+msgid "Wallet: "
+msgstr "Carteira: "
+
+#: SRC/BankUI.cs:300
+#: SRC/BankUI.cs:323
+#: SRC/BankUI.cs:594
+#: SRC/FurnitureInfoUI.cs:55
+#: SRC/FurnitureInfoUI.cs:59
+#: SRC/TenementController.cs:460
+#, fuzzy
+msgid "{0} OC"
+msgstr "{0} OC"
+
+#: SRC/BankUI.cs:355
+#: SRC/BankUI.cs:556
+#, fuzzy
+msgid "Account: {0} RM"
+msgstr "Conta: {0} RM"
+
+#: SRC/BankUI.cs:356
+#: SRC/BankUI.cs:557
+#, fuzzy
+msgid "Wallet: {0} RM"
+msgstr "Carteira: {0} RM"
+
+#: SRC/BankUI.cs:357
+#, fuzzy
+msgid "0 RM"
+msgstr "0 RM"
+
+#: SRC/BankUI.cs:379
+#: SRC/BankUI.cs:380
+#: SRC/BankUI.cs:402
+#: SRC/BankUI.cs:403
+#: SRC/BankUI.cs:683
+#: SRC/ItemInfoPanel.cs:647
+#, fuzzy
+msgid " RM"
+msgstr " RM"
+
+#: SRC/BankUI.cs:381
+#: SRC/BankUI.cs:404
+#: SRC/BankUI.cs:612
+#: SRC/FakeInvoiceReceiver.cs:102
+#: SRC/FakeInvoiceReceiver.cs:113
+#: SRC/FakeInvoiceReceiver.cs:130
+#, fuzzy
+msgid "{0} RM"
+msgstr "{0} RM"
+
+#: SRC/BankUI.cs:434
+#: SRC/BankUI.cs:663
+#, fuzzy
+msgid "OC: {0}"
+msgstr "OC: {0}"
+
+#: SRC/BankUI.cs:435
+#: SRC/BankUI.cs:453
+#: SRC/BankUI.cs:485
+#: SRC/BankUI.cs:664
+#, fuzzy
+msgid "RM: {0}"
+msgstr "RM: {0}"
+
+#: SRC/BankUI.cs:436
+#: SRC/BankUI.cs:665
+#, fuzzy
+msgid "Exchange: 0"
+msgstr "Câmbio: 0"
+
+#: SRC/BankUI.cs:452
+#: SRC/BankUI.cs:484
+#, fuzzy
+msgid "OC: "
+msgstr "OC: "
+
+#: SRC/BankUI.cs:454
+#, fuzzy
+msgid "Exchange: {0} OC"
+msgstr "Câmbio: {0} OC"
+
+#: SRC/BankUI.cs:486
+#, fuzzy
+msgid "Exchange: {0} RM"
+msgstr "Câmbio: {0} RM"
+
+#: SRC/BankUI.cs:529
+#, fuzzy
+msgid "The bank has insufficient funds"
+msgstr "O banco não tem fundos suficientes"
+
+#: SRC/BankUI.cs:550
+#, fuzzy
+msgid "OC: 0"
+msgstr "OC: 0"
+
+#: SRC/BankUI.cs:558
+#, fuzzy
+msgid "RM: 0"
+msgstr "RM: 0"
+
+#: SRC/BankUI.cs:660
+#, fuzzy
+msgid "Interest: {0}"
+msgstr "Juros: {0}"
+
+#: SRC/BankUI.cs:682
+#, fuzzy
+msgid "1 RM = {0}"
+msgstr "1 RM = {0}"
+
+#: SRC/BankUI.cs:683
+#, fuzzy
+msgid "1 OC = {0}"
+msgstr "1 OC = {0}"
+
+#: SRC/BreakableLock.cs:93
+#, fuzzy
+msgid "Unlocked"
+msgstr "Destrancado"
+
+#: SRC/BuildingSystemMenu.cs:523
+#: SRC/InteractableFurnitureDisplay.cs:88
+#: SRC/VendingMachineItemUI.cs:54
+#, fuzzy
+msgid "Take"
+msgstr "Pegar"
+
+#: SRC/BuildingSystemMenu.cs:535
+#, fuzzy
+msgid "Category"
+msgstr "Categoria"
+
+#: SRC/BundleMail.cs:166
+#: SRC/MailController.cs:528
+#: SRC/MailController.cs:543
+#: SRC/MailController.cs:551
+#: SRC/MailController.cs:562
+#: SRC/MailController.cs:571
+#, fuzzy
+msgid "Mail: {0}"
+msgstr "Correio: {0}"
+
+#: SRC/BundleMail.cs:166
+#: SRC/MailController.cs:528
+#: SRC/MailController.cs:543
+#: SRC/MailController.cs:551
+#: SRC/MailController.cs:562
+#: SRC/MailController.cs:571
+#, fuzzy
+msgid "Contents: {0}"
+msgstr "Conteúdo: {0}"
+
+#: SRC/CardGameUI.cs:177
+#: SRC/CardGameUI.cs:184
+#, fuzzy
+msgid ""
+"{0}Pass Turn ({1})\n"
+msgstr ""
+"{0}Passar a vez ({1})\n"
+
+#: SRC/CardGameUI.cs:190
+#, fuzzy
+msgid ""
+"{0}Request Card ({1})\n"
+msgstr ""
+"{0}Pedir carta ({1})\n"
+
+#: SRC/CardGameUI.cs:196
+#: SRC/CardGameUI.cs:228
+#, fuzzy
+msgid ""
+"{0}Sort Cards ({1})\n"
+msgstr ""
+"{0}Ordenar cartas ({1})\n"
+
+#: SRC/CardGameUI.cs:207
+#, fuzzy
+msgid ""
+"{0}Call Ready ({1})\n"
+msgstr ""
+"{0}Declarar pronto ({1})\n"
+
+#: SRC/CardGameUI.cs:217
+#, fuzzy
+msgid ""
+"{0}Pickup Pile ({1})\n"
+msgstr ""
+"{0}Pegar o monte ({1})\n"
+
+#: SRC/CardGameUI.cs:222
+#, fuzzy
+msgid ""
+"{0}Risk Draw ({1})\n"
+msgstr ""
+"{0}Arriscar o baralho ({1})\n"
+
+#: SRC/CardGameUI.cs:234
+#, fuzzy
+msgid ""
+"{0}Show Hints ({1})\n"
+msgstr ""
+"{0}Mostrar dicas ({1})\n"
+
+#: SRC/CardGameUI.cs:239
+#, fuzzy
+msgid ""
+"{0}Hold to View Table ({1})\n"
+msgstr ""
+"{0}Segure para ver a mesa ({1})\n"
+
+#: SRC/CardGameUI.cs:241
+#, fuzzy
+msgid "{0}Hold to Leave ({1})"
+msgstr "{0}Segure para sair ({1})"
+
+#: SRC/CharacterEditor.cs:231
+#, fuzzy
+msgid "MALE"
+msgstr "MASCULINO"
+
+#: SRC/CharacterEditor.cs:235
+#, fuzzy
+msgid "FEMALE"
+msgstr "FEMININO"
+
+#: SRC/CharacterEditor.cs:243
+#, fuzzy
+msgid "Male"
+msgstr "Masculino"
+
+#: SRC/CharacterEditor.cs:247
+#, fuzzy
+msgid "Female"
+msgstr "Feminino"
+
+#: SRC/CharacterPanel.cs:64
+#, fuzzy
+msgid "No learned skills"
+msgstr "Nenhuma habilidade aprendida"
+
+#: SRC/CharacterPanelSkill.cs:49
+#, fuzzy
+msgid "LVL {0}"
+msgstr "NV {0}"
+
+#: SRC/CharacterPanelSkill.cs:50
+#, fuzzy
+msgid "{0} XP"
+msgstr "{0} XP"
+
+#: SRC/ChinaHand.cs:256
+#, fuzzy
+msgid "Shittypants"
+msgstr "Calça cagada"
+
+#: SRC/ChinaHand.cs:256
+#: SRC/Ristiseiska.cs:235
+#, fuzzy
+msgid "Goal"
+msgstr "Objetivo"
+
+#: SRC/ChinaHand.cs:256
+#, fuzzy
+msgid "Get rid of all your cards before the others."
+msgstr "Livre-se de todas as suas cartas antes dos outros."
+
+#: SRC/ChinaHand.cs:256
+#: SRC/Ristiseiska.cs:235
+#, fuzzy
+msgid "Starting"
+msgstr "Início"
+
+#: SRC/ChinaHand.cs:256
+#, fuzzy
+msgid "You get 3 cards in hand, 3 face-up and 3 face-down"
+msgstr "Você recebe 3 cartas na mão, 3 viradas para cima e 3 viradas para baixo"
+
+#: SRC/ChinaHand.cs:256
+#, fuzzy
+msgid "Before play, swap cards between your hand and face-up cards"
+msgstr "Antes de começar, troque cartas entre a sua mão e as viradas para cima"
+
+#: SRC/ChinaHand.cs:256
+#, fuzzy
+msgid "The player with the lowest card (3 or higher) starts"
+msgstr "Começa quem tiver a carta mais baixa (3 ou maior)"
+
+#: SRC/ChinaHand.cs:256
+#, fuzzy
+msgid "Burn the pile"
+msgstr "Queimar o monte"
+
+#: SRC/ChinaHand.cs:256
+#, fuzzy
+msgid "By placing a 10 of any suit"
+msgstr "Colocando um 10 de qualquer naipe"
+
+#: SRC/ChinaHand.cs:256
+#, fuzzy
+msgid "By placing the fourth card of the same rank in a row"
+msgstr "Colocando a quarta carta seguida do mesmo valor"
+
+#: SRC/ChinaHand.cs:256
+#, fuzzy
+msgid "After a burn, you play again"
+msgstr "Depois de queimar o monte, você joga de novo"
+
+#: SRC/ChinaHand.cs:257
+#: SRC/Ristiseiska.cs:235
+#, fuzzy
+msgid "Placing rules"
+msgstr "Como jogar"
+
+#: SRC/ChinaHand.cs:257
+#, fuzzy
+msgid "Place a card of the same or higher rank than the top card"
+msgstr "Coloque uma carta de valor igual ou maior que a do topo"
+
+#: SRC/ChinaHand.cs:257
+#, fuzzy
+msgid "Aces are high"
+msgstr "O Ás é a carta mais alta"
+
+#: SRC/ChinaHand.cs:257
+#, fuzzy
+msgid "Jack, Queen, King and Ace can only be placed on a 7 or higher"
+msgstr "Valete, Dama, Rei e Ás só podem ir sobre um 7 ou maior"
+
+#: SRC/ChinaHand.cs:257
+#, fuzzy
+msgid "A 2 or a 10 can be placed on any card"
+msgstr "Um 2 ou um 10 pode ir sobre qualquer carta"
+
+#: SRC/ChinaHand.cs:257
+#, fuzzy
+msgid "Any card can be placed on a 2, and you play again"
+msgstr "Qualquer carta pode ir sobre um 2, e você joga de novo"
+
+#: SRC/ChinaHand.cs:257
+#, fuzzy
+msgid "You can add more cards of the same rank until the next player plays"
+msgstr "Você pode jogar mais cartas do mesmo valor até o próximo jogador jogar"
+
+#: SRC/ChinaHand.cs:258
+#, fuzzy
+msgid "Order of play"
+msgstr "Ordem de jogo"
+
+#: SRC/ChinaHand.cs:258
+#, fuzzy
+msgid "Hand first, then face-up cards, then face-down cards"
+msgstr "Primeiro a mão, depois as viradas para cima, depois as viradas para baixo"
+
+#: SRC/ChinaHand.cs:258
+#, fuzzy
+msgid "Face-down cards are played blind; if one doesn't fit, you pick it up with the pile"
+msgstr "As viradas para baixo são jogadas às cegas; se não servir, você leva o monte junto"
+
+#: SRC/ChinaHand.cs:258
+#, fuzzy
+msgid "Draw back up to 3 cards while the deck lasts"
+msgstr "Reponha a mão até 3 cartas enquanto o baralho durar"
+
+#: SRC/ChinaHand.cs:259
+#: SRC/Ristiseiska.cs:236
+#, fuzzy
+msgid "Can't place a card"
+msgstr "Não dá para jogar"
+
+#: SRC/ChinaHand.cs:259
+#, fuzzy
+msgid "Pick up the pile, which ends your turn"
+msgstr "Pegue o monte, o que encerra o seu turno"
+
+#: SRC/ChinaHand.cs:259
+#, fuzzy
+msgid "Or risk a draw from the deck; if it doesn't fit, you pick it up with the pile"
+msgstr "Ou arrisque comprar do baralho; se não servir, você leva o monte junto"
+
+#: SRC/CollectibleCoin.cs:66
+#: SRC/CollectibleItem.cs:627
+#: SRC/CollectibleNote.cs:57
+#: SRC/CollectiblePackage.cs:102
+#: SRC/CollectibleRecipe.cs:41
+#: SRC/CollectibleRecipeBook.cs:129
+#, fuzzy
+msgid "Steal"
+msgstr "Roubar"
+
+#: SRC/CollectibleItem.cs:632
+#: SRC/CollectiblePackage.cs:106
+#: SRC/InteractableShower.cs:162
+#: SRC/InteractableShower.cs:175
+#: SRC/ItemInfoPanel.cs:744
+#: SRC/LiquidStorage.cs:432
+#, fuzzy
+msgid "Owned"
+msgstr "Tem dono"
+
+#: SRC/CollectibleNote.cs:61
+#, fuzzy
+msgid "Spy"
+msgstr "Espiar"
+
+#: SRC/CollectiblePackage.cs:170
+#, fuzzy
+msgid "Package collected!"
+msgstr "Pacote coletado!"
+
+#: SRC/CollectiblePackage.cs:170
+#, fuzzy
+msgid "New items added to your inventory"
+msgstr "Novos itens adicionados ao seu inventário"
+
+#: SRC/ComputerEmail.cs:18
+#, fuzzy
+msgid "{0}<color=#6b6b6b> - {1}"
+msgstr "{0}<color=#6b6b6b> - {1}"
+
+#: SRC/ComputerEmails.cs:76
+#, fuzzy
+msgid "{0} <color=#6b6b6b><{1}>"
+msgstr "{0} <color=#6b6b6b><{1}>"
+
+#: SRC/ContestController.cs:139
+#, fuzzy
+msgid "Hold to give up"
+msgstr "Segure para desistir"
+
+#: SRC/CraftingUpgrade.cs:180
+#, fuzzy
+msgid ", connected to {0}"
+msgstr ", conectado a {0}"
+
+#: SRC/CraftingUpgrade.cs:180
+#: SRC/CraftingUpgrade.cs:184
+#: SRC/CraftingUpgrade.cs:188
+#, fuzzy
+msgid "ON"
+msgstr "LIGADO"
+
+#: SRC/CraftingUpgrade.cs:180
+#: SRC/CraftingUpgrade.cs:184
+#: SRC/CraftingUpgrade.cs:188
+#, fuzzy
+msgid "OFF"
+msgstr "DESLIGADO"
+
+#: SRC/CraftingUpgrade.cs:184
+#, fuzzy
+msgid "{0}, connected to {1} workstations"
+msgstr "{0}, conectado a {1} bancadas"
+
+#: SRC/CraftingUpgrade.cs:188
+#, fuzzy
+msgid ", not connected"
+msgstr ", não conectado"
+
+#: SRC/CraftingUpgrade.cs:193
+#, fuzzy
+msgid "Connected to {0}"
+msgstr "Conectado a {0}"
+
+#: SRC/CraftingUpgrade.cs:197
+#, fuzzy
+msgid "Connected to {0} workstations"
+msgstr "Conectado a {0} bancadas"
+
+#: SRC/CraftingUpgrade.cs:201
+#, fuzzy
+msgid "Not connected"
+msgstr "Não conectado"
+
+#: SRC/Crime.cs:220
+#, fuzzy
+msgid "Crime committed:"
+msgstr "Crime cometido:"
+
+#: SRC/DeveloperMovement.cs:127
+#: SRC/DeveloperMovement.cs:139
+#, fuzzy
+msgid ""
+"Debug movement enabled: {0}\n"
+msgstr ""
+"Movimento de depuração ativado: {0}\n"
+
+#: SRC/DeveloperMovement.cs:128
+#, fuzzy
+msgid ""
+"Controls:\n"
+"- W,A,S,D move player horizontally\n"
+"- Hold Left Shift to move faster\n"
+msgstr ""
+"Controles:\n"
+"- W,A,S,D movem o jogador na horizontal\n"
+"- Segure Shift esquerdo para ir mais rápido\n"
+
+#: SRC/DifficultyUI.cs:199
+#, fuzzy
+msgid "{0} DIFFICULTY:"
+msgstr "DIFICULDADE {0}:"
+
+#: SRC/DifficultyUI.cs:267
+#: SRC/OptionsMenu.cs:371
+#: SRC/OptionsMenu.cs:778
+#: SRC/OptionsMenu.cs:805
+#: SRC/OptionsMenu.cs:832
+#: SRC/OptionsMenu.cs:856
+#, fuzzy
+msgid "Custom"
+msgstr "Personalizada"
+
+#: SRC/DifficultyUI.cs:282
+#: SRC/DifficultyUI.cs:309
+#: SRC/DifficultyUI.cs:322
+#: SRC/OptionsMenu.cs:283
+#: SRC/OptionsMenu.cs:296
+#: SRC/OptionsMenu.cs:315
+#, fuzzy
+msgid "Disabled"
+msgstr "Desativado"
+
+#: SRC/DifficultyUI.cs:282
+#: SRC/DifficultyUI.cs:309
+#: SRC/DifficultyUI.cs:322
+#: SRC/OptionsMenu.cs:283
+#: SRC/OptionsMenu.cs:320
+#: SRC/OptionsMenu.cs:329
+#, fuzzy
+msgid "Enabled"
+msgstr "Ativado"
+
+#: SRC/DoctorPanel.cs:149
+#: SRC/DoctorPanel.cs:172
+#, fuzzy
+msgid "Price: {0} {1}"
+msgstr "Preço: {0} {1}"
+
+#: SRC/DoctorPanel.cs:152
+#, fuzzy
+msgid "Status: {0}"
+msgstr "Estado: {0}"
+
+#: SRC/EditableSign.cs:77
+#, fuzzy
+msgid "Edit"
+msgstr "Editar"
+
+#: SRC/FakeDoor.cs:36
+#, fuzzy
+msgid "Cannot be lockpicked"
+msgstr "Não dá para arrombar"
+
+#: SRC/FakeInvoiceReceiver.cs:102
+#: SRC/Money.cs:420
+#: SRC/Money.cs:431
+#, fuzzy
+msgid "Money added!"
+msgstr "Dinheiro adicionado!"
+
+#: SRC/FakeInvoiceReceiver.cs:113
+#: SRC/FakeInvoiceReceiver.cs:130
+#, fuzzy
+msgid "Money added to bank account!"
+msgstr "Dinheiro adicionado à conta bancária!"
+
+#: SRC/FuelPump.cs:150
+#: SRC/FuelPump.cs:178
+#, fuzzy
+msgid "Full tank"
+msgstr "Tanque cheio"
+
+#: SRC/FuelPump.cs:154
+#, fuzzy
+msgid "Press once to put back {0} %"
+msgstr "Aperte uma vez para devolver {0} %"
+
+#: SRC/FuelPump.cs:159
+#, fuzzy
+msgid "Locked"
+msgstr "Trancado"
+
+#: SRC/FuelPump.cs:165
+#, fuzzy
+msgid "Hold press to fill {0} %"
+msgstr "Segure para encher {0} %"
+
+#: SRC/FuelPump.cs:169
+#: SRC/FuelPump.cs:174
+#, fuzzy
+msgid "Put back"
+msgstr "Devolver"
+
+#: SRC/FuelPump.cs:182
+#, fuzzy
+msgid "Attach to train"
+msgstr "Conectar ao trem"
+
+#: SRC/FuelPump.cs:186
+#, fuzzy
+msgid "No target"
+msgstr "Sem alvo"
+
+#: SRC/Furniture.cs:518
+#, fuzzy
+msgid "New furniture"
+msgstr "Móvel novo"
+
+#: SRC/FurnitureBlueprintController.cs:213
+#, fuzzy
+msgid "Old blueprint"
+msgstr "Projeto antigo"
+
+#: SRC/FurnitureBlueprintController.cs:213
+#, fuzzy
+msgid "Old blueprints"
+msgstr "Projetos antigos"
+
+#: SRC/FurnitureBlueprintController.cs:213
+#, fuzzy
+msgid "There was only old blueprints"
+msgstr "Só havia projetos antigos"
+
+#: SRC/FurnitureInfoUI.cs:82
+#, fuzzy
+msgid "Skill: {0}"
+msgstr "Habilidade: {0}"
+
+#: SRC/FurnitureInfoUI.cs:117
+#, fuzzy
+msgid "Crafting Time: {0}"
+msgstr "Tempo de fabricação: {0}"
+
+#: SRC/FurniturePlaceable.cs:478
+#: SRC/SlotController.cs:125
+#: SRC/TaskItem.cs:161
+#: SRC/TaskItem.cs:167
+#, fuzzy
+msgid "New item"
+msgstr "Item novo"
+
+#: SRC/FurnitureShopPanelUI.cs:260
+#, fuzzy
+msgid "OC {0}"
+msgstr "OC {0}"
+
+#: SRC/FurnitureShopPanelUI.cs:265
+#, fuzzy
+msgid "RM {0}"
+msgstr "RM {0}"
+
+#: SRC/GeneratorPanel.cs:82
+#, fuzzy
+msgid ""
+"Generator Output:\n"
+"{0}"
+msgstr ""
+"Potência do gerador:\n"
+"{0}"
+
+#: SRC/GeneratorPanel.cs:85
+#, fuzzy
+msgid ""
+"Total Available:\n"
+"{0}"
+msgstr ""
+"Total disponível:\n"
+"{0}"
+
+#: SRC/GrowItem.cs:215
+#: SRC/grow.cs:428
+#, fuzzy
+msgid "Too far away"
+msgstr "Longe demais"
+
+#: SRC/GrowItem.cs:219
+#, fuzzy
+msgid "Not fully grown"
+msgstr "Ainda não cresceu"
+
+#: SRC/GrowItem.cs:223
+#: SRC/InteractableItemGiver.cs:419
+#: SRC/InteractableTicketMachine.cs:284
+#: SRC/RatTrap.cs:158
+#: SRC/grow.cs:433
+#, fuzzy
+msgid "Inventory full"
+msgstr "Inventário cheio"
+
+#: SRC/GrowItem.cs:227
+#: SRC/grow.cs:439
+#, fuzzy
+msgid "Hold - Keep harvesting"
+msgstr "Segure - Continuar colhendo"
+
+#: SRC/Hotel.cs:231
+#: SRC/Hotel.cs:253
+#, fuzzy
+msgid "Room rented"
+msgstr "Quarto alugado"
+
+#: SRC/InteractObjects.cs:397
+#, fuzzy
+msgid "(Use)"
+msgstr "(Usar)"
+
+#: SRC/InteractableCalendar.cs:5
+#, fuzzy
+msgid "Days in Obenseuer: {0}"
+msgstr "Dias em Obenseuer: {0}"
+
+#: SRC/InteractableChair.cs:327
+#: SRC/Toilet.cs:120
+#, fuzzy
+msgid "Stand up"
+msgstr "Levantar"
+
+#: SRC/InteractableChair.cs:332
+#: SRC/Sleep.cs:207
+#: SRC/Toilet.cs:116
+#: SRC/UpgradeType.cs enum ApartmentStatus
+#, fuzzy
+msgid "Occupied"
+msgstr "Ocupado"
+
+#: SRC/InteractableDynamiteCone.cs:92
+#, fuzzy
+msgid "No dynamite in inventory: {0}"
+msgstr "Sem dinamite no inventário: {0}"
+
+#: SRC/InteractableDynamiteCone.cs:96
+#, fuzzy
+msgid "Inventory full: {0}"
+msgstr "Inventário cheio: {0}"
+
+#: SRC/InteractableDynamiteCone.cs:100
+#, fuzzy
+msgid "Remove dynamite: {0}"
+msgstr "Remover dinamite: {0}"
+
+#: SRC/InteractableDynamiteCone.cs:100
+#, fuzzy
+msgid "Place dynamite: {0}"
+msgstr "Colocar dinamite: {0}"
+
+#: SRC/InteractableFurnitureDisplay.cs:103
+#, fuzzy
+msgid "Purchase"
+msgstr "Comprar"
+
+#: SRC/InteractableFurnitureDisplay.cs:107
+#: SRC/InteractablePay.cs:51
+#, fuzzy
+msgid "Not enough money!"
+msgstr "Dinheiro insuficiente!"
+
+#: SRC/InteractableItemGiver.cs:403
+#: SRC/LiquidStoragePanelUI.cs:408
+#: SRC/UpgradeType.cs enum ApartmentStatus
+#, fuzzy
+msgid "Empty"
+msgstr "Vazio"
+
+#: SRC/InteractableItemGiver.cs:407
+#, fuzzy
+msgid "{0} already taken"
+msgstr "{0} já foi pego"
+
+#: SRC/InteractableItemGiver.cs:411
+#: SRC/InteractableItemGiver.cs:415
+#: SRC/InteractableItemRemover.cs:144
+#: SRC/InteractableRelay.cs:153
+#: SRC/InteractableRelay.cs:157
+#, fuzzy
+msgid "Missing {0}"
+msgstr "Falta {0}"
+
+#: SRC/InteractableItemRemover.cs:136
+#: SRC/InteractableRelay.cs:145
+#, fuzzy
+msgid "Can't use"
+msgstr "Não dá para usar"
+
+#: SRC/InteractableItemRemover.cs:140
+#, fuzzy
+msgid "Missing required item(s)"
+msgstr "Faltam itens necessários"
+
+#: SRC/InteractableLadder.cs:150
+#: SRC/Keypad.cs:94
+#, fuzzy
+msgid "Blocked"
+msgstr "Bloqueado"
+
+#: SRC/InteractableMoney.cs:56
+#: SRC/MarketShop.cs:268
+#, fuzzy
+msgid "Pay {0}"
+msgstr "Pagar {0}"
+
+#: SRC/InteractableMoney.cs:60
+#, fuzzy
+msgid "Not enough money - {0}"
+msgstr "Dinheiro insuficiente - {0}"
+
+#: SRC/InteractablePay.cs:47
+#, fuzzy
+msgid "Pay: {0}"
+msgstr "Pagar: {0}"
+
+#: SRC/InteractableShower.cs:166
+#: SRC/InteractableShower.cs:179
+#: SRC/TelevisionNoise.cs:267
+#, fuzzy
+msgid "Turn Off"
+msgstr "Desligar"
+
+#: SRC/InteractableShower.cs:170
+#: SRC/InteractableShower.cs:183
+#: SRC/TelevisionNoise.cs:271
+#, fuzzy
+msgid "Turn On"
+msgstr "Ligar"
+
+#: SRC/InteractableTalk.cs:142
+#, fuzzy
+msgid "Sleeping"
+msgstr "Dormindo"
+
+#: SRC/InteractableTicketMachine.cs:278
+#, fuzzy
+msgid "Wait..."
+msgstr "Aguarde..."
+
+#: SRC/InteractableTicketMachine.cs:288
+#, fuzzy
+msgid "Take the ticket"
+msgstr "Pegar o bilhete"
+
+#: SRC/InteractableTicketMachine.cs:293
+#, fuzzy
+msgid "Take the passport"
+msgstr "Pegar o passaporte"
+
+#: SRC/InteractableTicketMachine.cs:299
+#: SRC/VendingMachineItemUI.cs:83
+#, fuzzy
+msgid "Not enough money"
+msgstr "Dinheiro insuficiente"
+
+#: SRC/InteractableTicketMachine.cs:303
+#, fuzzy
+msgid "Buy a ticket ({0} {1})"
+msgstr "Comprar bilhete ({0} {1})"
+
+#: SRC/InteractableTicketMachine.cs:308
+#, fuzzy
+msgid "Enter passport"
+msgstr "Insira o passaporte"
+
+#: SRC/InteractableTicketMachine.cs:312
+#, fuzzy
+msgid "No passport"
+msgstr "Sem passaporte"
+
+#: SRC/InteractableWaitWork.cs:68
+#, fuzzy
+msgid "Can't use now"
+msgstr "Não dá para usar agora"
+
+#: SRC/InteractableWaitWork.cs:72
+#, fuzzy
+msgid "Skill: {0} is too low!"
+msgstr "Habilidade: {0} baixa demais!"
+
+#: SRC/InteractableWaitWork.cs:78
+#, fuzzy
+msgid "{0} {1}h - Minimum: {2}/h"
+msgstr "{0} {1}h - Mínimo: {2}/h"
+
+#: SRC/IntroStart.cs:107
+#, fuzzy
+msgid "LOISTE INTERACTIVE"
+msgstr "LOISTE INTERACTIVE"
+
+#: SRC/IntroStart.cs:118
+#, fuzzy
+msgid "PRESENTS"
+msgstr "APRESENTA"
+
+#: SRC/IntroStart.cs:129
+#, fuzzy
+msgid "OBENSEUER"
+msgstr "OBENSEUER"
+
+#: SRC/Inventory.cs:597
+#: SRC/Inventory.cs:615
+#: SRC/Inventory.cs:623
+#: SRC/Inventory.cs:637
+#: SRC/WorkableResourceSource.cs:252
+#: SRC/WorkableResourceSource.cs:302
+#, fuzzy
+msgid "Item added!"
+msgstr "Item adicionado!"
+
+#: SRC/Inventory.cs:615
+#, fuzzy
+msgid "Items added!"
+msgstr "Itens adicionados!"
+
+#: SRC/Inventory.cs:627
+#: SRC/Inventory.cs:641
+#, fuzzy
+msgid "Item dropped!"
+msgstr "Item largado!"
+
+#: SRC/Inventory.cs:840
+#: SRC/Inventory.cs:848
+#, fuzzy
+msgid "Item removed!"
+msgstr "Item removido!"
+
+#: SRC/InventoryNavigationHandler.cs:431
+#: SRC/InventoryNavigationHandler.cs:447
+#: SRC/ShopBaseUI.cs:1072
+#: SRC/ShopBaseUI.cs:1076
+#, fuzzy
+msgid "Use Item"
+msgstr "Usar item"
+
+#: SRC/InventoryNavigationHandler.cs:432
+#, fuzzy
+msgid "CANCEL"
+msgstr "CANCELAR"
+
+#: SRC/InventoryNavigationHandler.cs:432
+#, fuzzy
+msgid "Exit Cancel"
+msgstr "Sair/Cancelar"
+
+#: SRC/InventoryNavigationHandler.cs:433
+#, fuzzy
+msgid "{0} ALL"
+msgstr "{0} TUDO"
+
+#: SRC/InventoryNavigationHandler.cs:433
+#, fuzzy
+msgid "Move Item"
+msgstr "Mover item"
+
+#: SRC/InventoryNavigationHandler.cs:444
+#, fuzzy
+msgid "{0}   L3/R3)DRAG AND DROP"
+msgstr "{0}   L3/R3)ARRASTAR E SOLTAR"
+
+#: SRC/InventoryNavigationHandler.cs:445
+#, fuzzy
+msgid "DROP"
+msgstr "LARGAR"
+
+#: SRC/InventoryNavigationHandler.cs:446
+#, fuzzy
+msgid "SWITCH TAB"
+msgstr "TROCAR ABA"
+
+#: SRC/InventoryNavigationHandler.cs:446
+#, fuzzy
+msgid "Switch Tab Left"
+msgstr "Aba à esquerda"
+
+#: SRC/InventoryNavigationHandler.cs:446
+#, fuzzy
+msgid "Switch Tab Right"
+msgstr "Aba à direita"
+
+#: SRC/InventoryNavigationHandler.cs:447
+#, fuzzy
+msgid "USE ITEM"
+msgstr "USAR ITEM"
+
+#: SRC/InventoryNavigationHandler.cs:451
+#, fuzzy
+msgid "{0}   RT)SECONDARY USE"
+msgstr "{0}   RT)USO SECUNDÁRIO"
+
+#: SRC/InvoiceController.cs:226
+#, fuzzy
+msgid "Invoice expired"
+msgstr "Boleto vencido"
+
+#: SRC/InvoiceController.cs:241
+#, fuzzy
+msgid "Invoice expires today"
+msgstr "O boleto vence hoje"
+
+#: SRC/ItemData.cs:283
+#, fuzzy
+msgid "<size=80%>{0}/{1}"
+msgstr "<size=80%>{0}/{1}"
+
+#: SRC/ItemInfoPanel.cs:221
+#, fuzzy
+msgid "stolen"
+msgstr "stolen"
+
+#: SRC/ItemInfoPanel.cs:237
+#, fuzzy
+msgid "No money"
+msgstr "Sem dinheiro"
+
+#: SRC/ItemInfoPanel.cs:247
+#, fuzzy
+msgid "Out of space"
+msgstr "Sem espaço"
+
+#: SRC/ItemInfoPanel.cs:251
+#, fuzzy
+msgid "Stolen"
+msgstr "Roubado"
+
+#: SRC/ItemInfoPanel.cs:255
+#, fuzzy
+msgid "Doesn't buy"
+msgstr "Não compra"
+
+#: SRC/ItemInfoPanel.cs:278
+#: SRC/ItemInfoPanel.cs:722
+#: SRC/ItemInfoPanel.cs:723
+#, fuzzy
+msgid "Unequip"
+msgstr "Desequipar"
+
+#: SRC/ItemInfoPanel.cs:292
+#, fuzzy
+msgid "Amount due: {0}"
+msgstr "Valor a pagar: {0}"
+
+#: SRC/ItemInfoPanel.cs:361
+#, fuzzy
+msgid "hydration"
+msgstr "hydration"
+
+#: SRC/ItemInfoPanel.cs:365
+#, fuzzy
+msgid "nutrients"
+msgstr "nutrients"
+
+#: SRC/ItemInfoPanel.cs:369
+#, fuzzy
+msgid "nicotine"
+msgstr "nicotine"
+
+#: SRC/ItemInfoPanel.cs:373
+#, fuzzy
+msgid "intoxication"
+msgstr "intoxication"
+
+#: SRC/ItemInfoPanel.cs:377
+#, fuzzy
+msgid "shrooms"
+msgstr "shrooms"
+
+#: SRC/ItemInfoPanel.cs:381
+#, fuzzy
+msgid "shroomsOrange"
+msgstr "shroomsOrange"
+
+#: SRC/ItemInfoPanel.cs:385
+#, fuzzy
+msgid "tiredness"
+msgstr "tiredness"
+
+#: SRC/ItemInfoPanel.cs:391
+#: SRC/ItemInfoPanel.cs:395
+#: SRC/ItemInfoPanel.cs:399
+#: SRC/ItemInfoPanel.cs:404
+#, fuzzy
+msgid "health"
+msgstr "health"
+
+#: SRC/ItemInfoPanel.cs:408
+#: SRC/ItemInfoPanel.cs:414
+#: SRC/ItemInfoPanel.cs:418
+#: SRC/ItemInfoPanel.cs:422
+#, fuzzy
+msgid "bleeding"
+msgstr "bleeding"
+
+#: SRC/ItemInfoPanel.cs:429
+#: SRC/ItemInfoPanel.cs:433
+#: SRC/ItemInfoPanel.cs:437
+#: SRC/ItemInfoPanel.cs:441
+#: SRC/ItemInfoPanel.cs:445
+#: SRC/ItemInfoPanel.cs:449
+#, fuzzy
+msgid "taste"
+msgstr "taste"
+
+#: SRC/ItemInfoPanel.cs:495
+#: SRC/ItemInfoPanel.cs:499
+#, fuzzy
+msgid "hygiene"
+msgstr "hygiene"
+
+#: SRC/ItemInfoPanel.cs:512
+#: SRC/ItemInfoPanel.cs:516
+#: SRC/ItemInfoPanel.cs:520
+#: SRC/ItemInfoPanel.cs:524
+#: SRC/ItemInfoPanel.cs:528
+#, fuzzy
+msgid "readableHealth"
+msgstr "readableHealth"
+
+#: SRC/ItemInfoPanel.cs:512
+#, fuzzy
+msgid "Fascinating"
+msgstr "Fascinante"
+
+#: SRC/ItemInfoPanel.cs:516
+#, fuzzy
+msgid "Interesting"
+msgstr "Interessante"
+
+#: SRC/ItemInfoPanel.cs:520
+#, fuzzy
+msgid "Mildly interesting"
+msgstr "Meio interessante"
+
+#: SRC/ItemInfoPanel.cs:524
+#, fuzzy
+msgid "Depressive"
+msgstr "Deprê"
+
+#: SRC/ItemInfoPanel.cs:528
+#, fuzzy
+msgid "Boring"
+msgstr "Chato"
+
+#: SRC/ItemInfoPanel.cs:533
+#, fuzzy
+msgid "Time to {0}: {1}h"
+msgstr "Tempo para {0}: {1}h"
+
+#: SRC/ItemInfoPanel.cs:533
+#, fuzzy
+msgid "time"
+msgstr "time"
+
+#: SRC/ItemInfoPanel.cs:539
+#: SRC/ItemInfoPanel.cs:543
+#, fuzzy
+msgid "recipes"
+msgstr "recipes"
+
+#: SRC/ItemInfoPanel.cs:539
+#, fuzzy
+msgid "Contains ~{0} recipes"
+msgstr "Contém ~{0} receitas"
+
+#: SRC/ItemInfoPanel.cs:543
+#, fuzzy
+msgid "Contains recipes"
+msgstr "Contém receitas"
+
+#: SRC/ItemInfoPanel.cs:576
+#, fuzzy
+msgid "fuel"
+msgstr "fuel"
+
+#: SRC/ItemInfoPanel.cs:583
+#: SRC/ItemInfoPanel.cs:587
+#: SRC/ItemInfoPanel.cs:591
+#: SRC/ItemInfoPanel.cs:595
+#: SRC/ItemInfoPanel.cs:599
+#: SRC/ItemInfoPanel.cs:603
+#, fuzzy
+msgid "perishable"
+msgstr "perishable"
+
+#: SRC/ItemInfoPanel.cs:610
+#, fuzzy
+msgid "ammo"
+msgstr "ammo"
+
+#: SRC/ItemInfoPanel.cs:622
+#, fuzzy
+msgid "liquid"
+msgstr "liquid"
+
+#: SRC/ItemInfoPanel.cs:627
+#, fuzzy
+msgid "furniture"
+msgstr "furniture"
+
+#: SRC/ItemInfoPanel.cs:632
+#, fuzzy
+msgid "quality"
+msgstr "quality"
+
+#: SRC/ItemInfoPanel.cs:637
+#, fuzzy
+msgid "invoice"
+msgstr "invoice"
+
+#: SRC/ItemInfoPanel.cs:642
+#, fuzzy
+msgid "mailable"
+msgstr "mailable"
+
+#: SRC/ItemInfoPanel.cs:647
+#, fuzzy
+msgid "receipt"
+msgstr "receipt"
+
+#: SRC/ItemInfoPanel.cs:668
+#, fuzzy
+msgid "Not usable"
+msgstr "Inutilizável"
+
+#: SRC/Keypad.cs:98
+#: SRC/TelevisionNoise.cs:263
+#, fuzzy
+msgid "No Power"
+msgstr "Sem energia"
+
+#: SRC/Keypad.cs:103
+#, fuzzy
+msgid "Lock"
+msgstr "Trancar"
+
+#: SRC/Lantern.cs:115
+#, fuzzy
+msgid "Item missing: {0}"
+msgstr "Item faltando: {0}"
+
+#: SRC/LiquidStoragePanelUI.cs:338
+#, fuzzy
+msgid ""
+"External liquid source\n"
+"\n"
+"{0}"
+msgstr ""
+"Fonte externa de líquido\n"
+"\n"
+"{0}"
+
+#: SRC/LiquidStoragePanelUI.cs:375
+#, fuzzy
+msgid "No Unfill Storage"
+msgstr "Sem destino para esvaziar"
+
+#: SRC/LiquidStoragePanelUI.cs:382
+#: SRC/LiquidStoragePanelUI.cs:386
+#, fuzzy
+msgid "External Unfill Storage"
+msgstr "Destino externo para esvaziar"
+
+#: SRC/LiquidStoragePanelUI.cs:404
+#, fuzzy
+msgid "External empty source"
+msgstr "Fonte externa vazia"
+
+#: SRC/LiquidStoragePanelUI.cs:419
+#, fuzzy
+msgid "External {0} source"
+msgstr "Fonte externa de {0}"
+
+#: SRC/LiquidStoragePanelUI.cs:428
+#: SRC/ManufacturingProcessInfo.cs:94
+#, fuzzy
+msgid "None"
+msgstr "Nenhum"
+
+#: SRC/LoadMenu.cs:431
+#: SRC/LoadMenu.cs:437
+#, fuzzy
+msgid "Corrupted: {0}"
+msgstr "Corrompido: {0}"
+
+#: SRC/LoadMenu.cs:432
+#, fuzzy
+msgid "Save is corrupted!"
+msgstr "Jogo salvo corrompido!"
+
+#: SRC/LoadMenu.cs:444
+#: SRC/LoadMenu.cs:450
+#, fuzzy
+msgid "Empty: {0}"
+msgstr "Vazio: {0}"
+
+#: SRC/LoadMenu.cs:471
+#: SRC/LoadMenu.cs:477
+#, fuzzy
+msgid "Save is from older version!"
+msgstr "Jogo salvo de uma versão antiga!"
+
+#: SRC/LoadMenu.cs:501
+#: SRC/LoadMenu.cs:510
+#, fuzzy
+msgid "No slot selected"
+msgstr "Nenhum espaço selecionado"
+
+#: SRC/LoadMenu.cs:588
+#, fuzzy
+msgid "Do you want to remove {0}?"
+msgstr "Quer remover {0}?"
+
+#: SRC/LockpickUI.cs:101
+#, fuzzy
+msgid "LMB)Use"
+msgstr "Botão esq.)Usar"
+
+#: SRC/LockpickUI.cs:105
+#, fuzzy
+msgid "X)Use"
+msgstr "X)Usar"
+
+#: SRC/MailController.cs:639
+#, fuzzy
+msgid "Contents: Parcel with "
+msgstr "Conteúdo: pacote com "
+
+#: SRC/MailController.cs:639
+#, fuzzy
+msgid " items"
+msgstr " itens"
+
+#: SRC/ManufacturingPowerUI.cs:119
+#: SRC/ManufacturingPowerUI.cs:190
+#, fuzzy
+msgid "Broken"
+msgstr "Quebrado"
+
+#: SRC/ManufacturingPowerUI.cs:133
+#, fuzzy
+msgid "Max: {0}h"
+msgstr "Máx.: {0}h"
+
+#: SRC/ManufacturingProcessInfo.cs:47
+#, fuzzy
+msgid "Done"
+msgstr "Pronto"
+
+#: SRC/ManufacturingProcessInfo.cs:53
+#, fuzzy
+msgid "Failed"
+msgstr "Falhou"
+
+#: SRC/ManufacturingProcessInfo.cs:74
+#, fuzzy
+msgid "Liquid"
+msgstr "Líquido"
+
+#: SRC/ManufacturingProcessInfo.cs:85
+#, fuzzy
+msgid "Result"
+msgstr "Resultado"
+
+#: SRC/ManufacturingProcessInfo.cs:94
+#, fuzzy
+msgid "Finished"
+msgstr "Concluído"
+
+#: SRC/Map.cs:169
+#, fuzzy
+msgid "Discovered"
+msgstr "Descoberto"
+
+#: SRC/MarketShop.cs:253
+#, fuzzy
+msgid "Place items"
+msgstr "Colocar itens"
+
+#: SRC/MarketShop.cs:257
+#, fuzzy
+msgid "No items to place!"
+msgstr "Nenhum item para colocar!"
+
+#: SRC/MarketShop.cs:261
+#, fuzzy
+msgid "Total: {0} (Scanning)"
+msgstr "Total: {0} (escaneando)"
+
+#: SRC/MarketShop.cs:272
+#, fuzzy
+msgid "Not enough money! {0}"
+msgstr "Dinheiro insuficiente! {0}"
+
+#: SRC/MinitrainFuelTank.cs:77
+#, fuzzy
+msgid "Full Tank"
+msgstr "Tanque cheio"
+
+#: SRC/MinitrainFuelTank.cs:84
+#, fuzzy
+msgid "Fill a Tank With {0}"
+msgstr "Encher um tanque com {0}"
+
+#: SRC/MinitrainFuelTank.cs:90
+#, fuzzy
+msgid "No {0} in Inventory"
+msgstr "Sem {0} no inventário"
+
+#: SRC/MinitrainFuelTank.cs:94
+#, fuzzy
+msgid "No fuel in Inventory"
+msgstr "Sem combustível no inventário"
+
+#: SRC/ModifierUI.cs:25
+#, fuzzy
+msgid "Modifier: {0}"
+msgstr "Modificador: {0}"
+
+#: SRC/ModifierUI.cs:91
+#, fuzzy
+msgid "Efficiency: {0}%"
+msgstr "Eficiência: {0}%"
+
+#: SRC/ModifierUI.cs:91
+#, fuzzy
+msgid "Affects working speed, output quality and fuel economy"
+msgstr "Afeta a velocidade de trabalho, a qualidade da produção e o consumo de combustível"
+
+#: SRC/ModifierUI.cs:121
+#, fuzzy
+msgid "Fuel efficiency: {0}%"
+msgstr "Eficiência de combustível: {0}%"
+
+#: SRC/ModifierUI.cs:131
+#, fuzzy
+msgid "Capacity: {0} liters"
+msgstr "Capacidade: {0} litros"
+
+#: SRC/ModifierUI.cs:137
+#, fuzzy
+msgid "Manually operated (Requires player presence)"
+msgstr "Operação manual (exige a presença do jogador)"
+
+#: SRC/ModifierUI.cs:148
+#, fuzzy
+msgid "Applied upgrades:"
+msgstr "Melhorias aplicadas:"
+
+#: SRC/Money.cs:472
+#, fuzzy
+msgid "Money removed!"
+msgstr "Dinheiro removido!"
+
+#: SRC/NewGame.cs:47
+#: SRC/NewGame.cs:59
+#, fuzzy
+msgid "No"
+msgstr "Não"
+
+#: SRC/NewGame.cs:55
+#, fuzzy
+msgid "Yes"
+msgstr "Sim"
+
+#: SRC/NoteController.cs:60
+#, fuzzy
+msgid "New note"
+msgstr "Nova nota"
+
+#: SRC/NoteController.cs:88
+#, fuzzy
+msgid "New book"
+msgstr "Livro novo"
+
+#: SRC/NoteController.cs:88
+#, fuzzy
+msgid "New page"
+msgstr "Nova página"
+
+#: SRC/NotesPanel.cs:411
+#, fuzzy
+msgid "Empty notebook"
+msgstr "Caderno vazio"
+
+#: SRC/NotesPanel.cs:412
+#, fuzzy
+msgid "Empty..."
+msgstr "Vazio..."
+
+#: SRC/ObjectiveUI.cs:41
+#, fuzzy
+msgid " (Optional)"
+msgstr " (Opcional)"
+
+#: SRC/OptionsMenu.cs:250
+#: SRC/OptionsMenu.cs:693
+#: SRC/OptionsMenu.cs:1211
+#, fuzzy
+msgid "Borderless"
+msgstr "Sem bordas"
+
+#: SRC/OptionsMenu.cs:256
+#: SRC/OptionsMenu.cs:689
+#: SRC/OptionsMenu.cs:1207
+#, fuzzy
+msgid "Windowed"
+msgstr "Janela"
+
+#: SRC/OptionsMenu.cs:262
+#: SRC/OptionsMenu.cs:685
+#, fuzzy
+msgid "Full Screen"
+msgstr "Tela cheia"
+
+#: SRC/OptionsMenu.cs:268
+#: SRC/OptionsMenu.cs:711
+#: SRC/UpgradeType.cs enum PlayerApartmentElectricity
+#: SRC/UpgradeType.cs enum PlayerApartmentWater
+#: SRC/UpgradeType.cs enum ApartmentElectricity
+#, fuzzy
+msgid "On"
+msgstr "Ligado"
+
+#: SRC/OptionsMenu.cs:274
+#: SRC/OptionsMenu.cs:707
+#: SRC/OptionsMenu.cs:789
+#: SRC/UpgradeType.cs enum PlayerApartmentElectricity
+#: SRC/UpgradeType.cs enum PlayerApartmentWater
+#: SRC/UpgradeType.cs enum ApartmentElectricity
+#, fuzzy
+msgid "Off"
+msgstr "Desligado"
+
+#: SRC/OptionsMenu.cs:676
+#, fuzzy
+msgid "{0}Hz"
+msgstr "{0}Hz"
+
+#: SRC/OptionsMenu.cs:792
+#: SRC/OptionsMenu.cs:816
+#: SRC/OptionsMenu.cs:843
+#: SRC/OptionsMenu.cs:870
+#: SRC/OptionsMenu.cs:894
+#, fuzzy
+msgid "Low"
+msgstr "Baixo"
+
+#: SRC/OptionsMenu.cs:795
+#: SRC/OptionsMenu.cs:819
+#: SRC/OptionsMenu.cs:846
+#: SRC/OptionsMenu.cs:873
+#: SRC/OptionsMenu.cs:897
+#: SRC/UpgradeType.cs enum ApartmentType
+#, fuzzy
+msgid "Medium"
+msgstr "Médio"
+
+#: SRC/OptionsMenu.cs:798
+#: SRC/OptionsMenu.cs:822
+#: SRC/OptionsMenu.cs:849
+#: SRC/OptionsMenu.cs:876
+#: SRC/OptionsMenu.cs:900
+#, fuzzy
+msgid "High"
+msgstr "Alto"
+
+#: SRC/OptionsMenu.cs:825
+#, fuzzy
+msgid "Very High"
+msgstr "Muito alto"
+
+#: SRC/OptionsMenu.cs:867
+#, fuzzy
+msgid "Lowest"
+msgstr "Mínimo"
+
+#: SRC/OptionsMenu.cs:921
+#, fuzzy
+msgid "FXAA"
+msgstr "FXAA"
+
+#: SRC/OptionsMenu.cs:945
+#, fuzzy
+msgid "Turnip (Turnip)"
+msgstr "Nabo (Nabo)"
+
+#: SRC/OptionsMenu.cs:948
+#, fuzzy
+msgid "Potato (Very Low)"
+msgstr "Batata (Muito baixo)"
+
+#: SRC/OptionsMenu.cs:951
+#, fuzzy
+msgid "Cabbage (Low)"
+msgstr "Repolho (Baixo)"
+
+#: SRC/OptionsMenu.cs:954
+#, fuzzy
+msgid "Mudflap (Medium)"
+msgstr "Para-barro (Médio)"
+
+#: SRC/OptionsMenu.cs:957
+#, fuzzy
+msgid "Lenkki (High)"
+msgstr "Linguiça (Alto)"
+
+#: SRC/OptionsMenu.cs:960
+#, fuzzy
+msgid "Osmo (Very High)"
+msgstr "Osmo (Muito alto)"
+
+#: SRC/OptionsMenu.cs:963
+#, fuzzy
+msgid "Prkl (Ultra)"
+msgstr "Pqp (Ultra)"
+
+#: SRC/OptionsMenu.cs:1039
+#: SRC/OptionsMenu.cs:1070
+#, fuzzy
+msgid "Stereo"
+msgstr "Estéreo"
+
+#: SRC/OptionsMenu.cs:1044
+#: SRC/OptionsMenu.cs:1076
+#, fuzzy
+msgid "Quad"
+msgstr "Quadrifônico"
+
+#: SRC/OptionsMenu.cs:1049
+#: SRC/OptionsMenu.cs:1082
+#, fuzzy
+msgid "Surround"
+msgstr "Surround"
+
+#: SRC/OptionsMenu.cs:1054
+#: SRC/OptionsMenu.cs:1088
+#, fuzzy
+msgid "Surround 5.1"
+msgstr "Surround 5.1"
+
+#: SRC/OptionsMenu.cs:1059
+#: SRC/OptionsMenu.cs:1094
+#, fuzzy
+msgid "Surround 7.1"
+msgstr "Surround 7.1"
+
+#: SRC/PajatsoGameplay.cs:93
+#, fuzzy
+msgid "Force {0}%"
+msgstr "Força {0}%"
+
+#: SRC/PajatsoGameplay.cs:97
+#, fuzzy
+msgid "No Coins"
+msgstr "Sem moedas"
+
+#: SRC/PajatsoGameplay.cs:101
+#, fuzzy
+msgid "{0} Coin"
+msgstr "{0} moeda"
+
+#: SRC/PajatsoGameplay.cs:105
+#, fuzzy
+msgid "{0} Coins"
+msgstr "{0} moedas"
+
+#: SRC/ParticleMenu.cs:39
+#, fuzzy
+msgid "{0}{1} out of {2}"
+msgstr "{0}{1} de {2}"
+
+#: SRC/PlayerSkillIncreaseUI.cs:36
+#, fuzzy
+msgid ""
+"New skill\n"
+"{0}\n"
+"learned!"
+msgstr ""
+"Nova habilidade\n"
+"{0}\n"
+"aprendida!"
+
+#: SRC/PlayerSkillIncreaseUI.cs:41
+#, fuzzy
+msgid ""
+"{0}\n"
+"increased to\n"
+"level {1}!"
+msgstr ""
+"{0}\n"
+"subiu para o\n"
+"nível {1}!"
+
+#: SRC/PlayerStats.cs:421
+#, fuzzy
+msgid "Skill increased!"
+msgstr "Habilidade aumentou!"
+
+#: SRC/PlayerStats.cs:425
+#, fuzzy
+msgid "Skill decreased!"
+msgstr "Habilidade diminuiu!"
+
+#: SRC/PlayerStats.cs:516
+#, fuzzy
+msgid "No new skill learned"
+msgstr "Nenhuma habilidade nova aprendida"
+
+#: SRC/PlayerStats.cs:516
+#, fuzzy
+msgid "No new skills learned"
+msgstr "Nenhuma habilidade nova aprendida"
+
+#: SRC/PlayerStats.cs:516
+#, fuzzy
+msgid "You couldn't learn a new skills"
+msgstr "Você não conseguiu aprender novas habilidades"
+
+#: SRC/PlayerSubscription.cs:191
+#, fuzzy
+msgid "Money removed from bank account: {0}!"
+msgstr "Dinheiro retirado da conta bancária: {0}!"
+
+#: SRC/PlayerSubscription.cs:195
+#, fuzzy
+msgid "Money added to bank account: {0}!"
+msgstr "Dinheiro adicionado à conta bancária: {0}!"
+
+#: SRC/PlayerSubscription.cs:207
+#: SRC/PlayerSubscriptionsController.cs:148
+#, fuzzy
+msgid "Subscribed to"
+msgstr "Assinatura ativada"
+
+#: SRC/PlayerSubscription.cs:220
+#, fuzzy
+msgid "Unsubscribed from"
+msgstr "Assinatura cancelada"
+
+#: SRC/PutItemSelectionItemUI.cs:59
+#: SRC/VendingMachineItemUI.cs:58
+#, fuzzy
+msgid "Price: {0} RM"
+msgstr "Preço: {0} RM"
+
+#: SRC/PutItemSelectionItemUI.cs:65
+#: SRC/VendingMachineItemUI.cs:65
+#, fuzzy
+msgid "Price: {0} OC"
+msgstr "Preço: {0} OC"
+
+#: SRC/PutItemSelectionItemUI.cs:71
+#, fuzzy
+msgid "Price: 0 OC"
+msgstr "Preço: 0 OC"
+
+#: SRC/QuickSlotBar.cs:462
+#, fuzzy
+msgid ""
+"{0}\n"
+"({1} to change)"
+msgstr ""
+"{0}\n"
+"({1} para trocar)"
+
+#: SRC/Radio.cs:136
+#, fuzzy
+msgid "Turn off"
+msgstr "Desligar"
+
+#: SRC/Radio.cs:140
+#, fuzzy
+msgid "Turn on"
+msgstr "Ligar"
+
+#: SRC/Radio.cs:144
+#, fuzzy
+msgid "Change the channel"
+msgstr "Trocar de estação"
+
+#: SRC/RecipeController.cs:109
+#, fuzzy
+msgid "Old recipe"
+msgstr "Receita antiga"
+
+#: SRC/RecipeController.cs:109
+#, fuzzy
+msgid "Old recipes"
+msgstr "Receitas antigas"
+
+#: SRC/RecipeController.cs:109
+#, fuzzy
+msgid "There was only old recipes"
+msgstr "Só havia receitas antigas"
+
+#: SRC/RecipeController.cs:114
+#, fuzzy
+msgid "No new recipes"
+msgstr "Nenhuma receita nova"
+
+#: SRC/RecipeController.cs:114
+#, fuzzy
+msgid "No new recipes left to learn"
+msgstr "Não há mais receitas novas para aprender"
+
+#: SRC/RecipeController.cs:149
+#, fuzzy
+msgid "New recipe"
+msgstr "Nova receita"
+
+#: SRC/RecipeInfoUI.cs:170
+#, fuzzy
+msgid ""
+"Required modifiers:\n"
+msgstr ""
+"Modificadores necessários:\n"
+
+#: SRC/RecipeInfoUI.cs:178
+#: SRC/RecipeInfoUI.cs:202
+#, fuzzy
+msgid "{0}{1}{2}<color=\"white\">, "
+msgstr "{0}{1}{2}<color=\"white\">, "
+
+#: SRC/RecipeInfoUI.cs:182
+#: SRC/RecipeInfoUI.cs:206
+#, fuzzy
+msgid "{0}{1}<color=\"white\">, "
+msgstr "{0}{1}<color=\"white\">, "
+
+#: SRC/RecipeInfoUI.cs:194
+#, fuzzy
+msgid ""
+"Excluded modifiers:\n"
+msgstr ""
+"Modificadores excluídos:\n"
+
+#: SRC/RecipeInfoUI.cs:237
+#, fuzzy
+msgid "Skill: {0} {1}"
+msgstr "Habilidade: {0} {1}"
+
+#: SRC/RecipeInfoUI.cs:241
+#, fuzzy
+msgid "<#A8211F>Skill: {0} {1}<color=\"white\">"
+msgstr "<#A8211F>Habilidade: {0} {1}<color=\"white\">"
+
+#: SRC/RecipeInfoUI.cs:246
+#, fuzzy
+msgid "{0}Skill: {1}"
+msgstr "{0}Habilidade: {1}"
+
+#: SRC/RecipeInfoUI.cs:258
+#, fuzzy
+msgid ""
+"{0}\n"
+"Grow time: {1}"
+msgstr ""
+"{0}\n"
+"Tempo de cultivo: {1}"
+
+#: SRC/RecipeInfoUI.cs:266
+#, fuzzy
+msgid ""
+"{0}\n"
+"Process time: {1}"
+msgstr ""
+"{0}\n"
+"Tempo de processo: {1}"
+
+#: SRC/RecipeInfoUI.cs:272
+#, fuzzy
+msgid ""
+"\n"
+"<#A8211F>{0}<color=\"white\">"
+msgstr ""
+"\n"
+"<#A8211F>{0}<color=\"white\">"
+
+#: SRC/RecipeInfoUI.cs:275
+#, fuzzy
+msgid ""
+"{0}\n"
+"Fail chance: "
+msgstr ""
+"{0}\n"
+"Chance de falha: "
+
+#: SRC/RecipeInfoUI.cs:279
+#, fuzzy
+msgid ""
+"{0}\n"
+"Quality: {1}"
+msgstr ""
+"{0}\n"
+"Qualidade: {1}"
+
+#: SRC/RecipeIngredientUI.cs:32
+#: SRC/RecipeIngredientUI.cs:39
+#: SRC/RecipeIngredientUI.cs:45
+#: SRC/RecipeIngredientUI.cs:49
+#, fuzzy
+msgid "<color=\"{0}\">"
+msgstr "<color=\"{0}\">"
+
+#: SRC/RecipeIngredientUI.cs:32
+#, fuzzy
+msgid ""
+"\n"
+"Amount: {0}"
+msgstr ""
+"\n"
+"Quantidade: {0}"
+
+#: SRC/RecipeIngredientUI.cs:39
+#, fuzzy
+msgid ""
+"{0}\n"
+"Any amount"
+msgstr ""
+"{0}\n"
+"Qualquer quantidade"
+
+#: SRC/RecipeIngredientUI.cs:45
+#, fuzzy
+msgid ""
+"{0}\n"
+"Full container"
+msgstr ""
+"{0}\n"
+"Recipiente cheio"
+
+#: SRC/RecipeIngredientUI.cs:49
+#, fuzzy
+msgid ""
+"{0}\n"
+"Amount: {1}L"
+msgstr ""
+"{0}\n"
+"Quantidade: {1}L"
+
+#: SRC/Ristiseiska.cs:235
+#, fuzzy
+msgid "Crosseven (Ristiseiska)"
+msgstr "Sete de Paus (Ristiseiska)"
+
+#: SRC/Ristiseiska.cs:235
+#, fuzzy
+msgid "Get rid of all your cards first."
+msgstr "Livre-se de todas as suas cartas primeiro."
+
+#: SRC/Ristiseiska.cs:235
+#, fuzzy
+msgid "The 7 of Clubs starts the game and must be placed"
+msgstr "O 7 de paus começa o jogo e tem que ser colocado"
+
+#: SRC/Ristiseiska.cs:235
+#, fuzzy
+msgid "One card per turn"
+msgstr "Uma carta por turno"
+
+#: SRC/Ristiseiska.cs:235
+#, fuzzy
+msgid "You must place a card if you can"
+msgstr "Você tem que jogar uma carta se puder"
+
+#: SRC/Ristiseiska.cs:235
+#, fuzzy
+msgid "Any 7 starts a new suit"
+msgstr "Qualquer 7 abre um novo naipe"
+
+#: SRC/Ristiseiska.cs:235
+#, fuzzy
+msgid "After a 7, place the 6 of that suit, then the 8"
+msgstr "Depois de um 7, coloque o 6 do mesmo naipe e depois o 8"
+
+#: SRC/Ristiseiska.cs:235
+#, fuzzy
+msgid "Continue down to the Ace and up to the King"
+msgstr "Continue descendo até o Ás e subindo até o Rei"
+
+#: SRC/Ristiseiska.cs:235
+#, fuzzy
+msgid "Cards below 6 need that suit's 8 placed first"
+msgstr "Cartas abaixo de 6 só entram depois do 8 do naipe"
+
+#: SRC/Ristiseiska.cs:235
+#, fuzzy
+msgid "An Ace or King flips the pile; play again or pass"
+msgstr "Um Ás ou um Rei vira o monte; jogue de novo ou passe"
+
+#: SRC/Ristiseiska.cs:236
+#, fuzzy
+msgid "On your first turn, pass"
+msgstr "No seu primeiro turno, passe"
+
+#: SRC/Ristiseiska.cs:236
+#, fuzzy
+msgid "Otherwise ask the previous player for a card, which ends your turn"
+msgstr "Senão, peça uma carta ao jogador anterior, o que encerra o seu turno"
+
+#: SRC/Ristiseiska.cs:237
+#, fuzzy
+msgid "Asked for a card"
+msgstr "Pediram uma carta"
+
+#: SRC/Ristiseiska.cs:237
+#, fuzzy
+msgid "Choose a card from your hand to give"
+msgstr "Escolha uma carta da sua mão para dar"
+
+#: SRC/SaveController.cs:1710
+#: SRC/SaveController.cs:1729
+#, fuzzy
+msgid "{0} could not be restored and was reset"
+msgstr "{0} não pôde ser restaurado e foi redefinido"
+
+#: SRC/SaveController.cs:1710
+#: SRC/SaveController.cs:1729
+#, fuzzy
+msgid "Save data corrupted"
+msgstr "Dados salvos corrompidos"
+
+#: SRC/ShopBaseUI.cs:417
+#: SRC/ShopBaseUI.cs:418
+#, fuzzy
+msgid "Continue"
+msgstr "Continuar"
+
+#: SRC/ShopBaseUI.cs:423
+#: SRC/ShopBaseUI.cs:424
+#, fuzzy
+msgid "Pause"
+msgstr "Pausar"
+
+#: SRC/ShopBaseUI.cs:434
+#, fuzzy
+msgid "Can't sell"
+msgstr "Não dá para vender"
+
+#: SRC/ShopBaseUI.cs:439
+#: SRC/ShopBaseUI.cs:467
+#, fuzzy
+msgid "Contains Items!"
+msgstr "Contém itens!"
+
+#: SRC/ShopBaseUI.cs:444
+#: SRC/ShopBaseUI.cs:502
+#, fuzzy
+msgid "No Money"
+msgstr "Sem dinheiro"
+
+#: SRC/ShopBaseUI.cs:449
+#, fuzzy
+msgid "Not interested"
+msgstr "Sem interesse"
+
+#: SRC/ShopBaseUI.cs:462
+#, fuzzy
+msgid "Can't Dismantle"
+msgstr "Não dá para desmontar"
+
+#: SRC/ShopBaseUI.cs:472
+#, fuzzy
+msgid "Inventory Full"
+msgstr "Inventário cheio"
+
+#: SRC/ShopBaseUI.cs:476
+#: SRC/ShopBaseUI.cs:477
+#, fuzzy
+msgid "Dismantle"
+msgstr "Desmontar"
+
+#: SRC/ShopBaseUI.cs:493
+#, fuzzy
+msgid "Load Image"
+msgstr "Carregar imagem"
+
+#: SRC/ShopBaseUI.cs:497
+#, fuzzy
+msgid "Delete Image"
+msgstr "Apagar imagem"
+
+#: SRC/ShopBaseUI.cs:519
+#, fuzzy
+msgid ""
+"Required skill: \n"
+"<b>{0} {1}</b>"
+msgstr ""
+"Habilidade necessária: \n"
+"<b>{0} {1}</b>"
+
+#: SRC/ShopBaseUI.cs:525
+#, fuzzy
+msgid "Missing Resources"
+msgstr "Faltam recursos"
+
+#: SRC/ShopBaseUI.cs:536
+#: SRC/ShopBaseUI.cs:537
+#, fuzzy
+msgid "Craft"
+msgstr "Fabricar"
+
+#: SRC/ShopBaseUI.cs:1072
+#, fuzzy
+msgid "DELETE IMAGE"
+msgstr "APAGAR IMAGEM"
+
+#: SRC/ShopBaseUI.cs:1076
+#, fuzzy
+msgid "AUTO-CONSUME"
+msgstr "AUTOCONSUMO"
+
+#: SRC/ShopBaseUI.cs:1078
+#, fuzzy
+msgid "CATEGORY"
+msgstr "CATEGORIA"
+
+#: SRC/ShopBaseUI.cs:1078
+#, fuzzy
+msgid "Move Right"
+msgstr "Mover para a direita"
+
+#: SRC/ShopBaseUI.cs:1078
+#, fuzzy
+msgid "Move Left"
+msgstr "Mover para a esquerda"
+
+#: SRC/ShopBaseUI.cs:1081
+#, fuzzy
+msgid "RESOURCES"
+msgstr "RECURSOS"
+
+#: SRC/ShopBaseUI.cs:1081
+#, fuzzy
+msgid "Resource Slots"
+msgstr "Espaços de recursos"
+
+#: SRC/StatsAfterCreditsUI.cs:90
+#, fuzzy
+msgid ""
+"{0}:{1}{2} hours, {3} minutes, {4} seconds\n"
+msgstr ""
+"{0}:{1}{2} horas, {3} minutos, {4} segundos\n"
+
+#: SRC/StatsAfterCreditsUI.cs:90
+#, fuzzy
+msgid "Playtime"
+msgstr "Tempo de jogo"
+
+#: SRC/StatsAfterCreditsUI.cs:90
+#, fuzzy
+msgid "Real money"
+msgstr "Dinheiro real"
+
+#: SRC/StatsAfterCreditsUI.cs:90
+#, fuzzy
+msgid "OC money"
+msgstr "Dinheiro em OC"
+
+#: SRC/TaskController.cs:180
+#: SRC/TaskController.cs:275
+#, fuzzy
+msgid "New Task"
+msgstr "Nova tarefa"
+
+#: SRC/TaskController.cs:290
+#, fuzzy
+msgid "Task Finished"
+msgstr "Tarefa concluída"
+
+#: SRC/TaskController.cs:295
+#, fuzzy
+msgid "Task Failed"
+msgstr "Tarefa falhou"
+
+#: SRC/TaskController.cs:300
+#, fuzzy
+msgid "Task Abandoned"
+msgstr "Tarefa abandonada"
+
+#: SRC/TaskController.cs:319
+#, fuzzy
+msgid "New Objective"
+msgstr "Novo objetivo"
+
+#: SRC/TaskController.cs:333
+#, fuzzy
+msgid "Objective Complete"
+msgstr "Objetivo concluído"
+
+#: SRC/TaskController.cs:339
+#, fuzzy
+msgid "Objective Failed"
+msgstr "Objetivo falhou"
+
+#: SRC/TaskController.cs:419
+#, fuzzy
+msgid "Objective Updated"
+msgstr "Objetivo atualizado"
+
+#: SRC/TaskItem.cs:173
+#, fuzzy
+msgid "Item removed"
+msgstr "Item removido"
+
+#: SRC/TaskbarProgram.cs:33
+#, fuzzy
+msgid "Email"
+msgstr "E-mail"
+
+#: SRC/TaskbarProgram.cs:36
+#, fuzzy
+msgid "Recycle Bin"
+msgstr "Lixeira"
+
+#: SRC/TenementController.cs:443
+#, fuzzy
+msgid "Rent paid"
+msgstr "Aluguel pago"
+
+#: SRC/TenementController.cs:460
+#, fuzzy
+msgid "Utilities paid"
+msgstr "Contas pagas"
+
+#: SRC/TenementController.cs:941
+#, fuzzy
+msgid "Collateral paid"
+msgstr "Caução paga"
+
+#: SRC/TenementController.cs:991
+#, fuzzy
+msgid "Resident moved"
+msgstr "Morador se mudou"
+
+#: SRC/TenementController.cs:1029
+#, fuzzy
+msgid "Eviction complete"
+msgstr "Despejo concluído"
+
+#: SRC/TenementController.cs:1036
+#, fuzzy
+msgid "Collateral returned"
+msgstr "Caução devolvida"
+
+#: SRC/TenementResidentTextList.cs:28
+#, fuzzy
+msgid ""
+"<align=center>VI</align>\n"
+msgstr ""
+"<align=center>VI</align>\n"
+
+#: SRC/TenementResidentTextList.cs:32
+#, fuzzy
+msgid ""
+"<align=center>V</align>\n"
+msgstr ""
+"<align=center>V</align>\n"
+
+#: SRC/TenementResidentTextList.cs:36
+#, fuzzy
+msgid ""
+"\n"
+"<align=center>IV</align>\n"
+msgstr ""
+"\n"
+"<align=center>IV</align>\n"
+
+#: SRC/TenementResidentTextList.cs:40
+#, fuzzy
+msgid ""
+"\n"
+"<align=center>III</align>\n"
+msgstr ""
+"\n"
+"<align=center>III</align>\n"
+
+#: SRC/TenementResidentTextList.cs:44
+#, fuzzy
+msgid ""
+"\n"
+"<align=center>II</align>\n"
+msgstr ""
+"\n"
+"<align=center>II</align>\n"
+
+#: SRC/TenementResidentTextList.cs:48
+#, fuzzy
+msgid ""
+"\n"
+"<align=center>I</align>\n"
+msgstr ""
+"\n"
+"<align=center>I</align>\n"
+
+#: SRC/TenementUpgradeCleanupArea.cs:435
+#: SRC/TenementUpgradeCleanupArea.cs:440
+#, fuzzy
+msgid "Renovation cleanup"
+msgstr "Limpeza da reforma"
+
+#: SRC/TenementUpgradeCleanupArea.cs:440
+#, fuzzy
+msgid "{0} packed to make way for {1}."
+msgstr "{0} embalado(s) para dar lugar a {1}."
+
+#: SRC/TestSceneLoading.cs:42
+#, fuzzy
+msgid "Load scene done ({0}s)..."
+msgstr "Cena carregada ({0}s)..."
+
+#: SRC/TestSceneLoading.cs:44
+#, fuzzy
+msgid "Load scene done after one frame ({0}s)..."
+msgstr "Cena carregada após um quadro ({0}s)..."
+
+#: SRC/Toilet.cs:112
+#, fuzzy
+msgid "Open lid first"
+msgstr "Abra a tampa primeiro"
+
+#: SRC/Toilet.cs:120
+#, fuzzy
+msgid "Finish"
+msgstr "Terminar"
+
+#: SRC/TooltipUI.cs:178
+#, fuzzy
+msgid ""
+"\n"
+"Required item(s)"
+msgstr ""
+"\n"
+"Itens necessários"
+
+#: SRC/TrackTrainInteractableCoupler.cs:32
+#, fuzzy
+msgid "Uncouple"
+msgstr "Desengatar"
+
+#: SRC/TrackTrainInteractableCoupler.cs:36
+#, fuzzy
+msgid "Disable Coupling"
+msgstr "Desativar engate"
+
+#: SRC/TrackTrainInteractableCoupler.cs:40
+#, fuzzy
+msgid "Enable Coupling"
+msgstr "Ativar engate"
+
+#: SRC/Tutorial.cs:276
+#, fuzzy
+msgid "Look Around"
+msgstr "Olhe em volta"
+
+#: SRC/UpgradeRequirementUI.cs:62
+#, fuzzy
+msgid "Minimum required upgrade"
+msgstr "Melhoria mínima necessária"
+
+#: SRC/UpgradeUI.cs:229
+#, fuzzy
+msgid "First: {0} OC"
+msgstr "Entrada: {0} OC"
+
+#: SRC/UpgradeUI.cs:230
+#, fuzzy
+msgid "Final: {0} RM"
+msgstr "Final: {0} RM"
+
+#: SRC/UpgradeUI.cs:347
+#, fuzzy
+msgid "Current Upgrade"
+msgstr "Melhoria atual"
+
+#: SRC/UpgradeUI.cs:354
+#, fuzzy
+msgid "Needs Other Upgrades"
+msgstr "Precisa de outras melhorias"
+
+#: SRC/UpgradeUI.cs:357
+#, fuzzy
+msgid "Not Enough Money"
+msgstr "Dinheiro insuficiente"
+
+#: SRC/UpgradeUI.cs:360
+#, fuzzy
+msgid "Not Enough Resources"
+msgstr "Recursos insuficientes"
+
+#: SRC/UpgradeUI.cs:363
+#, fuzzy
+msgid "Not Enough Money/Resources"
+msgstr "Dinheiro/recursos insuficientes"
+
+#: SRC/UpgradeUI.cs:366
+#, fuzzy
+msgid "Missing Multiple Requirements"
+msgstr "Faltam vários requisitos"
+
+#: SRC/UpgradeUI.cs:369
+#, fuzzy
+msgid "Available Upgrade"
+msgstr "Melhoria disponível"
+
+#: SRC/VendingMachineItemUI.cs:52
+#, fuzzy
+msgid "Free"
+msgstr "Grátis"
+
+#: SRC/VendingMachineItemUI.cs:79
+#, fuzzy
+msgid "Out of stock"
+msgstr "Esgotado"
+
+#: SRC/WorkableResourceSource.cs:248
+#: SRC/WorkableResourceSource.cs:302
+#, fuzzy
+msgid "Items added ({0})!"
+msgstr "Itens adicionados ({0})!"
+
+#: SRC/WorkableResourceSource.cs:415
+#, fuzzy
+msgid "{0}: {1}, Owned"
+msgstr "{0}: {1}, tem dono"
+
+#: SRC/WorkableResourceSource.cs:419
+#, fuzzy
+msgid "Exhausted"
+msgstr "Esgotado"
+
+#: SRC/UpgradeType.cs enum UpgradeTarget
+#, fuzzy
+msgid "Tenement"
+msgstr "Prédio"
+
+#: SRC/UpgradeType.cs enum UpgradeTarget
+#, fuzzy
+msgid "Apartment"
+msgstr "Apartamento"
+
+#: SRC/UpgradeType.cs enum UpgradeTarget
+#, fuzzy
+msgid "PlayerApartment"
+msgstr "Apartamento do jogador"
+
+#: SRC/UpgradeType.cs enum GeneralType
+#: SRC/UpgradeType.cs enum PlayerBathroomType
+#: SRC/UpgradeType.cs enum PlayerApartmentWallType
+#: SRC/UpgradeType.cs enum PlayerBalconyType
+#: SRC/UpgradeType.cs enum BathroomType
+#: SRC/UpgradeType.cs enum ApartmentWallType
+#, fuzzy
+msgid "Bare"
+msgstr "No osso"
+
+#: SRC/UpgradeType.cs enum GeneralType
+#: SRC/UpgradeType.cs enum PlayerBathroomType
+#: SRC/UpgradeType.cs enum PlayerApartmentHeatingMethod
+#: SRC/UpgradeType.cs enum PlayerApartmentWallType
+#: SRC/UpgradeType.cs enum PlayerBalconyType
+#: SRC/UpgradeType.cs enum PlayerKitchenType
+#, fuzzy
+msgid "Makeshift"
+msgstr "Improvisado"
+
+#: SRC/UpgradeType.cs enum GeneralType
+#: SRC/UpgradeType.cs enum PlayerBathroomType
+#: SRC/UpgradeType.cs enum PlayerApartmentHeatingMethod
+#: SRC/UpgradeType.cs enum PlayerApartmentWallType
+#: SRC/UpgradeType.cs enum PlayerBalconyType
+#: SRC/UpgradeType.cs enum PlayerKitchenType
+#, fuzzy
+msgid "Shabby"
+msgstr "Surrado"
+
+#: SRC/UpgradeType.cs enum GeneralType
+#: SRC/UpgradeType.cs enum PlayerBathroomType
+#: SRC/UpgradeType.cs enum PlayerApartmentHeatingMethod
+#: SRC/UpgradeType.cs enum PlayerApartmentWallType
+#: SRC/UpgradeType.cs enum PlayerBalconyType
+#: SRC/UpgradeType.cs enum PlayerKitchenType
+#, fuzzy
+msgid "Decent"
+msgstr "Decente"
+
+#: SRC/UpgradeType.cs enum GeneralType
+#: SRC/UpgradeType.cs enum PlayerBathroomType
+#: SRC/UpgradeType.cs enum PlayerApartmentHeatingMethod
+#: SRC/UpgradeType.cs enum PlayerApartmentWallType
+#: SRC/UpgradeType.cs enum PlayerBalconyType
+#: SRC/UpgradeType.cs enum PlayerKitchenType
+#, fuzzy
+msgid "Fine"
+msgstr "Superior"
+
+#: SRC/UpgradeType.cs enum GeneralType
+#: SRC/UpgradeType.cs enum PlayerBathroomType
+#: SRC/UpgradeType.cs enum PlayerApartmentHeatingMethod
+#: SRC/UpgradeType.cs enum PlayerApartmentWallType
+#: SRC/UpgradeType.cs enum PlayerBalconyType
+#: SRC/UpgradeType.cs enum PlayerKitchenType
+#, fuzzy
+msgid "Luxurious"
+msgstr "Luxuoso"
+
+#: SRC/UpgradeType.cs enum ApartmentType
+#: SRC/UpgradeType.cs enum TenementElevator
+#: SRC/UpgradeType.cs enum BasementWorkShop
+#, fuzzy
+msgid "Small"
+msgstr "Pequeno"
+
+#: SRC/UpgradeType.cs enum ApartmentType
+#: SRC/UpgradeType.cs enum TenementElevator
+#: SRC/UpgradeType.cs enum BasementWorkShop
+#, fuzzy
+msgid "Large"
+msgstr "Grande"
+
+#: SRC/UpgradeType.cs enum ApartmentType
+#: SRC/UpgradeType.cs enum ApartmentUse
+#, fuzzy
+msgid "Shop"
+msgstr "Loja"
+
+#: SRC/UpgradeType.cs enum ApartmentWater
+#: SRC/UpgradeType.cs enum TenementWater
+#, fuzzy
+msgid "Dirty"
+msgstr "Suja"
+
+#: SRC/UpgradeType.cs enum ApartmentWater
+#: SRC/UpgradeType.cs enum TenementElectricity
+#: SRC/UpgradeType.cs enum TenementWater
+#: SRC/OS/Items/ItemQualityData.cs enum Quality
+#, fuzzy
+msgid "Good"
+msgstr "Boa"
+
+#: SRC/UpgradeType.cs enum ApartmentWater
+#: SRC/UpgradeType.cs enum TenementElectricity
+#: SRC/UpgradeType.cs enum TenementWater
+#, fuzzy
+msgid "Best"
+msgstr "Melhor"
+
+#: SRC/UpgradeType.cs enum TenementElectricity
+#, fuzzy
+msgid "Shit"
+msgstr "Merda"
+
+#: SRC/UpgradeType.cs enum TenementHeating
+#, fuzzy
+msgid "Central"
+msgstr "Central"
+
+#: SRC/UpgradeType.cs enum TenementHeating
+#, fuzzy
+msgid "District"
+msgstr "Distrital"
+
+#: SRC/UpgradeType.cs enum BasementWorkShop
+#, fuzzy
+msgid "Huge"
+msgstr "Enorme"
+
+#: SRC/UpgradeType.cs enum ApartmentStatus
+#, fuzzy
+msgid "Renovation"
+msgstr "Reforma"
+
+#: SRC/UpgradeType.cs enum ApartmentStatus
+#, fuzzy
+msgid "Rented"
+msgstr "Alugado"
+
+#: SRC/UpgradeType.cs enum ApartmentStatus
+#, fuzzy
+msgid "RentedRenovation"
+msgstr "Alugado em reforma"
+
+#: SRC/UpgradeType.cs enum ApartmentStatus
+#, fuzzy
+msgid "Sold"
+msgstr "Vendido"
+
+#: SRC/UpgradeType.cs enum ApartmentStatus
+#, fuzzy
+msgid "Player"
+msgstr "Jogador"
+
+#: SRC/UpgradeType.cs enum ApartmentStatus
+#, fuzzy
+msgid "PlayerRenovation"
+msgstr "Reforma do jogador"
+
+#: SRC/UpgradeType.cs enum PayingMethod
+#, fuzzy
+msgid "OC"
+msgstr "OC"
+
+#: SRC/UpgradeType.cs enum PayingMethod
+#, fuzzy
+msgid "RM"
+msgstr "RM"
+
+#: SRC/UpgradeType.cs enum ApartmentCondition
+#, fuzzy
+msgid "Suicidal"
+msgstr "Suicida"
+
+#: SRC/UpgradeType.cs enum ApartmentCondition
+#, fuzzy
+msgid "Depressing"
+msgstr "Deprimente"
+
+#: SRC/UpgradeType.cs enum ApartmentCondition
+#, fuzzy
+msgid "Tolerable"
+msgstr "Tolerável"
+
+#: SRC/UpgradeType.cs enum ApartmentUse
+#, fuzzy
+msgid "Residental"
+msgstr "Residencial"
+
+#: SRC/UpgradeType.cs enum ApartmentUse
+#, fuzzy
+msgid "Industrial"
+msgstr "Industrial"
+
+#: SRC/UpgradeType.cs enum ApartmentUse
+#, fuzzy
+msgid "Farm"
+msgstr "Fazenda"
+
+#: SRC/UpgradeType.cs enum ApartmentUse
+#, fuzzy
+msgid "Office"
+msgstr "Escritório"
+
+#: SRC/OS/Items/ItemConsumable.cs enum ConsumableType
+#, fuzzy
+msgid "Food"
+msgstr "Comida"
+
+#: SRC/OS/Items/ItemConsumable.cs enum ConsumableType
+#, fuzzy
+msgid "Drink"
+msgstr "Bebida"
+
+#: SRC/OS/Items/ItemConsumable.cs enum ConsumableType
+#, fuzzy
+msgid "Smoke"
+msgstr "Fumo"
+
+#: SRC/OS/Items/ItemConsumable.cs enum ConsumableType
+#, fuzzy
+msgid "Medicine"
+msgstr "Remédio"
+
+#: SRC/OS/Items/ItemConsumable.cs enum ConsumableType
+#, fuzzy
+msgid "Bandage"
+msgstr "Curativo"
+
+#: SRC/OS/Items/ItemConsumable.cs enum ConsumableType
+#, fuzzy
+msgid "Container"
+msgstr "Recipiente"
+
+#: SRC/OS/Items/ItemConsumable.cs enum ConsumableType
+#, fuzzy
+msgid "Slaughter"
+msgstr "Abate"
+
+#: SRC/OS/Items/ItemConsumable.cs enum ConsumableType
+#, fuzzy
+msgid "Hygiene"
+msgstr "Higiene"
+
+#: SRC/OS/Items/ItemEquipable.cs enum EquipableType
+#, fuzzy
+msgid "Tool"
+msgstr "Ferramenta"
+
+#: SRC/OS/Items/ItemEquipable.cs enum EquipableType
+#, fuzzy
+msgid "Weapon"
+msgstr "Arma"
+
+#: SRC/OS/Items/ItemEquipable.cs enum EquipableType
+#, fuzzy
+msgid "Backpack"
+msgstr "Mochila"
+
+#: SRC/OS/Items/ItemEquipable.cs enum EquipableType
+#, fuzzy
+msgid "Mask"
+msgstr "Máscara"
+
+#: SRC/OS/Items/ItemEquipable.cs enum EquipableType
+#, fuzzy
+msgid "Head"
+msgstr "Cabeça"
+
+#: SRC/OS/Items/ItemEquipable.cs enum EquipableType
+#, fuzzy
+msgid "Watch"
+msgstr "Relógio"
+
+#: SRC/OS/Items/ItemQualityData.cs enum Quality
+#, fuzzy
+msgid "Normal"
+msgstr "Normal"
+
+#: SRC/OS/Items/ItemQualityData.cs enum Quality
+#, fuzzy
+msgid "Crap"
+msgstr "Porcaria"
+
+#: SRC/OS/Items/ItemQualityData.cs enum Quality
+#, fuzzy
+msgid "Poor"
+msgstr "Sofrível"
+
+#: SRC/OS/Items/ItemQualityData.cs enum Quality
+#, fuzzy
+msgid "Bad"
+msgstr "Ruim"
+
+#: SRC/OS/Items/ItemQualityData.cs enum Quality
+#, fuzzy
+msgid "Okay"
+msgstr "OK"
+
+#: SRC/OS/Items/ItemQualityData.cs enum Quality
+#, fuzzy
+msgid "Excellent"
+msgstr "Excelente"
+
+#: SRC/OS/Items/ItemQualityData.cs enum Quality
+#, fuzzy
+msgid "Perfect"
+msgstr "Impecável"
+
+#: SRC/PlayerStats.cs enum PlayerSkillType
+#, fuzzy
+msgid "Lockpicking"
+msgstr "Arrombamento"
+
+#: SRC/PlayerStats.cs enum PlayerSkillType
+#, fuzzy
+msgid "Drinking"
+msgstr "Bebedeira"
+
+#: SRC/PlayerStats.cs enum PlayerSkillType
+#, fuzzy
+msgid "Cooking"
+msgstr "Culinária"
+
+#: SRC/PlayerStats.cs enum PlayerSkillType
+#, fuzzy
+msgid "Mashing"
+msgstr "Fermentação"
+
+#: SRC/PlayerStats.cs enum PlayerSkillType
+#, fuzzy
+msgid "Brewing"
+msgstr "Cervejaria"
+
+#: SRC/PlayerStats.cs enum PlayerSkillType
+#, fuzzy
+msgid "Distilling"
+msgstr "Destilação"
+
+#: SRC/PlayerStats.cs enum PlayerSkillType
+#, fuzzy
+msgid "Farming"
+msgstr "Agricultura"
+
+#: SRC/PlayerStats.cs enum PlayerSkillType
+#, fuzzy
+msgid "Malting"
+msgstr "Maltagem"
+
+#: SRC/PlayerStats.cs enum PlayerSkillType
+#, fuzzy
+msgid "Manufacturing"
+msgstr "Manufatura"
+
+#: SRC/PlayerStats.cs enum PlayerSkillType
+#, fuzzy
+msgid "Paperwork"
+msgstr "Papelada"
+
+#: SRC/PlayerStats.cs enum PlayerSkillType
+#, fuzzy
+msgid "Chemistry"
+msgstr "Química"
+
+#: SRC/PlayerStats.cs enum PlayerSkillType
+#, fuzzy
+msgid "Carpentry"
+msgstr "Carpintaria"
+
+#: SRC/PlayerStats.cs enum PlayerSkillType
+#, fuzzy
+msgid "Machining"
+msgstr "Usinagem"
+
+#: SRC/PlayerStats.cs enum PlayerSkillType
+#, fuzzy
+msgid "Engineering"
+msgstr "Engenharia"
+
+#: SRC/PlayerStats.cs enum PlayerSkillType
+#, fuzzy
+msgid "Bribery"
+msgstr "Suborno"
+
+#: SRC/PlayerStats.cs enum PlayerSkillType
+#, fuzzy
+msgid "Cleaning"
+msgstr "Limpeza"
+
+#: SRC/PlayerStats.cs enum PlayerSkillType
+#, fuzzy
+msgid "Sewing"
+msgstr "Costura"
+
+#: SRC/PlayerStats.cs enum PlayerSkillType
+#, fuzzy
+msgid "Electronics"
+msgstr "Eletrônicos"
+
+#: SRC/PlayerStats.cs enum PlayerSkillType
+#, fuzzy
+msgid "Mining"
+msgstr "Mineração"
+
+#: SRC/PlayerStats.cs enum PlayerSkillType
+#, fuzzy
+msgid "Music"
+msgstr "Música"
+
+#: SRC/PlayerStats.cs enum PlayerSkillType
+#, fuzzy
+msgid "Smithing"
+msgstr "Ferraria"
+
+#: SRC/PlayerStats.cs enum PlayerSkillType
+#, fuzzy
+msgid "Medical"
+msgstr "Medicina"
+
+#: SRC/PlayerStats.cs enum PlayerSkillType
+#, fuzzy
+msgid "Computers"
+msgstr "Informática"
+
+#: SRC/PlayerStats.cs enum PlayerSkillType
+#, fuzzy
+msgid "Sauna"
+msgstr "Sauna"
+

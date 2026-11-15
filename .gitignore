@@ -1,0 +1,26 @@
+# Internal planning, research and Nexus listings: never published (see CLAUDE.md).
+.internal/
+NEXUS.md
+
+# Local-only workspace rules.
+CLAUDE.md
+.claude/
+
+# Generated English templates: the game's full script, regenerated from a local AssetRipper export.
+/source/
+
+# Strings collected in game by the CollectUntranslated option.
+untranslated.po
+
+# Build output
+bin/
+obj/
+*.user
+.vs/
+.idea/
+
+# Packaged release archives (uploaded to Nexus / GitHub releases, not committed)
+/releases/
+
+# Python
+__pycache__/

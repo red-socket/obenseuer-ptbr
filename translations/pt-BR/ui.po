@@ -1,0 +1,5026 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Obenseuer PT-BR\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: GameObject/BuildingSystemShopSlot.prefab
+#: GameObject/BuildingSystemSlot.prefab
+#: GameObject/Furniture Shop Resource Slot.prefab
+#: Scenes/Interior Bazaar Clock Tower.unity
+#: Scenes/Interior Bazaar Electronics.unity
+#: Scenes/Interior Bazaar Engineer Office.unity
+#, fuzzy
+msgid "Beer Lamp"
+msgstr "Luminária de cerveja"
+
+#: GameObject/CardGameUI.prefab
+#: Scenes/Test Map Card Games.unity
+#, fuzzy
+msgid ""
+"TEST) PLACEHOLDER\n"
+"TEST) PLACEHOLDER\n"
+"Leave (ESC)"
+msgstr ""
+"TESTE) PROVISÓRIO\n"
+"TESTE) PROVISÓRIO\n"
+"Sair (ESC)"
+
+#: GameObject/CardGameUI.prefab
+#: Scenes/Test Map Card Games.unity
+#, fuzzy
+msgid "Crosseven or Ristiseiska like the Finnish version of the card game Sevens where you have to get rid of all your cards."
+msgstr "Sete de Paus, ou Ristiseiska, é tipo a versão finlandesa do jogo de cartas Sevens, em que você precisa se livrar de todas as suas cartas."
+
+#: GameObject/CardGameUI.prefab
+#: Scenes/Test Map Card Games.unity
+#, fuzzy
+msgid "SKIP TUTORIAL"
+msgstr "PULAR TUTORIAL"
+
+#: GameObject/CardGameUI.prefab
+#: Scenes/Test Map Card Games.unity
+#, fuzzy
+msgid "NEXT"
+msgstr "PRÓXIMO"
+
+#: GameObject/Category Title.prefab
+#: GameObject/Items List Row.prefab
+#, fuzzy
+msgid "Quest Items"
+msgstr "Itens de tarefa"
+
+#: GameObject/CategorySlot.prefab
+#, fuzzy
+msgid "ELECTRONICS"
+msgstr "ELETRÔNICOS"
+
+#: GameObject/ChinaHandGame.prefab
+#: GameObject/RistiseiskaGame.prefab
+#, fuzzy
+msgid "PLAY (SPACE)"
+msgstr "JOGAR (ESPAÇO)"
+
+#: GameObject/Computer File.prefab
+#, fuzzy
+msgid "Filename.txt"
+msgstr "Arquivo.txt"
+
+#: GameObject/Computer File.prefab
+#, fuzzy
+msgid "Text Document"
+msgstr "Documento de texto"
+
+#: GameObject/Email.prefab
+#, fuzzy
+msgid "Sender name<color=#6b6b6b> - Very Long Email Title With Stuff That Is Not Good For"
+msgstr "Nome do remetente<color=#6b6b6b> - Título de e-mail muito longo com coisas que não fazem bem para"
+
+#: GameObject/Email.prefab
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "Aug 15"
+msgstr "15 ago"
+
+#: GameObject/Finished Tasks.prefab
+#, fuzzy
+msgid "Finished Tasks"
+msgstr "Tarefas concluídas"
+
+#: GameObject/Ingredient.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid ""
+"Item name\n"
+"x5"
+msgstr ""
+"Nome do item\n"
+"x5"
+
+#: GameObject/Interactable List Item.prefab
+#, fuzzy
+msgid "Interactable Title"
+msgstr "Título do objeto"
+
+#: GameObject/Item Stat Info.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "1,95L"
+msgstr "1,95L"
+
+#: GameObject/Label Small Preview.prefab
+#: GameObject/Label Small Preview_0.prefab
+#: GameObject/Label Small.prefab
+#: GameObject/Label Small_0.prefab
+#: GameObject/Sign Industrial Preview.prefab
+#: GameObject/Sign Industrial Preview_0.prefab
+#, fuzzy
+msgid "Editable"
+msgstr "Editável"
+
+#: GameObject/LandMark.prefab
+#, fuzzy
+msgid "Moonshine Placeholder"
+msgstr "Cachaça (provisório)"
+
+#: GameObject/Mailbox Red.prefab
+#: GameObject/Mailbox Red_0.prefab
+#: GameObject/Upgrade_NPC_LARGE_Walls_(lvl 3) - Decent.prefab
+#: GameObject/Upgrade_NPC_LARGE_Walls_(lvl 4) - Fine.prefab
+#: GameObject/Upgrade_NPC_MEDIUM_Walls_(lvl 3) - Decent.prefab
+#: GameObject/Upgrade_NPC_MEDIUM_Walls_(lvl 4) - Fine.prefab
+#, fuzzy
+msgid "Last Nämä Here"
+msgstr "Sobrenome aqui"
+
+#: GameObject/MoveSlot.prefab
+#, fuzzy
+msgid "MOVE"
+msgstr "MOVER"
+
+#: GameObject/NoteUI.prefab
+#, fuzzy
+msgid "Note title here Note title here Note title here Note title here Note title here Note title here Note title here"
+msgstr "Título da nota aqui Título da nota aqui Título da nota aqui Título da nota aqui Título da nota aqui Título da nota aqui Título da nota aqui"
+
+#: GameObject/NoteUI.prefab
+#, fuzzy
+msgid "NEW"
+msgstr "NOVA"
+
+#: GameObject/NotificationBox.prefab
+#: GameObject/NotificationBoxFurniture.prefab
+#, fuzzy
+msgid "Discovered"
+msgstr "Descoberto"
+
+#: GameObject/NotificationBox.prefab
+#: GameObject/NotificationBoxFurniture.prefab
+#, fuzzy
+msgid "Place name Place name Place namePlace name"
+msgstr "Nome do lugar Nome do lugar Nome do lugarNome do lugar"
+
+#: GameObject/ObjectiveUI.prefab
+#, fuzzy
+msgid "Objective title"
+msgstr "Título do objetivo"
+
+#: GameObject/ObjectiveUI.prefab
+#, fuzzy
+msgid "(Cannot be completed in the current version)"
+msgstr "(Não pode ser concluído na versão atual)"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "Resume Game"
+msgstr "Voltar ao jogo"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Load Game"
+msgstr "Carregar jogo"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "Save Game"
+msgstr "Salvar jogo"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Options"
+msgstr "Opções"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Difficulty"
+msgstr "Dificuldade"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "Quit to Menu"
+msgstr "Sair para o menu"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "Quit to Desktop"
+msgstr "Sair para a área de trabalho"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "No characters saved"
+msgstr "Nenhum personagem salvo"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "Remove this character?"
+msgstr "Apagar este personagem?"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Yeah"
+msgstr "Sim"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Nope"
+msgstr "Não"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid ""
+"This save was created on an older version of the game and might have outdated data.\n"
+"\n"
+"Do you want to load the save?"
+msgstr ""
+"Este jogo salvo foi criado numa versão mais antiga do jogo e pode ter dados desatualizados.\n"
+"\n"
+"Quer carregar este jogo salvo?"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Okay"
+msgstr "OK"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "Load"
+msgstr "Carregar"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Back"
+msgstr "Voltar"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "LOADING"
+msgstr "CARREGANDO"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "Esko Virtanen"
+msgstr "Esko Virtanen"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Save"
+msgstr "Salvar"
+
+#: GameObject/Pause Menu.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "SAVING"
+msgstr "SALVANDO"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Display"
+msgstr "Tela"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Quality"
+msgstr "Qualidade"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Audio"
+msgstr "Áudio"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Controls"
+msgstr "Controles"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "Key Bindings"
+msgstr "Teclas"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "Quit To Main Menu?"
+msgstr "Sair para o menu principal?"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "Quit To Desktop?"
+msgstr "Sair para a área de trabalho?"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Default"
+msgstr "Padrão"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "The most balanced difficulty"
+msgstr "A dificuldade mais equilibrada"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "User Saves"
+msgstr "Jogos salvos"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Mandatory Start Addictions"
+msgstr "Vícios iniciais obrigatórios"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "General Needs Speed"
+msgstr "Velocidade das necessidades"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Addiction Needs Speed"
+msgstr "Velocidade da abstinência"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Addiction Recovery Speed"
+msgstr "Velocidade de recuperação dos vícios"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Mental Health"
+msgstr "Saúde mental"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "SMV Progression Rate"
+msgstr "Progressão do SMV"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Furniture Crafting Speed"
+msgstr "Velocidade de fabricação de móveis"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Item Crafting Speed"
+msgstr "Velocidade de fabricação de itens"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Renovation Cost"
+msgstr "Custo da reforma"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Renovation Resource Cost"
+msgstr "Material da reforma"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Renovation Speed"
+msgstr "Velocidade da reforma"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Rent Income"
+msgstr "Renda dos aluguéis"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Rent Payments"
+msgstr "Pagamento do aluguel"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Electricity Price"
+msgstr "Preço da luz"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Electricity Amount"
+msgstr "Consumo de luz"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Prices"
+msgstr "Preços"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "Wealth of merchants"
+msgstr "Riqueza dos comerciantes"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Stack Sizes"
+msgstr "Tamanho das pilhas"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Respawning Times"
+msgstr "Tempo de reaparecimento"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Apply"
+msgstr "Aplicar"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "Furniture crafting speed"
+msgstr "Velocidade de fabricação de móveis"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "Affect to some stuff like how fast uou can craft stuff like that."
+msgstr "Afeta umas coisas tipo a velocidade de fabricar coisas e tal."
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Resolution"
+msgstr "Resolução"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Refresh Rate"
+msgstr "Taxa de atualização"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Screen Mode"
+msgstr "Modo de tela"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "FullScreen"
+msgstr "Tela cheia"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Vertical Sync"
+msgstr "Sincronização vertical"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "Fov"
+msgstr "Campo de visão"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Brightness"
+msgstr "Brilho"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Run In Background"
+msgstr "Rodar em segundo plano"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Disabled"
+msgstr "Desativado"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Language"
+msgstr "Idioma"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "English"
+msgstr "English"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid ""
+"Osmo Olut\n"
+"(Very High)"
+msgstr ""
+"Osmo Olut\n"
+"(Muito alto)"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "Shadow Quality"
+msgstr "Qualidade das sombras"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Medium"
+msgstr "Médio"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "Shadow Resolution"
+msgstr "Resolução das sombras"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "Texture Resolution"
+msgstr "Resolução das texturas"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "SSAO"
+msgstr "SSAO"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Antialiasing"
+msgstr "Antisserrilhamento"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Post FX"
+msgstr "Pós-processamento"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Master"
+msgstr "Geral"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "-40 dB"
+msgstr "-40 dB"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Sound"
+msgstr "Som"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Music"
+msgstr "Música"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Urination/Defecation"
+msgstr "Xixi e cocô"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Mouse Sensitivity"
+msgstr "Sensibilidade do mouse"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Invert Mouse"
+msgstr "Inverter mouse"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Toggle Sprint"
+msgstr "Alternar corrida"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Toggle Crouch"
+msgstr "Alternar agachar"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Movement"
+msgstr "Movimento"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Reset To Defaults"
+msgstr "Restaurar padrões"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Forward"
+msgstr "Para frente"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "LeftShift"
+msgstr "Shift esquerdo"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Backward"
+msgstr "Para trás"
+
+#: GameObject/Pause Menu.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "Left"
+msgstr "Esquerda"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Right"
+msgstr "Direita"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Walk"
+msgstr "Andar devagar"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Crouch"
+msgstr "Agachar"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Jump"
+msgstr "Pular"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Interact"
+msgstr "Interagir"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Primary Use"
+msgstr "Uso principal"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "RMB"
+msgstr "Botão dir."
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Auxiliary Use"
+msgstr "Uso auxiliar"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Head Lamp Use"
+msgstr "Lanterna de cabeça"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Primary Reload"
+msgstr "Recarregar principal"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Auxiliary Reload"
+msgstr "Recarregar auxiliar"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Menu"
+msgstr "Menu"
+
+#: GameObject/Pause Menu.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "Inventory"
+msgstr "Inventário"
+
+#: GameObject/Pause Menu.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "Character"
+msgstr "Personagem"
+
+#: GameObject/Pause Menu.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "Tenement"
+msgstr "Prédio"
+
+#: GameObject/Pause Menu.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "Map"
+msgstr "Mapa"
+
+#: GameObject/Pause Menu.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "Tasks"
+msgstr "Tarefas"
+
+#: GameObject/Pause Menu.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "Notes"
+msgstr "Notas"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Hints"
+msgstr "Dicas"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Hide Hud"
+msgstr "Ocultar interface"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Pause Menu"
+msgstr "Menu de pausa"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "Building Menu"
+msgstr "Menu de construção"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "Move Left"
+msgstr "Mover para a esquerda"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "Move Right"
+msgstr "Mover para a direita"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Place/Take"
+msgstr "Colocar/Pegar"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Rotate Object"
+msgstr "Girar objeto"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Rotation Mode"
+msgstr "Modo de rotação"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Change/Snap Object"
+msgstr "Trocar/Encaixar objeto"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Resource Slots"
+msgstr "Espaços de recursos"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Move (Item)"
+msgstr "Mover (item)"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Use (Item)"
+msgstr "Usar (item)"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Secondary Use (Item)"
+msgstr "Uso secundário (item)"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Drop (Item)"
+msgstr "Largar (item)"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "Drag and Drop"
+msgstr "Arrastar e soltar"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Switch Tab Left"
+msgstr "Aba à esquerda"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Switch Tab Right"
+msgstr "Aba à direita"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Exit/Cancel"
+msgstr "Sair/Cancelar"
+
+#: GameObject/Pause Menu.prefab
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Display Number"
+msgstr "Monitor"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "DEAD"
+msgstr "MORTO"
+
+#: GameObject/Pause Menu.prefab
+#, fuzzy
+msgid "Because of SMV, shit seizure or something else"
+msgstr "Por causa do SMV, de uma caganeira ou de outra coisa"
+
+#: GameObject/Progress Big Slot Grow.prefab
+#: GameObject/Progress Big Slot.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#, fuzzy
+msgid "Green Mushrooms"
+msgstr "Cogumelos verdes"
+
+#: GameObject/Progress Big Slot Grow.prefab
+#: GameObject/Progress Big Slot.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#, fuzzy
+msgid "Progress"
+msgstr "Progresso"
+
+#: GameObject/PutItemSelectionItemPrefab.prefab
+#, fuzzy
+msgid "Not available"
+msgstr "Indisponível"
+
+#: GameObject/PutItemSelectionItemPrefab.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "Select"
+msgstr "Selecionar"
+
+#: GameObject/PutItemSelectionItemPrefab.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "Title"
+msgstr "Título"
+
+#: GameObject/PutItemSelectionItemPrefab.prefab
+#, fuzzy
+msgid "Cost: 100 OC"
+msgstr "Custo: 100 OC"
+
+#: GameObject/Quick Slot.prefab
+#: GameObject/Slot.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#, fuzzy
+msgid "100 OC"
+msgstr "100 OC"
+
+#: GameObject/RecipeCreateButton.prefab
+#: GameObject/RecipeCreateButtonProgress.prefab
+#: GameObject/UI Button Normal Recipe Red.prefab
+#: GameObject/UI Button Normal Recipe.prefab
+#: GameObject/UI Button Normal.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#, fuzzy
+msgid "Placeholder text Placeholder text Placeholder text"
+msgstr "Texto provisório Texto provisório Texto provisório"
+
+#: GameObject/RecipeCreateButtonDisabled.prefab
+#: GameObject/UI Button Normal Disabled.prefab
+#: GameObject/UI Button Normal Recipe Disabled.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#, fuzzy
+msgid "Harvest"
+msgstr "Colher"
+
+#: GameObject/RecipeDetails.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid ""
+"Skill: Skill Name\n"
+"Process time: 10 h\n"
+"Power: 10 kW\n"
+"Fail change: 100%\n"
+"Quality chance: ++"
+msgstr ""
+"Habilidade: Nome da habilidade\n"
+"Tempo de processo: 10 h\n"
+"Energia: 10 kW\n"
+"Chance de falha: 100%\n"
+"Chance de qualidade: ++"
+
+#: GameObject/RecipeModifiers.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid ""
+"Required modifiers:\n"
+"Sun, large."
+msgstr ""
+"Modificadores necessários:\n"
+"Sol, grande."
+
+#: GameObject/Renovation Tasks.prefab
+#, fuzzy
+msgid "Active Renovation Tasks"
+msgstr "Tarefas de reforma ativas"
+
+#: GameObject/Skill.prefab
+#, fuzzy
+msgid "SKILL NAME HERE"
+msgstr "NOME DA HABILIDADE AQUI"
+
+#: GameObject/Skill.prefab
+#, fuzzy
+msgid "LVL 10"
+msgstr "NV 10"
+
+#: GameObject/Skill.prefab
+#, fuzzy
+msgid "100/100 XP"
+msgstr "100/100 XP"
+
+#: GameObject/Start Selection Prefab.prefab
+#: Scenes/Interior Start.unity
+#, fuzzy
+msgid "Shroomshine Enjoyer"
+msgstr "Apreciador de cachaça de cogumelo"
+
+#: GameObject/Start Selection Prefab.prefab
+#: Scenes/Interior Start.unity
+#, fuzzy
+msgid ""
+"Alcohol addiction: +20\n"
+"Mushroom addiction: +20"
+msgstr ""
+"Vício em álcool: +20\n"
+"Vício em cogumelos: +20"
+
+#: GameObject/Street Sign Preview.prefab
+#: GameObject/Street Sign Preview_0.prefab
+#: GameObject/Street Sign.prefab
+#: GameObject/Street Sign_0.prefab
+#, fuzzy
+msgid ""
+"Editable\n"
+"\n"
+"\n"
+"\n"
+msgstr ""
+"Editável\n"
+"\n"
+"\n"
+"\n"
+
+#: GameObject/TakeSlot.prefab
+#, fuzzy
+msgid "TAKE"
+msgstr "PEGAR"
+
+#: GameObject/TaskUI.prefab
+#, fuzzy
+msgid "Task title here"
+msgstr "Título da tarefa aqui"
+
+#: GameObject/Tenement Upgrade UI.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "Upgrade name"
+msgstr "Nome da melhoria"
+
+#: GameObject/Tenement Upgrade UI.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "Time: 1d 12h"
+msgstr "Tempo: 1d 12h"
+
+#: GameObject/Tenement Upgrade UI.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "FIRST: 10000 OC"
+msgstr "ENTRADA: 10000 OC"
+
+#: GameObject/Tenement Upgrade UI.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "FINAL: 100000 RM"
+msgstr "FINAL: 100000 RM"
+
+#: GameObject/Tenement Upgrade UI.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "Not Enough Money/Resources"
+msgstr "Dinheiro/recursos insuficientes"
+
+#: GameObject/Tenement Upgrade UI.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "Required items"
+msgstr "Itens necessários"
+
+#: GameObject/Tenement Upgrade UI.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "Locked Reason"
+msgstr "Motivo do bloqueio"
+
+#: GameObject/Tenement Upgrade UI.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "Final Payment"
+msgstr "Pagamento final"
+
+#: GameObject/Tenement Upgrade UI.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "100000 RM"
+msgstr "100000 RM"
+
+#: GameObject/Text File Panel.prefab
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "Recycle Bin"
+msgstr "Lixeira"
+
+#: GameObject/Text File Panel.prefab
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "Search"
+msgstr "Pesquisar"
+
+#: GameObject/Text File Panel.prefab
+#, fuzzy
+msgid "File Name"
+msgstr "Nome do arquivo"
+
+#: GameObject/Text File Panel.prefab
+#, fuzzy
+msgid "File Edit Format View Help"
+msgstr "Arquivo Editar Formatar Exibir Ajuda"
+
+#: GameObject/Text File Panel.prefab
+#, fuzzy
+msgid "Test content"
+msgstr "Conteúdo de teste"
+
+#: GameObject/Tooltip item info.prefab
+#, fuzzy
+msgid ""
+"Placeholder item name\n"
+"x5"
+msgstr ""
+"Nome provisório do item\n"
+"x5"
+
+#: GameObject/UI Button Doctor.prefab
+#, fuzzy
+msgid "Placeholder text"
+msgstr "Texto provisório"
+
+#: GameObject/Upgrade_Electricity_(lvl 2) - Good.prefab
+#: GameObject/Upgrade_Electricity_(lvl 3) - Best.prefab
+#, fuzzy
+msgid "MAIN"
+msgstr "PRINCIPAL"
+
+#: GameObject/Upgrade_Stairwell_(lvl 1) - Makeshift (Floors 1-4).prefab
+#: GameObject/Upgrade_Stairwell_(lvl 1) - Under_Construction.prefab
+#: GameObject/Upgrade_Stairwell_(lvl 2) - Shabby (Floors 1-5).prefab
+#: GameObject/Upgrade_Stairwell_(lvl 2) - Under_Construction.prefab
+#: GameObject/Upgrade_Stairwell_(lvl 3) - Decent (Floors 1-6).prefab
+#: GameObject/Upgrade_Stairwell_(lvl 3) - Under_Construction.prefab
+#, fuzzy
+msgid ""
+"<align=center>VI</align>\n"
+"17   Empty Apartment\n"
+"15   Empty Apartment\n"
+"14   Empty Apartment\n"
+"\n"
+"<align=center>V</align>\n"
+"14   Empty Apartment\n"
+"13   Empty Apartment\n"
+"12   Empty Apartment\n"
+"\n"
+"<align=center>IV</align>\n"
+"11   Empty Apartment\n"
+"10   Empty Apartment\n"
+"9     Empty Apartment\n"
+"\n"
+"<align=center>III</align>\n"
+"8   Empty Apartment\n"
+"7   Empty Apartment\n"
+"6   Empty Apartment\n"
+"\n"
+"<align=center>II</align>\n"
+"5   Empty Apartment\n"
+"4   Empty Apartment\n"
+"3   Empty Apartment\n"
+"\n"
+"<align=center>II</align>\n"
+"1  Empty Apartment"
+msgstr ""
+"<align=center>VI</align>\n"
+"17   Apartamento vazio\n"
+"15   Apartamento vazio\n"
+"14   Apartamento vazio\n"
+"\n"
+"<align=center>V</align>\n"
+"14   Apartamento vazio\n"
+"13   Apartamento vazio\n"
+"12   Apartamento vazio\n"
+"\n"
+"<align=center>IV</align>\n"
+"11   Apartamento vazio\n"
+"10   Apartamento vazio\n"
+"9     Apartamento vazio\n"
+"\n"
+"<align=center>III</align>\n"
+"8   Apartamento vazio\n"
+"7   Apartamento vazio\n"
+"6   Apartamento vazio\n"
+"\n"
+"<align=center>II</align>\n"
+"5   Apartamento vazio\n"
+"4   Apartamento vazio\n"
+"3   Apartamento vazio\n"
+"\n"
+"<align=center>II</align>\n"
+"1  Apartamento vazio"
+
+#: GameObject/Vending Machine Item.prefab
+#, fuzzy
+msgid "Item name"
+msgstr "Nome do item"
+
+#: GameObject/Vending Machine Item.prefab
+#, fuzzy
+msgid "Price: 100 OC"
+msgstr "Preço: 100 OC"
+
+#: GameObject/Vending Machine Item.prefab
+#, fuzzy
+msgid "Not enough money"
+msgstr "Dinheiro insuficiente"
+
+#: GameObject/Vending Machine Item.prefab
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "Buy"
+msgstr "Comprar"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Markku Siltanen"
+msgstr "Markku Siltanen"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Continue"
+msgstr "Continuar"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Response"
+msgstr "Resposta"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Timo Löyly"
+msgstr "Timo Löyly"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Object name"
+msgstr "Nome do objeto"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "(Scroll To change)"
+msgstr "(Role para trocar)"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "(Use)"
+msgstr "(Usar)"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "RMB) Use"
+msgstr "Botão dir.) Usar"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid ""
+"Move\n"
+msgstr ""
+"Mover\n"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid ""
+"Interact\n"
+msgstr ""
+"Interagir\n"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "OC"
+msgstr "OC"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "RM"
+msgstr "RM"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "L)BUILDING MENU"
+msgstr "L)MENU DE CONSTRUÇÃO"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Test text"
+msgstr "Texto de teste"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Current Selection"
+msgstr "Seleção atual"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "LMB)USE SLOT   Q/E)CHANGE SLOT   RMB)HOLD AND MOVE TO ROTATE  X)ROTATION MODE:90°   Tab)EXIT"
+msgstr "BOTÃO ESQ.)USAR ESPAÇO   Q/E)TROCAR ESPAÇO   BOTÃO DIR.)SEGURE E MOVA PARA GIRAR  X)MODO DE ROTAÇÃO:90°   Tab)SAIR"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "LMB)REMOVE OBJECT"
+msgstr "BOTÃO ESQ.)REMOVER OBJETO"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Wednesday 18:20"
+msgstr "Quarta-feira 18:20"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Crosseven (Ristiseiska)"
+msgstr "Sete de Paus (Ristiseiska)"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid ""
+"Goal \n"
+"Get rid of all your cards first.\n"
+"\n"
+"Playing\n"
+"-The 7 of Clubs starts the game. If you have it, you must play it.\n"
+"-Play one card per turn.\n"
+"-Any 7 starts a new suit.\n"
+"-After a suit's 7, play its 6 and then its 8.\n"
+"-Build down from 6 to Ace and up from 8 to King.\n"
+"-Cards below 6 can't be played until that suit's 8 is down.\n"
+"-An Ace or King flips its pile and lets you play again.\n"
+"\n"
+"Can't play?\n"
+"-On your first turn, pass if you don't have the 7 of Clubs.\n"
+"-Otherwise request a card from the previous player.\n"
+"\n"
+"Can't play?\n"
+"-On your first turn, pass if you don't have the 7 of Clubs.\n"
+"-Otherwise request a card from the previous player.\n"
+"\n"
+"Can't play?\n"
+"-On your first turn, pass if you don't have the 7 of Clubs.\n"
+"-Otherwise request a card from the previous player.\n"
+"\n"
+"Can't play?\n"
+"-On your first turn, pass if you don't have the 7 of Clubs.\n"
+"-Otherwise request a card from the previous player.\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+msgstr ""
+"Objetivo \n"
+"Livre-se de todas as suas cartas primeiro.\n"
+"\n"
+"Como jogar\n"
+"-O 7 de paus começa o jogo. Se estiver com você, jogue-o.\n"
+"-Jogue uma carta por turno.\n"
+"-Qualquer 7 abre um novo naipe.\n"
+"-Depois do 7 de um naipe, jogue o 6 e depois o 8.\n"
+"-Desça do 6 até o Ás e suba do 8 até o Rei.\n"
+"-Cartas abaixo de 6 só entram depois que o 8 do naipe estiver na mesa.\n"
+"-Um Ás ou um Rei vira o monte e você joga de novo.\n"
+"\n"
+"Não dá para jogar?\n"
+"-No seu primeiro turno, passe se não tiver o 7 de paus.\n"
+"-Senão, peça uma carta ao jogador anterior.\n"
+"\n"
+"Não dá para jogar?\n"
+"-No seu primeiro turno, passe se não tiver o 7 de paus.\n"
+"-Senão, peça uma carta ao jogador anterior.\n"
+"\n"
+"Não dá para jogar?\n"
+"-No seu primeiro turno, passe se não tiver o 7 de paus.\n"
+"-Senão, peça uma carta ao jogador anterior.\n"
+"\n"
+"Não dá para jogar?\n"
+"-No seu primeiro turno, passe se não tiver o 7 de paus.\n"
+"-Senão, peça uma carta ao jogador anterior.\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Hide hints"
+msgstr "Ocultar dicas"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "(H)"
+msgstr "(H)"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Items"
+msgstr "Itens"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "OPEN"
+msgstr "ABERTO"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Sort"
+msgstr "Ordenar"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid ""
+"Item name here\n"
+"Item type"
+msgstr ""
+"Nome do item aqui\n"
+"Tipo de item"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Item type"
+msgstr "Tipo de item"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Placeholder item info text here. Some placeholder info about this item. More Placeholder info about this item. Placeholder item info text here. Some placeholder info about this item. More Placeholder info about this item."
+msgstr "Texto provisório de informações do item. Algumas informações provisórias sobre este item. Mais informações provisórias sobre este item. Texto provisório de informações do item. Algumas informações provisórias sobre este item. Mais informações provisórias sobre este item."
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Estimated value: 10 OC"
+msgstr "Valor estimado: 10 OC"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Not usable"
+msgstr "Inutilizável"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Drop"
+msgstr "Largar"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Reload"
+msgstr "Recarregar"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "1L"
+msgstr "1L"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Storage"
+msgstr "Armazenamento"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Wealth: Generous"
+msgstr "Riqueza: generosa"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Take all"
+msgstr "Pegar tudo"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "0h"
+msgstr "0h"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Bottle Recycling"
+msgstr "Reciclagem de garrafas"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid ""
+"Cram bottles \n"
+"and \n"
+"cans here"
+msgstr ""
+"Enfie garrafas \n"
+"e \n"
+"latas aqui"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Bottle Type:"
+msgstr "Tipo de garrafa:"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Bottle Type :)"
+msgstr "Tipo de garrafa :)"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Bottle Worth:"
+msgstr "Valor da garrafa:"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Bottle Sum:"
+msgstr "Total das garrafas:"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Get coins"
+msgstr "Pegar moedas"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Crafting"
+msgstr "Fabricação"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Sleep: 12:07"
+msgstr "Dormir: 12:07"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Stat name"
+msgstr "Nome do atributo"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Sleep"
+msgstr "Dormir"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Tab"
+msgstr "Tab"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Move some items above to start growing"
+msgstr "Coloque alguns itens acima para começar a cultivar"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Details"
+msgstr "Detalhes"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Results"
+msgstr "Resultados"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Quantity"
+msgstr "Quantidade"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "3L"
+msgstr "3L"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Process"
+msgstr "Processar"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Time left"
+msgstr "Tempo restante"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "11d 11h 11m 11s"
+msgstr "11d 11h 11m 11s"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Growing"
+msgstr "Em crescimento"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid ""
+"Grid net balance:\n"
+"0 W"
+msgstr ""
+"Saldo líquido da rede:\n"
+"0 W"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid ""
+"Generator output:\n"
+"500 W"
+msgstr ""
+"Potência do gerador:\n"
+"500 W"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid ""
+"Pallet Tank\n"
+msgstr ""
+"Tanque de palete\n"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Select a container or other item you want to use in your inventory"
+msgstr "Selecione no inventário um recipiente ou outro item que você queira usar"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid ""
+"External liquid source\n"
+"\n"
+"Water\n"
+"0/1000L\n"
+"\n"
+"Integrity: 100%"
+msgstr ""
+"Fonte externa de líquido\n"
+"\n"
+"Água\n"
+"0/1000L\n"
+"\n"
+"Integridade: 100%"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "External liquid source"
+msgstr "Fonte externa de líquido"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid ""
+"Fill Item\n"
+msgstr ""
+"Encher item\n"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Fill Item"
+msgstr "Encher item"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Different Liquid!"
+msgstr "Líquido diferente!"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Unfill Item"
+msgstr "Esvaziar item"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Quality: Excellent"
+msgstr "Qualidade: excelente"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "External Unfill Storage"
+msgstr "Destino externo para esvaziar"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Water 0/1000L"
+msgstr "Água 0/1000L"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Item name here"
+msgstr "Nome do item aqui"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Amount: 1"
+msgstr "Quantidade: 1"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Price: 20000 OC"
+msgstr "Preço: 20000 OC"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Buy/Sell"
+msgstr "Comprar/Vender"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "MAP NOT AVAILABLE"
+msgstr "MAPA INDISPONÍVEL"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid ""
+"WALTER CORPORATION\n"
+"OBENSEUER HOUSING PROJECT"
+msgstr ""
+"WALTER CORPORATION\n"
+"PROJETO HABITACIONAL OBENSEUER"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "CLIENT"
+msgstr "CLIENTE"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "STALBURG CITY"
+msgstr "CIDADE DE STALBURG"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "architects"
+msgstr "arquitetos"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid ""
+"MIKE STALHUT\n"
+"EMILIE GARN\n"
+"JIM MANSION"
+msgstr ""
+"MIKE STALHUT\n"
+"EMILIE GARN\n"
+"JIM MANSION"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Site"
+msgstr "Local"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid ""
+"Obenseuer ROAD 2\n"
+"Stalburg\n"
+"05500"
+msgstr ""
+"ESTRADA Obenseuer 2\n"
+"Stalburg\n"
+"05500"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid ""
+"DATE\n"
+"3/5/1973"
+msgstr ""
+"DATA\n"
+"3/5/1973"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid ""
+"Draw\n"
+"EL"
+msgstr ""
+"Desenho\n"
+"EL"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid ""
+"Project No\n"
+"2598"
+msgstr ""
+"Projeto nº\n"
+"2598"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid ""
+"Drawing No\n"
+"E/154"
+msgstr ""
+"Desenho nº\n"
+"E/154"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid ""
+"CHECK\n"
+"AH"
+msgstr ""
+"VERIF.\n"
+"AH"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid ""
+"REVISION\n"
+"D"
+msgstr ""
+"REVISÃO\n"
+"D"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Electricity"
+msgstr "Eletricidade"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Plumbing"
+msgstr "Encanamento"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Heating Room"
+msgstr "Sala do aquecimento"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Facade"
+msgstr "Fachada"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "ELEVATOR"
+msgstr "ELEVADOR"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "STAIRWELL"
+msgstr "ESCADARIA"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Additional information"
+msgstr "Informações adicionais"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Basement"
+msgstr "Porão"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Yard"
+msgstr "Pátio"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Roof"
+msgstr "Telhado"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Floor 6"
+msgstr "Andar 6"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Cannot be rented"
+msgstr "Não pode ser alugado"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Rent"
+msgstr "Aluguel"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Evict the resident"
+msgstr "Despejar o morador"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid ""
+"Time: 26h\n"
+"Cancel the eviction"
+msgstr ""
+"Tempo: 26h\n"
+"Cancelar o despejo"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Value: 100000 RM"
+msgstr "Valor: 100000 RM"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Income"
+msgstr "Renda"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "1000-2000 OC"
+msgstr "1000-2000 OC"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "1000-2000 RM"
+msgstr "1000-2000 RM"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "The tenant does not want an apartment of this size!"
+msgstr "O inquilino não quer um apartamento deste tamanho!"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "The apartment has not been examined"
+msgstr "O apartamento não foi examinado"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Apartment 1"
+msgstr "Apartamento 1"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Apartment 2 - Shop"
+msgstr "Apartamento 2 - Loja"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Apartment: 15"
+msgstr "Apartamento: 15"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Base income"
+msgstr "Renda base"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Overview"
+msgstr "Visão geral"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Floor 1"
+msgstr "Andar 1"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Floor 2"
+msgstr "Andar 2"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Floor 3"
+msgstr "Andar 3"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Floor 4"
+msgstr "Andar 4"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Floor 5"
+msgstr "Andar 5"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Upgrade target name"
+msgstr "Nome do alvo da melhoria"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Active tasks"
+msgstr "Tarefas ativas"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Task title"
+msgstr "Título da tarefa"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Objectives"
+msgstr "Objetivos"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Note TITLE"
+msgstr "TÍTULO da nota"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Empty..."
+msgstr "Vazio..."
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Edit"
+msgstr "Editar"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Discard changes"
+msgstr "Descartar alterações"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Save changes"
+msgstr "Salvar alterações"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Shift"
+msgstr "Shift"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Space"
+msgstr "Espaço"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Enter"
+msgstr "Enter"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "No learned skills"
+msgstr "Nenhuma habilidade aprendida"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid ""
+"R)DROP   F)TAKE ALL   Tab)EXIT\n"
+"R)DROP   F)TAKE ALL   Tab)EXIT"
+msgstr ""
+"R)LARGAR   F)PEGAR TUDO   Tab)SAIR\n"
+"R)LARGAR   F)PEGAR TUDO   Tab)SAIR"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "OK"
+msgstr "OK"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Bank name"
+msgstr "Nome do banco"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Exchange: 0"
+msgstr "Câmbio: 0"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "RM: 0"
+msgstr "RM: 0"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "OC: 0"
+msgstr "OC: 0"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "The bank has insufficient funds"
+msgstr "O banco não tem fundos suficientes"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Real Money"
+msgstr "Dinheiro de verdade"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Sewer Coins"
+msgstr "Moedas do Esgoto"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "1 RM = 10 OC"
+msgstr "1 RM = 10 OC"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "1 OC = 0 RM"
+msgstr "1 OC = 0 RM"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Exchange"
+msgstr "Câmbio"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid ""
+"Cancel\n"
+msgstr ""
+"Cancelar\n"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "You don't have money"
+msgstr "Você não tem dinheiro"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Interest: 0.015"
+msgstr "Juros: 0.015"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Wallet: 0"
+msgstr "Carteira: 0"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Account: 0"
+msgstr "Conta: 0"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Deposit"
+msgstr "Depositar"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Withdraw"
+msgstr "Sacar"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Deposit | Withdraw"
+msgstr "Depositar | Sacar"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Requirements"
+msgstr "Requisitos"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "10000 OC"
+msgstr "10000 OC"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "10000 RM"
+msgstr "10000 RM"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Open bank account"
+msgstr "Abrir conta bancária"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Mental health"
+msgstr "Saúde mental"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Status: Fine"
+msgstr "Estado: bem"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Just some mild mental health problems. A rare condition in a depressive place like Obenseuer. Sleep in a comfy bed, eat a fine meal and definitely not turnips."
+msgstr "Só uns probleminhas leves de saúde mental. Coisa rara num lugar deprimente como Obenseuer. Durma numa cama confortável, coma uma boa refeição e, de jeito nenhum, nabo."
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Operations"
+msgstr "Operações"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Doctor checks your mental health status and tells you if you need stronger medication. "
+msgstr "O médico avalia a sua saúde mental e diz se você precisa de remédios mais fortes. "
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Price: 200 OC"
+msgstr "Preço: 200 OC"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Purchase"
+msgstr "Comprar"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Load Texture"
+msgstr "Carregar textura"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Done"
+msgstr "Pronto"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Amount: 0 OC"
+msgstr "Valor: 0 OC"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Insufficient Text"
+msgstr "Texto insuficiente"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "MAX"
+msgstr "MÁX."
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Tooltip"
+msgstr "Dica"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid ""
+"Manufacturing\n"
+"increased to\n"
+"level 10!"
+msgstr ""
+"Manufatura\n"
+"subiu para o\n"
+"nível 10!"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Saving..."
+msgstr "Salvando..."
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid ""
+"Artists\n"
+"Some Name\n"
+"Some Name\n"
+"\n"
+"\n"
+"Programmers\n"
+"Some Name\n"
+"Some Name\n"
+"Some Name\n"
+"\n"
+"\n"
+"Special Thanks\n"
+"Some Name"
+msgstr ""
+"Artistas\n"
+"Fulano de Tal\n"
+"Fulano de Tal\n"
+"\n"
+"\n"
+"Programadores\n"
+"Fulano de Tal\n"
+"Fulano de Tal\n"
+"Fulano de Tal\n"
+"\n"
+"\n"
+"Agradecimentos especiais\n"
+"Fulano de Tal"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Statistics"
+msgstr "Estatísticas"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid ""
+"Playtime: \n"
+"Money collected: "
+msgstr ""
+"Tempo de jogo: \n"
+"Dinheiro arrecadado: "
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "EXIT"
+msgstr "SAIR"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Hold to skip"
+msgstr "Segure para pular"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Loading"
+msgstr "Carregando"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Drink beer to feel better."
+msgstr "Beba cerveja para se sentir melhor."
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid ""
+"You can minimize the game, while the save data \n"
+"migration processes in the background."
+msgstr ""
+"Você pode minimizar o jogo enquanto a migração dos dados salvos \n"
+"roda em segundo plano."
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Migrating Globals: 0"
+msgstr "Migrando dados globais: 0"
+
+#: Resources/prefabs/main/Game Logic.prefab
+#: Scenes/Interior Bazaar Alco.unity
+#: Scenes/Interior Bazaar Ankea.unity
+#: Scenes/Interior Bazaar Bakery.unity
+#: Scenes/Interior Bazaar Bank.unity
+#: Scenes/Interior Bazaar Bar.unity
+#, fuzzy
+msgid "Enter text..."
+msgstr "Digite o texto..."
+
+#: Resources/prefabs/wieldables/Dosimeter.prefab
+#, fuzzy
+msgid "99999μSv"
+msgstr "99999μSv"
+
+#: Resources/prefabs/wieldables/Dosimeter.prefab
+#, fuzzy
+msgid "99999mSv/h"
+msgstr "99999mSv/h"
+
+#: Scenes/Interior Bazaar Alco.unity
+#, fuzzy
+msgid "BEER"
+msgstr "CERVEJA"
+
+#: Scenes/Interior Bazaar Alco.unity
+#, fuzzy
+msgid "WINE"
+msgstr "VINHO"
+
+#: Scenes/Interior Bazaar Alco.unity
+#, fuzzy
+msgid "SPIRITS"
+msgstr "DESTILADOS"
+
+#: Scenes/Interior Bazaar Alco.unity
+#, fuzzy
+msgid "LIQUEURS & SPIRITS"
+msgstr "LICORES E DESTILADOS"
+
+#: Scenes/Interior Bazaar Ankea.unity
+#, fuzzy
+msgid "Office"
+msgstr "Escritório"
+
+#: Scenes/Interior Bazaar Ankea.unity
+#, fuzzy
+msgid "Living Room"
+msgstr "Sala de estar"
+
+#: Scenes/Interior Bazaar Ankea.unity
+#, fuzzy
+msgid "Kitchen"
+msgstr "Cozinha"
+
+#: Scenes/Interior Bazaar Ankea.unity
+#, fuzzy
+msgid "Bedroom"
+msgstr "Quarto"
+
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "ALARM"
+msgstr "ALARME"
+
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "TURN OFF ALARM"
+msgstr "DESLIGAR ALARME"
+
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "Sender Name <color=#6b6b6b><sender.name@stalburg.ts>"
+msgstr "Nome do remetente <color=#6b6b6b><sender.name@stalburg.ts>"
+
+#: Scenes/Interior Bazaar Bank.unity
+#, fuzzy
+msgid "Very Long Email Title With Stuff That Is Not Good For You Or Your Friend Who"
+msgstr "Título de e-mail muito longo com coisas que não fazem bem para você nem para o seu amigo que"
+
+#: Scenes/Interior Bazaar Books.unity
+#: Scenes/Interior Bazaar Engineer Office.unity
+#, fuzzy
+msgid "CONSTRUCTION MATERIALS"
+msgstr "MATERIAIS DE OBRA"
+
+#: Scenes/Interior Bazaar Clock Tower.unity
+#: Scenes/Interior Bazaar Electronics.unity
+#: Scenes/Interior Bazaar Engineer Office.unity
+#: Scenes/Interior Bazaar General Store.unity
+#: Scenes/Interior Bazaar House1.unity
+#: Scenes/Interior Bazaar Mallment.unity
+#, fuzzy
+msgid "OC Available"
+msgstr "OC disponível"
+
+#: Scenes/Interior Bazaar Clock Tower.unity
+#: Scenes/Interior Bazaar Electronics.unity
+#: Scenes/Interior Bazaar Engineer Office.unity
+#: Scenes/Interior Bazaar General Store.unity
+#: Scenes/Interior Bazaar House1.unity
+#: Scenes/Interior Bazaar Mallment.unity
+#, fuzzy
+msgid "Skill: Manufacturing"
+msgstr "Habilidade: Manufatura"
+
+#: Scenes/Interior Bazaar Clock Tower.unity
+#: Scenes/Interior Bazaar Electronics.unity
+#: Scenes/Interior Bazaar Engineer Office.unity
+#: Scenes/Interior Bazaar General Store.unity
+#: Scenes/Interior Bazaar House1.unity
+#: Scenes/Interior Bazaar Mallment.unity
+#, fuzzy
+msgid "Remove image"
+msgstr "Remover imagem"
+
+#: Scenes/Interior Bazaar Clock Tower.unity
+#: Scenes/Interior Bazaar Electronics.unity
+#: Scenes/Interior Bazaar Engineer Office.unity
+#: Scenes/Interior Bazaar General Store.unity
+#: Scenes/Interior Bazaar House1.unity
+#: Scenes/Interior Bazaar Mallment.unity
+#, fuzzy
+msgid "Furniture name"
+msgstr "Nome do móvel"
+
+#: Scenes/Interior Bazaar Clock Tower.unity
+#: Scenes/Interior Bazaar Electronics.unity
+#: Scenes/Interior Bazaar Engineer Office.unity
+#: Scenes/Interior Bazaar General Store.unity
+#: Scenes/Interior Bazaar House1.unity
+#: Scenes/Interior Bazaar Mallment.unity
+#, fuzzy
+msgid "This action will delete the file from your computer and cannot be undone."
+msgstr "Esta ação vai apagar o arquivo do seu computador e não pode ser desfeita."
+
+#: Scenes/Interior Bazaar Clock Tower.unity
+#: Scenes/Interior Bazaar Electronics.unity
+#: Scenes/Interior Bazaar Engineer Office.unity
+#: Scenes/Interior Bazaar General Store.unity
+#: Scenes/Interior Bazaar House1.unity
+#: Scenes/Interior Bazaar Mallment.unity
+#, fuzzy
+msgid "Electronics"
+msgstr "Eletrônicos"
+
+#: Scenes/Interior Bazaar Clock Tower.unity
+#: Scenes/Interior Bazaar Electronics.unity
+#: Scenes/Interior Bazaar Engineer Office.unity
+#: Scenes/Interior Bazaar General Store.unity
+#: Scenes/Interior Bazaar House1.unity
+#: Scenes/Interior Bazaar Mallment.unity
+#, fuzzy
+msgid " Player Name"
+msgstr " Nome do jogador"
+
+#: Scenes/Interior Bazaar Clock Tower.unity
+#: Scenes/Interior Bazaar Electronics.unity
+#: Scenes/Interior Bazaar Engineer Office.unity
+#: Scenes/Interior Bazaar General Store.unity
+#: Scenes/Interior Bazaar House1.unity
+#: Scenes/Interior Bazaar Mallment.unity
+#, fuzzy
+msgid "A)DISMANTLE/CRAFT   X)AUTO CONSUME   K)HINTS   LB/RB)SWITCH CATEGORY   LT/RT)ROTATE OBJECT   B)EXIT"
+msgstr "A)DESMONTAR/FABRICAR   X)AUTOCONSUMO   K)DICAS   LB/RB)TROCAR CATEGORIA   LT/RT)GIRAR OBJETO   B)SAIR"
+
+#: Scenes/Interior Bazaar Clock Tower.unity
+#: Scenes/Interior Bazaar Electronics.unity
+#: Scenes/Interior Bazaar Engineer Office.unity
+#: Scenes/Interior Bazaar General Store.unity
+#: Scenes/Interior Bazaar House1.unity
+#: Scenes/Interior Bazaar Mallment.unity
+#, fuzzy
+msgid ""
+"Furniture description\n"
+"Furniture description"
+msgstr ""
+"Descrição do móvel\n"
+"Descrição do móvel"
+
+#: Scenes/Interior Bazaar Clock Tower.unity
+#: Scenes/Interior Bazaar Electronics.unity
+#: Scenes/Interior Bazaar Engineer Office.unity
+#: Scenes/Interior Bazaar General Store.unity
+#: Scenes/Interior Bazaar House1.unity
+#: Scenes/Interior Bazaar Mallment.unity
+#, fuzzy
+msgid "Place holder text"
+msgstr "Texto provisório"
+
+#: Scenes/Interior Bazaar Clock Tower.unity
+#: Scenes/Interior Bazaar Electronics.unity
+#: Scenes/Interior Bazaar Engineer Office.unity
+#: Scenes/Interior Bazaar General Store.unity
+#: Scenes/Interior Bazaar House1.unity
+#: Scenes/Interior Bazaar Mallment.unity
+#, fuzzy
+msgid "Are you sure you want to remove this image?"
+msgstr "Tem certeza de que quer remover esta imagem?"
+
+#: Scenes/Interior Bazaar Clock Tower.unity
+#: Scenes/Interior Bazaar Electronics.unity
+#: Scenes/Interior Bazaar Engineer Office.unity
+#: Scenes/Interior Bazaar General Store.unity
+#: Scenes/Interior Bazaar House1.unity
+#: Scenes/Interior Bazaar Mallment.unity
+#, fuzzy
+msgid "Auto-consume"
+msgstr "Autoconsumo"
+
+#: Scenes/Interior Bazaar Clock Tower.unity
+#: Scenes/Interior Bazaar Electronics.unity
+#: Scenes/Interior Bazaar Engineer Office.unity
+#: Scenes/Interior Bazaar General Store.unity
+#: Scenes/Interior Bazaar House1.unity
+#: Scenes/Interior Bazaar Mallment.unity
+#, fuzzy
+msgid "RM Available"
+msgstr "RM disponível"
+
+#: Scenes/Interior Bazaar Clock Tower.unity
+#: Scenes/Interior Bazaar Electronics.unity
+#: Scenes/Interior Bazaar Engineer Office.unity
+#: Scenes/Interior Bazaar General Store.unity
+#: Scenes/Interior Bazaar House1.unity
+#: Scenes/Interior Bazaar Mallment.unity
+#, fuzzy
+msgid "Remove"
+msgstr "Remover"
+
+#: Scenes/Interior Bazaar Clock Tower.unity
+#: Scenes/Interior Bazaar Electronics.unity
+#: Scenes/Interior Bazaar Engineer Office.unity
+#: Scenes/Interior Bazaar General Store.unity
+#: Scenes/Interior Bazaar House1.unity
+#: Scenes/Interior Bazaar Mallment.unity
+#, fuzzy
+msgid "Furniture Crafting"
+msgstr "Fabricação de móveis"
+
+#: Scenes/Interior Bazaar Clock Tower.unity
+#: Scenes/Interior Bazaar Electronics.unity
+#: Scenes/Interior Bazaar Engineer Office.unity
+#: Scenes/Interior Bazaar General Store.unity
+#: Scenes/Interior Bazaar House1.unity
+#: Scenes/Interior Bazaar Mallment.unity
+#, fuzzy
+msgid "No Money"
+msgstr "Sem dinheiro"
+
+#: Scenes/Interior Bazaar Fungi Boutique.unity
+#, fuzzy
+msgid ""
+"<align=center>Menu:</align>\n"
+"\n"
+"<align=center>Coffee</align>\n"
+"Filter Coffee \t\t4.5\n"
+"Mushroom Coffee \t6.5\n"
+"Cafe Latte \t\t\t6\n"
+"Coffee Speciale \t\t9.5\n"
+"Spiked Coffee \t\t8\n"
+"\n"
+"\n"
+"<align=center>Tea</align>\n"
+"Tea \t\t\t\t4\n"
+"Mushroom Tea \t\t6\n"
+msgstr ""
+"<align=center>Cardápio:</align>\n"
+"\n"
+"<align=center>Café</align>\n"
+"Café coado \t\t4.5\n"
+"Café de cogumelo \t6.5\n"
+"Café com leite \t\t6\n"
+"Café Speciale \t\t9.5\n"
+"Café batizado \t\t8\n"
+"\n"
+"\n"
+"<align=center>Chá</align>\n"
+"Chá \t\t\t\t4\n"
+"Chá de cogumelo \t\t6\n"
+
+#: Scenes/Interior Bazaar General Store.unity
+#, fuzzy
+msgid "Private"
+msgstr "Privado"
+
+#: Scenes/Interior Bazaar Gym.unity
+#, fuzzy
+msgid "WOMEN"
+msgstr "MULHERES"
+
+#: Scenes/Interior Bazaar Gym.unity
+#, fuzzy
+msgid ""
+"The only bad workout\n"
+" is the one you didn't do."
+msgstr ""
+"O único treino ruim\n"
+" é aquele que você não fez."
+
+#: Scenes/Interior Bazaar Gym.unity
+#, fuzzy
+msgid "MEN"
+msgstr "HOMENS"
+
+#: Scenes/Interior Bazaar Gym.unity
+#, fuzzy
+msgid "Changing Rooms"
+msgstr "Vestiários"
+
+#: Scenes/Interior Bazaar Inn.unity
+#, fuzzy
+msgid ""
+"TOILET\n"
+"SHOWER"
+msgstr ""
+"BANHEIRO\n"
+"CHUVEIRO"
+
+#: Scenes/Interior Bazaar Inn.unity
+#: Scenes/Interior Tenement A.unity
+#: Scenes/Open Sewer Mines.unity
+#, fuzzy
+msgid "OFFICE"
+msgstr "ESCRITÓRIO"
+
+#: Scenes/Interior Bazaar Kino.unity
+#, fuzzy
+msgid ""
+"\n"
+"SPECIAL THANKS\n"
+"\n"
+"Pam Davols\n"
+"\n"
+"Antero Ganto\n"
+"\n"
+"Jimmy Hammer\n"
+"\n"
+"Ranpo Kovaleuka\n"
+"\n"
+"Bob Marmers\n"
+"\n"
+"Bob Newmum\n"
+"\n"
+"Yrjö Perämuta\n"
+"\n"
+"Osmo Rantuvaara\n"
+"\n"
+"Ornald Schwarzenjärvi\n"
+"\n"
+"Tim Urslålund\n"
+"\n"
+"Marlun Östurs\n"
+"The City of Stalburg"
+msgstr ""
+"\n"
+"AGRADECIMENTOS ESPECIAIS\n"
+"\n"
+"Pam Davols\n"
+"\n"
+"Antero Ganto\n"
+"\n"
+"Jimmy Hammer\n"
+"\n"
+"Ranpo Kovaleuka\n"
+"\n"
+"Bob Marmers\n"
+"\n"
+"Bob Newmum\n"
+"\n"
+"Yrjö Perämuta\n"
+"\n"
+"Osmo Rantuvaara\n"
+"\n"
+"Ornald Schwarzenjärvi\n"
+"\n"
+"Tim Urslålund\n"
+"\n"
+"Marlun Östurs\n"
+"Cidade de Stalburg"
+
+#: Scenes/Interior Bazaar Kino.unity
+#, fuzzy
+msgid "All Rights Reserved."
+msgstr "Todos os direitos reservados."
+
+#: Scenes/Interior Bazaar Mallment.unity
+#, fuzzy
+msgid ""
+"<align=center>V</align>\n"
+"   Tax Free Shop\n"
+"   Aziz's Hamburger & Kebab\n"
+"   Toilets\n"
+"   Therapy\n"
+"\n"
+"<align=center>IV</align>\n"
+"   Crypto Bros Games\n"
+"   Coin Wizards Accounting\n"
+"   Laundromat\n"
+"\n"
+"<align=center>III</align>\n"
+"   Open Homes Company\n"
+"   Beauty Salon  \n"
+"   Karaoke\n"
+"\n"
+"<align=center>II</align>\n"
+"   Barber Shop \n"
+"   Veterinary Clinic\n"
+"   Commercial Furniture Shop\n"
+"   Market Hall\n"
+"\tFishmonger\n"
+"\tCafe\n"
+"\tFruit & Berries \n"
+"\tBicycle Shop\n"
+"\n"
+"<align=center>I</align>\n"
+"Gym"
+msgstr ""
+"<align=center>V</align>\n"
+"   Free Shop\n"
+"   Hambúrguer & Kebab do Aziz\n"
+"   Banheiros\n"
+"   Terapia\n"
+"\n"
+"<align=center>IV</align>\n"
+"   Crypto Bros Games\n"
+"   Contabilidade Mago das Moedas\n"
+"   Lavanderia\n"
+"\n"
+"<align=center>III</align>\n"
+"   Open Homes Company\n"
+"   Salão de beleza  \n"
+"   Karaokê\n"
+"\n"
+"<align=center>II</align>\n"
+"   Barbearia \n"
+"   Clínica veterinária\n"
+"   Loja de móveis comerciais\n"
+"   Mercado Municipal\n"
+"\tPeixaria\n"
+"\tCafé\n"
+"\tHortifrúti \n"
+"\tBicicletaria\n"
+"\n"
+"<align=center>I</align>\n"
+"Academia"
+
+#: Scenes/Interior Bazaar Mallment.unity
+#, fuzzy
+msgid "Commercial Furniture Shop"
+msgstr "Loja de móveis comerciais"
+
+#: Scenes/Interior Bazaar Mallment.unity
+#, fuzzy
+msgid "Drink Bar"
+msgstr "Bar de drinques"
+
+#: Scenes/Interior Bazaar Mentti B.unity
+#, fuzzy
+msgid "B7 Lund"
+msgstr "B7 Lund"
+
+#: Scenes/Interior Bazaar Mentti B.unity
+#, fuzzy
+msgid "B10 Ölsund"
+msgstr "B10 Ölsund"
+
+#: Scenes/Interior Bazaar Mentti B.unity
+#, fuzzy
+msgid "B1 Johnson"
+msgstr "B1 Johnson"
+
+#: Scenes/Interior Bazaar Mentti B.unity
+#, fuzzy
+msgid "B12 Vaddafak"
+msgstr "B12 Vaddafak"
+
+#: Scenes/Interior Bazaar Mentti B.unity
+#, fuzzy
+msgid "B9 Tjöck"
+msgstr "B9 Tjöck"
+
+#: Scenes/Interior Bazaar Mentti B.unity
+#, fuzzy
+msgid "B2 Mörssäri"
+msgstr "B2 Mörssäri"
+
+#: Scenes/Interior Bazaar Mentti B.unity
+#, fuzzy
+msgid "B3 Skogström"
+msgstr "B3 Skogström"
+
+#: Scenes/Interior Bazaar Mentti B.unity
+#, fuzzy
+msgid "B6 Sepposson"
+msgstr "B6 Sepposson"
+
+#: Scenes/Interior Bazaar Mentti B.unity
+#, fuzzy
+msgid "B11 Veturinen"
+msgstr "B11 Veturinen"
+
+#: Scenes/Interior Bazaar Mine.unity
+#, fuzzy
+msgid "ELEVATOR DOWN"
+msgstr "ELEVADOR PARA BAIXO"
+
+#: Scenes/Interior Bazaar Mine.unity
+#, fuzzy
+msgid "LEVEL -5"
+msgstr "NÍVEL -5"
+
+#: Scenes/Interior Bazaar Mine.unity
+#, fuzzy
+msgid "LEVEL 0"
+msgstr "NÍVEL 0"
+
+#: Scenes/Interior Bazaar Murju A.unity
+#, fuzzy
+msgid "Mustaruoho"
+msgstr "Mustaruoho"
+
+#: Scenes/Interior Bazaar Murju A.unity
+#, fuzzy
+msgid ""
+"Welcome!\n"
+"\n"
+"Flea Market\n"
+"Open:\n"
+"Mon-Fri\n"
+"8am-4pm"
+msgstr ""
+"Bem-vindo!\n"
+"\n"
+"Brechó\n"
+"Aberto:\n"
+"Seg-Sex\n"
+"8h-16h"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B18 Waering"
+msgstr "B18 Waering"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B17"
+msgstr "B17"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B14 Stenbeck"
+msgstr "B14 Stenbeck"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B7 Cederblom"
+msgstr "B7 Cederblom"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B19 Torsk"
+msgstr "B19 Torsk"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B3 Sörsserström"
+msgstr "B3 Sörsserström"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B8 Sursqvist"
+msgstr "B8 Sursqvist"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B25 Fistqvist"
+msgstr "B25 Fistqvist"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B15 Smith"
+msgstr "B15 Smith"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B22 Kunneli"
+msgstr "B22 Kunneli"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B21 Vinkommun"
+msgstr "B21 Vinkommun"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B16 Pesusieni"
+msgstr "B16 Pesusieni"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid ""
+"B4 Toukari\n"
+msgstr ""
+"B4 Toukari\n"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B10 Savisaar"
+msgstr "B10 Savisaar"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B9 Virtanen"
+msgstr "B9 Virtanen"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B20 Henriksen"
+msgstr "B20 Henriksen"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B11 Petersson"
+msgstr "B11 Petersson"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B2 Dator"
+msgstr "B2 Dator"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B12 Svamp Project LTD"
+msgstr "B12 Svamp Project LTD"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B24 Kukko"
+msgstr "B24 Kukko"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B5 Blue"
+msgstr "B5 Blue"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B23 Lagerfeld"
+msgstr "B23 Lagerfeld"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B13 Ö"
+msgstr "B13 Ö"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B1 Piggyhill"
+msgstr "B1 Piggyhill"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B22"
+msgstr "B22"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B4"
+msgstr "B4"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B20"
+msgstr "B20"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B8"
+msgstr "B8"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B5"
+msgstr "B5"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B18"
+msgstr "B18"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B3"
+msgstr "B3"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B16"
+msgstr "B16"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B19"
+msgstr "B19"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B6"
+msgstr "B6"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B2"
+msgstr "B2"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B1"
+msgstr "B1"
+
+#: Scenes/Interior Bazaar Murju B.unity
+#, fuzzy
+msgid "B23"
+msgstr "B23"
+
+#: Scenes/Interior Bazaar Pontikka.unity
+#, fuzzy
+msgid "Classroom"
+msgstr "Sala de aula"
+
+#: Scenes/Interior Bazaar Power Company.unity
+#, fuzzy
+msgid "Offices, Meeting Room 2"
+msgstr "Escritórios, Sala de reunião 2"
+
+#: Scenes/Interior Bazaar Power Company.unity
+#, fuzzy
+msgid "Meeting Room 1"
+msgstr "Sala de reunião 1"
+
+#: Scenes/Interior Bazaar Power Company.unity
+#, fuzzy
+msgid "Customer service & telemarketing"
+msgstr "Atendimento ao cliente e telemarketing"
+
+#: Scenes/Interior Bazaar Power Company.unity
+#, fuzzy
+msgid "Reception, Meeting Room 1, Kitchen"
+msgstr "Recepção, Sala de reunião 1, Cozinha"
+
+#: Scenes/Interior Bazaar Power Company.unity
+#, fuzzy
+msgid "Meeting Room 2"
+msgstr "Sala de reunião 2"
+
+#: Scenes/Interior Bazaar Power Company.unity
+#, fuzzy
+msgid ""
+"Floor 4\n"
+msgstr ""
+"Andar 4\n"
+
+#: Scenes/Interior Bazaar Power Company.unity
+#, fuzzy
+msgid "Control Room, Workroom"
+msgstr "Sala de controle, Oficina"
+
+#: Scenes/Interior Bazaar Rob-in.unity
+#, fuzzy
+msgid "BUILDING MATERIALS"
+msgstr "MATERIAIS DE CONSTRUÇÃO"
+
+#: Scenes/Interior Bazaar Sauna.unity
+#, fuzzy
+msgid ""
+"STAFF\n"
+"ONLY"
+msgstr ""
+"SOMENTE\n"
+"FUNCIONÁRIOS"
+
+#: Scenes/Interior Start.unity
+#, fuzzy
+msgid "Interview Question Placeholder?"
+msgstr "Pergunta da entrevista aqui?"
+
+#: Scenes/Interior Tenement A.unity
+#, fuzzy
+msgid ""
+"<u>                          <align=center>VII</align>                         <size=%>0<size=100%></u>\n"
+"A12  Ylitalo     \tA13\n"
+"A14 Söderström\n"
+"\n"
+"<u>                          <align=center>VI</align>                          <size=%>0<size=100%></u>\n"
+"A9  Grachyov \tA10  Walker \n"
+"A11 Kuosta\n"
+"\n"
+"<u>                           <align=center>V</align>                          <size=%>0<size=100%></u>\n"
+"A7  Taylor       \tA8  Eki\n"
+"\n"
+"<u>                          <align=center>IV</align>                          <size=%>0<size=100%></u>\n"
+"A5  Green        \tA6  Eskola\n"
+"\n"
+"<u>                          <align=center>III</align>                           <size=%>0<size=100%></u>\n"
+"A3  Kyntiö      \tA4  Rummo\n"
+"\n"
+"<u>                          <align=center>II</align>                            <size=%>0<size=100%></u>\n"
+"A1  Hietala    \tA2  Huang"
+msgstr ""
+"<u>                          <align=center>VII</align>                         <size=%>0<size=100%></u>\n"
+"A12  Ylitalo     \tA13\n"
+"A14 Söderström\n"
+"\n"
+"<u>                          <align=center>VI</align>                          <size=%>0<size=100%></u>\n"
+"A9  Grachyov \tA10  Walker \n"
+"A11 Kuosta\n"
+"\n"
+"<u>                           <align=center>V</align>                          <size=%>0<size=100%></u>\n"
+"A7  Taylor       \tA8  Eki\n"
+"\n"
+"<u>                          <align=center>IV</align>                          <size=%>0<size=100%></u>\n"
+"A5  Green        \tA6  Eskola\n"
+"\n"
+"<u>                          <align=center>III</align>                           <size=%>0<size=100%></u>\n"
+"A3  Kyntiö      \tA4  Rummo\n"
+"\n"
+"<u>                          <align=center>II</align>                            <size=%>0<size=100%></u>\n"
+"A1  Hietala    \tA2  Huang"
+
+#: Scenes/Interior Tenement A.unity
+#, fuzzy
+msgid "Kyntiö"
+msgstr "Kyntiö"
+
+#: Scenes/Interior Tenement A.unity
+#, fuzzy
+msgid "Walker"
+msgstr "Walker"
+
+#: Scenes/Interior Tenement A.unity
+#, fuzzy
+msgid "Taylor"
+msgstr "Taylor"
+
+#: Scenes/Interior Tenement A.unity
+#, fuzzy
+msgid "Rummo"
+msgstr "Rummo"
+
+#: Scenes/Interior Tenement A.unity
+#, fuzzy
+msgid "Hietala"
+msgstr "Hietala"
+
+#: Scenes/Interior Tenement A.unity
+#, fuzzy
+msgid "Green"
+msgstr "Green"
+
+#: Scenes/Interior Tenement A.unity
+#, fuzzy
+msgid "Eki"
+msgstr "Eki"
+
+#: Scenes/Interior Tenement A.unity
+#, fuzzy
+msgid "Grachyov"
+msgstr "Grachyov"
+
+#: Scenes/Interior Tenement A.unity
+#, fuzzy
+msgid "Huang"
+msgstr "Huang"
+
+#: Scenes/Interior Tenement A.unity
+#, fuzzy
+msgid "CANTEEN"
+msgstr "REFEITÓRIO"
+
+#: Scenes/Interior Tenement Gatehouse.unity
+#, fuzzy
+msgid "CELL 2"
+msgstr "CELA 2"
+
+#: Scenes/Interior Tenement Gatehouse.unity
+#, fuzzy
+msgid "CELL 1"
+msgstr "CELA 1"
+
+#: Scenes/Interior Tenement Kolhola.unity
+#: Scenes/Open Sewer Mines.unity
+#, fuzzy
+msgid "TEXT"
+msgstr "TEXTO"
+
+#: Scenes/Interior Tenement Kolhola.unity
+#, fuzzy
+msgid "OS Telemarketing Company"
+msgstr "Companhia de Telemarketing OS"
+
+#: Scenes/Interior Tenement Kolhola.unity
+#, fuzzy
+msgid "Hannula"
+msgstr "Hannula"
+
+#: Scenes/Interior Tenement Kolhola.unity
+#, fuzzy
+msgid "Takemura"
+msgstr "Takemura"
+
+#: Scenes/Interior Tenement Kolhola.unity
+#, fuzzy
+msgid "Duck"
+msgstr "Duck"
+
+#: Scenes/Interior Tenement Kolhola.unity
+#, fuzzy
+msgid "Mehmula"
+msgstr "Mehmula"
+
+#: Scenes/Interior Tenement Kolhola.unity
+#, fuzzy
+msgid "Guldskjöld"
+msgstr "Guldskjöld"
+
+#: Scenes/Interior Tenement Kolhola.unity
+#, fuzzy
+msgid "Alveberg"
+msgstr "Alveberg"
+
+#: Scenes/Interior Tenement Kolhola.unity
+#, fuzzy
+msgid "Freighter"
+msgstr "Freighter"
+
+#: Scenes/Interior Tenement Kolhola.unity
+#, fuzzy
+msgid "Björklund"
+msgstr "Björklund"
+
+#: Scenes/Interior Tenement Kolhola.unity
+#, fuzzy
+msgid "Morton"
+msgstr "Morton"
+
+#: Scenes/Interior Tenement Kolhola.unity
+#, fuzzy
+msgid "Haka"
+msgstr "Haka"
+
+#: Scenes/Interior Tenement Kolhola.unity
+#, fuzzy
+msgid "Taisto"
+msgstr "Taisto"
+
+#: Scenes/Interior Tenement Kolhola.unity
+#, fuzzy
+msgid "Klockar"
+msgstr "Klockar"
+
+#: Scenes/Interior Tenement Kolhola.unity
+#, fuzzy
+msgid "Dentist"
+msgstr "Dentist"
+
+#: Scenes/Interior Tenement Kolhola.unity
+#, fuzzy
+msgid "Pasila"
+msgstr "Pasila"
+
+#: Scenes/Interior Tenement Kolhola.unity
+#, fuzzy
+msgid "Passmore"
+msgstr "Passmore"
+
+#: Scenes/Interior Tenement Kolhola.unity
+#, fuzzy
+msgid "Barber"
+msgstr "Barber"
+
+#: Scenes/Interior Tenement Kolhola.unity
+#, fuzzy
+msgid "OS Telemarket"
+msgstr "OS Telemarket"
+
+#: Scenes/Interior Tenement Kolhola.unity
+#, fuzzy
+msgid "Maisema"
+msgstr "Maisema"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Remove all saves for this character?"
+msgstr "Apagar todos os jogos salvos deste personagem?"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "This save was created on an older version of the game and might have outdated data. Do you want to load the save?"
+msgstr "Este jogo salvo foi criado numa versão mais antiga do jogo e pode ter dados desatualizados. Quer carregar este jogo salvo?"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "First Name"
+msgstr "Nome"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Open Menu"
+msgstr "Abrir menu"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Clearly Visible"
+msgstr "Bem visível"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "V. PENTTI"
+msgstr "V. PENTTI"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Last Name"
+msgstr "Sobrenome"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "CUSTOM"
+msgstr "PERSONALIZADA"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid ""
+"DEFAULT DIFFICULTY:\n"
+"\n"
+"The most balanced difficulty, which is recommended to be tried first."
+msgstr ""
+"DIFICULDADE PADRÃO:\n"
+"\n"
+"A dificuldade mais equilibrada. Recomendada para a primeira partida."
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "New Game"
+msgstr "Novo jogo"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "REMOVE SLOT 1?"
+msgstr "APAGAR ESPAÇO 1?"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Press any key to continue"
+msgstr "Pressione qualquer tecla para continuar"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Quit?"
+msgstr "Sair?"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Renovation Resource Costs"
+msgstr "Material da reforma"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Disabling mandatory starting addictions removes the addiction and disease penalties from affected character creation choices."
+msgstr "Desativar os vícios iniciais obrigatórios remove as penalidades de vício e de doença das escolhas de criação de personagem afetadas."
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Adjust screen brightness"
+msgstr "Ajuste o brilho da tela"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "CASUAL"
+msgstr "CASUAL"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Advanced"
+msgstr "Avançado"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Loading..."
+msgstr "Carregando..."
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Barely Visible"
+msgstr "Pouco visível"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "BACKSPACE"
+msgstr "BACKSPACE"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Not Visible"
+msgstr "Invisível"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Randomize All"
+msgstr "Aleatorizar tudo"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Gender"
+msgstr "Gênero"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "MALE"
+msgstr "MASCULINO"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Preset"
+msgstr "Predefinição"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Jacket"
+msgstr "Jaqueta"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "-Movement-"
+msgstr "-Movimento-"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Nose Root"
+msgstr "Base do nariz"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Nose Tip"
+msgstr "Ponta do nariz"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Jaw Position"
+msgstr "Posição da mandíbula"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Neck Lenght"
+msgstr "Comprimento do pescoço"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Eye Depth"
+msgstr "Profundidade dos olhos"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Breast Size"
+msgstr "Tamanho dos seios"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Hand Size"
+msgstr "Tamanho das mãos"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Lip Thickness"
+msgstr "Espessura dos lábios"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Foot Size"
+msgstr "Tamanho dos pés"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Shape"
+msgstr "Formato"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Nose Width"
+msgstr "Largura do nariz"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Head Size"
+msgstr "Tamanho da cabeça"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Eye Size"
+msgstr "Tamanho dos olhos"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Eye Position"
+msgstr "Posição dos olhos"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Ear Size"
+msgstr "Tamanho das orelhas"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Eye Distance"
+msgstr "Distância entre os olhos"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Shoulder Width"
+msgstr "Largura dos ombros"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Height"
+msgstr "Altura"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Ear Rotation"
+msgstr "Rotação das orelhas"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Chin Position"
+msgstr "Posição do queixo"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "FOV"
+msgstr "Campo de visão"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Skin"
+msgstr "Pele"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Hat"
+msgstr "Chapéu"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Glasses"
+msgstr "Óculos"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Socks"
+msgstr "Meias"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Shirt"
+msgstr "Camisa"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Hair"
+msgstr "Cabelo"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Beard"
+msgstr "Barba"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Pants"
+msgstr "Calça"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Shoes"
+msgstr "Sapatos"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid ""
+"A character with this name already exists.\n"
+"\n"
+"Delete all saves for this character and start a new game?\n"
+"\n"
+"This action cannot be undone!\n"
+msgstr ""
+"Já existe um personagem com este nome.\n"
+"\n"
+"Apagar todos os jogos salvos deste personagem e começar um novo jogo?\n"
+"\n"
+"Esta ação não pode ser desfeita!\n"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Key bindings"
+msgstr "Teclas"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Face"
+msgstr "Rosto"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Remove ALL SLOTS"
+msgstr "Apagar TODOS os espaços"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Next"
+msgstr "Próximo"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Clothes"
+msgstr "Roupas"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "LOAD"
+msgstr "CARREGAR"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Body"
+msgstr "Corpo"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Quit"
+msgstr "Sair"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "CREDITS"
+msgstr "CRÉDITOS"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Face Size"
+msgstr "Tamanho do rosto"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "-Menu-"
+msgstr "-Menu-"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "-Wieldables-"
+msgstr "-Itens na mão-"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "-Building-"
+msgstr "-Construção-"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "-Navigation-"
+msgstr "-Navegação-"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Last name..."
+msgstr "Sobrenome..."
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid ""
+"BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n"
+"BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBw"
+msgstr ""
+"BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB\n"
+"BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBw"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Weekly"
+msgstr "Semanal"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "ENABLED"
+msgstr "ATIVADO"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Autosave Mode"
+msgstr "Salvamento automático"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Speaker Mode"
+msgstr "Modo de alto-falantes"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Shadow quality"
+msgstr "Qualidade das sombras"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Full Screen"
+msgstr "Tela cheia"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "DEFAULT"
+msgstr "PADRÃO"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Wealth of Merchants"
+msgstr "Riqueza dos comerciantes"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Texture resolution"
+msgstr "Resolução das texturas"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Stereo"
+msgstr "Estéreo"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Shadow resolution"
+msgstr "Resolução das sombras"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "First name..."
+msgstr "Nome..."
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Navigation"
+msgstr "Navegação"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Building"
+msgstr "Construção"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Wieldables"
+msgstr "Itens na mão"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Menu Left"
+msgstr "Menu à esquerda"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Escape"
+msgstr "Esc"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Drag And Drop"
+msgstr "Arrastar e soltar"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Menu Right"
+msgstr "Menu à direita"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Info"
+msgstr "Informações"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Age"
+msgstr "Idade"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Skip Intro"
+msgstr "Pular introdução"
+
+#: Scenes/Main Menu.unity
+#, fuzzy
+msgid "Hip Width"
+msgstr "Largura do quadril"
+
+#: Scenes/Open Sewer Bazaar.unity
+#, fuzzy
+msgid ""
+"<align=center>Open</align>\n"
+"\n"
+"<align=center>Mon-Fri</align>\n"
+"<align=center>8-18</align>\n"
+"\n"
+"<align=center>Sat</align>\n"
+"<align=center>10-18</align>\n"
+"\n"
+"<align=center>Sun</align>\n"
+"<align=center>12-18</align>\n"
+msgstr ""
+"<align=center>Aberto</align>\n"
+"\n"
+"<align=center>Seg-Sex</align>\n"
+"<align=center>8-18</align>\n"
+"\n"
+"<align=center>Sáb</align>\n"
+"<align=center>10-18</align>\n"
+"\n"
+"<align=center>Dom</align>\n"
+"<align=center>12-18</align>\n"
+
+#: Scenes/Open Sewer Bazaar.unity
+#: Scenes/Open Sewer Tenement.unity
+#, fuzzy
+msgid "PASSPORT INSPECTION"
+msgstr "CONTROLE DE PASSAPORTES"
+
+#: Scenes/Open Sewer Bazaar.unity
+#, fuzzy
+msgid "Arnaldur"
+msgstr "Arnaldur"
+
+#: Scenes/Open Sewer Bazaar.unity
+#, fuzzy
+msgid ""
+"Welcome!\n"
+"\n"
+"Open:\n"
+"Mon-Fri\n"
+"8am-4pm"
+msgstr ""
+"Bem-vindo!\n"
+"\n"
+"Aberto:\n"
+"Seg-Sex\n"
+"8h-16h"
+
+#: Scenes/Open Sewer Intro.unity
+#, fuzzy
+msgid "SEWER"
+msgstr "ESGOTO"
+
+#: Scenes/Open Sewer Intro.unity
+#, fuzzy
+msgid "OPEN SEWER"
+msgstr "ESGOTO ABERTO"
+
+#: Scenes/Open Sewer Metro.unity
+#, fuzzy
+msgid "< Vilppu"
+msgstr "< Vilppu"
+
+#: Scenes/Open Sewer Metro.unity
+#, fuzzy
+msgid "< Obenseuer Station"
+msgstr "< Estação Obenseuer"
+
+#: Scenes/Open Sewer Mines.unity
+#, fuzzy
+msgid "ELEVATOR TO SURFACE"
+msgstr "ELEVADOR PARA A SUPERFÍCIE"
+
+#: Scenes/Open Sewer Mines.unity
+#, fuzzy
+msgid "LEVEL -45"
+msgstr "NÍVEL -45"
+
+#: Scenes/Open Sewer Mines.unity
+#, fuzzy
+msgid "Somewhere >"
+msgstr "Algum lugar >"
+
+#: Scenes/Open Sewer Mines.unity
+#, fuzzy
+msgid "The Black Rock Nuclear Powerplant? >"
+msgstr "A Usina Nuclear de Black Rock? >"
+
+#: Scenes/Open Sewer Mines.unity
+#, fuzzy
+msgid "MANAGEMENT"
+msgstr "ADMINISTRAÇÃO"
+
+#: Scenes/Open Sewer Mines.unity
+#, fuzzy
+msgid "SENSORS"
+msgstr "SENSORES"
+
+#: Scenes/Open Sewer Mines.unity
+#, fuzzy
+msgid "LIGHTS"
+msgstr "LUZES"
+
+#: Scenes/Open Sewer Tenement.unity
+#, fuzzy
+msgid ""
+"MON-FRI\n"
+"8-16"
+msgstr ""
+"SEG-SEX\n"
+"8-16"
+
+#: Scenes/Open Sewer Tenement.unity
+#, fuzzy
+msgid "JANITOR SERVICES"
+msgstr "SERVIÇOS DE ZELADORIA"
+
+#: Scenes/Open Sewer Tenement.unity
+#, fuzzy
+msgid "SEEDS"
+msgstr "SEMENTES"
+
+#: Scenes/Open Sewer Tenement.unity
+#, fuzzy
+msgid "<rotate=90>BAZAAR"
+msgstr "<rotate=90>BAZAR"
+
+#: Scenes/Test Map Empty.unity
+#, fuzzy
+msgid "NAME"
+msgstr "NOME"
+
+#, fuzzy
+msgid "Enabled"
+msgstr "Ativado"
+
+#, fuzzy
+msgid "Item added!"
+msgstr "Item adicionado!"
+
+#, fuzzy
+msgid "Items added!"
+msgstr "Itens adicionados!"
+
+#, fuzzy
+msgid "Item removed!"
+msgstr "Item removido!"
+
+#, fuzzy
+msgid "Item dropped!"
+msgstr "Item largado!"
+
+#, fuzzy
+msgid "New Task"
+msgstr "Nova tarefa"
+
+#, fuzzy
+msgid "Sell"
+msgstr "Vender"
+
+#, fuzzy
+msgid "Use"
+msgstr "Usar"
+

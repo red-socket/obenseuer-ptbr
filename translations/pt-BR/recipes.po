@@ -1,0 +1,5618 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Obenseuer PT-BR\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Recipes.json:0
+#, fuzzy
+msgctxt "recipe.0.name"
+msgid "Turnip mash"
+msgstr "Garapa de nabo"
+
+#: Recipes.json:10001
+#, fuzzy
+msgctxt "recipe.10001.name"
+msgid "Turnip mushroom mash"
+msgstr "Garapa de nabo com cogumelos"
+
+#: Recipes.json:10008
+#, fuzzy
+msgctxt "recipe.10008.name"
+msgid "Potato mash"
+msgstr "Garapa de batata"
+
+#: Recipes.json:10010
+#, fuzzy
+msgctxt "recipe.10010.name"
+msgid "Potato mushroom mash"
+msgstr "Garapa de batata com cogumelos"
+
+#: Recipes.json:10012
+#, fuzzy
+msgctxt "recipe.10012.name"
+msgid "Fecal mash"
+msgstr "Garapa de fezes"
+
+#: Recipes.json:10013
+#, fuzzy
+msgctxt "recipe.10013.name"
+msgid "Fecal mushroom mash"
+msgstr "Garapa de fezes com cogumelos"
+
+#: Recipes.json:10016
+#, fuzzy
+msgctxt "recipe.10016.name"
+msgid "Carrot mash"
+msgstr "Garapa de cenoura"
+
+#: Recipes.json:10019
+#, fuzzy
+msgctxt "recipe.10019.name"
+msgid "Carrot mushroom mash"
+msgstr "Garapa de cenoura com cogumelos"
+
+#: Recipes.json:10020
+#, fuzzy
+msgctxt "recipe.10020.name"
+msgid "Beer mash"
+msgstr "Garapa de cerveja"
+
+#: Recipes.json:10023
+#, fuzzy
+msgctxt "recipe.10023.name"
+msgid "Mushroom beer mash"
+msgstr "Garapa de cerveja com cogumelos"
+
+#: Recipes.json:10024
+#, fuzzy
+msgctxt "recipe.10024.name"
+msgid "Turnip wine"
+msgstr "Vinho de nabo"
+
+#: Recipes.json:10025
+#, fuzzy
+msgctxt "recipe.10025.name"
+msgid "Turnip mushroom wine"
+msgstr "Vinho de nabo com cogumelos"
+
+#: Recipes.json:10027
+#, fuzzy
+msgctxt "recipe.10027.name"
+msgid "Kilju"
+msgstr "Kilju"
+
+#: Recipes.json:10028
+#, fuzzy
+msgctxt "recipe.10028.name"
+msgid "Mushroom kilju"
+msgstr "Kilju com cogumelos"
+
+#: Recipes.json:10030
+#, fuzzy
+msgctxt "recipe.10030.name"
+msgid "Potato wine"
+msgstr "Vinho de batata"
+
+#: Recipes.json:10031
+#, fuzzy
+msgctxt "recipe.10031.name"
+msgid "Potato mushroom wine"
+msgstr "Vinho de batata com cogumelos"
+
+#: Recipes.json:10033
+#, fuzzy
+msgctxt "recipe.10033.name"
+msgid "Fecal kilju"
+msgstr "Kilju fecal"
+
+#: Recipes.json:10035
+#, fuzzy
+msgctxt "recipe.10035.name"
+msgid "Fecal mushroom kilju"
+msgstr "Kilju fecal com cogumelos"
+
+#: Recipes.json:10037
+#, fuzzy
+msgctxt "recipe.10037.name"
+msgid "Carrot wine"
+msgstr "Vinho de cenoura"
+
+#: Recipes.json:10038
+#, fuzzy
+msgctxt "recipe.10038.name"
+msgid "Carrot mushroom wine"
+msgstr "Vinho de cenoura com cogumelos"
+
+#: Recipes.json:10039
+#, fuzzy
+msgctxt "recipe.10039.name"
+msgid "Beer"
+msgstr "Cerveja"
+
+#: Recipes.json:10040
+#, fuzzy
+msgctxt "recipe.10040.name"
+msgid "Mushroom beer"
+msgstr "Cerveja com cogumelos"
+
+#: Recipes.json:10054
+#, fuzzy
+msgctxt "recipe.10054.name"
+msgid "Carrot  Moonshine"
+msgstr "Cachaça de cenoura"
+
+#: Recipes.json:10055
+#, fuzzy
+msgctxt "recipe.10055.name"
+msgid "Carrot Mushroom Moonshine"
+msgstr "Cachaça de cenoura com cogumelos"
+
+#: Recipes.json:10060
+#, fuzzy
+msgctxt "recipe.10060.name"
+msgid "Cooked chicken"
+msgstr "Frango cozido"
+
+#: Recipes.json:10061
+#, fuzzy
+msgctxt "recipe.10061.name"
+msgid "Cooked glowing chicken"
+msgstr "Frango cozido brilhante"
+
+#: Recipes.json:10062
+#, fuzzy
+msgctxt "recipe.10062.name"
+msgid "Mystery steak"
+msgstr "Bife misterioso"
+
+#: Recipes.json:10063
+#, fuzzy
+msgctxt "recipe.10063.name"
+msgid "Glowing mystery steak"
+msgstr "Bife misterioso brilhante"
+
+#: Recipes.json:10064
+#, fuzzy
+msgctxt "recipe.10064.name"
+msgid "Fried rat"
+msgstr "Rato na frigideira"
+
+#: Recipes.json:10065
+#, fuzzy
+msgctxt "recipe.10065.name"
+msgid "Fried glowing rat"
+msgstr "Rato brilhante na frigideira"
+
+#: Recipes.json:10066
+#, fuzzy
+msgctxt "recipe.10066.name"
+msgid "Cat steak"
+msgstr "Bife de gato"
+
+#: Recipes.json:10067
+#, fuzzy
+msgctxt "recipe.10067.name"
+msgid "Glowing cat steak"
+msgstr "Bife de gato brilhante"
+
+#: Recipes.json:10068
+#, fuzzy
+msgctxt "recipe.10068.name"
+msgid "Cooked dog"
+msgstr "Cachorro cozido"
+
+#: Recipes.json:10069
+#, fuzzy
+msgctxt "recipe.10069.name"
+msgid "Cooked glowing dog"
+msgstr "Cachorro cozido brilhante"
+
+#: Recipes.json:10070
+#, fuzzy
+msgctxt "recipe.10070.name"
+msgid "Pork steak"
+msgstr "Bife de porco"
+
+#: Recipes.json:10071
+#, fuzzy
+msgctxt "recipe.10071.name"
+msgid "Glowing pork steak"
+msgstr "Bife de porco brilhante"
+
+#: Recipes.json:10072
+#, fuzzy
+msgctxt "recipe.10072.name"
+msgid "Beef steak"
+msgstr "Bife"
+
+#: Recipes.json:10073
+#, fuzzy
+msgctxt "recipe.10073.name"
+msgid "Glowing beef steak"
+msgstr "Bife brilhante"
+
+#: Recipes.json:10074
+#, fuzzy
+msgctxt "recipe.10074.name"
+msgid "Chicken Rye Sandwich"
+msgstr "Lanche de centeio de frango"
+
+#: Recipes.json:10075
+#, fuzzy
+msgctxt "recipe.10075.name"
+msgid "Mystery Rye Sandwich"
+msgstr "Lanche de centeio misterioso"
+
+#: Recipes.json:10076
+#, fuzzy
+msgctxt "recipe.10076.name"
+msgid "Rat Rye Sandwich"
+msgstr "Lanche de centeio de rato"
+
+#: Recipes.json:10077
+#, fuzzy
+msgctxt "recipe.10077.name"
+msgid "Cat Rye Sandwich"
+msgstr "Lanche de centeio de gato"
+
+#: Recipes.json:10078
+#, fuzzy
+msgctxt "recipe.10078.name"
+msgid "Dog Rye Sandwich"
+msgstr "Lanche de centeio de cachorro"
+
+#: Recipes.json:10079
+#, fuzzy
+msgctxt "recipe.10079.name"
+msgid "Pork Rye Sandwich"
+msgstr "Lanche de centeio de porco"
+
+#: Recipes.json:10080
+#, fuzzy
+msgctxt "recipe.10080.name"
+msgid "Beef Rye Sandwich"
+msgstr "Lanche de centeio de carne"
+
+#: Recipes.json:10081
+#, fuzzy
+msgctxt "recipe.10081.name"
+msgid "Chicken Sawdust Rye Sandwich"
+msgstr "Lanche de centeio de frango com serragem"
+
+#: Recipes.json:10082
+#, fuzzy
+msgctxt "recipe.10082.name"
+msgid "Mystery Sawdust Rye Sandwich"
+msgstr "Lanche de centeio misterioso com serragem"
+
+#: Recipes.json:10083
+#, fuzzy
+msgctxt "recipe.10083.name"
+msgid "Rat Sawdust Rye Sandwich"
+msgstr "Lanche de centeio de rato com serragem"
+
+#: Recipes.json:10084
+#, fuzzy
+msgctxt "recipe.10084.name"
+msgid "Cat Sawdust Rye Sandwich"
+msgstr "Lanche de centeio de gato com serragem"
+
+#: Recipes.json:10085
+#, fuzzy
+msgctxt "recipe.10085.name"
+msgid "Dog Sawdust Rye Sandwich"
+msgstr "Lanche de centeio de cachorro com serragem"
+
+#: Recipes.json:10086
+#, fuzzy
+msgctxt "recipe.10086.name"
+msgid "Pork Sawdust Rye Sandwich"
+msgstr "Lanche de centeio de porco com serragem"
+
+#: Recipes.json:10087
+#, fuzzy
+msgctxt "recipe.10087.name"
+msgid "Beef Sawdust Rye Sandwich"
+msgstr "Lanche de centeio de carne com serragem"
+
+#: Recipes.json:10088
+#, fuzzy
+msgctxt "recipe.10088.name"
+msgid "Glowing Chicken Rye Sandwich"
+msgstr "Lanche de centeio de frango brilhante"
+
+#: Recipes.json:10089
+#, fuzzy
+msgctxt "recipe.10089.name"
+msgid "Glowing Mystery Rye Sandwich"
+msgstr "Lanche de centeio misterioso brilhante"
+
+#: Recipes.json:10090
+#, fuzzy
+msgctxt "recipe.10090.name"
+msgid "Glowing Rat Rye Sandwich"
+msgstr "Lanche de centeio de rato brilhante"
+
+#: Recipes.json:10091
+#, fuzzy
+msgctxt "recipe.10091.name"
+msgid "Glowing Cat Rye Sandwich"
+msgstr "Lanche de centeio de gato brilhante"
+
+#: Recipes.json:10092
+#, fuzzy
+msgctxt "recipe.10092.name"
+msgid "Glowing Dog Rye Sandwich"
+msgstr "Lanche de centeio de cachorro brilhante"
+
+#: Recipes.json:10093
+#, fuzzy
+msgctxt "recipe.10093.name"
+msgid "Glowing Pork Rye Sandwich"
+msgstr "Lanche de centeio de porco brilhante"
+
+#: Recipes.json:10094
+#, fuzzy
+msgctxt "recipe.10094.name"
+msgid "Glowing Beef Rye Sandwich"
+msgstr "Lanche de centeio de carne brilhante"
+
+#: Recipes.json:10095
+#, fuzzy
+msgctxt "recipe.10095.name"
+msgid "Glowing Chicken Rye Sandwich"
+msgstr "Lanche de centeio de frango brilhante"
+
+#: Recipes.json:10096
+#, fuzzy
+msgctxt "recipe.10096.name"
+msgid "Glowing Mystery Rye Sandwich"
+msgstr "Lanche de centeio misterioso brilhante"
+
+#: Recipes.json:10097
+#, fuzzy
+msgctxt "recipe.10097.name"
+msgid "Glowing Rat Rye Sandwich"
+msgstr "Lanche de centeio de rato brilhante"
+
+#: Recipes.json:10098
+#, fuzzy
+msgctxt "recipe.10098.name"
+msgid "Glowing Cat Rye Sandwich"
+msgstr "Lanche de centeio de gato brilhante"
+
+#: Recipes.json:10099
+#, fuzzy
+msgctxt "recipe.10099.name"
+msgid "Glowing Dog Rye Sandwich"
+msgstr "Lanche de centeio de cachorro brilhante"
+
+#: Recipes.json:10100
+#, fuzzy
+msgctxt "recipe.10100.name"
+msgid "Glowing Pork Rye Sandwich"
+msgstr "Lanche de centeio de porco brilhante"
+
+#: Recipes.json:10101
+#, fuzzy
+msgctxt "recipe.10101.name"
+msgid "Glowing Beef Rye Sandwich"
+msgstr "Lanche de centeio de carne brilhante"
+
+#: Recipes.json:10102
+#, fuzzy
+msgctxt "recipe.10102.name"
+msgid "Glowing Chicken Rye Sandwich"
+msgstr "Lanche de centeio de frango brilhante"
+
+#: Recipes.json:10103
+#, fuzzy
+msgctxt "recipe.10103.name"
+msgid "Glowing Mystery Rye Sandwich"
+msgstr "Lanche de centeio misterioso brilhante"
+
+#: Recipes.json:10104
+#, fuzzy
+msgctxt "recipe.10104.name"
+msgid "Glowing Rat Rye Sandwich"
+msgstr "Lanche de centeio de rato brilhante"
+
+#: Recipes.json:10105
+#, fuzzy
+msgctxt "recipe.10105.name"
+msgid "Glowing Cat Rye Sandwich"
+msgstr "Lanche de centeio de gato brilhante"
+
+#: Recipes.json:10106
+#, fuzzy
+msgctxt "recipe.10106.name"
+msgid "Glowing Dog Rye Sandwich"
+msgstr "Lanche de centeio de cachorro brilhante"
+
+#: Recipes.json:10107
+#, fuzzy
+msgctxt "recipe.10107.name"
+msgid "Glowing Pork Rye Sandwich"
+msgstr "Lanche de centeio de porco brilhante"
+
+#: Recipes.json:10108
+#, fuzzy
+msgctxt "recipe.10108.name"
+msgid "Glowing Beef Rye Sandwich"
+msgstr "Lanche de centeio de carne brilhante"
+
+#: Recipes.json:10109
+#, fuzzy
+msgctxt "recipe.10109.name"
+msgid "Glowing Chicken Sawdust Rye Sandwich"
+msgstr "Lanche de centeio de frango brilhante com serragem"
+
+#: Recipes.json:10110
+#, fuzzy
+msgctxt "recipe.10110.name"
+msgid "Glowing Mystery Sawdust Rye Sandwich"
+msgstr "Lanche de centeio misterioso brilhante com serragem"
+
+#: Recipes.json:10111
+#, fuzzy
+msgctxt "recipe.10111.name"
+msgid "Glowing Rat Sawdust Rye Sandwich"
+msgstr "Lanche de centeio de rato brilhante com serragem"
+
+#: Recipes.json:10112
+#, fuzzy
+msgctxt "recipe.10112.name"
+msgid "Glowing Cat Sawdust Rye Sandwich"
+msgstr "Lanche de centeio de gato brilhante com serragem"
+
+#: Recipes.json:10113
+#, fuzzy
+msgctxt "recipe.10113.name"
+msgid "Glowing Dog Sawdust Rye Sandwich"
+msgstr "Lanche de centeio de cachorro brilhante com serragem"
+
+#: Recipes.json:10114
+#, fuzzy
+msgctxt "recipe.10114.name"
+msgid "Glowing Pork Sawdust Rye Sandwich"
+msgstr "Lanche de centeio de porco brilhante com serragem"
+
+#: Recipes.json:10115
+#, fuzzy
+msgctxt "recipe.10115.name"
+msgid "Glowing Beef Sawdust Rye Sandwich"
+msgstr "Lanche de centeio de carne brilhante com serragem"
+
+#: Recipes.json:10116
+#, fuzzy
+msgctxt "recipe.10116.name"
+msgid "Glowing Chicken Sawdust Rye Sandwich"
+msgstr "Lanche de centeio de frango brilhante com serragem"
+
+#: Recipes.json:10117
+#, fuzzy
+msgctxt "recipe.10117.name"
+msgid "Glowing Mystery Sawdust Rye Sandwich"
+msgstr "Lanche de centeio misterioso brilhante com serragem"
+
+#: Recipes.json:10118
+#, fuzzy
+msgctxt "recipe.10118.name"
+msgid "Glowing Rat Sawdust Rye Sandwich"
+msgstr "Lanche de centeio de rato brilhante com serragem"
+
+#: Recipes.json:10119
+#, fuzzy
+msgctxt "recipe.10119.name"
+msgid "Glowing Cat Sawdust Rye Sandwich"
+msgstr "Lanche de centeio de gato brilhante com serragem"
+
+#: Recipes.json:10120
+#, fuzzy
+msgctxt "recipe.10120.name"
+msgid "Glowing Dog Sawdust Rye Sandwich"
+msgstr "Lanche de centeio de cachorro brilhante com serragem"
+
+#: Recipes.json:10121
+#, fuzzy
+msgctxt "recipe.10121.name"
+msgid "Glowing Pork Sawdust Rye Sandwich"
+msgstr "Lanche de centeio de porco brilhante com serragem"
+
+#: Recipes.json:10122
+#, fuzzy
+msgctxt "recipe.10122.name"
+msgid "Glowing Beef Sawdust Rye Sandwich"
+msgstr "Lanche de centeio de carne brilhante com serragem"
+
+#: Recipes.json:10123
+#, fuzzy
+msgctxt "recipe.10123.name"
+msgid "Glowing Chicken Sawdust Rye Sandwich"
+msgstr "Lanche de centeio de frango brilhante com serragem"
+
+#: Recipes.json:10124
+#, fuzzy
+msgctxt "recipe.10124.name"
+msgid "Glowing Mystery Sawdust Rye Sandwich"
+msgstr "Lanche de centeio misterioso brilhante com serragem"
+
+#: Recipes.json:10125
+#, fuzzy
+msgctxt "recipe.10125.name"
+msgid "Glowing Rat Sawdust Rye Sandwich"
+msgstr "Lanche de centeio de rato brilhante com serragem"
+
+#: Recipes.json:10126
+#, fuzzy
+msgctxt "recipe.10126.name"
+msgid "Glowing Cat Sawdust Rye Sandwich"
+msgstr "Lanche de centeio de gato brilhante com serragem"
+
+#: Recipes.json:10127
+#, fuzzy
+msgctxt "recipe.10127.name"
+msgid "Glowing Dog Sawdust Rye Sandwich"
+msgstr "Lanche de centeio de cachorro brilhante com serragem"
+
+#: Recipes.json:10128
+#, fuzzy
+msgctxt "recipe.10128.name"
+msgid "Glowing Pork Sawdust Rye Sandwich"
+msgstr "Lanche de centeio de porco brilhante com serragem"
+
+#: Recipes.json:10129
+#, fuzzy
+msgctxt "recipe.10129.name"
+msgid "Glowing Beef Sawdust Rye Sandwich"
+msgstr "Lanche de centeio de carne brilhante com serragem"
+
+#: Recipes.json:10130
+#, fuzzy
+msgctxt "recipe.10130.name"
+msgid "Boiled turnip"
+msgstr "Nabo cozido"
+
+#: Recipes.json:10131
+#, fuzzy
+msgctxt "recipe.10131.name"
+msgid "Grilled turnip"
+msgstr "Nabo grelhado"
+
+#: Recipes.json:10132
+#, fuzzy
+msgctxt "recipe.10132.name"
+msgid "Boiled potato"
+msgstr "Batata cozida"
+
+#: Recipes.json:10133
+#, fuzzy
+msgctxt "recipe.10133.name"
+msgid "Grilled potato"
+msgstr "Batata grelhada"
+
+#: Recipes.json:10134
+#, fuzzy
+msgctxt "recipe.10134.name"
+msgid "Sugarbeet juice"
+msgstr "Suco de beterraba açucareira"
+
+#: Recipes.json:10141
+#, fuzzy
+msgctxt "recipe.10141.name"
+msgid "Hot Dog"
+msgstr "Cachorro-quente"
+
+#: Recipes.json:10145
+#, fuzzy
+msgctxt "recipe.10145.name"
+msgid "Grilled fish"
+msgstr "Peixe grelhado"
+
+#: Recipes.json:10146
+#, fuzzy
+msgctxt "recipe.10146.name"
+msgid "Glowing grilled fish"
+msgstr "Peixe grelhado brilhante"
+
+#: Recipes.json:10147
+#, fuzzy
+msgctxt "recipe.10147.name"
+msgid "Cabbage Soup"
+msgstr "Sopa de repolho"
+
+#: Recipes.json:10148
+#, fuzzy
+msgctxt "recipe.10148.name"
+msgid "Glowing Cabbage Soup"
+msgstr "Sopa de repolho brilhante"
+
+#: Recipes.json:10149
+#, fuzzy
+msgctxt "recipe.10149.name"
+msgid "Turnip Soup"
+msgstr "Sopa de nabo"
+
+#: Recipes.json:10151
+#, fuzzy
+msgctxt "recipe.10151.name"
+msgid "Sausage soup"
+msgstr "Sopa de salsicha"
+
+#: Recipes.json:10152
+#, fuzzy
+msgctxt "recipe.10152.name"
+msgid "Sausage Soup"
+msgstr "Sopa de linguiça"
+
+#: Recipes.json:10153
+#, fuzzy
+msgctxt "recipe.10153.name"
+msgid "Glowing Sausage Soup"
+msgstr "Sopa de linguiça brilhante"
+
+#: Recipes.json:10158
+#, fuzzy
+msgctxt "recipe.10158.name"
+msgid "Glowing Hamburger"
+msgstr "Hambúrguer brilhante"
+
+#: Recipes.json:10165
+#, fuzzy
+msgctxt "recipe.10165.name"
+msgid "Rye Bread"
+msgstr "Pão de centeio"
+
+#: Recipes.json:10173
+#, fuzzy
+msgctxt "recipe.10173.name"
+msgid "Sugar"
+msgstr "Açúcar"
+
+#: Recipes.json:10174
+#, fuzzy
+msgctxt "recipe.10174.name"
+msgid "Chicken Pizza"
+msgstr "Pizza de frango"
+
+#: Recipes.json:10175
+#, fuzzy
+msgctxt "recipe.10175.name"
+msgid "Mystery Pizza"
+msgstr "Pizza misteriosa"
+
+#: Recipes.json:10176
+#, fuzzy
+msgctxt "recipe.10176.name"
+msgid "Rat Pizza"
+msgstr "Pizza de rato"
+
+#: Recipes.json:10177
+#, fuzzy
+msgctxt "recipe.10177.name"
+msgid "Cat Pizza"
+msgstr "Pizza de gato"
+
+#: Recipes.json:10178
+#, fuzzy
+msgctxt "recipe.10178.name"
+msgid "Dog Pizza"
+msgstr "Pizza de cachorro"
+
+#: Recipes.json:10179
+#, fuzzy
+msgctxt "recipe.10179.name"
+msgid "Pork Pizza"
+msgstr "Pizza de porco"
+
+#: Recipes.json:10180
+#, fuzzy
+msgctxt "recipe.10180.name"
+msgid "Beef Pizza"
+msgstr "Pizza de carne"
+
+#: Recipes.json:10181
+#, fuzzy
+msgctxt "recipe.10181.name"
+msgid "Minced Meat Pizza"
+msgstr "Pizza de carne moída"
+
+#: Recipes.json:10183
+#, fuzzy
+msgctxt "recipe.10183.name"
+msgid "Chicken Sawdust Pizza"
+msgstr "Pizza de frango com serragem"
+
+#: Recipes.json:10184
+#, fuzzy
+msgctxt "recipe.10184.name"
+msgid "Mystery Sawdust Pizza"
+msgstr "Pizza misteriosa com serragem"
+
+#: Recipes.json:10185
+#, fuzzy
+msgctxt "recipe.10185.name"
+msgid "Rat Sawdust Pizza"
+msgstr "Pizza de rato com serragem"
+
+#: Recipes.json:10186
+#, fuzzy
+msgctxt "recipe.10186.name"
+msgid "Cat Sawdust Pizza"
+msgstr "Pizza de gato com serragem"
+
+#: Recipes.json:10187
+#, fuzzy
+msgctxt "recipe.10187.name"
+msgid "Dog Sawdust Pizza"
+msgstr "Pizza de cachorro com serragem"
+
+#: Recipes.json:10188
+#, fuzzy
+msgctxt "recipe.10188.name"
+msgid "Pork Sawdust Pizza"
+msgstr "Pizza de porco com serragem"
+
+#: Recipes.json:10189
+#, fuzzy
+msgctxt "recipe.10189.name"
+msgid "Beef Sawdust Pizza"
+msgstr "Pizza de carne com serragem"
+
+#: Recipes.json:10191
+#, fuzzy
+msgctxt "recipe.10191.name"
+msgid "Minced Meat Sawdust Pizza"
+msgstr "Pizza de carne moída com serragem"
+
+#: Recipes.json:10192
+#, fuzzy
+msgctxt "recipe.10192.name"
+msgid "Glowing Chicken Pizza"
+msgstr "Pizza de frango brilhante"
+
+#: Recipes.json:10193
+#, fuzzy
+msgctxt "recipe.10193.name"
+msgid "Glowing Mystery Pizza"
+msgstr "Pizza misteriosa brilhante"
+
+#: Recipes.json:10194
+#, fuzzy
+msgctxt "recipe.10194.name"
+msgid "Glowing Rat Pizza"
+msgstr "Pizza de rato brilhante"
+
+#: Recipes.json:10195
+#, fuzzy
+msgctxt "recipe.10195.name"
+msgid "Glowing Cat Pizza"
+msgstr "Pizza de gato brilhante"
+
+#: Recipes.json:10196
+#, fuzzy
+msgctxt "recipe.10196.name"
+msgid "Glowing Dog Pizza"
+msgstr "Pizza de cachorro brilhante"
+
+#: Recipes.json:10197
+#, fuzzy
+msgctxt "recipe.10197.name"
+msgid "Glowing Pork Pizza"
+msgstr "Pizza de porco brilhante"
+
+#: Recipes.json:10198
+#, fuzzy
+msgctxt "recipe.10198.name"
+msgid "Glowing Beef Pizza"
+msgstr "Pizza de carne brilhante"
+
+#: Recipes.json:10199
+#, fuzzy
+msgctxt "recipe.10199.name"
+msgid "Glowing Minced Meat Pizza"
+msgstr "Pizza de carne moída brilhante"
+
+#: Recipes.json:10200
+#, fuzzy
+msgctxt "recipe.10200.name"
+msgid "Glowing Chicken Sawdust Pizza"
+msgstr "Pizza de frango brilhante com serragem"
+
+#: Recipes.json:10201
+#, fuzzy
+msgctxt "recipe.10201.name"
+msgid "Glowing Mystery Sawdust Pizza"
+msgstr "Pizza misteriosa brilhante com serragem"
+
+#: Recipes.json:10202
+#, fuzzy
+msgctxt "recipe.10202.name"
+msgid "Glowing Rat Sawdust Pizza"
+msgstr "Pizza de rato brilhante com serragem"
+
+#: Recipes.json:10203
+#, fuzzy
+msgctxt "recipe.10203.name"
+msgid "Glowing Cat Sawdust Pizza"
+msgstr "Pizza de gato brilhante com serragem"
+
+#: Recipes.json:10204
+#, fuzzy
+msgctxt "recipe.10204.name"
+msgid "Glowing Dog Sawdust Pizza"
+msgstr "Pizza de cachorro brilhante com serragem"
+
+#: Recipes.json:10205
+#, fuzzy
+msgctxt "recipe.10205.name"
+msgid "Glowing Pork Sawdust Pizza"
+msgstr "Pizza de porco brilhante com serragem"
+
+#: Recipes.json:10206
+#, fuzzy
+msgctxt "recipe.10206.name"
+msgid "Glowing Beef Sawdust Pizza"
+msgstr "Pizza de carne brilhante com serragem"
+
+#: Recipes.json:10207
+#, fuzzy
+msgctxt "recipe.10207.name"
+msgid "Glowing Minced Meat Sawdust Pizza"
+msgstr "Pizza de carne moída brilhante com serragem"
+
+#: Recipes.json:10208
+#, fuzzy
+msgctxt "recipe.10208.name"
+msgid "Baked turnip"
+msgstr "Nabo assado"
+
+#: Recipes.json:10209
+#, fuzzy
+msgctxt "recipe.10209.name"
+msgid "Baked potato"
+msgstr "Batata assada"
+
+#: Recipes.json:10210
+#, fuzzy
+msgctxt "recipe.10210.name"
+msgid "Macaroni casserole"
+msgstr "Macarrão de forno"
+
+#: Recipes.json:10211
+#, fuzzy
+msgctxt "recipe.10211.name"
+msgid "Macaroni casserole"
+msgstr "Macarrão de forno"
+
+#: Recipes.json:10212
+#, fuzzy
+msgctxt "recipe.10212.name"
+msgid "Mushroom macaroni casserole"
+msgstr "Macarrão de forno com cogumelos"
+
+#: Recipes.json:10223
+#, fuzzy
+msgctxt "recipe.10223.name"
+msgid "Minced Meat"
+msgstr "Carne moída"
+
+#: Recipes.json:10227
+#, fuzzy
+msgctxt "recipe.10227.name"
+msgid "Sausage"
+msgstr "Linguiça"
+
+#: Recipes.json:10228
+#, fuzzy
+msgctxt "recipe.10228.name"
+msgid "Sausage"
+msgstr "Linguiça"
+
+#: Recipes.json:10229
+#, fuzzy
+msgctxt "recipe.10229.name"
+msgid "Sausage"
+msgstr "Linguiça"
+
+#: Recipes.json:10230
+#, fuzzy
+msgctxt "recipe.10230.name"
+msgid "Sausage"
+msgstr "Linguiça"
+
+#: Recipes.json:10231
+#, fuzzy
+msgctxt "recipe.10231.name"
+msgid "Sausage"
+msgstr "Linguiça"
+
+#: Recipes.json:10232
+#, fuzzy
+msgctxt "recipe.10232.name"
+msgid "Sausage"
+msgstr "Linguiça"
+
+#: Recipes.json:10233
+#, fuzzy
+msgctxt "recipe.10233.name"
+msgid "Sausage"
+msgstr "Linguiça"
+
+#: Recipes.json:10234
+#, fuzzy
+msgctxt "recipe.10234.name"
+msgid "Glowing Sausage"
+msgstr "Linguiça brilhante"
+
+#: Recipes.json:10235
+#, fuzzy
+msgctxt "recipe.10235.name"
+msgid "Glowing Sausage"
+msgstr "Linguiça brilhante"
+
+#: Recipes.json:10236
+#, fuzzy
+msgctxt "recipe.10236.name"
+msgid "Glowing Sausage"
+msgstr "Linguiça brilhante"
+
+#: Recipes.json:10237
+#, fuzzy
+msgctxt "recipe.10237.name"
+msgid "Glowing Sausage"
+msgstr "Linguiça brilhante"
+
+#: Recipes.json:10238
+#, fuzzy
+msgctxt "recipe.10238.name"
+msgid "Glowing Sausage"
+msgstr "Linguiça brilhante"
+
+#: Recipes.json:10239
+#, fuzzy
+msgctxt "recipe.10239.name"
+msgid "Glowing Sausage"
+msgstr "Linguiça brilhante"
+
+#: Recipes.json:10240
+#, fuzzy
+msgctxt "recipe.10240.name"
+msgid "Glowing Sausage"
+msgstr "Linguiça brilhante"
+
+#: Recipes.json:10241
+#, fuzzy
+msgctxt "recipe.10241.name"
+msgid "Sawdust"
+msgstr "Serragem"
+
+#: Recipes.json:10243
+#, fuzzy
+msgctxt "recipe.10243.name"
+msgid "Water"
+msgstr "Água"
+
+#: Recipes.json:10255
+#, fuzzy
+msgctxt "recipe.10255.name"
+msgid "Purify water"
+msgstr "Purificar água"
+
+#: Recipes.json:10260
+#, fuzzy
+msgctxt "recipe.10260.name"
+msgid "Microwaved potato"
+msgstr "Batata no micro-ondas"
+
+#: Recipes.json:10262
+#, fuzzy
+msgctxt "recipe.10262.name"
+msgid "Turnip Plant"
+msgstr "Pé de nabo"
+
+#: Recipes.json:10263
+#, fuzzy
+msgctxt "recipe.10263.name"
+msgid "Potato Plant"
+msgstr "Pé de batata"
+
+#: Recipes.json:10264
+#, fuzzy
+msgctxt "recipe.10264.name"
+msgid "Lettuce Plant"
+msgstr "Pé de alface"
+
+#: Recipes.json:10265
+#, fuzzy
+msgctxt "recipe.10265.name"
+msgid "Onion Plant"
+msgstr "Pé de cebola"
+
+#: Recipes.json:10266
+#, fuzzy
+msgctxt "recipe.10266.name"
+msgid "Mushrooms"
+msgstr "Cogumelos"
+
+#: Recipes.json:10267
+#, fuzzy
+msgctxt "recipe.10267.name"
+msgid "Green mushrooms"
+msgstr "Cogumelos verdes"
+
+#: Recipes.json:10268
+#, fuzzy
+msgctxt "recipe.10268.name"
+msgid "Greener mushrooms"
+msgstr "Cogumelos mais verdes"
+
+#: Recipes.json:10269
+#, fuzzy
+msgctxt "recipe.10269.name"
+msgid "Greenest mushrooms"
+msgstr "Cogumelos verdíssimos"
+
+#: Recipes.json:10270
+#, fuzzy
+msgctxt "recipe.10270.name"
+msgid "Blue mushrooms"
+msgstr "Cogumelos azuis"
+
+#: Recipes.json:10271
+#, fuzzy
+msgctxt "recipe.10271.name"
+msgid "Orange Mushrooms"
+msgstr "Cogumelos laranja"
+
+#: Recipes.json:10272
+#, fuzzy
+msgctxt "recipe.10272.name"
+msgid "Cabbage Plant"
+msgstr "Pé de repolho"
+
+#: Recipes.json:10273
+#, fuzzy
+msgctxt "recipe.10273.name"
+msgid "Sugarbeet Plant"
+msgstr "Pé de beterraba açucareira"
+
+#: Recipes.json:10274
+#, fuzzy
+msgctxt "recipe.10274.name"
+msgid "Carrot Plant"
+msgstr "Pé de cenoura"
+
+#: Recipes.json:10275
+#, fuzzy
+msgctxt "recipe.10275.name"
+msgid "Pea Stalk"
+msgstr "Pé de ervilha"
+
+#: Recipes.json:10276
+#, fuzzy
+msgctxt "recipe.10276.name"
+msgid "Rye Stalk"
+msgstr "Pé de centeio"
+
+#: Recipes.json:10277
+#, fuzzy
+msgctxt "recipe.10277.name"
+msgid "Leek Plant"
+msgstr "Pé de alho-poró"
+
+#: Recipes.json:10278
+#, fuzzy
+msgctxt "recipe.10278.name"
+msgid "Pine Tree"
+msgstr "Pinheiro"
+
+#: Recipes.json:10279
+#, fuzzy
+msgctxt "recipe.10279.name"
+msgid "Spruce Tree"
+msgstr "Abeto"
+
+#: Recipes.json:10280
+#, fuzzy
+msgctxt "recipe.10280.name"
+msgid "Cactus Plant"
+msgstr "Cacto"
+
+#: Recipes.json:10281
+#, fuzzy
+msgctxt "recipe.10281.name"
+msgid "Monstera Plant"
+msgstr "Costela-de-adão"
+
+#: Recipes.json:10282
+#, fuzzy
+msgctxt "recipe.10282.name"
+msgid "Snakeplant"
+msgstr "Espada-de-são-jorge"
+
+#: Recipes.json:10283
+#, fuzzy
+msgctxt "recipe.10283.name"
+msgid "Dracaena Fragrans Plant"
+msgstr "Pau-d'água"
+
+#: Recipes.json:10284
+#, fuzzy
+msgctxt "recipe.10284.name"
+msgid "Aralia Plant"
+msgstr "Arália"
+
+#: Recipes.json:10285
+#, fuzzy
+msgctxt "recipe.10285.name"
+msgid "Soleirolia Plant"
+msgstr "Soleirólia"
+
+#: Recipes.json:10286
+#, fuzzy
+msgctxt "recipe.10286.name"
+msgid "Betel Palm"
+msgstr "Palmeira de bétel"
+
+#: Recipes.json:10287
+#, fuzzy
+msgctxt "recipe.10287.name"
+msgid "Heracleum Plant"
+msgstr "Heracleum"
+
+#: Recipes.json:10290
+#, fuzzy
+msgctxt "recipe.10290.name"
+msgid "Rat"
+msgstr "Rato"
+
+#: Recipes.json:10291
+#, fuzzy
+msgctxt "recipe.10291.name"
+msgid "Glowing rat"
+msgstr "Rato brilhante"
+
+#: Recipes.json:10292
+#, fuzzy
+msgctxt "recipe.10292.name"
+msgid "Rat"
+msgstr "Rato"
+
+#: Recipes.json:10293
+#, fuzzy
+msgctxt "recipe.10293.name"
+msgid "Sewer fish"
+msgstr "Peixe de esgoto"
+
+#: Recipes.json:10000
+#, fuzzy
+msgctxt "recipe.10000.name"
+msgid "Osrat"
+msgstr "Osrat"
+
+#: Recipes.json:10015
+#, fuzzy
+msgctxt "recipe.10015.name"
+msgid "Turnip to testliquid"
+msgstr "Teste: nabo em líquido"
+
+#: Recipes.json:10026
+#, fuzzy
+msgctxt "recipe.10026.name"
+msgid "duplicate test liquid"
+msgstr "Teste: duplicar líquido"
+
+#: Recipes.json:-1
+#, fuzzy
+msgctxt "recipe.-1.name"
+msgid "more debug liquid"
+msgstr "Teste: mais líquido"
+
+#: Recipes.json:-1
+#, fuzzy
+msgctxt "recipe.-1.name#201"
+msgid "Debug liquid to turnip"
+msgstr "Teste: líquido em nabo"
+
+#: Recipes.json:10009
+#, fuzzy
+msgctxt "recipe.10009.name"
+msgid "Bell Pepper Plant"
+msgstr "Pé de pimentão"
+
+#: Recipes.json:10011
+#, fuzzy
+msgctxt "recipe.10011.name"
+msgid "Cucumber Plant"
+msgstr "Pé de pepino"
+
+#: Recipes.json:10296
+#, fuzzy
+msgctxt "recipe.10296.name"
+msgid "Watermelon Plant"
+msgstr "Pé de melancia"
+
+#: Recipes.json:10297
+#, fuzzy
+msgctxt "recipe.10297.name"
+msgid "Wheat Plant"
+msgstr "Pé de trigo"
+
+#: Recipes.json:10298
+#, fuzzy
+msgctxt "recipe.10298.name"
+msgid "Bell Pepper Plant"
+msgstr "Pé de pimentão"
+
+#: Recipes.json:10299
+#, fuzzy
+msgctxt "recipe.10299.name"
+msgid "Pea Stalk"
+msgstr "Pé de ervilha"
+
+#: Recipes.json:10300
+#, fuzzy
+msgctxt "recipe.10300.name"
+msgid "Tomato plant"
+msgstr "Pé de tomate"
+
+#: Recipes.json:10301
+#, fuzzy
+msgctxt "recipe.10301.name"
+msgid "Tomato plant"
+msgstr "Pé de tomate"
+
+#: Recipes.json:10302
+#, fuzzy
+msgctxt "recipe.10302.name"
+msgid "Carrot Plant"
+msgstr "Pé de cenoura"
+
+#: Recipes.json:10303
+#, fuzzy
+msgctxt "recipe.10303.name"
+msgid "Leek Plant"
+msgstr "Pé de alho-poró"
+
+#: Recipes.json:10304
+#, fuzzy
+msgctxt "recipe.10304.name"
+msgid "Onion Plant"
+msgstr "Pé de cebola"
+
+#: Recipes.json:10305
+#, fuzzy
+msgctxt "recipe.10305.name"
+msgid "Potato Plant"
+msgstr "Pé de batata"
+
+#: Recipes.json:10306
+#, fuzzy
+msgctxt "recipe.10306.name"
+msgid "Rye Stalk"
+msgstr "Pé de centeio"
+
+#: Recipes.json:10307
+#, fuzzy
+msgctxt "recipe.10307.name"
+msgid "Sugarbeet Plant"
+msgstr "Pé de beterraba açucareira"
+
+#: Recipes.json:10308
+#, fuzzy
+msgctxt "recipe.10308.name"
+msgid "Turnip Plant"
+msgstr "Pé de nabo"
+
+#: Recipes.json:10309
+#, fuzzy
+msgctxt "recipe.10309.name"
+msgid "Wheat Plant"
+msgstr "Pé de trigo"
+
+#: Recipes.json:10162
+#, fuzzy
+msgctxt "recipe.10162.name"
+msgid "Apple Pie"
+msgstr "Torta de maçã"
+
+#: Recipes.json:10163
+#, fuzzy
+msgctxt "recipe.10163.name"
+msgid "Dirty water"
+msgstr "Água suja"
+
+#: Recipes.json:10242
+#, fuzzy
+msgctxt "recipe.10242.name"
+msgid "Empty"
+msgstr "Vazio"
+
+#: Recipes.json:10244
+#, fuzzy
+msgctxt "recipe.10244.name"
+msgid "Beer"
+msgstr "Cerveja"
+
+#: Recipes.json:10002
+#, fuzzy
+msgctxt "recipe.10002.name"
+msgid "TEST RECIPE"
+msgstr "RECEITA DE TESTE"
+
+#: Recipes.json:10007
+#, fuzzy
+msgctxt "recipe.10007.name"
+msgid "Planks"
+msgstr "Tábuas"
+
+#: Recipes.json:10014
+#, fuzzy
+msgctxt "recipe.10014.name"
+msgid "Firewood"
+msgstr "Lenha"
+
+#: Recipes.json:10003
+#, fuzzy
+msgctxt "recipe.10003.name"
+msgid "Canned Cabbage"
+msgstr "Repolho em conserva"
+
+#: Recipes.json:10017
+#, fuzzy
+msgctxt "recipe.10017.name"
+msgid "Coffee"
+msgstr "Café"
+
+#: Recipes.json:10005
+#, fuzzy
+msgctxt "recipe.10005.name"
+msgid "Wheat Dough"
+msgstr "Massa de trigo"
+
+#: Recipes.json:10006
+#, fuzzy
+msgctxt "recipe.10006.name"
+msgid "Sawdust Wheat Dough"
+msgstr "Massa de trigo com serragem"
+
+#: Recipes.json:10018
+#, fuzzy
+msgctxt "recipe.10018.name"
+msgid "Rye Dough"
+msgstr "Massa de centeio"
+
+#: Recipes.json:10021
+#, fuzzy
+msgctxt "recipe.10021.name"
+msgid "Sawdust Rye Dough"
+msgstr "Massa de centeio com serragem"
+
+#: Recipes.json:10022
+#, fuzzy
+msgctxt "recipe.10022.name"
+msgid "Mushroom Coffee"
+msgstr "Café com cogumelos"
+
+#: Recipes.json:10161
+#, fuzzy
+msgctxt "recipe.10161.name"
+msgid "Milk Coffee"
+msgstr "Café com leite"
+
+#: Recipes.json:10182
+#, fuzzy
+msgctxt "recipe.10182.name"
+msgid "Heated Microwave Pizza"
+msgstr "Pizza de micro-ondas aquecida"
+
+#: Recipes.json:10190
+#, fuzzy
+msgctxt "recipe.10190.name"
+msgid "Microwaved Turnip"
+msgstr "Nabo no micro-ondas"
+
+#: Recipes.json:10245
+#, fuzzy
+msgctxt "recipe.10245.name"
+msgid "Canned Peas"
+msgstr "Ervilha em conserva"
+
+#: Recipes.json:10246
+#, fuzzy
+msgctxt "recipe.10246.name"
+msgid "Canned Sugar Beet"
+msgstr "Beterraba açucareira em conserva"
+
+#: Recipes.json:10247
+#, fuzzy
+msgctxt "recipe.10247.name"
+msgid "Canned Potatoes"
+msgstr "Batata em conserva"
+
+#: Recipes.json:10248
+#, fuzzy
+msgctxt "recipe.10248.name"
+msgid "Canned Onion"
+msgstr "Cebola em conserva"
+
+#: Recipes.json:10256
+#, fuzzy
+msgctxt "recipe.10256.name"
+msgid "Canned Turnips"
+msgstr "Nabo em conserva"
+
+#: Recipes.json:10257
+#, fuzzy
+msgctxt "recipe.10257.name"
+msgid "Canned Carrots"
+msgstr "Cenoura em conserva"
+
+#: Recipes.json:10258
+#, fuzzy
+msgctxt "recipe.10258.name"
+msgid "Canned Bell Peppers"
+msgstr "Pimentão em conserva"
+
+#: Recipes.json:10259
+#, fuzzy
+msgctxt "recipe.10259.name"
+msgid "Canned Cucumbers"
+msgstr "Pepino em conserva"
+
+#: Recipes.json:10261
+#, fuzzy
+msgctxt "recipe.10261.name"
+msgid "Canned Leeks"
+msgstr "Alho-poró em conserva"
+
+#: Recipes.json:10294
+#, fuzzy
+msgctxt "recipe.10294.name"
+msgid "Canned Tomatoes"
+msgstr "Tomate em conserva"
+
+#: Recipes.json:10295
+#, fuzzy
+msgctxt "recipe.10295.name"
+msgid "Apple Jam"
+msgstr "Geleia de maçã"
+
+#: Recipes.json:10310
+#, fuzzy
+msgctxt "recipe.10310.name"
+msgid "Watermelon Jam"
+msgstr "Geleia de melancia"
+
+#: Recipes.json:10311
+#, fuzzy
+msgctxt "recipe.10311.name"
+msgid "Bowl of Cereal"
+msgstr "Tigela de cereal"
+
+#: Recipes.json:10312
+#, fuzzy
+msgctxt "recipe.10312.name"
+msgid "Pea Soup"
+msgstr "Sopa de ervilha"
+
+#: Recipes.json:10313
+#, fuzzy
+msgctxt "recipe.10313.name"
+msgid "Glowing Pea Soup"
+msgstr "Sopa de ervilha brilhante"
+
+#: Recipes.json:10314
+#, fuzzy
+msgctxt "recipe.10314.name"
+msgid "Vegetable Pie"
+msgstr "Torta de legumes"
+
+#: Recipes.json:10315
+#, fuzzy
+msgctxt "recipe.10315.name"
+msgid "Meat Pie"
+msgstr "Torta de carne"
+
+#: Recipes.json:10316
+#, fuzzy
+msgctxt "recipe.10316.name"
+msgid "Glowing Vegetable Pie"
+msgstr "Torta de legumes brilhante"
+
+#: Recipes.json:10317
+#, fuzzy
+msgctxt "recipe.10317.name"
+msgid "Glowing Apple Pie"
+msgstr "Torta de maçã brilhante"
+
+#: Recipes.json:10318
+#, fuzzy
+msgctxt "recipe.10318.name"
+msgid "Glowing Meat Pie"
+msgstr "Torta de carne brilhante"
+
+#: Recipes.json:10166
+#, fuzzy
+msgctxt "recipe.10166.name"
+msgid "Glowing Rye Bread"
+msgstr "Pão de centeio brilhante"
+
+#: Recipes.json:10167
+#, fuzzy
+msgctxt "recipe.10167.name"
+msgid "Glowing Sawdust Rye Bread"
+msgstr "Pão de centeio brilhante com serragem"
+
+#: Recipes.json:10168
+#, fuzzy
+msgctxt "recipe.10168.name"
+msgid "Sawdust Rye Bread"
+msgstr "Pão de centeio com serragem"
+
+#: Recipes.json:10169
+#, fuzzy
+msgctxt "recipe.10169.name"
+msgid "White Bread"
+msgstr "Pão branco"
+
+#: Recipes.json:10170
+#, fuzzy
+msgctxt "recipe.10170.name"
+msgid "Sawdust White Bread"
+msgstr "Pão branco com serragem"
+
+#: Recipes.json:10171
+#, fuzzy
+msgctxt "recipe.10171.name"
+msgid "Glowing White Bread"
+msgstr "Pão branco brilhante"
+
+#: Recipes.json:10172
+#, fuzzy
+msgctxt "recipe.10172.name"
+msgid "Glowing Sawdust White Bread"
+msgstr "Pão branco brilhante com serragem"
+
+#: Recipes.json:10249
+#, fuzzy
+msgctxt "recipe.10249.name"
+msgid "Stalburg Bank Request Letter"
+msgstr "Carta de solicitação ao Banco de Stalburg"
+
+#: Recipes.json:10250
+#, fuzzy
+msgctxt "recipe.10250.name"
+msgid "Baked Watermelon"
+msgstr "Melancia assada"
+
+#: Recipes.json:10251
+#, fuzzy
+msgctxt "recipe.10251.name"
+msgid "Boiled Watermelon"
+msgstr "Melancia cozida"
+
+#: Recipes.json:10253
+#, fuzzy
+msgctxt "recipe.10253.name"
+msgid "Microwaved Watermelon"
+msgstr "Melancia no micro-ondas"
+
+#: Recipes.json:10252
+#, fuzzy
+msgctxt "recipe.10252.name"
+msgid "Hamburger Patty"
+msgstr "Carne de hambúrguer"
+
+#: Recipes.json:10254
+#, fuzzy
+msgctxt "recipe.10254.name"
+msgid "Glowing Hamburger Patty"
+msgstr "Carne de hambúrguer brilhante"
+
+#: Recipes.json:10154
+#, fuzzy
+msgctxt "recipe.10154.name"
+msgid "Hamburger"
+msgstr "Hambúrguer"
+
+#: Recipes.json:10155
+#, fuzzy
+msgctxt "recipe.10155.name"
+msgid "Glowing Sawdust Hamburger"
+msgstr "Hambúrguer brilhante com serragem"
+
+#: Recipes.json:10156
+#, fuzzy
+msgctxt "recipe.10156.name"
+msgid "Sawdust Hamburger"
+msgstr "Hambúrguer com serragem"
+
+#: Recipes.json:10159
+#, fuzzy
+msgctxt "recipe.10159.name"
+msgid "Hamburger Bun"
+msgstr "Pão de hambúrguer"
+
+#: Recipes.json:10319
+#, fuzzy
+msgctxt "recipe.10319.name"
+msgid "Sawdust Hamburger Bun"
+msgstr "Pão de hambúrguer com serragem"
+
+#: Recipes.json:10135
+#, fuzzy
+msgctxt "recipe.10135.name"
+msgid "Sawdust Hot Dog"
+msgstr "Cachorro-quente com serragem"
+
+#: Recipes.json:10136
+#, fuzzy
+msgctxt "recipe.10136.name"
+msgid "Glowing Hot Dog"
+msgstr "Cachorro-quente brilhante"
+
+#: Recipes.json:10137
+#, fuzzy
+msgctxt "recipe.10137.name"
+msgid "Glowing Sawdust Hot Dog"
+msgstr "Cachorro-quente brilhante com serragem"
+
+#: Recipes.json:10138
+#, fuzzy
+msgctxt "recipe.10138.name"
+msgid "Onion Soup"
+msgstr "Sopa de cebola"
+
+#: Recipes.json:10139
+#, fuzzy
+msgctxt "recipe.10139.name"
+msgid "Glowing Onion Soup"
+msgstr "Sopa de cebola brilhante"
+
+#: Recipes.json:10140
+#, fuzzy
+msgctxt "recipe.10140.name"
+msgid "Glowing Turnip Soup"
+msgstr "Sopa de nabo brilhante"
+
+#: Recipes.json:10142
+#, fuzzy
+msgctxt "recipe.10142.name"
+msgid "Vegetable Soup"
+msgstr "Sopa de legumes"
+
+#: Recipes.json:10143
+#, fuzzy
+msgctxt "recipe.10143.name"
+msgid "Glowing Vegetable Soup"
+msgstr "Sopa de legumes brilhante"
+
+#: Recipes.json:10144
+#, fuzzy
+msgctxt "recipe.10144.name"
+msgid "Tomato Soup"
+msgstr "Sopa de tomate"
+
+#: Recipes.json:10320
+#, fuzzy
+msgctxt "recipe.10320.name"
+msgid "Glowing Tomato Soup"
+msgstr "Sopa de tomate brilhante"
+
+#: Recipes.json:10321
+#, fuzzy
+msgctxt "recipe.10321.name"
+msgid "Tomato Soup"
+msgstr "Sopa de tomate"
+
+#: Recipes.json:10322
+#, fuzzy
+msgctxt "recipe.10322.name"
+msgid "Porridge"
+msgstr "Mingau"
+
+#: Recipes.json:10323
+#, fuzzy
+msgctxt "recipe.10323.name"
+msgid "Beef Wheat Sandwich"
+msgstr "Lanche de trigo de carne"
+
+#: Recipes.json:10324
+#, fuzzy
+msgctxt "recipe.10324.name"
+msgid "Beef Sawdust Wheat Sandwich"
+msgstr "Lanche de trigo de carne com serragem"
+
+#: Recipes.json:10325
+#, fuzzy
+msgctxt "recipe.10325.name"
+msgid "Cat Wheat Sandwich"
+msgstr "Lanche de trigo de gato"
+
+#: Recipes.json:10326
+#, fuzzy
+msgctxt "recipe.10326.name"
+msgid "Cat Sawdust Wheat Sandwich"
+msgstr "Lanche de trigo de gato com serragem"
+
+#: Recipes.json:10327
+#, fuzzy
+msgctxt "recipe.10327.name"
+msgid "Chicken Wheat Sandwich"
+msgstr "Lanche de trigo de frango"
+
+#: Recipes.json:10328
+#, fuzzy
+msgctxt "recipe.10328.name"
+msgid "Chicken Sawdust Wheat Sandwich"
+msgstr "Lanche de trigo de frango com serragem"
+
+#: Recipes.json:10329
+#, fuzzy
+msgctxt "recipe.10329.name"
+msgid "Dog Wheat Sandwich"
+msgstr "Lanche de trigo de cachorro"
+
+#: Recipes.json:10330
+#, fuzzy
+msgctxt "recipe.10330.name"
+msgid "Dog Sawdust Wheat Sandwich"
+msgstr "Lanche de trigo de cachorro com serragem"
+
+#: Recipes.json:10331
+#, fuzzy
+msgctxt "recipe.10331.name"
+msgid "Glowing Beef Wheat Sandwich"
+msgstr "Lanche de trigo de carne brilhante"
+
+#: Recipes.json:10332
+#, fuzzy
+msgctxt "recipe.10332.name"
+msgid "Glowing Beef Wheat Sandwich"
+msgstr "Lanche de trigo de carne brilhante"
+
+#: Recipes.json:10333
+#, fuzzy
+msgctxt "recipe.10333.name"
+msgid "Glowing Beef Wheat Sandwich"
+msgstr "Lanche de trigo de carne brilhante"
+
+#: Recipes.json:10334
+#, fuzzy
+msgctxt "recipe.10334.name"
+msgid "Glowing Cat Wheat Sandwich"
+msgstr "Lanche de trigo de gato brilhante"
+
+#: Recipes.json:10335
+#, fuzzy
+msgctxt "recipe.10335.name"
+msgid "Glowing Cat Wheat Sandwich"
+msgstr "Lanche de trigo de gato brilhante"
+
+#: Recipes.json:10336
+#, fuzzy
+msgctxt "recipe.10336.name"
+msgid "Glowing Cat Wheat Sandwich"
+msgstr "Lanche de trigo de gato brilhante"
+
+#: Recipes.json:10337
+#, fuzzy
+msgctxt "recipe.10337.name"
+msgid "Glowing Cat Sawdust Wheat Sandwich"
+msgstr "Lanche de trigo de gato brilhante com serragem"
+
+#: Recipes.json:10338
+#, fuzzy
+msgctxt "recipe.10338.name"
+msgid "Glowing Cat Sawdust Wheat Sandwich"
+msgstr "Lanche de trigo de gato brilhante com serragem"
+
+#: Recipes.json:10339
+#, fuzzy
+msgctxt "recipe.10339.name"
+msgid "Glowing Cat Sawdust Wheat Sandwich"
+msgstr "Lanche de trigo de gato brilhante com serragem"
+
+#: Recipes.json:10340
+#, fuzzy
+msgctxt "recipe.10340.name"
+msgid "Glowing Chicken Wheat Sandwich"
+msgstr "Lanche de trigo de frango brilhante"
+
+#: Recipes.json:10341
+#, fuzzy
+msgctxt "recipe.10341.name"
+msgid "Glowing Chicken Wheat Sandwich"
+msgstr "Lanche de trigo de frango brilhante"
+
+#: Recipes.json:10342
+#, fuzzy
+msgctxt "recipe.10342.name"
+msgid "Glowing Chicken Wheat Sandwich"
+msgstr "Lanche de trigo de frango brilhante"
+
+#: Recipes.json:10343
+#, fuzzy
+msgctxt "recipe.10343.name"
+msgid "Glowing Chicken Sawdust Wheat Sandwich"
+msgstr "Lanche de trigo de frango brilhante com serragem"
+
+#: Recipes.json:10344
+#, fuzzy
+msgctxt "recipe.10344.name"
+msgid "Glowing Chicken Sawdust Wheat Sandwich"
+msgstr "Lanche de trigo de frango brilhante com serragem"
+
+#: Recipes.json:10345
+#, fuzzy
+msgctxt "recipe.10345.name"
+msgid "Glowing Chicken Sawdust Wheat Sandwich"
+msgstr "Lanche de trigo de frango brilhante com serragem"
+
+#: Recipes.json:10346
+#, fuzzy
+msgctxt "recipe.10346.name"
+msgid "Glowing Dog Wheat Sandwich"
+msgstr "Lanche de trigo de cachorro brilhante"
+
+#: Recipes.json:10347
+#, fuzzy
+msgctxt "recipe.10347.name"
+msgid "Glowing Dog Wheat Sandwich"
+msgstr "Lanche de trigo de cachorro brilhante"
+
+#: Recipes.json:10348
+#, fuzzy
+msgctxt "recipe.10348.name"
+msgid "Glowing Dog Wheat Sandwich"
+msgstr "Lanche de trigo de cachorro brilhante"
+
+#: Recipes.json:10349
+#, fuzzy
+msgctxt "recipe.10349.name"
+msgid "Glowing Dog Sawdust Wheat Sandwich"
+msgstr "Lanche de trigo de cachorro brilhante com serragem"
+
+#: Recipes.json:10350
+#, fuzzy
+msgctxt "recipe.10350.name"
+msgid "Glowing Dog Sawdust Wheat Sandwich"
+msgstr "Lanche de trigo de cachorro brilhante com serragem"
+
+#: Recipes.json:10351
+#, fuzzy
+msgctxt "recipe.10351.name"
+msgid "Glowing Dog Sawdust Wheat Sandwich"
+msgstr "Lanche de trigo de cachorro brilhante com serragem"
+
+#: Recipes.json:10352
+#, fuzzy
+msgctxt "recipe.10352.name"
+msgid "Rat Sawdust Wheat Sandwich"
+msgstr "Lanche de trigo de rato com serragem"
+
+#: Recipes.json:10353
+#, fuzzy
+msgctxt "recipe.10353.name"
+msgid "Rat Wheat Sandwich"
+msgstr "Lanche de trigo de rato"
+
+#: Recipes.json:10354
+#, fuzzy
+msgctxt "recipe.10354.name"
+msgid "Pork Sawdust Wheat Sandwich"
+msgstr "Lanche de trigo de porco com serragem"
+
+#: Recipes.json:10355
+#, fuzzy
+msgctxt "recipe.10355.name"
+msgid "Pork Wheat Sandwich"
+msgstr "Lanche de trigo de porco"
+
+#: Recipes.json:10356
+#, fuzzy
+msgctxt "recipe.10356.name"
+msgid "Mystery Sawdust Wheat Sandwich"
+msgstr "Lanche de trigo misterioso com serragem"
+
+#: Recipes.json:10357
+#, fuzzy
+msgctxt "recipe.10357.name"
+msgid "Mystery Wheat Sandwich"
+msgstr "Lanche de trigo misterioso"
+
+#: Recipes.json:10358
+#, fuzzy
+msgctxt "recipe.10358.name"
+msgid "Glowing Rat Sawdust Wheat Sandwich"
+msgstr "Lanche de trigo de rato brilhante com serragem"
+
+#: Recipes.json:10359
+#, fuzzy
+msgctxt "recipe.10359.name"
+msgid "Glowing Rat Sawdust Wheat Sandwich"
+msgstr "Lanche de trigo de rato brilhante com serragem"
+
+#: Recipes.json:10360
+#, fuzzy
+msgctxt "recipe.10360.name"
+msgid "Glowing Rat Sawdust Wheat Sandwich"
+msgstr "Lanche de trigo de rato brilhante com serragem"
+
+#: Recipes.json:10361
+#, fuzzy
+msgctxt "recipe.10361.name"
+msgid "Glowing Rat Wheat Sandwich"
+msgstr "Lanche de trigo de rato brilhante"
+
+#: Recipes.json:10362
+#, fuzzy
+msgctxt "recipe.10362.name"
+msgid "Glowing Rat Wheat Sandwich"
+msgstr "Lanche de trigo de rato brilhante"
+
+#: Recipes.json:10363
+#, fuzzy
+msgctxt "recipe.10363.name"
+msgid "Glowing Rat Wheat Sandwich"
+msgstr "Lanche de trigo de rato brilhante"
+
+#: Recipes.json:10364
+#, fuzzy
+msgctxt "recipe.10364.name"
+msgid "Glowing Pork Sawdust Wheat Sandwich"
+msgstr "Lanche de trigo de porco brilhante com serragem"
+
+#: Recipes.json:10365
+#, fuzzy
+msgctxt "recipe.10365.name"
+msgid "Glowing Pork Sawdust Wheat Sandwich"
+msgstr "Lanche de trigo de porco brilhante com serragem"
+
+#: Recipes.json:10366
+#, fuzzy
+msgctxt "recipe.10366.name"
+msgid "Glowing Pork Sawdust Wheat Sandwich"
+msgstr "Lanche de trigo de porco brilhante com serragem"
+
+#: Recipes.json:10367
+#, fuzzy
+msgctxt "recipe.10367.name"
+msgid "Glowing Mystery Sawdust Wheat Sandwich"
+msgstr "Lanche de trigo misterioso brilhante com serragem"
+
+#: Recipes.json:10368
+#, fuzzy
+msgctxt "recipe.10368.name"
+msgid "Glowing Pork Wheat Sandwich"
+msgstr "Lanche de trigo de porco brilhante"
+
+#: Recipes.json:10369
+#, fuzzy
+msgctxt "recipe.10369.name"
+msgid "Glowing Pork Wheat Sandwich"
+msgstr "Lanche de trigo de porco brilhante"
+
+#: Recipes.json:10370
+#, fuzzy
+msgctxt "recipe.10370.name"
+msgid "Glowing Pork Wheat Sandwich"
+msgstr "Lanche de trigo de porco brilhante"
+
+#: Recipes.json:10371
+#, fuzzy
+msgctxt "recipe.10371.name"
+msgid "Glowing Mystery Wheat Sandwich"
+msgstr "Lanche de trigo misterioso brilhante"
+
+#: Recipes.json:10372
+#, fuzzy
+msgctxt "recipe.10372.name"
+msgid "Glowing Mystery Sawdust Wheat Sandwich"
+msgstr "Lanche de trigo misterioso brilhante com serragem"
+
+#: Recipes.json:10373
+#, fuzzy
+msgctxt "recipe.10373.name"
+msgid "Glowing Mystery Sawdust Wheat Sandwich"
+msgstr "Lanche de trigo misterioso brilhante com serragem"
+
+#: Recipes.json:10374
+#, fuzzy
+msgctxt "recipe.10374.name"
+msgid "Glowing Mystery Wheat Sandwich"
+msgstr "Lanche de trigo misterioso brilhante"
+
+#: Recipes.json:10375
+#, fuzzy
+msgctxt "recipe.10375.name"
+msgid "Glowing Mystery Wheat Sandwich"
+msgstr "Lanche de trigo misterioso brilhante"
+
+#: Recipes.json:10376
+#, fuzzy
+msgctxt "recipe.10376.name"
+msgid "Cooked Minced Meat"
+msgstr "Carne moída cozida"
+
+#: Recipes.json:10377
+#, fuzzy
+msgctxt "recipe.10377.name"
+msgid "Glowing Cooked Minced Meat"
+msgstr "Carne moída cozida brilhante"
+
+#: Recipes.json:10378
+#, fuzzy
+msgctxt "recipe.10378.name"
+msgid "Lockpicks"
+msgstr "Gazuas"
+
+#: Recipes.json:10379
+#, fuzzy
+msgctxt "recipe.10379.name"
+msgid "Lockpicks"
+msgstr "Gazuas"
+
+#: Recipes.json:10380
+#, fuzzy
+msgctxt "recipe.10380.name"
+msgid "Glowing sewer fish"
+msgstr "Peixe de esgoto brilhante"
+
+#: Recipes.json:10381
+#, fuzzy
+msgctxt "recipe.10381.name"
+msgid "Mechanical Parts"
+msgstr "Peças mecânicas"
+
+#: Recipes.json:10382
+#, fuzzy
+msgctxt "recipe.10382.name"
+msgid "Mechanical Parts"
+msgstr "Peças mecânicas"
+
+#: Recipes.json:10383
+#, fuzzy
+msgctxt "recipe.10383.name"
+msgid "Axe"
+msgstr "Machado"
+
+#: Recipes.json:10384
+#, fuzzy
+msgctxt "recipe.10384.name"
+msgid "Sledgehammer"
+msgstr "Marreta"
+
+#: Recipes.json:10385
+#, fuzzy
+msgctxt "recipe.10385.name"
+msgid "Boiled Macaroni"
+msgstr "Macarrão cozido"
+
+#: Recipes.json:10386
+#, fuzzy
+msgctxt "recipe.10386.name"
+msgid "Boiled Rice"
+msgstr "Arroz cozido"
+
+#: Recipes.json:10387
+#, fuzzy
+msgctxt "recipe.10387.name"
+msgid "Furniture parts"
+msgstr "Peças de móveis"
+
+#: Recipes.json:10388
+#, fuzzy
+msgctxt "recipe.10388.name"
+msgid "Metal Slab"
+msgstr "Placa de metal"
+
+#: Recipes.json:10389
+#, fuzzy
+msgctxt "recipe.10389.name"
+msgid "Metal Slab"
+msgstr "Placa de metal"
+
+#: Recipes.json:10390
+#, fuzzy
+msgctxt "recipe.10390.name"
+msgid "Metal Slab"
+msgstr "Placa de metal"
+
+#: Recipes.json:10391
+#, fuzzy
+msgctxt "recipe.10391.name"
+msgid "Steel Bar"
+msgstr "Barra de aço"
+
+#: Recipes.json:10392
+#, fuzzy
+msgctxt "recipe.10392.name"
+msgid "Steel Bar"
+msgstr "Barra de aço"
+
+#: Recipes.json:10393
+#, fuzzy
+msgctxt "recipe.10393.name"
+msgid "Steel Bar"
+msgstr "Barra de aço"
+
+#: Recipes.json:10394
+#, fuzzy
+msgctxt "recipe.10394.name"
+msgid "Metal Slab"
+msgstr "Placa de metal"
+
+#: Recipes.json:10395
+#, fuzzy
+msgctxt "recipe.10395.name"
+msgid "Steel Bar"
+msgstr "Barra de aço"
+
+#: Recipes.json:10396
+#, fuzzy
+msgctxt "recipe.10396.name"
+msgid "Glass Pane"
+msgstr "Placa de vidro"
+
+#: Recipes.json:10397
+#, fuzzy
+msgctxt "recipe.10397.name"
+msgid "Rubber duck"
+msgstr "Patinho de borracha"
+
+#: Recipes.json:10398
+#, fuzzy
+msgctxt "recipe.10398.name"
+msgid "Refill filament spool"
+msgstr "Recarregar carretel de filamento"
+
+#: Recipes.json:10399
+#, fuzzy
+msgctxt "recipe.10399.name"
+msgid "Bucket"
+msgstr "Balde"
+
+#: Recipes.json:10400
+#, fuzzy
+msgctxt "recipe.10400.name"
+msgid "Plastic Canister"
+msgstr "Galão plástico"
+
+#: Recipes.json:10401
+#, fuzzy
+msgctxt "recipe.10401.name"
+msgid "Large Plastic Bottle"
+msgstr "Garrafa plástica grande"
+
+#: Recipes.json:10402
+#, fuzzy
+msgctxt "recipe.10402.name"
+msgid "Can Opener"
+msgstr "Abridor de latas"
+
+#: Recipes.json:10403
+#, fuzzy
+msgctxt "recipe.10403.name"
+msgid "Obenseuer Coin"
+msgstr "Moeda Obenseuer"
+
+#: Recipes.json:10404
+#, fuzzy
+msgctxt "recipe.10404.name"
+msgid "Brass Bar"
+msgstr "Barra de latão"
+
+#: Recipes.json:10405
+#, fuzzy
+msgctxt "recipe.10405.name"
+msgid "Steel mechanical watches"
+msgstr "Relógios mecânicos de aço"
+
+#: Recipes.json:10406
+#, fuzzy
+msgctxt "recipe.10406.name"
+msgid "Brass mechanical watches"
+msgstr "Relógios mecânicos de latão"
+
+#: Recipes.json:10407
+#, fuzzy
+msgctxt "recipe.10407.name"
+msgid "Brass Bar"
+msgstr "Barra de latão"
+
+#: Recipes.json:10408
+#, fuzzy
+msgctxt "recipe.10408.name"
+msgid "Nails"
+msgstr "Pregos"
+
+#: Recipes.json:10409
+#, fuzzy
+msgctxt "recipe.10409.name"
+msgid "Steel Bar"
+msgstr "Barra de aço"
+
+#: Recipes.json:10410
+#, fuzzy
+msgctxt "recipe.10410.name"
+msgid "Purify water"
+msgstr "Purificar água"
+
+#: Recipes.json:10411
+#, fuzzy
+msgctxt "recipe.10411.name"
+msgid "Silver mechanical watches"
+msgstr "Relógios mecânicos de prata"
+
+#: Recipes.json:10412
+#, fuzzy
+msgctxt "recipe.10412.name"
+msgid "Gold mechanical watches"
+msgstr "Relógios mecânicos de ouro"
+
+#: Recipes.json:10413
+#, fuzzy
+msgctxt "recipe.10413.name"
+msgid "Silver Bar"
+msgstr "Barra de prata"
+
+#: Recipes.json:10414
+#, fuzzy
+msgctxt "recipe.10414.name"
+msgid "Gold Bar"
+msgstr "Barra de ouro"
+
+#: Recipes.json:10415
+#, fuzzy
+msgctxt "recipe.10415.name"
+msgid "Heat up"
+msgstr "Aquecer"
+
+#: Recipes.json:10416
+#, fuzzy
+msgctxt "recipe.10416.name"
+msgid "Counterfeit Money"
+msgstr "Dinheiro falso"
+
+#: Recipes.json:10417
+#, fuzzy
+msgctxt "recipe.10417.name"
+msgid "Compost"
+msgstr "Compostagem"
+
+#: Recipes.json:10418
+#, fuzzy
+msgctxt "recipe.10418.name"
+msgid "Mesh"
+msgstr "Tela"
+
+#: Recipes.json:10419
+#, fuzzy
+msgctxt "recipe.10419.name"
+msgid "Sugar mash"
+msgstr "Garapa de açúcar"
+
+#: Recipes.json:10420
+#, fuzzy
+msgctxt "recipe.10420.name"
+msgid "Sugar mushroom mash"
+msgstr "Garapa de açúcar com cogumelos"
+
+#: Recipes.json:10422
+#, fuzzy
+msgctxt "recipe.10422.name"
+msgid "Apple mushroom mash"
+msgstr "Garapa de maçã com cogumelos"
+
+#: Recipes.json:10423
+#, fuzzy
+msgctxt "recipe.10423.name"
+msgid "Sugar mash"
+msgstr "Garapa de açúcar"
+
+#: Recipes.json:10424
+#, fuzzy
+msgctxt "recipe.10424.name"
+msgid "Sugar mushroom mash"
+msgstr "Garapa de açúcar com cogumelos"
+
+#: Recipes.json:10029
+#, fuzzy
+msgctxt "recipe.10029.name"
+msgid "Moonshine"
+msgstr "Cachaça"
+
+#: Recipes.json:10032
+#, fuzzy
+msgctxt "recipe.10032.name"
+msgid "Mushroom Moonshine"
+msgstr "Cachaça com cogumelos"
+
+#: Recipes.json:10034
+#, fuzzy
+msgctxt "recipe.10034.name"
+msgid "Turnip Moonshine"
+msgstr "Cachaça de nabo"
+
+#: Recipes.json:10036
+#, fuzzy
+msgctxt "recipe.10036.name"
+msgid "Turnip Mushroom Moonshine"
+msgstr "Cachaça de nabo com cogumelos"
+
+#: Recipes.json:10041
+#, fuzzy
+msgctxt "recipe.10041.name"
+msgid "Potato Moonshine"
+msgstr "Cachaça de batata"
+
+#: Recipes.json:10042
+#, fuzzy
+msgctxt "recipe.10042.name"
+msgid "Potato Mushroom Moonshine"
+msgstr "Cachaça de batata com cogumelos"
+
+#: Recipes.json:10043
+#, fuzzy
+msgctxt "recipe.10043.name"
+msgid "Rich Whiskey"
+msgstr "Uísque encorpado"
+
+#: Recipes.json:10044
+#, fuzzy
+msgctxt "recipe.10044.name"
+msgid "Mushroom Rich Whiskey"
+msgstr "Uísque encorpado com cogumelos"
+
+#: Recipes.json:10045
+#, fuzzy
+msgctxt "recipe.10045.name"
+msgid "Brandy"
+msgstr "Conhaque"
+
+#: Recipes.json:10046
+#, fuzzy
+msgctxt "recipe.10046.name"
+msgid "Mushroom Brandy"
+msgstr "Conhaque com cogumelos"
+
+#: Recipes.json:10047
+#, fuzzy
+msgctxt "recipe.10047.name"
+msgid "Applejack"
+msgstr "Aguardente de maçã"
+
+#: Recipes.json:10048
+#, fuzzy
+msgctxt "recipe.10048.name"
+msgid "Mushroom Applejack"
+msgstr "Aguardente de maçã com cogumelos"
+
+#: Recipes.json:10049
+#, fuzzy
+msgctxt "recipe.10049.name"
+msgid "Ethanol"
+msgstr "Etanol"
+
+#: Recipes.json:10050
+#, fuzzy
+msgctxt "recipe.10050.name"
+msgid "Compost"
+msgstr "Compostagem"
+
+#: Recipes.json:10051
+#, fuzzy
+msgctxt "recipe.10051.name"
+msgid "Compost"
+msgstr "Compostagem"
+
+#: Recipes.json:10052
+#, fuzzy
+msgctxt "recipe.10052.name"
+msgid "Compost"
+msgstr "Compostagem"
+
+#: Recipes.json:10053
+#, fuzzy
+msgctxt "recipe.10053.name"
+msgid "Compost"
+msgstr "Compostagem"
+
+#: Recipes.json:10056
+#, fuzzy
+msgctxt "recipe.10056.name"
+msgid "Rye Flour"
+msgstr "Farinha de centeio"
+
+#: Recipes.json:10057
+#, fuzzy
+msgctxt "recipe.10057.name"
+msgid "Wheat Flour"
+msgstr "Farinha de trigo"
+
+#: Recipes.json:10058
+#, fuzzy
+msgctxt "recipe.10058.name"
+msgid "Sawdust"
+msgstr "Serragem"
+
+#: Recipes.json:10059
+#, fuzzy
+msgctxt "recipe.10059.name"
+msgid "Hot Dog Weiner"
+msgstr "Salsicha"
+
+#: Recipes.json:10150
+#, fuzzy
+msgctxt "recipe.10150.name"
+msgid "Glowing Hot Dog Weiner"
+msgstr "Salsicha brilhante"
+
+#: Recipes.json:10157
+#, fuzzy
+msgctxt "recipe.10157.name"
+msgid "Glowing Minced Meat"
+msgstr "Carne moída brilhante"
+
+#: Recipes.json:10213
+#, fuzzy
+msgctxt "recipe.10213.name"
+msgid "Ale Mash"
+msgstr "Garapa de ale"
+
+#: Recipes.json:10214
+#, fuzzy
+msgctxt "recipe.10214.name"
+msgid "Mushroom ale mash"
+msgstr "Garapa de ale com cogumelos"
+
+#: Recipes.json:10215
+#, fuzzy
+msgctxt "recipe.10215.name"
+msgid "Ale"
+msgstr "Ale"
+
+#: Recipes.json:10216
+#, fuzzy
+msgctxt "recipe.10216.name"
+msgid "Mushroom ale"
+msgstr "Ale com cogumelos"
+
+#: Recipes.json:10217
+#, fuzzy
+msgctxt "recipe.10217.name"
+msgid "Whiskey"
+msgstr "Uísque"
+
+#: Recipes.json:10218
+#, fuzzy
+msgctxt "recipe.10218.name"
+msgid "Mushroom Whiskey"
+msgstr "Uísque com cogumelos"
+
+#: Recipes.json:10219
+#, fuzzy
+msgctxt "recipe.10219.name"
+msgid "Sahti Mash"
+msgstr "Garapa de sahti"
+
+#: Recipes.json:10220
+#, fuzzy
+msgctxt "recipe.10220.name"
+msgid "Sahti Mushroom Mash"
+msgstr "Garapa de sahti com cogumelos"
+
+#: Recipes.json:10221
+#, fuzzy
+msgctxt "recipe.10221.name"
+msgid "Sahti"
+msgstr "Sahti"
+
+#: Recipes.json:10222
+#, fuzzy
+msgctxt "recipe.10222.name"
+msgid "Mushroom sahti"
+msgstr "Sahti com cogumelos"
+
+#: Recipes.json:10224
+#, fuzzy
+msgctxt "recipe.10224.name"
+msgid "Väkisahti"
+msgstr "Väkisahti"
+
+#: Recipes.json:10225
+#, fuzzy
+msgctxt "recipe.10225.name"
+msgid "Mushroom Väkisahti"
+msgstr "Väkisahti com cogumelos"
+
+#: Recipes.json:10226
+#, fuzzy
+msgctxt "recipe.10226.name"
+msgid "French Fries"
+msgstr "Batata frita"
+
+#: Recipes.json:10425
+#, fuzzy
+msgctxt "recipe.10425.name"
+msgid "French Fries"
+msgstr "Batata frita"
+
+#: Recipes.json:10426
+#, fuzzy
+msgctxt "recipe.10426.name"
+msgid "Steak with Fries"
+msgstr "Bife com fritas"
+
+#: Recipes.json:10427
+#, fuzzy
+msgctxt "recipe.10427.name"
+msgid "Fish 'n Chips"
+msgstr "Peixe com fritas"
+
+#: Recipes.json:10428
+#, fuzzy
+msgctxt "recipe.10428.name"
+msgid "Meatballs with smashed potatoes"
+msgstr "Almôndegas com purê de batata"
+
+#: Recipes.json:10429
+#, fuzzy
+msgctxt "recipe.10429.name"
+msgid "Fishsticks and mashed potatoes"
+msgstr "Douradinhos com batata amassada"
+
+#: Recipes.json:10430
+#, fuzzy
+msgctxt "recipe.10430.name"
+msgid "Chicken Breast with rice and onions"
+msgstr "Peito de frango com arroz e cebola"
+
+#: Recipes.json:10431
+#, fuzzy
+msgctxt "recipe.10431.name"
+msgid "Oven Sausages with smashed potatoes"
+msgstr "Salsicha de forno com purê de batata"
+
+#: Recipes.json:10432
+#, fuzzy
+msgctxt "recipe.10432.name"
+msgid "Steak with Fries"
+msgstr "Bife com fritas"
+
+#: Recipes.json:10433
+#, fuzzy
+msgctxt "recipe.10433.name"
+msgid "Pork Steak With Vegetables"
+msgstr "Bife de porco com legumes"
+
+#: Recipes.json:10434
+#, fuzzy
+msgctxt "recipe.10434.name"
+msgid "Pasta Bolognese"
+msgstr "Macarrão à bolonhesa"
+
+#: Recipes.json:10435
+#, fuzzy
+msgctxt "recipe.10435.name"
+msgid "Potatoes With Meat Sauce"
+msgstr "Batatas com molho de carne"
+
+#: Recipes.json:10436
+#, fuzzy
+msgctxt "recipe.10436.name"
+msgid "Hash"
+msgstr "Picadinho"
+
+#: Recipes.json:10437
+#, fuzzy
+msgctxt "recipe.10437.name"
+msgid "Chicken Curry Sauce with Rice"
+msgstr "Frango ao curry com arroz"
+
+#: Recipes.json:10438
+#, fuzzy
+msgctxt "recipe.10438.name"
+msgid "Plywood"
+msgstr "Compensado"
+
+#: Recipes.json:10439
+#, fuzzy
+msgctxt "recipe.10439.name"
+msgid "Plywood"
+msgstr "Compensado"
+
+#: Recipes.json:10004
+#, fuzzy
+msgctxt "recipe.10004.name"
+msgid "Smashed Potatoes"
+msgstr "Purê de batata"
+
+#: Recipes.json:10160
+#, fuzzy
+msgctxt "recipe.10160.name"
+msgid "Pierogi"
+msgstr "Pierogi"
+
+#: Recipes.json:10164
+#, fuzzy
+msgctxt "recipe.10164.name"
+msgid "Poisoned Socca Junior"
+msgstr "Socca Junior envenenado"
+
+#: Recipes.json:10440
+#, fuzzy
+msgctxt "recipe.10440.name"
+msgid "Mushroom extract"
+msgstr "Extrato de cogumelo"
+
+#: Recipes.json:10441
+#, fuzzy
+msgctxt "recipe.10441.name"
+msgid "Purify Green Mushrooms"
+msgstr "Purificar cogumelos verdes"
+
+#: Recipes.json:10442
+#, fuzzy
+msgctxt "recipe.10442.name"
+msgid "Stalburg Bank Form"
+msgstr "Formulário do Banco de Stalburg"
+
+#: Recipes.json:10443
+#, fuzzy
+msgctxt "recipe.10443.name"
+msgid "Shroom Water"
+msgstr "Água de cogumelo"
+
+#: Recipes.json:10444
+#, fuzzy
+msgctxt "recipe.10444.name"
+msgid "Purify water"
+msgstr "Purificar água"
+
+#: Recipes.json:10445
+#, fuzzy
+msgctxt "recipe.10445.name"
+msgid "Steel Bar"
+msgstr "Barra de aço"
+
+#: Recipes.json:10446
+#, fuzzy
+msgctxt "recipe.10446.name"
+msgid "Brass Bar"
+msgstr "Barra de latão"
+
+#: Recipes.json:10447
+#, fuzzy
+msgctxt "recipe.10447.name"
+msgid "Silver Bar"
+msgstr "Barra de prata"
+
+#: Recipes.json:10448
+#, fuzzy
+msgctxt "recipe.10448.name"
+msgid "Gold Bar"
+msgstr "Barra de ouro"
+
+#: Recipes.json:10449
+#, fuzzy
+msgctxt "recipe.10449.name"
+msgid "Scrap"
+msgstr "Sucata"
+
+#: Recipes.json:10450
+#, fuzzy
+msgctxt "recipe.10450.name"
+msgid "Mushroom Rollie"
+msgstr "Cigarro enrolado com cogumelos"
+
+#: Recipes.json:10451
+#, fuzzy
+msgctxt "recipe.10451.name"
+msgid "Malts"
+msgstr "Malte"
+
+#: Recipes.json:10452
+#, fuzzy
+msgctxt "recipe.10452.name"
+msgid "Pipes"
+msgstr "Canos"
+
+#: Recipes.json:10453
+#, fuzzy
+msgctxt "recipe.10453.name"
+msgid "Steel Bar"
+msgstr "Barra de aço"
+
+#: Recipes.json:10454
+#, fuzzy
+msgctxt "recipe.10454.name"
+msgid "Cucumber Plant"
+msgstr "Pé de pepino"
+
+#: Recipes.json:10455
+#, fuzzy
+msgctxt "recipe.10455.name"
+msgid "Compost"
+msgstr "Compostagem"
+
+#: Recipes.json:10456
+#, fuzzy
+msgctxt "recipe.10456.name"
+msgid "Extract yeast"
+msgstr "Extrair levedura"
+
+#: Recipes.json:10457
+#, fuzzy
+msgctxt "recipe.10457.name"
+msgid "Biogas"
+msgstr "Biogás"
+
+#: Recipes.json:10458
+#, fuzzy
+msgctxt "recipe.10458.name"
+msgid "Biogas"
+msgstr "Biogás"
+
+#: Recipes.json:10459
+#, fuzzy
+msgctxt "recipe.10459.name"
+msgid "Biogas"
+msgstr "Biogás"
+
+#: Recipes.json:10460
+#, fuzzy
+msgctxt "recipe.10460.name"
+msgid "Biogas"
+msgstr "Biogás"
+
+#: Recipes.json:10461
+#, fuzzy
+msgctxt "recipe.10461.name"
+msgid "Biogas"
+msgstr "Biogás"
+
+#: Recipes.json:10462
+#, fuzzy
+msgctxt "recipe.10462.name"
+msgid "Biogas"
+msgstr "Biogás"
+
+#: Recipes.json:10463
+#, fuzzy
+msgctxt "recipe.10463.name"
+msgid "Milk Mash"
+msgstr "Garapa de leite"
+
+#: Recipes.json:10464
+#, fuzzy
+msgctxt "recipe.10464.name"
+msgid "Milk Mushroom Mash"
+msgstr "Garapa de leite com cogumelos"
+
+#: Recipes.json:10465
+#, fuzzy
+msgctxt "recipe.10465.name"
+msgid "Rice Mash"
+msgstr "Garapa de arroz"
+
+#: Recipes.json:10466
+#, fuzzy
+msgctxt "recipe.10466.name"
+msgid "Rice Mushroom Mash"
+msgstr "Garapa de arroz com cogumelos"
+
+#: Recipes.json:10467
+#, fuzzy
+msgctxt "recipe.10467.name"
+msgid "Kumis"
+msgstr "Kumis"
+
+#: Recipes.json:10468
+#, fuzzy
+msgctxt "recipe.10468.name"
+msgid "Mushroom Kumis"
+msgstr "Kumis com cogumelos"
+
+#: Recipes.json:10469
+#, fuzzy
+msgctxt "recipe.10469.name"
+msgid "Rice Wine"
+msgstr "Vinho de arroz"
+
+#: Recipes.json:10470
+#, fuzzy
+msgctxt "recipe.10470.name"
+msgid "Mushroom Rice Wine"
+msgstr "Vinho de arroz com cogumelos"
+
+#: Recipes.json:10471
+#, fuzzy
+msgctxt "recipe.10471.name"
+msgid "Milk Moonshine"
+msgstr "Cachaça de leite"
+
+#: Recipes.json:10472
+#, fuzzy
+msgctxt "recipe.10472.name"
+msgid "Milk Mushroom Moonshine"
+msgstr "Cachaça de leite com cogumelos"
+
+#: Recipes.json:10473
+#, fuzzy
+msgctxt "recipe.10473.name"
+msgid "Shochu"
+msgstr "Shochu"
+
+#: Recipes.json:10474
+#, fuzzy
+msgctxt "recipe.10474.name"
+msgid "Mushroom Shochu"
+msgstr "Shochu com cogumelos"
+
+#: Recipes.json:10475
+#, fuzzy
+msgctxt "recipe.10475.name"
+msgid "Cup of Water"
+msgstr "Copo d'água"
+
+#: Recipes.json:10476
+#, fuzzy
+msgctxt "recipe.10476.name"
+msgid "Juniper tree"
+msgstr "Zimbro"
+
+#: Recipes.json:10477
+#, fuzzy
+msgctxt "recipe.10477.name"
+msgid "Tea"
+msgstr "Chá"
+
+#: Recipes.json:10478
+#, fuzzy
+msgctxt "recipe.10478.name"
+msgid "Hop Plant"
+msgstr "Pé de lúpulo"
+
+#: Recipes.json:10479
+#, fuzzy
+msgctxt "recipe.10479.name"
+msgid "Saline"
+msgstr "Soro fisiológico"
+
+#: Recipes.json:10480
+#, fuzzy
+msgctxt "recipe.10480.name"
+msgid "Cider"
+msgstr "Sidra"
+
+#: Recipes.json:10481
+#, fuzzy
+msgctxt "recipe.10481.name"
+msgid "Mushroom Cider"
+msgstr "Sidra com cogumelos"
+
+#: Recipes.json:10482
+#, fuzzy
+msgctxt "recipe.10482.name"
+msgid "High Purity Gold Bar"
+msgstr "Barra de ouro de alta pureza"
+
+#: Recipes.json:10483
+#, fuzzy
+msgctxt "recipe.10483.name"
+msgid "Extract gold"
+msgstr "Extrair ouro"
+
+#: Recipes.json:10484
+#, fuzzy
+msgctxt "recipe.10484.name"
+msgid "Extract gold"
+msgstr "Extrair ouro"
+
+#: Recipes.json:10485
+#, fuzzy
+msgctxt "recipe.10485.name"
+msgid "Extract gold"
+msgstr "Extrair ouro"
+
+#: Recipes.json:10486
+#, fuzzy
+msgctxt "recipe.10486.name"
+msgid "Plastic Container"
+msgstr "Pote plástico"
+
+#: Recipes.json:10499
+#, fuzzy
+msgctxt "recipe.10499.name"
+msgid "Cat"
+msgstr "Gato"
+
+#: Recipes.json:10488
+#, fuzzy
+msgctxt "recipe.10488.name"
+msgid "Aluminum Bar"
+msgstr "Barra de alumínio"
+
+#: Recipes.json:10489
+#, fuzzy
+msgctxt "recipe.10489.name"
+msgid "Oven Cloth"
+msgstr "Pano de forno"
+
+#: Recipes.json:10490
+#, fuzzy
+msgctxt "recipe.10490.name"
+msgid "Teddy Bear"
+msgstr "Ursinho de pelúcia"
+
+#: Recipes.json:10491
+#, fuzzy
+msgctxt "recipe.10491.name"
+msgid "Chicken"
+msgstr "Galinha"
+
+#: Recipes.json:10492
+#, fuzzy
+msgctxt "recipe.10492.name"
+msgid "Chick"
+msgstr "Pintinho"
+
+#: Recipes.json:10493
+#, fuzzy
+msgctxt "recipe.10493.name"
+msgid "Plastic Parts"
+msgstr "Peças de plástico"
+
+#: Recipes.json:10494
+#, fuzzy
+msgctxt "recipe.10494.name"
+msgid "Electronic Parts"
+msgstr "Peças eletrônicas"
+
+#: Recipes.json:10495
+#, fuzzy
+msgctxt "recipe.10495.name"
+msgid "Wiring Components"
+msgstr "Material de fiação"
+
+#: Recipes.json:10496
+#, fuzzy
+msgctxt "recipe.10496.name"
+msgid "Facemask"
+msgstr "Máscara facial"
+
+#: Recipes.json:10497
+#, fuzzy
+msgctxt "recipe.10497.name"
+msgid "Egg"
+msgstr "Ovo"
+
+#: Recipes.json:10487
+#, fuzzy
+msgctxt "recipe.10487.name"
+msgid "Boiled Egg"
+msgstr "Ovo cozido"
+
+#: Recipes.json:10498
+#, fuzzy
+msgctxt "recipe.10498.name"
+msgid "Fried Egg"
+msgstr "Ovo frito"
+
+#: Recipes.json:10500
+#, fuzzy
+msgctxt "recipe.10500.name"
+msgid "Empty Filament Spool"
+msgstr "Carretel de filamento vazio"
+
+#: Recipes.json:10288
+#, fuzzy
+msgctxt "recipe.10288.name"
+msgid "Pure Water"
+msgstr "Água pura"
+
+#: Recipes.json:10289
+#, fuzzy
+msgctxt "recipe.10289.name"
+msgid "Design Crude Furniture"
+msgstr "Projetar móveis rudimentares"
+
+#: Recipes.json:10501
+#, fuzzy
+msgctxt "recipe.10501.name"
+msgid "Glue"
+msgstr "Cola"
+
+#: Recipes.json:10502
+#, fuzzy
+msgctxt "recipe.10502.name"
+msgid "Glue"
+msgstr "Cola"
+
+#: Recipes.json:10503
+#, fuzzy
+msgctxt "recipe.10503.name"
+msgid "Glue"
+msgstr "Cola"
+
+#: Recipes.json:10504
+#, fuzzy
+msgctxt "recipe.10504.name"
+msgid "Glue"
+msgstr "Cola"
+
+#: Recipes.json:10505
+#, fuzzy
+msgctxt "recipe.10505.name"
+msgid "Scam Invoice"
+msgstr "Boleto falso"
+
+#: Recipes.json:10506
+#, fuzzy
+msgctxt "recipe.10506.name"
+msgid "Design Improved Furniture"
+msgstr "Projetar móveis aprimorados"
+
+#: Recipes.json:10507
+#, fuzzy
+msgctxt "recipe.10507.name"
+msgid "Glass Pane"
+msgstr "Placa de vidro"
+
+#: Recipes.json:10508
+#, fuzzy
+msgctxt "recipe.10508.name"
+msgid "Bricks"
+msgstr "Tijolos"
+
+#: Recipes.json:10509
+#, fuzzy
+msgctxt "recipe.10509.name"
+msgid "Cement"
+msgstr "Cimento"
+
+#: Recipes.json:10510
+#, fuzzy
+msgctxt "recipe.10510.name"
+msgid "Cement"
+msgstr "Cimento"
+
+#: Recipes.json:10511
+#, fuzzy
+msgctxt "recipe.10511.name"
+msgid "Design Detailed Furniture"
+msgstr "Projetar móveis detalhados"
+
+#: Recipes.json:10512
+#, fuzzy
+msgctxt "recipe.10512.name"
+msgid "Flowerpots"
+msgstr "Vasos de planta"
+
+#: Recipes.json:10513
+#, fuzzy
+msgctxt "recipe.10513.name"
+msgid "Iron Ore"
+msgstr "Minério de ferro"
+
+#: Recipes.json:10514
+#, fuzzy
+msgctxt "recipe.10514.name"
+msgid "Gravel"
+msgstr "Cascalho"
+
+#: Recipes.json:10515
+#, fuzzy
+msgctxt "recipe.10515.name"
+msgid "Asbestos"
+msgstr "Amianto"
+
+#: Recipes.json:10516
+#, fuzzy
+msgctxt "recipe.10516.name"
+msgid "Gold Ore"
+msgstr "Minério de ouro"
+
+#: Recipes.json:10517
+#, fuzzy
+msgctxt "recipe.10517.name"
+msgid "Sand"
+msgstr "Areia"
+
+#: Recipes.json:10518
+#, fuzzy
+msgctxt "recipe.10518.name"
+msgid "Gold Bar"
+msgstr "Barra de ouro"
+
+#: Recipes.json:10519
+#, fuzzy
+msgctxt "recipe.10519.name"
+msgid "Steel"
+msgstr "Aço"
+
+#: Recipes.json:10520
+#, fuzzy
+msgctxt "recipe.10520.name"
+msgid "Copper Wire"
+msgstr "Fio de cobre"
+
+#: Recipes.json:10521
+#, fuzzy
+msgctxt "recipe.10521.name"
+msgid "Copper Bar"
+msgstr "Barra de cobre"
+
+#: Recipes.json:10522
+#, fuzzy
+msgctxt "recipe.10522.name"
+msgid "Charcoal"
+msgstr "Carvão vegetal"
+
+#: Recipes.json:10523
+#, fuzzy
+msgctxt "recipe.10523.name"
+msgid "Charcoal"
+msgstr "Carvão vegetal"
+
+#: Recipes.json:10524
+#, fuzzy
+msgctxt "recipe.10524.name"
+msgid "Scrap Metal"
+msgstr "Sucata de metal"
+
+#: Recipes.json:10525
+#, fuzzy
+msgctxt "recipe.10525.name"
+msgid "Rat Trap Baits"
+msgstr "Iscas para ratoeira"
+
+#: Recipes.json:10526
+#, fuzzy
+msgctxt "recipe.10526.name"
+msgid "Coke"
+msgstr "Coque"
+
+#: Recipes.json:10527
+#, fuzzy
+msgctxt "recipe.10527.name"
+msgid "Steel"
+msgstr "Aço"
+
+#: Recipes.json:10528
+#, fuzzy
+msgctxt "recipe.10528.name"
+msgid "Urea Extraction"
+msgstr "Extração de ureia"
+
+#: Recipes.json:10529
+#, fuzzy
+msgctxt "recipe.10529.name"
+msgid "Urea Extraction"
+msgstr "Extração de ureia"
+
+#: Recipes.json:10530
+#, fuzzy
+msgctxt "recipe.10530.name"
+msgid "Rat Trap"
+msgstr "Ratoeira"
+
+#: Recipes.json:10531
+#, fuzzy
+msgctxt "recipe.10531.name"
+msgid "Mushroom Water"
+msgstr "Água de cogumelo"
+
+#: Recipes.json:10532
+#, fuzzy
+msgctxt "recipe.10532.name"
+msgid "Mining Permit Filled Form"
+msgstr "Formulário de licença de mineração preenchido"
+
+#: Recipes.json:10533
+#, fuzzy
+msgctxt "recipe.10533.name"
+msgid "Limestone"
+msgstr "Calcário"
+
+#: Recipes.json:10534
+#, fuzzy
+msgctxt "recipe.10534.name"
+msgid "Shroom Water"
+msgstr "Água de cogumelo"
+
+#: Recipes.json:10535
+#, fuzzy
+msgctxt "recipe.10535.name"
+msgid "Sugar mash"
+msgstr "Garapa de açúcar"
+
+#: Recipes.json:10536
+#, fuzzy
+msgctxt "recipe.10536.name"
+msgid "Blackcurrant Juice"
+msgstr "Suco de cassis"
+
+#: Recipes.json:10537
+#, fuzzy
+msgctxt "recipe.10537.name"
+msgid "Blackcurrant mash"
+msgstr "Garapa de cassis"
+
+#: Recipes.json:10538
+#, fuzzy
+msgctxt "recipe.10538.name"
+msgid "Blackccurrant Wine"
+msgstr "Vinho de cassis"
+
+#: Recipes.json:10539
+#, fuzzy
+msgctxt "recipe.10539.name"
+msgid "Blackcurrant Liqueur"
+msgstr "Licor de cassis"
+
+#: Recipes.json:10540
+#, fuzzy
+msgctxt "recipe.10540.name"
+msgid "Mushroom Blackcurrant mash"
+msgstr "Garapa de cassis com cogumelos"
+
+#: Recipes.json:10541
+#, fuzzy
+msgctxt "recipe.10541.name"
+msgid "Mushroom Blackccurrant Wine"
+msgstr "Vinho de cassis com cogumelos"
+
+#: Recipes.json:10542
+#, fuzzy
+msgctxt "recipe.10542.name"
+msgid "Mushroom Blackcurrant Liqueur"
+msgstr "Licor de cassis com cogumelos"
+
+#: Recipes.json:10543
+#, fuzzy
+msgctxt "recipe.10543.name"
+msgid "Cloth Roll"
+msgstr "Rolo de tecido"
+
+#: Recipes.json:10544
+#, fuzzy
+msgctxt "recipe.10544.name"
+msgid "Tarp Roll"
+msgstr "Rolo de lona"
+
+#: Recipes.json:10545
+#, fuzzy
+msgctxt "recipe.10545.name"
+msgid "Cloth Roll"
+msgstr "Rolo de tecido"
+
+#: Recipes.json:10546
+#, fuzzy
+msgctxt "recipe.10546.name"
+msgid "Steel Wire"
+msgstr "Arame de aço"
+
+#: Recipes.json:10547
+#, fuzzy
+msgctxt "recipe.10547.name"
+msgid "Watermelon mash"
+msgstr "Garapa de melancia"
+
+#: Recipes.json:10548
+#, fuzzy
+msgctxt "recipe.10548.name"
+msgid "Watermelon mushroom mash"
+msgstr "Garapa de melancia com cogumelos"
+
+#: Recipes.json:10549
+#, fuzzy
+msgctxt "recipe.10549.name"
+msgid "Watermelon Wine"
+msgstr "Vinho de melancia"
+
+#: Recipes.json:10550
+#, fuzzy
+msgctxt "recipe.10550.name"
+msgid "Watermelon mushroom Wine"
+msgstr "Vinho de melancia com cogumelos"
+
+#: Recipes.json:10551
+#, fuzzy
+msgctxt "recipe.10551.name"
+msgid "Watermelon Moonshine"
+msgstr "Cachaça de melancia"
+
+#: Recipes.json:10552
+#, fuzzy
+msgctxt "recipe.10552.name"
+msgid "Watermelon Mushroom Moonshine"
+msgstr "Cachaça de melancia com cogumelos"
+
+#: Recipes.json:10553
+#, fuzzy
+msgctxt "recipe.10553.name"
+msgid "Bandage"
+msgstr "Atadura"
+
+#: Recipes.json:10554
+#, fuzzy
+msgctxt "recipe.10554.name"
+msgid "Glowing Beef"
+msgstr "Carne bovina brilhante"
+
+#: Recipes.json:10555
+#, fuzzy
+msgctxt "recipe.10555.name"
+msgid "Glowing Pork"
+msgstr "Carne de porco brilhante"
+
+#: Recipes.json:10556
+#, fuzzy
+msgctxt "recipe.10556.name"
+msgid "Glowing Chicken"
+msgstr "Frango brilhante"
+
+#: Recipes.json:10557
+#, fuzzy
+msgctxt "recipe.10557.name"
+msgid "Glowing Rat Meat"
+msgstr "Carne de rato brilhante"
+
+#: Recipes.json:10558
+#, fuzzy
+msgctxt "recipe.10558.name"
+msgid "Glowing Cat Meat"
+msgstr "Carne de gato brilhante"
+
+#: Recipes.json:10559
+#, fuzzy
+msgctxt "recipe.10559.name"
+msgid "Glowing Dog Meat"
+msgstr "Carne de cachorro brilhante"
+
+#: Recipes.json:10560
+#, fuzzy
+msgctxt "recipe.10560.name"
+msgid "Glowing Mystery Meat"
+msgstr "Carne misteriosa brilhante"
+
+#: Recipes.json:10561
+#, fuzzy
+msgctxt "recipe.10561.name"
+msgid "Glowing Sewer Fish"
+msgstr "Peixe de esgoto brilhante"
+
+#: Recipes.json:10562
+#, fuzzy
+msgctxt "recipe.10562.name"
+msgid "Glowing Minced Meat"
+msgstr "Carne moída brilhante"
+
+#: Recipes.json:10563
+#, fuzzy
+msgctxt "recipe.10563.name"
+msgid "Glass Shards"
+msgstr "Cacos de vidro"
+
+#: Recipes.json:10564
+#, fuzzy
+msgctxt "recipe.10564.name"
+msgid "Orange Mushroom Powder"
+msgstr "Pó de cogumelo laranja"
+
+#: Recipes.json:10565
+#, fuzzy
+msgctxt "recipe.10565.name"
+msgid "Pure Orange Mushroom Powder"
+msgstr "Pó puro de cogumelo laranja"
+
+#: Recipes.json:10566
+#, fuzzy
+msgctxt "recipe.10566.name"
+msgid "Perch"
+msgstr "Perca"
+
+#: Recipes.json:10567
+#, fuzzy
+msgctxt "recipe.10567.name"
+msgid "Pike"
+msgstr "Lúcio"
+
+#: Recipes.json:10568
+#, fuzzy
+msgctxt "recipe.10568.name"
+msgid "Salmon"
+msgstr "Salmão"
+
+#: Recipes.json:10569
+#, fuzzy
+msgctxt "recipe.10569.name"
+msgid "Glowing Salmon"
+msgstr "Salmão brilhante"
+
+#: Recipes.json:10570
+#, fuzzy
+msgctxt "recipe.10570.name"
+msgid "Glowing Pike"
+msgstr "Lúcio brilhante"
+
+#: Recipes.json:10571
+#, fuzzy
+msgctxt "recipe.10571.name"
+msgid "Glowing Perch"
+msgstr "Perca brilhante"
+
+#: Recipes.json:10572
+#, fuzzy
+msgctxt "recipe.10572.name"
+msgid "Plörö"
+msgstr "Plörö"
+
+#: Recipes.json:10573
+#, fuzzy
+msgctxt "recipe.10573.name"
+msgid "Rail"
+msgstr "Trilho"
+
+#: Recipes.json:10574
+#, fuzzy
+msgctxt "recipe.10574.name"
+msgid "Steel Bar"
+msgstr "Barra de aço"
+
+#: Recipes.json:10575
+#, fuzzy
+msgctxt "recipe.10575.name"
+msgid "Rebar"
+msgstr "Vergalhão"
+
+#: Recipes.json:10576
+#, fuzzy
+msgctxt "recipe.10576.name"
+msgid "Fecal Moonshine"
+msgstr "Cachaça fecal"
+
+#: Recipes.json:10577
+#, fuzzy
+msgctxt "recipe.10577.name"
+msgid "Fecal Mushroom Moonshine"
+msgstr "Cachaça fecal com cogumelos"
+
+#: Recipes.json:10578
+#, fuzzy
+msgctxt "recipe.10578.name"
+msgid "Beef Multigrain Sandwich"
+msgstr "Lanche multigrãos de carne"
+
+#: Recipes.json:10579
+#, fuzzy
+msgctxt "recipe.10579.name"
+msgid "Beef Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos de carne com serragem"
+
+#: Recipes.json:10580
+#, fuzzy
+msgctxt "recipe.10580.name"
+msgid "Cat Multigrain Sandwich"
+msgstr "Lanche multigrãos de gato"
+
+#: Recipes.json:10581
+#, fuzzy
+msgctxt "recipe.10581.name"
+msgid "Cat Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos de gato com serragem"
+
+#: Recipes.json:10582
+#, fuzzy
+msgctxt "recipe.10582.name"
+msgid "Chicken Multigrain Sandwich"
+msgstr "Lanche multigrãos de frango"
+
+#: Recipes.json:10583
+#, fuzzy
+msgctxt "recipe.10583.name"
+msgid "Chicken Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos de frango com serragem"
+
+#: Recipes.json:10584
+#, fuzzy
+msgctxt "recipe.10584.name"
+msgid "Dog Multigrain Sandwich"
+msgstr "Lanche multigrãos de cachorro"
+
+#: Recipes.json:10585
+#, fuzzy
+msgctxt "recipe.10585.name"
+msgid "Dog Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos de cachorro com serragem"
+
+#: Recipes.json:10586
+#, fuzzy
+msgctxt "recipe.10586.name"
+msgid "Glowing Beef Multigrain Sandwich"
+msgstr "Lanche multigrãos de carne brilhante"
+
+#: Recipes.json:10587
+#, fuzzy
+msgctxt "recipe.10587.name"
+msgid "Glowing Beef Multigrain Sandwich"
+msgstr "Lanche multigrãos de carne brilhante"
+
+#: Recipes.json:10588
+#, fuzzy
+msgctxt "recipe.10588.name"
+msgid "Glowing Beef Multigrain Sandwich"
+msgstr "Lanche multigrãos de carne brilhante"
+
+#: Recipes.json:10589
+#, fuzzy
+msgctxt "recipe.10589.name"
+msgid "Glowing Beef Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos de carne brilhante com serragem"
+
+#: Recipes.json:10590
+#, fuzzy
+msgctxt "recipe.10590.name"
+msgid "Glowing Beef Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos de carne brilhante com serragem"
+
+#: Recipes.json:10591
+#, fuzzy
+msgctxt "recipe.10591.name"
+msgid "Glowing Beef Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos de carne brilhante com serragem"
+
+#: Recipes.json:10592
+#, fuzzy
+msgctxt "recipe.10592.name"
+msgid "Glowing Cat Multigrain Sandwich"
+msgstr "Lanche multigrãos de gato brilhante"
+
+#: Recipes.json:10593
+#, fuzzy
+msgctxt "recipe.10593.name"
+msgid "Glowing Cat Multigrain Sandwich"
+msgstr "Lanche multigrãos de gato brilhante"
+
+#: Recipes.json:10594
+#, fuzzy
+msgctxt "recipe.10594.name"
+msgid "Glowing Cat Multigrain Sandwich"
+msgstr "Lanche multigrãos de gato brilhante"
+
+#: Recipes.json:10595
+#, fuzzy
+msgctxt "recipe.10595.name"
+msgid "Glowing Cat Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos de gato brilhante com serragem"
+
+#: Recipes.json:10596
+#, fuzzy
+msgctxt "recipe.10596.name"
+msgid "Glowing Cat Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos de gato brilhante com serragem"
+
+#: Recipes.json:10598
+#, fuzzy
+msgctxt "recipe.10598.name"
+msgid "Glowing Cat Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos de gato brilhante com serragem"
+
+#: Recipes.json:10597
+#, fuzzy
+msgctxt "recipe.10597.name"
+msgid "Glowing Chicken Multigrain Sandwich"
+msgstr "Lanche multigrãos de frango brilhante"
+
+#: Recipes.json:10599
+#, fuzzy
+msgctxt "recipe.10599.name"
+msgid "Glowing Chicken Multigrain Sandwich"
+msgstr "Lanche multigrãos de frango brilhante"
+
+#: Recipes.json:10600
+#, fuzzy
+msgctxt "recipe.10600.name"
+msgid "Glowing Chicken Multigrain Sandwich"
+msgstr "Lanche multigrãos de frango brilhante"
+
+#: Recipes.json:10601
+#, fuzzy
+msgctxt "recipe.10601.name"
+msgid "Glowing Chicken Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos de frango brilhante com serragem"
+
+#: Recipes.json:10602
+#, fuzzy
+msgctxt "recipe.10602.name"
+msgid "Glowing Chicken Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos de frango brilhante com serragem"
+
+#: Recipes.json:10603
+#, fuzzy
+msgctxt "recipe.10603.name"
+msgid "Glowing Chicken Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos de frango brilhante com serragem"
+
+#: Recipes.json:10604
+#, fuzzy
+msgctxt "recipe.10604.name"
+msgid "Glowing Dog Multigrain Sandwich"
+msgstr "Lanche multigrãos de cachorro brilhante"
+
+#: Recipes.json:10605
+#, fuzzy
+msgctxt "recipe.10605.name"
+msgid "Glowing Dog Multigrain Sandwich"
+msgstr "Lanche multigrãos de cachorro brilhante"
+
+#: Recipes.json:10606
+#, fuzzy
+msgctxt "recipe.10606.name"
+msgid "Glowing Dog Multigrain Sandwich"
+msgstr "Lanche multigrãos de cachorro brilhante"
+
+#: Recipes.json:10607
+#, fuzzy
+msgctxt "recipe.10607.name"
+msgid "Glowing Dog Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos de cachorro brilhante com serragem"
+
+#: Recipes.json:10608
+#, fuzzy
+msgctxt "recipe.10608.name"
+msgid "Glowing Dog Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos de cachorro brilhante com serragem"
+
+#: Recipes.json:10609
+#, fuzzy
+msgctxt "recipe.10609.name"
+msgid "Glowing Dog Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos de cachorro brilhante com serragem"
+
+#: Recipes.json:10610
+#, fuzzy
+msgctxt "recipe.10610.name"
+msgid "Glowing Mystery Multigrain Sandwich"
+msgstr "Lanche multigrãos misterioso brilhante"
+
+#: Recipes.json:10611
+#, fuzzy
+msgctxt "recipe.10611.name"
+msgid "Glowing Mystery Multigrain Sandwich"
+msgstr "Lanche multigrãos misterioso brilhante"
+
+#: Recipes.json:10612
+#, fuzzy
+msgctxt "recipe.10612.name"
+msgid "Glowing Mystery Multigrain Sandwich"
+msgstr "Lanche multigrãos misterioso brilhante"
+
+#: Recipes.json:10613
+#, fuzzy
+msgctxt "recipe.10613.name"
+msgid "Glowing Mystery Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos misterioso brilhante com serragem"
+
+#: Recipes.json:10614
+#, fuzzy
+msgctxt "recipe.10614.name"
+msgid "Glowing Mystery Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos misterioso brilhante com serragem"
+
+#: Recipes.json:10615
+#, fuzzy
+msgctxt "recipe.10615.name"
+msgid "Glowing Mystery Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos misterioso brilhante com serragem"
+
+#: Recipes.json:10616
+#, fuzzy
+msgctxt "recipe.10616.name"
+msgid "Glowing Pork Multigrain Sandwich"
+msgstr "Lanche multigrãos de porco brilhante"
+
+#: Recipes.json:10617
+#, fuzzy
+msgctxt "recipe.10617.name"
+msgid "Glowing Pork Multigrain Sandwich"
+msgstr "Lanche multigrãos de porco brilhante"
+
+#: Recipes.json:10618
+#, fuzzy
+msgctxt "recipe.10618.name"
+msgid "Glowing Pork Multigrain Sandwich"
+msgstr "Lanche multigrãos de porco brilhante"
+
+#: Recipes.json:10619
+#, fuzzy
+msgctxt "recipe.10619.name"
+msgid "Glowing Pork Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos de porco brilhante com serragem"
+
+#: Recipes.json:10620
+#, fuzzy
+msgctxt "recipe.10620.name"
+msgid "Glowing Pork Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos de porco brilhante com serragem"
+
+#: Recipes.json:10621
+#, fuzzy
+msgctxt "recipe.10621.name"
+msgid "Glowing Pork Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos de porco brilhante com serragem"
+
+#: Recipes.json:10622
+#, fuzzy
+msgctxt "recipe.10622.name"
+msgid "Glowing Rat Multigrain Sandwich"
+msgstr "Lanche multigrãos de rato brilhante"
+
+#: Recipes.json:10623
+#, fuzzy
+msgctxt "recipe.10623.name"
+msgid "Glowing Rat Multigrain Sandwich"
+msgstr "Lanche multigrãos de rato brilhante"
+
+#: Recipes.json:10624
+#, fuzzy
+msgctxt "recipe.10624.name"
+msgid "Glowing Rat Multigrain Sandwich"
+msgstr "Lanche multigrãos de rato brilhante"
+
+#: Recipes.json:10625
+#, fuzzy
+msgctxt "recipe.10625.name"
+msgid "Glowing Rat Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos de rato brilhante com serragem"
+
+#: Recipes.json:10626
+#, fuzzy
+msgctxt "recipe.10626.name"
+msgid "Glowing Rat Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos de rato brilhante com serragem"
+
+#: Recipes.json:10627
+#, fuzzy
+msgctxt "recipe.10627.name"
+msgid "Glowing Rat Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos de rato brilhante com serragem"
+
+#: Recipes.json:10628
+#, fuzzy
+msgctxt "recipe.10628.name"
+msgid "Mystery Multigrain Sandwich"
+msgstr "Lanche multigrãos misterioso"
+
+#: Recipes.json:10629
+#, fuzzy
+msgctxt "recipe.10629.name"
+msgid "Mystery Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos misterioso com serragem"
+
+#: Recipes.json:10630
+#, fuzzy
+msgctxt "recipe.10630.name"
+msgid "Pork Multigrain Sandwich"
+msgstr "Lanche multigrãos de porco"
+
+#: Recipes.json:10631
+#, fuzzy
+msgctxt "recipe.10631.name"
+msgid "Pork Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos de porco com serragem"
+
+#: Recipes.json:10632
+#, fuzzy
+msgctxt "recipe.10632.name"
+msgid "Rat Multigrain Sandwich"
+msgstr "Lanche multigrãos de rato"
+
+#: Recipes.json:10633
+#, fuzzy
+msgctxt "recipe.10633.name"
+msgid "Rat Sawdust Multigrain Sandwich"
+msgstr "Lanche multigrãos de rato com serragem"
+
+#: Recipes.json:10634
+#, fuzzy
+msgctxt "recipe.10634.name"
+msgid "Multigrain Dough"
+msgstr "Massa multigrãos"
+
+#: Recipes.json:10635
+#, fuzzy
+msgctxt "recipe.10635.name"
+msgid "Sawdust Multigrain Dough"
+msgstr "Massa multigrãos com serragem"
+
+#: Recipes.json:10636
+#, fuzzy
+msgctxt "recipe.10636.name"
+msgid "Multigrain Mushroom Dough"
+msgstr "Massa multigrãos com cogumelos"
+
+#: Recipes.json:10637
+#, fuzzy
+msgctxt "recipe.10637.name"
+msgid "Rye Mushroom Dough"
+msgstr "Massa de centeio com cogumelos"
+
+#: Recipes.json:10638
+#, fuzzy
+msgctxt "recipe.10638.name"
+msgid "Sawdust Multigrain Mushroom Dough"
+msgstr "Massa multigrãos com serragem e cogumelos"
+
+#: Recipes.json:10639
+#, fuzzy
+msgctxt "recipe.10639.name"
+msgid "Sawdust Rye Mushroom Dough"
+msgstr "Massa de centeio com serragem e cogumelos"
+
+#: Recipes.json:10640
+#, fuzzy
+msgctxt "recipe.10640.name"
+msgid "Sawdust Wheat Mushroom Dough"
+msgstr "Massa de trigo com serragem e cogumelos"
+
+#: Recipes.json:10641
+#, fuzzy
+msgctxt "recipe.10641.name"
+msgid "Wheat Mushroom Dough"
+msgstr "Massa de trigo com cogumelos"
+
+#: Recipes.json:10642
+#, fuzzy
+msgctxt "recipe.10642.name"
+msgid "Glowing Rat"
+msgstr "Rato brilhante"
+
+#: Recipes.json:10643
+#, fuzzy
+msgctxt "recipe.10643.name"
+msgid "Smoked Salmon"
+msgstr "Salmão defumado"
+
+#: Recipes.json:10644
+#, fuzzy
+msgctxt "recipe.10644.name"
+msgid "Smoked Pike"
+msgstr "Lúcio defumado"
+
+#: Recipes.json:10645
+#, fuzzy
+msgctxt "recipe.10645.name"
+msgid "Smoked Perch"
+msgstr "Perca defumada"
+
+#: Recipes.json:10646
+#, fuzzy
+msgctxt "recipe.10646.name"
+msgid "Smoked Glowing Perch"
+msgstr "Perca brilhante defumada"
+
+#: Recipes.json:10647
+#, fuzzy
+msgctxt "recipe.10647.name"
+msgid "Smoked Glowing Pike"
+msgstr "Lúcio brilhante defumado"
+
+#: Recipes.json:10648
+#, fuzzy
+msgctxt "recipe.10648.name"
+msgid "Smoked Glowing Salmon"
+msgstr "Salmão brilhante defumado"
+
+#: Recipes.json:10649
+#, fuzzy
+msgctxt "recipe.10649.name"
+msgid "Steamed Mussels"
+msgstr "Mexilhões no vapor"
+
+#: Recipes.json:10650
+#, fuzzy
+msgctxt "recipe.10650.name"
+msgid "Sheet Metal"
+msgstr "Chapa de metal"
+
+#: Recipes.json:10651
+#, fuzzy
+msgctxt "recipe.10651.name"
+msgid "Steel Tray"
+msgstr "Bandeja de aço"
+
+#: Recipes.json:10652
+#, fuzzy
+msgctxt "recipe.10652.name"
+msgid "Steel Pot"
+msgstr "Pote de aço"
+
+#: Recipes.json:10653
+#, fuzzy
+msgctxt "recipe.10653.name"
+msgid "Steel Tea Pot"
+msgstr "Bule de aço"
+
+#: Recipes.json:10654
+#, fuzzy
+msgctxt "recipe.10654.name"
+msgid "Steel Urn"
+msgstr "Urna de aço"
+
+#: Recipes.json:10655
+#, fuzzy
+msgctxt "recipe.10655.name"
+msgid "Steel Vase"
+msgstr "Vaso de aço"
+
+#: Recipes.json:10656
+#, fuzzy
+msgctxt "recipe.10656.name"
+msgid "Fecal mushroom mash"
+msgstr "Garapa de fezes com cogumelos"
+
+#: Recipes.json:10657
+#, fuzzy
+msgctxt "recipe.10657.name"
+msgid "Smoked Glowing Fish"
+msgstr "Peixe defumado brilhante"
+
+#: Recipes.json:10658
+#, fuzzy
+msgctxt "recipe.10658.name"
+msgid "Smoked Fish"
+msgstr "Peixe defumado"
+
+#: Recipes.json:10659
+#, fuzzy
+msgctxt "recipe.10659.name"
+msgid "Grilled salmon"
+msgstr "Salmão grelhado"
+
+#: Recipes.json:10660
+#, fuzzy
+msgctxt "recipe.10660.name"
+msgid "Grilled glowing salmon"
+msgstr "Salmão grelhado brilhante"
+
+#: Recipes.json:10661
+#, fuzzy
+msgctxt "recipe.10661.name"
+msgid "Grilled pike"
+msgstr "Lúcio grelhado"
+
+#: Recipes.json:10662
+#, fuzzy
+msgctxt "recipe.10662.name"
+msgid "Grilled glowing pike"
+msgstr "Lúcio grelhado brilhante"
+
+#: Recipes.json:10663
+#, fuzzy
+msgctxt "recipe.10663.name"
+msgid "Grilled perch"
+msgstr "Perca grelhada"
+
+#: Recipes.json:10664
+#, fuzzy
+msgctxt "recipe.10664.name"
+msgid "Grilled glowing perch"
+msgstr "Perca grelhada brilhante"
+
+#: Recipes.json:10665
+#, fuzzy
+msgctxt "recipe.10665.name"
+msgid "Deepfried Rat"
+msgstr "Rato frito"
+
+#: Recipes.json:10666
+#, fuzzy
+msgctxt "recipe.10666.name"
+msgid "Deepfried Glowing Rat"
+msgstr "Rato frito brilhante"
+
+#: Recipes.json:10667
+#, fuzzy
+msgctxt "recipe.10667.name"
+msgid "Deepfried Cat"
+msgstr "Gato frito"
+
+#: Recipes.json:10668
+#, fuzzy
+msgctxt "recipe.10668.name"
+msgid "Deepfried Glowing Cat"
+msgstr "Gato frito brilhante"
+
+#: Recipes.json:10669
+#, fuzzy
+msgctxt "recipe.10669.name"
+msgid "Deepfried Dog"
+msgstr "Cachorro frito"
+
+#: Recipes.json:10670
+#, fuzzy
+msgctxt "recipe.10670.name"
+msgid "Deepfried Glowing Dog"
+msgstr "Cachorro frito brilhante"
+
+#: Recipes.json:10671
+#, fuzzy
+msgctxt "recipe.10671.name"
+msgid "Deepfried Mystery"
+msgstr "Mistério frito"
+
+#: Recipes.json:10672
+#, fuzzy
+msgctxt "recipe.10672.name"
+msgid "Deepfried Glowing Mystery"
+msgstr "Mistério frito brilhante"
+
+#: Recipes.json:10673
+#, fuzzy
+msgctxt "recipe.10673.name"
+msgid "Deepfried Chicken"
+msgstr "Frango frito"
+
+#: Recipes.json:10674
+#, fuzzy
+msgctxt "recipe.10674.name"
+msgid "Deepfried Glowing Chicken"
+msgstr "Frango frito brilhante"
+
+#: Recipes.json:10675
+#, fuzzy
+msgctxt "recipe.10675.name"
+msgid "Deepfried Pork"
+msgstr "Porco frito"
+
+#: Recipes.json:10676
+#, fuzzy
+msgctxt "recipe.10676.name"
+msgid "Deepfried Glowing Pork"
+msgstr "Porco frito brilhante"
+
+#: Recipes.json:10677
+#, fuzzy
+msgctxt "recipe.10677.name"
+msgid "Deepfried Beef"
+msgstr "Carne frita"
+
+#: Recipes.json:10678
+#, fuzzy
+msgctxt "recipe.10678.name"
+msgid "Deepfried Glowing Beef"
+msgstr "Carne frita brilhante"
+
+#: Recipes.json:10679
+#, fuzzy
+msgctxt "recipe.10679.name"
+msgid "Multigrain Bread"
+msgstr "Pão multigrãos"
+
+#: Recipes.json:10680
+#, fuzzy
+msgctxt "recipe.10680.name"
+msgid "Sawdust Multigrain Bread"
+msgstr "Pão multigrãos com serragem"
+
+#: Recipes.json:10681
+#, fuzzy
+msgctxt "recipe.10681.name"
+msgid "Glowing Multigrain Bread"
+msgstr "Pão multigrãos brilhante"
+
+#: Recipes.json:10682
+#, fuzzy
+msgctxt "recipe.10682.name"
+msgid "Glowing Sawdust Multigrain Bread"
+msgstr "Pão multigrãos brilhante com serragem"
+
+#: Recipes.json:10683
+#, fuzzy
+msgctxt "recipe.10683.name"
+msgid "Handwheel"
+msgstr "Volante de válvula"
+
+#: Recipes.json:10684
+#, fuzzy
+msgctxt "recipe.10684.name"
+msgid "Copper Bar"
+msgstr "Barra de cobre"
+
+#: Recipes.json:10685
+#, fuzzy
+msgctxt "recipe.10685.name"
+msgid "Pickaxe"
+msgstr "Picareta"
+
+#: Recipes.json:10686
+#, fuzzy
+msgctxt "recipe.10686.name"
+msgid "Heat up"
+msgstr "Aquecer"
+
+#: Recipes.json:10687
+#, fuzzy
+msgctxt "recipe.10687.name"
+msgid "Brass Pot"
+msgstr "Pote de latão"
+
+#: Recipes.json:10688
+#, fuzzy
+msgctxt "recipe.10688.name"
+msgid "Brass Tea Pot"
+msgstr "Bule de latão"
+
+#: Recipes.json:10689
+#, fuzzy
+msgctxt "recipe.10689.name"
+msgid "Brass Tray"
+msgstr "Bandeja de latão"
+
+#: Recipes.json:10690
+#, fuzzy
+msgctxt "recipe.10690.name"
+msgid "Brass Urn"
+msgstr "Urna de latão"
+
+#: Recipes.json:10691
+#, fuzzy
+msgctxt "recipe.10691.name"
+msgid "Brass Vase"
+msgstr "Vaso de latão"
+
+#: Recipes.json:10692
+#, fuzzy
+msgctxt "recipe.10692.name"
+msgid "Silver Pot"
+msgstr "Pote de prata"
+
+#: Recipes.json:10693
+#, fuzzy
+msgctxt "recipe.10693.name"
+msgid "Silver Tea Pot"
+msgstr "Bule de prata"
+
+#: Recipes.json:10694
+#, fuzzy
+msgctxt "recipe.10694.name"
+msgid "Silver Tray"
+msgstr "Bandeja de prata"
+
+#: Recipes.json:10695
+#, fuzzy
+msgctxt "recipe.10695.name"
+msgid "Silver Urn"
+msgstr "Urna de prata"
+
+#: Recipes.json:10696
+#, fuzzy
+msgctxt "recipe.10696.name"
+msgid "Silver Vase"
+msgstr "Vaso de prata"
+
+#: Recipes.json:10697
+#, fuzzy
+msgctxt "recipe.10697.name"
+msgid "Gold Pot"
+msgstr "Pote de ouro"
+
+#: Recipes.json:10698
+#, fuzzy
+msgctxt "recipe.10698.name"
+msgid "Gold Tea Pot"
+msgstr "Bule de ouro"
+
+#: Recipes.json:10699
+#, fuzzy
+msgctxt "recipe.10699.name"
+msgid "Gold Tray"
+msgstr "Bandeja de ouro"
+
+#: Recipes.json:10700
+#, fuzzy
+msgctxt "recipe.10700.name"
+msgid "Gold Urn"
+msgstr "Urna de ouro"
+
+#: Recipes.json:10701
+#, fuzzy
+msgctxt "recipe.10701.name"
+msgid "Gold Vase"
+msgstr "Vaso de ouro"
+
+#: Recipes.json:10702
+#, fuzzy
+msgctxt "recipe.10702.name"
+msgid "Steel Duck"
+msgstr "Pato de aço"
+
+#: Recipes.json:10703
+#, fuzzy
+msgctxt "recipe.10703.name"
+msgid "Brass Duck"
+msgstr "Pato de latão"
+
+#: Recipes.json:10704
+#, fuzzy
+msgctxt "recipe.10704.name"
+msgid "Silver Duck"
+msgstr "Pato de prata"
+
+#: Recipes.json:10705
+#, fuzzy
+msgctxt "recipe.10705.name"
+msgid "Gold Duck"
+msgstr "Pato de ouro"
+
+#: Recipes.json:10706
+#, fuzzy
+msgctxt "recipe.10706.name"
+msgid "Extract yeast"
+msgstr "Extrair levedura"
+
+#: Recipes.json:10707
+#, fuzzy
+msgctxt "recipe.10707.name"
+msgid "Yeast Multiplication"
+msgstr "Multiplicação de levedura"
+
+#: Recipes.json:10708
+#, fuzzy
+msgctxt "recipe.10708.name"
+msgid "Red Grape mash"
+msgstr "Garapa de uva tinta"
+
+#: Recipes.json:10709
+#, fuzzy
+msgctxt "recipe.10709.name"
+msgid "Red grape mushroom mash"
+msgstr "Garapa de uva tinta com cogumelos"
+
+#: Recipes.json:10710
+#, fuzzy
+msgctxt "recipe.10710.name"
+msgid "Wine"
+msgstr "Vinho"
+
+#: Recipes.json:10711
+#, fuzzy
+msgctxt "recipe.10711.name"
+msgid "Mushroom Wine"
+msgstr "Vinho com cogumelos"
+
+#: Recipes.json:10421
+#, fuzzy
+msgctxt "recipe.10421.name"
+msgid "Apple mash"
+msgstr "Garapa de maçã"
+
+#: Recipes.json:10421
+#, fuzzy
+msgctxt "recipe.10421.name#715"
+msgid "Green Orb Mash"
+msgstr "Garapa de orbes verdes"
+
+#: Recipes.json:10713
+#, fuzzy
+msgctxt "recipe.10713.name"
+msgid "Green Orb mushroom mash"
+msgstr "Garapa de orbes verdes com cogumelos"
+
+#: Recipes.json:10714
+#, fuzzy
+msgctxt "recipe.10714.name"
+msgid "Green Orb Brew"
+msgstr "Fermentado de orbes verdes"
+
+#: Recipes.json:10715
+#, fuzzy
+msgctxt "recipe.10715.name"
+msgid "Mushroom Green Orb Brew"
+msgstr "Fermentado de orbes verdes com cogumelos"
+
+#: Recipes.json:10716
+#, fuzzy
+msgctxt "recipe.10716.name"
+msgid "Orbsinthe"
+msgstr "Orbsinto"
+
+#: Recipes.json:10717
+#, fuzzy
+msgctxt "recipe.10717.name"
+msgid "Mushroom Orbsinthe"
+msgstr "Orbsinto com cogumelos"
+
+#: Recipes.json:10712
+#, fuzzy
+msgctxt "recipe.10712.name"
+msgid "Biodiesel Batch"
+msgstr "Lote de biodiesel"
+
+#: Recipes.json:10718
+#, fuzzy
+msgctxt "recipe.10718.name"
+msgid "Mussels"
+msgstr "Mexilhões"
+
+#: Recipes.json:10719
+#, fuzzy
+msgctxt "recipe.10719.name"
+msgid "Rollie"
+msgstr "Cigarro enrolado"
+
+#: Recipes.json:10720
+#, fuzzy
+msgctxt "recipe.10720.name"
+msgid "Cured Tobacco Leaves"
+msgstr "Folhas de tabaco curadas"
+
+#: Recipes.json:10721
+#, fuzzy
+msgctxt "recipe.10721.name"
+msgid "Cigar"
+msgstr "Charuto"
+
+#: Recipes.json:10722
+#, fuzzy
+msgctxt "recipe.10722.name"
+msgid "Blackcurrant mash"
+msgstr "Garapa de cassis"
+
+#: Recipes.json:10723
+#, fuzzy
+msgctxt "recipe.10723.name"
+msgid "Mushroom Blackcurrant mash"
+msgstr "Garapa de cassis com cogumelos"
+
+#: Recipes.json:10724
+#, fuzzy
+msgctxt "recipe.10724.name"
+msgid "Blackcurrant juice concentrate"
+msgstr "Suco concentrado de cassis"
+
+#: Recipes.json:10725
+#, fuzzy
+msgctxt "recipe.10725.name"
+msgid "Yucca Plant"
+msgstr "Iúca"
+
+#: Recipes.json:10726
+#, fuzzy
+msgctxt "recipe.10726.name"
+msgid "Tobacco Plant"
+msgstr "Pé de tabaco"
+
+#: Recipes.json:10727
+#, fuzzy
+msgctxt "recipe.10727.name"
+msgid "Apple Tree"
+msgstr "Macieira"
+
+#: Recipes.json:10728
+#, fuzzy
+msgctxt "recipe.10728.name"
+msgid "Blackcurrant Bush"
+msgstr "Pé de cassis"
+
+#: Recipes.json:10729
+#, fuzzy
+msgctxt "recipe.10729.name"
+msgid "Apple Tree"
+msgstr "Macieira"
+
+#: Recipes.json:10730
+#, fuzzy
+msgctxt "recipe.10730.name"
+msgid "Blackcurrant Bush"
+msgstr "Pé de cassis"
+
+#: Recipes.json:10731
+#, fuzzy
+msgctxt "recipe.10731.name"
+msgid "White Grape Vine"
+msgstr "Videira de uva branca"
+
+#: Recipes.json:10732
+#, fuzzy
+msgctxt "recipe.10732.name"
+msgid "White Grape Vine"
+msgstr "Videira de uva branca"
+
+#: Recipes.json:10733
+#, fuzzy
+msgctxt "recipe.10733.name"
+msgid "White grape mash"
+msgstr "Garapa de uva branca"
+
+#: Recipes.json:10734
+#, fuzzy
+msgctxt "recipe.10734.name"
+msgid "White grape mushroom mash"
+msgstr "Garapa de uva branca com cogumelos"
+
+#: Recipes.json:10735
+#, fuzzy
+msgctxt "recipe.10735.name"
+msgid "White Wine"
+msgstr "Vinho branco"
+
+#: Recipes.json:10736
+#, fuzzy
+msgctxt "recipe.10736.name"
+msgid "Mushroom White Wine"
+msgstr "Vinho branco com cogumelos"
+
+#: Recipes.json:10737
+#, fuzzy
+msgctxt "recipe.10737.name"
+msgid "Brandy"
+msgstr "Conhaque"
+
+#: Recipes.json:10738
+#, fuzzy
+msgctxt "recipe.10738.name"
+msgid "Mushroom Brandy"
+msgstr "Conhaque com cogumelos"
+
+#: Recipes.json:10739
+#, fuzzy
+msgctxt "recipe.10739.name"
+msgid "Sugar mushroom mash"
+msgstr "Garapa de açúcar com cogumelos"
+
+#: Recipes.json:10740
+#, fuzzy
+msgctxt "recipe.10740.name"
+msgid "Junk Wood"
+msgstr "Restos de madeira"
+
+#: Recipes.json:10741
+#, fuzzy
+msgctxt "recipe.10741.name"
+msgid "50L Stainless Steel Can"
+msgstr "Galão de aço inox de 50L"
+
+#: Recipes.json:10742
+#, fuzzy
+msgctxt "recipe.10742.name"
+msgid "Agar"
+msgstr "Ágar"
+
+#: Recipes.json:10743
+#, fuzzy
+msgctxt "recipe.10743.name"
+msgid "Red Algae"
+msgstr "Alga vermelha"
+
+#: Recipes.json:10744
+#, fuzzy
+msgctxt "recipe.10744.name"
+msgid "Genuine Leather"
+msgstr "Couro legítimo"
+
+#: Recipes.json:10745
+#, fuzzy
+msgctxt "recipe.10745.name"
+msgid "Glowing Cat"
+msgstr "Gato brilhante"
+
+#: Recipes.json:10746
+#, fuzzy
+msgctxt "recipe.10746.name"
+msgid "Mushrooms"
+msgstr "Cogumelos"
+
+#: Recipes.json:10747
+#, fuzzy
+msgctxt "recipe.10747.name"
+msgid "Orange Mushrooms"
+msgstr "Cogumelos laranja"
+
+#: Recipes.json:10748
+#, fuzzy
+msgctxt "recipe.10748.name"
+msgid "Clean Green Mushrooms"
+msgstr "Cogumelos verdes (limpos)"
+
+#: Recipes.json:10749
+#, fuzzy
+msgctxt "recipe.10749.name"
+msgid "Green mushrooms"
+msgstr "Cogumelos verdes"
+
+#: Recipes.json:10750
+#, fuzzy
+msgctxt "recipe.10750.name"
+msgid "Diesel Batch"
+msgstr "Lote de diesel"
+
+#: Recipes.json:10751
+#, fuzzy
+msgctxt "recipe.10751.name"
+msgid "Mushroom Tea"
+msgstr "Chá de cogumelo"
+
+#: Recipes.json:10752
+#, fuzzy
+msgctxt "recipe.10752.name"
+msgid "Refill electronic cigarette"
+msgstr "Recarregar cigarro eletrônico"
+
+#: Recipes.json:10753
+#, fuzzy
+msgctxt "recipe.10753.name"
+msgid "Refill electronic cigarette (Mushroom)"
+msgstr "Recarregar cigarro eletrônico (cogumelo)"
+
+#: Recipes.json:10754
+#, fuzzy
+msgctxt "recipe.10754.name"
+msgid "Refill electronic cigarette (Pure Mushroom)"
+msgstr "Recarregar cigarro eletrônico (cogumelo puro)"
+
+#: Recipes.json:10755
+#, fuzzy
+msgctxt "recipe.10755.name"
+msgid "Pure Mushroom extract"
+msgstr "Extrato puro de cogumelo"
+
+#: Recipes.json:10756
+#, fuzzy
+msgctxt "recipe.10756.name"
+msgid "Vape Liquid"
+msgstr "Líquido de vape"
+
+#: Recipes.json:10757
+#, fuzzy
+msgctxt "recipe.10757.name"
+msgid "Mushroom Vape Liquid"
+msgstr "Líquido de vape com cogumelos"
+
+#: Recipes.json:10758
+#, fuzzy
+msgctxt "recipe.10758.name"
+msgid "Pure Mushroom Vape Liquid"
+msgstr "Líquido de vape com cogumelos puro"
+
+#: Recipes.json:10759
+#, fuzzy
+msgctxt "recipe.10759.name"
+msgid "Glass Bottles"
+msgstr "Garrafas de vidro"
+
+#: Recipes.json:10760
+#, fuzzy
+msgctxt "recipe.10760.name"
+msgid "Wine Bottles"
+msgstr "Garrafas de vinho"
+
+#: Recipes.json:10761
+#, fuzzy
+msgctxt "recipe.10761.name"
+msgid "Glass Flasks"
+msgstr "Frascos de vidro"
+
+#: Recipes.json:10762
+#, fuzzy
+msgctxt "recipe.10762.name"
+msgid "Glass Bottles"
+msgstr "Garrafas de vidro"
+
+#: Recipes.json:10763
+#, fuzzy
+msgctxt "recipe.10763.name"
+msgid "Fancy Glass Bottles"
+msgstr "Garrafas de vidro chiques"
+
+#: Recipes.json:10764
+#, fuzzy
+msgctxt "recipe.10764.name"
+msgid "Fancy Glass Bottles"
+msgstr "Garrafas de vidro chiques"
+
+#: Recipes.json:10766
+#, fuzzy
+msgctxt "recipe.10766.name"
+msgid "Glass Flasks"
+msgstr "Frascos de vidro"
+
+#: Recipes.json:10767
+#, fuzzy
+msgctxt "recipe.10767.name"
+msgid "Small Glass Bottles"
+msgstr "Garrafas de vidro pequenas"
+
+#: Recipes.json:10768
+#, fuzzy
+msgctxt "recipe.10768.name"
+msgid "Small Glass Bottles"
+msgstr "Garrafas de vidro pequenas"
+
+#: Recipes.json:10769
+#, fuzzy
+msgctxt "recipe.10769.name"
+msgid "Petridishes"
+msgstr "Placas de Petri"
+
+#: Recipes.json:10770
+#, fuzzy
+msgctxt "recipe.10770.name"
+msgid "Petridishes"
+msgstr "Placas de Petri"
+
+#: Recipes.json:10771
+#, fuzzy
+msgctxt "recipe.10771.name"
+msgid "Pints"
+msgstr "Canecas de cerveja"
+
+#: Recipes.json:10772
+#, fuzzy
+msgctxt "recipe.10772.name"
+msgid "Pints"
+msgstr "Canecas de cerveja"
+
+#: Recipes.json:10765
+#, fuzzy
+msgctxt "recipe.10765.name"
+msgid "Wine Bottles"
+msgstr "Garrafas de vinho"
+
+#: Recipes.json:10773
+#, fuzzy
+msgctxt "recipe.10773.name"
+msgid "Clean Green mushrooms"
+msgstr "Cogumelos verdes (limpos)"
+
+#: Recipes.json:10774
+#, fuzzy
+msgctxt "recipe.10774.name"
+msgid "Mason Jars"
+msgstr "Potes de vidro"
+
+#: Recipes.json:10775
+#, fuzzy
+msgctxt "recipe.10775.name"
+msgid "Mason Jars"
+msgstr "Potes de vidro"
+
+#: Recipes.json:10776
+#, fuzzy
+msgctxt "recipe.10776.name"
+msgid "Cheap watch"
+msgstr "Relógio barato"
+
+#: Recipes.json:10777
+#, fuzzy
+msgctxt "recipe.10777.name"
+msgid "Gutter Oil"
+msgstr "Óleo de esgoto"
+
+#: Recipes.json:10778
+#, fuzzy
+msgctxt "recipe.10778.name"
+msgid "Gutter Oil Batch"
+msgstr "Lote de óleo de esgoto"
+
+#: Recipes.json:10779
+#, fuzzy
+msgctxt "recipe.10779.name"
+msgid "Tiles"
+msgstr "Azulejos"
+
+#: Recipes.json:10780
+#, fuzzy
+msgctxt "recipe.10780.name"
+msgid "Blueberry Jam"
+msgstr "Geleia de mirtilo"
+
+#: Recipes.json:10781
+#, fuzzy
+msgctxt "recipe.10781.name"
+msgid "Raspberry Jam"
+msgstr "Geleia de framboesa"
+
+#: Recipes.json:10782
+#, fuzzy
+msgctxt "recipe.10782.name"
+msgid "Strawberry Jam"
+msgstr "Geleia de morango"
+
+#: Recipes.json:10783
+#, fuzzy
+msgctxt "recipe.10783.name"
+msgid "Strawberry mash"
+msgstr "Garapa de morango"
+
+#: Recipes.json:10784
+#, fuzzy
+msgctxt "recipe.10784.name"
+msgid "Strawberry mushroom mash"
+msgstr "Garapa de morango com cogumelos"
+
+#: Recipes.json:10785
+#, fuzzy
+msgctxt "recipe.10785.name"
+msgid "Raspberry mash"
+msgstr "Garapa de framboesa"
+
+#: Recipes.json:10786
+#, fuzzy
+msgctxt "recipe.10786.name"
+msgid "Raspberry mushroom mash"
+msgstr "Garapa de framboesa com cogumelos"
+
+#: Recipes.json:10787
+#, fuzzy
+msgctxt "recipe.10787.name"
+msgid "Blueberry mash"
+msgstr "Garapa de mirtilo"
+
+#: Recipes.json:10788
+#, fuzzy
+msgctxt "recipe.10788.name"
+msgid "Blueberry mushroom mash"
+msgstr "Garapa de mirtilo com cogumelos"
+
+#: Recipes.json:10789
+#, fuzzy
+msgctxt "recipe.10789.name"
+msgid "Strawberry Wine"
+msgstr "Vinho de morango"
+
+#: Recipes.json:10790
+#, fuzzy
+msgctxt "recipe.10790.name"
+msgid "Strawberry mushroom Wine"
+msgstr "Vinho de morango com cogumelos"
+
+#: Recipes.json:10791
+#, fuzzy
+msgctxt "recipe.10791.name"
+msgid "Raspberry Wine"
+msgstr "Vinho de framboesa"
+
+#: Recipes.json:10792
+#, fuzzy
+msgctxt "recipe.10792.name"
+msgid "Raspberry mushroom Wine"
+msgstr "Vinho de framboesa com cogumelos"
+
+#: Recipes.json:10793
+#, fuzzy
+msgctxt "recipe.10793.name"
+msgid "Blueberry Wine"
+msgstr "Vinho de mirtilo"
+
+#: Recipes.json:10794
+#, fuzzy
+msgctxt "recipe.10794.name"
+msgid "Blueberry mushroom Wine"
+msgstr "Vinho de mirtilo com cogumelos"
+
+#: Recipes.json:10795
+#, fuzzy
+msgctxt "recipe.10795.name"
+msgid "Strawberry liqueur"
+msgstr "Licor de morango"
+
+#: Recipes.json:10796
+#, fuzzy
+msgctxt "recipe.10796.name"
+msgid " Strawberry mushroom liqueur"
+msgstr " Licor de morango com cogumelos"
+
+#: Recipes.json:10797
+#, fuzzy
+msgctxt "recipe.10797.name"
+msgid "Raspberry liqueur"
+msgstr "Licor de framboesa"
+
+#: Recipes.json:10798
+#, fuzzy
+msgctxt "recipe.10798.name"
+msgid " Raspberry mushroom liqueur"
+msgstr " Licor de framboesa com cogumelos"
+
+#: Recipes.json:10799
+#, fuzzy
+msgctxt "recipe.10799.name"
+msgid "Blueberry liqueur"
+msgstr "Licor de mirtilo"
+
+#: Recipes.json:10800
+#, fuzzy
+msgctxt "recipe.10800.name"
+msgid " Blueberry mushroom liqueur"
+msgstr " Licor de mirtilo com cogumelos"
+
+#: Recipes.json:10801
+#, fuzzy
+msgctxt "recipe.10801.name"
+msgid "Doughnut"
+msgstr "Rosquinha"
+
+#: Recipes.json:10802
+#, fuzzy
+msgctxt "recipe.10802.name"
+msgid "Sawdust Doughnut"
+msgstr "Rosquinha com serragem"
+
+#: Recipes.json:10804
+#, fuzzy
+msgctxt "recipe.10804.name"
+msgid "Pea Moonshine"
+msgstr "Cachaça de ervilha"
+
+#: Recipes.json:10803
+#, fuzzy
+msgctxt "recipe.10803.name"
+msgid "Pea Mushroom Moonshine"
+msgstr "Cachaça de ervilha com cogumelos"
+
+#: Recipes.json:10805
+#, fuzzy
+msgctxt "recipe.10805.name"
+msgid "Pea mash"
+msgstr "Garapa de ervilha"
+
+#: Recipes.json:10806
+#, fuzzy
+msgctxt "recipe.10806.name"
+msgid "Pea mushroom mash"
+msgstr "Garapa de ervilha com cogumelos"
+
+#: Recipes.json:10807
+#, fuzzy
+msgctxt "recipe.10807.name"
+msgid "Blank Certificate of Authenticity"
+msgstr "Certificado de autenticidade em branco"
+
+#: Recipes.json:10808
+#, fuzzy
+msgctxt "recipe.10808.name"
+msgid "Forge Certificate of Authenticity for Gold Bar"
+msgstr "Falsificar certificado de autenticidade para barra de ouro"
+
+#: Recipes.json:10809
+#, fuzzy
+msgctxt "recipe.10809.name"
+msgid "Forge Certificate of Authenticity for Silver Bar"
+msgstr "Falsificar certificado de autenticidade para barra de prata"
+
+#: Recipes.json:10810
+#, fuzzy
+msgctxt "recipe.10810.name"
+msgid "Forge Certificate of Authenticity for Gold Mechanical Watch"
+msgstr "Falsificar certificado de autenticidade para relógio mecânico de ouro"
+
+#: Recipes.json:10811
+#, fuzzy
+msgctxt "recipe.10811.name"
+msgid "Forge Certificate of Authenticity for Silver Mechanical Watch"
+msgstr "Falsificar certificado de autenticidade para relógio mecânico de prata"
+
+#: Recipes.json:10812
+#, fuzzy
+msgctxt "recipe.10812.name"
+msgid "Forge Certificate of Authenticity for Gold Digital Watch"
+msgstr "Falsificar certificado de autenticidade para relógio digital de ouro"
+
+#: Recipes.json:10813
+#, fuzzy
+msgctxt "recipe.10813.name"
+msgid "Forge Certificate of Authenticity for Silver Digital Watch"
+msgstr "Falsificar certificado de autenticidade para relógio digital de prata"
+
+#: Recipes.json:10814
+#, fuzzy
+msgctxt "recipe.10814.name"
+msgid "Forge Certificate of Authenticity for Gold Duck"
+msgstr "Falsificar certificado de autenticidade para pato de ouro"
+
+#: Recipes.json:10815
+#, fuzzy
+msgctxt "recipe.10815.name"
+msgid "Forge Certificate of Authenticity for Silver Duck"
+msgstr "Falsificar certificado de autenticidade para pato de prata"
+
+#: Recipes.json:10816
+#, fuzzy
+msgctxt "recipe.10816.name"
+msgid "Forge Certificate of Authenticity for Gold Tray"
+msgstr "Falsificar certificado de autenticidade para bandeja de ouro"
+
+#: Recipes.json:10817
+#, fuzzy
+msgctxt "recipe.10817.name"
+msgid "Forge Certificate of Authenticity for Gold Pot"
+msgstr "Falsificar certificado de autenticidade para pote de ouro"
+
+#: Recipes.json:10818
+#, fuzzy
+msgctxt "recipe.10818.name"
+msgid "Forge Certificate of Authenticity for Gold Urn"
+msgstr "Falsificar certificado de autenticidade para urna de ouro"
+
+#: Recipes.json:10819
+#, fuzzy
+msgctxt "recipe.10819.name"
+msgid "Forge Certificate of Authenticity for Gold Vase"
+msgstr "Falsificar certificado de autenticidade para vaso de ouro"
+
+#: Recipes.json:10820
+#, fuzzy
+msgctxt "recipe.10820.name"
+msgid "Forge Certificate of Authenticity for Gold Teapot"
+msgstr "Falsificar certificado de autenticidade para bule de ouro"
+
+#: Recipes.json:10821
+#, fuzzy
+msgctxt "recipe.10821.name"
+msgid "Forge Certificate of Authenticity for Silver Tray"
+msgstr "Falsificar certificado de autenticidade para bandeja de prata"
+
+#: Recipes.json:10822
+#, fuzzy
+msgctxt "recipe.10822.name"
+msgid "Forge Certificate of Authenticity for Silver Pot"
+msgstr "Falsificar certificado de autenticidade para pote de prata"
+
+#: Recipes.json:10823
+#, fuzzy
+msgctxt "recipe.10823.name"
+msgid "Forge Certificate of Authenticity for Silver Urn"
+msgstr "Falsificar certificado de autenticidade para urna de prata"
+
+#: Recipes.json:10824
+#, fuzzy
+msgctxt "recipe.10824.name"
+msgid "Forge Certificate of Authenticity for Silver Vase"
+msgstr "Falsificar certificado de autenticidade para vaso de prata"
+
+#: Recipes.json:10825
+#, fuzzy
+msgctxt "recipe.10825.name"
+msgid "Forge Certificate of Authenticity for Silver Teapot"
+msgstr "Falsificar certificado de autenticidade para bule de prata"
+
+#: Recipes.json:10826
+#, fuzzy
+msgctxt "recipe.10826.name"
+msgid "Forge Certificate of Authenticity for High Purity Gold Bar"
+msgstr "Falsificar certificado de autenticidade para barra de ouro de alta pureza"
+
+#: Recipes.json:10827
+#, fuzzy
+msgctxt "recipe.10827.name"
+msgid "Forge Certificate of Authenticity for Gold Nugget"
+msgstr "Falsificar certificado de autenticidade para pepita de ouro"
+
+#: Recipes.json:10828
+#, fuzzy
+msgctxt "recipe.10828.name"
+msgid "Disassemble Mobile Phone"
+msgstr "Desmontar celular"
+
+#: Recipes.json:10829
+#, fuzzy
+msgctxt "recipe.10829.name"
+msgid "Disassemble Tablet"
+msgstr "Desmontar tablet"
+
+#: Recipes.json:10830
+#, fuzzy
+msgctxt "recipe.10830.name"
+msgid "Pea Wine"
+msgstr "Vinho de ervilha"
+
+#: Recipes.json:10831
+#, fuzzy
+msgctxt "recipe.10831.name"
+msgid "Pea Mushroom Wine"
+msgstr "Vinho de ervilha com cogumelos"
+
+#: Recipes.json:10832
+#, fuzzy
+msgctxt "recipe.10832.name"
+msgid "Wineglasses"
+msgstr "Taças de vinho"
+
+#: Recipes.json:10833
+#, fuzzy
+msgctxt "recipe.10833.name"
+msgid "Fancy Drinking Glasses"
+msgstr "Copos chiques"
+
+#: Recipes.json:10834
+#, fuzzy
+msgctxt "recipe.10834.name"
+msgid "Press Plates"
+msgstr "Prensar chapas"
+
+#: Recipes.json:10835
+#, fuzzy
+msgctxt "recipe.10835.name"
+msgid "Thread"
+msgstr "Linha"
+
+#: Recipes.json:10836
+#, fuzzy
+msgctxt "recipe.10836.name"
+msgid "Brass Rings"
+msgstr "Anéis de latão"
+
+#: Recipes.json:10837
+#, fuzzy
+msgctxt "recipe.10837.name"
+msgid "Steel Rings"
+msgstr "Anéis de aço"
+
+#: Recipes.json:10838
+#, fuzzy
+msgctxt "recipe.10838.name"
+msgid "Silver Rings"
+msgstr "Anéis de prata"
+
+#: Recipes.json:10839
+#, fuzzy
+msgctxt "recipe.10839.name"
+msgid "Gold Rings"
+msgstr "Anéis de ouro"
+
+#: Recipes.json:10840
+#, fuzzy
+msgctxt "recipe.10840.name"
+msgid "Electric Motor"
+msgstr "Motor elétrico"
+
+#: Recipes.json:10841
+#, fuzzy
+msgctxt "recipe.10841.name"
+msgid "Disassemble Old Mobile Phone"
+msgstr "Desmontar celular antigo"
+
+#: Recipes.json:10842
+#, fuzzy
+msgctxt "recipe.10842.name"
+msgid "Strawberry Cake"
+msgstr "Bolo de morango"
+
+#: Recipes.json:10843
+#, fuzzy
+msgctxt "recipe.10843.name"
+msgid "Mushroom Strawberry Cake"
+msgstr "Bolo de morango com cogumelos"
+
+#: Recipes.json:10844
+#, fuzzy
+msgctxt "recipe.10844.name"
+msgid "Disassemble Camera"
+msgstr "Desmontar câmera"
+
+#: Recipes.json:10845
+#, fuzzy
+msgctxt "recipe.10845.name"
+msgid "Bowl of Beer Cereal"
+msgstr "Tigela de cereal com cerveja"
+
+#: Recipes.json:10846
+#, fuzzy
+msgctxt "recipe.10846.name"
+msgid "Salmon Soup"
+msgstr "Sopa de salmão"
+
+#: Recipes.json:10847
+#, fuzzy
+msgctxt "recipe.10847.name"
+msgid "Glowing Salmon Soup"
+msgstr "Sopa de salmão brilhante"
+
+#: Recipes.json:10848
+#, fuzzy
+msgctxt "recipe.10848.name"
+msgid "Fancy Drinking Glasses"
+msgstr "Copos chiques"
+
+#: Recipes.json:10849
+#, fuzzy
+msgctxt "recipe.10849.name"
+msgid "Wineglasses"
+msgstr "Taças de vinho"
+
+#: Recipes.json:10850
+#, fuzzy
+msgctxt "recipe.10850.name"
+msgid "Bucket of Paint"
+msgstr "Balde de tinta"
+
+#: Recipes.json:10851
+#, fuzzy
+msgctxt "recipe.10851.name"
+msgid "ANFO"
+msgstr "ANFO"
+
+#: Recipes.json:10852
+#, fuzzy
+msgctxt "recipe.10852.name"
+msgid "Wood Panels"
+msgstr "Painéis de madeira"
+
+#: Recipes.json:10853
+#, fuzzy
+msgctxt "recipe.10853.name"
+msgid "Wood Pulp"
+msgstr "Polpa de madeira"
+
+#: Recipes.json:10854
+#, fuzzy
+msgctxt "recipe.10854.name"
+msgid "Paper"
+msgstr "Papel"
+
+#: Recipes.json:10855
+#, fuzzy
+msgctxt "recipe.10855.name"
+msgid "Wallpaper"
+msgstr "Papel de parede"
+
+#: Recipes.json:10856
+#, fuzzy
+msgctxt "recipe.10856.name"
+msgid "Fancy Paper"
+msgstr "Papel chique"
+
+#: Recipes.json:10857
+#, fuzzy
+msgctxt "recipe.10857.name"
+msgid "Toilet Paper"
+msgstr "Papel higiênico"
+
+#: Recipes.json:10858
+#, fuzzy
+msgctxt "recipe.10858.name"
+msgid "Fast Kilju"
+msgstr "Kilju turbo"
+
+#: Recipes.json:10859
+#, fuzzy
+msgctxt "recipe.10859.name"
+msgid "Fast sugar mash"
+msgstr "Garapa de açúcar turbo"
+
+#: Recipes.json:10860
+#, fuzzy
+msgctxt "recipe.10860.name"
+msgid "Press Plates"
+msgstr "Prensar chapas"
+
+#: Recipes.json:10861
+#, fuzzy
+msgctxt "recipe.10861.name"
+msgid "Biodiesel"
+msgstr "Biodiesel"
+
+#: Recipes.json:10862
+#, fuzzy
+msgctxt "recipe.10862.name"
+msgid "Diesel"
+msgstr "Diesel"
+
+#: Recipes.json:10863
+#, fuzzy
+msgctxt "recipe.10863.name"
+msgid "Gutter Oil"
+msgstr "Óleo de esgoto"
+
+#: Recipes.json:10864
+#, fuzzy
+msgctxt "recipe.10864.name"
+msgid "Mushroom Vape Liquid"
+msgstr "Líquido de vape com cogumelos"
+
+#: Recipes.json:10865
+#, fuzzy
+msgctxt "recipe.10865.name"
+msgid "Pure Mushroom Vape Liquid"
+msgstr "Líquido de vape com cogumelos puro"
+
+#: Recipes.json:10866
+#, fuzzy
+msgctxt "recipe.10866.name"
+msgid "Purify water"
+msgstr "Purificar água"
+
+#: Recipes.json:10867
+#, fuzzy
+msgctxt "recipe.10867.name"
+msgid "Shroom Water"
+msgstr "Água de cogumelo"
+
+#: Recipes.json:10868
+#, fuzzy
+msgctxt "recipe.10868.name"
+msgid "Urea Extraction"
+msgstr "Extração de ureia"
+
+#: Recipes.json:10869
+#, fuzzy
+msgctxt "recipe.10869.name"
+msgid "Urea Extraction"
+msgstr "Extração de ureia"
+
+#: Recipes.json:10870
+#, fuzzy
+msgctxt "recipe.10870.name"
+msgid "Vape Liquid"
+msgstr "Líquido de vape"
+
+#: Recipes.json:10871
+#, fuzzy
+msgctxt "recipe.10871.name"
+msgid "Welhö's Mushroom Moonshine"
+msgstr "Cachaça com cogumelos do Welhö"
+
+#: Recipes.json:10872
+#, fuzzy
+msgctxt "recipe.10872.name"
+msgid "Welhö's Mushroom Kilju"
+msgstr "Kilju com cogumelos do Welhö"
+
+#: Recipes.json:10873
+#, fuzzy
+msgctxt "recipe.10873.name"
+msgid "Welhö's mushroom mash"
+msgstr "Garapa com cogumelos do Welhö"
+
+#: Recipes.json:10874
+#, fuzzy
+msgctxt "recipe.10874.name"
+msgid "Fake Patchwork Leather"
+msgstr "Couro falso de retalhos"
+
+#: Recipes.json:10875
+#, fuzzy
+msgctxt "recipe.10875.name"
+msgid "Mine Access Registration Form"
+msgstr "Formulário de acesso à mina"
+
+#: Recipes.json:10876
+#, fuzzy
+msgctxt "recipe.10876.name"
+msgid "Saline"
+msgstr "Soro fisiológico"
+
+#: Recipes.json:10877
+#, fuzzy
+msgctxt "recipe.10877.name"
+msgid "Empty Wallet"
+msgstr "Carteira vazia"
+
+#: Recipes.json:10878
+#, fuzzy
+msgctxt "recipe.10878.name"
+msgid "Salted pork"
+msgstr "Carne de porco salgada"
+
+#: Recipes.json:10879
+#, fuzzy
+msgctxt "recipe.10879.name"
+msgid "Knife"
+msgstr "Faca"
+
+#: Recipes.json:10880
+#, fuzzy
+msgctxt "recipe.10880.name"
+msgid "Knife"
+msgstr "Faca"
+
+#: Recipes.json:10881
+#, fuzzy
+msgctxt "recipe.10881.name"
+msgid "Clear Glass Bottles"
+msgstr "Garrafas de vidro transparente"
+
+#: Recipes.json:10883
+#, fuzzy
+msgctxt "recipe.10883.name"
+msgid "Clear Glass Bottles"
+msgstr "Garrafas de vidro transparente"
+
+#: Recipes.json:10882
+#, fuzzy
+msgctxt "recipe.10882.name"
+msgid "Dry Sewage"
+msgstr "Secar esgoto"
+
+#: Recipes.json:10884
+#, fuzzy
+msgctxt "recipe.10884.name"
+msgid "Dry sewage"
+msgstr "Secar esgoto"
+
+#: Recipes.json:10885
+#, fuzzy
+msgctxt "recipe.10885.name"
+msgid "Distill sea water"
+msgstr "Destilar água do mar"
+
+#: Recipes.json:10886
+#, fuzzy
+msgctxt "recipe.10886.name"
+msgid "Distill sea water"
+msgstr "Destilar água do mar"
+
+#: Recipes.json:10887
+#, fuzzy
+msgctxt "recipe.10887.name"
+msgid "Print Product Labels"
+msgstr "Imprimir rótulos"
+
+#: Recipes.json:10888
+#, fuzzy
+msgctxt "recipe.10888.name"
+msgid "Bottle of sahti"
+msgstr "Garrafa de sahti"
+
+#: Recipes.json:10889
+#, fuzzy
+msgctxt "recipe.10889.name"
+msgid "Bottle of glowing sahti"
+msgstr "Garrafa de sahti brilhante"
+
+#: Recipes.json:10890
+#, fuzzy
+msgctxt "recipe.10890.name"
+msgid "Bottle of craft beer"
+msgstr "Garrafa de cerveja artesanal"
+
+#: Recipes.json:10891
+#, fuzzy
+msgctxt "recipe.10891.name"
+msgid "Bottle of glowing craft beer"
+msgstr "Garrafa de cerveja artesanal brilhante"
+
+#: Recipes.json:10892
+#, fuzzy
+msgctxt "recipe.10892.name"
+msgid "Bottle of ale"
+msgstr "Garrafa de ale"
+
+#: Recipes.json:10893
+#, fuzzy
+msgctxt "recipe.10893.name"
+msgid "Bottle of orb brew"
+msgstr "Garrafa de fermentado de orbes"
+
+#: Recipes.json:10894
+#, fuzzy
+msgctxt "recipe.10894.name"
+msgid "Bottle of kumis"
+msgstr "Garrafa de kumis"
+
+#: Recipes.json:10895
+#, fuzzy
+msgctxt "recipe.10895.name"
+msgid "Bottle of bootleg Osmo-Olut"
+msgstr "Garrafa de Osmo-Olut pirata"
+
+#: Recipes.json:10896
+#, fuzzy
+msgctxt "recipe.10896.name"
+msgid "Bottle of moonshine"
+msgstr "Garrafa de cachaça"
+
+#: Recipes.json:10897
+#, fuzzy
+msgctxt "recipe.10897.name"
+msgid "Bottle of turnip wine"
+msgstr "Garrafa de vinho de nabo"
+
+#: Recipes.json:10898
+#, fuzzy
+msgctxt "recipe.10898.name"
+msgid "Bottle of glowing turnip wine"
+msgstr "Garrafa de vinho de nabo brilhante"
+
+#: Recipes.json:10899
+#, fuzzy
+msgctxt "recipe.10899.name"
+msgid "Bottle of watermelon wine"
+msgstr "Garrafa de vinho de melancia"
+
+#: Recipes.json:10900
+#, fuzzy
+msgctxt "recipe.10900.name"
+msgid "Bottle of glowing watermelon wine"
+msgstr "Garrafa de vinho de melancia brilhante"
+
+#: Recipes.json:10901
+#, fuzzy
+msgctxt "recipe.10901.name"
+msgid "Bottle of sugar beet wine"
+msgstr "Garrafa de vinho de beterraba açucareira"
+
+#: Recipes.json:10902
+#, fuzzy
+msgctxt "recipe.10902.name"
+msgid "Bottle of glowing sugar beet wine"
+msgstr "Garrafa de vinho de beterraba açucareira brilhante"
+
+#: Recipes.json:10903
+#, fuzzy
+msgctxt "recipe.10903.name"
+msgid "Bottle of potato wine"
+msgstr "Garrafa de vinho de batata"
+
+#: Recipes.json:10904
+#, fuzzy
+msgctxt "recipe.10904.name"
+msgid "Bottle of glowing potato wine"
+msgstr "Garrafa de vinho de batata brilhante"
+
+#: Recipes.json:10905
+#, fuzzy
+msgctxt "recipe.10905.name"
+msgid "Bottle of pea wine"
+msgstr "Garrafa de vinho de ervilha"
+
+#: Recipes.json:10906
+#, fuzzy
+msgctxt "recipe.10906.name"
+msgid "Bottle of glowing pea wine"
+msgstr "Garrafa de vinho de ervilha brilhante"
+
+#: Recipes.json:10907
+#, fuzzy
+msgctxt "recipe.10907.name"
+msgid "Bottle of carrot wine"
+msgstr "Garrafa de vinho de cenoura"
+
+#: Recipes.json:10908
+#, fuzzy
+msgctxt "recipe.10908.name"
+msgid "Bottle of glowing carrot wine"
+msgstr "Garrafa de vinho de cenoura brilhante"
+
+#: Recipes.json:10909
+#, fuzzy
+msgctxt "recipe.10909.name"
+msgid "Bottle of wine"
+msgstr "Garrafa de vinho"
+
+#: Recipes.json:10910
+#, fuzzy
+msgctxt "recipe.10910.name"
+msgid "Bottle of cider"
+msgstr "Garrafa de sidra"
+
+#: Recipes.json:10911
+#, fuzzy
+msgctxt "recipe.10911.name"
+msgid "Bottle of glowing cider"
+msgstr "Garrafa de sidra brilhante"
+
+#: Recipes.json:10912
+#, fuzzy
+msgctxt "recipe.10912.name"
+msgid "Bottle of white wine"
+msgstr "Garrafa de vinho branco"
+
+#: Recipes.json:10913
+#, fuzzy
+msgctxt "recipe.10913.name"
+msgid "Bottle of rice wine"
+msgstr "Garrafa de vinho de arroz"
+
+#: Recipes.json:10914
+#, fuzzy
+msgctxt "recipe.10914.name"
+msgid "Bottle of blackcurrant wine"
+msgstr "Garrafa de vinho de cassis"
+
+#: Recipes.json:10915
+#, fuzzy
+msgctxt "recipe.10915.name"
+msgid "Bottle of blueberry wine"
+msgstr "Garrafa de vinho de mirtilo"
+
+#: Recipes.json:10916
+#, fuzzy
+msgctxt "recipe.10916.name"
+msgid "Bottle of strawberry wine"
+msgstr "Garrafa de vinho de morango"
+
+#: Recipes.json:10917
+#, fuzzy
+msgctxt "recipe.10917.name"
+msgid "Bottle of raspberry wine"
+msgstr "Garrafa de vinho de framboesa"
+
+#: Recipes.json:10918
+#, fuzzy
+msgctxt "recipe.10918.name"
+msgid "Raspberry Bush"
+msgstr "Pé de framboesa"
+
+#: Recipes.json:10919
+#, fuzzy
+msgctxt "recipe.10919.name"
+msgid "Raspberry Bush"
+msgstr "Pé de framboesa"
+
+#: Recipes.json:10920
+#, fuzzy
+msgctxt "recipe.10920.name"
+msgid "Strawberry Bush"
+msgstr "Pé de morango"
+
+#: Recipes.json:10921
+#, fuzzy
+msgctxt "recipe.10921.name"
+msgid "Strawberry Bush"
+msgstr "Pé de morango"
+
+#: Recipes.json:10922
+#, fuzzy
+msgctxt "recipe.10922.name"
+msgid "Blueberry Bush"
+msgstr "Pé de mirtilo"
+
+#: Recipes.json:10923
+#, fuzzy
+msgctxt "recipe.10923.name"
+msgid "Blueberry Bush"
+msgstr "Pé de mirtilo"
+
+#: Recipes.json:10924
+#, fuzzy
+msgctxt "recipe.10924.name"
+msgid "Disassemble Car Battery"
+msgstr "Desmontar bateria de carro"
+
+#: Recipes.json:10925
+#, fuzzy
+msgctxt "recipe.10925.name"
+msgid "Red Grape Vine"
+msgstr "Videira de uva tinta"
+
+#: Recipes.json:10926
+#, fuzzy
+msgctxt "recipe.10926.name"
+msgid "Red Grape Vine"
+msgstr "Videira de uva tinta"
+
+#: Recipes.json:10927
+#, fuzzy
+msgctxt "recipe.10927.name"
+msgid "Red Grape mash"
+msgstr "Garapa de uva tinta"
+
+#: Recipes.json:10928
+#, fuzzy
+msgctxt "recipe.10928.name"
+msgid "Red grape mushroom mash"
+msgstr "Garapa de uva tinta com cogumelos"
+
+#: Recipes.json:10929
+#, fuzzy
+msgctxt "recipe.10929.name"
+msgid "Empty Petridish"
+msgstr "Placa de Petri vazia"
+
+#: Recipes.json:10930
+#, fuzzy
+msgctxt "recipe.10930.name"
+msgid "Empty Petridish"
+msgstr "Placa de Petri vazia"
+

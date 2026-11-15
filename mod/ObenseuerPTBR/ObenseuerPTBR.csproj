@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>ObenseuerPTBR</AssemblyName>
+    <RootNamespace>ObenseuerPTBR</RootNamespace>
+    <TranslationsDir>$(MSBuildThisFileDirectory)../../translations</TranslationsDir>
+  </PropertyGroup>
+
+  <Target Name="DeployToGame" AfterTargets="Build" Condition="'$(Deploy)' == 'true'">
+    <PropertyGroup><PluginDir>$(GameDir)/BepInEx/plugins/$(AssemblyName)</PluginDir></PropertyGroup>
+    <ItemGroup><Po Include="$(TranslationsDir)/**/*.po" /></ItemGroup>
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(PluginDir)" />
+    <Copy SourceFiles="@(Po)" DestinationFolder="$(PluginDir)/translations/%(RecursiveDir)" />
+    <Message Importance="high" Text="Deployed $(AssemblyName).dll and @(Po->Count()) .po files to $(PluginDir)" />
+  </Target>
+</Project>

@@ -1,0 +1,50 @@
+# Hand-written entries for strings tools/extract.py cannot find (built in code from pieces).
+# Not regenerated: edit by hand.
+msgid ""
+msgstr ""
+"Project-Id-Version: Obenseuer PT-BR\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. SRC/ShowTime.cs:88-122 HUD clock ("Time: " + hh:mm)
+#, fuzzy
+msgid "Time: {0}"
+msgstr "Hora: {0}"
+
+#. SRC/ShowTime.cs:88 HUD clock (weekday + hh:mm), weekday from AzureTimeController.m_weekNameList
+#, fuzzy
+msgid "Sunday {0}"
+msgstr "Domingo {0}"
+
+#. SRC/ShowTime.cs:88 HUD clock (weekday + hh:mm), weekday from AzureTimeController.m_weekNameList
+#, fuzzy
+msgid "Monday {0}"
+msgstr "Segunda {0}"
+
+#. SRC/ShowTime.cs:88 HUD clock (weekday + hh:mm), weekday from AzureTimeController.m_weekNameList
+#, fuzzy
+msgid "Tuesday {0}"
+msgstr "Terça {0}"
+
+#. SRC/ShowTime.cs:88 HUD clock (weekday + hh:mm), weekday from AzureTimeController.m_weekNameList
+#, fuzzy
+msgid "Wednesday {0}"
+msgstr "Quarta {0}"
+
+#. SRC/ShowTime.cs:88 HUD clock (weekday + hh:mm), weekday from AzureTimeController.m_weekNameList
+#, fuzzy
+msgid "Thursday {0}"
+msgstr "Quinta {0}"
+
+#. SRC/ShowTime.cs:88 HUD clock (weekday + hh:mm), weekday from AzureTimeController.m_weekNameList
+#, fuzzy
+msgid "Friday {0}"
+msgstr "Sexta {0}"
+
+#. SRC/ShowTime.cs:88 HUD clock (weekday + hh:mm), weekday from AzureTimeController.m_weekNameList
+#, fuzzy
+msgid "Saturday {0}"
+msgstr "Sábado {0}"
+
