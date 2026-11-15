@@ -529,13 +529,13 @@ SPECS = {
     "sign_002_metro_bazaar": {
         "en": 'M | Bazaar (metro station)',
         "erase": [{"rect": [44, 216, 132, 248], "mode": "light", "thresh": 40, "k": 15, "isolate": True}],
-        "text": [{"box": [8, 214, 248, 248], "font": "lato-black", "baseline": 239, "size": 22, "color": "#f6f0f0", "text": "Bazar"}],
+        "text": [{"box": [52, 214, 246, 248], "font": "lato-black", "baseline": 239, "size": 22, "align": "left", "color": "#f6f0f0", "text": "Bazar"}],
     },
     "sign_002_metro_tenement": {
         "en": 'M | Trade Road (metro station, weathered)',
-        "note": 'The street has no translation in the game text yet; "Rua do Comércio" here, centred on the red band (one size smaller so it clears the M). Keeping "Trade Road" is the other option.',
+        "note": 'The street has no translation in the game text yet; "Rua do Comércio" here, placed like the original. Keeping "Trade Road" is the other option.',
         "erase": [{"rect": [50, 213, 186, 251], "mode": "light", "thresh": 35, "k": 15, "grain": 4}],
-        "text": [{"box": [9, 214, 247, 249], "font": "lato-black", "baseline": 239, "size": 20, "chip": 0.12,
+        "text": [{"box": [55, 214, 246, 249], "font": "lato-black", "baseline": 239, "size": 22, "align": "left", "chip": 0.12,
                   "grime": 14, "mottle": 14, "color": "#e6d2d0", "text": "Rua do Comércio"}],
         "alts": {"Trade Road (kept)": {"text": "Trade Road"}},
     },
