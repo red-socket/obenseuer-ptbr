@@ -640,19 +640,19 @@ msgstr "Encontre o Passmore e diga a senha"
 #, fuzzy
 msgctxt "TaskObjective.PassmoreCorrect24.description"
 msgid "You found out that Passmore sells passports and you have to tell him the password: Passless."
-msgstr "Você descobriu que o Passmore vende passaportes e que precisa dizer a senha a ele: Passless."
+msgstr "Você descobriu que o Passmore vende passaportes e que precisa dizer a senha a ele: Passamenos."
 
 #: Content/Tasks/Getting a passport/Find Passmore.asset
 #, fuzzy
 msgctxt "TaskObjective.Passmore13.title"
 msgid "Tell Passmore the password \"Passed\""
-msgstr "Diga ao Passmore a senha “Passed”"
+msgstr "Diga ao Passmore a senha “Passou”"
 
 #: Content/Tasks/Getting a passport/Find Passmore.asset
 #, fuzzy
 msgctxt "TaskObjective.Passmore13.description"
 msgid "You found out that a guy named Passmore might sell passports. He lives behind the O-market in Tenement B and the password might be \"Passed\"."
-msgstr "Você descobriu que um cara chamado Passmore talvez venda passaportes. Ele mora atrás do O-Market, no Prédio B, e a senha talvez seja “Passed”."
+msgstr "Você descobriu que um cara chamado Passmore talvez venda passaportes. Ele mora atrás do O-Market, no Prédio B, e a senha talvez seja “Passou”."
 
 #: Content/Tasks/Getting a passport/Find a passport seller in Deekula C.asset
 #, fuzzy
@@ -1386,19 +1386,19 @@ msgstr "Você tentou sacar dinheiro num caixa eletrônico daqui, mas percebeu qu
 #, fuzzy
 msgctxt "TaskInfo.MissingDock14.title"
 msgid "Missing dock"
-msgstr "Labaça desaparecida"
+msgstr "Doca desaparecida"
 
 #: Content/Tasks/Missing dock/Try to find the missing dock.asset
 #, fuzzy
 msgctxt "TaskObjective.FindDock35.title"
 msgid "Try to find the missing dock"
-msgstr "Tente encontrar a labaça desaparecida"
+msgstr "Tente encontrar a doca desaparecida"
 
 #: Content/Tasks/Missing dock/Try to find the missing dock.asset
 #, fuzzy
 msgctxt "TaskObjective.FindDock35.description"
 msgid "A hippie you called told you that some guys had kidnapped his beloved dock. He has no idea where they took her or what they looked like but he told you that they smelled like a sewer full of booze!"
-msgstr "Um hippie para quem você ligou contou que uns caras sequestraram a amada labaça dele. Ele não faz ideia de para onde a levaram nem de como eles eram, mas disse que eles tinham cheiro de esgoto cheio de birita!"
+msgstr "Um hippie para quem você ligou contou que uns caras sequestraram a amada doca dele. Ele não faz ideia de para onde a levaram nem de como eles eram, mas disse que eles tinham cheiro de esgoto cheio de birita!"
 
 #: Content/Tasks/My Crazy Neighbor/My Crazy Neighbor.asset
 #, fuzzy

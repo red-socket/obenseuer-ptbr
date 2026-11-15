@@ -4,8 +4,9 @@
     python3 -I tools/check.py [translations/pt-BR/*.po]
 
 For every translated entry, the Portuguese must keep the English text's {0} placeholders,
-rich-text tags (<b>, <color=...>), Dialogue System codes ([var=...], [lua(...)], [em1], \\, pauses),
-{key:Action} hint placeholders, line breaks and leading/trailing spaces. Exits 1 if anything is broken.
+rich-text tags (<b>, <color=...>), Dialogue System codes ([var=...], [lua(...)], [em1]),
+{key:Action} hint placeholders, line breaks and leading/trailing spaces, and {{m|f}} gender markers
+must be well-formed. Typewriter pause codes (\\, \\.) may be moved or dropped. Exits 1 if anything is broken.
 """
 import collections
 import glob
@@ -17,7 +18,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import po  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-TOKENS = re.compile(r"\{\d+\}|\{key:[^}]+\}|<[^<>]+>|\[(?:var|lua|em\d|/em\d|pic|f|a)[^\]]*\]|\\[,.^<>]")
+TOKENS = re.compile(r"\{\d+\}|\{key:[^}]+\}|<[^<>]+>|\[(?:var|lua|em\d|/em\d|pic|f|a)[^\]]*\]")
+GENDER = re.compile(r"\{\{[^{}|]*\|[^{}|]*\}\}")
 
 
 def problems(en, pt):
@@ -26,6 +28,8 @@ def problems(en, pt):
     if a != b:
         miss, extra = a - b, b - a
         out.append("markup differs" + (f"; missing {sorted(miss)}" if miss else "") + (f"; extra {sorted(extra)}" if extra else ""))
+    if pt.count("{{") != len(GENDER.findall(pt)) or pt.count("}}") != len(GENDER.findall(pt)):
+        out.append("malformed {{masculine|feminine}} marker")
     if en.count("\n") != pt.count("\n"):
         out.append(f"line breaks {en.count(chr(10))} -> {pt.count(chr(10))}")
     lead = lambda s: s[:len(s) - len(s.lstrip())]

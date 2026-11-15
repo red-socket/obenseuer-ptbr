@@ -250,9 +250,13 @@ def extract_dialogue(assets, dlg, actors):
     def fields(obj):
         return {f["title"]: f.get("value") for f in obj.get("fields") or []}
 
+    names, players = {}, set()
     for a in db.get("actors") or []:
         f = fields(a)
         name = f.get("Display Name") or (f.get("Name") or "").split("/")[-1]
+        names[str(a["id"])] = f.get("Name") or name
+        if str(f.get("IsPlayer")) == "True":
+            players.add(str(a["id"]))
         actors.add(f"actor.{a['id']}.name", name, f.get("Name"))
     for c in db.get("conversations") or []:
         title = fields(c).get("Title")
@@ -261,7 +265,18 @@ def extract_dialogue(assets, dlg, actors):
             key = f"dlg.{c['id']}.{e['id']}"
             dlg.add(f"{key}.text", f.get("Dialogue Text"), title)
             dlg.add(f"{key}.menu", f.get("Menu Text"), title)
+            who, to = str(f.get("Actor")), str(f.get("Conversant"))
+            DIALOGUE_CONTEXT[key] = {
+                "conv": title,
+                "speaker": "PLAYER" if who in players else names.get(who, "?"),
+                "to": "PLAYER" if to in players else names.get(to, "?"),
+                "links": [f"{l.get('destinationConversationID')}.{l.get('destinationDialogueID')}"
+                          for l in e.get("outgoingLinks") or []][:6],
+            }
     return len(db.get("conversations") or [])
+
+
+DIALOGUE_CONTEXT = {}  # dlg.<conv>.<entry> -> who speaks to whom, for drafting (written to source/dialogue-context.json)
 
 
 _WORKER = {}
@@ -508,6 +523,9 @@ def main():
         extract_enums(src, cats["code"])
 
     os.makedirs(args.out, exist_ok=True)
+    if DIALOGUE_CONTEXT:
+        with open(os.path.join(os.path.dirname(args.out) or ".", "dialogue-context.json"), "w", encoding="utf-8") as fh:
+            json.dump(DIALOGUE_CONTEXT, fh, ensure_ascii=False)
     rows = []
     for name, cat in cats.items():
         if name not in only or not cat.entries:

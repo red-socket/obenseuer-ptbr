@@ -2,7 +2,7 @@
 
 An unofficial Brazilian Portuguese (PT-BR) translation of [Obenseuer](https://store.steampowered.com/app/951240/Obenseuer/) by Loiste Interactive, as a BepInEx 5 plugin. Releases will go up on [Nexus Mods](https://www.nexusmods.com/obeseuer).
 
-**Status:** early drafts, under review. Menus, items, recipes, furniture, interface labels, object names, notifications, tasks, notes and quest items are translated. Dialogue is next.
+**Status:** complete first draft, under review. Menus, items, recipes, furniture, interface labels, object names, notifications, tasks, notes, quest items and all dialogue are translated. Textures with text (signs, posters) are not.
 
 The translation is applied in memory while the game runs. No game files are changed, nothing goes into your save files, and removing the plugin brings back the English text.
 
@@ -20,7 +20,7 @@ The translation is applied in memory while the game runs. No game files are chan
 | Item names and descriptions | `StreamingAssets/Items.json` | Translated in the in-memory item database after it loads. The few game rules that match items by English name still see the English name. |
 | Recipe names | `StreamingAssets/Recipes.json` | Translated in memory, like items. |
 | Tasks, notes, quest items, furniture | ScriptableObjects | Translated where they are displayed. Saved titles stay English, because the game matches saved tasks and notes by title. |
-| Dialogue | Dialogue System database | Planned. |
+| Dialogue | Dialogue System database | Added in memory as the Dialogue System's own Portuguese fields. Lines addressed to your character use `{{masculine\|feminine}}` forms, picked from your character's gender. |
 
 Translations are gettext `.po` files in `translations/pt-BR/`, one per domain. Entries carry a stable key in `msgctxt` (for example `item.17260.title`) or, for interface labels, are keyed by their English text. Missing or untranslated entries fall back to English.
 

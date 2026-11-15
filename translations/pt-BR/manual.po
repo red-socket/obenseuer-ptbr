@@ -88,3 +88,117 @@ msgstr "Aguarde a conclusão da melhoria de {1} do apartamento {0}"
 msgid "Complete the final payment"
 msgstr "Faça o pagamento final"
 
+#. SRC/PlayerIdentity.cs:91-110 Lua actor field inserted into dialogue via [lua(Actor["Player"].AgeName)]
+#, fuzzy
+msgctxt "player.AgeName.boy"
+msgid "boy"
+msgstr "garoto"
+
+#. SRC/PlayerIdentity.cs:91-110 Lua actor field inserted into dialogue via [lua(Actor["Player"].AgeName)]
+#, fuzzy
+msgctxt "player.AgeName.girl"
+msgid "girl"
+msgstr "garota"
+
+#. SRC/PlayerIdentity.cs:91-110 Lua actor field inserted into dialogue via [lua(Actor["Player"].AgeName)]
+#, fuzzy
+msgctxt "player.AgeName.man"
+msgid "man"
+msgstr "homem"
+
+#. SRC/PlayerIdentity.cs:91-110 Lua actor field inserted into dialogue via [lua(Actor["Player"].AgeName)]
+#, fuzzy
+msgctxt "player.AgeName.lady"
+msgid "lady"
+msgstr "moça"
+
+#. SRC/PlayerIdentity.cs:91-110 Lua actor field inserted into dialogue via [lua(Actor["Player"].AgeName)]
+#, fuzzy
+msgctxt "player.AgeName.grandpa"
+msgid "grandpa"
+msgstr "vovô"
+
+#. SRC/PlayerIdentity.cs:91-110 Lua actor field inserted into dialogue via [lua(Actor["Player"].AgeName)]
+#, fuzzy
+msgctxt "player.AgeName.grandma"
+msgid "grandma"
+msgstr "vovó"
+
+#. SRC/PlayerIdentity.cs:91-110 Lua actor field inserted into dialogue via [lua(Actor["Player"].AgeNameFormal)]
+#, fuzzy
+msgctxt "player.AgeNameFormal.young gentleman"
+msgid "young gentleman"
+msgstr "rapaz"
+
+#. SRC/PlayerIdentity.cs:91-110 Lua actor field inserted into dialogue via [lua(Actor["Player"].AgeNameFormal)]
+#, fuzzy
+msgctxt "player.AgeNameFormal.young lady"
+msgid "young lady"
+msgstr "mocinha"
+
+#. SRC/PlayerIdentity.cs:91-110 Lua actor field inserted into dialogue via [lua(Actor["Player"].AgeNameFormal)]
+#, fuzzy
+msgctxt "player.AgeNameFormal.gentleman"
+msgid "gentleman"
+msgstr "cavalheiro"
+
+#. SRC/PlayerIdentity.cs:91-110 Lua actor field inserted into dialogue via [lua(Actor["Player"].AgeNameFormal)]
+#, fuzzy
+msgctxt "player.AgeNameFormal.lady"
+msgid "lady"
+msgstr "dama"
+
+#. SRC/PlayerIdentity.cs:91-110 Lua actor field inserted into dialogue via [lua(Actor["Player"].AgeNameFormal)]
+#, fuzzy
+msgctxt "player.AgeNameFormal.old gentleman"
+msgid "old gentleman"
+msgstr "senhor de idade"
+
+#. SRC/PlayerIdentity.cs:91-110 Lua actor field inserted into dialogue via [lua(Actor["Player"].AgeNameFormal)]
+#, fuzzy
+msgctxt "player.AgeNameFormal.old lady"
+msgid "old lady"
+msgstr "senhora de idade"
+
+#. SRC/PlayerIdentity.cs:91-110 Lua actor field inserted into dialogue via [lua(Actor["Player"].AgeNameFormalShort)]
+#, fuzzy
+msgctxt "player.AgeNameFormalShort.sir"
+msgid "sir"
+msgstr "senhor"
+
+#. SRC/PlayerIdentity.cs:91-110 Lua actor field inserted into dialogue via [lua(Actor["Player"].AgeNameFormalShort)]
+#, fuzzy
+msgctxt "player.AgeNameFormalShort.lady"
+msgid "lady"
+msgstr "moça"
+
+#. SRC/PlayerIdentity.cs:91-110 Lua actor field inserted into dialogue via [lua(Actor["Player"].AgeNameFormalShort)]
+#, fuzzy
+msgctxt "player.AgeNameFormalShort.madam"
+msgid "madam"
+msgstr "senhora"
+
+#. SRC/PlayerIdentity.cs:91-110 Lua actor field inserted into dialogue via [lua(Actor["Player"].Pronoun)]
+#, fuzzy
+msgctxt "player.Pronoun.he"
+msgid "he"
+msgstr "ele"
+
+#. SRC/PlayerIdentity.cs:91-110 Lua actor field inserted into dialogue via [lua(Actor["Player"].Pronoun)]
+#, fuzzy
+msgctxt "player.Pronoun.she"
+msgid "she"
+msgstr "ela"
+
+#. SRC/PlayerIdentity.cs:91-110 Lua actor field inserted into dialogue via [lua(Actor["Player"].PronounCapitalized)]
+#, fuzzy
+msgctxt "player.PronounCapitalized.He"
+msgid "He"
+msgstr "Ele"
+
+#. SRC/PlayerIdentity.cs:91-110 Lua actor field inserted into dialogue via [lua(Actor["Player"].PronounCapitalized)]
+#, fuzzy
+msgctxt "player.PronounCapitalized.She"
+msgid "She"
+msgstr "Ela"
+

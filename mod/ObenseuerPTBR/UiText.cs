@@ -32,7 +32,10 @@ namespace ObenseuerPTBR
             {
                 string pt = Plugin.Translator.Translate(text);
                 if (pt != null)
-                    return TextFit.Fit(label, text, pt);
+                    return TextFit.Fit(label, text, GenderMarkers.Resolve(pt));
+                string resolved = GenderMarkers.Resolve(text);   // dialogue arrives already in Portuguese
+                if (!ReferenceEquals(resolved, text))
+                    return resolved;
                 Collect(text.Trim());
                 return text;
             }

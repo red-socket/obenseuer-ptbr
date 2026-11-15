@@ -10,7 +10,7 @@ msgstr ""
 #, fuzzy
 msgctxt "item.0.title"
 msgid "Open Sewer Coin"
-msgstr "Moeda de Open Sewer"
+msgstr "Moeda do Esgoto Aberto"
 
 #: Items.json:0
 #, fuzzy
@@ -3190,7 +3190,7 @@ msgstr "Pilhas AA"
 #, fuzzy
 msgctxt "item.10740.title"
 msgid "Merda Vite"
-msgstr "Merda Vite"
+msgstr "Porcheria Vite"
 
 #: Items.json:10740
 #, fuzzy

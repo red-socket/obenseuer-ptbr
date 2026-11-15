@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.0 — unreleased
+
+- Draft translation of all dialogue: 488 conversations, about 10,500 lines and response options, through the Dialogue System's own language support. Untranslated lines fall back to English.
+- Lines addressed to your character, or spoken by them, follow your character's gender ("Você está cansado/cansada?").
+- Words the game inserts into dialogue from your character's age and gender ("boy", "sir", "he") are translated too.
+
 ## 0.3.0 — unreleased
 
 - Draft translations of every task and objective (48 tasks, 270 objectives), the quest items and blueprints, all 94 notes, the emails and the two books, and 908 furniture names and descriptions.

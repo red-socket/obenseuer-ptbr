@@ -950,7 +950,7 @@ msgstr ""
 "\n"
 "P.S. NÃO entre em contato comigo se for só pra me AMEAÇAR, mesmo que seja sobre a ponte!\n"
 "\n"
-"P.P.S. E nem PENSE em me ligar se for só pra me vender aromatizador de ambiente, ceroula pouco usada ou qualquer outra coisa que eu NUNCA ia querer! Vão vender essa porcaria miserável pra outro que dê valor! Seus DESGRAÇADOS espertalhões!"
+"P.P.S. E nem PENSE em me ligar se for só pra me vender bolo de pote, pano de prato bordado ou qualquer outra coisa que eu NUNCA ia querer! Vão vender essa porcaria miserável pra outro que dê valor! Seus DESGRAÇADOS espertalhões!"
 
 #: Content/Notes/Pharmacy/Suspicious customers.asset
 #, fuzzy
@@ -1040,7 +1040,7 @@ msgstr ""
 "\n"
 "Banco de Stalburg: 010 242 4096\n"
 "\n"
-"Swamp Publishing Ltda.: 010 689 0002\n"
+"Editora Pântano Ltda.: 010 689 0002\n"
 "\n"
 "Editora Hobbyprof: 010 512 2561"
 

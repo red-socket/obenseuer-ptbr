@@ -84,7 +84,7 @@ namespace ObenseuerPTBR
                         if (ctx != null)
                         {
                             byKey[ctx] = str;
-                            if (!ctx.StartsWith("dlg.", StringComparison.Ordinal) && !promoted.ContainsKey(id))
+                            if (!ctx.StartsWith("dlg.", StringComparison.Ordinal) && !ctx.StartsWith("player.", StringComparison.Ordinal) && !promoted.ContainsKey(id))
                                 promoted[id] = str;
                         }
                         else byText[id] = str;

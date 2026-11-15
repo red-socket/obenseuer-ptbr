@@ -5010,7 +5010,7 @@ msgstr "Cachaça de batata"
 #: Scenes/Interior Bazaar Alco.unity (Storage.title)
 #, fuzzy
 msgid "Merda Vite"
-msgstr "Merda Vite"
+msgstr "Porcheria Vite"
 
 #: Scenes/Interior Bazaar Alco.unity (Storage.title)
 #, fuzzy

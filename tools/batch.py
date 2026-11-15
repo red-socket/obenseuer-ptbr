@@ -53,12 +53,33 @@ def cmd_export(args):
         lines.sort(key=lambda l: l["en"].lower())
     for i, line in enumerate(lines):
         line["id"] = i
+    if args.context:
+        with open(args.context, encoding="utf-8") as fh:
+            ctx = json.load(fh)
+        for line in lines:
+            for k in line["keys"]:
+                c = ctx.get(k.rsplit(".", 1)[0])
+                if c:
+                    line.update({"speaker": c["speaker"], "to": c["to"]})
+                    break
+    chunks, cur, words, last = [], [], 0, None
+    for line in lines:
+        group = line["refs"][0] if line["refs"] else None
+        full = len(cur) >= args.size or (args.words and words >= args.words)
+        if cur and full and (not args.words or group != last):
+            chunks.append(cur)
+            cur, words = [], 0
+        cur.append(line)
+        words += len(line["en"].split())
+        last = group
+    if cur:
+        chunks.append(cur)
     n = 0
-    for start in range(0, len(lines), args.size):
+    for chunk in chunks:
         n += 1
         path = os.path.join(args.out, f"{args.prefix}{n:02d}.jsonl")
         with open(path, "w", encoding="utf-8") as fh:
-            for line in lines[start:start + args.size]:
+            for line in chunk:
                 fh.write(json.dumps(line, ensure_ascii=False) + "\n")
     with open(os.path.join(args.out, f"{args.prefix}index.json"), "w", encoding="utf-8") as fh:
         json.dump({"domains": args.domains, "lang": args.lang, "count": len(lines)}, fh)
@@ -121,10 +142,12 @@ def main():
     sub = ap.add_subparsers(dest="cmd", required=True)
     ex = sub.add_parser("export")
     ex.add_argument("--domains", nargs="+", required=True)
-    ex.add_argument("--size", type=int, default=500)
+    ex.add_argument("--size", type=int, default=100000)
     ex.add_argument("--out", required=True)
     ex.add_argument("--prefix", default="batch")
     ex.add_argument("--lang", default="pt-BR")
+    ex.add_argument("--words", type=int, help="cut batches at about this many English words, only between groups (first ref)")
+    ex.add_argument("--context", help="dialogue-context.json: adds speaker/to to dialogue lines")
     ex.add_argument("--sort", action="store_true", help="sort by English so similar strings share a batch")
     ex.add_argument("--only-keys", help="regex: keep strings with a key matching it")
     ex.add_argument("--exclude-keys", help="regex: drop strings whose keys all match it")
