@@ -1,10 +1,10 @@
 # Obenseuer PT-BR
 
-An unofficial Brazilian Portuguese (PT-BR) translation of [Obenseuer](https://store.steampowered.com/app/951240/Obenseuer/) by Loiste Interactive, as a BepInEx 5 plugin. Releases will go up on [Nexus Mods](https://www.nexusmods.com/obeseuer).
+An unofficial Brazilian Portuguese (PT-BR) translation of [Obenseuer](https://store.steampowered.com/app/951240/Obenseuer/) by Loiste Interactive, packaged as a BepInEx 5 plugin. Releases will go up on [Nexus Mods](https://www.nexusmods.com/obeseuer).
 
-**Status:** complete first draft, under review. Menus, items, recipes, furniture, interface labels, object names, notifications, tasks, notes, quest items and all dialogue are translated. Textures with text (signs, posters) are not.
+Status: the first draft is complete and under review. It covers menus, items, recipes, furniture, interface labels, object names, notifications, tasks, notes, quest items and all dialogue. Textures with text, such as signs and posters, are still in English.
 
-The translation is applied in memory while the game runs. No game files are changed, nothing goes into your save files, and removing the plugin brings back the English text.
+The plugin translates the game in memory while it runs. It doesn't change any game files or write anything to your saves, and removing it brings back the English text.
 
 ## Installing
 
@@ -22,13 +22,13 @@ The translation is applied in memory while the game runs. No game files are chan
 | Tasks, notes, quest items, furniture | ScriptableObjects | Translated where they are displayed. Saved titles stay English, because the game matches saved tasks and notes by title. |
 | Dialogue | Dialogue System database | Added in memory as the Dialogue System's own Portuguese fields. Lines addressed to your character use `{{masculine\|feminine}}` forms, picked from your character's gender. |
 
-Translations are gettext `.po` files in `translations/pt-BR/`, one per domain. Entries carry a stable key in `msgctxt` (for example `item.17260.title`) or, for interface labels, are keyed by their English text. Missing or untranslated entries fall back to English.
+The translations are gettext `.po` files in `translations/pt-BR/`, one per domain. Each entry has a stable key in `msgctxt` (for example `item.17260.title`), except interface labels, which use their English text as the key. Anything missing or untranslated shows in English.
 
 ## For translators
 
 - Edit the `.po` files with [Poedit](https://poedit.net/), Weblate or any text editor.
 - Or review in a spreadsheet: `python3 -I tools/review_csv.py export` writes every entry to `review/pt-BR.csv` (columns: file, key, english, portuguese, reviewed, note, context). Edit the Portuguese, put an `x` in `reviewed` to approve a line, then `python3 -I tools/review_csv.py import` and `python3 -I tools/check.py`.
-- `tools/extract.py` regenerates the English templates (`.pot`) from a local [AssetRipper](https://github.com/AssetRipper/AssetRipper) export of the game. After a game update, merge them into the translations with `msgmerge`, so changed lines are marked fuzzy and new lines appear untranslated.
+- `tools/extract.py` regenerates the English templates (`.pot`) from a local [AssetRipper](https://github.com/AssetRipper/AssetRipper) export of the game. After a game update, merge them into the translations with `msgmerge`: it marks changed lines fuzzy and adds new lines untranslated.
 - Turn on `CollectUntranslated` in `BepInEx/config/redsocket.obenseuer.ptbr.cfg` to log every on-screen English label that has no translation to `untranslated.po`.
 
 ## Building
