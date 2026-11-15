@@ -204,6 +204,32 @@ _TAXFREE = {
     "Y": (["###....###", "###....###", ".###..###.", "..##..##..", "..######..", "...####..."] + ["...####..."] * 7, 0),
 }
 
+# barrel_001_radioactive: 1-px capitals 5 rows (RADIOACTIVE), from the texture.
+_BARREL = {
+    "R": (["##.", "#.#", "##.", "#.#", "#.#"], 0),
+    "A": ([".#.", "#.#", "###", "#.#", "#.#"], 0),
+    "D": (["##.", "#.#", "#.#", "#.#", "##."], 0),
+    "I": (["#"] * 5, 0),
+    "O": ([".#.", "#.#", "#.#", "#.#", ".#."], 0),
+    "T": (["###", ".#.", ".#.", ".#.", ".#."], 0),
+    "V": (["#.#", "#.#", "#.#", "###", ".#."], 0),
+}
+
+# number_ticket_dispenser_001: 1-px capitals with wide spacing (PLEASE TAKE A NUMBER), 6 rows like the lower lines.
+# E T U A N S R from the texture's shapes, I and H drawn.
+_DISPENSER = {
+    "R": (["###.", "#..#", "###.", "#.#.", "#..#", "#..#"], 0),
+    "E": (["####", "#...", "###.", "#...", "#...", "####"], 0),
+    "T": (["#####", "..#..", "..#..", "..#..", "..#..", "..#.."], 0),
+    "I": (["###", ".#.", ".#.", ".#.", ".#.", "###"], 0),
+    "S": ([".###", "#...", ".##.", "...#", "...#", "###."], 0),
+    "U": (["#..#"] * 5 + [".##."], 0),
+    "A": ([".##.", "#..#", "#..#", "####", "#..#", "#..#"], 0),
+    "N": (["#..#", "##.#", "#.##", "#..#", "#..#", "#..#"], 0),
+    "H": (["#..#", "#..#", "####", "#..#", "#..#", "#..#"], 0),
+}
+
 PIXEL_FONTS = {"oos": _OOS, "bergmann": _BERG, "border-top": _BORDER_TOP, "border-mid": _BORDER_MID,
                "border-low": _BORDER_LOW, "exit": _EXIT, "mall": _MALL,
-               "elstrom": _ELSTROM, "skeida": _SKEIDA, "robin": _ROBIN, "taxfree": _TAXFREE}
+               "elstrom": _ELSTROM, "skeida": _SKEIDA, "robin": _ROBIN, "taxfree": _TAXFREE,
+               "barrel": _BARREL, "dispenser": _DISPENSER}

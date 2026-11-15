@@ -320,6 +320,17 @@ def render(name, spec, save=True):
         out = out * (1 - a[:, :, None]) + ink(t, a, name, rgb, orig, old) * a[:, :, None]
         if aspec and "letters" in aspec:
             aout = aout * (1 - a) + t.get("alpha", aspec["letters"]) * a
+    # "alpha_follow": {"rect", "gain"}: on textures whose gloss map is a greyscale copy of the artwork, move the
+    # gloss by the same amount the brightness changed (keeps the original's fine gloss detail).
+    # "alpha_follow": {"rect", "gain"}: on textures whose gloss map is a greyscale copy of the artwork, the gloss under
+    # the old letters is filled in from around them, then the new letters change it as much as they change brightness.
+    af = spec.get("alpha_follow")
+    if af:
+        x0, y0, x1, y1 = af["rect"]
+        hole = cv2.dilate(old.astype(np.uint8), np.ones((5, 5), np.uint8))
+        base = cv2.inpaint(np.ascontiguousarray(alpha), hole, 3, cv2.INPAINT_TELEA).astype(float)
+        dl = out.mean(axis=2) - rgb.astype(float).mean(axis=2)
+        aout[y0:y1, x0:x1] = (base + af.get("gain", 1.0) * dl)[y0:y1, x0:x1]
     res = np.dstack([np.clip(out + 0.5, 0, 255).astype(np.uint8), np.clip(aout + 0.5, 0, 255).astype(np.uint8)])
     mode = "RGBA" if has_alpha else "RGB"
     img = Image.fromarray(res, "RGBA").convert(mode)
