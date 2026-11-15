@@ -1,6 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Text;
+using System.Text.RegularExpressions;
 using HarmonyLib;
 using TMPro;
 using UnityEngine;
@@ -36,7 +38,7 @@ namespace ObenseuerPTBR
                 string resolved = GenderMarkers.Resolve(text);   // dialogue arrives already in Portuguese
                 if (!ReferenceEquals(resolved, text))
                     return resolved;
-                Collect(text.Trim());
+                Collect(text.Trim(), label);
                 return text;
             }
             catch (Exception e)
@@ -67,14 +69,39 @@ namespace ObenseuerPTBR
                     Attach(label);
         }
 
-        // Writes each English UI string that had no translation to a file, so translators can find gaps.
-        private static void Collect(string text)
+        // Writes each English UI string that had no translation to a file, with the scene and object path
+        // it appeared on, so translators can find gaps. Text that is already Portuguese (dialogue arrives
+        // translated) is skipped.
+        private static void Collect(string text, TMP_Text label)
         {
             if (!Plugin.CollectUntranslated.Value || text.Length < 2 || !HasLetters(text)
-                || Plugin.Catalog.IsTranslation(text) || !missing.Add(text))
+                || Plugin.Catalog.IsTranslation(text) || LooksPortuguese(text) || !missing.Add(text))
                 return;
-            try { File.AppendAllText(Plugin.UntranslatedPath, "msgid \"" + Escape(text) + "\"\nmsgstr \"\"\n\n"); }
+            try
+            {
+                string where = label == null ? "?" : label.gameObject.scene.name + ": " + PathOf(label.transform);
+                File.AppendAllText(Plugin.UntranslatedPath,
+                    "#: " + where + "\nmsgid \"" + Escape(text) + "\"\nmsgstr \"\"\n\n", Encoding.UTF8);
+            }
             catch (IOException) { }
+        }
+
+        private static readonly Regex PtWords = new Regex(@"\b(você|não|que|para|com|uma|um|está|isso|esse|essa|aqui|sim|meu|minha|seu|sua|ele|ela|eu|tem|vai|pra|mais|muito|do|da|dos|das|no|na|os|as|é)\b",
+            RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+        private static readonly Regex EnWords = new Regex(@"\b(the|you|and|is|to|of|in|it|that|for|with|this|your|are|not|have|was|be|on|at|my|me|we|do|what|can)\b",
+            RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+
+        private static bool LooksPortuguese(string s)
+        {
+            if (s.IndexOfAny("ãõçáéíóúâêôàÃÕÇÁÉÍÓÚÂÊÔÀ".ToCharArray()) >= 0) return true;
+            return PtWords.Matches(s).Count > EnWords.Matches(s).Count;
+        }
+
+        private static string PathOf(Transform t)
+        {
+            var sb = new StringBuilder(t.name);
+            for (Transform p = t.parent; p != null; p = p.parent) sb.Insert(0, p.name + "/");
+            return sb.ToString();
         }
 
         private static bool HasLetters(string s)

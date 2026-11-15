@@ -16,6 +16,7 @@ namespace ObenseuerPTBR
         private const int CacheLimit = 8192;
 
         private static readonly Regex Placeholder = new Regex(@"\{(\d+)\}", RegexOptions.CultureInvariant);
+        private static readonly Regex Labelled = new Regex(@"^([^:\n<>{}\[\]]{1,48}): (.+)$", RegexOptions.Singleline | RegexOptions.CultureInvariant);
         private static readonly Regex Counter = new Regex(@"^(.*\S) (\d+/\d+)$", RegexOptions.Singleline | RegexOptions.CultureInvariant);
         private static readonly System.Globalization.CultureInfo PtBr = new System.Globalization.CultureInfo("pt-BR");
         private static readonly Regex OuterTags = new Regex(@"^((?:<[^<>]+>)+)(.*?)((?:</?[^<>]+>)*)$",
@@ -105,6 +106,20 @@ namespace ObenseuerPTBR
                     if (!g.Success) return p.Value;
                     return Translate(g.Value, depth + 1) ?? g.Value;
                 });
+            }
+
+            // "Guard: Halt!" (bark and phone subtitles), "Quality: Good": translate a known label in front of
+            // the colon, and the value too if it has a translation (dialogue values arrive already translated).
+            Match labelled = Labelled.Match(text);
+            if (labelled.Success)
+            {
+                string label = labelled.Groups[1].Value;
+                string value = labelled.Groups[2].Value;
+                string ptLabel = catalog.TryText(label, out string l) ? l
+                    : catalog.TryTextIgnoreCase(label, out l) ? MatchCase(label, l) : null;
+                string ptValue = Translate(value, depth + 1);
+                if (ptLabel != null || ptValue != null)
+                    return (ptLabel ?? label) + ": " + (ptValue ?? value);
             }
 
             if (text.IndexOf('\n') >= 0)

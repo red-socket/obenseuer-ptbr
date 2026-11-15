@@ -1,5 +1,11 @@
 # Changelog
 
+## 0.4.1 (unreleased)
+
+- Speaker names on subtitles and phone calls are translated when they are titles rather than names ("Guarda", "Padre", "Serviço de emergência"). People's names stay as they are.
+- Labels in front of a colon are translated even when the value after it isn't known ("Qualidade: OK").
+- The `CollectUntranslated` log skips text that is already in Portuguese and records the scene and object each English label appeared on.
+
 ## 0.4.0 (unreleased)
 
 - Draft translation of all dialogue: 488 conversations, about 10,500 lines and response options, using the Dialogue System's own language support. Untranslated lines stay in English.

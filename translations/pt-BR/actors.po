@@ -1,0 +1,1589 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Obenseuer PT-BR\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Bazaar/Pontikka/Arvo Kirkastaja
+msgctxt "actor.48.name"
+msgid "Arvo Kirkastaja"
+msgstr ""
+
+#: Bazaar/Trader/Astrid Vinsjö
+msgctxt "actor.43.name"
+msgid "Astrid Vinsjö"
+msgstr ""
+
+#: Bazaar/Trader/Gustav Sågspånberg
+msgctxt "actor.42.name"
+msgid "Gustav Sågspånberg"
+msgstr ""
+
+#: Bazaar/Trader/Ivan Kapustanov
+msgctxt "actor.17.name"
+msgid "Ivan Kapustanov"
+msgstr ""
+
+#: Bazaar/Rob Madsen
+msgctxt "actor.25.name"
+msgid "Rob Madsen"
+msgstr ""
+
+#: Bazaar/Mallment/Tim Nickelson
+msgctxt "actor.14.name"
+msgid "Tim Nickelson"
+msgstr ""
+
+#: Generic/Doorphone
+#, fuzzy
+msgctxt "actor.56.name"
+msgid "Doorphone"
+msgstr "Interfone"
+
+#: Generic/Doorphone Duplicate
+msgctxt "actor.103.name"
+msgid "Doorphone Duplicate"
+msgstr ""
+
+#: Generic/Guard
+#, fuzzy
+msgctxt "actor.97.name"
+msgid "Guard"
+msgstr "Guarda"
+
+#: Generic/Newsreader
+#, fuzzy
+msgctxt "actor.130.name"
+msgid "Newsreader"
+msgstr "Apresentador do jornal"
+
+#: Generic/Police
+#, fuzzy
+msgctxt "actor.115.name"
+msgid "Police"
+msgstr "Polícia"
+
+#: Generic/Prison guard
+#, fuzzy
+msgctxt "actor.36.name"
+msgid "Prison guard"
+msgstr "Carcereiro"
+
+#: Market/Ami Kunkka
+msgctxt "actor.123.name"
+msgid "Ami Kunkka"
+msgstr ""
+
+#: Market/Eija Lurppu
+msgctxt "actor.124.name"
+msgid "Eija Lurppu"
+msgstr ""
+
+#: Market/Henning Torskvær
+msgctxt "actor.110.name"
+msgid "Henning Torskvær"
+msgstr ""
+
+#: Market/Kalpana Selma
+msgctxt "actor.112.name"
+msgid "Kalpana Selma"
+msgstr ""
+
+#: Market/Sirkku Maltanen
+msgctxt "actor.111.name"
+msgid "Sirkku Maltanen"
+msgstr ""
+
+#: Metro/Mason Jokinen
+msgctxt "actor.132.name"
+msgid "Mason Jokinen"
+msgstr ""
+
+#: Mines/Anna Markkanen
+msgctxt "actor.143.name"
+msgid "Anna Markkanen"
+msgstr ""
+
+#: Mines/Einar Kaivuri
+msgctxt "actor.145.name"
+msgid "Einar Kaivuri"
+msgstr ""
+
+#: Mines/Joran Kallio
+msgctxt "actor.142.name"
+msgid "Joran Kallio"
+msgstr ""
+
+#: Mines/Kisu
+msgctxt "actor.146.name"
+msgid "Kisu"
+msgstr ""
+
+#: Mines/Mikkel Purola
+msgctxt "actor.149.name"
+msgid "Mikkel Purola"
+msgstr ""
+
+#: Mines/Reijo Rautakaivos
+msgctxt "actor.147.name"
+msgid "Reijo Rautakaivos"
+msgstr ""
+
+#: Mines/Seamus Liepa
+msgctxt "actor.150.name"
+msgid "Seamus Liepa"
+msgstr ""
+
+#: Mines/Tanja Nypan
+msgctxt "actor.148.name"
+msgid "Tanja Nypan"
+msgstr ""
+
+#: Mines/Veikko Martinsen
+msgctxt "actor.144.name"
+msgid "Veikko Martinsen"
+msgstr ""
+
+#: Mushrooms/Tonttu
+msgctxt "actor.34.name"
+msgid "Tonttu"
+msgstr ""
+
+#: Mushrooms/Tootti
+msgctxt "actor.33.name"
+msgid "Tootti"
+msgstr ""
+
+#: Mushrooms/Tuutti
+msgctxt "actor.35.name"
+msgid "Tuutti"
+msgstr ""
+
+#: Phone/Automated message
+#, fuzzy
+msgctxt "actor.87.name"
+msgid "Automated message"
+msgstr "Mensagem automática"
+
+#: Phone/Aziz's Kebab and Burger
+#, fuzzy
+msgctxt "actor.90.name"
+msgid "Aziz's Kebab and Burger"
+msgstr "Kebab & Hambúrguer do Aziz"
+
+#: Phone/Emergency services
+#, fuzzy
+msgctxt "actor.88.name"
+msgid "Emergency services"
+msgstr "Serviço de emergência"
+
+#: Phone/Osmo Olut customer service
+#, fuzzy
+msgctxt "actor.89.name"
+msgid "Osmo Olut customer service"
+msgstr "Atendimento da Osmo Olut"
+
+#: Phone/Stalburg Bank customer service
+#, fuzzy
+msgctxt "actor.96.name"
+msgid "Stalburg Bank customer service"
+msgstr "Atendimento do Banco de Stalburg"
+
+#: Phone/Swamp Publishing customer service
+#, fuzzy
+msgctxt "actor.138.name"
+msgid "Swamp Publishing customer service"
+msgstr "Atendimento da Editora Pântano"
+
+#: Player
+msgctxt "actor.1.name"
+msgid "Player"
+msgstr ""
+
+#: Resident Relatives/Daniel Nilsson
+msgctxt "actor.51.name"
+msgid "Daniel Nilsson"
+msgstr ""
+
+#: Resident Relatives/Hall Kääbus
+msgctxt "actor.104.name"
+msgid "Hall Kääbus"
+msgstr ""
+
+#: Resident Relatives/Jaska Virtanen
+msgctxt "actor.114.name"
+msgid "Jaska Virtanen"
+msgstr ""
+
+#: Resident Relatives/Johan Wider
+msgctxt "actor.24.name"
+msgid "Johan Wider"
+msgstr ""
+
+#: Resident Relatives/Moray Larson
+msgctxt "actor.108.name"
+msgid "Moray Larson"
+msgstr ""
+
+#: Resident Relatives/Ulrik Takala
+msgctxt "actor.125.name"
+msgid "Ulrik Takala"
+msgstr ""
+
+#: Resident Relatives/Walt Bondar
+msgctxt "actor.100.name"
+msgid "Walt Bondar"
+msgstr ""
+
+#: Resident/Agnes Takala
+msgctxt "actor.84.name"
+msgid "Agnes Takala"
+msgstr ""
+
+#: Resident/Aleksi Kivi
+msgctxt "actor.27.name"
+msgid "Aleksi Kivi"
+msgstr ""
+
+#: Resident/Amanda Korhonen
+msgctxt "actor.54.name"
+msgid "Amanda Korhonen"
+msgstr ""
+
+#: Resident/Axel Norberg
+msgctxt "actor.13.name"
+msgid "Axel Norberg"
+msgstr ""
+
+#: Resident/Crazy Neighbor
+msgctxt "actor.129.name"
+msgid "Crazy Neighbor"
+msgstr ""
+
+#: Resident/Fenella Hunt
+msgctxt "actor.107.name"
+msgid "Fenella Hunt"
+msgstr ""
+
+#: Resident/Ingrid Claesson
+msgctxt "actor.85.name"
+msgid "Ingrid Claesson"
+msgstr ""
+
+#: Resident/Jarmo Pettinen
+msgctxt "actor.50.name"
+msgid "Jarmo Pettinen"
+msgstr ""
+
+#: Resident/Jesper Kumpula
+msgctxt "actor.91.name"
+msgid "Jesper Kumpula"
+msgstr ""
+
+#: Resident/Kirka Kääbus
+msgctxt "actor.105.name"
+msgid "Kirka Kääbus"
+msgstr ""
+
+#: Resident/Leon Borg
+msgctxt "actor.77.name"
+msgid "Leon Borg"
+msgstr ""
+
+#: Resident/Malone Petronis
+msgctxt "actor.2.name"
+msgid "Malone Petronis"
+msgstr ""
+
+#: Resident/Martta Lapinjoki
+msgctxt "actor.10.name"
+msgid "Martta Lapinjoki"
+msgstr ""
+
+#: Resident/Milla Kolleen
+msgctxt "actor.119.name"
+msgid "Milla Kolleen"
+msgstr ""
+
+#: Resident/Nina Lund
+msgctxt "actor.32.name"
+msgid "Nina Lund"
+msgstr ""
+
+#: Resident/Olle Leino
+msgctxt "actor.92.name"
+msgid "Olle Leino"
+msgstr ""
+
+#: Resident/Oscar Nilsson
+msgctxt "actor.16.name"
+msgid "Oscar Nilsson"
+msgstr ""
+
+#: Resident/Pate Rantanen
+msgctxt "actor.3.name"
+msgid "Pate Rantanen"
+msgstr ""
+
+#: Resident/Pera Harju
+msgctxt "actor.5.name"
+msgid "Pera Harju"
+msgstr ""
+
+#: Resident/Sara Claine
+msgctxt "actor.93.name"
+msgid "Sara Claine"
+msgstr ""
+
+#: Resident/Taneli Kurju
+msgctxt "actor.106.name"
+msgid "Taneli Kurju"
+msgstr ""
+
+#: Resident/Ville Sköldgangster
+msgctxt "actor.20.name"
+msgid "Ville Sköldgangster"
+msgstr ""
+
+#: Resident/Vivi Bondar
+msgctxt "actor.94.name"
+msgid "Vivi Bondar"
+msgstr ""
+
+#: Start/Interviewer
+#, fuzzy
+msgctxt "actor.73.name"
+msgid "Interviewer"
+msgstr "Entrevistador"
+
+#: Swamp/Krista Annina
+msgctxt "actor.26.name"
+msgid "Krista Annina"
+msgstr ""
+
+#: Tenement/Deekula/Adam Holmgren
+msgctxt "actor.74.name"
+msgid "Adam Holmgren"
+msgstr ""
+
+#: Tenement/Deekula/Dr. Pena MD
+msgctxt "actor.63.name"
+msgid "Dr. Pena MD"
+msgstr ""
+
+#: Tenement/Deekula/Hank Möbelmann
+msgctxt "actor.49.name"
+msgid "Hank Möbelmann"
+msgstr ""
+
+#: Tenement/Deekula/Jim Nilsen
+msgctxt "actor.82.name"
+msgid "Jim Nilsen"
+msgstr ""
+
+#: Tenement/Deekula/David Lund
+msgctxt "actor.60.name"
+msgid "David Lund"
+msgstr ""
+
+#: Tenement/Deekula/Keijo Korsonen
+msgctxt "actor.83.name"
+msgid "Keijo Korsonen"
+msgstr ""
+
+#: Tenement/Deekula/Max Masher
+msgctxt "actor.47.name"
+msgid "Max Masher"
+msgstr ""
+
+#: Tenement/Deekula/Max's evil door
+#, fuzzy
+msgctxt "actor.95.name"
+msgid "Max's evil door"
+msgstr "Porta malvada do Max"
+
+#: Tenement/Deekula/Priest
+#, fuzzy
+msgctxt "actor.75.name"
+msgid "Priest"
+msgstr "Padre"
+
+#: Tenement/Deekula/Samuel Jonasson
+msgctxt "actor.64.name"
+msgid "Samuel Jonasson"
+msgstr ""
+
+#: Tenement/Deekula/Woman in bed
+#, fuzzy
+msgctxt "actor.55.name"
+msgid "Woman in bed"
+msgstr "Mulher na cama"
+
+#: Tenement/Kolhola/Börje Nyberg
+msgctxt "actor.122.name"
+msgid "Börje Nyberg"
+msgstr ""
+
+#: Tenement/Kolhola/Eliana Passmore
+msgctxt "actor.116.name"
+msgid "Eliana Passmore"
+msgstr ""
+
+#: Tenement/Kolhola/Jörge Af Guldsköld
+msgctxt "actor.128.name"
+msgid "Jörge Af Guldsköld"
+msgstr ""
+
+#: Tenement/Kolhola/Julius Öberg
+msgctxt "actor.120.name"
+msgid "Julius Öberg"
+msgstr ""
+
+#: Tenement/Kolhola/Liouba Bennett
+msgctxt "actor.127.name"
+msgid "Liouba Bennett"
+msgstr ""
+
+#: Tenement/Kolhola/Meri Haka
+msgctxt "actor.117.name"
+msgid "Meri Haka"
+msgstr ""
+
+#: Tenement/Kolhola/Rauha Taisto
+msgctxt "actor.121.name"
+msgid "Rauha Taisto"
+msgstr ""
+
+#: Tenement/Kolhola/Sam Morton
+msgctxt "actor.102.name"
+msgid "Sam Morton"
+msgstr ""
+
+#: Tenement/Kurahaara/Jomppe Kurahaara
+msgctxt "actor.71.name"
+msgid "Jomppe Kurahaara"
+msgstr ""
+
+#: Tenement/Kurahaara/Lönkka Kurahaara
+msgctxt "actor.65.name"
+msgid "Lönkka Kurahaara"
+msgstr ""
+
+#: Tenement/Kurahaara/Simppa Kurahaara
+msgctxt "actor.99.name"
+msgid "Simppa Kurahaara"
+msgstr ""
+
+#: Tenement/Market/Petro Blokuvati
+msgctxt "actor.109.name"
+msgid "Petro Blokuvati"
+msgstr ""
+
+#: Tenement/Market/Teuvo Skogman
+msgctxt "actor.113.name"
+msgid "Teuvo Skogman"
+msgstr ""
+
+#: Tenement/Mirjam Freighter
+msgctxt "actor.12.name"
+msgid "Mirjam Freighter"
+msgstr ""
+
+#: Tenement/Mr. Bag
+#, fuzzy
+msgctxt "actor.72.name"
+msgid "Mr. Bag"
+msgstr "Sr. Sacola"
+
+#: Tenement/Mr. Duck
+#, fuzzy
+msgctxt "actor.29.name"
+msgid "Mr. Duck"
+msgstr "Sr. Pato"
+
+#: Tenement/Outside/Henrik Korpinen
+msgctxt "actor.78.name"
+msgid "Henrik Korpinen"
+msgstr ""
+
+#: Tenement/Pharmacy/Mona Hall
+msgctxt "actor.70.name"
+msgid "Mona Hall"
+msgstr ""
+
+#: Tenement/Pharmacy/Patrik Axelsson
+msgctxt "actor.69.name"
+msgid "Patrik Axelsson"
+msgstr ""
+
+#: Tenement/Pia
+msgctxt "actor.86.name"
+msgid "Pia"
+msgstr ""
+
+#: Tenement/Redemption/Colton
+msgctxt "actor.98.name"
+msgid "Colton"
+msgstr ""
+
+#: Tenement/Redemption/Fidan Tanner
+msgctxt "actor.68.name"
+msgid "Fidan Tanner"
+msgstr ""
+
+#: Tenement/Redemption/Kaisa Wirta
+msgctxt "actor.66.name"
+msgid "Kaisa Wirta"
+msgstr ""
+
+#: Tenement/Redemption/Noomi Palo
+msgctxt "actor.67.name"
+msgid "Noomi Palo"
+msgstr ""
+
+#: Tenement/Speakeasy/Pentti Penttilä
+msgctxt "actor.23.name"
+msgid "Pentti Penttilä"
+msgstr ""
+
+#: Tenement/Tatyana Gopnikova
+msgctxt "actor.37.name"
+msgid "Tatyana Gopnikova"
+msgstr ""
+
+#: Tenement/Tenement A/Ayla Green
+msgctxt "actor.134.name"
+msgid "Ayla Green"
+msgstr ""
+
+#: Tenement/Tenement A/Emma-Maija Taylor
+msgctxt "actor.140.name"
+msgid "Emma-Maija Taylor"
+msgstr ""
+
+#: Tenement/Tenement A/Fredrik
+msgctxt "actor.131.name"
+msgid "Fredrik"
+msgstr ""
+
+#: Tenement/Tenement A/Ilona Pettinen
+msgctxt "actor.139.name"
+msgid "Ilona Pettinen"
+msgstr ""
+
+#: Tenement/Tenement A/Joel Hietala
+msgctxt "actor.141.name"
+msgid "Joel Hietala"
+msgstr ""
+
+#: Tenement/Tenement A/Johannes Eskola
+msgctxt "actor.135.name"
+msgid "Johannes Eskola"
+msgstr ""
+
+#: Tenement/Tenement A/Jonne Reis
+msgctxt "actor.136.name"
+msgid "Jonne Reis"
+msgstr ""
+
+#: Tenement/Tenement A/Louie Green
+msgctxt "actor.133.name"
+msgid "Louie Green"
+msgstr ""
+
+#: Tenement/Tenement A/Patient
+#, fuzzy
+msgctxt "actor.137.name"
+msgid "Patient"
+msgstr "Paciente"
+
+#: Tenement/Tenement B/Passmore
+msgctxt "actor.79.name"
+msgid "Passmore"
+msgstr ""
+
+#: Tunnels/Anya
+msgctxt "actor.76.name"
+msgid "Anya"
+msgstr ""
+
+#: Tunnels/Mike
+msgctxt "actor.61.name"
+msgid "Mike"
+msgstr ""
+
+#: Unused!
+msgctxt "actor.101.name"
+msgid "Unused!"
+msgstr ""
+
+#: Unused/Aava Kauppila
+msgctxt "actor.45.name"
+msgid "Aava Kauppila"
+msgstr ""
+
+#: Unused/Arvid Vinter
+msgctxt "actor.118.name"
+msgid "Arvid Vinter"
+msgstr ""
+
+#: Unused/asd
+msgctxt "actor.126.name"
+msgid "asd"
+msgstr ""
+
+#: Bazaar/Chamber of Commerce/Burt Kraut
+msgctxt "actor.6.name"
+msgid "Burt Kraut"
+msgstr ""
+
+#: Unused/Doctor
+#, fuzzy
+msgctxt "actor.21.name"
+msgid "Doctor"
+msgstr "Doutor"
+
+#: Unused/Ella Karlsson
+msgctxt "actor.22.name"
+msgid "Ella Karlsson"
+msgstr ""
+
+#: Unused/Erik Svensson
+msgctxt "actor.31.name"
+msgid "Erik Svensson"
+msgstr ""
+
+#: Unused/Hilla Palo
+msgctxt "actor.41.name"
+msgid "Hilla Palo"
+msgstr ""
+
+#: Bazaar/Outside/Hugo Björnson
+msgctxt "actor.38.name"
+msgid "Hugo Björnson"
+msgstr ""
+
+#: Unused/Jacob Koller
+msgctxt "actor.57.name"
+msgid "Jacob Koller"
+msgstr ""
+
+#: Unused/Ken Bloomer
+msgctxt "actor.7.name"
+msgid "Ken Bloomer"
+msgstr ""
+
+#: Unused/Lumi Bloomer
+msgctxt "actor.8.name"
+msgid "Lumi Bloomer"
+msgstr ""
+
+#: Unused/Marjukka Sieni
+msgctxt "actor.19.name"
+msgid "Marjukka Sieni"
+msgstr ""
+
+#: Unused/Oliver Berggren
+msgctxt "actor.40.name"
+msgid "Oliver Berggren"
+msgstr ""
+
+#: Bazaar/Trader/Omari Solheim
+msgctxt "actor.44.name"
+msgid "Omari Solheim"
+msgstr ""
+
+#: Bazaar/Mentti/Penni-Pena
+msgctxt "actor.15.name"
+msgid "Penni-Pena"
+msgstr ""
+
+#: Unused/Pete Koskela
+msgctxt "actor.4.name"
+msgid "Pete Koskela"
+msgstr ""
+
+#: Unused/Sandberg
+msgctxt "actor.80.name"
+msgid "Sandberg"
+msgstr ""
+
+#: Bazaar/Trader/Sofija Pisula
+msgctxt "actor.39.name"
+msgid "Sofija Pisula"
+msgstr ""
+
+#: Unused/Stein Bergland
+msgctxt "actor.28.name"
+msgid "Stein Bergland"
+msgstr ""
+
+#: Unused/Toni Mayer
+msgctxt "actor.46.name"
+msgid "Toni Mayer"
+msgstr ""
+
+#: Unused/White Mask
+msgctxt "actor.9.name"
+msgid "White Mask"
+msgstr ""
+
+#: Unused/Woman
+#, fuzzy
+msgctxt "actor.53.name"
+msgid "Woman"
+msgstr "Mulher"
+
+#: Unused/Yuri Takahashi
+msgctxt "actor.18.name"
+msgid "Yuri Takahashi"
+msgstr ""
+
+#: Unused2!
+msgctxt "actor.81.name"
+msgid "Unused2!"
+msgstr ""
+
+#: Upcoming/Caroline Nielsen
+msgctxt "actor.30.name"
+msgid "Caroline Nielsen"
+msgstr ""
+
+#: Upcoming/Emilie Palmer
+msgctxt "actor.52.name"
+msgid "Emilie Palmer"
+msgstr ""
+
+#: Wasteland/Shadow woman
+#, fuzzy
+msgctxt "actor.59.name"
+msgid "Shadow woman"
+msgstr "Mulher das sombras"
+
+#: Market/Lizzy Mopper
+msgctxt "actor.151.name"
+msgid "Lizzy Mopper"
+msgstr ""
+
+#: Mines/Ivar Pihl
+msgctxt "actor.152.name"
+msgid "Ivar Pihl"
+msgstr ""
+
+#: Mines/Kalle Suutari
+msgctxt "actor.153.name"
+msgid "Kalle Suutari"
+msgstr ""
+
+#: Mines/Olavi Hyypiö
+msgctxt "actor.154.name"
+msgid "Olavi Hyypiö"
+msgstr ""
+
+#: Market/Teuvo Skogman
+msgctxt "actor.155.name"
+msgid "Teuvo Skogman"
+msgstr ""
+
+#: Mines/Laura Markkanen
+msgctxt "actor.156.name"
+msgid "Laura Markkanen"
+msgstr ""
+
+#: Mines/Ken Nakahara
+msgctxt "actor.157.name"
+msgid "Ken Nakahara"
+msgstr ""
+
+#: Mines/Toivo Malmijoki
+msgctxt "actor.158.name"
+msgid "Toivo Malmijoki"
+msgstr ""
+
+#: Mines/Heska Pavonen
+msgctxt "actor.159.name"
+msgid "Heska Pavonen"
+msgstr ""
+
+#: Mines/Antero Erikson
+msgctxt "actor.160.name"
+msgid "Antero Erikson"
+msgstr ""
+
+#: Mines/Emil Kauha
+msgctxt "actor.161.name"
+msgid "Emil Kauha"
+msgstr ""
+
+#: Mines/Saunaklonkku
+msgctxt "actor.162.name"
+msgid "Saunaklonkku"
+msgstr ""
+
+#: Mines/Anders Terva
+msgctxt "actor.163.name"
+msgid "Anders Terva"
+msgstr ""
+
+#: Mines/Teuvo Sorvi
+msgctxt "actor.164.name"
+msgid "Teuvo Sorvi"
+msgstr ""
+
+#: Phone/Hobbyprof Publishing Customer Service
+#, fuzzy
+msgctxt "actor.165.name"
+msgid "Hobbyprof Publishing Customer Service"
+msgstr "Atendimento da Editora Hobbyprof"
+
+#: Mines/Maunu Gren
+msgctxt "actor.166.name"
+msgid "Maunu Gren"
+msgstr ""
+
+#: Wasteland/Kasa
+msgctxt "actor.167.name"
+msgid "Kasa"
+msgstr ""
+
+#: Bazaar/Caroline
+msgctxt "actor.168.name"
+msgid "Caroline"
+msgstr ""
+
+#: Mines/Ines Hietala
+msgctxt "actor.169.name"
+msgid "Ines Hietala"
+msgstr ""
+
+#: Bazaar/Trader/Rob Rosso
+msgctxt "actor.170.name"
+msgid "Rob Rosso"
+msgstr ""
+
+#: Bazaar/Trader/Minh Thienlong
+msgctxt "actor.171.name"
+msgid "Minh Thienlong"
+msgstr ""
+
+#: Bazaar/Slum/Kauko Poronen
+msgctxt "actor.172.name"
+msgid "Kauko Poronen"
+msgstr ""
+
+#: Generic/Computer
+#, fuzzy
+msgctxt "actor.173.name"
+msgid "Computer"
+msgstr "Computador"
+
+#: Bazaar/Trader/Welhö
+msgctxt "actor.174.name"
+msgid "Welhö"
+msgstr ""
+
+#: Bazaar/Trader/Jasper Sporefield
+msgctxt "actor.175.name"
+msgid "Jasper Sporefield"
+msgstr ""
+
+#: Bazaar/Fungi/Niko Kerava
+msgctxt "actor.176.name"
+msgid "Niko Kerava"
+msgstr ""
+
+#: Bazaar/Fungi/Jappe Järvenpää
+msgctxt "actor.177.name"
+msgid "Jappe Järvenpää"
+msgstr ""
+
+#: Bazaar/Fungi/Harri Hyvinkää
+msgctxt "actor.178.name"
+msgid "Harri Hyvinkää"
+msgstr ""
+
+#: Bazaar/Fungi/Juha Tuusula
+msgctxt "actor.179.name"
+msgid "Juha Tuusula"
+msgstr ""
+
+#: Bazaar/Trader/Tero Verkko
+msgctxt "actor.180.name"
+msgid "Tero Verkko"
+msgstr ""
+
+#: Bazaar/Slum/Ms. Lotina
+#, fuzzy
+msgctxt "actor.182.name"
+msgid "Ms. Lotina"
+msgstr "Sra. Lotina"
+
+#: Bazaar/Trader/Irma Kött
+msgctxt "actor.183.name"
+msgid "Irma Kött"
+msgstr ""
+
+#: Bazaar/Trader/Muscle Max
+msgctxt "actor.184.name"
+msgid "Muscle Max"
+msgstr ""
+
+#: Generic/Card Games
+msgctxt "actor.185.name"
+msgid "Card Games"
+msgstr ""
+
+#: Bazaar/Trader/Torsten Dvergsson
+msgctxt "actor.186.name"
+msgid "Torsten Dvergsson"
+msgstr ""
+
+#: Tenement/Outside/Hazmat Guy
+msgctxt "actor.187.name"
+msgid "Hazmat Guy"
+msgstr ""
+
+#: Bazaar/Trader/Urho Siltanen
+msgctxt "actor.188.name"
+msgid "Urho Siltanen"
+msgstr ""
+
+#: Bazaar/Jail/Warden
+#, fuzzy
+msgctxt "actor.189.name"
+msgid "Warden"
+msgstr "Diretora da cadeia"
+
+#: Bazaar/Trader/Cajsa Mörk
+msgctxt "actor.190.name"
+msgid "Cajsa Mörk"
+msgstr ""
+
+#: Resident/Elsa Varis
+msgctxt "actor.191.name"
+msgid "Elsa Varis"
+msgstr ""
+
+#: Bazaar/Industrial/Larry Goatbridge
+msgctxt "actor.192.name"
+msgid "Larry Goatbridge"
+msgstr ""
+
+#: Bazaar/Industrial/Sirpa Kvenlayson
+msgctxt "actor.193.name"
+msgid "Sirpa Kvenlayson"
+msgstr ""
+
+#: Bazaar/Samuel Godman
+msgctxt "actor.194.name"
+msgid "Samuel Godman"
+msgstr ""
+
+#: Bazaar/Trader/Jens Brom
+msgctxt "actor.195.name"
+msgid "Jens Brom"
+msgstr ""
+
+#: Phone/Paul Lauwens
+msgctxt "actor.196.name"
+msgid "Paul Lauwens"
+msgstr ""
+
+#: Bazaar/Outside/Zoya Gubenko
+msgctxt "actor.197.name"
+msgid "Zoya Gubenko"
+msgstr ""
+
+#: Bazaar/Outside/Arto Neulakoski
+msgctxt "actor.198.name"
+msgid "Arto Neulakoski"
+msgstr ""
+
+#: Bazaar/Outside/Helena Neulakoski
+msgctxt "actor.199.name"
+msgid "Helena Neulakoski"
+msgstr ""
+
+#: Bazaar/Outside/Elias Karhu
+msgctxt "actor.200.name"
+msgid "Elias Karhu"
+msgstr ""
+
+#: Bazaar/Outside/Rita Korjus
+msgctxt "actor.201.name"
+msgid "Rita Korjus"
+msgstr ""
+
+#: Bazaar/Outside/Filippa Pajusalu
+msgctxt "actor.202.name"
+msgid "Filippa Pajusalu"
+msgstr ""
+
+#: Bazaar/Outside/Miko Poltinvuori
+msgctxt "actor.203.name"
+msgid "Miko Poltinvuori"
+msgstr ""
+
+#: Bazaar/Outside/Gary Lind
+msgctxt "actor.204.name"
+msgid "Gary Lind"
+msgstr ""
+
+#: Bazaar/Outside/Ethan Ward
+msgctxt "actor.205.name"
+msgid "Ethan Ward"
+msgstr ""
+
+#: Bazaar/Outside/Ahmed Rahman
+msgctxt "actor.206.name"
+msgid "Ahmed Rahman"
+msgstr ""
+
+#: Bazaar/Outside/Marko Mainisto
+msgctxt "actor.207.name"
+msgid "Marko Mainisto"
+msgstr ""
+
+#: Bazaar/Outside/Maria Yrtikäinen
+msgctxt "actor.208.name"
+msgid "Maria Yrtikäinen"
+msgstr ""
+
+#: Bazaar/Outside/Finlay Bjorkman
+msgctxt "actor.209.name"
+msgid "Finlay Bjorkman"
+msgstr ""
+
+#: Bazaar/Outside/Topias Iisalmi
+msgctxt "actor.210.name"
+msgid "Topias Iisalmi"
+msgstr ""
+
+#: Bazaar/Outside/Ulla Svendsen
+msgctxt "actor.211.name"
+msgid "Ulla Svendsen"
+msgstr ""
+
+#: Bazaar/Outside/Toini Karhu
+msgctxt "actor.212.name"
+msgid "Toini Karhu"
+msgstr ""
+
+#: Bazaar/Outside/Alexandra Kattila
+msgctxt "actor.213.name"
+msgid "Alexandra Kattila"
+msgstr ""
+
+#: Bazaar/Outside/Tapani Kattila
+msgctxt "actor.214.name"
+msgid "Tapani Kattila"
+msgstr ""
+
+#: Bazaar/Outside/Tähti Kattila
+msgctxt "actor.215.name"
+msgid "Tähti Kattila"
+msgstr ""
+
+#: Bazaar/Outside/Viljo Kattila
+msgctxt "actor.216.name"
+msgid "Viljo Kattila"
+msgstr ""
+
+#: Bazaar/Outside/Kalle Ketku
+msgctxt "actor.217.name"
+msgid "Kalle Ketku"
+msgstr ""
+
+#: Bazaar/Outside/Kössi Kelmi
+msgctxt "actor.218.name"
+msgid "Kössi Kelmi"
+msgstr ""
+
+#: Bazaar/Outside/Lasse Lurjus
+msgctxt "actor.219.name"
+msgid "Lasse Lurjus"
+msgstr ""
+
+#: Bazaar/Outside/Jari Mäkinen
+msgctxt "actor.220.name"
+msgid "Jari Mäkinen"
+msgstr ""
+
+#: Bazaar/Outside/Kari Hämäläinen
+msgctxt "actor.221.name"
+msgid "Kari Hämäläinen"
+msgstr ""
+
+#: Bazaar/Outside/Jarkko Tulimäki
+msgctxt "actor.222.name"
+msgid "Jarkko Tulimäki"
+msgstr ""
+
+#: Bazaar/Outside/Erkki Kianen
+msgctxt "actor.223.name"
+msgid "Erkki Kianen"
+msgstr ""
+
+#: Bazaar/Outside/Pertti Parju
+msgctxt "actor.224.name"
+msgid "Pertti Parju"
+msgstr ""
+
+#: Bazaar/Outside/Reino Littinen
+msgctxt "actor.225.name"
+msgid "Reino Littinen"
+msgstr ""
+
+#: Bazaar/Trader/Remontti-Repe
+#, fuzzy
+msgctxt "actor.226.name"
+msgid "Remontti-Repe"
+msgstr "Repe Reformas"
+
+#: Phone/Infra/Open Homes Company
+#, fuzzy
+msgctxt "actor.227.name"
+msgid "Open Homes Company"
+msgstr "Imobiliária Lar Aberto"
+
+#: Bazaar/Outside/Karri Backman
+msgctxt "actor.228.name"
+msgid "Karri Backman"
+msgstr ""
+
+#: Bazaar/Trader/Jonas Elström
+msgctxt "actor.229.name"
+msgid "Jonas Elström"
+msgstr ""
+
+#: Bazaar/Trader/Ruth McTrosg
+msgctxt "actor.230.name"
+msgid "Ruth McTrosg"
+msgstr ""
+
+#: Bazaar/Industrial/Tor Bergstahl
+msgctxt "actor.231.name"
+msgid "Tor Bergstahl"
+msgstr ""
+
+#: Bazaar/Trader/Aune Korsborg
+msgctxt "actor.232.name"
+msgid "Aune Korsborg"
+msgstr ""
+
+#: Bazaar/Trader/Jooseppi Tuoppi
+msgctxt "actor.233.name"
+msgid "Jooseppi Tuoppi"
+msgstr ""
+
+#: Bazaar/Trader/Anneli Tuoppi
+msgctxt "actor.234.name"
+msgid "Anneli Tuoppi"
+msgstr ""
+
+#: Bazaar/Trader/Denys Moskalenko
+msgctxt "actor.235.name"
+msgid "Denys Moskalenko"
+msgstr ""
+
+#: Bazaar/Slum/Rosario Rootto
+msgctxt "actor.236.name"
+msgid "Rosario Rootto"
+msgstr ""
+
+#: Bazaar/Jail/Riina Pamppumäki
+msgctxt "actor.237.name"
+msgid "Riina Pamppumäki"
+msgstr ""
+
+#: Bazaar/Casino/Casper Colikke
+msgctxt "actor.238.name"
+msgid "Casper Colikke"
+msgstr ""
+
+#: Bazaar/Casino/Zara Nkosi
+msgctxt "actor.239.name"
+msgid "Zara Nkosi"
+msgstr ""
+
+#: Bazaar/Casino/Gérard Dujardin
+msgctxt "actor.240.name"
+msgid "Gérard Dujardin"
+msgstr ""
+
+#: Bazaar/Casino/Raimo Räyhä
+msgctxt "actor.241.name"
+msgid "Raimo Räyhä"
+msgstr ""
+
+#: Bazaar/Industrial/Pertti Korhonen
+msgctxt "actor.242.name"
+msgid "Pertti Korhonen"
+msgstr ""
+
+#: Bazaar/Restaurant/Giacobbe Bolognese
+msgctxt "actor.243.name"
+msgid "Giacobbe Bolognese"
+msgstr ""
+
+#: Bazaar/Restaurant/Meri Hostari
+msgctxt "actor.244.name"
+msgid "Meri Hostari"
+msgstr ""
+
+#: Bazaar/Restaurant/Dolores Bolognese
+msgctxt "actor.245.name"
+msgid "Dolores Bolognese"
+msgstr ""
+
+#: Bazaar/Trader/Hygge Svamprad
+msgctxt "actor.246.name"
+msgid "Hygge Svamprad"
+msgstr ""
+
+#: Bazaar/Mentti/Ari Pulsunmäki
+msgctxt "actor.247.name"
+msgid "Ari Pulsunmäki"
+msgstr ""
+
+#: Bazaar/Pontikka/Keke Roinaneva
+msgctxt "actor.248.name"
+msgid "Keke Roinaneva"
+msgstr ""
+
+#: Bazaar/Pontikka/Jeppe Rinkmann
+msgctxt "actor.249.name"
+msgid "Jeppe Rinkmann"
+msgstr ""
+
+#: Bazaar/Outside/Irmeli Nakkila
+msgctxt "actor.250.name"
+msgid "Irmeli Nakkila"
+msgstr ""
+
+#: Bazaar/Pontikka/Aune Kirkastaja
+msgctxt "actor.251.name"
+msgid "Aune Kirkastaja"
+msgstr ""
+
+#: Bazaar/Office/Johanna Faust
+msgctxt "actor.252.name"
+msgid "Johanna Faust"
+msgstr ""
+
+#: Bazaar/Murju/Alfred Schweinstein
+msgctxt "actor.253.name"
+msgid "Alfred Schweinstein"
+msgstr ""
+
+#: Bazaar/Murju/Anatoli Mustaruoho
+msgctxt "actor.254.name"
+msgid "Anatoli Mustaruoho"
+msgstr ""
+
+#: Bazaar/Mallment/Justyna Krystiana
+msgctxt "actor.255.name"
+msgid "Justyna Krystiana"
+msgstr ""
+
+#: Bazaar/Mallment/Christian Sykkelsen
+msgctxt "actor.256.name"
+msgid "Christian Sykkelsen"
+msgstr ""
+
+#: Bazaar/Mallment/Marja Noukkinen
+msgctxt "actor.257.name"
+msgid "Marja Noukkinen"
+msgstr ""
+
+#: Bazaar/Mallment/Ragnar Stortorsk
+msgctxt "actor.258.name"
+msgid "Ragnar Stortorsk"
+msgstr ""
+
+#: Bazaar/Mallment/Eva Smörbulle
+msgctxt "actor.259.name"
+msgid "Eva Smörbulle"
+msgstr ""
+
+#: Bazaar/Mallment/Olle Skatt
+msgctxt "actor.260.name"
+msgid "Olle Skatt"
+msgstr ""
+
+#: Bazaar/Mallment/Akim Azizi
+msgctxt "actor.261.name"
+msgid "Akim Azizi"
+msgstr ""
+
+#: Bazaar/Sauna/Timo Löyly
+msgctxt "actor.262.name"
+msgid "Timo Löyly"
+msgstr ""
+
+#: Bazaar/Sauna/Raimo Stalreg
+msgctxt "actor.263.name"
+msgid "Raimo Stalreg"
+msgstr ""
+
+#: Bazaar/Sauna/Matti Kiehinen
+msgctxt "actor.264.name"
+msgid "Matti Kiehinen"
+msgstr ""
+
+#: Bazaar/Sauna/Minna Poreva
+msgctxt "actor.265.name"
+msgid "Minna Poreva"
+msgstr ""
+
+#: Bazaar/Sauna/Svana Wallmark
+msgctxt "actor.266.name"
+msgid "Svana Wallmark"
+msgstr ""
+
+#: Bazaar/Sauna/Sandra Klapi
+msgctxt "actor.267.name"
+msgid "Sandra Klapi"
+msgstr ""
+
+#: Bazaar/Sauna/Kama
+msgctxt "actor.268.name"
+msgid "Kama"
+msgstr ""
+
+#: Bazaar/Murju/Urpo Murhapuro
+msgctxt "actor.269.name"
+msgid "Urpo Murhapuro"
+msgstr ""
+
+#: Bazaar/Murju/Dave Smiker
+msgctxt "actor.270.name"
+msgid "Dave Smiker"
+msgstr ""
+
+#: Bazaar/Murju/Lykke Tillbehör
+msgctxt "actor.271.name"
+msgid "Lykke Tillbehör"
+msgstr ""
+
+#: Bazaar/Chamber of Commerce/Karl Hagen
+msgctxt "actor.272.name"
+msgid "Karl Hagen"
+msgstr ""
+
+#: Bazaar/Slum/Bror Stjäla
+msgctxt "actor.273.name"
+msgid "Bror Stjäla"
+msgstr ""
+
+#: Bazaar/Slum/Mikael Arnaldur
+msgctxt "actor.274.name"
+msgid "Mikael Arnaldur"
+msgstr ""
+
+#: Resident/Per Otter
+msgctxt "actor.275.name"
+msgid "Per Otter"
+msgstr ""
+
+#: Resident Relatives/Anu Otter
+msgctxt "actor.276.name"
+msgid "Anu Otter"
+msgstr ""
+
+#: Bazaar/Other/Jane Miller
+msgctxt "actor.277.name"
+msgid "Jane Miller"
+msgstr ""
+
+#: Bazaar/Murju/Erto Lagerfeld
+msgctxt "actor.278.name"
+msgid "Erto Lagerfeld"
+msgstr ""
+
+#: Wasteland/Shadow Lagerfeld 1
+#, fuzzy
+msgctxt "actor.279.name"
+msgid "Shadow Lagerfeld 1"
+msgstr "Sombra Lagerfeld 1"
+
+#: Wasteland/Shadow Lagerfeld 2
+#, fuzzy
+msgctxt "actor.280.name"
+msgid "Shadow Lagerfeld 2"
+msgstr "Sombra Lagerfeld 2"
+
+#: Wasteland/Shadow Lagerfeld 3
+#, fuzzy
+msgctxt "actor.281.name"
+msgid "Shadow Lagerfeld 3"
+msgstr "Sombra Lagerfeld 3"
+
+#: Wasteland/Shadow Burnt Apartment
+#, fuzzy
+msgctxt "actor.282.name"
+msgid "Shadow Burnt Apartment"
+msgstr "Sombra do apartamento queimado"
+
+#: Bazaar/Mentti/Heikki Mailanen
+msgctxt "actor.283.name"
+msgid "Heikki Mailanen"
+msgstr ""
+
+#: Bazaar/Restaurant/Sigvard Caune
+msgctxt "actor.284.name"
+msgid "Sigvard Caune"
+msgstr ""
+
+#: Bazaar/Murju/Miina-Ansa Virtanen
+msgctxt "actor.285.name"
+msgid "Miina-Ansa Virtanen"
+msgstr ""
+
+#: Bazaar/Jail/Lätty
+msgctxt "actor.286.name"
+msgid "Lätty"
+msgstr ""
+
+#: Bazaar/Slum/Eetu Rymy
+msgctxt "actor.287.name"
+msgid "Eetu Rymy"
+msgstr ""
+
+#: Bazaar/Slum/Kalevi Harvakattu
+msgctxt "actor.288.name"
+msgid "Kalevi Harvakattu"
+msgstr ""
+
+#: Resident/Veeti Pärisevä
+msgctxt "actor.289.name"
+msgid "Veeti Pärisevä"
+msgstr ""
+
+#: Bazaar/Chamber of Commerce/Jussi Pöhinä
+msgctxt "actor.290.name"
+msgid "Jussi Pöhinä"
+msgstr ""
+
+#: Bazaar/Chamber of Commerce/Katriina Vermund
+msgctxt "actor.291.name"
+msgid "Katriina Vermund"
+msgstr ""
+
+#: Bazaar/Chamber of Commerce/Vanja Bjorkman
+msgctxt "actor.292.name"
+msgid "Vanja Bjorkman"
+msgstr ""
+
+#: Bazaar/Chamber of Commerce/Svein Regnell
+msgctxt "actor.293.name"
+msgid "Svein Regnell"
+msgstr ""
+
+#: Bazaar/Mallment/Anni Kiinteistö
+msgctxt "actor.294.name"
+msgid "Anni Kiinteistö"
+msgstr ""
+
+#: Bazaar/Restaurant/Lotta Savisaar
+msgctxt "actor.295.name"
+msgid "Lotta Savisaar"
+msgstr ""
+
+#: Bazaar/Restaurant/Matias Savisaar
+msgctxt "actor.296.name"
+msgid "Matias Savisaar"
+msgstr ""
+
+#: Bazaar/Restaurant/Tonie Savisaar
+msgctxt "actor.297.name"
+msgid "Tonie Savisaar"
+msgstr ""
+
+#: Bazaar/Restaurant/Ilona Rummo
+msgctxt "actor.298.name"
+msgid "Ilona Rummo"
+msgstr ""
+
+#: Bazaar/Gym/Rami Nousukainen
+msgctxt "actor.299.name"
+msgid "Rami Nousukainen"
+msgstr ""
+
+#: Bazaar/Gym/Otso Terästalia
+msgctxt "actor.300.name"
+msgid "Otso Terästalia"
+msgstr ""
+
+#: Bazaar/Gym/Eila Hellamäki
+msgctxt "actor.301.name"
+msgid "Eila Hellamäki"
+msgstr ""
+
+#: Bazaar/Bar/Jarppi Puukko
+msgctxt "actor.302.name"
+msgid "Jarppi Puukko"
+msgstr ""
+
+#: Bazaar/Mallment/Maximo Utedass
+msgctxt "actor.303.name"
+msgid "Maximo Utedass"
+msgstr ""
+
+#: Bazaar/Bar/Julia Stensson
+msgctxt "actor.304.name"
+msgid "Julia Stensson"
+msgstr ""
+
+#: Bazaar/Bar/Tina Myrtorp
+msgctxt "actor.305.name"
+msgid "Tina Myrtorp"
+msgstr ""
+
+#: Bazaar/Bar/Ellen Skovfyr
+msgctxt "actor.306.name"
+msgid "Ellen Skovfyr"
+msgstr ""
+
+#: Resident Relatives/Leena Borg
+msgctxt "actor.307.name"
+msgid "Leena Borg"
+msgstr ""
+
+#: Resident Relatives/Ilona Pettinen
+msgctxt "actor.308.name"
+msgid "Ilona Pettinen"
+msgstr ""
+
+#: Resident Relatives/Aino Pettinen
+msgctxt "actor.309.name"
+msgid "Aino Pettinen"
+msgstr ""
+
+#: Bazaar/Trader/Anneli Tuoppi
+msgctxt "actor.310.name"
+msgid "Anneli Tuoppi"
+msgstr ""
+
+#: Resident Relatives/Daan Claesson
+msgctxt "actor.311.name"
+msgid "Daan Claesson"
+msgstr ""
+
+#: Resident Relatives/Levo Claesson
+msgctxt "actor.312.name"
+msgid "Levo Claesson"
+msgstr ""
+
+#: Resident Relatives/Sami Claesson
+msgctxt "actor.313.name"
+msgid "Sami Claesson"
+msgstr ""
+
+#: Generic/Security Guard
+msgctxt "actor.314.name"
+msgid "Security Guard"
+msgstr ""
+
