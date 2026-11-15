@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  red-socket house style v1 / gallery frame, 1920x1080 (16:9).
+  The screenshot sits uncropped (16:9, 1680x945) on charcoal, with a caption bar below it.
+  render.py fills: #screenshot (image), data-field="index", "caption".
+  Edit in Inkscape with the game fonts installed (see art/STYLE.md). Keep text inside the 120px side margins.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <pattern id="concrete" patternUnits="userSpaceOnUse" width="512" height="512">
+      <image href="../textures/concrete.png" width="512" height="512"/>
+    </pattern>
+  </defs>
+  <rect id="background" width="1920" height="1080" fill="#1f1f1f"/>
+  <rect width="1920" height="1080" fill="url(#concrete)" opacity=".07"/>
+
+  <!-- screenshot: 1680x945 at (120, 28), 1px #0e0e0e keyline -->
+  <rect x="119" y="27" width="1682" height="947" fill="#0e0e0e"/>
+  <image id="screenshot" href="../shots/janitor-sign.webp"
+         x="120" y="28" width="1680" height="945" preserveAspectRatio="xMidYMid slice"/>
+
+  <!-- caption bar: 1680x64 at (120, 989) -->
+  <rect x="120" y="989" width="1680" height="64" fill="#2b2b2b"/>
+  <rect x="120" y="989" width="1680" height="4" fill="#ffab00"/>
+  <rect x="120" y="993" width="72" height="60" fill="#ffab00"/>
+  <text data-field="index" x="156" y="1036" text-anchor="middle"
+        font-family="Erika Ormig" font-size="38" fill="#0e0e0e">01</text>
+  <text data-field="caption" x="220" y="1036" data-fit-width="1300" data-max-size="38" data-min-size="26"
+        font-family="Erika Ormig" font-size="38" fill="#cacaca">Screenshot caption goes here.</text>
+
+  <!-- wordmark: official logo 32 px (2x) + Erika 28, right edge at x=1784, pixel-aligned -->
+  <g id="wordmark">
+    <image href="../brand/red-socket-logo.svg" x="1573" y="1005" width="32" height="32"/>
+    <text x="1615" y="1032" font-family="Erika Ormig" font-size="28" fill="#bcbab1">red-socket</text>
+  </g>
+</svg>

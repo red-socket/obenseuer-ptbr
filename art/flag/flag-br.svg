@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Brazilian flag, clean, drawn from the official geometry (Lei 5.700/1971) on a 20x14 module grid.
+  Simplified: no stars, no "ORDEM E PROGRESSO" motto (both read as worn away once make-flag.sh weathers it).
+  make-flag.sh renders this and weathers it with the game's own grime textures into textures/flag-br-worn.png.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="700" viewBox="0 0 20 14">
+  <rect width="20" height="14" fill="#009739"/>
+  <path d="M1.7 7 10 1.7 18.3 7 10 12.3Z" fill="#fedd00"/>
+  <circle cx="10" cy="7" r="3.5" fill="#012169"/>
+  <clipPath id="disc"><circle cx="10" cy="7" r="3.5"/></clipPath>
+  <!-- white band: arcs of radius 8 and 8.5 centred 2 modules left of the flag's bottom-edge midpoint -->
+  <path clip-path="url(#disc)" fill="#ffffff" fill-rule="evenodd"
+        d="M-0.5 14a8.5 8.5 0 0 1 17 0ZM0 14a8 8 0 0 1 16 0Z"/>
+</svg>

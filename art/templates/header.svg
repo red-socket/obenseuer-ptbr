@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  red-socket house style v1 / mod page header, adapted to 1300x372 (3.5:1), the size the 2026 Nexus form stores.
+  Safe area: x 280-1020, y 0-220. Nexus lays its title and stats over the bottom ~150 px (dark gradient), and
+  mobile shows only the central ~57 % of the width under a 70 % black overlay. Everything readable stays inside.
+  render.py fills: #screenshot (image), data-field="title", "tagline".
+-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1300" height="372" viewBox="0 0 1300 372">
+  <defs>
+    <pattern id="concrete" patternUnits="userSpaceOnUse" width="512" height="512">
+      <image href="../textures/concrete.png" width="512" height="512"/>
+    </pattern>
+    <!-- scrim: charcoal behind the text block, screenshot shows through toward the bottom and the sides -->
+    <radialGradient id="scrim" cx="650" cy="110" r="520" gradientUnits="userSpaceOnUse"
+                    gradientTransform="translate(650 110) scale(1 .42) translate(-650 -110)">
+      <stop offset="0" stop-color="#1f1f1f" stop-opacity=".94"/>
+      <stop offset=".55" stop-color="#1f1f1f" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#1f1f1f" stop-opacity=".35"/>
+    </radialGradient>
+    <linearGradient id="top" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f1f1f" stop-opacity=".6"/>
+      <stop offset=".7" stop-color="#1f1f1f" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="lift" x="-10%" y="-40%" width="120%" height="180%">
+      <feDropShadow dx="0" dy="3" stdDeviation="8" flood-color="#0e0e0e" flood-opacity=".9"/>
+    </filter>
+  </defs>
+  <rect id="background" width="1300" height="372" fill="#1f1f1f"/>
+  <image id="screenshot" href="../shots/janitor-sign.webp"
+         x="0" y="0" width="1300" height="372" preserveAspectRatio="xMidYMid slice"/>
+  <rect width="1300" height="372" fill="url(#top)"/>
+  <rect width="1300" height="372" fill="url(#scrim)"/>
+  <rect width="1300" height="372" fill="url(#concrete)" opacity=".07"/>
+
+  <!-- tenement elevation line art, outside the safe area (decoration only, may be cropped) -->
+  <image href="../textures/tenement-elevation.png" x="-80" y="6" width="420" height="340" opacity=".16"/>
+  <image href="../textures/tenement-elevation.png" x="960" y="6" width="420" height="340" opacity=".16"
+         transform="translate(2340 0) scale(-1 1)"/>
+  <image href="../textures/dust.png" width="1300" height="372" preserveAspectRatio="xMidYMid slice" opacity=".08"/>
+
+  <!-- wordmark, centred at the top of the safe area: official logo 32 px (2x) + gap 9 + Erika 26 (157) = 198 wide -->
+  <g id="wordmark">
+    <image href="../brand/red-socket-logo.svg" x="551" y="24" width="32" height="32"/>
+    <text x="592" y="47.5" font-family="Erika Ormig" font-size="26" fill="#bcbab1">red-socket</text>
+  </g>
+
+  <!-- title block -->
+  <text data-field="title" x="650" y="134" text-anchor="middle" data-fit-width="720" data-max-size="96" data-min-size="52"
+        font-family="Erika Ormig" font-size="96" fill="#cacaca" filter="url(#lift)">Obenseuer PT-BR</text>
+  <rect x="610" y="152" width="80" height="6" fill="#ffab00"/>
+  <text data-field="tagline" x="650" y="196" text-anchor="middle" data-fit-width="720" data-max-size="32" data-min-size="22"
+        font-family="Erika Ormig" font-size="32" fill="#bcbab1" filter="url(#lift)">Tagline.</text>
+</svg>
