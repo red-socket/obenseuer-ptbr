@@ -1,0 +1,2388 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Obenseuer PT-BR\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Content/Notes/Bank/Emails/Confirmation of Your Hotel Korso Reservation.asset
+#, fuzzy
+msgctxt "Email.Assets/Content/Notes/Bank/Emails/Confirmation of Your Hotel Korso Reservation.asset.title"
+msgid "Confirmation of Your Hotel Korso Reservation"
+msgstr "Confirmação da sua reserva no Hotel Korso"
+
+#: Content/Notes/Bank/Emails/Confirmation of Your Hotel Korso Reservation.asset
+#, fuzzy
+msgctxt "Email.Assets/Content/Notes/Bank/Emails/Confirmation of Your Hotel Korso Reservation.asset.content"
+msgid ""
+"Dear Tammi,\n"
+"\n"
+"We are delighted to confirm your reservation at Hotel Korso for your upcoming travel dates. Below are the details of your booking:\n"
+"\n"
+"- Guest Name: Iisakki Tammi\n"
+"- Reservation Number: 62496712335\n"
+"- Check-in Date: 1.1.1960\n"
+"- Check-out Date: 1.1.1960\n"
+"- Room Type: The boss's room\n"
+"- Number of Guests: 1\n"
+"- Total Cost: 1300 RM\n"
+"\n"
+"Please review the information above to ensure accuracy. Should you have any questions or require further assistance, feel free to contact our reservations team at 010 337 426 or reply to this email.\n"
+"\n"
+"\n"
+"We look forward to welcoming you to Hotel Korso and ensuring your stay is comfortable and enjoyable. Thank you for choosing us for your accommodation needs.\n"
+"\n"
+"\n"
+"Warm regards,\n"
+"\n"
+"Karl Sheppern\n"
+"Managing Director\n"
+"Hotel Korso Obenseuer"
+msgstr ""
+"Prezado Tammi,\n"
+"\n"
+"Temos o prazer de confirmar sua reserva no Hotel Korso para as datas da sua próxima viagem. Seguem abaixo os detalhes da sua reserva:\n"
+"\n"
+"- Nome do hóspede: Iisakki Tammi\n"
+"- Número da reserva: 62496712335\n"
+"- Data de check-in: 1.1.1960\n"
+"- Data de check-out: 1.1.1960\n"
+"- Tipo de quarto: Quarto do chefe\n"
+"- Número de hóspedes: 1\n"
+"- Valor total: 1300 RM\n"
+"\n"
+"Pedimos que confira as informações acima. Em caso de dúvidas ou se precisar de mais alguma ajuda, fique à vontade para entrar em contato com nossa central de reservas pelo telefone 010 337 426 ou responder a este e-mail.\n"
+"\n"
+"\n"
+"Será um prazer recebê-lo no Hotel Korso e garantir que sua estadia seja confortável e agradável. Agradecemos por nos escolher para a sua hospedagem.\n"
+"\n"
+"\n"
+"Cordialmente,\n"
+"\n"
+"Karl Sheppern\n"
+"Diretor-geral\n"
+"Hotel Korso Obenseuer"
+
+#: Content/Notes/Bank/Emails/Confirmation of Your Hotel Korso Reservation.asset
+#, fuzzy
+msgctxt "Email.Assets/Content/Notes/Bank/Emails/Confirmation of Your Hotel Korso Reservation.asset.from"
+msgid "Hotel Korso"
+msgstr "Hotel Korso"
+
+#: Content/Notes/Bank/Emails/Elevate Your Space with Ankea's Money Pattern Collection!.asset
+#, fuzzy
+msgctxt "Email.Assets/Content/Notes/Bank/Emails/Elevate Your Space with Ankea's Money Pattern Collection!.asset.title"
+msgid "Elevate Your Space with Ankea's Money Pattern Collection!"
+msgstr "Renove seu ambiente com a coleção Estampa de Dinheiro da Ankea!"
+
+#: Content/Notes/Bank/Emails/Elevate Your Space with Ankea's Money Pattern Collection!.asset
+#, fuzzy
+msgctxt "Email.Assets/Content/Notes/Bank/Emails/Elevate Your Space with Ankea's Money Pattern Collection!.asset.from"
+msgid "Ankea Marketing"
+msgstr "Marketing Ankea"
+
+#: Content/Notes/Bank/Emails/Muddy Markku Cigars at Unbeatable Prices.asset
+#, fuzzy
+msgctxt "Email.Assets/Content/Notes/Bank/Emails/Muddy Markku Cigars at Unbeatable Prices.asset.title"
+msgid "Muddy Markku Cigars at Unbeatable Prices!"
+msgstr "Charutos Muddy Markku a preços imbatíveis!"
+
+#: Content/Notes/Bank/Emails/Muddy Markku Cigars at Unbeatable Prices.asset
+#, fuzzy
+msgctxt "Email.Assets/Content/Notes/Bank/Emails/Muddy Markku Cigars at Unbeatable Prices.asset.content"
+msgid ""
+"Dear Tammi,\n"
+"\n"
+"We're having a sale on Muddy Markku Cigars! Now for a limited time only, indulge in mud without breaking the bank!\n"
+"\n"
+"Whether you're a cigar aficionado or just looking to try something new, now's the time to snag some quality sticks. Don't miss out!\n"
+"\n"
+"- Sent from MuddyMarkku.ts -\n"
+"Merkki Street 52 B, Stalburg, Stolland"
+msgstr ""
+"Prezado Tammi,\n"
+"\n"
+"Os charutos Muddy Markku estão em promoção! Só por tempo limitado, chafurde na lama sem ir à falência!\n"
+"\n"
+"Seja você um apreciador de charutos ou só alguém querendo experimentar algo novo, a hora de garantir uns bons charutos é agora. Não perca!\n"
+"\n"
+"- Enviado de MuddyMarkku.ts -\n"
+"Rua Merkki, 52 B, Stalburg, Stolland"
+
+#: Content/Notes/Bank/Emails/Muddy Markku Cigars at Unbeatable Prices.asset
+#, fuzzy
+msgctxt "Email.Assets/Content/Notes/Bank/Emails/Muddy Markku Cigars at Unbeatable Prices.asset.from"
+msgid "Muddy Markku"
+msgstr "Muddy Markku"
+
+#: Content/Notes/Bank/Emails/Updated security measures.asset
+#, fuzzy
+msgctxt "Email.Assets/Content/Notes/Bank/Emails/Updated security measures.asset.title"
+msgid "Updated Security Measures"
+msgstr "Atualização das medidas de segurança"
+
+#: Content/Notes/Bank/Emails/Updated security measures.asset
+#, fuzzy
+msgctxt "Email.Assets/Content/Notes/Bank/Emails/Updated security measures.asset.content"
+msgid ""
+"Dear Tammi,\n"
+"\n"
+"I wanted to inform you of recent security updates we've implemented at the bank. We've attached new lights to security cameras and installed doors that automatically close when the alarm is activated. Also, we have changed the vault access code to \"8888\" as requested.\n"
+"\n"
+"Feel free to reach out if you need further details.\n"
+"\n"
+"\n"
+"Best regards,\n"
+"\n"
+"Heikki Mailanen"
+msgstr ""
+"Prezado Tammi,\n"
+"\n"
+"Gostaria de informá-lo sobre as atualizações de segurança implementadas recentemente no banco. Instalamos luzes nas câmeras de segurança e portas que se fecham automaticamente quando o alarme é acionado. Além disso, alteramos o código de acesso do cofre para \"8888\", conforme solicitado.\n"
+"\n"
+"Fico à disposição caso precise de mais detalhes.\n"
+"\n"
+"\n"
+"Atenciosamente,\n"
+"\n"
+"Heikki Mailanen"
+
+#: Content/Notes/Bank/Emails/Updated security measures.asset
+#, fuzzy
+msgctxt "Email.Assets/Content/Notes/Bank/Emails/Updated security measures.asset.from"
+msgid "Heikki Mailanen"
+msgstr "Heikki Mailanen"
+
+#: Content/Notes/Bank/Frozen Account.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Bank/Frozen Account.asset.title"
+msgid "Bank Account Frozen"
+msgstr "Conta bancária bloqueada"
+
+#: Content/Notes/Bank/Frozen Account.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Bank/Frozen Account.asset.content"
+msgid ""
+"Dear recipient,\n"
+"\n"
+"We have detected suspicious transactions on your account at Stalburg Bank, and in accordance with banking regulation we have frozen your account for investigation. No funds may be deposited to or withdrawn from the account.\n"
+"\n"
+"To have your account unfrozen, we kindly ask you, or your lawyer, to send us full documentation proving the nature of the transactions.\n"
+"\n"
+"- Stalburg Bank, Compliance Unit"
+msgstr ""
+"Prezado(a) cliente,\n"
+"\n"
+"Detectamos transações suspeitas em sua conta no Banco de Stalburg e, em conformidade com a regulamentação bancária, bloqueamos sua conta para fins de investigação. Fica vedado qualquer depósito ou saque na referida conta.\n"
+"\n"
+"Para o desbloqueio da conta, solicitamos gentilmente que o(a) senhor(a), ou seu advogado, nos envie a documentação completa que comprove a natureza das transações.\n"
+"\n"
+"- Banco de Stalburg, Departamento de Compliance"
+
+#: Content/Notes/Bank/Happy birthday.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Bank/Happy birthday.asset.title"
+msgid "Happy birthday"
+msgstr "Feliz aniversário"
+
+#: Content/Notes/Bank/Happy birthday.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Bank/Happy birthday.asset.content"
+msgid ""
+"Happy 50th birthday Theo! Can you believe it? You've reached the half-century milestone! How can you still be alive?\n"
+"\n"
+"Well, anyway. I got you a little something - your favorite drink! I hope it adds to the celebration.\n"
+"\n"
+"Also, I thought your birthday was on the 16th of November, turns out it's the 16th of December! My bad!\n"
+"\n"
+"Wishing you all the best on your special day, Theo. \n"
+"\n"
+"I hope this is your last birthday!\n"
+"\n"
+"With warmest wishes,\n"
+"\n"
+"AH\n"
+msgstr ""
+"Feliz aniversário de 50 anos, Theo! Dá pra acreditar? Você chegou ao meio século! Como é que você ainda está vivo?\n"
+"\n"
+"Enfim. Comprei uma lembrancinha pra você: sua bebida favorita! Espero que ela deixe a comemoração ainda melhor.\n"
+"\n"
+"Ah, e eu achava que seu aniversário era 16 de novembro, mas na verdade é 16 de dezembro! Foi mal!\n"
+"\n"
+"Desejo tudo de bom pra você no seu dia especial, Theo. \n"
+"\n"
+"Espero que este seja o seu último aniversário!\n"
+"\n"
+"Com o mais caloroso abraço,\n"
+"\n"
+"AH\n"
+
+#: Content/Notes/Bank/Installation of lights for security cameras.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Bank/Installation of lights for security cameras.asset.title"
+msgid "Installation of lights for security cameras"
+msgstr "Instalação de luzes nas câmeras de segurança"
+
+#: Content/Notes/Bank/Installation of lights for security cameras.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Bank/Installation of lights for security cameras.asset.content"
+msgid ""
+"NOTICE!\n"
+"\n"
+"We installed lights on the cameras (Because boss said so). Last time someone snagged stuff and our cameras couldn't see that because it was too dark. So those lights are there to make sure the cameras can actually do their job.\n"
+"\n"
+"Also, don't try to come here when the bank is closed! If those cameras see you, you must quickly go to the boss's room and enter the correct code! That gas is no joke!\n"
+"\n"
+"If you have something to complain about, tell the boss when he comes back from vacation!\n"
+"\n"
+"-Reiska"
+msgstr ""
+"AVISO!\n"
+"\n"
+"Instalamos luzes nas câmeras (porque o chefe mandou). Da última vez alguém afanou umas coisas e as câmeras não pegaram nada porque estava escuro demais. Então essas luzes estão aí pras câmeras conseguirem fazer o trabalho delas.\n"
+"\n"
+"E outra: nem pensem em vir aqui quando o banco estiver fechado! Se as câmeras virem vocês, corram pra sala do chefe e digitem o código certo! Aquele gás não é brincadeira!\n"
+"\n"
+"Se tiverem alguma reclamação, falem com o chefe quando ele voltar das férias!\n"
+"\n"
+"-Reiska"
+
+#: Content/Notes/Bank/Money curtains.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Bank/Money curtains.asset.title"
+msgid "Money curtains"
+msgstr "Cortinas de dinheiro"
+
+#: Content/Notes/Bank/Money curtains.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Bank/Money curtains.asset.content"
+msgid ""
+"Today's been a real pain in the ass!\n"
+"\n"
+"My mother bought me new curtains covered in paper money patterns and they look awful! To top it off, they match those damn bed sheets she got me last month.\n"
+"\n"
+"And to add insult to injury, some potato head decided to change the security alarm code to my freakin' birthday.\n"
+"\n"
+"Well, at least there's coffee. That's one thing keeping me sane in this mess."
+msgstr ""
+"Hoje foi um pé no saco!\n"
+"\n"
+"Minha mãe me comprou cortinas novas com estampa de dinheiro e elas são horrorosas! Pra completar, combinam com aqueles malditos lençóis que ela me deu no mês passado.\n"
+"\n"
+"E pra piorar ainda mais, algum cabeça de bagre resolveu mudar o código do alarme de segurança pra porcaria do meu aniversário.\n"
+"\n"
+"Bom, pelo menos tem café. É a única coisa que ainda me mantém são nessa bagunça."
+
+#: Content/Notes/Bank/New text document.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Bank/New text document.asset.title"
+msgid "New text document"
+msgstr "Novo documento de texto"
+
+#: Content/Notes/Bank/New text document.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Bank/New text document.asset.content"
+msgid ""
+"g34mvw334mbe23kvdr\n"
+"\n"
+"10301030\n"
+"\n"
+"REMEMBERHK2552610"
+msgstr ""
+"g34mvw334mbe23kvdr\n"
+"\n"
+"10301030\n"
+"\n"
+"REMEMBERHK2552610"
+
+#: Content/Notes/Bank/Vault Safe Code 02.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Bank/Vault Safe Code 02.asset.title"
+msgid "Vault Safe Code 02"
+msgstr "Código do cofre 02"
+
+#: Content/Notes/Bank/Vault Safe Code 02.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Bank/Vault Safe Code 02.asset.content"
+msgid "New Vault Safe Code 02 (lower safe): 12 25 11 24"
+msgstr "Novo código do cofre 02 (cofre de baixo): 12 25 11 24"
+
+#: Content/Notes/Bazaar/Bazaar_Bank_Closed_Note.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Bazaar/Bazaar_Bank_Closed_Note.asset.title"
+msgid "Bazaar Bank: Temporarily Closed"
+msgstr "Banco do Bazar: fechado temporariamente"
+
+#: Content/Notes/Bazaar/Bazaar_Bank_Closed_Note.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Bazaar/Bazaar_Bank_Closed_Note.asset.content"
+msgid ""
+"Due to a sudden sewage water leak in the building, Bazaar Bank is closed until further notice to ensure the health and safety of our customers.\n"
+"\n"
+"We apologize for any inconvenience this may cause."
+msgstr ""
+"Devido a um vazamento repentino de esgoto no prédio, o Banco do Bazar permanecerá fechado até segunda ordem, para garantir a saúde e a segurança de nossos clientes.\n"
+"\n"
+"Pedimos desculpas por qualquer transtorno."
+
+#: Content/Notes/Bazaar/Bazaar_Restaurant_Note_001.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Bazaar/Bazaar_Restaurant_Note_001.asset.title"
+msgid "Scatola Di Maccheroni - Help Wanted!"
+msgstr "Scatola Di Maccheroni - Precisa-se!"
+
+#: Content/Notes/Bazaar/Bazaar_Restaurant_Note_001.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Bazaar/Bazaar_Restaurant_Note_001.asset.content"
+msgid ""
+"Help Wanted!\n"
+"\n"
+"- Dishwasher\n"
+"- Skilled chef\n"
+"\n"
+"Decent pay!"
+msgstr ""
+"Precisa-se!\n"
+"\n"
+"- Lavador de pratos\n"
+"- Chef experiente\n"
+"\n"
+"Salário digno!"
+
+#: Content/Notes/Bazaar/Bazaar_Samuel_Godman_Contact.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Bazaar/Bazaar_Samuel_Godman_Contact.asset.title"
+msgid "Lawyer Contact"
+msgstr "Contato de advogado"
+
+#: Content/Notes/Bazaar/Bazaar_Samuel_Godman_Contact.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Bazaar/Bazaar_Samuel_Godman_Contact.asset.content"
+msgid ""
+"Legal Help:\n"
+"030 112 112"
+msgstr ""
+"Assistência jurídica:\n"
+"030 112 112"
+
+#: Content/Notes/Bazaar/Bazaar_fungispring_contact.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Bazaar/Bazaar_fungispring_contact.asset.title"
+msgid "Fungispring Contact"
+msgstr "Contato da Fungispring"
+
+#: Content/Notes/Bazaar/Bazaar_fungispring_contact.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Bazaar/Bazaar_fungispring_contact.asset.content"
+msgid ""
+"Fungispring LTD service hotline:\n"
+"030 892 951"
+msgstr ""
+"Central de atendimento da Fungispring LTDA:\n"
+"030 892 951"
+
+#: Content/Notes/Bazaar/Slum/Barrack House 3 Note.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Bazaar/Slum/Barrack House 3 Note.asset.title"
+msgid "Unopened Letter"
+msgstr "Carta fechada"
+
+#: Content/Notes/Bazaar/Slum/Barrack House 3 Note.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Bazaar/Slum/Barrack House 3 Note.asset.content"
+msgid ""
+"Good news!\n"
+"\n"
+"I've managed to make contact with a group of people who may be able to help you get in and out of the quarantine zone to search for your brother.\n"
+"\n"
+"Await further instructions.\n"
+"-T"
+msgstr ""
+"Boas notícias!\n"
+"\n"
+"Consegui entrar em contato com um pessoal que talvez possa te ajudar a entrar e sair da zona de quarentena para procurar seu irmão.\n"
+"\n"
+"Aguarde novas instruções.\n"
+"-T"
+
+#: Content/Notes/Bazaar/Slum/Workshop Note.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Bazaar/Slum/Workshop Note.asset.title"
+msgid "Slum Workshop Note"
+msgstr "Bilhete da oficina da favela"
+
+#: Content/Notes/Bazaar/Slum/Workshop Note.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Bazaar/Slum/Workshop Note.asset.content"
+msgid "Lund's Communal Workshop. 15 RM to enter."
+msgstr "Oficina Comunitária do Lund. Entrada: 15 RM."
+
+#: Content/Notes/City Gates/Explorers note about the new tunnel.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/City Gates/Explorers note about the new tunnel.asset.title"
+msgid "Explorer's note about the new tunnel"
+msgstr "Bilhete do explorador sobre o túnel novo"
+
+#: Content/Notes/City Gates/Explorers note about the new tunnel.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/City Gates/Explorers note about the new tunnel.asset.content"
+msgid ""
+"Hey,\n"
+"\n"
+"I told Hanss about the new tunnel I managed to clear open. We're gearing up and planning to check it out together today.\n"
+"\n"
+"I warned him that the entrance is a bit tight, and several caves have collapsed in a short time, but there's something about this one that feels different. Hanss sensed it too, and he wants to check it out as soon as possible.\n"
+"\n"
+"Maybe this is finally the route to the other side of the gate we've been searching for all this time? If you're up for it, join us.\n"
+"\n"
+"Stay sharp."
+msgstr ""
+"E aí,\n"
+"\n"
+"Contei pro Hanss do túnel novo que eu consegui desobstruir. A gente está se equipando pra ir lá conferir juntos hoje.\n"
+"\n"
+"Avisei que a entrada é meio apertada e que várias cavernas desabaram em pouco tempo, mas tem alguma coisa diferente nesse aqui. O Hanss também sentiu isso e quer ir ver o quanto antes.\n"
+"\n"
+"Será que finalmente é a passagem pro outro lado do portão que a gente procura há tanto tempo? Se estiver a fim, vem com a gente.\n"
+"\n"
+"Fique esperto."
+
+#: Content/Notes/City Gates/Explorers note about the pipe.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/City Gates/Explorers note about the pipe.asset.title"
+msgid "Explorer's note about the pipe"
+msgstr "Bilhete do explorador sobre o cano"
+
+#: Content/Notes/City Gates/Explorers note about the pipe.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/City Gates/Explorers note about the pipe.asset.content"
+msgid ""
+"There's some noise coming from the area where the pipe goes. It's like an alarm or something.\n"
+"\n"
+"I tried squeezing through to get a closer look, but no luck. The cave narrows to a point where I would probably just get stuck. I'm not really keen on getting stuck underground like the guy whose body we found recently. It's like my worst nightmare.\n"
+"\n"
+"Hanss asked me to clear the tunnel that leads to the gate. I warned him that the tunnels have been collapsing more frequently recently. I'm probably going to go with him next time he comes here."
+msgstr ""
+"Tem um barulho vindo da área pra onde o cano vai. Parece um alarme ou coisa assim.\n"
+"\n"
+"Tentei me espremer pra chegar mais perto e dar uma olhada, mas não deu. A caverna estreita até um ponto em que eu provavelmente ia ficar entalado. Não estou nem um pouco a fim de ficar preso debaixo da terra que nem aquele cara cujo corpo a gente encontrou outro dia. É o meu pior pesadelo.\n"
+"\n"
+"O Hanss me pediu pra desobstruir o túnel que leva até o portão. Avisei que os túneis andam desabando com mais frequência ultimamente. Acho que vou junto com ele da próxima vez que ele vier."
+
+#: Content/Notes/Gatehouse/Guards's note.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Gatehouse/Guards's note.asset.title"
+msgid "Guard's note"
+msgstr "Bilhete do guarda"
+
+#: Content/Notes/Gatehouse/Guards's note.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Gatehouse/Guards's note.asset.content"
+msgid ""
+"Hey,\n"
+"\n"
+"\n"
+"So, I've gotta get something off my chest. Working at this dump has been driving me up the wall lately. You wouldn't believe the crap I have to put up with here. I'm so tired of guarding those two cells.\n"
+"\n"
+"Always the same old faces end up here. Blabbering, yelling and other shit happens all the time. I can't watch TV in peace!\n"
+"\n"
+"And the stench coming from those cells could knock you out cold! Bucket toilets? Seriously?\n"
+"\n"
+"I have so many things to complain about! All the nonsense they talk to me, my lunch breaks are a disaster... I could go on and on with this list!\n"
+"\n"
+"I'm hoping that you could bring some sanity back to this place.\n"
+"\n"
+"December 25 - August 28."
+msgstr ""
+"E aí,\n"
+"\n"
+"\n"
+"Seguinte, preciso desabafar. Trabalhar nesse buraco anda me tirando do sério. Você não acredita a merda que eu tenho que aguentar aqui. Estou de saco cheio de vigiar essas duas celas.\n"
+"\n"
+"Sempre as mesmas caras acabam vindo parar aqui. Falatório, gritaria e outras merdas o tempo todo. Não dá nem pra ver TV em paz!\n"
+"\n"
+"E o fedor que sai dessas celas é de derrubar qualquer um! Balde como privada? Sério mesmo?\n"
+"\n"
+"Tenho tanta coisa pra reclamar! Toda a besteira que eles falam pra mim, meus intervalos de almoço são um desastre... Essa lista não tem fim!\n"
+"\n"
+"Espero que você consiga trazer um pouco de sanidade de volta pra este lugar.\n"
+"\n"
+"25 de dezembro - 28 de agosto."
+
+#: Content/Notes/Gatehouse/Prisoner's note.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Gatehouse/Prisoner's note.asset.title"
+msgid "Prisoner's note"
+msgstr "Bilhete do prisioneiro"
+
+#: Content/Notes/Gatehouse/Prisoner's note.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Gatehouse/Prisoner's note.asset.content"
+msgid ""
+"For the other inmates who have wandered in here.\n"
+"\n"
+"Caves\n"
+"Ahead are caves that lead to an old water tunnel. Unfortunately it's a dead end! There is a floodgate that could perhaps be opened somehow from the other side. I don't know who dug those huge tunnels. Maybe old mines? Anyway, they're gone.\n"
+"\n"
+"Pipe room\n"
+"The door is closed! I couldn't find a way to get out!\n"
+"\n"
+"I haven't found any way to get out!\n"
+"\n"
+"- L.H"
+msgstr ""
+"Para os outros detentos que vierem parar aqui.\n"
+"\n"
+"Cavernas\n"
+"Mais à frente tem cavernas que levam a um antigo túnel de água. Infelizmente é um beco sem saída! Tem uma comporta que talvez dê pra abrir de algum jeito pelo outro lado. Não sei quem cavou esses túneis enormes. Talvez sejam minas antigas? Enfim, já eram.\n"
+"\n"
+"Sala dos canos\n"
+"A porta está fechada! Não achei um jeito de sair!\n"
+"\n"
+"Não achei nenhum jeito de sair!\n"
+"\n"
+"- L.H"
+
+#: Content/Notes/General Store/Mr. Bag Error letter.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/General Store/Mr. Bag Error letter.asset.title"
+msgid "Mr. Bag Error"
+msgstr "Erro do Sr. Sacola"
+
+#: Content/Notes/General Store/Mr. Bag Error letter.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/General Store/Mr. Bag Error letter.asset.content"
+msgid ""
+"If Mr. Bag throws error code 3 24 8 22 please contact me immediately! That code is related to the self-defense mechanism which is only in the experimental stage. It can cause minor injury to someone if he is not treated!\n"
+"\n"
+"You don't have to worry about error code 10 26 14 2. It's just some small bug with Mr. Bag and it should not affect the system in any way!\n"
+"\n"
+"In any case, I hope you are happy with him! Isn't he handsome! I think he's absolutely gorgeous!"
+msgstr ""
+"Se o Sr. Sacola mostrar o código de erro 3 24 8 22, entre em contato comigo imediatamente! Esse código tem a ver com o mecanismo de autodefesa, que ainda está em fase experimental. Ele pode causar ferimentos leves em alguém se não for bem tratado!\n"
+"\n"
+"Não precisa se preocupar com o código de erro 10 26 14 2. É só um bugzinho do Sr. Sacola e não deve afetar o sistema de jeito nenhum!\n"
+"\n"
+"De qualquer forma, espero que você esteja feliz com ele! Ele não é lindo? Acho ele simplesmente maravilhoso!"
+
+#: Content/Notes/General/Test Note.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/General/Test Note.asset.title"
+msgid "Test note"
+msgstr "Nota de teste"
+
+#: Content/Notes/General/Test Note.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/General/Test Note.asset.content"
+msgid ""
+"Test note content\n"
+"- Test\n"
+"- Test 2\n"
+"\n"
+"Test"
+msgstr ""
+"Conteúdo da nota de teste\n"
+"- Teste\n"
+"- Teste 2\n"
+"\n"
+"Teste"
+
+#: Content/Notes/General/Test Recipe.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/General/Test Recipe.asset.title"
+msgid "Test recipe"
+msgstr "Receita de teste"
+
+#: Content/Notes/General/Test Recipe.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/General/Test Recipe.asset.content"
+msgid "Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2. Test note content 2."
+msgstr "Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2. Conteúdo da nota de teste 2."
+
+#: Content/Notes/House1/Letter to Fredrik.asset
+#, fuzzy
+msgctxt "NoteInfo.AliceNote1.title"
+msgid "Letter to Fredrik"
+msgstr "Carta para Fredrik"
+
+#: Content/Notes/House1/Letter to Fredrik.asset
+#, fuzzy
+msgctxt "NoteInfo.AliceNote1.content"
+msgid ""
+"Fredrik,\n"
+"\n"
+"I can't talk about this face to face so I decided to write a letter for you. I really want to share some concerns that have been weighing heavily on my mind lately.\n"
+"\n"
+"As you know, Pia has always been close to me, but she has become very dependent on me and I’m beginning to feel overwhelmed by the constant need to be her anchor. My own mental health is suffering, and I'm worried I won't be able to keep taking care of her.\n"
+"\n"
+"Can we find others to help Pia? I am grateful for your medicine, which has kept Pia in good health and I appreciate any help you can offer.\n"
+"\n"
+"- Alice"
+msgstr ""
+"Fredrik,\n"
+"\n"
+"Não consigo falar sobre isso pessoalmente, então resolvi te escrever uma carta. Quero muito compartilhar umas preocupações que andam pesando muito na minha cabeça.\n"
+"\n"
+"Como você sabe, a Pia sempre foi muito próxima de mim, mas ela ficou muito dependente de mim e estou começando a me sentir sobrecarregada por ter que ser o porto seguro dela o tempo todo. Minha própria saúde mental está sofrendo, e tenho medo de não conseguir continuar cuidando dela.\n"
+"\n"
+"Será que a gente consegue achar outras pessoas pra ajudar a Pia? Sou grata pelo seu remédio, que tem mantido a Pia com saúde, e agradeço qualquer ajuda que você puder oferecer.\n"
+"\n"
+"- Alice"
+
+#: Content/Notes/Kolhola/A17 Safe.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Kolhola/A17 Safe.asset.title"
+msgid "Kolhola A17 Note"
+msgstr "Bilhete do A17 do Kolhola"
+
+#: Content/Notes/Kolhola/A17 Safe.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Kolhola/A17 Safe.asset.content"
+msgid ""
+"R5 L10 R 22 L14\n"
+"8.5.4.4"
+msgstr ""
+"D5 E10 D 22 E14\n"
+"8.5.4.4"
+
+#: Content/Notes/Kolhola/A2 Safe.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Kolhola/A2 Safe.asset.title"
+msgid "Kolhola A2 Note"
+msgstr "Bilhete do A2 do Kolhola"
+
+#: Content/Notes/Kolhola/A6 Safe.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Kolhola/A6 Safe.asset.title"
+msgid "Kolhola A6 Note"
+msgstr "Bilhete do A6 do Kolhola"
+
+#: Content/Notes/Kolhola/Kolhola Rules.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Kolhola/Kolhola Rules.asset.title"
+msgid "Kolhola Rules"
+msgstr "Regras do Kolhola"
+
+#: Content/Notes/Kolhola/Kolhola Rules.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Kolhola/Kolhola Rules.asset.content"
+msgid ""
+"1. No noise after 18:00, and before 6:00\n"
+"2. No loitering\n"
+"3. No smoking\n"
+"4. Strictly no possession, consumption or growing of green mushrooms or green mushroom-derived products. Violators will be evicted immediately!!!\n"
+"5. No drinking alcohol except during reserved sauna turns and between 18:00 and 21:00 on Fridays and Saturdays. Only 2 bottles of beer or equivalent allowed. Alcohol can only be drunk in the sauna or apartments.\n"
+"6. Production of alcohol is forbidden.\n"
+"7. Defecation and urination forbidden except in toilets.\n"
+"\n"
+"Regards,\n"
+"Kolhola resident committee"
+msgstr ""
+"1. Proibido fazer barulho depois das 18:00 e antes das 6:00\n"
+"2. Proibido vadiar nas áreas comuns\n"
+"3. Proibido fumar\n"
+"4. Terminantemente proibidos a posse, o consumo ou o cultivo de cogumelos verdes ou de produtos derivados de cogumelos verdes. Os infratores serão despejados imediatamente!!!\n"
+"5. Proibido consumir bebidas alcoólicas, exceto nos horários reservados de sauna e entre 18:00 e 21:00 às sextas e aos sábados. Permitidas apenas 2 garrafas de cerveja ou equivalente. Bebidas alcoólicas só podem ser consumidas na sauna ou nos apartamentos.\n"
+"6. Proibida a produção de bebidas alcoólicas.\n"
+"7. Proibido defecar e urinar fora dos vasos sanitários.\n"
+"\n"
+"Atenciosamente,\n"
+"Comissão de moradores do Kolhola"
+
+#: Content/Notes/Mines/SNW_dumping_tunnel.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Mines/SNW_dumping_tunnel.asset.title"
+msgid "Dumping Tunnel Warning"
+msgstr "Aviso do túnel de descarte"
+
+#: Content/Notes/Mines/SNW_dumping_tunnel.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Mines/SNW_dumping_tunnel.asset.content"
+msgid ""
+"One of the spent fuel casks in the dumping tunnel has fallen and its lid has broken open spilling its contents. Now that tunnel is deadly radioactive. Even mere minutes in it are enough for a fatal dose, and you wouldn't feel anything! \n"
+"\n"
+"Don't go past the fence, or you will be a dead man walking!"
+msgstr ""
+"Um dos contêineres de combustível nuclear usado no túnel de descarte caiu, a tampa quebrou e o conteúdo vazou. Agora aquele túnel está com uma radiação mortal. Bastam poucos minutos lá dentro pra pegar uma dose fatal, e você nem sentiria nada! \n"
+"\n"
+"Não passe da cerca, senão você vira um defunto ambulante!"
+
+#: Content/Notes/Mines/SNW_dumping_tunnel_note.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Mines/SNW_dumping_tunnel_note.asset.title"
+msgid "Dumping Tunnel Blast Door Note"
+msgstr "Bilhete da porta blindada do túnel de descarte"
+
+#: Content/Notes/Mines/SNW_dumping_tunnel_note.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Mines/SNW_dumping_tunnel_note.asset.content"
+msgid ""
+"Notice!\n"
+"\n"
+"This door is wired to radiation measurement devices.\n"
+"The door cannot be opened if radiation exceeds 50 millisieverts per hour.\n"
+"The radiation measurement devices must be powered for the door to function properly. Ensure they are operational before attempting access."
+msgstr ""
+"Atenção!\n"
+"\n"
+"Esta porta está ligada a medidores de radiação.\n"
+"A porta não pode ser aberta se a radiação ultrapassar 50 milisieverts por hora.\n"
+"Os medidores de radiação precisam estar energizados para que a porta funcione corretamente. Certifique-se de que estejam em funcionamento antes de tentar o acesso."
+
+#: Content/Notes/Mines/SNW_dumping_tunnel_wagon_note.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Mines/SNW_dumping_tunnel_wagon_note.asset.title"
+msgid "Nuclear Fuel Wagon"
+msgstr "Vagão de combustível nuclear"
+
+#: Content/Notes/Mines/SNW_dumping_tunnel_wagon_note.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Mines/SNW_dumping_tunnel_wagon_note.asset.content"
+msgid ""
+"Nuclear Fuel Wagon – Overview\n"
+"\n"
+"A nuclear fuel wagon is designed to safely transport nuclear fuel, featuring multiple layers of shielding to prevent radiation exposure. It is equipped with a heavy-duty, radiation-shielded container, typically made of steel and lead, to block radiation.\n"
+"\n"
+"These wagons are essential for transporting fuel between nuclear power plants, reprocessing facilities, and storage sites. Proper handling and monitoring ensure minimal risk to workers, the public, and the environment."
+msgstr ""
+"Vagão de combustível nuclear – Visão geral\n"
+"\n"
+"O vagão de combustível nuclear foi projetado para transportar combustível nuclear com segurança e conta com várias camadas de blindagem para evitar a exposição à radiação. Ele é equipado com um contêiner reforçado e blindado contra radiação, normalmente feito de aço e chumbo, para bloquear a radiação.\n"
+"\n"
+"Esses vagões são essenciais para o transporte de combustível entre usinas nucleares, instalações de reprocessamento e locais de armazenamento. O manuseio e o monitoramento adequados garantem um risco mínimo para os trabalhadores, o público e o meio ambiente."
+
+#: Content/Notes/Mines/oredrop_note.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Mines/oredrop_note.asset.title"
+msgid "Ore drop-off note"
+msgstr "Bilhete do ponto de entrega de minério"
+
+#: Content/Notes/Mines/oredrop_note.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Mines/oredrop_note.asset.content"
+msgid ""
+"Notice Miners!\n"
+"\n"
+"- A valid mining permit is required for dropping off ore.\n"
+"\n"
+"- If you don't have a mining permit, speak to Reijo at the office building.\n"
+"\n"
+"- Receipts can be cashed at the office building."
+msgstr ""
+"Atenção, mineiros!\n"
+"\n"
+"- É obrigatória uma licença de mineração válida para entregar minério.\n"
+"\n"
+"- Se você não tem licença de mineração, fale com o Reijo no escritório.\n"
+"\n"
+"- Os recibos podem ser trocados por dinheiro no escritório."
+
+#: Content/Notes/Newspaper/A quarantine zone will be opened in Obenseuer.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Newspaper/A quarantine zone will be opened in Obenseuer.asset.title"
+msgid "A quarantine zone will be opened in Obenseuer"
+msgstr "Zona de quarentena será criada em Obenseuer"
+
+#: Content/Notes/Newspaper/A quarantine zone will be opened in Obenseuer.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Newspaper/A quarantine zone will be opened in Obenseuer.asset.content"
+msgid ""
+"Stalburg Times\n"
+"Monday, February 13th, 2017\n"
+"\n"
+"\n"
+"Government Announces New Quarantine Zone in Obenseuer\n"
+"\n"
+"The government has announced plans to establish a quarantine zone in Obenseuer as the situation with a spreading fungal infection worsens. Officials have faced criticism for their handling of the outbreak, with accusations of creating a public safety hazard by failing to respond swiftly and transparently.\n"
+"\n"
+"\n"
+"Over the weekend, 72 new cases were reported, and health experts expect the number of infections to rise exponentially in the coming weeks. Although scientists remain divided on how the fungus spreads, evidence suggests it may be more contagious than previously disclosed by the government.\n"
+"\n"
+"\n"
+"Jean Wallin, the mayor of Stalburg, has urged residents to avoid travel in high-risk areas, particularly Obenseuer and Uhlu. While the exact boundaries of the quarantine zone have not yet been outlined, the mayor confirmed that healthy residents would be evacuated from the area before quarantine measures are enforced.\n"
+"\n"
+"\n"
+"Local residents are concerned about the implications of a quarantine in Obenseuer. Mirjam Freighter, a shopkeeper in O Market, fears that increased tension in the region could disrupt her business if her shop falls within the quarantine zone.\n"
+"\n"
+"\n"
+"\"Why here? They should move all sick people outside the city. We already have enough problems as it is. I just hope this doesn't affect my Sossu subsidies,\" said David Lund, an unemployed resident.\n"
+"\n"
+"\n"
+"Additionally, the government is considering a second quarantine zone on Whiprock Island. However, details on the timeline and criteria for placement there remain undisclosed."
+msgstr ""
+"Stalburg Times\n"
+"Segunda-feira, 13 de fevereiro de 2017\n"
+"\n"
+"\n"
+"Governo anuncia nova zona de quarentena em Obenseuer\n"
+"\n"
+"O governo anunciou planos de criar uma zona de quarentena em Obenseuer diante do agravamento da infecção fúngica que se espalha pela região. As autoridades vêm sendo criticadas pela forma como lidam com o surto e são acusadas de criar um risco à segurança pública ao não responder de forma rápida e transparente.\n"
+"\n"
+"\n"
+"No fim de semana foram registrados 72 novos casos, e especialistas em saúde preveem que o número de infecções cresça exponencialmente nas próximas semanas. Embora os cientistas ainda divirjam sobre a forma de transmissão do fungo, há indícios de que ele seja mais contagioso do que o governo havia divulgado.\n"
+"\n"
+"\n"
+"Jean Wallin, prefeito de Stalburg, pediu aos moradores que evitem circular pelas áreas de alto risco, em especial Obenseuer e Uhlu. Embora os limites exatos da zona de quarentena ainda não tenham sido definidos, o prefeito confirmou que os moradores saudáveis serão retirados da área antes que as medidas de quarentena entrem em vigor.\n"
+"\n"
+"\n"
+"Os moradores locais estão preocupados com as consequências de uma quarentena em Obenseuer. Mirjam Freighter, comerciante do O-Market, teme que o aumento da tensão na região prejudique seu negócio caso sua loja fique dentro da zona de quarentena.\n"
+"\n"
+"\n"
+"\"Por que aqui? Deviam mandar todos os doentes pra fora da cidade. A gente já tem problema demais do jeito que está. Só espero que isso não mexa no meu auxílio do Sossu\", disse David Lund, morador desempregado.\n"
+"\n"
+"\n"
+"Além disso, o governo estuda criar uma segunda zona de quarentena na Ilha Whiprock. No entanto, o cronograma e os critérios de internação no local ainda não foram divulgados."
+
+#: Content/Notes/Newspaper/Legend of the Underground city.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Newspaper/Legend of the Underground city.asset.title"
+msgid "Legend of the Underground city"
+msgstr "A lenda da cidade subterrânea"
+
+#: Content/Notes/Newspaper/Legend of the Underground city.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Newspaper/Legend of the Underground city.asset.content"
+msgid ""
+"Stalburg Times\n"
+"Sunday, November 9th, 2014\n"
+"\n"
+"Legend of the Underground City\n"
+"\n"
+"Stalburg has one of the most extensive underground systems in the world. There’s everything from parking garages and metro tunnels to waterworks and even grain silos. The nether world of the city is also subject to many mysteries.\n"
+"\n"
+"Extensive old urban networks like Stalburg’s underground are bound to have countless stories linked to them, whether those stories are actually real or not. One of the biggest urban legends related to Stalburg’s underground infrastructure is the existence of the so-called Underground City of Stalburg.\n"
+"\n"
+"According to the legend, the Underground City is a safe haven for the many homeless people of Stalburg. Many different versions of the story circulate among the public. Some say the Underground City is built into a huge cave, others say it’s located in an abandoned mineshaft. Sometimes it’s said to be in a disused metro tunnel.\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+msgstr ""
+"Stalburg Times\n"
+"Domingo, 9 de novembro de 2014\n"
+"\n"
+"A lenda da Cidade Subterrânea\n"
+"\n"
+"Stalburg tem um dos sistemas subterrâneos mais extensos do mundo. Há de tudo: estacionamentos, túneis de metrô, instalações de abastecimento de água e até silos de grãos. O submundo da cidade também é cercado de mistérios.\n"
+"\n"
+"Redes urbanas antigas e extensas como o subterrâneo de Stalburg inevitavelmente acumulam inúmeras histórias, sejam elas verdadeiras ou não. Uma das maiores lendas urbanas ligadas à infraestrutura subterrânea de Stalburg é a existência da chamada Cidade Subterrânea de Stalburg.\n"
+"\n"
+"Segundo a lenda, a Cidade Subterrânea é um refúgio para os muitos moradores de rua de Stalburg. Diversas versões da história circulam entre a população. Alguns dizem que a Cidade Subterrânea foi construída dentro de uma caverna enorme; outros, que fica num poço de mina abandonado. Há também quem diga que ela fica num túnel de metrô desativado.\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: Content/Notes/Newspaper/Obenseuer_ or More Like Open Sewer.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Newspaper/Obenseuer, or More Like Open Sewer.asset.title"
+msgid "Obenseuer, or More Like Open Sewer"
+msgstr "Obenseuer? Está mais para Esgoto Aberto"
+
+#: Content/Notes/Newspaper/Obenseuer_ or More Like Open Sewer.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Newspaper/Obenseuer, or More Like Open Sewer.asset.content"
+msgid ""
+"Stalburg Times\n"
+"Sunday, September 21st, 2014\n"
+"\n"
+"Obenseuer, or More Like Open Sewer\n"
+"\n"
+"The most infamous place in the Stalburg region is mostly known for its alcoholics, poor social status and bad city planning. But is it really as bad as its reputation suggests?\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+msgstr ""
+"Stalburg Times\n"
+"Domingo, 21 de setembro de 2014\n"
+"\n"
+"Obenseuer? Está mais para Esgoto Aberto\n"
+"\n"
+"O lugar mais mal-afamado da região de Stalburg é conhecido principalmente por seus alcoólatras, pela baixa condição social e pelo péssimo planejamento urbano. Mas será que é mesmo tão ruim quanto a fama sugere?\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: Content/Notes/Newspaper/Safety Concerns Escalate Over SOMC Mining in Obenseuer.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Newspaper/Safety Concerns Escalate Over SOMC Mining in Obenseuer.asset.title"
+msgid "Safety Concerns Escalate Over SOMC Mining in Obenseuer "
+msgstr "Cresce a preocupação com a segurança da mineração da SOMC em Obenseuer "
+
+#: Content/Notes/Newspaper/Safety Concerns Escalate Over SOMC Mining in Obenseuer.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Newspaper/Safety Concerns Escalate Over SOMC Mining in Obenseuer.asset.content"
+msgid "With concerns mounting over both SOMC’s operations and the expanding independent mining project, Obenseuer’s residents face a growing sense of uncertainty and frustration in a district already under strain."
+msgstr "Com a preocupação crescente tanto com as operações da SOMC quanto com a expansão do projeto de mineração independente, os moradores de Obenseuer vivem uma sensação cada vez maior de incerteza e frustração em um distrito que já está sob pressão."
+
+#: Content/Notes/Open Sewer Tenement/Bridge toll contact info.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Open Sewer Tenement/Bridge toll contact info.asset.title"
+msgid "Bridge toll contact info"
+msgstr "Contato do pedágio da ponte"
+
+#: Content/Notes/Open Sewer Tenement/Bridge toll contact info.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Open Sewer Tenement/Bridge toll contact info.asset.content"
+msgid ""
+"Notice!\n"
+"\n"
+"Due to constant threats, I no longer take the entrance fee myself.\n"
+"\n"
+"Call 010445264 if you have problems with payment or anything else related to the bridge.\n"
+"\n"
+"P.S. DON'T contact me if you just want to THREATEN me even if it's related to the bridge!\n"
+"\n"
+"P.P.S. And DON'T even think about calling me if you just want to sell me air fresheners, slightly used long johns or anything else that I would NEVER want! Go sell your wretched garbage to someone else who might appreciate them! You sly BASTARDS!"
+msgstr ""
+"Aviso!\n"
+"\n"
+"Por causa das ameaças constantes, não recebo mais a taxa de passagem pessoalmente.\n"
+"\n"
+"Ligue para 010445264 se tiver problemas com o pagamento ou qualquer outra coisa relacionada à ponte.\n"
+"\n"
+"P.S. NÃO entre em contato comigo se for só pra me AMEAÇAR, mesmo que seja sobre a ponte!\n"
+"\n"
+"P.P.S. E nem PENSE em me ligar se for só pra me vender aromatizador de ambiente, ceroula pouco usada ou qualquer outra coisa que eu NUNCA ia querer! Vão vender essa porcaria miserável pra outro que dê valor! Seus DESGRAÇADOS espertalhões!"
+
+#: Content/Notes/Pharmacy/Suspicious customers.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Pharmacy/Suspicious customers.asset.title"
+msgid "Suspicious customers"
+msgstr "Clientes suspeitos"
+
+#: Content/Notes/Pharmacy/Suspicious customers.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Pharmacy/Suspicious customers.asset.content"
+msgid ""
+"Someone wearing a duck mask\n"
+"-Bought the usual stuff. Weird mask. Gave us a duck which we put on the shelf\n"
+"\n"
+"Bleeding woman\n"
+"-I called an ambulance! She said she just needs bandages\n"
+"\n"
+"Lilly Cooper\n"
+"-My former classmate! Asked Patrik some weird questions\n"
+"\n"
+"Mumbling woman\n"
+"-Gave us a recipe for apple pie!?\n"
+"\n"
+"Weird guy who smelled like an old sock that has been swimming in a bucket of dead fish\n"
+"-Bought over 30 packages of condoms!\n"
+"\n"
+"Priest\n"
+"-He bought painkillers and other medicines that help with fungal disease\n"
+"\n"
+"Tall man\n"
+"-Stood quietly and watched the surveillance camera for 10 minutes\n"
+"\n"
+"Weirdo\n"
+"-Asked for a phone number"
+msgstr ""
+"Alguém com máscara de pato\n"
+"-Comprou as coisas de sempre. Máscara esquisita. Deu um pato pra gente, que colocamos na prateleira\n"
+"\n"
+"Mulher sangrando\n"
+"-Chamei uma ambulância! Ela disse que só precisava de ataduras\n"
+"\n"
+"Lilly Cooper\n"
+"-Minha ex-colega de escola! Fez umas perguntas estranhas pro Patrik\n"
+"\n"
+"Mulher resmungona\n"
+"-Nos deu uma receita de torta de maçã!?\n"
+"\n"
+"Cara esquisito com cheiro de meia velha que passou a noite num balde de peixe morto\n"
+"-Comprou mais de 30 caixas de camisinha!\n"
+"\n"
+"Padre\n"
+"-Comprou analgésicos e outros remédios para doença fúngica\n"
+"\n"
+"Homem alto\n"
+"-Ficou parado em silêncio olhando para a câmera de segurança por 10 minutos\n"
+"\n"
+"Esquisitão\n"
+"-Pediu um número de telefone"
+
+#: Content/Notes/Phone Numbers/Yellow pages.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Phone Numbers/Yellow pages.asset.title"
+msgid "Yellow pages"
+msgstr "Páginas amarelas"
+
+#: Content/Notes/Phone Numbers/Yellow pages.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Phone Numbers/Yellow pages.asset.content"
+msgid ""
+"Emergency Number: 112\n"
+"\n"
+"Aziz's Kebab and Burger: 062 792 005\n"
+"\n"
+"Osmo Olut Customer Service: 010 138 2044\n"
+"\n"
+"Stalburg Bank: 010 242 4096\n"
+"\n"
+"Swamp Publishing LLC: 010 689 0002\n"
+"\n"
+"Hobbyprof Publishing House: 010 512 2561"
+msgstr ""
+"Número de emergência: 112\n"
+"\n"
+"Kebab & Hambúrguer do Aziz: 062 792 005\n"
+"\n"
+"Atendimento ao cliente Osmo Olut: 010 138 2044\n"
+"\n"
+"Banco de Stalburg: 010 242 4096\n"
+"\n"
+"Swamp Publishing Ltda.: 010 689 0002\n"
+"\n"
+"Editora Hobbyprof: 010 512 2561"
+
+#: Content/Notes/Tenement A/A page from Joel's diary.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement A/A page from Joel's diary.asset.title"
+msgid "A page from Joel's diary"
+msgstr "Uma página do diário do Joel"
+
+#: Content/Notes/Tenement A/A page from Joel's diary.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement A/A page from Joel's diary.asset.content"
+msgid ""
+"She’s become so deeply religious in such a short time, and it’s consuming her. She doesn't let me in. It's like she is hiding something or someone. I tried to talk to her about it but she just said I wouldn't understand.\n"
+"\n"
+"I need to talk to her before she does something irreversible."
+msgstr ""
+"Ela ficou tão religiosa em tão pouco tempo, e isso está consumindo ela. Ela não me deixa chegar perto. É como se estivesse escondendo alguma coisa, ou alguém. Tentei conversar com ela sobre isso, mas ela só disse que eu não ia entender.\n"
+"\n"
+"Preciso falar com ela antes que ela faça alguma coisa irreversível."
+
+#: Content/Notes/Tenement A/Joel's list.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement A/Joel's list.asset.title"
+msgid "Joel's list"
+msgstr "Lista do Joel"
+
+#: Content/Notes/Tenement A/Joel's list.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement A/Joel's list.asset.content"
+msgid ""
+"What we know\n"
+"-Probably hidden somewhere in small storage\n"
+"-Contains also other valuable items\n"
+"-Is that place cursed? We have to be careful!\n"
+"\n"
+"Plan\n"
+"-We have to get keys\n"
+"-Only take what we are looking for!\n"
+"-Crowbar and flashlight\n"
+"-Must not be caught!"
+msgstr ""
+"O que sabemos\n"
+"-Provavelmente escondido em algum lugar no depósito pequeno\n"
+"-Tem também outros objetos de valor\n"
+"-Será que aquele lugar é amaldiçoado? Temos que tomar cuidado!\n"
+"\n"
+"Plano\n"
+"-Temos que conseguir as chaves\n"
+"-Pegar só o que a gente está procurando!\n"
+"-Pé de cabra e lanterna\n"
+"-Não podemos ser pegos!"
+
+#: Content/Notes/Tenement A/Religious letter.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement A/Religious letter.asset.title"
+msgid "Religious letter"
+msgstr "Carta religiosa"
+
+#: Content/Notes/Tenement A/Religious letter.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement A/Religious letter.asset.content"
+msgid ""
+"Dear Brothers and Sisters in Faith,\n"
+"\n"
+"I write to you today, seeking your understanding, forgiveness, and prayers.\n"
+"\n"
+"I regret to inform you that I have let my inner evil loose again. In a moment of uncontrollable rage, I took the life of another and now I'm tormented by the guilt of my actions.\n"
+"\n"
+"I come to you, my spiritual family, to ask you to help me atone for my sins and help the victim's shadow reach peace on the other side.\n"
+"\n"
+"Let us live in peace in the realm of shadows,\n"
+"\n"
+"Hietala"
+msgstr ""
+"Amados irmãos e irmãs na fé,\n"
+"\n"
+"Escrevo-lhes hoje em busca de sua compreensão, de seu perdão e de suas orações.\n"
+"\n"
+"Lamento informar que deixei meu mal interior se libertar mais uma vez. Num momento de fúria incontrolável, tirei a vida de outra pessoa, e agora sou atormentado pela culpa dos meus atos.\n"
+"\n"
+"Venho a vocês, minha família espiritual, pedir que me ajudem a expiar meus pecados e a ajudar a sombra da vítima a encontrar a paz do outro lado.\n"
+"\n"
+"Vivamos em paz no reino das sombras,\n"
+"\n"
+"Hietala"
+
+#: Content/Notes/Tenement A/Tenement A Elevator Fuses.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement A/Tenement A Elevator Fuses.asset.title"
+msgid "Tenement A elevator fuses"
+msgstr "Fusíveis do elevador do Prédio A"
+
+#: Content/Notes/Tenement A/Tenement A Elevator Fuses.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement A/Tenement A Elevator Fuses.asset.content"
+msgid ""
+"Notice!\n"
+"\n"
+"1: Call Buttons \n"
+"2: Engine\n"
+"3: Controls\n"
+"4: Lights\n"
+"\n"
+"P.S. If you need help you can find me on the top floor."
+msgstr ""
+"Aviso!\n"
+"\n"
+"1: Botões de chamada \n"
+"2: Motor\n"
+"3: Controles\n"
+"4: Luzes\n"
+"\n"
+"P.S. Se precisar de ajuda, estou no último andar."
+
+#: Content/Notes/Tenement A/Tenement A Elevator.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement A/Tenement A Elevator.asset.title"
+msgid "Tenement A elevator"
+msgstr "Elevador do Prédio A"
+
+#: Content/Notes/Tenement A/Tenement A Elevator.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement A/Tenement A Elevator.asset.content"
+msgid ""
+"Notice!\n"
+"\n"
+"The elevator is out of service. An electrician has been dispatched to troubleshoot the issue."
+msgstr ""
+"Aviso!\n"
+"\n"
+"O elevador está fora de serviço. Um eletricista foi chamado para resolver o problema."
+
+#: Content/Notes/Tenement B2/B2 note.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement B2/B2 note.asset.title"
+msgid "B2 note"
+msgstr "Bilhete do B2"
+
+#: Content/Notes/Tenement B2/B2 note.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement B2/B2 note.asset.content"
+msgid ""
+"It still breaks sometimes! \n"
+"\n"
+"It started to move on its own yesterday and I have no idea why. I feel like it's cursed or something. \n"
+"\n"
+"Maybe I'll use something other than mannequins! Also that hallway isn't even long enough. B2 was at least three times longer. \n"
+"\n"
+"Maybe change door code to 4027?\n"
+msgstr ""
+"Ainda quebra de vez em quando! \n"
+"\n"
+"Ontem começou a se mexer sozinho e não faço ideia do porquê. Parece que é amaldiçoado ou coisa assim. \n"
+"\n"
+"Talvez eu use outra coisa em vez de manequins! E esse corredor nem é comprido o bastante. O B2 era pelo menos três vezes mais comprido. \n"
+"\n"
+"Mudar o código da porta pra 4027, talvez?\n"
+
+#: Content/Notes/Tenement B2/B3 storage.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement B2/B3 storage.asset.title"
+msgid "B3 storage"
+msgstr "Depósito B3"
+
+#: Content/Notes/Tenement B2/B3 storage.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement B2/B3 storage.asset.content"
+msgid ""
+"I'm hearing breathing in the B3 storage! \n"
+"\n"
+"That place must also be cursed! I'm going to make sure that thing is going to stay there so I'm going to brick the door and also take that handwheel from the flood door. Whatever it is even. I still remember what happened in that tunnel near Hammer Valley. I don't want the same thing to happen here in Obenseuer tunnels.\n"
+"\n"
+"-Robin"
+msgstr ""
+"Estou ouvindo uma respiração no depósito B3! \n"
+"\n"
+"Aquele lugar também deve ser amaldiçoado! Vou garantir que aquela coisa fique lá dentro, então vou fechar a porta com tijolos e também tirar aquele volante de válvula da porta antienchente. Seja lá o que for aquilo. Ainda me lembro do que aconteceu naquele túnel perto de Hammer Valley. Não quero que a mesma coisa aconteça aqui nos túneis de Obenseuer.\n"
+"\n"
+"-Robin"
+
+#: Content/Notes/Tenement B2/Bergmann tunnel floodgates.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement B2/Bergmann tunnel floodgates.asset.title"
+msgid "Bergmann tunnel floodgates"
+msgstr "Comportas do túnel Bergmann"
+
+#: Content/Notes/Tenement B2/Bergmann tunnel floodgates.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement B2/Bergmann tunnel floodgates.asset.content"
+msgid ""
+"Notice!\n"
+"\n"
+"It seems that Robin fellow changed the flood door settings, because the flood sensors didn't work anymore. So now you have to close the floodgates that are connected to this tunnel and also open main 02. Also remember to check those fuses in the control room!\n"
+"\n"
+"-Mike, new Bergmann tunnel worker"
+msgstr ""
+"Aviso!\n"
+"\n"
+"Parece que aquele tal de Robin mexeu nas configurações da porta antienchente, porque os sensores de enchente pararam de funcionar. Então agora você tem que fechar as comportas ligadas a este túnel e também abrir a principal 02. E não esqueça de conferir aqueles fusíveis na sala de controle!\n"
+"\n"
+"-Mike, novo funcionário do túnel Bergmann"
+
+#: Content/Notes/Tenement B2/Bergmann tunnel fuses.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement B2/Bergmann tunnel fuses.asset.title"
+msgid "Control room fuses"
+msgstr "Fusíveis da sala de controle"
+
+#: Content/Notes/Tenement B2/Bergmann tunnel fuses.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement B2/Bergmann tunnel fuses.asset.content"
+msgid ""
+"Slot 1 (Left): Floodgates control A1\n"
+"Slot 2: Floodgates control A2\n"
+"Slot 3: Microwave\n"
+"Slot 4: B3"
+msgstr ""
+"Posição 1 (esquerda): Controle das comportas A1\n"
+"Posição 2: Controle das comportas A2\n"
+"Posição 3: Micro-ondas\n"
+"Posição 4: B3"
+
+#: Content/Notes/Tenement B2/Bergmann tunnels condition.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement B2/Bergmann tunnels condition.asset.title"
+msgid "Bergmann tunnels condition"
+msgstr "Estado dos túneis Bergmann"
+
+#: Content/Notes/Tenement B2/Bergmann tunnels condition.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement B2/Bergmann tunnels condition.asset.content"
+msgid ""
+"They have renovated Bergmann tunnels everywhere except here in Obenseuer and things are getting worse every day. I'm probably not going to be able to come here soon, because of that fungal disease. \n"
+"\n"
+"Anyway, I still have a lot of things to get fixed here, because that previous Bergmann tunnel worker Robin broke everything! Like that flood door at the bottom! You have to close the floodgates that lead to that tunnel and open main 02 to get that flood door open.\n"
+"\n"
+"-Mike"
+msgstr ""
+"Reformaram os túneis Bergmann em todo lugar, menos aqui em Obenseuer, e as coisas estão piorando a cada dia. Acho que não vou conseguir vir aqui tão cedo, por causa daquela doença fúngica. \n"
+"\n"
+"Enfim, ainda tenho um monte de coisa pra consertar aqui, porque aquele funcionário anterior do túnel Bergmann, o Robin, quebrou tudo! Tipo aquela porta antienchente lá embaixo! Você tem que fechar as comportas que dão naquele túnel e abrir a principal 02 pra conseguir abrir a porta antienchente.\n"
+"\n"
+"-Mike"
+
+#: Content/Notes/Tenement B2/Flood door sign.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement B2/Flood door sign.asset.title"
+msgid "Flood door sign"
+msgstr "Placa da porta antienchente"
+
+#: Content/Notes/Tenement B2/Flood door sign.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement B2/Flood door sign.asset.content"
+msgid ""
+"NOTICE\n"
+"\n"
+"LIGHTS\n"
+"\n"
+"If the light is red, the area behind the door may be flooded, or the door may be having technical difficulties. The flood door cannot be opened when the light is red.\n"
+"\n"
+"If the light is green, the area behind the door is not flooded and is safe for entry. The flood door can ONLY be opened when the light is green.\n"
+"\n"
+"WARNING\n"
+"\n"
+"DO NOT BE UNDER THE FLOOD DOOR WHILE IT IS CLOSING. IT MAY CAUSE SERIOUS INJURY OR DEATH.\n"
+"\n"
+"TWSC\n"
+msgstr ""
+"AVISO\n"
+"\n"
+"LUZES\n"
+"\n"
+"Se a luz estiver vermelha, a área atrás da porta pode estar alagada, ou a porta pode estar com problemas técnicos. A porta antienchente não pode ser aberta com a luz vermelha.\n"
+"\n"
+"Se a luz estiver verde, a área atrás da porta não está alagada e a entrada é segura. A porta antienchente SÓ pode ser aberta com a luz verde.\n"
+"\n"
+"ATENÇÃO\n"
+"\n"
+"NÃO FIQUE SOB A PORTA ANTIENCHENTE ENQUANTO ELA ESTIVER FECHANDO. ISSO PODE CAUSAR FERIMENTOS GRAVES OU MORTE.\n"
+"\n"
+"TWSC\n"
+
+#: Content/Notes/Tenement B2/Hiding SMV patients.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement B2/Hiding SMV patients.asset.title"
+msgid "Hiding SMV patients"
+msgstr "Pacientes de SMV escondidos"
+
+#: Content/Notes/Tenement B2/Hiding SMV patients.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement B2/Hiding SMV patients.asset.content"
+msgid "Some patients escaped from the quarantine area."
+msgstr "Alguns pacientes fugiram da área de quarentena."
+
+#: Content/Notes/Tenement Deekula A/Deekula A Storage.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Deekula A/Deekula A Storage.asset.title"
+msgid "Deekula A Storage"
+msgstr "Depósito do Deekula A"
+
+#: Content/Notes/Tenement Deekula A/Deekula A Storage.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Deekula A/Deekula A Storage.asset.content"
+msgid "You can take what you want from here, but don't break the boxes or anything!"
+msgstr "Pode pegar o que quiser daqui, mas não vai quebrar as caixas nem nada!"
+
+#: Content/Notes/Tenement Deekula A/Deekula A8 Storage.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Deekula A/Deekula A8 Storage.asset.title"
+msgid "Deekula A8 Storage"
+msgstr "Depósito do Deekula A8"
+
+#: Content/Notes/Tenement Deekula A/Deekula A8 Storage.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Deekula A/Deekula A8 Storage.asset.content"
+msgid ""
+"You were wrong!\n"
+"\n"
+"My product was not completely clean! Damn!\n"
+"\n"
+"I don't know how they did it. Maybe your instructions were incorrect? I used the substances that were in your instructions and that's why I'm in trouble! I smoked that stuff myself because I trusted you! \n"
+"\n"
+"I'm going to die!"
+msgstr ""
+"Você estava errado!\n"
+"\n"
+"Meu produto não estava totalmente limpo! Droga!\n"
+"\n"
+"Não sei como eles conseguiram. Vai ver suas instruções estavam erradas? Usei as substâncias que estavam nas suas instruções e é por isso que estou ferrado! Eu mesmo fumei aquela parada porque confiei em você! \n"
+"\n"
+"Eu vou morrer!"
+
+#: Content/Notes/Tenement Deekula B/Hiding SMV patients.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Deekula B/Hiding SMV patients.asset.title"
+msgid "Hiding fungal disease patients"
+msgstr "Pacientes da doença fúngica escondidos"
+
+#: Content/Notes/Tenement Deekula B/Hiding SMV patients.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Deekula B/Hiding SMV patients.asset.content"
+msgid ""
+"There are rumors that some patients escaped from the quarantine area and they're now hiding with normal people. Some of them cover their faces with masks and keep a low profile. There are some cases that are well known, but no one is completely sure if they really suffered from fungal disease or if there's some other reason why they wear a mask.\n"
+"\n"
+"They can also be patients who have managed to overcome the fungal disease completely, but their faces have suffered some cosmetic damage. They may also have suffered severe brain damage and I recommend being careful around them because they can behave unpredictably."
+msgstr ""
+"Dizem por aí que alguns pacientes fugiram da área de quarentena e agora estão escondidos no meio das pessoas normais. Alguns cobrem o rosto com máscaras e evitam chamar atenção. Há alguns casos bem conhecidos, mas ninguém tem certeza absoluta se eles realmente tiveram a doença fúngica ou se existe algum outro motivo para usarem máscara.\n"
+"\n"
+"Também podem ser pacientes que conseguiram superar completamente a doença fúngica, mas ficaram com sequelas estéticas no rosto. Eles também podem ter sofrido danos cerebrais graves, e recomendo cautela perto deles, porque podem agir de forma imprevisível."
+
+#: Content/Notes/Tenement Deekula B/Letter to Krista.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Deekula B/Letter to Krista.asset.title"
+msgid "Letter to Krista"
+msgstr "Carta para Krista"
+
+#: Content/Notes/Tenement Deekula B/Letter to Krista.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Deekula B/Letter to Krista.asset.content"
+msgid ""
+"Dear Krista,\n"
+"\n"
+"Unfortunately I have to stay on sick leave. I have read all your messages and I know that you're worried about things that have happened in Stalburg and especially here in Obenseuer. Sadly even I don't have answers to all this.\n"
+"\n"
+"I have heard about this \"other side\" and I have to investigate it more, before I can say anything about it. I assure you that everything happens according to the will of God.\n"
+"\n"
+"We just have to be patient and pray.\n"
+"\n"
+"- Father Tobias"
+msgstr ""
+"Querida Krista,\n"
+"\n"
+"Infelizmente, preciso continuar de licença médica. Li todas as suas mensagens e sei que você está preocupada com as coisas que têm acontecido em Stalburg, e principalmente aqui em Obenseuer. Lamento dizer que nem eu tenho respostas para tudo isso.\n"
+"\n"
+"Ouvi falar desse “outro lado” e preciso investigá-lo melhor antes de poder dizer qualquer coisa a respeito. Garanto a você que tudo acontece segundo a vontade de Deus.\n"
+"\n"
+"Só nos resta ter paciência e rezar.\n"
+"\n"
+"- Padre Tobias"
+
+#: Content/Notes/Tenement Deekula B/Letter to Priest.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Deekula B/Letter to Priest.asset.title"
+msgid "Letter to Priest"
+msgstr "Carta para o padre"
+
+#: Content/Notes/Tenement Deekula B/Letter to Priest.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Deekula B/Letter to Priest.asset.content"
+msgid ""
+"If you're reading this letter you are probably cured or at least doing better. I'm going to leave this letter here, because I don't know if I'm coming back. I gave you an experimental drug while you were unconscious. I'm sorry I did that without your permission, but it was my only way to try to save you. I hope you are not angry with me.\n"
+"\n"
+"Thank you for taking care of my father in his last moments.\n"
+"\n"
+"- The girl next door"
+msgstr ""
+"Se o senhor está lendo esta carta, provavelmente está curado, ou pelo menos melhor. Vou deixar esta carta aqui porque não sei se vou voltar. Dei ao senhor um remédio experimental enquanto estava inconsciente. Desculpe ter feito isso sem a sua permissão, mas era o único jeito de tentar salvar o senhor. Espero que não esteja bravo comigo.\n"
+"\n"
+"Obrigada por cuidar do meu pai nos últimos momentos dele.\n"
+"\n"
+"- A vizinha do lado"
+
+#: Content/Notes/Tenement Deekula B/Neighbour.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Deekula B/Neighbour.asset.title"
+msgid "Neighbour"
+msgstr "Vizinha"
+
+#: Content/Notes/Tenement Deekula B/Neighbour.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Deekula B/Neighbour.asset.content"
+msgid ""
+"My neighbour knows what happened to me and she promised to help me. She doesn't want to tell anyone her name, but she revealed to me that she was part of Stalburg Underground group. I have heard bad things about them, but she seems to be completely different, if those rumors are true. \n"
+"\n"
+"I know that I can trust her and I don't really have any other choice, because she's my only hope to cure my sickness. I know that it's not going to be easy for her. \n"
+"\n"
+"I feel worse day by day. I can't leave my apartment anymore. If someone would see me in this condition, they would move me to an isolated zone.\n"
+" \n"
+"The only thing I can do is pray and hope that God is merciful to me. This pain inside is making me want to do things I would never think I would do. God forgive me.\n"
+"\n"
+"- Father Tobias"
+msgstr ""
+"Minha vizinha sabe o que aconteceu comigo e prometeu me ajudar. Ela não quer contar o nome para ninguém, mas me revelou que fazia parte do grupo Submundo de Stalburg. Já ouvi coisas ruins sobre eles, mas ela parece ser completamente diferente, se esses boatos forem verdade. \n"
+"\n"
+"Sei que posso confiar nela e, para falar a verdade, não tenho outra escolha, porque ela é minha única esperança de curar a minha doença. Sei que não vai ser fácil para ela. \n"
+"\n"
+"Sinto-me pior a cada dia. Não consigo mais sair do meu apartamento. Se alguém me visse neste estado, me levariam para uma zona isolada.\n"
+" \n"
+"A única coisa que posso fazer é rezar e esperar que Deus tenha misericórdia de mim. Esta dor aqui dentro está me fazendo querer fazer coisas que eu jamais imaginei que faria. Deus me perdoe.\n"
+"\n"
+"- Padre Tobias"
+
+#: Content/Notes/Tenement Deekula B/Osrat device.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Deekula B/Osrat device.asset.title"
+msgid "Osrat device"
+msgstr "Aparelho Osrat"
+
+#: Content/Notes/Tenement Deekula B/Osrat device.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Deekula B/Osrat device.asset.content"
+msgid ""
+"It looks like that Osrat can't get signals without the amulet. It's from the other side so it's probably still connected there on some level. It feels like something is pulling it to the other side. Maybe it's those red stones that cause it.\n"
+"\n"
+"The best places to get a connection are near the dead bodies, but sometimes it doesn't seem to be true. It starts beeping when it has a strong connection and then you can try to travel to the other side. I just haven't been able to find a strong enough signal to get deeper than a state they call a \"black noise\". I probably need a bigger transmitter or a place that has a very strong connection if I want to get any further."
+msgstr ""
+"Parece que o Osrat não consegue captar sinais sem o amuleto. Ele vem do outro lado, então provavelmente ainda está ligado a ele em algum nível. É como se alguma coisa o puxasse para o outro lado. Talvez sejam aquelas pedras vermelhas que causam isso.\n"
+"\n"
+"Os melhores lugares para conseguir conexão são perto dos cadáveres, mas às vezes isso não parece ser verdade. Ele começa a apitar quando tem uma conexão forte, e aí dá para tentar viajar para o outro lado. Só que ainda não consegui achar um sinal forte o bastante para ir mais fundo do que um estado que eles chamam de “ruído negro”. Provavelmente preciso de um transmissor maior, ou de um lugar com uma conexão muito forte, se quiser ir mais longe."
+
+#: Content/Notes/Tenement Deekula B/Relocation note B9.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Deekula B/Relocation note B9.asset.title"
+msgid "Relocation note to Deekula B9 residents"
+msgstr "Aviso de realocação aos moradores do Deekula B9"
+
+#: Content/Notes/Tenement Deekula B/Relocation note B9.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Deekula B/Relocation note B9.asset.content"
+msgid ""
+"Dear Deekula B9 residents.\n"
+"\n"
+"The authorities of the city of Stalburg have decided to relocate all the residents of the apartment B9 to a new location that will be announced when the transfer will take place. \n"
+"\n"
+"You have one day to take your main items with you. Please, don't take more items than you can handle and be prepared to show your passports to the authorities. If you do not have the passport, you will still be relocated and the authorities will help you get your passport. The inclusion of all products of mushroom origin is prohibited. Contact the authorities for more information.\n"
+"\n"
+"The reason for this transfer is due to overpopulation in the area, vacant space on the other side of Obenseuer district and ensuring safe and healthy housing for city residents.\n"
+"\n"
+"Thank you for your understanding.\n"
+"\n"
+"- Authorities of the city of Stalburg and fungal disease treatment unit"
+msgstr ""
+"Prezados moradores do Deekula B9.\n"
+"\n"
+"As autoridades da cidade de Stalburg decidiram realocar todos os moradores do apartamento B9 para um novo endereço, que será informado no momento da transferência. \n"
+"\n"
+"Os senhores têm um dia para levar consigo seus principais pertences. Solicita-se não levar mais itens do que conseguem carregar e estar preparados para apresentar seus passaportes às autoridades. Caso não possuam passaporte, serão realocados mesmo assim, e as autoridades os auxiliarão na obtenção do passaporte. É proibida a inclusão de quaisquer produtos derivados de cogumelos. Para mais informações, entre em contato com as autoridades.\n"
+"\n"
+"O motivo desta transferência deve-se à superpopulação na área, à disponibilidade de espaço do outro lado do distrito de Obenseuer e à garantia de moradia segura e saudável para os residentes da cidade.\n"
+"\n"
+"Agradecemos a compreensão.\n"
+"\n"
+"- Autoridades da cidade de Stalburg e unidade de tratamento da doença fúngica"
+
+#: Content/Notes/Tenement Deekula C/Svamppatrullen note.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Deekula C/Svamppatrullen note.asset.title"
+msgid "Henchman note"
+msgstr "Bilhete do capanga"
+
+#: Content/Notes/Tenement Deekula C/Svamppatrullen note.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Deekula C/Svamppatrullen note.asset.content"
+msgid ""
+"The boss gonna be released from prison any day now. Knowing him, he's likely very angry and bonkers when he gets back.\n"
+"\n"
+"I managed to get bottle of Sukka Junior, that expensive quality wine stuff, what I saw on Zigzag video.\n"
+"\n"
+"I left nicely wrapped gift in his penthouse.\n"
+"\n"
+"Make sure to clean the penthouse before the big boss gets back.\n"
+"\n"
+"Door code:\n"
+"- Shroom automat\n"
+"- Boarded apartment with weird lanterns\n"
+"- Storage with Stalburg flag\n"
+"- Bricked apartment you can see into"
+msgstr ""
+"O chefe vai sair da cadeia qualquer dia desses. Conhecendo ele, vai voltar bravo pra caramba e meio pirado.\n"
+"\n"
+"Consegui uma garrafa de Sukka Junior, aquele vinho caro de qualidade, que eu vi num vídeo do Zigzag.\n"
+"\n"
+"Deixei presente bem embrulhadinho na cobertura dele.\n"
+"\n"
+"Dá um jeito de limpar a cobertura antes do chefão voltar.\n"
+"\n"
+"Código da porta:\n"
+"- Máquina de cogumelo\n"
+"- Apartamento tapado com tábua e umas lanterna esquisita\n"
+"- Depósito com bandeira de Stalburg\n"
+"- Apartamento fechado com tijolo que dá pra ver dentro"
+
+#: Content/Notes/Tenement Deekula Mine Entrance/Hanss.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Deekula Mine Entrance/Hanss.asset.title"
+msgid "Letter to Hanss"
+msgstr "Carta para Hanss"
+
+#: Content/Notes/Tenement Deekula Mine Entrance/Hanss.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Deekula Mine Entrance/Hanss.asset.content"
+msgid ""
+"Hanss,\n"
+"\n"
+"\n"
+"That radio message you sent really helped me locate the place. I have reason to believe that he is likely inside, but the gates are closed. It appears that the entire place has been abandoned or, perhaps, sealed off intentionally. Unfortunately, the keypad appears to be without power, rendering me unable to enter the required code. Something is terribly wrong and I don't like it. That radio message doesn't make me feel any better.\n"
+"\n"
+"\n"
+"I think there must be some other way in, probably hidden in those old mine tunnels. The thing is, I don't have a clue where to start looking. I stumbled upon an old map from some guy who used to work at SNW, but it's not shedding any light on where that second entrance might be.\n"
+"\n"
+"\n"
+"This situation is getting pretty complicated, and I share your unease about it. I'm going to keep searching and try to figure out what's going on here, so you can finally get the answers you've been looking for.\n"
+"\n"
+"\n"
+"Be careful."
+msgstr ""
+"Hanss,\n"
+"\n"
+"\n"
+"Aquela mensagem de rádio que você mandou me ajudou muito a localizar o lugar. Tenho motivos para acreditar que ele provavelmente está lá dentro, mas os portões estão fechados. Parece que o lugar inteiro foi abandonado ou, quem sabe, lacrado de propósito. Infelizmente, o teclado numérico parece estar sem energia, então não consigo digitar o código necessário. Tem alguma coisa muito errada, e eu não estou gostando nada disso. Aquela mensagem de rádio não me deixa nem um pouco mais tranquilo.\n"
+"\n"
+"\n"
+"Acho que deve haver outro jeito de entrar, provavelmente escondido naqueles túneis antigos da mina. O problema é que não faço a menor ideia de por onde começar a procurar. Dei de cara com um mapa antigo de um cara que trabalhava na SNW, mas ele não esclarece nada sobre onde essa segunda entrada pode estar.\n"
+"\n"
+"\n"
+"A situação está ficando bem complicada, e eu compartilho da sua inquietação. Vou continuar procurando e tentar entender o que está acontecendo aqui, para que você finalmente tenha as respostas que vem procurando.\n"
+"\n"
+"\n"
+"Tome cuidado."
+
+#: Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor David Lund.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor David Lund.asset.title"
+msgid "Taking care of things for you, my lovely neighbor!"
+msgstr "Resolvendo as coisas para você, meu adorável vizinho!"
+
+#: Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor David Lund.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor David Lund.asset.content"
+msgid ""
+"The toll bridge owner. He wasn’t exactly nice to you, was he? But don’t worry. I took care of it. He won’t be a problem for you anymore.\n"
+"\n"
+"Sometimes, people just need a little reminder of who they’re dealing with.\n"
+"I’m always here to help.\n"
+"\n"
+"Your thoughtful neighbor"
+msgstr ""
+"O dono da ponte do pedágio. Ele não foi exatamente legal com você, né? Mas não se preocupe. Eu dei um jeito nisso. Ele não vai mais ser problema para você.\n"
+"\n"
+"Às vezes, as pessoas só precisam de um lembretezinho de com quem estão lidando.\n"
+"Estou sempre aqui para ajudar.\n"
+"\n"
+"Seu vizinho atencioso"
+
+#: Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 1.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 1.asset.title"
+msgid "I miss you my dear neighbor!"
+msgstr "Que saudade de você, meu querido vizinho!"
+
+#: Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 1.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 1.asset.content"
+msgid ""
+"I hope you’re doing well, my lovely neighbor!\n"
+"\n"
+"I'm a little worried about you, but not too much! Just enough to write this lovely letter for you!\n"
+"\n"
+"I mean maybe I should visit more often, you know! It's just so fun to visit there while you're sleeping! Haha!\n"
+"\n"
+"So many memories, waiting to happen… again!\n"
+"\n"
+"I really want to see your charming face, my lovely neighbor!"
+msgstr ""
+"Espero que você esteja bem, meu adorável vizinho!\n"
+"\n"
+"Estou um pouquinho preocupado com você, mas não muito! Só o suficiente para escrever esta cartinha adorável para você!\n"
+"\n"
+"Quer dizer, talvez eu devesse visitar mais vezes, sabe! É tão divertido fazer uma visitinha enquanto você está dormindo! Haha!\n"
+"\n"
+"Tantas lembranças esperando para acontecer… de novo!\n"
+"\n"
+"Quero muito ver o seu rostinho encantador, meu adorável vizinho!"
+
+#: Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 10.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 10.asset.title"
+msgid "A friendly reminder, my dear neighbor"
+msgstr "Um lembrete amigável, meu querido vizinho"
+
+#: Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 10.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 10.asset.content"
+msgid ""
+"Not everyone is as nice as they seem.\n"
+"People wear masks. You can’t trust them all.\n"
+"\n"
+"But you can always trust me, neighbor.\n"
+"I’m always here for you. Always.\n"
+"\n"
+"Your loyal neighbor"
+msgstr ""
+"Nem todo mundo é tão legal quanto parece.\n"
+"As pessoas usam máscaras. Não dá para confiar em todas.\n"
+"\n"
+"Mas em mim você sempre pode confiar, vizinho.\n"
+"Estou sempre aqui por você. Sempre.\n"
+"\n"
+"Seu vizinho leal"
+
+#: Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 2.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 2.asset.title"
+msgid "I've been thinking, lately, my dear neighbor"
+msgstr "Andei pensando, ultimamente, meu querido vizinho"
+
+#: Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 2.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 2.asset.content"
+msgid ""
+"I have been thinking about this place and I realised that I really hate the noisy neighbors. The neighbors who don’t say hello. \n"
+"\n"
+"They don’t belong here, do they?\n"
+"\n"
+"I think this place should be for us! Just you, and me, and the quiet walls. Maybe I should make sure that no one else comes or stays here!\n"
+"\n"
+"But, enough about them.\n"
+"\n"
+"More importantly, have you, been eating? Properly?\n"
+"You look a little pale… I was going to make turnip soup for you! \n"
+"\n"
+"But I didn't find you and there was someone in your apartment!\n"
+"\n"
+"But don't worry! I took care of him!\n"
+"\n"
+"I’m always here. Watching. Listening.\n"
+"\n"
+"Your devoted neighbor"
+msgstr ""
+"Andei pensando neste lugar e percebi que eu odeio mesmo os vizinhos barulhentos. Os vizinhos que não dão bom-dia. \n"
+"\n"
+"Eles não pertencem a este lugar, não é?\n"
+"\n"
+"Acho que este lugar deveria ser nosso! Só você, eu e as paredes silenciosas. Talvez eu devesse garantir que mais ninguém venha ou fique aqui!\n"
+"\n"
+"Mas chega de falar deles.\n"
+"\n"
+"O mais importante: você, tem comido? Direitinho?\n"
+"Você está meio pálido… Eu ia fazer sopa de nabo para você! \n"
+"\n"
+"Mas não te encontrei, e tinha alguém no seu apartamento!\n"
+"\n"
+"Mas não se preocupe! Eu dei um jeito nele!\n"
+"\n"
+"Estou sempre aqui. Observando. Escutando.\n"
+"\n"
+"Seu vizinho dedicado"
+
+#: Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 3.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 3.asset.title"
+msgid "I have to warn you, my dear neighbor!"
+msgstr "Preciso te avisar, meu querido vizinho!"
+
+#: Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 3.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 3.asset.content"
+msgid ""
+"Yes, I have something important to tell you!\n"
+"\n"
+"Do NOT eat those damn green mushrooms!\n"
+"Do NOT smoke anything! Especially not those green cigarettes!\n"
+"Do NOT drink alcohol! Well, sure, you can sell it to the others!\n"
+"\n"
+"They’re not good for you!\n"
+"\n"
+"Warmest warnings,\n"
+"Your lovely neighbor.\n"
+msgstr ""
+"Sim, tenho uma coisa importante para te contar!\n"
+"\n"
+"NÃO coma esses malditos cogumelos verdes!\n"
+"NÃO fume nada! Principalmente aqueles cigarros verdes!\n"
+"NÃO beba álcool! Bom, tá, você pode vender para os outros!\n"
+"\n"
+"Isso não faz bem para você!\n"
+"\n"
+"Calorosos avisos,\n"
+"Seu adorável vizinho.\n"
+
+#: Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 4.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 4.asset.title"
+msgid "About your credit card, my dear neighbor"
+msgstr "Sobre o seu cartão de crédito, meu querido vizinho"
+
+#: Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 4.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 4.asset.content"
+msgid ""
+"You wouldn’t happen to be missing your credit card, would you?\n"
+"\n"
+"Because a funny thing just happened to me! I found your card in my pocket this morning, and I have no idea how it got there!\n"
+"\n"
+"But I think it was your old credit card anyway... so I just destroyed it!\n"
+"\n"
+"If you want a new one, just call the bank! I think the phone booth has their number!\n"
+"\n"
+"Your lovely neighbor!"
+msgstr ""
+"Por acaso você não está sentindo falta do seu cartão de crédito, está?\n"
+"\n"
+"Porque aconteceu uma coisa engraçada comigo! Achei o seu cartão no meu bolso hoje de manhã, e não faço ideia de como ele foi parar lá!\n"
+"\n"
+"Mas acho que era o seu cartão antigo, de qualquer jeito... então eu destruí!\n"
+"\n"
+"Se quiser um novo, é só ligar para o banco! Acho que a cabine telefônica tem o número deles!\n"
+"\n"
+"Seu adorável vizinho!"
+
+#: Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 5.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 5.asset.title"
+msgid "Have you seen your cat lately, my lovely neighbor?"
+msgstr "Tem visto o seu gato ultimamente, meu adorável vizinho?"
+
+#: Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 5.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 5.asset.content"
+msgid ""
+"I have some bad news for you my dear neighbor!\n"
+"\n"
+"I found a dead cat!\n"
+"\n"
+"I was like \"Oh no, this must be my neighbor’s cat!\"\n"
+"\n"
+"But I can't remember if you still have a cat! I think you had one?\n"
+"\n"
+"I mean, it looked familiar. Maybe it was someone else’s. Or no one’s at all.\n"
+"\n"
+"Your best neighbor"
+msgstr ""
+"Tenho uma má notícia para você, meu querido vizinho!\n"
+"\n"
+"Achei um gato morto!\n"
+"\n"
+"Eu fiquei tipo: “Ah, não, deve ser o gato do meu vizinho!”\n"
+"\n"
+"Mas não lembro se você ainda tem gato! Acho que você tinha um?\n"
+"\n"
+"Quer dizer, ele parecia familiar. Talvez fosse de outra pessoa. Ou de ninguém.\n"
+"\n"
+"Seu melhor vizinho"
+
+#: Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 6.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 6.asset.title"
+msgid "My sweetest neighbor"
+msgstr "Meu vizinho mais docinho"
+
+#: Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 6.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 6.asset.content"
+msgid ""
+"I was going to invite you over for a tea party!\n"
+"\n"
+"A real one! With cups! And maybe even cookies!\n"
+"\n"
+"I brewed something special... picked the ingredients myself.\n"
+"But then... I tasted it.\n"
+"And it was… terrible.\n"
+"No, worse than terrible.\n"
+"It tasted like boiled rat and wet carpet!\n"
+"\n"
+"So, I changed my mind.\n"
+"\n"
+"I think you deserve better tea.\n"
+"\n"
+"Next time, maybe.\n"
+"\n"
+"Your greatest neighbor!"
+msgstr ""
+"Eu ia te convidar para um chá da tarde!\n"
+"\n"
+"Um de verdade! Com xícaras! E talvez até biscoitos!\n"
+"\n"
+"Preparei uma coisa especial... colhi os ingredientes eu mesmo.\n"
+"Mas aí... eu provei.\n"
+"E estava… horrível.\n"
+"Não, pior que horrível.\n"
+"Tinha gosto de rato cozido e carpete molhado!\n"
+"\n"
+"Então, mudei de ideia.\n"
+"\n"
+"Acho que você merece um chá melhor.\n"
+"\n"
+"Quem sabe da próxima vez.\n"
+"\n"
+"Seu vizinho número um!"
+
+#: Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 7.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 7.asset.title"
+msgid "Dear neighbor, don’t forget your pills today!"
+msgstr "Querido vizinho, não esqueça seus remédios hoje!"
+
+#: Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 7.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 7.asset.content"
+msgid ""
+"Remember the painkillers and the ones that make you happy!\n"
+"\n"
+"With care,\n"
+"Your ever-watchful neighbor"
+msgstr ""
+"Lembre dos analgésicos e daqueles que deixam você feliz!\n"
+"\n"
+"Com carinho,\n"
+"Seu vizinho sempre de olho"
+
+#: Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 8.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 8.asset.title"
+msgid "Just a little reminder, my sleepy neighbor"
+msgstr "Só um lembretezinho, meu vizinho dorminhoco"
+
+#: Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 8.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 8.asset.content"
+msgid ""
+"I might stop by soon, but only while you’re sleeping.\n"
+"You won’t even notice, I’m sure.\n"
+"Just a quick check-in, nothing too strange, I promise.\n"
+"\n"
+"Your caring neighbor"
+msgstr ""
+"Talvez eu dê uma passada aí em breve, mas só enquanto você estiver dormindo.\n"
+"Você nem vai perceber, tenho certeza.\n"
+"Só uma checadinha rápida, nada muito estranho, prometo.\n"
+"\n"
+"Seu vizinho carinhoso"
+
+#: Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 9.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 9.asset.title"
+msgid "Is everything okay, my dear neighbor?"
+msgstr "Está tudo bem, meu querido vizinho?"
+
+#: Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 9.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor Random Mail 9.asset.content"
+msgid ""
+"Tell me, do you ever feel like things are going just a little too well?\n"
+"Like everything is smooth, almost too smooth?\n"
+"It’s a funny thing, isn’t it? When everything just falls into place.\n"
+"\n"
+"But don’t worry.\n"
+"I’ll make sure you remember what it’s like when things aren’t so perfect.\n"
+"I’ll remind you.\n"
+"I’ll remind you well.\n"
+"\n"
+"Your dearest neighbor"
+msgstr ""
+"Me diz uma coisa: você às vezes sente que as coisas estão indo um pouquinho bem demais?\n"
+"Tipo, tudo tranquilo, quase tranquilo demais?\n"
+"É engraçado, né? Quando tudo simplesmente se encaixa.\n"
+"\n"
+"Mas não se preocupe.\n"
+"Eu vou garantir que você lembre como é quando as coisas não são tão perfeitas.\n"
+"Eu vou te lembrar.\n"
+"Vou te lembrar direitinho.\n"
+"\n"
+"Seu vizinho mais querido"
+
+#: Content/Notes/Tenement Events/Crazy Neighbor/Crazy Neighbor.asset
+#, fuzzy
+msgctxt "BookInfo.crazy_neighbor.title"
+msgid "Crazy Neighbor"
+msgstr "Vizinho maluco"
+
+#: Content/Notes/Tests/Long test placeholder note with long placeholder text.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Long test placeholder note with long placeholder text.asset.title"
+msgid "Long test placeholder note with long placeholder text"
+msgstr "Nota de teste longa com texto de exemplo longo"
+
+#: Content/Notes/Tests/Long test placeholder note with long placeholder text.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Long test placeholder note with long placeholder text.asset.content"
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+
+#: Content/Notes/Tests/Test1.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test1.asset.title"
+msgid "TEST 1"
+msgstr "TESTE 1"
+
+#: Content/Notes/Tests/Test1.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test1.asset.content"
+msgid ""
+"TEST 1\n"
+"\n"
+"\n"
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+msgstr ""
+"TESTE 1\n"
+"\n"
+"\n"
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+
+#: Content/Notes/Tests/Test10.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test10.asset.title"
+msgid "TEST 10"
+msgstr "TESTE 10"
+
+#: Content/Notes/Tests/Test10.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test10.asset.content"
+msgid "TEST 10"
+msgstr "TESTE 10"
+
+#: Content/Notes/Tests/Test11.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test11.asset.title"
+msgid "TEST 11"
+msgstr "TESTE 11"
+
+#: Content/Notes/Tests/Test11.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test11.asset.content"
+msgid "TEST 11"
+msgstr "TESTE 11"
+
+#: Content/Notes/Tests/Test12.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test12.asset.title"
+msgid "TEST 12"
+msgstr "TESTE 12"
+
+#: Content/Notes/Tests/Test12.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test12.asset.content"
+msgid "TEST 12"
+msgstr "TESTE 12"
+
+#: Content/Notes/Tests/Test13.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test13.asset.title"
+msgid "TEST 13"
+msgstr "TESTE 13"
+
+#: Content/Notes/Tests/Test13.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test13.asset.content"
+msgid ""
+"TEST 13\n"
+"\n"
+"\n"
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+msgstr ""
+"TESTE 13\n"
+"\n"
+"\n"
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+
+#: Content/Notes/Tests/Test14.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test14.asset.title"
+msgid "TEST 14"
+msgstr "TESTE 14"
+
+#: Content/Notes/Tests/Test14.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test14.asset.content"
+msgid "TEST 14"
+msgstr "TESTE 14"
+
+#: Content/Notes/Tests/Test15.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test15.asset.title"
+msgid "TEST 15"
+msgstr "TESTE 15"
+
+#: Content/Notes/Tests/Test15.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test15.asset.content"
+msgid "TEST 15"
+msgstr "TESTE 15"
+
+#: Content/Notes/Tests/Test16.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test16.asset.title"
+msgid "TEST 16"
+msgstr "TESTE 16"
+
+#: Content/Notes/Tests/Test16.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test16.asset.content"
+msgid "TEST 16"
+msgstr "TESTE 16"
+
+#: Content/Notes/Tests/Test2.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test2.asset.title"
+msgid "TEST 2"
+msgstr "TESTE 2"
+
+#: Content/Notes/Tests/Test2.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test2.asset.content"
+msgid ""
+"TEST 2\n"
+"\n"
+"\n"
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+msgstr ""
+"TESTE 2\n"
+"\n"
+"\n"
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis."
+
+#: Content/Notes/Tests/Test3.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test3.asset.title"
+msgid "TEST 3"
+msgstr "TESTE 3"
+
+#: Content/Notes/Tests/Test3.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test3.asset.content"
+msgid "TEST 3"
+msgstr "TESTE 3"
+
+#: Content/Notes/Tests/Test4.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test4.asset.title"
+msgid "TEST 4"
+msgstr "TESTE 4"
+
+#: Content/Notes/Tests/Test4.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test4.asset.content"
+msgid "TEST 4"
+msgstr "TESTE 4"
+
+#: Content/Notes/Tests/Test5.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test5.asset.title"
+msgid "TEST 5"
+msgstr "TESTE 5"
+
+#: Content/Notes/Tests/Test5.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test5.asset.content"
+msgid "TEST 5"
+msgstr "TESTE 5"
+
+#: Content/Notes/Tests/Test6.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test6.asset.title"
+msgid "TEST 6"
+msgstr "TESTE 6"
+
+#: Content/Notes/Tests/Test6.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test6.asset.content"
+msgid "TEST 6"
+msgstr "TESTE 6"
+
+#: Content/Notes/Tests/Test7.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test7.asset.title"
+msgid "TEST 7"
+msgstr "TESTE 7"
+
+#: Content/Notes/Tests/Test7.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test7.asset.content"
+msgid "TEST 7"
+msgstr "TESTE 7"
+
+#: Content/Notes/Tests/Test8.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test8.asset.title"
+msgid "TEST 8"
+msgstr "TESTE 8"
+
+#: Content/Notes/Tests/Test8.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test8.asset.content"
+msgid "TEST 8"
+msgstr "TESTE 8"
+
+#: Content/Notes/Tests/Test9.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test9.asset.title"
+msgid "TEST 9"
+msgstr "TESTE 9"
+
+#: Content/Notes/Tests/Test9.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tests/Test9.asset.content"
+msgid "TEST 9"
+msgstr "TESTE 9"
+
+#: Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 1.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 1.asset.title"
+msgid "Torn Page 1"
+msgstr "Página rasgada 1"
+
+#: Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 1.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 1.asset.content"
+msgid ""
+"...One of the sources was supposed to be out here in the middle of nowhere, but the meters showed nothing. It felt exhausting to come such a long way without finding anything. \n"
+"\n"
+"I wrote the coordinates down with a red pencil and drew a fish next to them. A red herring, after all. Or was it?\n"
+"\n"
+"Looking back on it now, the source might have been buried so deep underground that the meters simply couldn't detect it, or maybe it was somewhere up in the sky..."
+msgstr ""
+"...Uma das fontes devia estar aqui fora, no meio do nada, mas os medidores não mostraram nada. Foi exaustivo vir de tão longe sem encontrar coisa alguma. \n"
+"\n"
+"Anotei as coordenadas com um lápis vermelho e desenhei um peixe ao lado. Uma história de pescador, afinal. Ou não?\n"
+"\n"
+"Olhando para trás agora, a fonte talvez estivesse enterrada tão fundo que os medidores simplesmente não conseguiam detectá-la, ou talvez estivesse em algum lugar lá no céu..."
+
+#: Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 2.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 2.asset.title"
+msgid "Torn Page 2"
+msgstr "Página rasgada 2"
+
+#: Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 2.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 2.asset.content"
+msgid ""
+"My diving suit grew heavier with every passing second, the abyssal pressure threatening to crush me in the pitch black.\n"
+"\n"
+"Suddenly, a single, blinding flash seared my eyes.\n"
+"\n"
+"When my vision cleared, I found myself adrift inside a submerged concrete tunnel. The walls of the tunnel were covered in a brown, slimy matter that looked like it was leaking from cracks in the concrete ceiling. Sprouting from the muck on the floor were pulsing red anomalies.\n"
+"\n"
+"They were like red, luminous trees under the water..."
+msgstr ""
+"Meu traje de mergulho ficava mais pesado a cada segundo, e a pressão abissal ameaçava me esmagar na escuridão total.\n"
+"\n"
+"De repente, um único clarão ofuscante queimou meus olhos.\n"
+"\n"
+"Quando minha visão clareou, eu me vi à deriva dentro de um túnel de concreto submerso. As paredes do túnel estavam cobertas por uma matéria marrom e viscosa que parecia vazar das rachaduras no teto de concreto. Do lodo no chão brotavam anomalias vermelhas pulsantes.\n"
+"\n"
+"Pareciam árvores vermelhas e luminosas debaixo d'água..."
+
+#: Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 3.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 3.asset.title"
+msgid "Torn Page 3"
+msgstr "Página rasgada 3"
+
+#: Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 3.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 3.asset.content"
+msgid ""
+"...Every step felt heavier and heavier, and that bright light at the end of the tunnel did not seem to get any closer. \n"
+"\n"
+"It was almost impossible to avoid those glowing red trees that felt like they were made of electricity..."
+msgstr ""
+"...Cada passo parecia mais pesado que o anterior, e aquela luz forte no fim do túnel não parecia ficar mais perto. \n"
+"\n"
+"Era quase impossível desviar daquelas árvores vermelhas brilhantes que pareciam feitas de eletricidade..."
+
+#: Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 4.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 4.asset.title"
+msgid "Torn Page 4"
+msgstr "Página rasgada 4"
+
+#: Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 4.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 4.asset.content"
+msgid ""
+"...He possessed such a charming and intelligent mind, paired with a remarkably kind heart. It made me sick to see someone like him end up this way, and the fact that I left so much unsaid between us just made the pain worse. After all the suffering we had endured, I refused to accept this.\n"
+"\n"
+msgstr ""
+"...Ele tinha uma mente tão encantadora e inteligente, aliada a um coração extraordinariamente bondoso. Me fazia mal ver alguém como ele terminar assim, e saber que deixei tanta coisa por dizer entre nós só piorava a dor. Depois de todo o sofrimento que tínhamos passado, eu me recusava a aceitar aquilo.\n"
+"\n"
+
+#: Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 5.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 5.asset.title"
+msgid "Torn Page 5"
+msgstr "Página rasgada 5"
+
+#: Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 5.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 5.asset.content"
+msgid ""
+"...It seems to have affected him in exactly the same way it did Lloyd, though he does not seem to be fixated on teddy bears.\n"
+"\n"
+"Lloyd loved buying teddy bears for his daughter so much that he started collecting them himself, and now that entire collection is gone. I wonder if Lloyd is hiding in a hole somewhere with his giant stash of stuffed animals, or if he is already dead.\n"
+"\n"
+"It is hard to imagine how a man driven to such madness could survive alone in a world like this..."
+msgstr ""
+"...Parece que aquilo o afetou exatamente do mesmo jeito que afetou Lloyd, embora ele não pareça ter fixação por ursinhos de pelúcia.\n"
+"\n"
+"Lloyd adorava tanto comprar ursinhos de pelúcia para a filha que começou a colecioná-los ele mesmo, e agora a coleção inteira sumiu. Fico me perguntando se Lloyd está escondido em algum buraco com seu estoque gigante de bichos de pelúcia, ou se já está morto.\n"
+"\n"
+"É difícil imaginar como um homem levado a tamanha loucura conseguiria sobreviver sozinho num mundo como este..."
+
+#: Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 6.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 6.asset.title"
+msgid "Torn Page 6"
+msgstr "Página rasgada 6"
+
+#: Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 6.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 6.asset.content"
+msgid ""
+"...I knew we had only scratched the surface, yet I felt we finally had a grasp on the reality of it.\n"
+"\n"
+"From what I understood from his description, it has several layers, or maybe it is more like a gradient. It could even be a tunnel. You cannot walk it from end to end, but you can reach the center.\n"
+"\n"
+"Theoretically, that means something else could walk from the far side to meet us in the middle, but nothing has shown up yet. We have attempted to transmit messages, receiving nothing but harsh noise in return.\n"
+"\n"
+"I cannot help but wonder why they would engineer such a massive creation if they never intended to use it..."
+msgstr ""
+"...Eu sabia que tínhamos apenas arranhado a superfície, mas sentia que finalmente estávamos compreendendo a realidade daquilo.\n"
+"\n"
+"Pelo que entendi da descrição dele, aquilo tem várias camadas, ou talvez seja mais como um gradiente. Pode até ser um túnel. Não é possível percorrê-lo de ponta a ponta, mas é possível chegar ao centro.\n"
+"\n"
+"Em teoria, isso significa que outra coisa poderia vir do lado de lá para nos encontrar no meio, mas nada apareceu ainda. Tentamos transmitir mensagens, mas só recebemos um ruído áspero em resposta.\n"
+"\n"
+"Não consigo deixar de me perguntar por que construiriam uma criação tão colossal se nunca pretenderam usá-la..."
+
+#: Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 7.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 7.asset.title"
+msgid "Torn Page 7"
+msgstr "Página rasgada 7"
+
+#: Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 7.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 7.asset.content"
+msgid ""
+"...I knew I could never speak a word of this to anyone, yet I felt a desperate need for the world to know about him, about what we were.\n"
+"\n"
+"Perhaps one day I will finally tell our story.\n"
+"\n"
+"Maybe I should, even if no one is going to believe me.\n"
+"\n"
+"Then again, maybe it is safer if no one believes a single word..."
+msgstr ""
+"...Eu sabia que jamais poderia contar uma palavra disso a ninguém, mas sentia uma necessidade desesperada de que o mundo soubesse dele, do que nós éramos.\n"
+"\n"
+"Talvez um dia eu finalmente conte a nossa história.\n"
+"\n"
+"Talvez eu devesse, mesmo que ninguém vá acreditar em mim.\n"
+"\n"
+"Por outro lado, talvez seja mais seguro se ninguém acreditar em uma única palavra..."
+
+#: Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 8.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 8.asset.title"
+msgid "Torn Page 8"
+msgstr "Página rasgada 8"
+
+#: Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 8.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 8.asset.content"
+msgid ""
+"...I felt deeply sorry about what had happened to his daughter.\n"
+"\n"
+"I could still see the sorrow lurking behind Lloyd's eyes, even if the rest of his mind was completely gone. I simply could not do it. I felt so powerless at that moment.\n"
+"\n"
+"I could not bring myself to end his misery. I only stood and watched as he hobbled away, clutching a single teddy bear in his hand.\n"
+"\n"
+"I knew that despite losing his sanity, he would probably survive and wander in this city for years, leaving those bears behind..."
+msgstr ""
+"...Senti muitíssimo pelo que aconteceu com a filha dele.\n"
+"\n"
+"Eu ainda conseguia ver a tristeza escondida atrás dos olhos de Lloyd, mesmo que o resto da mente dele tivesse ido embora por completo. Simplesmente não consegui. Eu me senti tão impotente naquele momento.\n"
+"\n"
+"Não tive coragem de acabar com o sofrimento dele. Só consegui ficar olhando enquanto ele se afastava mancando, agarrado a um único ursinho de pelúcia.\n"
+"\n"
+"Eu sabia que, mesmo tendo perdido a sanidade, ele provavelmente sobreviveria e vagaria por esta cidade durante anos, deixando aqueles ursinhos pelo caminho..."
+
+#: Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 9.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 9.asset.title"
+msgid "Torn Page 9"
+msgstr "Página rasgada 9"
+
+#: Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 9.asset
+#, fuzzy
+msgctxt "NoteInfo.Assets/Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees Torn Page 9.asset.content"
+msgid ""
+"...The situation is becoming deeply problematic.\n"
+"\n"
+"Alvar warned me it would come to this. We simply cannot know how many individuals the other side has influenced, particularly when they are all so careful to conceal their violent and cult-like behavior. To guarantee the safety of the Project, we may have no other option left but to initiate a purge..."
+msgstr ""
+"...A situação está se tornando profundamente problemática.\n"
+"\n"
+"Alvar me avisou que chegaria a isso. Simplesmente não temos como saber quantos indivíduos o outro lado influenciou, principalmente quando todos são tão cuidadosos em ocultar seu comportamento violento e de seita. Para garantir a segurança do Projeto, talvez não nos reste outra opção senão iniciar um expurgo..."
+
+#: Content/Notes/Tunnel of Water Trees/Tunnel of Water Trees.asset
+#, fuzzy
+msgctxt "BookInfo.tunnel_of_water_trees.title"
+msgid "Tunnel of Water Trees"
+msgstr "Túnel das Árvores de Água"
+

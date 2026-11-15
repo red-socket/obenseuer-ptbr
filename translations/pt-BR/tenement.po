@@ -1,0 +1,32 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Obenseuer PT-BR\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Content/Tenement/Contractors/Ken Nakahara.asset
+#, fuzzy
+msgctxt "TenementContractor.KenNakahara.contractorName"
+msgid "Ken Nakahara"
+msgstr "Ken Nakahara"
+
+#: Content/Tenement/Contractors/Rob Madsen.asset
+#, fuzzy
+msgctxt "TenementContractor.RobMadsen.contractorName"
+msgid "Rob Madsen"
+msgstr "Rob Madsen"
+
+#: Content/Tenement/Contractors/Samuel Jonasson.asset
+#, fuzzy
+msgctxt "TenementContractor.SamuelJonasson.contractorName"
+msgid "Samuel Jonasson"
+msgstr "Samuel Jonasson"
+
+#: Content/Tenement/Contractors/Urho Siltanen.asset
+#, fuzzy
+msgctxt "TenementContractor.UrhoSiltanen.contractorName"
+msgid "Urho Siltanen"
+msgstr "Urho Siltanen"
+

@@ -1,0 +1,1514 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Obenseuer PT-BR\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Content/Prefabs/Building System/Blueprints/Bathroom/Makeshift Barrel Sink Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Bathroom/Makeshift Barrel Sink Blueprint.asset.itemName"
+msgid "Blue Plastic Barrel Sink Blueprint"
+msgstr "Projeto de pia de barril plástico azul"
+
+#: Content/Prefabs/Building System/Blueprints/Bathroom/Makeshift IBC Sink Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Bathroom/Makeshift IBC Sink Blueprint.asset.itemName"
+msgid "Makeshift IBC Sink Blueprint"
+msgstr "Projeto de pia improvisada de IBC"
+
+#: Content/Prefabs/Building System/Blueprints/Bathroom/Makeshift Shower.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Bathroom/Makeshift Shower.asset.itemName"
+msgid "Makeshift Shower Blueprint"
+msgstr "Projeto de chuveiro improvisado"
+
+#: Content/Prefabs/Building System/Blueprints/Bathroom/Makeshift Sink 2 Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Bathroom/Makeshift Sink 2 Blueprint.asset.itemName"
+msgid "Makeshift Barrel Sink Blueprint"
+msgstr "Projeto de pia improvisada de barril"
+
+#: Content/Prefabs/Building System/Blueprints/Bathroom/Makeshift Sink Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Bathroom/Makeshift Sink Blueprint.asset.itemName"
+msgid "Makeshift Barrel Sink Blueprint"
+msgstr "Projeto de pia improvisada de barril"
+
+#: Content/Prefabs/Building System/Blueprints/Bathroom/Makeshift Toilet Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Bathroom/Makeshift Toilet Blueprint.asset.itemName"
+msgid "Makeshift Toilet Blueprint"
+msgstr "Projeto de privada improvisada"
+
+#: Content/Prefabs/Building System/Blueprints/Beds/Floor Bed Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Beds/Floor Bed Blueprint.asset.itemName"
+msgid "Floor Bed Blueprint"
+msgstr "Projeto de cama de chão"
+
+#: Content/Prefabs/Building System/Blueprints/Beds/Plank Bed Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Beds/Plank Bed Blueprint.asset.itemName"
+msgid "Plank Bed Blueprint"
+msgstr "Projeto de cama de tábuas"
+
+#: Content/Prefabs/Building System/Blueprints/Beds/Shabby Bed Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Beds/Shabby Bed Blueprint.asset.itemName"
+msgid "Shabby Bed Blueprint"
+msgstr "Projeto de cama surrada"
+
+#: Content/Prefabs/Building System/Blueprints/Beds/Shabby Bed Frame Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Beds/Shabby Bed Frame Blueprint.asset.itemName"
+msgid "Shabby Bed Frame Blueprint"
+msgstr "Projeto de estrado de cama surrado"
+
+#: Content/Prefabs/Building System/Blueprints/Cages/Cat Cage Large.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Cages/Cat Cage Large.asset.itemName"
+msgid "Large Cat Cage Blueprint"
+msgstr "Projeto de gaiola de gato grande"
+
+#: Content/Prefabs/Building System/Blueprints/Cages/Cat Cage Medium.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Cages/Cat Cage Medium.asset.itemName"
+msgid "Medium Cat Cage Blueprint"
+msgstr "Projeto de gaiola de gato média"
+
+#: Content/Prefabs/Building System/Blueprints/Cages/Cat Cage Small.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Cages/Cat Cage Small.asset.itemName"
+msgid "Small Cat Cage Blueprint"
+msgstr "Projeto de gaiola de gato pequena"
+
+#: Content/Prefabs/Building System/Blueprints/Cages/Chicken Coop Large.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Cages/Chicken Coop Large.asset.itemName"
+msgid "Large Chicken Coop Blueprint"
+msgstr "Projeto de galinheiro grande"
+
+#: Content/Prefabs/Building System/Blueprints/Cages/Chicken Coop Small.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Cages/Chicken Coop Small.asset.itemName"
+msgid "Small Chicken Coop Blueprint"
+msgstr "Projeto de galinheiro pequeno"
+
+#: Content/Prefabs/Building System/Blueprints/Cages/Rat Cage Large.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Cages/Rat Cage Large.asset.itemName"
+msgid "Large Rat Cage Blueprint"
+msgstr "Projeto de gaiola de rato grande"
+
+#: Content/Prefabs/Building System/Blueprints/Cages/Rat Cage Medium.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Cages/Rat Cage Medium.asset.itemName"
+msgid "Medium Rat Cage Blueprint"
+msgstr "Projeto de gaiola de rato média"
+
+#: Content/Prefabs/Building System/Blueprints/Cages/Rat Cage Small.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Cages/Rat Cage Small.asset.itemName"
+msgid "Small Rat Cage Blueprint"
+msgstr "Projeto de gaiola de rato pequena"
+
+#: Content/Prefabs/Building System/Blueprints/Cages/Rat Cage Tiny.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Cages/Rat Cage Tiny.asset.itemName"
+msgid "Tiny Rat Cage Blueprint"
+msgstr "Projeto de gaiola de rato minúscula"
+
+#: Content/Prefabs/Building System/Blueprints/Chairs/Bucket Toilet Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Chairs/Bucket Toilet Blueprint.asset.itemName"
+msgid "Bucket Toilet Blueprint"
+msgstr "Projeto de privada de balde"
+
+#: Content/Prefabs/Building System/Blueprints/Chairs/Cottage Bench Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Chairs/Cottage Bench Blueprint.asset.itemName"
+msgid "Cottage Bench Blueprint"
+msgstr "Projeto de banco rústico"
+
+#: Content/Prefabs/Building System/Blueprints/Chairs/Dressing Room Bench Large.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Chairs/Dressing Room Bench Large.asset.itemName"
+msgid "Large Dressing Room Bench Blueprint"
+msgstr "Projeto de banco de vestiário grande"
+
+#: Content/Prefabs/Building System/Blueprints/Chairs/Dressing Room Bench.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Chairs/Dressing Room Bench.asset.itemName"
+msgid "Dressing Room Bench Blueprint"
+msgstr "Projeto de banco de vestiário"
+
+#: Content/Prefabs/Building System/Blueprints/Chairs/Plank Armchair Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Chairs/Plank Armchair Blueprint.asset.itemName"
+msgid "Plank Armchair Blueprint"
+msgstr "Projeto de poltrona de tábuas"
+
+#: Content/Prefabs/Building System/Blueprints/Chairs/Plank Chair Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Chairs/Plank Chair Blueprint.asset.itemName"
+msgid "Plank Chair Blueprint"
+msgstr "Projeto de cadeira de tábuas"
+
+#: Content/Prefabs/Building System/Blueprints/Chairs/Plank Stool Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Chairs/Plank Stool Blueprint.asset.itemName"
+msgid "Plank Stool Blueprint"
+msgstr "Projeto de banquinho de tábuas"
+
+#: Content/Prefabs/Building System/Blueprints/Chairs/Small Wooden Stool.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Chairs/Small Wooden Stool.asset.itemName"
+msgid "Small Wooden Step Stool Blueprint"
+msgstr "Projeto de banquinho-escada de madeira pequeno"
+
+#: Content/Prefabs/Building System/Blueprints/Chairs/Wooden Bench Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Chairs/Wooden Bench Blueprint.asset.itemName"
+msgid "Wooden Bench Blueprint"
+msgstr "Projeto de banco de madeira"
+
+#: Content/Prefabs/Building System/Blueprints/Chairs/Wooden Chair Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Chairs/Wooden Chair Blueprint.asset.itemName"
+msgid "Wooden Chair Blueprint"
+msgstr "Projeto de cadeira de madeira"
+
+#: Content/Prefabs/Building System/Blueprints/Chairs/Wooden Step Stool.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Chairs/Wooden Step Stool.asset.itemName"
+msgid "Wooden Step Stool Blueprint"
+msgstr "Projeto de banquinho-escada de madeira"
+
+#: Content/Prefabs/Building System/Blueprints/Clutter/Ceiling Lamp Chain.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Clutter/Ceiling Lamp Chain.asset.itemName"
+msgid "Ceiling Lamp Chain Blueprint"
+msgstr "Projeto de corrente para luminária de teto"
+
+#: Content/Prefabs/Building System/Blueprints/Clutter/Metal Chain.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Clutter/Metal Chain.asset.itemName"
+msgid "Metal Chain Blueprint"
+msgstr "Projeto de corrente de metal"
+
+#: Content/Prefabs/Building System/Blueprints/Clutter/Potato Sack.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Clutter/Potato Sack.asset.itemName"
+msgid "Potato Sack Blueprint"
+msgstr "Projeto de saco de batatas"
+
+#: Content/Prefabs/Building System/Blueprints/Clutter/Vegetable Crate Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Clutter/Vegetable Crate Blueprint.asset.itemName"
+msgid "Vegetable Crate Blueprint"
+msgstr "Projeto de caixote de legumes"
+
+#: Content/Prefabs/Building System/Blueprints/Clutter/Violet Pillow.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Clutter/Violet Pillow.asset.itemName"
+msgid "Violet Pillow Blueprint"
+msgstr "Projeto de almofada violeta"
+
+#: Content/Prefabs/Building System/Blueprints/Clutter/Wall Hook.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Clutter/Wall Hook.asset.itemName"
+msgid "Wall Hook Blueprint"
+msgstr "Projeto de gancho de parede"
+
+#: Content/Prefabs/Building System/Blueprints/Clutter/White Pillow.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Clutter/White Pillow.asset.itemName"
+msgid "White Pillow Blueprint"
+msgstr "Projeto de almofada branca"
+
+#: Content/Prefabs/Building System/Blueprints/Clutter/Wooden Crate Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Clutter/Wooden Crate Blueprint.asset.itemName"
+msgid "Wooden Crate Blueprint"
+msgstr "Projeto de caixote de madeira"
+
+#: Content/Prefabs/Building System/Blueprints/Clutter/Wooden Pallet Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Clutter/Wooden Pallet Blueprint.asset.itemName"
+msgid "Pallet Blueprint"
+msgstr "Projeto de palete"
+
+#: Content/Prefabs/Building System/Blueprints/Clutter/Wooden Pallet Half Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Clutter/Wooden Pallet Half Blueprint.asset.itemName"
+msgid "Half Pallet Blueprint"
+msgstr "Projeto de meio palete"
+
+#: Content/Prefabs/Building System/Blueprints/Clutter/Wooden Pallet Quater Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Clutter/Wooden Pallet Quater Blueprint.asset.itemName"
+msgid "Quarter Pallet Blueprint"
+msgstr "Projeto de 1/4 de palete"
+
+#: Content/Prefabs/Building System/Blueprints/Decoration/Big Gear.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Decoration/Big Gear.asset.itemName"
+msgid "Big Gear Blueprint"
+msgstr "Projeto de engrenagem grande"
+
+#: Content/Prefabs/Building System/Blueprints/Decoration/Stolland Clock.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Decoration/Stolland Clock.asset.itemName"
+msgid "Stolland Clock Blueprint"
+msgstr "Projeto de relógio de Stolland"
+
+#: Content/Prefabs/Building System/Blueprints/Generators/Makeshift Battery Bank.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Generators/Makeshift Battery Bank.asset.itemName"
+msgid "Makeshift Battery Bank"
+msgstr "Projeto de banco de baterias improvisado"
+
+#: Content/Prefabs/Building System/Blueprints/Growing/Aquarium.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Growing/Aquarium.asset.itemName"
+msgid "Aquarium Blueprint"
+msgstr "Projeto de aquário"
+
+#: Content/Prefabs/Building System/Blueprints/Growing/Bag of Soil.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Growing/Bag of Soil.asset.itemName"
+msgid "Bag of Soil Blueprint"
+msgstr "Projeto de saco de terra"
+
+#: Content/Prefabs/Building System/Blueprints/Growing/Barrel With Support.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Growing/Barrel With Support.asset.itemName"
+msgid "Barrel Planter With Support Blueprint"
+msgstr "Projeto de vaso de barril com suporte"
+
+#: Content/Prefabs/Building System/Blueprints/Growing/Barrel.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Growing/Barrel.asset.itemName"
+msgid "Barrel Planter Blueprint"
+msgstr "Projeto de vaso de barril"
+
+#: Content/Prefabs/Building System/Blueprints/Growing/Compost.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Growing/Compost.asset.itemName"
+msgid "Compost Blueprint"
+msgstr "Projeto de composteira"
+
+#: Content/Prefabs/Building System/Blueprints/Growing/Flowerbox With Lamp.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Growing/Flowerbox With Lamp.asset.itemName"
+msgid "Flowerbox With Lamp Blueprint"
+msgstr "Projeto de floreira com luminária"
+
+#: Content/Prefabs/Building System/Blueprints/Growing/Flowerbox With Supports.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Growing/Flowerbox With Supports.asset.itemName"
+msgid "Flowerbox With Supports Blueprint"
+msgstr "Projeto de floreira com suportes"
+
+#: Content/Prefabs/Building System/Blueprints/Growing/Flowerbox.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Growing/Flowerbox.asset.itemName"
+msgid "Flowerbox Blueprint"
+msgstr "Projeto de floreira"
+
+#: Content/Prefabs/Building System/Blueprints/Growing/Flowerpot.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Growing/Flowerpot.asset.itemName"
+msgid "Flowerpot Blueprint"
+msgstr "Projeto de vaso de planta"
+
+#: Content/Prefabs/Building System/Blueprints/Growing/Large Flowerpot With Support.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Growing/Large Flowerpot With Support.asset.itemName"
+msgid "Large Flowerpot With Support Blueprint"
+msgstr "Projeto de vaso de planta grande com suporte"
+
+#: Content/Prefabs/Building System/Blueprints/Growing/Mushroom Growing Rack Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Growing/Mushroom Growing Rack Blueprint.asset.itemName"
+msgid "Mushroom Growing Rack Blueprint"
+msgstr "Projeto de estante de cultivo de cogumelos"
+
+#: Content/Prefabs/Building System/Blueprints/Growing/Old Bathtub Growing With Support.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Growing/Old Bathtub Growing With Support.asset.itemName"
+msgid "Old Bathtub With Soil and Support Blueprint"
+msgstr "Projeto de banheira velha com terra e suporte"
+
+#: Content/Prefabs/Building System/Blueprints/Growing/Old Bathtub Growing.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Growing/Old Bathtub Growing.asset.itemName"
+msgid "Old Bathtub With Soil Blueprint"
+msgstr "Projeto de banheira velha com terra"
+
+#: Content/Prefabs/Building System/Blueprints/Growing/Terrarium.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Growing/Terrarium.asset.itemName"
+msgid "Terrarium Blueprint"
+msgstr "Projeto de terrário"
+
+#: Content/Prefabs/Building System/Blueprints/Growing/Tincan.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Growing/Tincan.asset.itemName"
+msgid "Tincan Blueprint"
+msgstr "Projeto de lata"
+
+#: Content/Prefabs/Building System/Blueprints/Junk/Hay Bale.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Junk/Hay Bale.asset.itemName"
+msgid "Hay Bale Blueprint"
+msgstr "Projeto de fardo de feno"
+
+#: Content/Prefabs/Building System/Blueprints/Junk/Hay Bale.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Junk/Hay Bale.asset.itemDetails"
+msgid "Bunch of hay tied together"
+msgstr "Um monte de feno amarrado"
+
+#: Content/Prefabs/Building System/Blueprints/Lights/Candle Cluster 2 Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Lights/Candle Cluster 2 Blueprint.asset.itemName"
+msgid "Candle Cluster 2 Blueprint"
+msgstr "Projeto de conjunto de velas 2"
+
+#: Content/Prefabs/Building System/Blueprints/Lights/Candle Cluster Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Lights/Candle Cluster Blueprint.asset.itemName"
+msgid "Candle Cluster Blueprint"
+msgstr "Projeto de conjunto de velas"
+
+#: Content/Prefabs/Building System/Blueprints/Lights/Candle Large Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Lights/Candle Large Blueprint.asset.itemName"
+msgid "Candle Large Blueprint"
+msgstr "Projeto de vela grande"
+
+#: Content/Prefabs/Building System/Blueprints/Lights/Candle Medium Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Lights/Candle Medium Blueprint.asset.itemName"
+msgid "Candle Medium Blueprint"
+msgstr "Projeto de vela média"
+
+#: Content/Prefabs/Building System/Blueprints/Lights/Candle Small Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Lights/Candle Small Blueprint.asset.itemName"
+msgid "Candle Small Blueprint"
+msgstr "Projeto de vela pequena"
+
+#: Content/Prefabs/Building System/Blueprints/Lights/Plank Ceiling Light Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Lights/Plank Ceiling Light Blueprint.asset.itemName"
+msgid "Plank Ceiling Light Blueprint"
+msgstr "Projeto de luminária de teto de tábuas"
+
+#: Content/Prefabs/Building System/Blueprints/Manufacturing/Anvil.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.anvilBlueprint.itemName"
+msgid "Anvil Blueprint"
+msgstr "Projeto de bigorna"
+
+#: Content/Prefabs/Building System/Blueprints/Manufacturing/Brick Furnace Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Manufacturing/Brick Furnace Blueprint.asset.itemName"
+msgid "Brick Furnace Blueprint"
+msgstr "Projeto de forno de tijolos"
+
+#: Content/Prefabs/Building System/Blueprints/Manufacturing/Chemical Lab Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Manufacturing/Chemical Lab Blueprint.asset.itemName"
+msgid "Chemical Lab Blueprint"
+msgstr "Projeto de laboratório químico"
+
+#: Content/Prefabs/Building System/Blueprints/Manufacturing/Copper Moonshine Still.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Manufacturing/Copper Moonshine Still.asset.itemName"
+msgid "Copper Moonshine Still Blueprint"
+msgstr "Projeto de alambique de cobre"
+
+#: Content/Prefabs/Building System/Blueprints/Manufacturing/Fermenting Barrel Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Manufacturing/Fermenting Barrel Blueprint.asset.itemName"
+msgid "Fermenting Barrel Blueprint"
+msgstr "Projeto de barril fermentador"
+
+#: Content/Prefabs/Building System/Blueprints/Manufacturing/Fermenting Bucket Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Manufacturing/Fermenting Bucket Blueprint.asset.itemName"
+msgid "Fermenting Bucket Blueprint"
+msgstr "Projeto de balde fermentador"
+
+#: Content/Prefabs/Building System/Blueprints/Manufacturing/Fermenting Container Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Manufacturing/Fermenting Container Blueprint.asset.itemName"
+msgid "Fermenting Container Blueprint"
+msgstr "Projeto de recipiente fermentador"
+
+#: Content/Prefabs/Building System/Blueprints/Manufacturing/Loom Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Manufacturing/Loom Blueprint.asset.itemName"
+msgid "Loom Blueprint"
+msgstr "Projeto de tear"
+
+#: Content/Prefabs/Building System/Blueprints/Manufacturing/Makeshift Chemical reactor Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Manufacturing/Makeshift Chemical reactor Blueprint.asset.itemName"
+msgid "Makeshift Chemical Reactor Blueprint"
+msgstr "Projeto de reator químico improvisado"
+
+#: Content/Prefabs/Building System/Blueprints/Manufacturing/Malter Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Manufacturing/Malter Blueprint.asset.itemName"
+msgid "Malter Blueprint"
+msgstr "Projeto de malteadora"
+
+#: Content/Prefabs/Building System/Blueprints/Manufacturing/Mashing Barrel Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Manufacturing/Mashing Barrel Blueprint.asset.itemName"
+msgid "Mashing Barrel Blueprint"
+msgstr "Projeto de barril de fermentação"
+
+#: Content/Prefabs/Building System/Blueprints/Manufacturing/Mashing Kettle Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Manufacturing/Mashing Kettle Blueprint.asset.itemName"
+msgid "Mashing Kettle Blueprint"
+msgstr "Projeto de caldeira de fermentação"
+
+#: Content/Prefabs/Building System/Blueprints/Manufacturing/Medium Moonshine Distillery Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Manufacturing/Medium Moonshine Distillery Blueprint.asset.itemName"
+msgid "Medium Moonshine Distillery Blueprint"
+msgstr "Projeto de alambique médio"
+
+#: Content/Prefabs/Building System/Blueprints/Manufacturing/Moonshine Distillery.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Manufacturing/Moonshine Distillery.asset.itemName"
+msgid "Moonshine Distillery Blueprint"
+msgstr "Projeto de alambique"
+
+#: Content/Prefabs/Building System/Blueprints/Manufacturing/Printing Press.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Manufacturing/Printing Press.asset.itemName"
+msgid "Printing Press Blueprint"
+msgstr "Projeto de prensa tipográfica"
+
+#: Content/Prefabs/Building System/Blueprints/Manufacturing/Sawbuck With Chainsaw.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Manufacturing/Sawbuck With Chainsaw.asset.itemName"
+msgid "Sawbuck With Chainsaw Blueprint"
+msgstr "Projeto de cavalete com motosserra"
+
+#: Content/Prefabs/Building System/Blueprints/Manufacturing/Sawbuck.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Manufacturing/Sawbuck.asset.itemName"
+msgid "Sawbuck Blueprint"
+msgstr "Projeto de cavalete de serra"
+
+#: Content/Prefabs/Building System/Blueprints/Manufacturing/Small Moonshine Distillery Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Manufacturing/Small Moonshine Distillery Blueprint.asset.itemName"
+msgid "Small Moonshine Distillery Blueprint"
+msgstr "Projeto de alambique pequeno"
+
+#: Content/Prefabs/Building System/Blueprints/Manufacturing/Stone Fireplace.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Manufacturing/Stone Fireplace.asset.itemName"
+msgid "Stone Fireplace Blueprint"
+msgstr "Projeto de lareira de pedra"
+
+#: Content/Prefabs/Building System/Blueprints/Rugs/Leather Scrap Rug.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Rugs/Leather Scrap Rug.asset.itemName"
+msgid "Leather Scrap Rug Blueprint"
+msgstr "Projeto de tapete de retalhos de couro"
+
+#: Content/Prefabs/Building System/Blueprints/Rugs/Rag Rug.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Rugs/Rag Rug.asset.itemName"
+msgid "Rag Rug Blueprint"
+msgstr "Projeto de tapete de trapos"
+
+#: Content/Prefabs/Building System/Blueprints/Shelves/Modular Shelf Hex.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Shelves/Modular Shelf Hex.asset.itemName"
+msgid "Hexagonal Modular Shelf Blueprint"
+msgstr "Projeto de estante modular hexagonal"
+
+#: Content/Prefabs/Building System/Blueprints/Shelves/Modular Shelf Rectangle.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Shelves/Modular Shelf Rectangle.asset.itemName"
+msgid "Rectangular Modular Shelf Blueprint"
+msgstr "Projeto de estante modular retangular"
+
+#: Content/Prefabs/Building System/Blueprints/Shelves/Modular Shelf Square.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.SquareModularShelfBlueprint.itemName"
+msgid "Square Modular Shelf Blueprint"
+msgstr "Projeto de estante modular quadrada"
+
+#: Content/Prefabs/Building System/Blueprints/Shelves/Plank Shelf Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Shelves/Plank Shelf Blueprint.asset.itemName"
+msgid "Large Plank Shelf Blueprint"
+msgstr "Projeto de prateleira de tábuas grande"
+
+#: Content/Prefabs/Building System/Blueprints/Shelves/Small Plank Shelf Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Shelves/Small Plank Shelf Blueprint.asset.itemName"
+msgid "Small Plank Shelf Blueprint"
+msgstr "Projeto de prateleira de tábuas pequena"
+
+#: Content/Prefabs/Building System/Blueprints/Shelves/Small White Shelf Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Shelves/Small White Shelf Blueprint.asset.itemName"
+msgid "Small White Shelf Blueprint"
+msgstr "Projeto de prateleira branca pequena"
+
+#: Content/Prefabs/Building System/Blueprints/Shelves/Small Wood Shelf Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Shelves/Small Wood Shelf Blueprint.asset.itemName"
+msgid "Small Wood Shelf Blueprint"
+msgstr "Projeto de prateleira de madeira pequena"
+
+#: Content/Prefabs/Building System/Blueprints/Shelves/Wooden Shelf Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Shelves/Wooden Shelf Blueprint.asset.itemName"
+msgid "Wooden Shelf Blueprint"
+msgstr "Projeto de prateleira de madeira"
+
+#: Content/Prefabs/Building System/Blueprints/Signs/Label Small.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Signs/Label Small.asset.itemName"
+msgid "Small Label Blueprint"
+msgstr "Projeto de etiqueta pequena"
+
+#: Content/Prefabs/Building System/Blueprints/Signs/Sign Industrial Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Signs/Sign Industrial Blueprint.asset.itemName"
+msgid "Industrial Sign Blueprint"
+msgstr "Projeto de placa industrial"
+
+#: Content/Prefabs/Building System/Blueprints/Special/Mushroom Lantern.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Special/Mushroom Lantern.asset.itemName"
+msgid "Mushroom Lantern Blueprint"
+msgstr "Projeto de lampião de cogumelo"
+
+#: Content/Prefabs/Building System/Blueprints/Special/Orange Mushroom Lantern.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Special/Orange Mushroom Lantern.asset.itemName"
+msgid "Orange Mushroom Lantern Blueprint"
+msgstr "Projeto de lampião de cogumelo laranja"
+
+#: Content/Prefabs/Building System/Blueprints/Special/Yellow Lantern.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Special/Yellow Lantern.asset.itemName"
+msgid "Yellow Lantern Blueprint"
+msgstr "Projeto de lampião amarelo"
+
+#: Content/Prefabs/Building System/Blueprints/Storages/Firewood Pile Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Storages/Firewood Pile Blueprint.asset.itemName"
+msgid "Firewood Pile Blueprint"
+msgstr "Projeto de pilha de lenha"
+
+#: Content/Prefabs/Building System/Blueprints/Storages/Large Wooden Cupboard Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Storages/Large Wooden Cupboard Blueprint.asset.itemName"
+msgid "Large Wooden Cupboard Blueprint"
+msgstr "Projeto de armário de madeira grande"
+
+#: Content/Prefabs/Building System/Blueprints/Storages/Metal Locker Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Storages/Metal Locker Blueprint.asset.itemName"
+msgid "Metal Locker Blueprint"
+msgstr "Projeto de armário de aço"
+
+#: Content/Prefabs/Building System/Blueprints/Storages/Oak Barrel Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Storages/Oak Barrel Blueprint.asset.itemName"
+msgid "Oak Barrel Blueprint"
+msgstr "Projeto de barril de carvalho"
+
+#: Content/Prefabs/Building System/Blueprints/Storages/Small Wooden Cupboard Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Storages/Small Wooden Cupboard Blueprint.asset.itemName"
+msgid "Small Wooden Cupboard Blueprint"
+msgstr "Projeto de armário de madeira pequeno"
+
+#: Content/Prefabs/Building System/Blueprints/Storages/Wooden Chest Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Storages/Wooden Chest Blueprint.asset.itemName"
+msgid "Wooden Chest Blueprint"
+msgstr "Projeto de baú de madeira"
+
+#: Content/Prefabs/Building System/Blueprints/Storages/Wooden Drawer Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Storages/Wooden Drawer Blueprint.asset.itemName"
+msgid "Wooden Drawer Blueprint"
+msgstr "Projeto de gaveteiro de madeira"
+
+#: Content/Prefabs/Building System/Blueprints/Structural/Basement Floor Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Structural/Basement Floor Blueprint.asset.itemName"
+msgid "Basement Floor Blueprint"
+msgstr "Projeto de piso de porão"
+
+#: Content/Prefabs/Building System/Blueprints/Structural/Basement Grate Floor Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Structural/Basement Grate Floor Blueprint.asset.itemName"
+msgid "Basement Grate Floor Blueprint"
+msgstr "Projeto de piso gradeado de porão"
+
+#: Content/Prefabs/Building System/Blueprints/Structural/Basement Grate Floor Handrail Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Structural/Basement Grate Floor Handrail Blueprint.asset.itemName"
+msgid "Basement Grate Floor Handrail Blueprint"
+msgstr "Projeto de corrimão para piso gradeado de porão"
+
+#: Content/Prefabs/Building System/Blueprints/Structural/Mesh Wall.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Structural/Mesh Wall.asset.itemName"
+msgid "Mesh Wall Blueprint"
+msgstr "Projeto de parede de tela"
+
+#: Content/Prefabs/Building System/Blueprints/Structural/Smooth Wooden Pillar Half.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Structural/Smooth Wooden Pillar Half.asset.itemName"
+msgid "Smooth Half Wooden Pillar Blueprint"
+msgstr "Projeto de meia coluna de madeira lisa"
+
+#: Content/Prefabs/Building System/Blueprints/Structural/Smooth Wooden Pillar.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Structural/Smooth Wooden Pillar.asset.itemName"
+msgid "Smooth Wooden Pillar Blueprint"
+msgstr "Projeto de coluna de madeira lisa"
+
+#: Content/Prefabs/Building System/Blueprints/Structural/Tarp Wall.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Structural/Tarp Wall.asset.itemName"
+msgid "Tarp Wall Blueprint"
+msgstr "Projeto de parede de lona"
+
+#: Content/Prefabs/Building System/Blueprints/Structural/Wooden Pillar Half.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Structural/Wooden Pillar Half.asset.itemName"
+msgid "Half Wooden Pillar Blueprint"
+msgstr "Projeto de meia coluna de madeira"
+
+#: Content/Prefabs/Building System/Blueprints/Structural/Wooden Pillar.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Structural/Wooden Pillar.asset.itemName"
+msgid "Wooden Pillar Blueprint"
+msgstr "Projeto de coluna de madeira"
+
+#: Content/Prefabs/Building System/Blueprints/Tables/Cottage Table.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Tables/Cottage Table.asset.itemName"
+msgid "Cottage Table Blueprint"
+msgstr "Projeto de mesa rústica"
+
+#: Content/Prefabs/Building System/Blueprints/Tables/Fancy Square Wooden Table.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Tables/Fancy Square Wooden Table.asset.itemName"
+msgid "Fancy Wooden Square Table Blueprint"
+msgstr "Projeto de mesa quadrada de madeira chique"
+
+#: Content/Prefabs/Building System/Blueprints/Tables/Large Wooden Table With Curtains.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Tables/Large Wooden Table With Curtains.asset.itemName"
+msgid "Large Wooden Table With Curtains Blueprint"
+msgstr "Projeto de mesa de madeira grande com cortinas"
+
+#: Content/Prefabs/Building System/Blueprints/Tables/Metal Table Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Tables/Metal Table Blueprint.asset.itemName"
+msgid "Metal Table"
+msgstr "Projeto de mesa de metal"
+
+#: Content/Prefabs/Building System/Blueprints/Tables/Metal Table With White Tablecloth.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Tables/Metal Table With White Tablecloth.asset.itemName"
+msgid "Metal Table With White Tablecloth Blueprint"
+msgstr "Projeto de mesa de metal com toalha branca"
+
+#: Content/Prefabs/Building System/Blueprints/Tables/Plank Side Table.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Tables/Plank Side Table.asset.itemName"
+msgid "Plank Side Table Blueprint"
+msgstr "Projeto de mesinha lateral de tábuas"
+
+#: Content/Prefabs/Building System/Blueprints/Tables/Plank Table.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Tables/Plank Table.asset.itemName"
+msgid "Plank Table Blueprint"
+msgstr "Projeto de mesa de tábuas"
+
+#: Content/Prefabs/Building System/Blueprints/Tables/White Coffee Table Large.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Tables/White Coffee Table Large.asset.itemName"
+msgid "Large Coffee Table Blueprint"
+msgstr "Projeto de mesa de centro grande"
+
+#: Content/Prefabs/Building System/Blueprints/Tables/White Coffee Table Medium.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Tables/White Coffee Table Medium.asset.itemName"
+msgid "Coffee Table Blueprint"
+msgstr "Projeto de mesa de centro"
+
+#: Content/Prefabs/Building System/Blueprints/Tables/White Coffee Table Small.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Tables/White Coffee Table Small.asset.itemName"
+msgid "Small Coffee Table Blueprint"
+msgstr "Projeto de mesa de centro pequena"
+
+#: Content/Prefabs/Building System/Blueprints/Tables/Wooden Desk.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Tables/Wooden Desk.asset.itemName"
+msgid "Wooden Desk Blueprint"
+msgstr "Projeto de escrivaninha de madeira"
+
+#: Content/Prefabs/Building System/Blueprints/Tables/Wooden Table.asset
+#, fuzzy
+msgctxt "TaskItemBlueprint.Assets/Content/Prefabs/Building System/Blueprints/Tables/Wooden Table.asset.itemName"
+msgid "Wooden Table Blueprint"
+msgstr "Projeto de mesa de madeira"
+
+#: Content/TaskItems/Keys/Bazaar/Bazaar house keys.asset
+#, fuzzy
+msgctxt "TaskItem.bazaarHouseKeys11.itemName"
+msgid "Bazaar house keys"
+msgstr "Chaves da casa no Bazar"
+
+#: Content/TaskItems/Keys/Bazaar/Bazaar house keys.asset
+#, fuzzy
+msgctxt "TaskItem.bazaarHouseKeys11.itemDetails"
+msgid "Keys to the house you bought at the Bazaar."
+msgstr "Chaves da casa que você comprou no Bazar."
+
+#: Content/TaskItems/Keys/Bazaar/Bookstore basement keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Bazaar/Bookstore basement keys.asset.itemName"
+msgid "Bookstore basement keys"
+msgstr "Chaves do porão da livraria"
+
+#: Content/TaskItems/Keys/Bazaar/Bookstore basement keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Bazaar/Bookstore basement keys.asset.itemDetails"
+msgid "Keys to the Bazaar Bookstore basement."
+msgstr "Chaves do porão da Livraria do Bazar."
+
+#: Content/TaskItems/Keys/Bazaar/Clocktower keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Bazaar/Clocktower keys.asset.itemName"
+msgid "Clocktower keys"
+msgstr "Chaves da torre do relógio"
+
+#: Content/TaskItems/Keys/Bazaar/Clocktower keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Bazaar/Clocktower keys.asset.itemDetails"
+msgid "Keys to the clocktower and the Bazaar service tunnels."
+msgstr "Chaves da Torre do Relógio e dos túneis de serviço do Bazar."
+
+#: Content/TaskItems/Keys/Bazaar/Rob-In office keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Bazaar/Rob-In office keys.asset.itemName"
+msgid "Rob-In office keys"
+msgstr "Chaves do escritório da Rob-In"
+
+#: Content/TaskItems/Keys/Bazaar/Rob-In office keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Bazaar/Rob-In office keys.asset.itemDetails"
+msgid "Keys to the small office in Rob-In Build and Repair."
+msgstr "Chaves do pequeno escritório da Rob-In Construções e Reparos."
+
+#: Content/TaskItems/Keys/Begmann tunnel entrance keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Begmann tunnel entrance keys.asset.itemName"
+msgid "Bergmann tunnel entrance keys"
+msgstr "Chaves da entrada dos Túneis Bergmann"
+
+#: Content/TaskItems/Keys/Begmann tunnel entrance keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Begmann tunnel entrance keys.asset.itemDetails"
+msgid "Keys to the Bergmann tunnels."
+msgstr "Chaves dos Túneis Bergmann."
+
+#: Content/TaskItems/Keys/Deekula B storage keys.asset
+#, fuzzy
+msgctxt "TaskItemGroup.DeekulaBStorageKeys14.itemName"
+msgid "Deekula B storage keys"
+msgstr "Chaves do depósito do Deekula B"
+
+#: Content/TaskItems/Keys/Deekula B storage keys.asset
+#, fuzzy
+msgctxt "TaskItemGroup.DeekulaBStorageKeys14.itemDetails"
+msgid "Keys to the Deekula B storage."
+msgstr "Chaves do depósito do Deekula B."
+
+#: Content/TaskItems/Keys/Deekula C8 storage.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Deekula C8 storage.asset.itemName"
+msgid "Deekula C storage 8 keys"
+msgstr "Chaves do depósito 8 do Deekula C"
+
+#: Content/TaskItems/Keys/Deekula C8 storage.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Deekula C8 storage.asset.itemDetails"
+msgid "The keys to Deekula C storage unit 8."
+msgstr "As chaves do depósito 8 do Deekula C."
+
+#: Content/TaskItems/Keys/Deekula apartment A8 keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Deekula apartment A8 keys.asset.itemName"
+msgid "Deekula apartment A8 keys"
+msgstr "Chaves do apartamento A8 do Deekula"
+
+#: Content/TaskItems/Keys/Deekula apartment A8 keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Deekula apartment A8 keys.asset.itemDetails"
+msgid "Keys to Deekula apartment A8 and storage A8."
+msgstr "Chaves do apartamento A8 e do depósito A8 do Deekula."
+
+#: Content/TaskItems/Keys/Deekula apartment B1 keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Deekula apartment B1 keys.asset.itemName"
+msgid "Deekula apartment B1 keys"
+msgstr "Chaves do apartamento B1 do Deekula"
+
+#: Content/TaskItems/Keys/Deekula apartment B1 keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Deekula apartment B1 keys.asset.itemDetails"
+msgid "Keys to Deekula apartment B1 and storage B1."
+msgstr "Chaves do apartamento B1 e do depósito B1 do Deekula."
+
+#: Content/TaskItems/Keys/Deekula apartment B10 keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Deekula apartment B10 keys.asset.itemName"
+msgid "Deekula apartment B10 keys"
+msgstr "Chaves do apartamento B10 do Deekula"
+
+#: Content/TaskItems/Keys/Deekula apartment B10 keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Deekula apartment B10 keys.asset.itemDetails"
+msgid "Keys to Deekula apartment B10."
+msgstr "Chaves do apartamento B10 do Deekula."
+
+#: Content/TaskItems/Keys/Deekula apartment B3 keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Deekula apartment B3 keys.asset.itemName"
+msgid "Deekula apartment B3 keys"
+msgstr "Chaves do apartamento B3 do Deekula"
+
+#: Content/TaskItems/Keys/Deekula apartment B3 keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Deekula apartment B3 keys.asset.itemDetails"
+msgid "Keys to Deekula apartment B3 and storage B3."
+msgstr "Chaves do apartamento B3 e do depósito B3 do Deekula."
+
+#: Content/TaskItems/Keys/Deekula apartment B4 keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Deekula apartment B4 keys.asset.itemName"
+msgid "Deekula apartment B4 keys"
+msgstr "Chaves do apartamento B4 do Deekula"
+
+#: Content/TaskItems/Keys/Deekula apartment B4 keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Deekula apartment B4 keys.asset.itemDetails"
+msgid "Keys to Deekula apartment B4 and storage B4."
+msgstr "Chaves do apartamento B4 e do depósito B4 do Deekula."
+
+#: Content/TaskItems/Keys/Deekula apartment B8 keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Deekula apartment B8 keys.asset.itemName"
+msgid "Deekula apartment B8 keys"
+msgstr "Chaves do apartamento B8 do Deekula"
+
+#: Content/TaskItems/Keys/Deekula apartment B8 keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Deekula apartment B8 keys.asset.itemDetails"
+msgid "Keys to Deekula apartment B8."
+msgstr "Chaves do apartamento B8 do Deekula."
+
+#: Content/TaskItems/Keys/Hanss' hideout keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Hanss' hideout keys.asset.itemName"
+msgid "Hanss' hideout keys"
+msgstr "Chaves do esconderijo do Hanss"
+
+#: Content/TaskItems/Keys/Hanss' hideout keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Hanss' hideout keys.asset.itemDetails"
+msgid "The keys to Hanss' hideout, which also allow access to the mines."
+msgstr "As chaves do esconderijo do Hanss, que também dão acesso às minas."
+
+#: Content/TaskItems/Keys/Metro Backroom Key.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Metro Backroom Key.asset.itemName"
+msgid "Metro backroom key"
+msgstr "Chave da sala dos fundos do metrô"
+
+#: Content/TaskItems/Keys/Metro Backroom Key.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Metro Backroom Key.asset.itemDetails"
+msgid "Key to the shady backroom at the Tenement Metro Station."
+msgstr "Chave da sala dos fundos suspeita na estação de metrô do prédio."
+
+#: Content/TaskItems/Keys/Mines/Kauha's claim building keys.asset
+#, fuzzy
+msgctxt "TaskItem.KauhaClaimKeys11.itemName"
+msgid "Kauha's claim building keys"
+msgstr "Chaves do prédio da Concessão do Kauha"
+
+#: Content/TaskItems/Keys/Mines/Kauha's claim building keys.asset
+#, fuzzy
+msgctxt "TaskItem.KauhaClaimKeys11.itemDetails"
+msgid "The keys to the building at Kauha's claim."
+msgstr "As chaves do prédio na Concessão do Kauha."
+
+#: Content/TaskItems/Keys/Mines/Tenement access keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Mines/Tenement access keys.asset.itemName"
+msgid "Tenement access keys"
+msgstr "Chaves de acesso ao prédio"
+
+#: Content/TaskItems/Keys/Mines/Tenement access keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Mines/Tenement access keys.asset.itemDetails"
+msgid "Keys to the tenement access tunnel in Erikson's claim."
+msgstr "Chaves do túnel de acesso ao prédio, na Concessão do Erikson."
+
+#: Content/TaskItems/Keys/Moonshine Co-op Membership Card.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Moonshine Co-op Membership Card.asset.itemName"
+msgid "Moonshine co-op membership card"
+msgstr "Carteirinha da Cooperativa dos Alambiqueiros"
+
+#: Content/TaskItems/Keys/Moonshine Co-op Membership Card.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Moonshine Co-op Membership Card.asset.itemDetails"
+msgid "Card proving your membership. Acts as a keycard."
+msgstr "Comprova que você é sócio. Funciona como cartão de acesso."
+
+#: Content/TaskItems/Keys/Mr. Duck's keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Mr. Duck's keys.asset.itemName"
+msgid "Mr. Duck's keys"
+msgstr "Chaves do Sr. Pato"
+
+#: Content/TaskItems/Keys/Mr. Duck's keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Mr. Duck's keys.asset.itemDetails"
+msgid "Keys to Mr. Duck's upstairs."
+msgstr "Chaves do andar de cima do Sr. Pato."
+
+#: Content/TaskItems/Keys/Mr. Duck's upstairs keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Mr. Duck's upstairs keys.asset.itemName"
+msgid "Mr. Duck's upstairs keys"
+msgstr "Chaves do andar de cima do Sr. Pato"
+
+#: Content/TaskItems/Keys/Mr. Duck's upstairs keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Mr. Duck's upstairs keys.asset.itemDetails"
+msgid "Keys to Mr. Duck's upstairs."
+msgstr "Chaves do andar de cima do Sr. Pato."
+
+#: Content/TaskItems/Keys/Obenseuer mines keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Obenseuer mines keys.asset.itemName"
+msgid "Obenseuer mines keys"
+msgstr "Chaves das minas de Obenseuer"
+
+#: Content/TaskItems/Keys/Obenseuer mines keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Obenseuer mines keys.asset.itemDetails"
+msgid "The keys to the Obenseuer mines."
+msgstr "As chaves das minas de Obenseuer."
+
+#: Content/TaskItems/Keys/Pia's keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Pia's keys.asset.itemName"
+msgid "Pia's keys"
+msgstr "Chaves da Pia"
+
+#: Content/TaskItems/Keys/Pia's keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Pia's keys.asset.itemDetails"
+msgid "The keys to Pia's house near Deekula C."
+msgstr "As chaves da casa da Pia, perto do Deekula C."
+
+#: Content/TaskItems/Keys/Redemption Militia Keys.asset
+#, fuzzy
+msgctxt "TaskItem.redemptionKeys12.itemName"
+msgid "Redemption Militia keys"
+msgstr "Chaves da Milícia da Redenção"
+
+#: Content/TaskItems/Keys/Redemption Militia Keys.asset
+#, fuzzy
+msgctxt "TaskItem.redemptionKeys12.itemDetails"
+msgid "Keys to the Redemption Militia's Bazaar door."
+msgstr "Chaves da porta da Milícia da Redenção no Bazar."
+
+#: Content/TaskItems/Keys/Small storage keys.asset
+#, fuzzy
+msgctxt "TaskItem.smallStorageKeys.itemName"
+msgid "Small storage keys"
+msgstr "Chaves do depósito pequeno"
+
+#: Content/TaskItems/Keys/Small storage keys.asset
+#, fuzzy
+msgctxt "TaskItem.smallStorageKeys.itemDetails"
+msgid "The keys to the small storage next to Pia's house."
+msgstr "As chaves do depósito pequeno ao lado da casa da Pia."
+
+#: Content/TaskItems/Keys/Tenement A A1 keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Tenement A A1 keys.asset.itemName"
+msgid "Tenement A A1 keys"
+msgstr "Chaves A1 do Prédio A"
+
+#: Content/TaskItems/Keys/Tenement A A1 keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Tenement A A1 keys.asset.itemDetails"
+msgid "Keys to Tenement A apartment A1 and storage A1."
+msgstr "Chaves do apartamento A1 e do depósito A1 do Prédio A."
+
+#: Content/TaskItems/Keys/Tenement A A2 keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Tenement A A2 keys.asset.itemName"
+msgid "Tenement A A2 keys"
+msgstr "Chaves A2 do Prédio A"
+
+#: Content/TaskItems/Keys/Tenement A A2 keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Tenement A A2 keys.asset.itemDetails"
+msgid "Keys to Tenement A apartment A2 and storage A2."
+msgstr "Chaves do apartamento A2 e do depósito A2 do Prédio A."
+
+#: Content/TaskItems/Keys/Tenement A A9 keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Tenement A A9 keys.asset.itemName"
+msgid "Tenement A A9 keys"
+msgstr "Chaves A9 do Prédio A"
+
+#: Content/TaskItems/Keys/Tenement A A9 keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Tenement A A9 keys.asset.itemDetails"
+msgid "Keys to Tenement A apartment A9 and storage A9."
+msgstr "Chaves do apartamento A9 e do depósito A9 do Prédio A."
+
+#: Content/TaskItems/Keys/Tenement A Keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Tenement A Keys.asset.itemName"
+msgid "Tenement A basement keys"
+msgstr "Chaves do porão do Prédio A"
+
+#: Content/TaskItems/Keys/Tenement A Keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Tenement A Keys.asset.itemDetails"
+msgid "Keys to the Tenement A basement."
+msgstr "Chaves do porão do Prédio A."
+
+#: Content/TaskItems/Keys/Tenement B Keycard Unused.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Tenement B Keycard Unused.asset.itemName"
+msgid "Tenement A keycard"
+msgstr "Cartão de acesso do Prédio A"
+
+#: Content/TaskItems/Keys/Tenement B Keycard Unused.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Tenement B Keycard Unused.asset.itemDetails"
+msgid "Keycard to Tenement A elevator."
+msgstr "Cartão de acesso ao elevador do Prédio A."
+
+#: Content/TaskItems/Keys/Tenement B Keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Tenement B Keys.asset.itemName"
+msgid "Tenement B basement keys"
+msgstr "Chaves do porão do Prédio B"
+
+#: Content/TaskItems/Keys/Tenement B Keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Tenement B Keys.asset.itemDetails"
+msgid "Keys to the Tenement B basement."
+msgstr "Chaves do porão do Prédio B."
+
+#: Content/TaskItems/Keys/Tunnel B2 keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Tunnel B2 keys.asset.itemName"
+msgid "Tunnel B2 keys"
+msgstr "Chaves do túnel B2"
+
+#: Content/TaskItems/Keys/Tunnel B2 keys.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Tunnel B2 keys.asset.itemDetails"
+msgid "Keys to the Bergmann tunnel B2."
+msgstr "Chaves do túnel B2 dos Túneis Bergmann."
+
+#: Content/TaskItems/Keys/Tunnels/Keys to small mines.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Tunnels/Keys to small mines.asset.itemName"
+msgid "Keys to small mines"
+msgstr "Chaves das minas pequenas"
+
+#: Content/TaskItems/Keys/Tunnels/Keys to small mines.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Keys/Tunnels/Keys to small mines.asset.itemDetails"
+msgid "The keys to the small mines."
+msgstr "As chaves das minas pequenas."
+
+#: Content/TaskItems/Maps/Tenement Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemMap.TenementBlueprint31.itemName"
+msgid "Tenement blueprint"
+msgstr "Planta do prédio"
+
+#: Content/TaskItems/Maps/Tenement Blueprint.asset
+#, fuzzy
+msgctxt "TaskItemMap.TenementBlueprint31.itemDetails"
+msgid "Blueprint of your tenement."
+msgstr "A planta do seu prédio."
+
+#: Content/TaskItems/Maps/Tenement Map.asset
+#, fuzzy
+msgctxt "TaskItemMap.Assets/Content/TaskItems/Maps/Tenement Map.asset.itemName"
+msgid "Tenement map"
+msgstr "Mapa do prédio"
+
+#: Content/TaskItems/Maps/Tenement Map.asset
+#, fuzzy
+msgctxt "TaskItemMap.Assets/Content/TaskItems/Maps/Tenement Map.asset.itemDetails"
+msgid "A map given by the interviewers showing the location of the unfinished tenement."
+msgstr "Um mapa que os entrevistadores te deram, mostrando a localização do prédio inacabado."
+
+#: Content/TaskItems/Start items/Wedding ring.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Start items/Wedding ring.asset.itemName"
+msgid "Wedding ring"
+msgstr "Aliança de casamento"
+
+#: Content/TaskItems/Start items/Wedding ring.asset
+#, fuzzy
+msgctxt "TaskItem.Assets/Content/TaskItems/Start items/Wedding ring.asset.itemDetails"
+msgid "Your wedding ring."
+msgstr "Sua aliança de casamento."
+
+#: Content/TaskItems/Task items/Bad Passport.asset
+#, fuzzy
+msgctxt "TaskItem.PassportBad23.itemName"
+msgid "Hand-drawn passport"
+msgstr "Passaporte desenhado à mão"
+
+#: Content/TaskItems/Task items/Bad Passport.asset
+#, fuzzy
+msgctxt "TaskItem.PassportBad23.itemDetails"
+msgid "It looks as if a little child drew it."
+msgstr "Parece que foi desenhado por uma criancinha."
+
+#: Content/TaskItems/Task items/Bag of Red Mushrooms.asset
+#, fuzzy
+msgctxt "TaskItem.BagRedMushrooms.itemName"
+msgid "Bag of red mushrooms"
+msgstr "Saco de cogumelos vermelhos"
+
+#: Content/TaskItems/Task items/Bag of Red Mushrooms.asset
+#, fuzzy
+msgctxt "TaskItem.BagRedMushrooms.itemDetails"
+msgid "They look like green mushrooms, but they are red."
+msgstr "Parecem cogumelos verdes, só que são vermelhos."
+
+#: Content/TaskItems/Task items/Black amulet.asset
+#, fuzzy
+msgctxt "TaskItem.BlackAmulet.itemName"
+msgid "Black amulet"
+msgstr "Amuleto preto"
+
+#: Content/TaskItems/Task items/Black amulet.asset
+#, fuzzy
+msgctxt "TaskItem.BlackAmulet.itemDetails"
+msgid "It's a black amulet with glowing red stones."
+msgstr "É um amuleto preto com pedras vermelhas brilhantes."
+
+#: Content/TaskItems/Task items/Blue Rubber Duck Head.asset
+#, fuzzy
+msgctxt "TaskItem.BlueDuckHead22.itemName"
+msgid "Blue rubber duck head"
+msgstr "Cabeça de patinho de borracha azul"
+
+#: Content/TaskItems/Task items/Blue Rubber Duck Head.asset
+#, fuzzy
+msgctxt "TaskItem.BlueDuckHead22.itemDetails"
+msgid "You have murdered this poor little friend."
+msgstr "Você assassinou este pobre amiguinho."
+
+#: Content/TaskItems/Task items/Blue Rubber Duck.asset
+#, fuzzy
+msgctxt "TaskItem.BlueDuck22.itemName"
+msgid "Blue rubber duck"
+msgstr "Patinho de borracha azul"
+
+#: Content/TaskItems/Task items/Blue Rubber Duck.asset
+#, fuzzy
+msgctxt "TaskItem.BlueDuck22.itemDetails"
+msgid "You feel like you can't throw this little duck away because it wouldn't survive alone in this cruel world."
+msgstr "Você sente que não consegue jogar este patinho fora, porque ele não sobreviveria sozinho neste mundo cruel."
+
+#: Content/TaskItems/Task items/Debit card.asset
+#, fuzzy
+msgctxt "TaskItem.debit_card.itemName"
+msgid "Debit card"
+msgstr "Cartão de débito"
+
+#: Content/TaskItems/Task items/Debit card.asset
+#, fuzzy
+msgctxt "TaskItem.debit_card.itemDetails"
+msgid "It's a debit card."
+msgstr "É um cartão de débito."
+
+#: Content/TaskItems/Task items/Delivery Drone.asset
+#, fuzzy
+msgctxt "TaskItem.deliverydrone.itemName"
+msgid "Delivery drone"
+msgstr "Drone de entrega"
+
+#: Content/TaskItems/Task items/Erto's brown jacket.asset
+#, fuzzy
+msgctxt "TaskItem.ErtoBrownJacket.itemName"
+msgid "Erto's brown jacket"
+msgstr "Jaqueta marrom do Erto"
+
+#: Content/TaskItems/Task items/Erto's brown jacket.asset
+#, fuzzy
+msgctxt "TaskItem.ErtoBrownJacket.itemDetails"
+msgid "A brown jacket you found in Erto's apartment."
+msgstr "Uma jaqueta marrom que você encontrou no apartamento do Erto."
+
+#: Content/TaskItems/Task items/Erto's red jacket.asset
+#, fuzzy
+msgctxt "TaskItem.ErtoRedJacket.itemName"
+msgid "Erto's red jacket"
+msgstr "Jaqueta vermelha do Erto"
+
+#: Content/TaskItems/Task items/Erto's red jacket.asset
+#, fuzzy
+msgctxt "TaskItem.ErtoRedJacket.itemDetails"
+msgid "A red jacket you found in Erto's apartment."
+msgstr "Uma jaqueta vermelha que você encontrou no apartamento do Erto."
+
+#: Content/TaskItems/Task items/Forged Passport.asset
+#, fuzzy
+msgctxt "TaskItem.ForgedPassport11.itemName"
+msgid "Forged passport"
+msgstr "Passaporte falsificado"
+
+#: Content/TaskItems/Task items/Forged Passport.asset
+#, fuzzy
+msgctxt "TaskItem.ForgedPassport11.itemDetails"
+msgid "Looks just like a real passport."
+msgstr "Parece um passaporte de verdade."
+
+#: Content/TaskItems/Task items/Fredrik's medicine.asset
+#, fuzzy
+msgctxt "TaskItem.Fredrik's medicine.itemName"
+msgid "Fredrik's medicine"
+msgstr "Remédio do Fredrik"
+
+#: Content/TaskItems/Task items/Fredrik's medicine.asset
+#, fuzzy
+msgctxt "TaskItem.Fredrik's medicine.itemDetails"
+msgid "It's Fredrik's medicine for Pia."
+msgstr "É o remédio do Fredrik para a Pia."
+
+#: Content/TaskItems/Task items/Fungal Disease Treatment Unit Card.asset
+#, fuzzy
+msgctxt "TaskItem.fungal_card.itemName"
+msgid "Fungal Disease Treatment Unit card"
+msgstr "Cartão da Unidade de Tratamento de Doenças Fúngicas"
+
+#: Content/TaskItems/Task items/Fungal Disease Treatment Unit Card.asset
+#, fuzzy
+msgctxt "TaskItem.fungal_card.itemDetails"
+msgid "It has the phone number: 035426695."
+msgstr "Tem o número de telefone: 035426695."
+
+#: Content/TaskItems/Task items/Letter to Emilie Palmer.asset
+#, fuzzy
+msgctxt "TaskItem.EmilieLetter.itemName"
+msgid "Letter to Emilie Palmer"
+msgstr "Carta para Emilie Palmer"
+
+#: Content/TaskItems/Task items/Letter to Emilie Palmer.asset
+#, fuzzy
+msgctxt "TaskItem.EmilieLetter.itemDetails"
+msgid "Mike's letter to his daughter, Emilie Palmer."
+msgstr "A carta do Mike para a filha, Emilie Palmer."
+
+#: Content/TaskItems/Task items/Max's Mobile Phone.asset
+#, fuzzy
+msgctxt "TaskItem.MaxsPhone.itemName"
+msgid "Max's mobile phone"
+msgstr "Celular do Max"
+
+#: Content/TaskItems/Task items/Max's Mobile Phone.asset
+#, fuzzy
+msgctxt "TaskItem.MaxsPhone.itemDetails"
+msgid "It's an old Nykiö model with a pink casing. It belongs to Max Masher."
+msgstr "É um Nykiö antigo com capinha rosa. Pertence ao Max Masher."
+
+#: Content/TaskItems/Task items/Miner Registration.asset
+#, fuzzy
+msgctxt "TaskItem.miner registration.itemName"
+msgid "Miner registration"
+msgstr "Registro de minerador"
+
+#: Content/TaskItems/Task items/Mineshaft Pass.asset
+#, fuzzy
+msgctxt "TaskItem.mineshaftpass.itemName"
+msgid "Mineshaft pass"
+msgstr "Passe do poço da mina"
+
+#: Content/TaskItems/Task items/Mineshaft Pass.asset
+#, fuzzy
+msgctxt "TaskItem.mineshaftpass.itemDetails"
+msgid "Allows use of the mine's main elevator."
+msgstr "Permite usar o elevador principal da mina."
+
+#: Content/TaskItems/Task items/Mining Permit.asset
+#, fuzzy
+msgctxt "TaskItem.MiningPermit.itemName"
+msgid "Mining permit"
+msgstr "Licença de mineração"
+
+#: Content/TaskItems/Task items/Mining Permit.asset
+#, fuzzy
+msgctxt "TaskItem.MiningPermit.itemDetails"
+msgid "Permission to mine ore in the Obenseuer mine."
+msgstr "Autorização para extrair minério na mina de Obenseuer."
+
+#: Content/TaskItems/Task items/Pia's Letter.asset
+#, fuzzy
+msgctxt "TaskItemMail.PiasLetter.itemName"
+msgid "Pia's letter"
+msgstr "Carta da Pia"
+
+#: Content/TaskItems/Task items/Pia's Letter.asset
+#, fuzzy
+msgctxt "TaskItemMail.PiasLetter.itemDetails"
+msgid "The names Elli and Heikki Horn are written on the letter."
+msgstr "Os nomes Elli e Heikki Horn estão escritos na carta."
+
+#: Content/TaskItems/Task items/Picture of Pia.asset
+#, fuzzy
+msgctxt "TaskItem.PictureOfPia.itemName"
+msgid "Picture of Pia"
+msgstr "Foto da Pia"
+
+#: Content/TaskItems/Task items/Picture of Pia.asset
+#, fuzzy
+msgctxt "TaskItem.PictureOfPia.itemDetails"
+msgid "A picture of Pia before the fungal disease."
+msgstr "Uma foto da Pia antes da doença fúngica."
+
+#: Content/TaskItems/Task items/Probation Papers.asset
+#, fuzzy
+msgctxt "TaskItem.ProbationPapers.itemName"
+msgid "Probation papers"
+msgstr "Documentos da condicional"
+
+#: Content/TaskItems/Task items/Probation Papers.asset
+#, fuzzy
+msgctxt "TaskItem.ProbationPapers.itemDetails"
+msgid "The court has sentenced you to probation for your crimes."
+msgstr "O tribunal te condenou à liberdade condicional pelos seus crimes."
+
+#: Content/TaskItems/Task items/Radioactive Repository Access Authorization Form.asset
+#, fuzzy
+msgctxt "TaskItem.RepositoryAccessForm.itemName"
+msgid "Radioactive repository access authorization form"
+msgstr "Formulário de autorização de acesso ao depósito radioativo"
+
+#: Content/TaskItems/Task items/Radioactive Repository Access Authorization Form.asset
+#, fuzzy
+msgctxt "TaskItem.RepositoryAccessForm.itemDetails"
+msgid "A formal application required for obtaining clearance to enter a designated radioactive waste repository."
+msgstr "Um requerimento formal obrigatório para obter permissão de entrada num depósito designado de lixo radioativo."
+
+#: Content/TaskItems/Task items/Radioactive Repository Entry Permit.asset
+#, fuzzy
+msgctxt "TaskItem.RepositoryPermit.itemName"
+msgid "Radioactive repository entry permit"
+msgstr "Autorização de entrada no depósito radioativo"
+
+#: Content/TaskItems/Task items/Radioactive Repository Entry Permit.asset
+#, fuzzy
+msgctxt "TaskItem.RepositoryPermit.itemDetails"
+msgid "Document granting authorized personnel access to a radioactive waste repository."
+msgstr "Documento que concede ao pessoal autorizado acesso a um depósito de lixo radioativo."
+
+#: Content/TaskItems/Task items/Raw Döner.asset
+#, fuzzy
+msgctxt "TaskItem.RawDoner.itemName"
+msgid "Raw döner kebab"
+msgstr "Döner kebab cru"
+
+#: Content/TaskItems/Task items/Raw Döner.asset
+#, fuzzy
+msgctxt "TaskItem.RawDoner.itemDetails"
+msgid "It's a big cylinder of raw meat"
+msgstr "É um cilindrão de carne crua"
+
+#: Content/TaskItems/Task items/Red Hat.asset
+#, fuzzy
+msgctxt "TaskItem.RedHat.itemName"
+msgid "Red hat"
+msgstr "Chapéu vermelho"
+
+#: Content/TaskItems/Task items/Red Hat.asset
+#, fuzzy
+msgctxt "TaskItem.RedHat.itemDetails"
+msgid "A red hat you got from Alfred Schweinstein."
+msgstr "Um chapéu vermelho que você ganhou do Alfred Schweinstein."
+
+#: Content/TaskItems/Task items/Seamus' silver ring.asset
+#, fuzzy
+msgctxt "TaskItem.seamus_ring.itemName"
+msgid "Seamus' silver ring"
+msgstr "Anel de prata do Seamus"
+
+#: Content/TaskItems/Task items/Seamus' silver ring.asset
+#, fuzzy
+msgctxt "TaskItem.seamus_ring.itemDetails"
+msgid "Seamus Liepa's silver ring with the letters J.P."
+msgstr "O anel de prata do Seamus Liepa, com as letras J.P."
+
+#: Content/TaskItems/Task items/Stollandium-327.asset
+#, fuzzy
+msgctxt "TaskItem.Stollandium-327.itemName"
+msgid "Stollandium-327"
+msgstr "Stollândio-327"
+
+#: Content/TaskItems/Task items/Stollandium-327.asset
+#, fuzzy
+msgctxt "TaskItem.Stollandium-327.itemDetails"
+msgid "An isotope of Stollandium, the 126th element. It is a relatively stable but radioactive, superheavy, artificially produced element located on the 'second island of stability'."
+msgstr "Um isótopo do stollândio, o elemento 126. É um elemento superpesado, produzido artificialmente, relativamente estável, mas radioativo, localizado na “segunda ilha de estabilidade”."
+
+#: Content/TaskItems/Task items/The Sacred Seal of Welhous.asset
+#, fuzzy
+msgctxt "TaskItem.SacredWelhousSeal.itemName"
+msgid "The Sacred Seal of Welhous"
+msgstr "O Selo Sagrado de Welhous"
+
+#: Content/TaskItems/Task items/The Sacred Seal of Welhous.asset
+#, fuzzy
+msgctxt "TaskItem.SacredWelhousSeal.itemDetails"
+msgid "It's just an Osmo Olut bottle cap with a wizard sticker on it."
+msgstr "É só uma tampinha de garrafa de Osmo Olut com um adesivo de mago."
+

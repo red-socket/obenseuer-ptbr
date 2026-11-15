@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.3.0 — unreleased
+
+- Draft translations of every task and objective (48 tasks, 270 objectives), the quest items and blueprints, all 94 notes, the emails and the two books, and 908 furniture names and descriptions.
+- Task and note titles are translated only on screen. The game matches saved tasks and notes by their English title, so those stay untouched.
+- Renovation tasks the game builds while you play ("Apt 5 makeshift kitchen") are translated too, as are objective counters and "(Optional)".
+- Labels in a different letter case than the English (all caps, lower case inside a sentence) now find their translation.
+
 ## 0.2.0 — unreleased
 
 - Draft translations of every item name and description (1,244 items), all 935 recipe names, the interface labels in scenes and prefabs, object names and prompts you see when you look at things, loading-screen tips, and the notifications and buttons set by the game's code.

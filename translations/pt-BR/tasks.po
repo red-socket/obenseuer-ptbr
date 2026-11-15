@@ -1,0 +1,3208 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Obenseuer PT-BR\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: Content/Tasks/Abandoned tenement/Abandoned tenement.asset
+#, fuzzy
+msgctxt "TaskInfo.Abandoned2.title"
+msgid "Abandoned tenement"
+msgstr "Prédio abandonado"
+
+#: Content/Tasks/Abandoned tenement/Abandoned tenement.asset
+#, fuzzy
+msgctxt "TaskInfo.Abandoned2.description"
+msgid ""
+"Interviewers told you that you got an abandoned and unfinished tenement that is probably in poor condition. They also gave you a map where the tenement location is marked.\n"
+"\n"
+"They recommended examining it first and then decide what to do with it."
+msgstr ""
+"Os entrevistadores disseram que você ganhou um prédio abandonado e inacabado, que provavelmente está em péssimo estado. Também te deram um mapa com a localização do prédio marcada.\n"
+"\n"
+"Eles recomendaram que você o examinasse primeiro e depois decidisse o que fazer com ele."
+
+#: Content/Tasks/Abandoned tenement/Examine the apartments.asset
+#, fuzzy
+msgctxt "TaskObjective.ExamineApartments5.title"
+msgid "Examine the apartments"
+msgstr "Examine os apartamentos"
+
+#: Content/Tasks/Abandoned tenement/Examine the stairwell.asset
+#, fuzzy
+msgctxt "TaskObjective.ExamineStairwell6.title"
+msgid "Examine the stairwell"
+msgstr "Examine a escadaria"
+
+#: Content/Tasks/Abandoned tenement/Find the tenement.asset
+#, fuzzy
+msgctxt "TaskObjective.FindTenement7.title"
+msgid "Find the tenement"
+msgstr "Encontre o prédio"
+
+#: Content/Tasks/Aziz The Kebab Maker/Aziz The Kebab Maker.asset
+#, fuzzy
+msgctxt "TaskInfo.aziz0.title"
+msgid "Aziz the Kebab Maker"
+msgstr "Aziz do Kebab"
+
+#: Content/Tasks/Aziz The Kebab Maker/Aziz The Kebab Maker.asset
+#, fuzzy
+msgctxt "TaskInfo.aziz0.description"
+msgid ""
+"You asked Akim Azizi in the Mallment for work, and he told you that he has several \"special clients\" to deliver kebabs to.\n"
+"\n"
+"For your first task, he told you to get a new döner from the meat shop."
+msgstr ""
+"Você pediu trabalho ao Akim Azizi no Mallment, e ele disse que tem vários “clientes especiais” para quem precisa entregar kebab.\n"
+"\n"
+"Na sua primeira tarefa, ele mandou você buscar um döner novo no açougue."
+
+#: Content/Tasks/Aziz The Kebab Maker/BringDoner.asset
+#, fuzzy
+msgctxt "TaskObjective.aziz20.title"
+msgid "Bring the döner to Akim"
+msgstr "Leve o döner para o Akim"
+
+#: Content/Tasks/Aziz The Kebab Maker/DeliverKebabForVirtanen.asset
+#, fuzzy
+msgctxt "TaskObjective.aziz30.title"
+msgid "Deliver kebab to Virtanen"
+msgstr "Entregue o kebab ao Virtanen"
+
+#: Content/Tasks/Aziz The Kebab Maker/DeliverKebabForVirtanen.asset
+#, fuzzy
+msgctxt "TaskObjective.aziz30.description"
+msgid "The first \"special client\" ordered a Full Combat Fighter Combo Meal. The customer is Virtanen, whose address is Murju B 9."
+msgstr "O primeiro “cliente especial” pediu um Combo Lutador Combate Total. O cliente é o Virtanen, e o endereço é Murju B 9."
+
+#: Content/Tasks/Aziz The Kebab Maker/DeliverToCasino.asset
+#, fuzzy
+msgctxt "TaskObjective.aziz50.title"
+msgid "Deliver kebab to casino security"
+msgstr "Entregue o kebab ao segurança do cassino"
+
+#: Content/Tasks/Aziz The Kebab Maker/DeliverToCasino.asset
+#, fuzzy
+msgctxt "TaskObjective.aziz50.description"
+msgid "The next \"special client\" ordered a kebab. It's for the security guy at the casino."
+msgstr "O próximo “cliente especial” pediu um kebab. É para o segurança do cassino."
+
+#: Content/Tasks/Aziz The Kebab Maker/DeliverToJail.asset
+#, fuzzy
+msgctxt "TaskObjective.aziz70.title"
+msgid "Deliver pizza to jail"
+msgstr "Entregue a pizza na cadeia"
+
+#: Content/Tasks/Aziz The Kebab Maker/DeliverToJail.asset
+#, fuzzy
+msgctxt "TaskObjective.aziz70.description"
+msgid "The third delivery is a pizza for a frequent customer who's currently in the Bazaar jail."
+msgstr "A terceira entrega é uma pizza para um cliente assíduo que no momento está na cadeia do Bazar."
+
+#: Content/Tasks/Aziz The Kebab Maker/FetchDoner.asset
+#, fuzzy
+msgctxt "TaskObjective.aziz10.title"
+msgid "Fetch raw döner from the meat shop"
+msgstr "Busque o döner cru no açougue"
+
+#: Content/Tasks/Aziz The Kebab Maker/GetGrossPizza.asset
+#, fuzzy
+msgctxt "TaskObjective.aziz95.title"
+msgid "Obtain gross pizzas from the slum pizza hatch"
+msgstr "Compre pizzas nojentas na portinhola de pizza da favela"
+
+#: Content/Tasks/Aziz The Kebab Maker/GetGrossPizza.asset
+#, fuzzy
+msgctxt "TaskObjective.aziz95.description"
+msgid "There's a dubious pizza hatch in the Bazaar slums that sells equally dubious pizzas. You could buy some there to use as replacements."
+msgstr "Tem uma portinhola de pizza duvidosa na favela do Bazar que vende pizzas igualmente duvidosas. Você podia comprar algumas lá para fazer a troca."
+
+#: Content/Tasks/Aziz The Kebab Maker/ReturnAkim1.asset
+#, fuzzy
+msgctxt "TaskObjective.aziz40.title"
+msgid "Return to Akim"
+msgstr "Volte ao Akim"
+
+#: Content/Tasks/Aziz The Kebab Maker/ReturnAkim2.asset
+#, fuzzy
+msgctxt "TaskObjective.aziz60.title"
+msgid "Return to Akim"
+msgstr "Volte ao Akim"
+
+#: Content/Tasks/Aziz The Kebab Maker/ReturnAkim3.asset
+#, fuzzy
+msgctxt "TaskObjective.aziz80.title"
+msgid "Return to Akim"
+msgstr "Volte ao Akim"
+
+#: Content/Tasks/Aziz The Kebab Maker/ReturnAkimFinal.asset
+#, fuzzy
+msgctxt "TaskObjective.aziz100.title"
+msgid "Return to Akim"
+msgstr "Volte ao Akim"
+
+#: Content/Tasks/Aziz The Kebab Maker/SabotageRestaurant.asset
+#, fuzzy
+msgctxt "TaskObjective.aziz90.title"
+msgid "Sabotage Scatola di Maccheroni's pizzas"
+msgstr "Sabote as pizzas da Scatola di Maccheroni"
+
+#: Content/Tasks/Aziz The Kebab Maker/SabotageRestaurant.asset
+#, fuzzy
+msgctxt "TaskObjective.aziz90.description"
+msgid "Akim claims that the competition is hurting his business, so he ordered you to sabotage a competing restaurant by replacing their pizzas waiting to be delivered with something gross."
+msgstr "O Akim diz que a concorrência está prejudicando o negócio dele, então mandou você sabotar um restaurante rival trocando as pizzas que esperam a entrega por alguma coisa nojenta."
+
+#: Content/Tasks/Bank of Bazaar/Bank of Bazaar.asset
+#, fuzzy
+msgctxt "TaskInfo.BazaarBank33.title"
+msgid "Bank of Bazaar"
+msgstr "Banco do Bazar"
+
+#: Content/Tasks/Bank of Bazaar/Bank of Bazaar.asset
+#, fuzzy
+msgctxt "TaskInfo.BazaarBank33.description"
+msgid "Passmore asked you to come back after you got the passport from Eliana. He wants to talk about the Bazaar bank."
+msgstr "O Passmore pediu que você voltasse depois de conseguir o passaporte com a Eliana. Ele quer conversar sobre o banco do Bazar."
+
+#: Content/Tasks/Bank of Bazaar/Get dynamite for Passmore.asset
+#, fuzzy
+msgctxt "TaskObjective.BankDynamite32.title"
+msgid "Get dynamite for Passmore"
+msgstr "Arranje dinamite para o Passmore"
+
+#: Content/Tasks/Bank of Bazaar/Get dynamite for Passmore.asset
+#, fuzzy
+msgctxt "TaskObjective.BankDynamite32.description"
+msgid "Passmore told you that he and his friends are going to rob the Bazaar bank, but he needs four sticks of dynamite for that."
+msgstr "O Passmore contou que ele e os amigos vão assaltar o banco do Bazar, mas para isso precisa de quatro bananas de dinamite."
+
+#: Content/Tasks/Bank of Bazaar/Get to the bank.asset
+#, fuzzy
+msgctxt "TaskObjective.BankGet33.title"
+msgid "Get to the bank"
+msgstr "Chegue ao banco"
+
+#: Content/Tasks/Bank of Bazaar/Get to the bank.asset
+#, fuzzy
+msgctxt "TaskObjective.BankGet33.description"
+msgid "The bank drain cover should be open from 23:00 to 03:00."
+msgstr "A tampa do bueiro do banco deve ficar aberta das 23:00 às 03:00."
+
+#: Content/Tasks/Bank of Bazaar/Open the vault.asset
+#, fuzzy
+msgctxt "TaskObjective.BankVault34.title"
+msgid "Open the vault"
+msgstr "Abra o cofre"
+
+#: Content/Tasks/Bank of Bazaar/Open the vault.asset
+#, fuzzy
+msgctxt "TaskObjective.BankVault34.description"
+msgid "Passmore mentioned that upstairs is the boss's room where you can turn off the surveillance cameras. "
+msgstr "O Passmore mencionou que lá em cima fica a sala do chefe, onde dá para desligar as câmeras de segurança. "
+
+#: Content/Tasks/Bank of Bazaar/Tell Passmore what you found.asset
+#, fuzzy
+msgctxt "TaskObjective.BankFound34.title"
+msgid "Tell Passmore what you found"
+msgstr "Conte ao Passmore o que você encontrou"
+
+#: Content/Tasks/Bank of Bazaar/Tell Passmore what you found.asset
+#, fuzzy
+msgctxt "TaskObjective.BankFound34.description"
+msgid "It looks like someone robbed the bank before you. "
+msgstr "Parece que alguém roubou o banco antes de você. "
+
+#: Content/Tasks/Bank of Bazaar/Tell passmore that you got the passport.asset
+#, fuzzy
+msgctxt "TaskObjective.BankPassport12.title"
+msgid "Tell Passmore that you got the passport"
+msgstr "Conte ao Passmore que você conseguiu o passaporte"
+
+#: Content/Tasks/Bank of Bazaar/Tell the police about Passmore.asset
+#, fuzzy
+msgctxt "TaskObjective.BankPolice43.title"
+msgid "Tell the police about Passmore"
+msgstr "Conte à polícia sobre o Passmore"
+
+#: Content/Tasks/Buying a house/Buying a house.asset
+#, fuzzy
+msgctxt "TaskInfo.BazaarHouse0.title"
+msgid "Buying a house"
+msgstr "Comprando uma casa"
+
+#: Content/Tasks/Buying a house/Finalize transaction.asset
+#, fuzzy
+msgctxt "TaskObjective.BazaarHouse10.title"
+msgid "Finalize transaction"
+msgstr "Conclua a transação"
+
+#: Content/Tasks/Buying a house/Finalize transaction.asset
+#, fuzzy
+msgctxt "TaskObjective.BazaarHouse10.description"
+msgid "You have agreed to purchase a house in the finer area of the Bazaar for 220 000 RM. You should visit the Open Homes Company office in the Mallment to finalize the deal."
+msgstr "Você concordou em comprar uma casa na parte mais nobre do Bazar por 220 000 RM. Vá ao escritório da Imobiliária Lar Aberto no Mallment para fechar o negócio."
+
+#: Content/Tasks/Buying the toll bridge/Buy the toll bridge.asset
+#, fuzzy
+msgctxt "TaskObjective.Bridge47.title"
+msgid "Buy the toll bridge"
+msgstr "Compre a ponte do pedágio"
+
+#: Content/Tasks/Buying the toll bridge/Buy the toll bridge.asset
+#, fuzzy
+msgctxt "TaskObjective.Bridge47.description"
+msgid "You told him that you want to buy his bridge."
+msgstr "Você disse a ele que quer comprar a ponte dele."
+
+#: Content/Tasks/Buying the toll bridge/Buying the toll bridge.asset
+#, fuzzy
+msgctxt "TaskInfo.BuyingBridge18.title"
+msgid "Buying the toll bridge"
+msgstr "Comprando a ponte do pedágio"
+
+#: Content/Tasks/Buying the toll bridge/Buying the toll bridge.asset
+#, fuzzy
+msgctxt "TaskInfo.BuyingBridge18.description"
+msgid "The toll bridge you have to pay to get to your tenement is owned by David Lund."
+msgstr "A ponte com pedágio que você precisa pagar para chegar ao seu prédio pertence ao David Lund."
+
+#: Content/Tasks/Buying the toll bridge/Meet the owner.asset
+#, fuzzy
+msgctxt "TaskObjective.Meet48.title"
+msgid "Meet the owner"
+msgstr "Encontre-se com o dono"
+
+#: Content/Tasks/Buying the toll bridge/Meet the owner.asset
+#, fuzzy
+msgctxt "TaskObjective.Meet48.description"
+msgid ""
+"You called David and expressed your interest in buying his toll bridge. \n"
+"\n"
+"He asked you to come to his apartment Deekula C6 because he wants to talk face to face."
+msgstr ""
+"Você ligou para o David e demonstrou interesse em comprar a ponte do pedágio dele. \n"
+"\n"
+"Ele pediu que você fosse ao apartamento dele, no Deekula C6, porque quer conversar pessoalmente."
+
+#: Content/Tasks/Collapse Hazard/Clear the tracks of the tenement tunnel.asset
+#, fuzzy
+msgctxt "TaskObjective.Tracks77.title"
+msgid "Clear the tracks of the tenement tunnel"
+msgstr "Libere os trilhos do túnel do prédio"
+
+#: Content/Tasks/Collapse Hazard/Clear the tracks of the tenement tunnel.asset
+#, fuzzy
+msgctxt "TaskObjective.Tracks77.description"
+msgid "Ken told you that he wants you to clear the tracks to the tenement tunnel before they agree to start reinforcing it. He mentioned that to reach the tenement tunnel, you will first have to go through Erikson's Claim and then report back to him once the task is done."
+msgstr "O Ken disse que quer que você libere os trilhos até o túnel do prédio antes que a equipe aceite começar a reforçá-lo. Ele mencionou que, para chegar ao túnel do prédio, você vai ter que passar primeiro pela Concessão do Erikson, e depois voltar para falar com ele quando terminar o serviço."
+
+#: Content/Tasks/Collapse Hazard/Collapse Hazard.asset
+#, fuzzy
+msgctxt "TaskInfo.CollapseHazard11.title"
+msgid "Collapse hazard"
+msgstr "Risco de desabamento"
+
+#: Content/Tasks/Collapse Hazard/Collapse Hazard.asset
+#, fuzzy
+msgctxt "TaskInfo.CollapseHazard11.description"
+msgid "You learned from Toivo Malmijoki that the mining tunnel under your tenement is in danger of collapsing. Toivo told you that you should go talk to Ken Nakahara who is usually on the second floor of OS Mining Service."
+msgstr "O Toivo Malmijoki te contou que o túnel de mineração embaixo do seu prédio corre risco de desabar. Ele disse para você ir falar com o Ken Nakahara, que normalmente fica no segundo andar dos Serviços de Mineração OS."
+
+#: Content/Tasks/Collapse Hazard/Complete makeshift mines upgrade.asset
+#, fuzzy
+msgctxt "TaskObjective.CompletMakeshiftMines12.title"
+msgid "Complete makeshift mines upgrade"
+msgstr "Conclua a reforma das minas para Improvisado"
+
+#: Content/Tasks/Collapse Hazard/Go to talk to Ken Nakahara.asset
+#, fuzzy
+msgctxt "TaskObjective.Nakahara43.title"
+msgid "Go to talk to Ken Nakahara"
+msgstr "Vá falar com o Ken Nakahara"
+
+#: Content/Tasks/Collapse Hazard/Pay Ken to have his team clear the tunnel.asset
+#, fuzzy
+msgctxt "TaskObjective.KenTunneliOn11.title"
+msgid "Pay Ken to have his team clear the tunnel"
+msgstr "Pague o Ken para a equipe dele liberar o túnel"
+
+#: Content/Tasks/Collapse Hazard/Pay Ken to have his team clear the tunnel.asset
+#, fuzzy
+msgctxt "TaskObjective.KenTunneliOn11.description"
+msgid "Ken also gave you another option where his team would clear the path to the tunnel under your tenement if you pay them 10000 RM."
+msgstr "O Ken também te deu outra opção: a equipe dele libera o caminho até o túnel embaixo do seu prédio se você pagar 10000 RM."
+
+#: Content/Tasks/Collapse Hazard/Report back to Ken Nakahara.asset
+#, fuzzy
+msgctxt "TaskObjective.NakaharaReport23.title"
+msgid "Report back to Ken Nakahara"
+msgstr "Volte para falar com o Ken Nakahara"
+
+#: Content/Tasks/Collapse Hazard/Start makeshift mines upgrade.asset
+#, fuzzy
+msgctxt "TaskObjective.MakeshiftMines11.title"
+msgid "Start makeshift mines upgrade"
+msgstr "Comece a reforma das minas para Improvisado"
+
+#: Content/Tasks/Collapse Hazard/Wait for the tunnel to be cleared.asset
+#, fuzzy
+msgctxt "TaskObjective.WaitTunnel77.title"
+msgid "Wait for the tunnel to be cleared"
+msgstr "Espere o túnel ser liberado"
+
+#: Content/Tasks/Collapse Hazard/Wait for the tunnel to be cleared.asset
+#, fuzzy
+msgctxt "TaskObjective.WaitTunnel77.description"
+msgid "You decided to pay them to do the work for you. Ken told you that it takes about two days to clear the debris."
+msgstr "Você decidiu pagar para eles fazerem o serviço. O Ken disse que leva uns dois dias para tirar o entulho."
+
+#: Content/Tasks/Deeply insane/Ask Laura about Ines.asset
+#, fuzzy
+msgctxt "TaskObjective.LauraMarkkanen66.title"
+msgid "Ask Laura about Ines"
+msgstr "Pergunte à Laura sobre a Ines"
+
+#: Content/Tasks/Deeply insane/Ask Laura about Ines.asset
+#, fuzzy
+msgctxt "TaskObjective.LauraMarkkanen66.description"
+msgid "From Anna, you learned that another woman named Ines Hietala once worked at the canteen. Anna suggested that her sister, Laura, might know where Ines is now. She also mentioned that Laura could be at the Sauna Club at the moment."
+msgstr "A Anna te contou que outra mulher, chamada Ines Hietala, já trabalhou na cantina. Ela sugeriu que a irmã dela, a Laura, talvez saiba onde a Ines está agora, e mencionou que a Laura pode estar no Clube de Sauna neste momento."
+
+#: Content/Tasks/Deeply insane/Call the police.asset
+#, fuzzy
+msgctxt "TaskObjective.InesPolice33.title"
+msgid "Call the police"
+msgstr "Chame a polícia"
+
+#: Content/Tasks/Deeply insane/Call the police.asset
+#, fuzzy
+msgctxt "TaskObjective.InesPolice33.description"
+msgid "You decided to call the police, and Ines said she would wait for them."
+msgstr "Você decidiu chamar a polícia, e a Ines disse que esperaria por eles."
+
+#: Content/Tasks/Deeply insane/Check the buildings at the Kauha's claim.asset
+#, fuzzy
+msgctxt "TaskObjective.ElevatorBuildings11.title"
+msgid "Check the buildings at Kauha's claim"
+msgstr "Verifique os prédios na Concessão do Kauha"
+
+#: Content/Tasks/Deeply insane/Check the buildings at the Kauha's claim.asset
+#, fuzzy
+msgctxt "TaskObjective.ElevatorBuildings11.description"
+msgid "You learned from Laura that Ines was trying to get into a building at Kauha's claim."
+msgstr "A Laura te contou que a Ines estava tentando entrar em um prédio na Concessão do Kauha."
+
+#: Content/Tasks/Deeply insane/Deeply insane.asset
+#, fuzzy
+msgctxt "TaskInfo.DeeplyInsane35.title"
+msgid "Deeply insane"
+msgstr "Loucura profunda"
+
+#: Content/Tasks/Deeply insane/Deeply insane.asset
+#, fuzzy
+msgctxt "TaskInfo.DeeplyInsane35.description"
+msgid "You learned from Fredrik that a woman who works in the mines was living with Joel. He didn’t know her name, but he mentioned that she had blonde hair. She could be the one responsible for the murders of Alice, Joel, and Pia."
+msgstr "O Fredrik te contou que uma mulher que trabalha nas minas morava com o Joel. Ele não sabia o nome dela, mas mencionou que ela era loira. Ela pode ser a responsável pelos assassinatos da Alice, do Joel e da Pia."
+
+#: Content/Tasks/Deeply insane/Find the keys to the building.asset
+#, fuzzy
+msgctxt "TaskObjective.KeysBuilding12.title"
+msgid "Find the keys to the building"
+msgstr "Encontre as chaves do prédio"
+
+#: Content/Tasks/Deeply insane/Find the keys to the building.asset
+#, fuzzy
+msgctxt "TaskObjective.KeysBuilding12.description"
+msgid "Emil Kauha told you that someone named Pertti lost the keys to the building where Ines probably is. Pertti lost the keys near the break room."
+msgstr "O Emil Kauha te contou que um tal de Pertti perdeu as chaves do prédio onde a Ines provavelmente está. O Pertti perdeu as chaves perto da sala de descanso."
+
+#: Content/Tasks/Deeply insane/Go to the mines to find the woman.asset
+#, fuzzy
+msgctxt "TaskObjective.PiaMines23.title"
+msgid "Go to the mines to find the woman"
+msgstr "Vá às minas encontrar a mulher"
+
+#: Content/Tasks/Deeply insane/Talk to Anna Markkanen.asset
+#, fuzzy
+msgctxt "TaskObjective.AnnaMarkkanen75.title"
+msgid "Talk to Anna Markkanen"
+msgstr "Fale com a Anna Markkanen"
+
+#: Content/Tasks/Deeply insane/Talk to Anna Markkanen.asset
+#, fuzzy
+msgctxt "TaskObjective.AnnaMarkkanen75.description"
+msgid "You later discovered that Anna Markkanen, who works at the canteen, has blonde hair."
+msgstr "Depois você descobriu que a Anna Markkanen, que trabalha na cantina, é loira."
+
+#: Content/Tasks/Deeply insane/Talk to Ines.asset
+#, fuzzy
+msgctxt "TaskObjective.InesTalk22.title"
+msgid "Talk to Ines"
+msgstr "Fale com a Ines"
+
+#: Content/Tasks/Elevator to surface/Elevator to surface.asset
+#, fuzzy
+msgctxt "TaskInfo.SurfaceElevator99.title"
+msgid "Elevator to surface"
+msgstr "Elevador para a superfície"
+
+#: Content/Tasks/Elevator to surface/Fill out the form.asset
+#, fuzzy
+msgctxt "TaskObjective.BazaarPermit77.title"
+msgid "Fill out the form and bring it to Axel Nordberg"
+msgstr "Preencha o formulário e leve ao Axel Nordberg"
+
+#: Content/Tasks/Elevator to surface/Fill out the form.asset
+#, fuzzy
+msgctxt "TaskObjective.BazaarPermit77.description"
+msgid "Axel gave you blank forms to fill out. Fill them out and bring them to Axel at the gatehouse."
+msgstr "O Axel te deu formulários em branco. Preencha e leve de volta ao Axel na portaria."
+
+#: Content/Tasks/Elevator to surface/Get permission for lift from Bazaar.asset
+#, fuzzy
+msgctxt "TaskObjective.BazaarPermit44.title"
+msgid "Get permission for the lift from the Bazaar"
+msgstr "Consiga a autorização do Bazar para o elevador"
+
+#: Content/Tasks/Elevator to surface/Get permission for lift from Bazaar.asset
+#, fuzzy
+msgctxt "TaskObjective.BazaarPermit44.description"
+msgid "You found out that the mine's big elevator needs a special permit from the surface in the Bazaar."
+msgstr "Você descobriu que o elevador grande da mina precisa de uma autorização especial da superfície, no Bazar."
+
+#: Content/Tasks/Elevator to surface/Obtain Mining Permit.asset
+#, fuzzy
+msgctxt "TaskObjective.BazaarPermit110.title"
+msgid "Obtain mining permit"
+msgstr "Obtenha a licença de mineração"
+
+#: Content/Tasks/Elevator to surface/Obtain Mining Permit.asset
+#, fuzzy
+msgctxt "TaskObjective.BazaarPermit110.description"
+msgid "Tor requires you to obtain a mining permit before giving out elevator access."
+msgstr "O Tor exige que você tire uma licença de mineração antes de liberar o acesso ao elevador."
+
+#: Content/Tasks/Elevator to surface/Present Registration For Tor.asset
+#, fuzzy
+msgctxt "TaskObjective.BazaarPermit99.title"
+msgid "Present the registration to Tor"
+msgstr "Apresente o registro ao Tor"
+
+#: Content/Tasks/Elevator to surface/Register at Bazaar gatehouse.asset
+#, fuzzy
+msgctxt "TaskObjective.BazaarPermit66.title"
+msgid "Register at the Bazaar gatehouse"
+msgstr "Faça o registro na portaria do Bazar"
+
+#: Content/Tasks/Elevator to surface/Register at Bazaar gatehouse.asset
+#, fuzzy
+msgctxt "TaskObjective.BazaarPermit66.description"
+msgid "Bazaar management told you that registrations are handled in the gatehouse building near the clock tower."
+msgstr "A administração do Bazar te informou que os registros são feitos na portaria, perto da Torre do Relógio."
+
+#: Content/Tasks/Elevator to surface/Register at Bazaar management.asset
+#, fuzzy
+msgctxt "TaskObjective.BazaarPermit55.title"
+msgid "Register at the Bazaar management"
+msgstr "Faça o registro na administração do Bazar"
+
+#: Content/Tasks/Elevator to surface/Register at Bazaar management.asset
+#, fuzzy
+msgctxt "TaskObjective.BazaarPermit55.description"
+msgid "Tor told you that Bazaar management requires every miner to register at the Bazaar management building for the mine access. Registrations are handled in 'N-O Company' building at the end of the street."
+msgstr "O Tor te contou que a administração do Bazar exige que todo minerador se registre no prédio da administração para ter acesso à mina. Os registros são feitos no prédio da “N-O Company”, no fim da rua."
+
+#: Content/Tasks/Elevator to surface/Wait for answer.asset
+#, fuzzy
+msgctxt "TaskObjective.BazaarPermit88.title"
+msgid "Wait for registration"
+msgstr "Espere o registro"
+
+#: Content/Tasks/Elevator to surface/Wait for answer.asset
+#, fuzzy
+msgctxt "TaskObjective.BazaarPermit88.description"
+msgid "You have submitted the forms. Now you just need to wait for an answer."
+msgstr "Você entregou os formulários. Agora é só esperar uma resposta."
+
+#: Content/Tasks/Find the moon/Ask about the moon stickers from Pate.asset
+#, fuzzy
+msgctxt "TaskObjective.Stickers9.title"
+msgid "Ask Pate about the moon stickers"
+msgstr "Pergunte ao Pate sobre os adesivos de lua"
+
+#: Content/Tasks/Find the moon/Find the moon.asset
+#, fuzzy
+msgctxt "TaskInfo.FindMoon4.title"
+msgid "Find the moon"
+msgstr "Encontre a lua"
+
+#: Content/Tasks/Find the moon/Find the moon.asset
+#, fuzzy
+msgctxt "TaskInfo.FindMoon4.description"
+msgid "Pate Rantanen near the border inspection asked you to get him the turnip moon, because his pink turnip needs it. He probably meant for you to make turnip moonshine."
+msgstr "O Pate Rantanen, perto da inspeção da fronteira, pediu que você arranjasse a lua de nabo para ele, porque o nabo rosa dele precisa dela. Ele provavelmente quis dizer que você deveria fazer cachaça de nabo."
+
+#: Content/Tasks/Find the moon/Give turnip moonshine to Pate.asset
+#, fuzzy
+msgctxt "TaskObjective.PateTunipMoon12.title"
+msgid "Give turnip moonshine to Pate"
+msgstr "Dê cachaça de nabo ao Pate"
+
+#: Content/Tasks/Five little ducklings/Find an axe for Mr. Duck.asset
+#, fuzzy
+msgctxt "TaskObjective.FindAxe36.title"
+msgid "Find an axe for Mr. Duck"
+msgstr "Encontre um machado para o Sr. Pato"
+
+#: Content/Tasks/Five little ducklings/Find an axe for Mr. Duck.asset
+#, fuzzy
+msgctxt "TaskObjective.FindAxe36.description"
+msgid "In addition to the five ducks, Mr. Duck wanted an axe"
+msgstr "Além dos cinco patos, o Sr. Pato queria um machado"
+
+#: Content/Tasks/Five little ducklings/Five little ducklings.asset
+#, fuzzy
+msgctxt "TaskInfo.FiveDucks15.title"
+msgid "Five little ducklings"
+msgstr "Cinco patinhos"
+
+#: Content/Tasks/Five little ducklings/Five little ducklings.asset
+#, fuzzy
+msgctxt "TaskInfo.FiveDucks15.description"
+msgid "Mr. Duck gave you the task of finding five rubber ducks. You don't really know why he needs them."
+msgstr "O Sr. Pato te deu a tarefa de encontrar cinco patinhos de borracha. Você não faz ideia de para que ele precisa deles."
+
+#: Content/Tasks/Five little ducklings/Give five rubber ducks to Mr. Duck.asset
+#, fuzzy
+msgctxt "TaskObjective.Ducks37.title"
+msgid "Give five rubber ducks to Mr. Duck"
+msgstr "Dê cinco patinhos de borracha ao Sr. Pato"
+
+#: Content/Tasks/Fredrik's patient/Bring the medicine to Pia.asset
+#, fuzzy
+msgctxt "TaskObjective.MedicinePia53.title"
+msgid "Bring the medicine to Pia"
+msgstr "Leve o remédio para a Pia"
+
+#: Content/Tasks/Fredrik's patient/Bring the medicine to Pia.asset
+#, fuzzy
+msgctxt "TaskObjective.MedicinePia53.description"
+msgid "Usually Pia's friend, Alice, brings her the medicine but Fredrik hasn't seen her for a while."
+msgstr "Normalmente quem leva o remédio para a Pia é a amiga dela, a Alice, mas o Fredrik não a vê há algum tempo."
+
+#: Content/Tasks/Fredrik's patient/Fredrik's patient.asset
+#, fuzzy
+msgctxt "TaskInfo.Patient17.title"
+msgid "Fredrik's patient"
+msgstr "A paciente do Fredrik"
+
+#: Content/Tasks/Fredrik's patient/Fredrik's patient.asset
+#, fuzzy
+msgctxt "TaskInfo.Patient17.description"
+msgid "Fredrik asked you to take the medicine to his patient named Pia. She lives near Deekula C in a makeshift two-story house with a balcony."
+msgstr "O Fredrik pediu que você levasse o remédio para a paciente dele, a Pia. Ela mora perto do Deekula C, numa casa improvisada de dois andares com sacada."
+
+#: Content/Tasks/Fredrik's patient/Tell Fredrik what you did.asset
+#, fuzzy
+msgctxt "TaskObjective.FredrikRed34.title"
+msgid "Tell Fredrik what you did"
+msgstr "Conte ao Fredrik o que você fez"
+
+#: Content/Tasks/Fredrik's patient/Tell Fredrik what you did.asset
+#, fuzzy
+msgctxt "TaskObjective.FredrikRed34.description"
+msgid "You gave the red mushroom extract to Pia for some reason and she died."
+msgstr "Por algum motivo, você deu o extrato de cogumelo vermelho para a Pia, e ela morreu."
+
+#: Content/Tasks/Getting a passport/Ask Eliana to forge a passport.asset
+#, fuzzy
+msgctxt "TaskObjective.Eliana11.title"
+msgid "Ask Eliana to forge a passport"
+msgstr "Peça à Eliana para falsificar um passaporte"
+
+#: Content/Tasks/Getting a passport/Ask Eliana to forge a passport.asset
+#, fuzzy
+msgctxt "TaskObjective.Eliana11.description"
+msgid "Passmore's second task is to go talk to Eliana, the photographer at the Kolhola building, and ask if she could forge a passport for you."
+msgstr "A segunda tarefa do Passmore é ir falar com a Eliana, a fotógrafa do prédio Kolhola, e perguntar se ela falsificaria um passaporte para você."
+
+#: Content/Tasks/Getting a passport/Find Passmore and tell him the password.asset
+#, fuzzy
+msgctxt "TaskObjective.PassmoreCorrect24.title"
+msgid "Find Passmore and tell him the password"
+msgstr "Encontre o Passmore e diga a senha"
+
+#: Content/Tasks/Getting a passport/Find Passmore and tell him the password.asset
+#, fuzzy
+msgctxt "TaskObjective.PassmoreCorrect24.description"
+msgid "You found out that Passmore sells passports and you have to tell him the password: Passless."
+msgstr "Você descobriu que o Passmore vende passaportes e que precisa dizer a senha a ele: Passless."
+
+#: Content/Tasks/Getting a passport/Find Passmore.asset
+#, fuzzy
+msgctxt "TaskObjective.Passmore13.title"
+msgid "Tell Passmore the password \"Passed\""
+msgstr "Diga ao Passmore a senha “Passed”"
+
+#: Content/Tasks/Getting a passport/Find Passmore.asset
+#, fuzzy
+msgctxt "TaskObjective.Passmore13.description"
+msgid "You found out that a guy named Passmore might sell passports. He lives behind the O-market in Tenement B and the password might be \"Passed\"."
+msgstr "Você descobriu que um cara chamado Passmore talvez venda passaportes. Ele mora atrás do O-Market, no Prédio B, e a senha talvez seja “Passed”."
+
+#: Content/Tasks/Getting a passport/Find a passport seller in Deekula C.asset
+#, fuzzy
+msgctxt "TaskObjective.PassportC33.title"
+msgid "Find a passport seller in Deekula C"
+msgstr "Encontre um vendedor de passaportes no Deekula C"
+
+#: Content/Tasks/Getting a passport/Find a route to the bank.asset
+#, fuzzy
+msgctxt "TaskObjective.Route12.title"
+msgid "Find a route to the bank"
+msgstr "Encontre um caminho até o banco"
+
+#: Content/Tasks/Getting a passport/Find a route to the bank.asset
+#, fuzzy
+msgctxt "TaskObjective.Route12.description"
+msgid "Passmore promised to sell you the passport if you do two tasks for him. His first task is to find the entrance to the Bazaar bank in the Bergmann tunnels. The tunnel's door code is 4027. He said the entrance to the Bergmann tunnels is in the same building where he lives."
+msgstr "O Passmore prometeu vender o passaporte se você fizer duas tarefas para ele. A primeira é encontrar a entrada do banco do Bazar nos Túneis Bergmann. O código da porta do túnel é 4027. Ele disse que a entrada dos Túneis Bergmann fica no mesmo prédio onde ele mora."
+
+#: Content/Tasks/Getting a passport/Find someone who sells passports.asset
+#, fuzzy
+msgctxt "TaskObjective.FindPassports14.title"
+msgid "Find someone who sells passports"
+msgstr "Encontre alguém que venda passaportes"
+
+#: Content/Tasks/Getting a passport/Find someone who sells passports.asset
+#, fuzzy
+msgctxt "TaskObjective.FindPassports14.description"
+msgid "Malone Petronis wanted you to get an Obenseuer passport, because he wants you to be able to go to the Bazaar where there is a place that will help you renovate the tenement."
+msgstr "O Malone Petronis queria que você conseguisse um passaporte de Obenseuer, para poder ir ao Bazar, onde tem um lugar que vai te ajudar a reformar o prédio."
+
+#: Content/Tasks/Getting a passport/Get a passport from Passmore.asset
+#, fuzzy
+msgctxt "TaskObjective.PassmoreGet53.title"
+msgid "Get a passport from Passmore"
+msgstr "Consiga um passaporte com o Passmore"
+
+#: Content/Tasks/Getting a passport/Get a passport from Passmore.asset
+#, fuzzy
+msgctxt "TaskObjective.PassmoreGet53.description"
+msgid "You found Passmore, but you need the password before he'll talk."
+msgstr "Você encontrou o Passmore, mas ele só conversa se você souber a senha."
+
+#: Content/Tasks/Getting a passport/Get a right password for Passmore.asset
+#, fuzzy
+msgctxt "TaskObjective.Password15.title"
+msgid "Get the right password for Passmore"
+msgstr "Descubra a senha certa para o Passmore"
+
+#: Content/Tasks/Getting a passport/Get the passport from Eliana.asset
+#, fuzzy
+msgctxt "TaskObjective.ElianaGet12.title"
+msgid "Get the passport from Eliana"
+msgstr "Pegue o passaporte com a Eliana"
+
+#: Content/Tasks/Getting a passport/Get the passport from Eliana.asset
+#, fuzzy
+msgctxt "TaskObjective.ElianaGet12.description"
+msgid "Eliana wants you to help her before she agrees to forge the passport."
+msgstr "A Eliana quer que você a ajude antes de aceitar falsificar o passaporte."
+
+#: Content/Tasks/Getting a passport/Getting a passport.asset
+#, fuzzy
+msgctxt "TaskInfo.GettingPassport5.title"
+msgid "Getting a passport"
+msgstr "Arranjando um passaporte"
+
+#: Content/Tasks/Getting a passport/Remove the obstacle.asset
+#, fuzzy
+msgctxt "TaskObjective.Obstacle16.title"
+msgid "Remove the obstacle"
+msgstr "Remova o obstáculo"
+
+#: Content/Tasks/Getting a passport/Tell Passmore what you found.asset
+#, fuzzy
+msgctxt "TaskObjective.FoundBank17.title"
+msgid "Tell Passmore what you found"
+msgstr "Conte ao Passmore o que você encontrou"
+
+#: Content/Tasks/Getting a passport/Wait for the passport to arrive in the mail.asset
+#, fuzzy
+msgctxt "TaskObjective.PassportMail34.title"
+msgid "Wait for the passport to arrive in the mail"
+msgstr "Espere o passaporte chegar pelo correio"
+
+#: Content/Tasks/Getting a passport/Wait for the passport to arrive in the mail.asset
+#, fuzzy
+msgctxt "TaskObjective.PassportMail34.description"
+msgid "Eliana took a picture of you for the passport and now you have to wait a couple of days for the passport to arrive at your doorstep."
+msgstr "A Eliana tirou uma foto sua para o passaporte, e agora você precisa esperar uns dias até o passaporte chegar na sua porta."
+
+#: Content/Tasks/Getting started/Find a tenant for one apartment.asset
+#, fuzzy
+msgctxt "TaskObjective.FindTentant18.title"
+msgid "Find a tenant for one apartment"
+msgstr "Encontre um inquilino para um apartamento"
+
+#: Content/Tasks/Getting started/Getting started.asset
+#, fuzzy
+msgctxt "TaskInfo.Started6.title"
+msgid "Getting started"
+msgstr "Primeiros passos"
+
+#: Content/Tasks/Getting started/Getting started.asset
+#, fuzzy
+msgctxt "TaskInfo.Started6.description"
+msgid "Malone Petronis wants to help you renovate the tenement. He told you that a contractor named Samuel Jonasson in the Deekula building can help you with it."
+msgstr "O Malone Petronis quer te ajudar a reformar o prédio. Ele disse que um empreiteiro chamado Samuel Jonasson, no prédio Deekula, pode te ajudar com isso."
+
+#: Content/Tasks/Getting started/Go to Kurahaara brothers' farm.asset
+#, fuzzy
+msgctxt "TaskObjective.Kurahaara61.title"
+msgid "Go to Kurahaara brothers' farm"
+msgstr "Vá à fazenda dos irmãos Kurahaara"
+
+#: Content/Tasks/Getting started/Go to Kurahaara brothers' farm.asset
+#, fuzzy
+msgctxt "TaskObjective.Kurahaara61.description"
+msgid "Malone also told you that you need a lot of money so he suggested that you go and ask for a job at Kurahaara brothers' farm."
+msgstr "O Malone também disse que você vai precisar de muito dinheiro, então sugeriu que você fosse pedir emprego na fazenda dos irmãos Kurahaara."
+
+#: Content/Tasks/Getting started/Go to talk Jonasson.asset
+#, fuzzy
+msgctxt "TaskObjective.Jonasson19.title"
+msgid "Go talk to Jonasson"
+msgstr "Vá falar com o Jonasson"
+
+#: Content/Tasks/Getting started/Report to Malone.asset
+#, fuzzy
+msgctxt "TaskObjective.ReportMalone23.title"
+msgid "Report to Malone"
+msgstr "Dê notícias ao Malone"
+
+#: Content/Tasks/Getting started/Report to Malone.asset
+#, fuzzy
+msgctxt "TaskObjective.ReportMalone23.description"
+msgid "You spoke to Jonasson about the renovation of the tenement. Malone asked you to tell him when you've done it."
+msgstr "Você falou com o Jonasson sobre a reforma do prédio. O Malone pediu que você avisasse quando tivesse feito isso."
+
+#: Content/Tasks/Getting started/Start 5 renovations.asset
+#, fuzzy
+msgctxt "TaskObjective.Renovate5Start21.title"
+msgid "Start five renovations"
+msgstr "Inicie cinco reformas"
+
+#: Content/Tasks/Getting started/Start renovation.asset
+#, fuzzy
+msgctxt "TaskObjective.RenovateStart20.title"
+msgid "Start renovation"
+msgstr "Inicie a reforma"
+
+#: Content/Tasks/Getting started/Tell Malone about renovation.asset
+#, fuzzy
+msgctxt "TaskObjective.RenovationMalone24.title"
+msgid "Tell Malone about renovation"
+msgstr "Conte ao Malone sobre a reforma"
+
+#: Content/Tasks/Getting started/Tell Malone about renovations.asset
+#, fuzzy
+msgctxt "TaskObjective.RenovationsMalone25.title"
+msgid "Tell Malone about renovations"
+msgstr "Conte ao Malone sobre as reformas"
+
+#: Content/Tasks/Getting started/Tell Malone about the rental.asset
+#, fuzzy
+msgctxt "TaskObjective.RentalMalone26.title"
+msgid "Tell Malone about the rental"
+msgstr "Conte ao Malone sobre o aluguel"
+
+#: Content/Tasks/Getting started/Visit the place Malone told you about.asset
+#, fuzzy
+msgctxt "TaskObjective.MalonePlace25.title"
+msgid "Visit the place Malone told you about"
+msgstr "Visite o lugar que o Malone indicou"
+
+#: Content/Tasks/Getting started/Visit the place Malone told you about.asset
+#, fuzzy
+msgctxt "TaskObjective.MalonePlace25.description"
+msgid "Malone told you about a place where a black-bearded guy named Pentti could offer you a job."
+msgstr "O Malone te falou de um lugar onde um cara de barba preta chamado Pentti talvez te ofereça trabalho."
+
+#: Content/Tasks/Glowstick trail/Examine the red mushroom body.asset
+#, fuzzy
+msgctxt "TaskObjective.RedBody23.title"
+msgid "Examine the red mushroom body"
+msgstr "Examine o corpo com cogumelos vermelhos"
+
+#: Content/Tasks/Glowstick trail/Examine the red mushroom body.asset
+#, fuzzy
+msgctxt "TaskObjective.RedBody23.description"
+msgid "You found a body with red mushrooms growing near the big underground gate."
+msgstr "Você encontrou um corpo com cogumelos vermelhos crescendo, perto do grande portão subterrâneo."
+
+#: Content/Tasks/Glowstick trail/Find a way to clear the tunnel.asset
+#, fuzzy
+msgctxt "TaskObjective.TunnelClear11.title"
+msgid "Find a way to clear the tunnel"
+msgstr "Encontre um jeito de liberar o túnel"
+
+#: Content/Tasks/Glowstick trail/Find a way to get the gate open.asset
+#, fuzzy
+msgctxt "TaskObjective.GateMines22.title"
+msgid "Find a way to get the gate open"
+msgstr "Encontre um jeito de abrir o portão"
+
+#: Content/Tasks/Glowstick trail/Find a way to get the gate open.asset
+#, fuzzy
+msgctxt "TaskObjective.GateMines22.description"
+msgid "The glowstick trail led you to a locked gate with signs warning of radioactivity."
+msgstr "A trilha de bastões luminosos te levou a um portão trancado com placas alertando sobre radioatividade."
+
+#: Content/Tasks/Glowstick trail/Find keys to the Obenseuer mines.asset
+#, fuzzy
+msgctxt "TaskObjective.Mines21.title"
+msgid "Find keys to the Obenseuer mines"
+msgstr "Encontre as chaves das minas de Obenseuer"
+
+#: Content/Tasks/Glowstick trail/Find keys to the Obenseuer mines.asset
+#, fuzzy
+msgctxt "TaskObjective.Mines21.description"
+msgid "Anya told you that there should be keys somewhere in Hanss' place."
+msgstr "A Anya disse que deve haver chaves em algum lugar no esconderijo do Hanss."
+
+#: Content/Tasks/Glowstick trail/Get Heska Pavonen to open the gate.asset
+#, fuzzy
+msgctxt "TaskObjective.HeiskaGate41.title"
+msgid "Get Heska Pavonen to open the gate"
+msgstr "Faça o Heska Pavonen abrir o portão"
+
+#: Content/Tasks/Glowstick trail/Get Heska Pavonen to open the gate.asset
+#, fuzzy
+msgctxt "TaskObjective.HeiskaGate41.description"
+msgid "You learned that a guy named Heska Pavonen can open the gate for you, but you need permission to go there. Heska said that someone at OS Mining Service can help you with that."
+msgstr "Você descobriu que um cara chamado Heska Pavonen pode abrir o portão para você, mas é preciso ter autorização para entrar lá. O Heska disse que alguém nos Serviços de Mineração OS pode te ajudar com isso."
+
+#: Content/Tasks/Glowstick trail/Get radioactive repository entry permit.asset
+#, fuzzy
+msgctxt "TaskObjective.Permit101.title"
+msgid "Get radioactive repository entry permit"
+msgstr "Consiga a autorização de entrada no depósito radioativo"
+
+#: Content/Tasks/Glowstick trail/Get radioactive repository entry permit.asset
+#, fuzzy
+msgctxt "TaskObjective.Permit101.description"
+msgid "Toivo handed you the radioactive repository access authorization form, instructing you to deliver it to the lady at the management office."
+msgstr "O Toivo te entregou o formulário de autorização de acesso ao depósito radioativo e mandou você levá-lo à moça do escritório da administração."
+
+#: Content/Tasks/Glowstick trail/Glowstick trail.asset
+#, fuzzy
+msgctxt "TaskInfo.Glowstick7.title"
+msgid "Glowstick trail"
+msgstr "Trilha de bastões luminosos"
+
+#: Content/Tasks/Glowstick trail/Glowstick trail.asset
+#, fuzzy
+msgctxt "TaskInfo.Glowstick7.description"
+msgid "Anya asked you to find a person named Hanss who went to the Obenseuer mines. She told you that Hanss took orange glowsticks with him and that you should try to follow them if you see them."
+msgstr "A Anya pediu que você encontrasse um homem chamado Hanss, que foi para as minas de Obenseuer. Ela contou que o Hanss levou bastões luminosos laranja e que você deve tentar segui-los se os encontrar."
+
+#: Content/Tasks/Glowstick trail/Go back and tell Anya what you found.asset
+#, fuzzy
+msgctxt "TaskObjective.WhatFound12.title"
+msgid "Go back and tell Anya what you found"
+msgstr "Volte e conte à Anya o que encontrou"
+
+#: Content/Tasks/Glowstick trail/Go back and tell Anya what you found.asset
+#, fuzzy
+msgctxt "TaskObjective.WhatFound12.description"
+msgid "You didn't find a route to where Hanss went, but you picked red mushrooms from the body. The only thing you can do now is go back to Anya and tell her what you found."
+msgstr "Você não encontrou um caminho até onde o Hanss foi, mas colheu cogumelos vermelhos do corpo. Agora só resta voltar até a Anya e contar o que encontrou."
+
+#: Content/Tasks/Glowstick trail/Look for hanss in the mines.asset
+#, fuzzy
+msgctxt "TaskObjective.LookMines60.title"
+msgid "Look for Hanss in the mines"
+msgstr "Procure o Hanss nas minas"
+
+#: Content/Tasks/Glowstick trail/Make sure no other route is found.asset
+#, fuzzy
+msgctxt "TaskObjective.Route76.title"
+msgid "Make sure there's no other route"
+msgstr "Confirme que não há outro caminho"
+
+#: Content/Tasks/Glowstick trail/Make sure no other route is found.asset
+#, fuzzy
+msgctxt "TaskObjective.Route76.description"
+msgid "The glowstick trail ended in a collapsed mine, but maybe there's a route nearby to get past it."
+msgstr "A trilha de bastões luminosos terminou numa mina desabada, mas talvez haja um caminho por perto para passar por ela."
+
+#: Content/Tasks/Glowstick trail/Open the radioactive repository gate.asset
+#, fuzzy
+msgctxt "TaskObjective.GateOpen34.title"
+msgid "Open the radioactive repository gate"
+msgstr "Abra o portão do depósito radioativo"
+
+#: Content/Tasks/Glowstick trail/Open the radioactive repository gate.asset
+#, fuzzy
+msgctxt "TaskObjective.GateOpen34.description"
+msgid "Heska Pavonen powered up the gate and gave you the keypad code, 1234."
+msgstr "O Heska Pavonen ligou a energia do portão e te passou o código do teclado: 1234."
+
+#: Content/Tasks/Homecoming Celebration/Claim reward.asset
+#, fuzzy
+msgctxt "TaskObjective.svamppatrullen1_reward.title"
+msgid "Claim the reward"
+msgstr "Pegue a recompensa"
+
+#: Content/Tasks/Homecoming Celebration/Claim reward.asset
+#, fuzzy
+msgctxt "TaskObjective.svamppatrullen1_reward.description"
+msgid "It is done! You should return to Ville Sköldgangster and claim your reward."
+msgstr "Está feito! Volte ao Ville Sköldgangster e pegue sua recompensa."
+
+#: Content/Tasks/Homecoming Celebration/Homecoming Celebration.asset
+#, fuzzy
+msgctxt "TaskInfo.svamppatrullen1.title"
+msgid "Homecoming celebration"
+msgstr "Festa de boas-vindas"
+
+#: Content/Tasks/Homecoming Celebration/Homecoming Celebration.asset
+#, fuzzy
+msgctxt "TaskInfo.svamppatrullen1.description"
+msgid "Ville Sköldgangster has a beef with a gang residing on the top floor of the Deekula C building, and he wants you to scout out their premises and sabotage their operations."
+msgstr "O Ville Sköldgangster tem uma treta com uma gangue que fica no último andar do prédio Deekula C, e quer que você faça um reconhecimento do lugar e sabote as operações deles."
+
+#: Content/Tasks/Homecoming Celebration/Locate the gang.asset
+#, fuzzy
+msgctxt "TaskObjective.svamppatrullen1_1.title"
+msgid "Locate the gang"
+msgstr "Localize a gangue"
+
+#: Content/Tasks/Homecoming Celebration/Poison the bottle.asset
+#, fuzzy
+msgctxt "TaskObjective.svamppatrullen1_4.title"
+msgid "Poison the bottle and leave"
+msgstr "Envenene a garrafa e saia"
+
+#: Content/Tasks/Homecoming Celebration/Poison the bottle.asset
+#, fuzzy
+msgctxt "TaskObjective.svamppatrullen1_4.description"
+msgid "Ville said you should poison a bottle of Socca Junior that they're planning to give to their boss. He gave you a special recipe for poisoning the bottle. You'll need access to a chemical lab to prepare it. Then, you should switch the poisoned bottle with the one in the gift and leave the premises."
+msgstr "O Ville disse para você envenenar uma garrafa de Socca Junior que eles pretendem dar de presente ao chefe. Ele te deu uma receita especial para envenenar a garrafa. Você vai precisar de um laboratório químico para prepará-la. Depois, troque a garrafa envenenada pela que está no presente e saia do local."
+
+#: Content/Tasks/Homecoming Celebration/Report back to Ville.asset
+#, fuzzy
+msgctxt "TaskObjective.svamppatrullen1_3.title"
+msgid "Report your findings to Ville"
+msgstr "Conte ao Ville o que você descobriu"
+
+#: Content/Tasks/Homecoming Celebration/Scout out the location.asset
+#, fuzzy
+msgctxt "TaskObjective.svamppatrullen1_2.title"
+msgid "Scout the location"
+msgstr "Faça o reconhecimento do local"
+
+#: Content/Tasks/Homecoming Celebration/Scout out the location.asset
+#, fuzzy
+msgctxt "TaskObjective.svamppatrullen1_2.description"
+msgid "You found the place. You should search the premises and see if there's anything you can do to sabotage their operations."
+msgstr "Você encontrou o lugar. Vasculhe o local e veja se há algo que você possa fazer para sabotar as operações deles."
+
+#: Content/Tasks/Homecoming Celebration/Steal the bottle.asset
+#, fuzzy
+msgctxt "TaskObjective.svamppatrullen1_3b.title"
+msgid "Steal the bottle"
+msgstr "Roube a garrafa"
+
+#: Content/Tasks/Homecoming Celebration/Steal the bottle.asset
+#, fuzzy
+msgctxt "TaskObjective.svamppatrullen1_3b.description"
+msgid "Maybe you should steal the Socca Junior bottle they're planning to give to their boss."
+msgstr "Talvez você devesse roubar a garrafa de Socca Junior que eles pretendem dar ao chefe."
+
+#: Content/Tasks/Homecoming Celebration/Switch the bottles.asset
+#, fuzzy
+msgctxt "TaskObjective.svamppatrullen1_5.title"
+msgid "Switch the bottles"
+msgstr "Troque as garrafas"
+
+#: Content/Tasks/Homecoming Celebration/Switch the bottles.asset
+#, fuzzy
+msgctxt "TaskObjective.svamppatrullen1_5.description"
+msgid "Now you should replace the bottle in the gift box with the poisoned one."
+msgstr "Agora troque a garrafa da caixa de presente pela envenenada."
+
+#: Content/Tasks/Jacob's daughter/Jacob's daughter.asset
+#, fuzzy
+msgctxt "TaskInfo.JacobDaughter19.title"
+msgid "Jacob's daughter"
+msgstr "A filha do Jacob"
+
+#: Content/Tasks/Jacob's daughter/Jacob's daughter.asset
+#, fuzzy
+msgctxt "TaskInfo.JacobDaughter19.description"
+msgid ""
+"You met Jacob on the other side. He asked you to find his daughter Caroline and help her if you can. \n"
+"\n"
+"Jacob also asked you to tell her that he misses her."
+msgstr ""
+"Você conheceu o Jacob do outro lado. Ele pediu que você encontrasse a filha dele, Caroline, e a ajudasse se pudesse. \n"
+"\n"
+"O Jacob também pediu que você dissesse a ela que ele sente saudade."
+
+#: Content/Tasks/Jacob's daughter/Tell Caroline about Jacob if you find her.asset
+#, fuzzy
+msgctxt "TaskObjective.TelCaroline57.title"
+msgid "Tell Caroline about Jacob if you find her"
+msgstr "Fale do Jacob para a Caroline se encontrá-la"
+
+#: Content/Tasks/King of the Bazaar/Arrange a meeting with Karl Hagen.asset
+#, fuzzy
+msgctxt "TaskObjective.KarlMeeting57.title"
+msgid "Arrange a meeting with Karl Hagen"
+msgstr "Marque um encontro com o Karl Hagen"
+
+#: Content/Tasks/King of the Bazaar/King of the Bazaar.asset
+#, fuzzy
+msgctxt "TaskInfo.BazaarKing19.title"
+msgid "King of the Bazaar"
+msgstr "Rei do Bazar"
+
+#: Content/Tasks/King of the Bazaar/King of the Bazaar.asset
+#, fuzzy
+msgctxt "TaskInfo.BazaarKing19.description"
+msgid "Anya asked you to go talk to the Bazaar leader, Karl Hagen, and ask him where to find another route to Hanss."
+msgstr "A Anya pediu que você fosse falar com o líder do Bazar, Karl Hagen, e perguntasse onde encontrar outro caminho até o Hanss."
+
+#: Content/Tasks/King of the Bazaar/Speak with Jussi after fulfilling their demands.asset
+#, fuzzy
+msgctxt "TaskObjective.JusstiDemands58.title"
+msgid "Speak with Jussi after fulfilling their demands"
+msgstr "Fale com o Jussi depois de atender às exigências deles"
+
+#: Content/Tasks/King of the Bazaar/Speak with Jussi after fulfilling their demands.asset
+#, fuzzy
+msgctxt "TaskObjective.JusstiDemands58.description"
+msgid "Jussi and the others demanded that you renovate your tenement before they will cooperate. Talk to Jussi after you have fulfilled their demands."
+msgstr "O Jussi e os outros exigiram que você reformasse seu prédio antes de colaborarem. Fale com o Jussi depois de atender às exigências."
+
+#: Content/Tasks/Letter for Emilie Palmer/Find Emilie's friend Caroline.asset
+#, fuzzy
+msgctxt "TaskObjective.FindEmilie22.title"
+msgid "Find Emilie's friend Caroline"
+msgstr "Encontre a Caroline, amiga da Emilie"
+
+#: Content/Tasks/Letter for Emilie Palmer/Find Emilie's friend Caroline.asset
+#, fuzzy
+msgctxt "TaskObjective.FindEmilie22.description"
+msgid "Mike mentioned Emilie's friend Caroline, who might know where Emilie is."
+msgstr "O Mike mencionou a Caroline, amiga da Emilie, que talvez saiba onde a Emilie está."
+
+#: Content/Tasks/Letter for Emilie Palmer/Find Mike's daughter.asset
+#, fuzzy
+msgctxt "TaskObjective.FindDaughter23.title"
+msgid "Find Mike's daughter Emilie Palmer"
+msgstr "Encontre a Emilie Palmer, filha do Mike"
+
+#: Content/Tasks/Letter for Emilie Palmer/Letter for Emilie Palmer.asset
+#, fuzzy
+msgctxt "TaskInfo.EmilieLetter8.title"
+msgid "Letter for Emilie Palmer"
+msgstr "Carta para Emilie Palmer"
+
+#: Content/Tasks/Letter for Emilie Palmer/Letter for Emilie Palmer.asset
+#, fuzzy
+msgctxt "TaskInfo.EmilieLetter8.description"
+msgid "You met Mike in the Bergmann tunnels, who asked you to give a letter to his daughter Emilie Palmer. He doesn't know where she is or if she’s even alive."
+msgstr "Você conheceu o Mike nos Túneis Bergmann, e ele pediu que você entregasse uma carta à filha dele, Emilie Palmer. Ele não sabe onde ela está, nem se ainda está viva."
+
+#: Content/Tasks/Me mash!/Find where Max Masher lives.asset
+#, fuzzy
+msgctxt "TaskObjective.FindMax38.title"
+msgid "Find where Max Masher lives"
+msgstr "Descubra onde o Max Masher mora"
+
+#: Content/Tasks/Me mash!/Find where Max Masher lives.asset
+#, fuzzy
+msgctxt "TaskObjective.FindMax38.description"
+msgid "Pentti asked you to find out why Max Masher stopped delivering the mash to the speakeasy. Max Masher lives somewhere in Deekula B."
+msgstr "O Pentti pediu que você descobrisse por que o Max Masher parou de entregar garapa no bar clandestino. O Max Masher mora em algum lugar do Deekula B."
+
+#: Content/Tasks/Me mash!/Give Max 10 packets of sugar.asset
+#, fuzzy
+msgctxt "TaskObjective.10Sugar50.title"
+msgid "Give Max 10 packets of sugar"
+msgstr "Dê 10 pacotes de açúcar ao Max"
+
+#: Content/Tasks/Me mash!/Give Max 5 packs of yeast.asset
+#, fuzzy
+msgctxt "TaskObjective.5Yeast49.title"
+msgid "Give Max 5 packs of yeast"
+msgstr "Dê 5 pacotes de levedura ao Max"
+
+#: Content/Tasks/Me mash!/Go to Max Masher's apartment.asset
+#, fuzzy
+msgctxt "TaskObjective.MaxApartment39.title"
+msgid "Go to Max Masher's apartment"
+msgstr "Vá ao apartamento do Max Masher"
+
+#: Content/Tasks/Me mash!/Go to Max Masher's apartment.asset
+#, fuzzy
+msgctxt "TaskObjective.MaxApartment39.description"
+msgid "You found out that Max lives in Deekula apartment B10 when you asked one of the residents of Deekula."
+msgstr "Você descobriu que o Max mora no apartamento B10 do Deekula quando perguntou a um dos moradores do prédio."
+
+#: Content/Tasks/Me mash!/Me mash!.asset
+#, fuzzy
+msgctxt "TaskInfo.MeMash16.title"
+msgid "Me mash!"
+msgstr "Eu faz garapa!"
+
+#: Content/Tasks/Me mash!/Me mash!.asset
+#, fuzzy
+msgctxt "TaskInfo.MeMash16.description"
+msgid "Pentti Penttilä, the owner of the speakeasy, stopped receiving mash from a person called Max Masher. According to Pentti, he makes the best mash in Obenseuer, but Pentti has not been able to contact Max anymore."
+msgstr "O Pentti Penttilä, dono do bar clandestino, parou de receber garapa de um sujeito chamado Max Masher. Segundo o Pentti, ele faz a melhor garapa de Obenseuer, mas o Pentti não consegue mais falar com o Max."
+
+#: Content/Tasks/Me mash!/Punish the evil door.asset
+#, fuzzy
+msgctxt "TaskObjective.Punish44.title"
+msgid "Punish the evil door"
+msgstr "Castigue a porta malvada"
+
+#: Content/Tasks/Me mash!/Talk to Max Masher.asset
+#, fuzzy
+msgctxt "TaskObjective.TalkMax42.title"
+msgid "Talk to Max Masher"
+msgstr "Fale com o Max Masher"
+
+#: Content/Tasks/Me mash!/Tell Pentti that Max can't mash anymore.asset
+#, fuzzy
+msgctxt "TaskObjective.TellPenttiCant46.title"
+msgid "Tell Pentti that Max can't mash anymore"
+msgstr "Conte ao Pentti que o Max não consegue mais fazer garapa"
+
+#: Content/Tasks/Me mash!/Tell Pentti that Max is making mash again.asset
+#, fuzzy
+msgctxt "TaskObjective.TellPenttiMaking52.title"
+msgid "Tell Pentti that Max is making mash again"
+msgstr "Conte ao Pentti que o Max voltou a fazer garapa"
+
+#: Content/Tasks/Me mash!/Tell Pentti that you will start making mash yourself.asset
+#, fuzzy
+msgctxt "TaskObjective.TellPenttiMe45.title"
+msgid "Tell Pentti that you will start making mash yourself"
+msgstr "Conte ao Pentti que você vai começar a fazer garapa por conta própria"
+
+#: Content/Tasks/Me mash!/Try to get Max to start making the mash again.asset
+#, fuzzy
+msgctxt "TaskObjective.TryMax51.title"
+msgid "Try to get Max to start making the mash again"
+msgstr "Tente convencer o Max a voltar a fazer garapa"
+
+#: Content/Tasks/Mikkel’s Minitrain Madness/Find the Osmo Olut minitrain miniature.asset
+#, fuzzy
+msgctxt "TaskObjective.OsmoOlutMinitrain22.title"
+msgid "Find the Osmo Olut minitrain miniature"
+msgstr "Encontre a miniatura de trem Osmo Olut"
+
+#: Content/Tasks/Mikkel’s Minitrain Madness/Mikkel’s Minitrain Madness.asset
+#, fuzzy
+msgctxt "TaskInfo.MikkelTrain11.title"
+msgid "Mikkel’s minitrain madness"
+msgstr "A mania de minitrem do Mikkel"
+
+#: Content/Tasks/Mikkel’s Minitrain Madness/Mikkel’s Minitrain Madness.asset
+#, fuzzy
+msgctxt "TaskInfo.MikkelTrain11.description"
+msgid "Mikkel wants the rare Osmo Olut minitrain miniature before he’ll do anything about the speed cameras. He doesn’t know where to find one, but an Osmo Olut collector might."
+msgstr "O Mikkel quer a rara miniatura de trem Osmo Olut antes de fazer qualquer coisa a respeito dos radares de velocidade. Ele não sabe onde encontrar uma, mas um colecionador de Osmo Olut talvez saiba."
+
+#: Content/Tasks/Missing debitcard/00_FindWayToContactBank.asset
+#, fuzzy
+msgctxt "TaskObjective.debitcardquest_00.title"
+msgid "Find a way to contact the bank"
+msgstr "Encontre um jeito de contatar o banco"
+
+#: Content/Tasks/Missing debitcard/00_FindWayToContactBank.asset
+#, fuzzy
+msgctxt "TaskObjective.debitcardquest_00.description"
+msgid "Maybe you should try contacting the bank to cancel and request a new card."
+msgstr "Talvez você devesse tentar contatar o banco para cancelar o cartão e pedir um novo."
+
+#: Content/Tasks/Missing debitcard/10_CallTheBank.asset
+#, fuzzy
+msgctxt "TaskObjective.debitcardquest_10.title"
+msgid "Call the bank"
+msgstr "Ligue para o banco"
+
+#: Content/Tasks/Missing debitcard/10_CallTheBank.asset
+#, fuzzy
+msgctxt "TaskObjective.debitcardquest_10.description"
+msgid "You have received the bank's phone number."
+msgstr "Você conseguiu o telefone do banco."
+
+#: Content/Tasks/Missing debitcard/20_RequestForms.asset
+#, fuzzy
+msgctxt "TaskObjective.debitcardquest_20.title"
+msgid "Request the forms"
+msgstr "Peça os formulários"
+
+#: Content/Tasks/Missing debitcard/20_RequestForms.asset
+#, fuzzy
+msgctxt "TaskObjective.debitcardquest_20.description"
+msgid "You have contacted the bank. The representative wasn't very helpful, but you understood that you need to send them a letter to get a form to officially request a new debit card. You need to find a printer or some other way to get the letter done. There is probably also a mailbox near the O-market where you can put the letter."
+msgstr "Você entrou em contato com o banco. O atendente não ajudou muito, mas você entendeu que precisa mandar uma carta para receber um formulário para solicitar oficialmente um novo cartão de débito. Você precisa encontrar uma impressora ou outro jeito de fazer a carta. Provavelmente também tem uma caixa de correio perto do O-Market onde você pode colocar a carta."
+
+#: Content/Tasks/Missing debitcard/30A10_ObtainPassport.asset
+#, fuzzy
+msgctxt "TaskObjective.debitcardquest_30A10.title"
+msgid "Obtain passport"
+msgstr "Obtenha um passaporte"
+
+#: Content/Tasks/Missing debitcard/30A10_ObtainPassport.asset
+#, fuzzy
+msgctxt "TaskObjective.debitcardquest_30A10.description"
+msgid "Obtain a passport or some other proof that you live in Obenseuer."
+msgstr "Obtenha um passaporte ou outro comprovante de que você mora em Obenseuer."
+
+#: Content/Tasks/Missing debitcard/30B10_ObtainingTheForm.asset
+#, fuzzy
+msgctxt "TaskObjective.debitcardquest_30B10.title"
+msgid "Obtaining the form"
+msgstr "Obtendo o formulário"
+
+#: Content/Tasks/Missing debitcard/30B10_ObtainingTheForm.asset
+#, fuzzy
+msgctxt "TaskObjective.debitcardquest_30B10.description"
+msgid ""
+"Forms are not readily available, so you have to write them a letter asking for the correct form.\n"
+msgstr ""
+"Os formulários não estão disponíveis assim tão fácil, então você precisa escrever uma carta pedindo o formulário certo.\n"
+
+#: Content/Tasks/Missing debitcard/30B20_WaitForMail.asset
+#, fuzzy
+msgctxt "TaskObjective.debitcardquest_30B20.title"
+msgid "Wait for answer"
+msgstr "Espere a resposta"
+
+#: Content/Tasks/Missing debitcard/30B20_WaitForMail.asset
+#, fuzzy
+msgctxt "TaskObjective.debitcardquest_30B20.description"
+msgid "You have mailed the request. Now all you have to do is wait for their response, which will likely take several days."
+msgstr "Você enviou o pedido pelo correio. Agora é só esperar a resposta deles, o que provavelmente vai levar vários dias."
+
+#: Content/Tasks/Missing debitcard/30B30_WrongFormsReceived.asset
+#, fuzzy
+msgctxt "TaskObjective.debitcardquest_30B30.title"
+msgid "Wrong form received!"
+msgstr "Chegou o formulário errado!"
+
+#: Content/Tasks/Missing debitcard/30B30_WrongFormsReceived.asset
+#, fuzzy
+msgctxt "TaskObjective.debitcardquest_30B30.description"
+msgid "They have sent you the wrong form, which is for requesting closure of the entire account. You have to request the form again."
+msgstr "Mandaram o formulário errado, que serve para pedir o encerramento da conta inteira. Você vai ter que pedir o formulário de novo."
+
+#: Content/Tasks/Missing debitcard/30B40_WaitForAnswer.asset
+#, fuzzy
+msgctxt "TaskObjective.debitcardquest_30B40.title"
+msgid "Wait for answer"
+msgstr "Espere a resposta"
+
+#: Content/Tasks/Missing debitcard/30B40_WaitForAnswer.asset
+#, fuzzy
+msgctxt "TaskObjective.debitcardquest_30B40.description"
+msgid "You have to wait again for them to send the form."
+msgstr "Você vai ter que esperar de novo até mandarem o formulário."
+
+#: Content/Tasks/Missing debitcard/40FillAndSend.asset
+#, fuzzy
+msgctxt "TaskObjective.debitcardquest_40.title"
+msgid "Fill and send"
+msgstr "Preencha e envie"
+
+#: Content/Tasks/Missing debitcard/40FillAndSend.asset
+#, fuzzy
+msgctxt "TaskObjective.debitcardquest_40.description"
+msgid "It seems that you now have everything you need."
+msgstr "Parece que agora você tem tudo de que precisa."
+
+#: Content/Tasks/Missing debitcard/50_WaitingForDebitcard.asset
+#, fuzzy
+msgctxt "TaskObjective.debitcardquest_50.title"
+msgid "Waiting for debit card"
+msgstr "Esperando o cartão de débito"
+
+#: Content/Tasks/Missing debitcard/50_WaitingForDebitcard.asset
+#, fuzzy
+msgctxt "TaskObjective.debitcardquest_50.description"
+msgid "Wait for the bank to process your request."
+msgstr "Espere o banco processar sua solicitação."
+
+#: Content/Tasks/Missing debitcard/60A_TimeToWithdraw.asset
+#, fuzzy
+msgctxt "TaskObjective.debitcardquest_60.title"
+msgid "Time to withdraw"
+msgstr "Hora de sacar"
+
+#: Content/Tasks/Missing debitcard/60A_TimeToWithdraw.asset
+#, fuzzy
+msgctxt "TaskObjective.debitcardquest_60.description"
+msgid "The bank has accepted your documents and they have mailed you a new bank card. Time to check at an ATM how much money you have in your account."
+msgstr "O banco aceitou seus documentos e mandou um cartão novo pelo correio. Hora de ir a um caixa eletrônico ver quanto dinheiro você tem na conta."
+
+#: Content/Tasks/Missing debitcard/60B_ErrorsInRequest.asset
+#, fuzzy
+msgctxt "TaskObjective.Assets/Content/Tasks/Missing debitcard/60B_ErrorsInRequest.asset.title"
+msgid "Errors in my forms"
+msgstr "Erros nos meus formulários"
+
+#: Content/Tasks/Missing debitcard/60B_ErrorsInRequest.asset
+#, fuzzy
+msgctxt "TaskObjective.Assets/Content/Tasks/Missing debitcard/60B_ErrorsInRequest.asset.description"
+msgid "They claim that the forms are filled out incorrectly. You have to fill out the forms again. Good thing you photocopied the blank form."
+msgstr "Eles alegam que os formulários foram preenchidos errado. Você vai ter que preencher tudo de novo. Ainda bem que você tirou xerox do formulário em branco."
+
+#: Content/Tasks/Missing debitcard/Missing debitcard.asset
+#, fuzzy
+msgctxt "TaskInfo.debitcardquest.title"
+msgid "Missing debit card"
+msgstr "Cartão de débito sumido"
+
+#: Content/Tasks/Missing debitcard/Missing debitcard.asset
+#, fuzzy
+msgctxt "TaskInfo.debitcardquest.description"
+msgid "You tried to withdraw money from a local ATM, but you noticed that your debit card is missing. It must have been confiscated during the border inspection."
+msgstr "Você tentou sacar dinheiro num caixa eletrônico daqui, mas percebeu que seu cartão de débito sumiu. Deve ter sido confiscado na inspeção da fronteira."
+
+#: Content/Tasks/Missing dock/Missing dock.asset
+#, fuzzy
+msgctxt "TaskInfo.MissingDock14.title"
+msgid "Missing dock"
+msgstr "Labaça desaparecida"
+
+#: Content/Tasks/Missing dock/Try to find the missing dock.asset
+#, fuzzy
+msgctxt "TaskObjective.FindDock35.title"
+msgid "Try to find the missing dock"
+msgstr "Tente encontrar a labaça desaparecida"
+
+#: Content/Tasks/Missing dock/Try to find the missing dock.asset
+#, fuzzy
+msgctxt "TaskObjective.FindDock35.description"
+msgid "A hippie you called told you that some guys had kidnapped his beloved dock. He has no idea where they took her or what they looked like but he told you that they smelled like a sewer full of booze!"
+msgstr "Um hippie para quem você ligou contou que uns caras sequestraram a amada labaça dele. Ele não faz ideia de para onde a levaram nem de como eles eram, mas disse que eles tinham cheiro de esgoto cheio de birita!"
+
+#: Content/Tasks/My Crazy Neighbor/My Crazy Neighbor.asset
+#, fuzzy
+msgctxt "TaskInfo.MyCrazyNeighbor54.title"
+msgid "My Crazy Neighbor"
+msgstr "Meu vizinho maluco"
+
+#: Content/Tasks/My Crazy Neighbor/My Crazy Neighbor.asset
+#, fuzzy
+msgctxt "TaskInfo.MyCrazyNeighbor54.description"
+msgid "Your crazy neighbor has moved into one of your apartments. Maybe you could get him to pay rent or get him evicted somehow. Maybe you could talk to the police about him."
+msgstr "Seu vizinho maluco se mudou para um dos seus apartamentos. Talvez você consiga fazê-lo pagar aluguel, ou despejá-lo de algum jeito. Talvez você possa falar com a polícia sobre ele."
+
+#: Content/Tasks/My cozy apartment/My cozy apartment.asset
+#, fuzzy
+msgctxt "TaskInfo.MyApartment43.title"
+msgid "My cozy apartment"
+msgstr "Meu apartamento aconchegante"
+
+#: Content/Tasks/My cozy apartment/My cozy apartment.asset
+#, fuzzy
+msgctxt "TaskInfo.MyApartment43.description"
+msgid "Malone told you that you should take the apartment on the first floor."
+msgstr "O Malone disse que você deveria ficar com o apartamento do primeiro andar."
+
+#: Content/Tasks/My cozy apartment/Start editing the apartment.asset
+#, fuzzy
+msgctxt "TaskObjective.StartEdit12.title"
+msgid "Start editing the apartment"
+msgstr "Comece a editar o apartamento"
+
+#: Content/Tasks/New Business/Call Fungal Disease Treatment Unit.asset
+#, fuzzy
+msgctxt "TaskObjective.CallFungalDiseaseTreatmentUnit15.title"
+msgid "Call Fungal Disease Treatment Unit"
+msgstr "Ligue para a Unidade de Tratamento de Doenças Fúngicas"
+
+#: Content/Tasks/New Business/New Business.asset
+#, fuzzy
+msgctxt "TaskInfo.newBusiness11.title"
+msgid "New business"
+msgstr "Negócio novo"
+
+#: Content/Tasks/New Business/New Business.asset
+#, fuzzy
+msgctxt "TaskInfo.newBusiness11.description"
+msgid ""
+"Jussi and the other Bazaar Council members want you to clean up the commercial space on the ground floor of your tenement.\n"
+"\n"
+"They gave you a Fungal Disease Treatment Unit card with the phone number 035426695. You can call it to have the fungal matter removed. The space needs to be cleaned before you can start renovating the shop."
+msgstr ""
+"O Jussi e os outros membros do Conselho do Bazar querem que você limpe o espaço comercial no térreo do seu prédio.\n"
+"\n"
+"Eles te deram um cartão da Unidade de Tratamento de Doenças Fúngicas com o telefone 035426695. Você pode ligar para eles removerem o material fúngico. O espaço precisa ser limpo antes de você começar a reformar a loja."
+
+#: Content/Tasks/New Business/Talk about setting up the shop after fulfilling their demands.asset
+#, fuzzy
+msgctxt "TaskObjective.JusstiDemands59.title"
+msgid "Talk about setting up the shop after fulfilling their demands"
+msgstr "Fale sobre montar a loja depois de atender às exigências deles"
+
+#: Content/Tasks/New Business/Upgrade the facade to at least Decent.asset
+#, fuzzy
+msgctxt "TaskObjective.UpgradeFacadeDecent12.title"
+msgid "Upgrade the facade to at least Decent"
+msgstr "Reforme a fachada para pelo menos Decente"
+
+#: Content/Tasks/New Business/Upgrade the shop to at least Makeshift.asset
+#, fuzzy
+msgctxt "TaskObjective.UpgradeShopMakeshift14.title"
+msgid "Upgrade the shop to at least Makeshift"
+msgstr "Reforme a loja para pelo menos Improvisado"
+
+#: Content/Tasks/New Business/Upgrade the yard to at least Shabby.asset
+#, fuzzy
+msgctxt "TaskObjective.UpgradeYardShabby13.title"
+msgid "Upgrade the yard to at least Shabby"
+msgstr "Reforme o pátio para pelo menos Surrado"
+
+#: Content/Tasks/New Business/Visit Apartment 2 after the cleanup.asset
+#, fuzzy
+msgctxt "TaskObjective.VisitApt2Cleanup.title"
+msgid "Visit Apartment 2 after the cleanup"
+msgstr "Visite o Apartamento 2 depois da limpeza"
+
+#: Content/Tasks/New Business/Visit Apartment 2 after the cleanup.asset
+#, fuzzy
+msgctxt "TaskObjective.VisitApt2Cleanup.description"
+msgid "You contacted the Fungal Disease Treatment Unit (FDTU) to decontaminate Apartment 2. Visit Apartment 2 after they have finished cleaning it."
+msgstr "Você contatou a Unidade de Tratamento de Doenças Fúngicas (UTDF) para descontaminar o Apartamento 2. Visite o Apartamento 2 depois que eles terminarem a limpeza."
+
+#: Content/Tasks/Orange Heaven/Ask Seamus what happened to Malone.asset
+#, fuzzy
+msgctxt "TaskObjective.SeamusAsk55.title"
+msgid "Ask Seamus what happened to Malone"
+msgstr "Pergunte ao Seamus o que aconteceu com o Malone"
+
+#: Content/Tasks/Orange Heaven/Ask Seamus what happened to Malone.asset
+#, fuzzy
+msgctxt "TaskObjective.SeamusAsk55.description"
+msgid "You went to Malone's apartment and you didn't see Malone anywhere. However, Malone's belongings were still there."
+msgstr "Você foi ao apartamento do Malone e não o viu em lugar nenhum. Mas as coisas dele ainda estavam lá."
+
+#: Content/Tasks/Orange Heaven/Find Seamus Liepa.asset
+#, fuzzy
+msgctxt "TaskObjective.Seamus52.title"
+msgid "Find Seamus Liepa"
+msgstr "Encontre o Seamus Liepa"
+
+#: Content/Tasks/Orange Heaven/Find Seamus Liepa.asset
+#, fuzzy
+msgctxt "TaskObjective.Seamus52.description"
+msgid "You got to the old mining tunnels through Deekula's basement."
+msgstr "Você chegou aos velhos túneis de mineração pelo porão do Deekula."
+
+#: Content/Tasks/Orange Heaven/Find a route to the mines.asset
+#, fuzzy
+msgctxt "TaskObjective.FindMines24.title"
+msgid "Find a route to the mines"
+msgstr "Encontre um caminho até as minas"
+
+#: Content/Tasks/Orange Heaven/Find the potato mine.asset
+#, fuzzy
+msgctxt "TaskObjective.PotatoMine23.title"
+msgid "Find the potato mine"
+msgstr "Encontre a mina de batatas"
+
+#: Content/Tasks/Orange Heaven/Find the potato mine.asset
+#, fuzzy
+msgctxt "TaskObjective.PotatoMine23.description"
+msgid "You found out that Seamus might still be alive and he might be living in a potato mine."
+msgstr "Você descobriu que o Seamus talvez ainda esteja vivo e que talvez more numa mina de batatas."
+
+#: Content/Tasks/Orange Heaven/Get Seamus' ring from the island.asset
+#, fuzzy
+msgctxt "TaskObjective.SeamusRing66.title"
+msgid "Get Seamus' ring from the island"
+msgstr "Pegue o anel do Seamus na ilha"
+
+#: Content/Tasks/Orange Heaven/Go to Malone's apartment.asset
+#, fuzzy
+msgctxt "TaskObjective.MaloneApartment33.title"
+msgid "Go to Malone's apartment"
+msgstr "Vá ao apartamento do Malone"
+
+#: Content/Tasks/Orange Heaven/Go to Malone's apartment.asset
+#, fuzzy
+msgctxt "TaskObjective.MaloneApartment33.description"
+msgid ""
+"Seamus is alive and he grows potatoes on a farm in the mine.\n"
+"\n"
+"Seamus decided to take revenge on Malone when he found out that the other gang members have died."
+msgstr ""
+"O Seamus está vivo e planta batatas numa fazenda dentro da mina.\n"
+"\n"
+"O Seamus decidiu se vingar do Malone quando descobriu que os outros membros da gangue morreram."
+
+#: Content/Tasks/Orange Heaven/Orange Heaven.asset
+#, fuzzy
+msgctxt "TaskInfo.Orange9.title"
+msgid "Orange heaven"
+msgstr "Paraíso laranja"
+
+#: Content/Tasks/Orange Heaven/Orange Heaven.asset
+#, fuzzy
+msgctxt "TaskInfo.Orange9.description"
+msgid ""
+"Malone Petronis wants you to go find the body of his friend named Seamus Liepa. Malone believes that his body is somewhere in Obenseuer's old mine.\n"
+"\n"
+"He said that there should be access to the mines in the basement of the Deekula building, but someone may live in the basement, which could be problematic."
+msgstr ""
+"O Malone Petronis quer que você encontre o corpo de um amigo dele, o Seamus Liepa. O Malone acredita que o corpo está em algum lugar da velha mina de Obenseuer.\n"
+"\n"
+"Ele disse que deve haver um acesso às minas no porão do prédio Deekula, mas talvez alguém more no porão, o que pode ser um problema."
+
+#: Content/Tasks/Orange Heaven/Talk to Seamus Liepa.asset
+#, fuzzy
+msgctxt "TaskObjective.SeamusTalk53.title"
+msgid "Talk to Seamus Liepa"
+msgstr "Fale com o Seamus Liepa"
+
+#: Content/Tasks/Orange Heaven/Tell Malone that you found Seamus.asset
+#, fuzzy
+msgctxt "TaskObjective.SeamusFound11.title"
+msgid "Tell Malone that you found Seamus"
+msgstr "Conte ao Malone que você encontrou o Seamus"
+
+#: Content/Tasks/Orange Heaven/Tell Malone that you found Seamus.asset
+#, fuzzy
+msgctxt "TaskObjective.SeamusFound11.description"
+msgid "You talked to Seamus, who has a potato farm in the mines. He didn't seem happy to hear about Malone."
+msgstr "Você falou com o Seamus, que tem uma plantação de batatas nas minas. Ele não pareceu feliz em ouvir falar do Malone."
+
+#: Content/Tasks/Orange Heaven/Tell Seamus what happened.asset
+#, fuzzy
+msgctxt "TaskObjective.SeamusTell77.title"
+msgid "Tell Seamus what happened"
+msgstr "Conte ao Seamus o que aconteceu"
+
+#: Content/Tasks/Orange Heaven/Tell Seamus what happened.asset
+#, fuzzy
+msgctxt "TaskObjective.SeamusTell77.description"
+msgid "You told Malone that Seamus was coming and Malone decided to hide somewhere."
+msgstr "Você contou ao Malone que o Seamus estava vindo, e o Malone decidiu se esconder em algum lugar."
+
+#: Content/Tasks/Permission to dig/Bring permit to Reiska.asset
+#, fuzzy
+msgctxt "TaskObjective.Permit75.title"
+msgid "Bring permit to Reiska"
+msgstr "Leve a licença ao Reiska"
+
+#: Content/Tasks/Permission to dig/Fill and return the mining permit form again.asset
+#, fuzzy
+msgctxt "TaskObjective.FillFormAgain33.title"
+msgid "Fill and return the mining permit form again"
+msgstr "Preencha e entregue de novo o formulário da licença de mineração"
+
+#: Content/Tasks/Permission to dig/Fill and return the mining permit form again.asset
+#, fuzzy
+msgctxt "TaskObjective.FillFormAgain33.description"
+msgid "Tanja said that she found an error in the form and told you that you need to fill out the form again."
+msgstr "A Tanja disse que encontrou um erro no formulário e que você precisa preenchê-lo de novo."
+
+#: Content/Tasks/Permission to dig/Fill and return the mining permit form.asset
+#, fuzzy
+msgctxt "TaskObjective.FillForm42.title"
+msgid "Fill and return the mining permit form"
+msgstr "Preencha e entregue o formulário da licença de mineração"
+
+#: Content/Tasks/Permission to dig/Fill and return the mining permit form.asset
+#, fuzzy
+msgctxt "TaskObjective.FillForm42.description"
+msgid "Tanja said you need to return the form to her in order to get a mining permit."
+msgstr "A Tanja disse que você precisa entregar o formulário a ela para conseguir a licença de mineração."
+
+#: Content/Tasks/Permission to dig/Get permit from management.asset
+#, fuzzy
+msgctxt "TaskObjective.Management25.title"
+msgid "Get permit from management"
+msgstr "Consiga a licença na administração"
+
+#: Content/Tasks/Permission to dig/Get permit from management.asset
+#, fuzzy
+msgctxt "TaskObjective.Management25.description"
+msgid "Reijo \"Reiska\" Rautakaivos said that you need a mining permit from the management building before you can sell him ore. The management building is next to his office and there should be a sign saying \"Management\"."
+msgstr "O Reijo “Reiska” Rautakaivos disse que você precisa de uma licença de mineração do prédio da administração antes de poder vender minério para ele. O prédio da administração fica ao lado do escritório dele, e deve ter uma placa escrito “Administração”."
+
+#: Content/Tasks/Permission to dig/Pay miners tax.asset
+#, fuzzy
+msgctxt "TaskObjective.TaxPay41.title"
+msgid "Pay miner's tax"
+msgstr "Pague o imposto de minerador"
+
+#: Content/Tasks/Permission to dig/Permission to dig.asset
+#, fuzzy
+msgctxt "TaskInfo.Permission32.title"
+msgid "Permission to dig"
+msgstr "Licença para cavar"
+
+#: Content/Tasks/Permission to dig/Show Tanja a valid passport.asset
+#, fuzzy
+msgctxt "TaskObjective.PassportTanja52.title"
+msgid "Show Tanja a valid passport"
+msgstr "Mostre um passaporte válido à Tanja"
+
+#: Content/Tasks/Permission to dig/Show Tanja a valid passport.asset
+#, fuzzy
+msgctxt "TaskObjective.PassportTanja52.description"
+msgid "Tanja wants to see your passport so she can make sure you are old enough."
+msgstr "A Tanja quer ver seu passaporte para confirmar que você tem idade suficiente."
+
+#: Content/Tasks/Permission to dig/Talk to Reiska about mining permit.asset
+#, fuzzy
+msgctxt "TaskObjective.RautakaivosPermit22.title"
+msgid "Talk to Reiska about mining permit"
+msgstr "Fale com o Reiska sobre a licença de mineração"
+
+#: Content/Tasks/Permission to dig/Talk to Reiska about mining permit.asset
+#, fuzzy
+msgctxt "TaskObjective.RautakaivosPermit22.description"
+msgid "You learned that a man named Reiska could help you obtain a mining permit. You can find him in a small office building at the ore drop-off point in the service area."
+msgstr "Você descobriu que um homem chamado Reiska pode te ajudar a obter uma licença de mineração. Ele fica num pequeno prédio de escritórios no ponto de entrega de minério, na área de serviço."
+
+#: Content/Tasks/Permission to dig/Talk to Reiska.asset
+#, fuzzy
+msgctxt "TaskObjective.Rautakaivos53.title"
+msgid "Talk to Reiska"
+msgstr "Fale com o Reiska"
+
+#: Content/Tasks/Permission to dig/Talk to Reiska.asset
+#, fuzzy
+msgctxt "TaskObjective.Rautakaivos53.description"
+msgid "You heard that a man named Reiska would buy ore from you. You can find him in a small office building near the large elevator to the surface."
+msgstr "Você ouviu dizer que um homem chamado Reiska compraria minério de você. Ele fica num pequeno prédio de escritórios perto do grande elevador para a superfície."
+
+#: Content/Tasks/Priest's debt/Find out what exactly happened to the priest.asset
+#, fuzzy
+msgctxt "TaskObjective.FindPriest26.title"
+msgid "Find out what exactly happened to the priest"
+msgstr "Descubra o que exatamente aconteceu com o padre"
+
+#: Content/Tasks/Priest's debt/Find out what exactly happened to the priest.asset
+#, fuzzy
+msgctxt "TaskObjective.FindPriest26.description"
+msgid "The priest still lives in the same apartment, but he has been infected with a fungal disease and he cannot speak anymore."
+msgstr "O padre ainda mora no mesmo apartamento, mas foi infectado por uma doença fúngica e não consegue mais falar."
+
+#: Content/Tasks/Priest's debt/Go to check the priest's apartment B1.asset
+#, fuzzy
+msgctxt "TaskObjective.PriestApartment26.title"
+msgid "Go to check the priest's apartment B1"
+msgstr "Vá conferir o apartamento B1 do padre"
+
+#: Content/Tasks/Priest's debt/Investigate the priest's apartment.asset
+#, fuzzy
+msgctxt "TaskObjective.Investigate27.title"
+msgid "Investigate the priest's apartment"
+msgstr "Investigue o apartamento do padre"
+
+#: Content/Tasks/Priest's debt/Priest's debt.asset
+#, fuzzy
+msgctxt "TaskInfo.Priest10.title"
+msgid "Priest's debt"
+msgstr "A dívida do padre"
+
+#: Content/Tasks/Priest's debt/Priest's debt.asset
+#, fuzzy
+msgctxt "TaskInfo.Priest10.description"
+msgid "Eliana promised to forge a passport for you if you collect a debt from a priest who lives in the Deekula apartment B1."
+msgstr "A Eliana prometeu falsificar um passaporte para você se você cobrar a dívida de um padre que mora no apartamento B1 do Deekula."
+
+#: Content/Tasks/Priest's debt/Tell to Eliana what you found.asset
+#, fuzzy
+msgctxt "TaskObjective.ElianaTell56.title"
+msgid "Tell Eliana what you found"
+msgstr "Conte à Eliana o que você encontrou"
+
+#: Content/Tasks/Quack quack!/Find the blue quack.asset
+#, fuzzy
+msgctxt "TaskObjective.FindBlue28.title"
+msgid "Find the blue quack"
+msgstr "Encontre o quá-quá azul"
+
+#: Content/Tasks/Quack quack!/Find the blue quack.asset
+#, fuzzy
+msgctxt "TaskObjective.FindBlue28.description"
+msgid ""
+"You spoke to a weird person named Mr. Duck at the speakeasy who wants to find his little blue rubber duck. \n"
+"\n"
+"He told you that you can probably find it in the building near the One stop shop and he also promised to give you a big reward."
+msgstr ""
+"Você falou com uma pessoa esquisita chamada Sr. Pato no bar clandestino, que quer encontrar o patinho de borracha azul dele. \n"
+"\n"
+"Ele disse que você provavelmente vai encontrá-lo no prédio perto da Tem de Tudo e prometeu uma grande recompensa."
+
+#: Content/Tasks/Quack quack!/Find the blue rubber duck.asset
+#, fuzzy
+msgctxt "TaskObjective.BlueDuck28.title"
+msgid "Find the blue rubber duck"
+msgstr "Encontre o patinho de borracha azul"
+
+#: Content/Tasks/Quack quack!/Find the blue rubber duck.asset
+#, fuzzy
+msgctxt "TaskObjective.BlueDuck28.description"
+msgid "You found a missing poster promising a big reward for whoever finds the blue rubber duck. There was no address where the duck should be returned."
+msgstr "Você encontrou um cartaz de desaparecido prometendo uma grande recompensa a quem encontrar o patinho de borracha azul. Não havia nenhum endereço para devolver o patinho."
+
+#: Content/Tasks/Quack quack!/Give the blue rubber duck to Mr. Duck.asset
+#, fuzzy
+msgctxt "TaskObjective.GiveBlue28.title"
+msgid "Give the blue rubber duck to Mr. Duck"
+msgstr "Dê o patinho de borracha azul ao Sr. Pato"
+
+#: Content/Tasks/Quack quack!/Quack quack!.asset
+#, fuzzy
+msgctxt "TaskInfo.Quack10.title"
+msgid "Quack quack!"
+msgstr "Quá-quá!"
+
+#: Content/Tasks/Radio signal/Check the Deekula apartment B3.asset
+#, fuzzy
+msgctxt "TaskObjective.CheckB329.title"
+msgid "Check the Deekula apartment B3"
+msgstr "Verifique o apartamento B3 do Deekula"
+
+#: Content/Tasks/Radio signal/Check the Deekula storage B3.asset
+#, fuzzy
+msgctxt "TaskObjective.StorageB330.title"
+msgid "Check the Deekula storage B3"
+msgstr "Verifique o depósito B3 do Deekula"
+
+#: Content/Tasks/Radio signal/Find more information.asset
+#, fuzzy
+msgctxt "TaskObjective.FindInformation55.title"
+msgid "Find more information"
+msgstr "Encontre mais informações"
+
+#: Content/Tasks/Radio signal/Find more information.asset
+#, fuzzy
+msgctxt "TaskObjective.FindInformation55.description"
+msgid "You decided you shouldn't tell the police about the body, but Amanda wants to know more about what's going on."
+msgstr "Você decidiu não contar à polícia sobre o corpo, mas a Amanda quer saber mais sobre o que está acontecendo."
+
+#: Content/Tasks/Radio signal/Find someone who knows more about the case.asset
+#, fuzzy
+msgctxt "TaskObjective.FindSomeone54.title"
+msgid "Find someone who knows more about the case"
+msgstr "Encontre alguém que saiba mais sobre o caso"
+
+#: Content/Tasks/Radio signal/Find someone who knows more about the case.asset
+#, fuzzy
+msgctxt "TaskObjective.FindSomeone54.description"
+msgid "You decided to help Amanda learn more about the case. Amanda suggested that you should try to get some information from the police."
+msgstr "Você decidiu ajudar a Amanda a descobrir mais sobre o caso. A Amanda sugeriu que você tentasse conseguir informações com a polícia."
+
+#: Content/Tasks/Radio signal/Let Amanda know that you told the police about the body.asset
+#, fuzzy
+msgctxt "TaskObjective.Police52.title"
+msgid "Let Amanda know that you told the police about the body"
+msgstr "Avise a Amanda que você contou à polícia sobre o corpo"
+
+#: Content/Tasks/Radio signal/Radio signal.asset
+#, fuzzy
+msgctxt "TaskInfo.Radio11.title"
+msgid "Radio signal"
+msgstr "Sinal de rádio"
+
+#: Content/Tasks/Radio signal/Radio signal.asset
+#, fuzzy
+msgctxt "TaskInfo.Radio11.description"
+msgid ""
+"Amanda Korhonen told you that her neighbor from Deekula B3 accused her of killing the neighbor's cat and there is something weird going on.\n"
+"\n"
+"Amanda gave you a key to the Deekula B4 storage. She told you that there is a way to get to the storage B3 from the storage B4."
+msgstr ""
+"A Amanda Korhonen te contou que o vizinho do Deekula B3 a acusou de matar o gato dele, e que tem algo estranho acontecendo.\n"
+"\n"
+"A Amanda te deu uma chave do depósito B4 do Deekula. Ela disse que dá para chegar ao depósito B3 a partir do depósito B4."
+
+#: Content/Tasks/Radio signal/Tell Amanda about the body in the bathroom.asset
+#, fuzzy
+msgctxt "TaskObjective.Bathroom31.title"
+msgid "Tell Amanda about the body in the bathroom"
+msgstr "Conte à Amanda sobre o corpo no banheiro"
+
+#: Content/Tasks/Radio signal/Tell Amanda about the body in the bathroom.asset
+#, fuzzy
+msgctxt "TaskObjective.Bathroom31.description"
+msgid "You found a bathtub with soil and pieces of a body in apartment B3. "
+msgstr "Você encontrou uma banheira com terra e pedaços de um corpo no apartamento B3. "
+
+#: Content/Tasks/Radio signal/Tell Amanda about the woman in bed.asset
+#, fuzzy
+msgctxt "TaskObjective.BedWoman32.title"
+msgid "Tell Amanda about the woman in bed"
+msgstr "Conte à Amanda sobre a mulher na cama"
+
+#: Content/Tasks/Radio signal/Tell Amanda about the woman in bed.asset
+#, fuzzy
+msgctxt "TaskObjective.BedWoman32.description"
+msgid "You found a woman in bed who didn't seem to be in perfect condition."
+msgstr "Você encontrou uma mulher na cama que não parecia estar em perfeito estado."
+
+#: Content/Tasks/Radio signal/Tell the police about the body.asset
+#, fuzzy
+msgctxt "TaskObjective.PoliceBody53.title"
+msgid "Tell the police about the body"
+msgstr "Conte à polícia sobre o corpo"
+
+#: Content/Tasks/Radio signal/Tell the police about the body.asset
+#, fuzzy
+msgctxt "TaskObjective.PoliceBody53.description"
+msgid "You decided that you should tell the police about the body in the bathtub."
+msgstr "Você decidiu contar à polícia sobre o corpo na banheira."
+
+#: Content/Tasks/Rat Problem/Catch the six rats.asset
+#, fuzzy
+msgctxt "TaskObjective.CatchRats12.title"
+msgid "Catch the six rats"
+msgstr "Pegue os seis ratos"
+
+#: Content/Tasks/Rat Problem/Rat Problem.asset
+#, fuzzy
+msgctxt "TaskInfo.RatProblem74.title"
+msgid "Rat problem"
+msgstr "Problema com ratos"
+
+#: Content/Tasks/Rat Problem/Rat Problem.asset
+#, fuzzy
+msgctxt "TaskInfo.RatProblem74.description"
+msgid "Anna Markkanen asked you to catch the rats in her canteen. She told you that there should be six rats."
+msgstr "A Anna Markkanen pediu que você pegasse os ratos da cantina dela. Ela disse que devem ser seis ratos."
+
+#: Content/Tasks/Rat Problem/Tell Anna you caught the rats.asset
+#, fuzzy
+msgctxt "TaskObjective.CaughtRats16.title"
+msgid "Tell Anna you caught the rats"
+msgstr "Conte à Anna que você pegou os ratos"
+
+#: Content/Tasks/Red Danger/Go talk to Anya.asset
+#, fuzzy
+msgctxt "TaskObjective.talkAnya37.title"
+msgid "Go talk to Anya"
+msgstr "Vá falar com a Anya"
+
+#: Content/Tasks/Red Danger/Help with the experiment.asset
+#, fuzzy
+msgctxt "TaskObjective.experiment22.title"
+msgid "Help with the experiment"
+msgstr "Ajude com o experimento"
+
+#: Content/Tasks/Red Danger/Help with the experiment.asset
+#, fuzzy
+msgctxt "TaskObjective.experiment22.description"
+msgid "Fredrik asked you to help him with an experiment using the mushrooms you collected."
+msgstr "O Fredrik pediu que você o ajudasse num experimento com os cogumelos que você coletou."
+
+#: Content/Tasks/Red Danger/Red Danger.asset
+#, fuzzy
+msgctxt "TaskInfo.RedDanger8.title"
+msgid "Red danger"
+msgstr "Perigo vermelho"
+
+#: Content/Tasks/Red Danger/Red Danger.asset
+#, fuzzy
+msgctxt "TaskInfo.RedDanger8.description"
+msgid "Fredrik wants to find out what red mushrooms are, so he asked you to bring them to him."
+msgstr "O Fredrik quer descobrir o que são os cogumelos vermelhos, então pediu que você os levasse até ele."
+
+#: Content/Tasks/Red Danger/Take the red mushroom extract to Anya.asset
+#, fuzzy
+msgctxt "TaskObjective.extractAnya87.title"
+msgid "Take the red mushroom extract to Anya"
+msgstr "Leve o extrato de cogumelo vermelho para a Anya"
+
+#: Content/Tasks/Red Danger/Take the red mushroom extract to Anya.asset
+#, fuzzy
+msgctxt "TaskObjective.extractAnya87.description"
+msgid "Fredrik asked you to take the sample to Anya in the Deekula B basement."
+msgstr "O Fredrik pediu que você levasse a amostra para a Anya, no porão do Deekula B."
+
+#: Content/Tasks/Red Danger/Take the red mushrooms to the doctor.asset
+#, fuzzy
+msgctxt "TaskObjective.FredrikRed11.title"
+msgid "Take the red mushrooms to Fredrik"
+msgstr "Leve os cogumelos vermelhos para o Fredrik"
+
+#: Content/Tasks/Red Danger/Take the red mushrooms to the doctor.asset
+#, fuzzy
+msgctxt "TaskObjective.FredrikRed11.description"
+msgid "Fredrik lives in Tenement A 10. He also told you that you have to use the door phone to get in."
+msgstr "O Fredrik mora no Prédio A, apartamento 10. Ele também disse que você precisa usar o interfone para entrar."
+
+#: Content/Tasks/Sell the apartments/Obtain energy classification certificate.asset
+#, fuzzy
+msgctxt "TaskObjective.visitTheCentralOffice45.title"
+msgid "Obtain energy classification certificate"
+msgstr "Obtenha o certificado de classificação energética"
+
+#: Content/Tasks/Sell the apartments/Obtain energy classification certificate.asset
+#, fuzzy
+msgctxt "TaskObjective.visitTheCentralOffice45.description"
+msgid "Energy classification is required for selling the apartments."
+msgstr "A classificação energética é obrigatória para vender os apartamentos."
+
+#: Content/Tasks/Sell the apartments/Obtain ownership records from property register.asset
+#, fuzzy
+msgctxt "TaskObjective.visitTheCentralOffice40.title"
+msgid "Obtain ownership records from property register"
+msgstr "Obtenha os registros de propriedade no cartório de imóveis"
+
+#: Content/Tasks/Sell the apartments/Obtain ownership records from property register.asset
+#, fuzzy
+msgctxt "TaskObjective.visitTheCentralOffice40.description"
+msgid "Visit the property and land register in the office complex in the Central district to obtain official records of ownership."
+msgstr "Vá ao cartório de registro de imóveis no complexo de escritórios do distrito Central para obter os registros oficiais de propriedade."
+
+#: Content/Tasks/Sell the apartments/Sell the apartments.asset
+#, fuzzy
+msgctxt "TaskInfo.sellTheApartments.title"
+msgid "Sell the apartments"
+msgstr "Venda os apartamentos"
+
+#: Content/Tasks/Sell the apartments/Visit the Mallment office.asset
+#, fuzzy
+msgctxt "TaskObjective.visitTheCentralOffice31.title"
+msgid "Visit the Mallment office"
+msgstr "Visite o escritório no Mallment"
+
+#: Content/Tasks/Sell the apartments/Visit the Mallment office.asset
+#, fuzzy
+msgctxt "TaskObjective.visitTheCentralOffice31.description"
+msgid "After calling Open Homes Company, they asked you to visit their Mallment office on the third floor to go over the details of selling the tenement apartments."
+msgstr "Quando você ligou para a Imobiliária Lar Aberto, pediram que você fosse ao escritório deles no terceiro andar do Mallment para acertar os detalhes da venda dos apartamentos do prédio."
+
+#: Content/Tasks/Special Delivery/FindJane.asset
+#, fuzzy
+msgctxt "TaskObjective.specialdelivery50.title"
+msgid "Find out where Jane went"
+msgstr "Descubra para onde a Jane foi"
+
+#: Content/Tasks/Special Delivery/FindJane.asset
+#, fuzzy
+msgctxt "TaskObjective.specialdelivery50.description"
+msgid "Jane is gone from her usual spot. You should find out where she went. She owes you money."
+msgstr "A Jane sumiu do lugar de sempre. Descubra para onde ela foi. Ela te deve dinheiro."
+
+#: Content/Tasks/Special Delivery/LaunchDrone.asset
+#, fuzzy
+msgctxt "TaskObjective.specialdelivery20.title"
+msgid "Launch the drone"
+msgstr "Lance o drone"
+
+#: Content/Tasks/Special Delivery/LaunchDrone.asset
+#, fuzzy
+msgctxt "TaskObjective.specialdelivery20.description"
+msgid "You should get to the Deekula B rooftop and launch the drone from there."
+msgstr "Vá até o terraço do Deekula B e lance o drone de lá."
+
+#: Content/Tasks/Special Delivery/ReceiveDrone.asset
+#, fuzzy
+msgctxt "TaskObjective.specialdelivery10.title"
+msgid "Receive the delivery drone"
+msgstr "Receba o drone de entrega"
+
+#: Content/Tasks/Special Delivery/ReceiveDrone.asset
+#, fuzzy
+msgctxt "TaskObjective.specialdelivery10.description"
+msgid "You should be able to pick up the drone from a package automat after a couple of days."
+msgstr "Você vai poder retirar o drone num armário de encomendas daqui a uns dias."
+
+#: Content/Tasks/Special Delivery/SpecialDelivery.asset
+#, fuzzy
+msgctxt "TaskInfo.specialdelivery0.title"
+msgid "Special delivery"
+msgstr "Entrega especial"
+
+#: Content/Tasks/Special Delivery/SpecialDelivery.asset
+#, fuzzy
+msgctxt "TaskInfo.specialdelivery0.description"
+msgid "A woman named Jane Miller at the Bazaar Bakery has tasked you with delivering supplies to the quarantine area using an autonomous delivery drone."
+msgstr "Uma mulher chamada Jane Miller, da Padaria do Bazar, te encarregou de levar suprimentos para a zona de quarentena com um drone de entrega autônomo."
+
+#: Content/Tasks/Special Delivery/TalkToJane.asset
+#, fuzzy
+msgctxt "TaskObjective.specialdelivery40.title"
+msgid "Talk to Jane"
+msgstr "Fale com a Jane"
+
+#: Content/Tasks/Special Delivery/TalkToJane.asset
+#, fuzzy
+msgctxt "TaskObjective.specialdelivery40.description"
+msgid "The drone has hit something and exploded. You should talk to Jane, maybe you can lie and still receive your payment. Jane should be waiting for you at the Bazaar Bakery."
+msgstr "O drone bateu em alguma coisa e explodiu. Fale com a Jane; talvez dê para mentir e ainda receber seu pagamento. A Jane deve estar te esperando na Padaria do Bazar."
+
+#: Content/Tasks/Special Delivery/WaitForDroneToReturn.asset
+#, fuzzy
+msgctxt "TaskObjective.specialdelivery30.title"
+msgid "Wait for the drone to return"
+msgstr "Espere o drone voltar"
+
+#: Content/Tasks/Special Delivery/WaitForDroneToReturn.asset
+#, fuzzy
+msgctxt "TaskObjective.specialdelivery30.description"
+msgid "The drone is making its way to the quarantine zone. You should wait for it to return."
+msgstr "O drone está a caminho da zona de quarentena. Espere ele voltar."
+
+#: Content/Tasks/Special Delivery/WaitMail.asset
+#, fuzzy
+msgctxt "TaskObjective.WaitMail51.title"
+msgid "Wait for the mail"
+msgstr "Espere a correspondência"
+
+#: Content/Tasks/Special Delivery/WaitMail.asset
+#, fuzzy
+msgctxt "TaskObjective.WaitMail51.description"
+msgid "Gustav Sågspånberg told you that Jane is going to send you something in the mail. Hopefully, it's your payment."
+msgstr "O Gustav Sågspånberg te contou que a Jane vai te mandar algo pelo correio. Tomara que seja o seu pagamento."
+
+#: Content/Tasks/Stalburg Underground/Stalburg Underground.asset
+#, fuzzy
+msgctxt "TaskInfo.StalburgUnderground.title"
+msgid "Stalburg Underground"
+msgstr "Submundo de Stalburg"
+
+#: Content/Tasks/Stalburg Underground/Try to find the cultists.asset
+#, fuzzy
+msgctxt "TaskObjective.CultistFind.title"
+msgid "Try to find the cultists"
+msgstr "Tente encontrar os cultistas"
+
+#: Content/Tasks/Stalburg Underground/Try to find the cultists.asset
+#, fuzzy
+msgctxt "TaskObjective.CultistFind.description"
+msgid "Ines Hietala said that there’s a church in the swamps and someone there might know how to contact the cultists. She told you that you can reach the swamp by passing through the Bazaar."
+msgstr "A Ines Hietala disse que há uma igreja no pântano e que alguém lá talvez saiba como contatar os cultistas. Ela contou que dá para chegar ao pântano passando pelo Bazar."
+
+#: Content/Tasks/Survive in Obenseuer/Find and take empty bottles to O-Market.asset
+#, fuzzy
+msgctxt "TaskObjective.BottlesOMarket.title"
+msgid "Find and take empty bottles to O-Market"
+msgstr "Encontre garrafas vazias e leve ao O-Market"
+
+#: Content/Tasks/Survive in Obenseuer/Get some pea soup.asset
+#, fuzzy
+msgctxt "TaskObjective.GetPeaSoup.title"
+msgid "Get some hot pea soup"
+msgstr "Arranje uma sopa de ervilha quente"
+
+#: Content/Tasks/Survive in Obenseuer/Get some pea soup.asset
+#, fuzzy
+msgctxt "TaskObjective.GetPeaSoup.description"
+msgid "Tatyana told you that there's a soup kitchen run by some aid organization called Redemption something near the Bazaar gatehouse. You should get some hot pea soup there."
+msgstr "A Tatyana te contou que tem um sopão mantido por uma organização de caridade chamada Redenção-não-sei-o-quê, perto da portaria do Bazar. Vá tomar uma sopa de ervilha quente lá."
+
+#: Content/Tasks/Survive in Obenseuer/Survive in Obenseuer.asset
+#, fuzzy
+msgctxt "TaskInfo.SurviveObenseuer.title"
+msgid "Survive in Obenseuer"
+msgstr "Sobreviva em Obenseuer"
+
+#: Content/Tasks/Survive in Obenseuer/Survive in Obenseuer.asset
+#, fuzzy
+msgctxt "TaskInfo.SurviveObenseuer.description"
+msgid "Tatyana advised you to collect the bottles and take them to O-Market's bottle return."
+msgstr "A Tatyana te aconselhou a juntar garrafas e levá-las à devolução de garrafas do O-Market."
+
+#: Content/Tasks/Test Task/Test Objective 1.asset
+#, fuzzy
+msgctxt "TaskObjective.Assets/Content/Tasks/Test Task/Test Objective 1.asset.title"
+msgid "Test objective 1"
+msgstr "Objetivo de teste 1"
+
+#: Content/Tasks/Test Task/Test Objective 2.asset
+#, fuzzy
+msgctxt "TaskObjective.Assets/Content/Tasks/Test Task/Test Objective 2.asset.title"
+msgid "Test objective 1"
+msgstr "Objetivo de teste 1"
+
+#: Content/Tasks/Test Task/Test Objective 3.asset
+#, fuzzy
+msgctxt "TaskObjective.Assets/Content/Tasks/Test Task/Test Objective 3.asset.title"
+msgid "Test objective 1"
+msgstr "Objetivo de teste 1"
+
+#: Content/Tasks/Test Task/Test Objective 4.asset
+#, fuzzy
+msgctxt "TaskObjective.Assets/Content/Tasks/Test Task/Test Objective 4.asset.title"
+msgid "Test objective 1"
+msgstr "Objetivo de teste 1"
+
+#: Content/Tasks/Test Task/Test Objective 5.asset
+#, fuzzy
+msgctxt "TaskObjective.Assets/Content/Tasks/Test Task/Test Objective 5.asset.title"
+msgid "Test objective 1"
+msgstr "Objetivo de teste 1"
+
+#: Content/Tasks/Test Task/Test Objective 6.asset
+#, fuzzy
+msgctxt "TaskObjective.Assets/Content/Tasks/Test Task/Test Objective 6.asset.title"
+msgid "Test objective 1"
+msgstr "Objetivo de teste 1"
+
+#: Content/Tasks/Test Task/Test Objective 7.asset
+#, fuzzy
+msgctxt "TaskObjective.Assets/Content/Tasks/Test Task/Test Objective 7.asset.title"
+msgid "Test objective 1"
+msgstr "Objetivo de teste 1"
+
+#: Content/Tasks/Test Task/Test Objective.asset
+#, fuzzy
+msgctxt "TaskObjective.Assets/Content/Tasks/Test Task/Test Objective.asset.title"
+msgid "Test objective 1"
+msgstr "Objetivo de teste 1"
+
+#: Content/Tasks/Test Task/Test Task.asset
+#, fuzzy
+msgctxt "TaskInfo.Assets/Content/Tasks/Test Task/Test Task.asset.title"
+msgid "Placeholder task"
+msgstr "Tarefa provisória"
+
+#: Content/Tasks/Test Task/Test Task.asset
+#, fuzzy
+msgctxt "TaskInfo.Assets/Content/Tasks/Test Task/Test Task.asset.description"
+msgid "Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder Placeholder"
+msgstr "Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório Provisório"
+
+#: Content/Tasks/The Casino Coup/Ask if the Crazy Neighbor could help.asset
+#, fuzzy
+msgctxt "TaskObjective.CasperCrazy23.title"
+msgid "Ask if the Crazy Neighbor could help"
+msgstr "Pergunte se o Vizinho Maluco pode ajudar"
+
+#: Content/Tasks/The Casino Coup/Ask if the Crazy Neighbor could help.asset
+#, fuzzy
+msgctxt "TaskObjective.CasperCrazy23.description"
+msgid "One of Heikki's ideas was sending your neighbor or someone after him. Maybe the Crazy Neighbor could help."
+msgstr "Uma das ideias do Heikki era mandar o seu vizinho, ou alguém, atrás dele. Talvez o Vizinho Maluco possa ajudar."
+
+#: Content/Tasks/The Casino Coup/Find proof for Casper.asset
+#, fuzzy
+msgctxt "TaskObjective.CasperProof78.title"
+msgid "Find proof for Casper"
+msgstr "Encontre uma prova para o Casper"
+
+#: Content/Tasks/The Casino Coup/Find proof for Casper.asset
+#, fuzzy
+msgctxt "TaskObjective.CasperProof78.description"
+msgid "You showed the fingers to Casper to prove that Heikki was telling the truth about the bank manager taking the rest of the money, but he didn't believe you. Casper asked you to bring proof that the bank manager really took the cash."
+msgstr "Você mostrou os dedos ao Casper para provar que o Heikki dizia a verdade sobre o gerente do banco ter levado o resto do dinheiro, mas ele não acreditou. O Casper pediu que você trouxesse uma prova de que o gerente do banco levou mesmo a grana."
+
+#: Content/Tasks/The Casino Coup/Find some way to get rid of Casper Colikke.asset
+#, fuzzy
+msgctxt "TaskObjective.CasperRid66.title"
+msgid "Find a way to get rid of Casper Colikke"
+msgstr "Encontre um jeito de se livrar do Casper Colikke"
+
+#: Content/Tasks/The Casino Coup/Find some way to get rid of Casper Colikke.asset
+#, fuzzy
+msgctxt "TaskObjective.CasperRid66.description"
+msgid "Heikki Mailanen suggested getting rid of the casino owner some way, like giving him a poisoned Socca Junior, or maybe even talking with the king of the Bazaar."
+msgstr "O Heikki Mailanen sugeriu se livrar do dono do cassino de algum jeito, por exemplo dando a ele um Socca Junior envenenado, ou talvez até conversando com o rei do Bazar."
+
+#: Content/Tasks/The Casino Coup/Get 10000 RM for Seamus Liepa.asset
+#, fuzzy
+msgctxt "TaskObjective.SeamusRM10.title"
+msgid "Get 10000 RM for Seamus Liepa"
+msgstr "Arranje 10000 RM para o Seamus Liepa"
+
+#: Content/Tasks/The Casino Coup/Get 10000 RM for Seamus Liepa.asset
+#, fuzzy
+msgctxt "TaskObjective.SeamusRM10.description"
+msgid "Seamus Liepa told you that he's ready to deal with Casper if you pay him 10000 RM."
+msgstr "O Seamus Liepa disse que está pronto para dar um jeito no Casper se você pagar 10000 RM a ele."
+
+#: Content/Tasks/The Casino Coup/Go back to the Casino.asset
+#, fuzzy
+msgctxt "TaskObjective.CrazyCasino99.title"
+msgid "Go back to the casino"
+msgstr "Volte ao cassino"
+
+#: Content/Tasks/The Casino Coup/Go back to the Casino.asset
+#, fuzzy
+msgctxt "TaskObjective.CrazyCasino99.description"
+msgid "The Crazy Neighbor is going to have a little chat with the casino owner. He asked you to come after him."
+msgstr "O Vizinho Maluco vai ter uma conversinha com o dono do cassino. Ele pediu que você fosse atrás dele."
+
+#: Content/Tasks/The Casino Coup/Go collect reward from Mailanen.asset
+#, fuzzy
+msgctxt "TaskObjective.RewardMailanen65.title"
+msgid "Go collect reward from Mailanen"
+msgstr "Vá buscar a recompensa com o Mailanen"
+
+#: Content/Tasks/The Casino Coup/Go collect reward from Mailanen.asset
+#, fuzzy
+msgctxt "TaskObjective.RewardMailanen65.description"
+msgid "Mailanen figured out a way to put the casino entirely in his name. He asked you to go to the casino after him to get your reward."
+msgstr "O Mailanen deu um jeito de passar o cassino inteiro para o nome dele. Ele pediu que você fosse ao cassino depois dele para pegar sua recompensa."
+
+#: Content/Tasks/The Casino Coup/Let Seamus handle the casino owner.asset
+#, fuzzy
+msgctxt "TaskObjective.SeamusCasino99.title"
+msgid "Let Seamus handle the casino owner"
+msgstr "Deixe o Seamus cuidar do dono do cassino"
+
+#: Content/Tasks/The Casino Coup/Let Seamus handle the casino owner.asset
+#, fuzzy
+msgctxt "TaskObjective.SeamusCasino99.description"
+msgid "You paid 10000 RM to Seamus Liepa to have him handle the casino owner. He's going to have a little chat with him."
+msgstr "Você pagou 10000 RM ao Seamus Liepa para ele cuidar do dono do cassino. Ele vai ter uma conversinha com o homem."
+
+#: Content/Tasks/The Casino Coup/Present the fingers to Casper.asset
+#, fuzzy
+msgctxt "TaskObjective.CasperFingers67.title"
+msgid "Present the fingers to Casper"
+msgstr "Mostre os dedos ao Casper"
+
+#: Content/Tasks/The Casino Coup/Present the fingers to Casper.asset
+#, fuzzy
+msgctxt "TaskObjective.CasperFingers67.description"
+msgid "You chopped several fingers off Mailanen using an axe. You can try using those to prove to Casper that the bank manager took the rest of the money."
+msgstr "Você decepou vários dedos do Mailanen com um machado. Pode tentar usá-los para provar ao Casper que o gerente do banco levou o resto do dinheiro."
+
+#: Content/Tasks/The Casino Coup/Report back to Heikki Mailanen.asset
+#, fuzzy
+msgctxt "TaskObjective.ReportMailanen43.title"
+msgid "Report back to Heikki Mailanen"
+msgstr "Volte para falar com o Heikki Mailanen"
+
+#: Content/Tasks/The Casino Coup/Report back to Heikki Mailanen.asset
+#, fuzzy
+msgctxt "TaskObjective.ReportMailanen43.description"
+msgid "You dealt with Casper, and now the casino is free for Mailanen to take over."
+msgstr "Você deu um jeito no Casper, e agora o cassino está livre para o Mailanen assumir."
+
+#: Content/Tasks/The Casino Coup/Talk to the Crazy Neighbor after he has a balcony.asset
+#, fuzzy
+msgctxt "TaskObjective.CrazyBalcony23.title"
+msgid "Talk to the Crazy Neighbor after he has a balcony"
+msgstr "Fale com o Vizinho Maluco depois que ele tiver uma sacada"
+
+#: Content/Tasks/The Casino Coup/Talk to the Crazy Neighbor after he has a balcony.asset
+#, fuzzy
+msgctxt "TaskObjective.CrazyBalcony23.description"
+msgid "The Crazy Neighbor is ready to help you deal with Casper, but he wants you to build him a balcony first."
+msgstr "O Vizinho Maluco está pronto para te ajudar a lidar com o Casper, mas quer que você construa uma sacada para ele antes."
+
+#: Content/Tasks/The Casino Coup/The Casino Coup.asset
+#, fuzzy
+msgctxt "TaskInfo.casinoCoup10.title"
+msgid "The casino coup"
+msgstr "O golpe no cassino"
+
+#: Content/Tasks/The Casino Coup/The Casino Coup.asset
+#, fuzzy
+msgctxt "TaskInfo.casinoCoup10.description"
+msgid "Heikki Mailanen asked you to handle the casino owner, Casper Colikke, and also suggested that maybe he could start running the casino himself."
+msgstr "O Heikki Mailanen pediu que você desse um jeito no dono do cassino, Casper Colikke, e sugeriu que talvez ele mesmo pudesse começar a administrar o cassino."
+
+#: Content/Tasks/The Casino Coup/Wait for Casper to return.asset
+#, fuzzy
+msgctxt "TaskObjective.CasperReturn26.title"
+msgid "Wait for Casper to return"
+msgstr "Espere o Casper voltar"
+
+#: Content/Tasks/The Casino Coup/Wait for Casper to return.asset
+#, fuzzy
+msgctxt "TaskObjective.CasperReturn26.description"
+msgid "You gave Casper a poisoned Socca Junior, which caused him to rush to a toilet."
+msgstr "Você deu ao Casper um Socca Junior envenenado, que o fez correr para o banheiro."
+
+#: Content/Tasks/The Guild/BringMaxPhone.asset
+#, fuzzy
+msgctxt "TaskObjective.joinpontikka23b.title"
+msgid "Bring Max his phone"
+msgstr "Leve o celular ao Max"
+
+#: Content/Tasks/The Guild/BringMaxPhone.asset
+#, fuzzy
+msgctxt "TaskObjective.joinpontikka23b.description"
+msgid "You helped Max get his phone so he could call Arvo to recommend you."
+msgstr "Você ajudou o Max a recuperar o celular para ele ligar para o Arvo e te recomendar."
+
+#: Content/Tasks/The Guild/BringRecommendationsToArvo.asset
+#, fuzzy
+msgctxt "TaskObjective.joinpontikka30.title"
+msgid "Present the recommendations to Arvo"
+msgstr "Apresente as recomendações ao Arvo"
+
+#: Content/Tasks/The Guild/BringRecommendationsToArvo.asset
+#, fuzzy
+msgctxt "TaskObjective.joinpontikka30.description"
+msgid "You have collected enough recommendations; now you can bring them to Arvo."
+msgstr "Você juntou recomendações suficientes; agora pode levá-las ao Arvo."
+
+#: Content/Tasks/The Guild/BringWelhoMushroomMoonshine.asset
+#, fuzzy
+msgctxt "TaskObjective.welhoShrooms31.title"
+msgid "Bring Welhö at least fine-quality Mushroom Moonshine"
+msgstr "Leve ao Welhö cachaça com cogumelos de qualidade no mínimo Superior"
+
+#: Content/Tasks/The Guild/BringWelhoMushroomMoonshine.asset
+#, fuzzy
+msgctxt "TaskObjective.welhoShrooms31.description"
+msgid "Welhö promised to give you a recommendation if you bring him one liter of Mushroom Moonshine of at least Fine quality."
+msgstr "O Welhö prometeu te dar uma recomendação se você levar um litro de cachaça com cogumelos de qualidade no mínimo Superior."
+
+#: Content/Tasks/The Guild/CollectRecommendations.asset
+#, fuzzy
+msgctxt "TaskObjective.joinpontikka15.title"
+msgid "Collect three recommendations"
+msgstr "Junte três recomendações"
+
+#: Content/Tasks/The Guild/CollectRecommendations.asset
+#, fuzzy
+msgctxt "TaskObjective.joinpontikka15.description"
+msgid "Arvo told you that you need three recommendations to join the cooperative. You might already know a few people in the Bazaar or on Market Road who could provide them."
+msgstr "O Arvo te disse que você precisa de três recomendações para entrar na cooperativa. Talvez você já conheça algumas pessoas no Bazar ou na Rua do Mercado que possam te recomendar."
+
+#: Content/Tasks/The Guild/GetJooseppisRecommendation.asset
+#, fuzzy
+msgctxt "TaskObjective.joinpontikka26.title"
+msgid "Get Jooseppi's recommendation"
+msgstr "Consiga a recomendação do Jooseppi"
+
+#: Content/Tasks/The Guild/GetJooseppisRecommendation.asset
+#, fuzzy
+msgctxt "TaskObjective.joinpontikka26.description"
+msgid "Jooseppi Tuoppi agreed to write a recommendation if you beat him in a drinking competition."
+msgstr "O Jooseppi Tuoppi topou escrever uma recomendação se você o vencer numa competição de bebedeira."
+
+#: Content/Tasks/The Guild/GetMalonesRecommendation.asset
+#, fuzzy
+msgctxt "TaskObjective.joinpontikka21.title"
+msgid "Get Malone's recommendation"
+msgstr "Consiga a recomendação do Malone"
+
+#: Content/Tasks/The Guild/GetMalonesRecommendation.asset
+#, fuzzy
+msgctxt "TaskObjective.joinpontikka21.description"
+msgid "Malone will write you a recommendation if you just bring him a pack of Norts."
+msgstr "O Malone escreve uma recomendação para você se você só levar um maço de Norts para ele."
+
+#: Content/Tasks/The Guild/GetMaxsRecommendation.asset
+#, fuzzy
+msgctxt "TaskObjective.joinpontikka23.title"
+msgid "Find Max's phone"
+msgstr "Encontre o celular do Max"
+
+#: Content/Tasks/The Guild/GetMaxsRecommendation.asset
+#, fuzzy
+msgctxt "TaskObjective.joinpontikka23.description"
+msgid "Max agreed to write a recommendation, but he had great difficulty producing legible text. He will call Arvo once you bring him his phone."
+msgstr "O Max topou escrever uma recomendação, mas teve muita dificuldade para produzir um texto legível. Ele vai ligar para o Arvo quando você levar o celular dele."
+
+#: Content/Tasks/The Guild/GetPenttisRecommendation.asset
+#, fuzzy
+msgctxt "TaskObjective.joinpontikka22.title"
+msgid "Get Pentti's recommendation"
+msgstr "Consiga a recomendação do Pentti"
+
+#: Content/Tasks/The Guild/GetPenttisRecommendation.asset
+#, fuzzy
+msgctxt "TaskObjective.joinpontikka22.description"
+msgid "Pentti agreed to write a recommendation once you deliver enough mash to him, worth about 1000 RM."
+msgstr "O Pentti topou escrever uma recomendação quando você entregar a ele garapa suficiente, o equivalente a uns 1000 RM."
+
+#: Content/Tasks/The Guild/GetRecommendationsViaCrazyNeighbor.asset
+#, fuzzy
+msgctxt "TaskObjective.joinpontikka25.title"
+msgid "Get the Crazy Neighbor to arrange a recommendation"
+msgstr "Peça ao Vizinho Maluco para arranjar uma recomendação"
+
+#: Content/Tasks/The Guild/GetRecommendationsViaCrazyNeighbor.asset
+#, fuzzy
+msgctxt "TaskObjective.joinpontikka25.description"
+msgid "The Crazy Neighbor is not a member of the cooperative, but he agreed to help get a recommendation. You should check back with him in a couple of days to see if he has arranged something."
+msgstr "O Vizinho Maluco não é membro da cooperativa, mas topou ajudar a arranjar uma recomendação. Volte a falar com ele daqui a uns dias para ver se ele conseguiu alguma coisa."
+
+#: Content/Tasks/The Guild/GetWelhosRecommendation.asset
+#, fuzzy
+msgctxt "TaskObjective.joinpontikka24.title"
+msgid "Get Welhö's recommendation"
+msgstr "Consiga a recomendação do Welhö"
+
+#: Content/Tasks/The Guild/PayMembershipFee.asset
+#, fuzzy
+msgctxt "TaskObjective.joinpontikka40.title"
+msgid "Pay the membership fee of 1300 RM to Arvo"
+msgstr "Pague a taxa de associação de 1300 RM ao Arvo"
+
+#: Content/Tasks/The Guild/TheGuild.asset
+#, fuzzy
+msgctxt "TaskInfo.joinpontikka10.title"
+msgid "The guild"
+msgstr "A guilda"
+
+#: Content/Tasks/The Lost Angry Samurai/Beat Matti in the sauna competition.asset
+#, fuzzy
+msgctxt "TaskObjective.BeatMatti14.title"
+msgid "Beat Matti in the sauna competition"
+msgstr "Vença o Matti na competição de sauna"
+
+#: Content/Tasks/The Lost Angry Samurai/Beat Matti in the sauna competition.asset
+#, fuzzy
+msgctxt "TaskObjective.BeatMatti14.description"
+msgid "You decided to challenge Matti to a sauna competition to force him away from the lockers."
+msgstr "Você decidiu desafiar o Matti para uma competição de sauna para forçá-lo a sair de perto dos armários."
+
+#: Content/Tasks/The Lost Angry Samurai/Find Raimo.asset
+#, fuzzy
+msgctxt "TaskObjective.FindRaimo12.title"
+msgid "Find Raimo"
+msgstr "Encontre o Raimo"
+
+#: Content/Tasks/The Lost Angry Samurai/Report back to Raimo.asset
+#, fuzzy
+msgctxt "TaskObjective.ReportRaimo14.title"
+msgid "Report back to Raimo"
+msgstr "Volte para falar com o Raimo"
+
+#: Content/Tasks/The Lost Angry Samurai/Report back to Raimo.asset
+#, fuzzy
+msgctxt "TaskObjective.ReportRaimo14.description"
+msgid "His name was Matti Kiehinen and you managed to successfully deal with him."
+msgstr "O nome dele era Matti Kiehinen, e você conseguiu dar um jeito nele."
+
+#: Content/Tasks/The Lost Angry Samurai/Return to Raimo's friends.asset
+#, fuzzy
+msgctxt "TaskObjective.ReturnRaimo15.title"
+msgid "Return to Raimo's friends"
+msgstr "Volte aos amigos do Raimo"
+
+#: Content/Tasks/The Lost Angry Samurai/Return to Raimo's friends.asset
+#, fuzzy
+msgctxt "TaskObjective.ReturnRaimo15.description"
+msgid "Raimo has retrieved his clothes and is headed back to his friends. He asked you to meet up with his friends at their usual spot outside."
+msgstr "O Raimo recuperou as roupas e está voltando para os amigos. Ele pediu que você encontrasse os amigos dele no lugar de sempre, lá fora."
+
+#: Content/Tasks/The Lost Angry Samurai/Talk to the man blocking Raimo's locker.asset
+#, fuzzy
+msgctxt "TaskObjective.BlockingRaimo13.title"
+msgid "Deal with the guy blocking Raimo's locker"
+msgstr "Dê um jeito no cara que está bloqueando o armário do Raimo"
+
+#: Content/Tasks/The Lost Angry Samurai/Talk to the man blocking Raimo's locker.asset
+#, fuzzy
+msgctxt "TaskObjective.BlockingRaimo13.description"
+msgid "You found Raimo in the sauna & spa, but he refuses to leave the pool because a muscular guy is leaning against his locker."
+msgstr "Você encontrou o Raimo na sauna e spa, mas ele se recusa a sair da piscina porque um cara musculoso está encostado no armário dele."
+
+#: Content/Tasks/The Lost Angry Samurai/The Lost Angry Samurai.asset
+#, fuzzy
+msgctxt "TaskInfo.TheLostAngrySamurai.title"
+msgid "The lost angry samurai"
+msgstr "O samurai bravo perdido"
+
+#: Content/Tasks/The Lost Angry Samurai/The Lost Angry Samurai.asset
+#, fuzzy
+msgctxt "TaskInfo.TheLostAngrySamurai.description"
+msgid "Erkki Kianen and his friends have asked you to locate their missing friend Raimo, who left in anger. They told you he wears a white headband with a red circle in the middle."
+msgstr "O Erkki Kianen e os amigos pediram que você encontrasse o amigo desaparecido deles, o Raimo, que saiu irritado. Disseram que ele usa uma faixa branca na cabeça com um círculo vermelho no meio."
+
+#: Content/Tasks/The True Welho/Ask Arvo about Suurwelho.asset
+#, fuzzy
+msgctxt "TaskObjective.ArvoWelho13.title"
+msgid "Ask Arvo about Suurwelho"
+msgstr "Pergunte ao Arvo sobre o Suurwelho"
+
+#: Content/Tasks/The True Welho/Ask Mikael about Suurwelho.asset
+#, fuzzy
+msgctxt "TaskObjective.MikaelWelho12.title"
+msgid "Ask Mikael about Suurwelho"
+msgstr "Pergunte ao Mikael sobre o Suurwelho"
+
+#: Content/Tasks/The True Welho/Bring 24 bottles of Osmo Olut to Erto.asset
+#, fuzzy
+msgctxt "TaskObjective.BringErtoOlut99.title"
+msgid "Bring 24 bottles of Osmo Olut to Erto"
+msgstr "Leve 24 garrafas de Osmo Olut ao Erto"
+
+#: Content/Tasks/The True Welho/Bring 24 bottles of Osmo Olut to Erto.asset
+#, fuzzy
+msgctxt "TaskObjective.BringErtoOlut99.description"
+msgid "Erto didn't like the rubber duck you gave him, so now he wants you to bring him 24 bottles of Osmo Olut instead."
+msgstr "O Erto não gostou do patinho de borracha que você deu, então agora quer que você leve 24 garrafas de Osmo Olut no lugar."
+
+#: Content/Tasks/The True Welho/Bring Erto something.asset
+#, fuzzy
+msgctxt "TaskObjective.BringErto23.title"
+msgid "Bring Erto something"
+msgstr "Leve alguma coisa ao Erto"
+
+#: Content/Tasks/The True Welho/Bring Erto something.asset
+#, fuzzy
+msgctxt "TaskObjective.BringErto23.description"
+msgid "You found out that Erto's storage was replaced by a pigpen. You should bring him something to complete the second mission. Maybe a beer, a rubber duck, or something else?"
+msgstr "Você descobriu que o depósito do Erto foi substituído por um chiqueiro. Leve alguma coisa a ele para concluir a segunda missão. Talvez uma cerveja, um patinho de borracha ou outra coisa?"
+
+#: Content/Tasks/The True Welho/Bring Welhö the Sacred Seal.asset
+#, fuzzy
+msgctxt "TaskObjective.WelhoSeal67.title"
+msgid "Bring Welhö the Sacred Seal"
+msgstr "Leve o Selo Sagrado ao Welhö"
+
+#: Content/Tasks/The True Welho/Bring Welhö the Sacred Seal.asset
+#, fuzzy
+msgctxt "TaskObjective.WelhoSeal67.description"
+msgid "You successfully completed the trial set by Erto, also known as Suurwelho. In return, he gave you a stickered bottle cap he calls the \"Sacred Seal of Welhous\". Maybe that will prove to Welhö that you're a real Welho."
+msgstr "Você completou a provação imposta pelo Erto, também conhecido como Suurwelho. Em troca, ele te deu uma tampinha de garrafa com adesivo, que chama de “Selo Sagrado de Welhous”. Talvez isso prove ao Welhö que você é um Welho de verdade."
+
+#: Content/Tasks/The True Welho/Discover the source of the noise.asset
+#, fuzzy
+msgctxt "TaskObjective.Noise57.title"
+msgid "Discover the source of the noise"
+msgstr "Descubra a origem do barulho"
+
+#: Content/Tasks/The True Welho/Discover the source of the noise.asset
+#, fuzzy
+msgctxt "TaskObjective.Noise57.description"
+msgid "You managed to get inside the downstairs apartment, but it is completely burned out and abandoned. There is no one here making noise."
+msgstr "Você conseguiu entrar no apartamento de baixo, mas ele está totalmente queimado e abandonado. Não tem ninguém aqui fazendo barulho."
+
+#: Content/Tasks/The True Welho/Enter Welhö's secret lair.asset
+#, fuzzy
+msgctxt "TaskObjective.WeloLair66.title"
+msgid "Enter Welhö's secret lair"
+msgstr "Entre no covil secreto do Welhö"
+
+#: Content/Tasks/The True Welho/Enter Welhö's secret lair.asset
+#, fuzzy
+msgctxt "TaskObjective.WeloLair66.description"
+msgid "You successfully delivered the Sacred Seal. In response, Welhö has commanded you to seek out his secret lair, hidden somewhere within the bookstore. He gave you the access code: 4027."
+msgstr "Você entregou o Selo Sagrado. Em resposta, o Welhö ordenou que você procurasse o covil secreto dele, escondido em algum lugar da livraria. Ele te deu o código de acesso: 4027."
+
+#: Content/Tasks/The True Welho/Find Erto's storage cage.asset
+#, fuzzy
+msgctxt "TaskObjective.SecondMission57.title"
+msgid "Find Erto's storage cage"
+msgstr "Encontre o depósito do Erto"
+
+#: Content/Tasks/The True Welho/Find Erto's storage cage.asset
+#, fuzzy
+msgctxt "TaskObjective.SecondMission57.description"
+msgid "For your second mission, Erto has tasked you with finding his storage cage on the ground floor and retrieving an item from it."
+msgstr "Na sua segunda missão, o Erto te encarregou de encontrar o depósito gradeado dele no térreo e pegar um item lá dentro."
+
+#: Content/Tasks/The True Welho/Find out what happened to Erto's storage cage.asset
+#, fuzzy
+msgctxt "TaskObjective.ErtoStorage100.title"
+msgid "Find out what happened to Erto's storage cage"
+msgstr "Descubra o que aconteceu com o depósito do Erto"
+
+#: Content/Tasks/The True Welho/Find out what happened to Erto's storage cage.asset
+#, fuzzy
+msgctxt "TaskObjective.ErtoStorage100.description"
+msgid "You discovered Erto's B23 storage sign tossed into a pigpen. Find out what happened."
+msgstr "Você encontrou a placa do depósito B23 do Erto jogada num chiqueiro. Descubra o que aconteceu."
+
+#: Content/Tasks/The True Welho/Find out where Suurwelho lives.asset
+#, fuzzy
+msgctxt "TaskObjective.Suurwelho22.title"
+msgid "Find out where Suurwelho lives"
+msgstr "Descubra onde o Suurwelho mora"
+
+#: Content/Tasks/The True Welho/Look at the well.asset
+#, fuzzy
+msgctxt "TaskObjective.WelhoWell67.title"
+msgid "Look at the well"
+msgstr "Olhe o poço"
+
+#: Content/Tasks/The True Welho/Look at the well.asset
+#, fuzzy
+msgctxt "TaskObjective.WelhoWell67.description"
+msgid "You managed to get into Welhö's lair, which has a well in the middle. Welhö asked you to look into it."
+msgstr "Você conseguiu entrar no covil do Welhö, que tem um poço no meio. O Welhö pediu que você olhasse dentro dele."
+
+#: Content/Tasks/The True Welho/Play Shittypants with Welhö.asset
+#, fuzzy
+msgctxt "TaskObjective.ShittyPants69.title"
+msgid "Play Shittypants with Welhö"
+msgstr "Jogue Calça cagada com o Welhö"
+
+#: Content/Tasks/The True Welho/Play Shittypants with Welhö.asset
+#, fuzzy
+msgctxt "TaskObjective.ShittyPants69.description"
+msgid "Welhö wants to play Shittypants with you in your hallucination. You should play one round with him."
+msgstr "O Welhö quer jogar Calça cagada com você na sua alucinação. Jogue uma rodada com ele."
+
+#: Content/Tasks/The True Welho/Report back to Erto.asset
+#, fuzzy
+msgctxt "TaskObjective.ReportErto88.title"
+msgid "Report back to Erto"
+msgstr "Volte para falar com o Erto"
+
+#: Content/Tasks/The True Welho/Retrieve Erto's Jacket.asset
+#, fuzzy
+msgctxt "TaskObjective.BringErtoJacket77.title"
+msgid "Retrieve Erto's jacket"
+msgstr "Pegue a jaqueta do Erto"
+
+#: Content/Tasks/The True Welho/Retrieve Erto's Jacket.asset
+#, fuzzy
+msgctxt "TaskObjective.BringErtoJacket77.description"
+msgid "For your next mission, Erto wants you to bring his jacket."
+msgstr "Na sua próxima missão, o Erto quer que você traga a jaqueta dele."
+
+#: Content/Tasks/The True Welho/See what happens.asset
+#, fuzzy
+msgctxt "TaskObjective.WhatHappens68.title"
+msgid "See what happens"
+msgstr "Veja o que acontece"
+
+#: Content/Tasks/The True Welho/See what happens.asset
+#, fuzzy
+msgctxt "TaskObjective.WhatHappens68.description"
+msgid "After staring into the well, something weird happened to you. A memory, perhaps?"
+msgstr "Depois de ficar olhando para o poço, algo estranho aconteceu com você. Uma lembrança, talvez?"
+
+#: Content/Tasks/The True Welho/The Suurwelho's Trial.asset
+#, fuzzy
+msgctxt "TaskObjective.Trial55.title"
+msgid "The Suurwelho's trial"
+msgstr "A provação do Suurwelho"
+
+#: Content/Tasks/The True Welho/The Suurwelho's Trial.asset
+#, fuzzy
+msgctxt "TaskObjective.Trial55.description"
+msgid "You met a man named Erto who claims to be the Suurwelho. He demands you complete a trial to prove you are a real Welho."
+msgstr "Você conheceu um homem chamado Erto que diz ser o Suurwelho. Ele exige que você passe por uma provação para provar que é um Welho de verdade."
+
+#: Content/Tasks/The True Welho/The True Welho.asset
+#, fuzzy
+msgctxt "TaskInfo.TrueWelho11.title"
+msgid "The true Welho"
+msgstr "O verdadeiro Welho"
+
+#: Content/Tasks/The True Welho/The True Welho.asset
+#, fuzzy
+msgctxt "TaskInfo.TrueWelho11.description"
+msgid "Welhö told you that to prove you’re a true Welho, you must find the Suurwelho. Sadly, Welhö didn’t tell you where to find him."
+msgstr "O Welhö te disse que, para provar que você é um verdadeiro Welho, precisa encontrar o Suurwelho. Infelizmente, o Welhö não disse onde encontrá-lo."
+
+#: Content/Tasks/The True Welho/Visit Erto Lagerfeld.asset
+#, fuzzy
+msgctxt "TaskObjective.VisitErto33.title"
+msgid "Visit Erto Lagerfeld"
+msgstr "Visite o Erto Lagerfeld"
+
+#: Content/Tasks/The True Welho/Visit Erto Lagerfeld.asset
+#, fuzzy
+msgctxt "TaskObjective.VisitErto33.description"
+msgid "You have discovered that Suurwelho's true identity is Erto Lagerfeld. He lives in a tenement called Murju B in the slums."
+msgstr "Você descobriu que a verdadeira identidade do Suurwelho é Erto Lagerfeld. Ele mora num prédio chamado Murju B, na favela."
+
+#: Content/Tasks/The True Welho/Visit the downstairs neighbor.asset
+#, fuzzy
+msgctxt "TaskObjective.FirstMission56.title"
+msgid "Visit the downstairs neighbor"
+msgstr "Visite o vizinho de baixo"
+
+#: Content/Tasks/The True Welho/Visit the downstairs neighbor.asset
+#, fuzzy
+msgctxt "TaskObjective.FirstMission56.description"
+msgid "For your first mission, Erto has tasked you with silencing the noisy neighbor living directly below his apartment."
+msgstr "Na sua primeira missão, o Erto te encarregou de calar o vizinho barulhento que mora logo abaixo do apartamento dele."
+
+#: Content/Tasks/The disappearance of Alice/Ask Axel about Alice.asset
+#, fuzzy
+msgctxt "TaskObjective.AxelAlice12.title"
+msgid "Ask Axel about Alice"
+msgstr "Pergunte ao Axel sobre a Alice"
+
+#: Content/Tasks/The disappearance of Alice/Ask Tatyana about Alice.asset
+#, fuzzy
+msgctxt "TaskObjective.TatyatanaAlice13.title"
+msgid "Ask Tatyana about Alice"
+msgstr "Pergunte à Tatyana sobre a Alice"
+
+#: Content/Tasks/The disappearance of Alice/Call the police.asset
+#, fuzzy
+msgctxt "TaskObjective.PiaPolice88.title"
+msgid "Call the police"
+msgstr "Chame a polícia"
+
+#: Content/Tasks/The disappearance of Alice/Check what's in the small storage.asset
+#, fuzzy
+msgctxt "TaskObjective.AliceShack53.title"
+msgid "Check what's in the small storage"
+msgstr "Veja o que tem no depósito pequeno"
+
+#: Content/Tasks/The disappearance of Alice/Check what's in the small storage.asset
+#, fuzzy
+msgctxt "TaskObjective.AliceShack53.description"
+msgid "In Joel's apartment, you found a key to the small storage which is next to Pia and Alice's building."
+msgstr "No apartamento do Joel, você encontrou a chave do depósito pequeno que fica ao lado do prédio da Pia e da Alice."
+
+#: Content/Tasks/The disappearance of Alice/Find Alice.asset
+#, fuzzy
+msgctxt "TaskObjective.AliceFind24.title"
+msgid "Find Alice"
+msgstr "Encontre a Alice"
+
+#: Content/Tasks/The disappearance of Alice/Find out where Joel lives.asset
+#, fuzzy
+msgctxt "TaskObjective.Joelive22.title"
+msgid "Find out where Joel lives"
+msgstr "Descubra onde o Joel mora"
+
+#: Content/Tasks/The disappearance of Alice/Find out where Joel lives.asset
+#, fuzzy
+msgctxt "TaskObjective.Joelive22.description"
+msgid "You heard from Tatyana that Alice has a boyfriend named Joel Hietala, but she doesn't know where he lives."
+msgstr "A Tatyana te contou que a Alice tem um namorado chamado Joel Hietala, mas ela não sabe onde ele mora."
+
+#: Content/Tasks/The disappearance of Alice/Go back to Pia.asset
+#, fuzzy
+msgctxt "TaskObjective.PiaBack34.title"
+msgid "Go back to Pia"
+msgstr "Volte até a Pia"
+
+#: Content/Tasks/The disappearance of Alice/Investigate Joel's apartment.asset
+#, fuzzy
+msgctxt "TaskObjective.JoeInvestigate44.title"
+msgid "Investigate Joel's apartment"
+msgstr "Investigue o apartamento do Joel"
+
+#: Content/Tasks/The disappearance of Alice/Look for clues in Tenement A.asset
+#, fuzzy
+msgctxt "TaskObjective.AliceTenement34.title"
+msgid "Look for clues in Tenement A"
+msgstr "Procure pistas no Prédio A"
+
+#: Content/Tasks/The disappearance of Alice/Look for clues in Tenement A.asset
+#, fuzzy
+msgctxt "TaskObjective.AliceTenement34.description"
+msgid "Axel told you that Alice has been spending time with some man and he also saw them heading towards Tenement A a few times."
+msgstr "O Axel te contou que a Alice anda passando tempo com um homem, e que viu os dois indo para o Prédio A algumas vezes."
+
+#: Content/Tasks/The disappearance of Alice/Mail Pia's letter.asset
+#, fuzzy
+msgctxt "TaskObjective.PiaMail64.title"
+msgid "Mail Pia's letter"
+msgstr "Poste a carta da Pia"
+
+#: Content/Tasks/The disappearance of Alice/Mail Pia's letter.asset
+#, fuzzy
+msgctxt "TaskObjective.PiaMail64.description"
+msgid "Pia asked you to mail a letter and return when you have done that."
+msgstr "A Pia pediu que você postasse uma carta no correio e voltasse depois."
+
+#: Content/Tasks/The disappearance of Alice/Tell Fredrik what happened.asset
+#, fuzzy
+msgctxt "TaskObjective.PiaFredrik93.title"
+msgid "Tell Fredrik what happened"
+msgstr "Conte ao Fredrik o que aconteceu"
+
+#: Content/Tasks/The disappearance of Alice/Tell Fredrik what happened.asset
+#, fuzzy
+msgctxt "TaskObjective.PiaFredrik93.description"
+msgid "You found Pia dead in the sauna. Maybe you should tell Fredrik about it."
+msgstr "Você encontrou a Pia morta na sauna. Talvez você devesse contar ao Fredrik."
+
+#: Content/Tasks/The disappearance of Alice/Tell Pia what happened to Alice.asset
+#, fuzzy
+msgctxt "TaskObjective.TellPiaAlice46.title"
+msgid "Tell Pia what you found"
+msgstr "Conte à Pia o que você encontrou"
+
+#: Content/Tasks/The disappearance of Alice/Tell Pia what happened to Alice.asset
+#, fuzzy
+msgctxt "TaskObjective.TellPiaAlice46.description"
+msgid "In that storage, you found a woman's body. It looked like some ritual had been done to her. She had a picture of Pia in her hand so the body is probably Alice."
+msgstr "Naquele depósito, você encontrou o corpo de uma mulher. Parecia que tinham feito algum ritual com ela. Ela tinha uma foto da Pia na mão, então o corpo provavelmente é da Alice."
+
+#: Content/Tasks/The disappearance of Alice/The disappearance of Alice.asset
+#, fuzzy
+msgctxt "TaskInfo.Alice35.title"
+msgid "The disappearance of Alice"
+msgstr "O desaparecimento da Alice"
+
+#: Content/Tasks/The disappearance of Alice/The disappearance of Alice.asset
+#, fuzzy
+msgctxt "TaskInfo.Alice35.description"
+msgid ""
+"Pia asked you to find her friend Alice. She told you that Alice mentioned someone named Joel throwing a party.\n"
+"\n"
+"Pia suggested that you go and ask the neighbors if they have seen Alice."
+msgstr ""
+"A Pia pediu que você encontrasse a amiga dela, a Alice. Ela contou que a Alice mencionou um tal de Joel que ia dar uma festa.\n"
+"\n"
+"A Pia sugeriu que você perguntasse aos vizinhos se viram a Alice."
+
+#: Content/Tasks/The hunt for the bank robber/Ask if someone in the Casino knows about Heikki.asset
+#, fuzzy
+msgctxt "TaskObjective.CasinoHeikki23.title"
+msgid "Ask if someone in the casino knows about Heikki"
+msgstr "Pergunte se alguém no cassino conhece o Heikki"
+
+#: Content/Tasks/The hunt for the bank robber/Ask if someone in the Casino knows about Heikki.asset
+#, fuzzy
+msgctxt "TaskObjective.CasinoHeikki23.description"
+msgid "You learned that Heikki has a gambling addiction. There is probably someone at the casino who knows about him."
+msgstr "Você descobriu que o Heikki é viciado em jogo. Provavelmente alguém no cassino sabe dele."
+
+#: Content/Tasks/The hunt for the bank robber/Ask if someone in the Internet Cafe knows about Heikki.asset
+#, fuzzy
+msgctxt "TaskObjective.CafeHeikki22.title"
+msgid "Ask if someone in the Internet Cafe knows about Heikki"
+msgstr "Pergunte se alguém na lan house conhece o Heikki"
+
+#: Content/Tasks/The hunt for the bank robber/Ask if someone in the Internet Cafe knows about Heikki.asset
+#, fuzzy
+msgctxt "TaskObjective.CafeHeikki22.description"
+msgid "You learned that Heikki hung out with Jonas Elström at the Internet Cafe a few times. Maybe someone there knows more about him."
+msgstr "Você descobriu que o Heikki andou algumas vezes com o Jonas Elström na lan house. Talvez alguém lá saiba mais sobre ele."
+
+#: Content/Tasks/The hunt for the bank robber/Find Heikki in Mentti B Passmore.asset
+#, fuzzy
+msgctxt "TaskObjective.HeikkiMenttiPass27.title"
+msgid "Find Heikki in Mentti B"
+msgstr "Encontre o Heikki no Mentti B"
+
+#: Content/Tasks/The hunt for the bank robber/Find Heikki in Mentti B Passmore.asset
+#, fuzzy
+msgctxt "TaskObjective.HeikkiMenttiPass27.description"
+msgid "You learned from Passmore that Heikki is currently hiding in a block called Mentti B."
+msgstr "O Passmore te contou que o Heikki está escondido num bloco chamado Mentti B."
+
+#: Content/Tasks/The hunt for the bank robber/Find Heikki in Mentti B.asset
+#, fuzzy
+msgctxt "TaskObjective.HeikkiMentti27.title"
+msgid "Find Heikki in Mentti B"
+msgstr "Encontre o Heikki no Mentti B"
+
+#: Content/Tasks/The hunt for the bank robber/Find Heikki in Mentti B.asset
+#, fuzzy
+msgctxt "TaskObjective.HeikkiMentti27.description"
+msgid "Casper told you that Heikki is currently hiding somewhere in the slums in a block called Mentti B. Casper asked you to find him and find out by any means necessary where the rest of the money is."
+msgstr "O Casper te contou que o Heikki está escondido em algum lugar da favela, num bloco chamado Mentti B. O Casper pediu que você o encontrasse e descobrisse, por qualquer meio necessário, onde está o resto do dinheiro."
+
+#: Content/Tasks/The hunt for the bank robber/Find the bank manager.asset
+#, fuzzy
+msgctxt "TaskObjective.BankManager33.title"
+msgid "Find the bank manager"
+msgstr "Encontre o gerente do banco"
+
+#: Content/Tasks/The hunt for the bank robber/Find the bank manager.asset
+#, fuzzy
+msgctxt "TaskObjective.BankManager33.description"
+msgid "You learned that the bank manager, Theo Tammi, left with his own bank's money to the central area of Obenseuer. But to get to the central area, you have to get an ID Card, International Passport, or Entry Permit, and also a negative test result."
+msgstr "Você descobriu que o gerente do banco, Theo Tammi, fugiu com o dinheiro do próprio banco para a área central de Obenseuer. Mas, para chegar à área central, você precisa de uma Carteira de Identidade, um Passaporte Internacional ou uma Autorização de Entrada, além de um resultado de teste negativo."
+
+#: Content/Tasks/The hunt for the bank robber/Meet the casino owner.asset
+#, fuzzy
+msgctxt "TaskObjective.CasinoOwner24.title"
+msgid "Meet the casino owner"
+msgstr "Encontre-se com o dono do cassino"
+
+#: Content/Tasks/The hunt for the bank robber/Meet the casino owner.asset
+#, fuzzy
+msgctxt "TaskObjective.CasinoOwner24.description"
+msgid "Gérard Dujardin told you that his boss is waiting for you in his office. His office is the second door down the hall, right next to security on the second floor."
+msgstr "O Gérard Dujardin te contou que o chefe dele está te esperando no escritório. O escritório é a segunda porta do corredor, logo ao lado da segurança, no segundo andar."
+
+#: Content/Tasks/The hunt for the bank robber/Report back to Passmore.asset
+#, fuzzy
+msgctxt "TaskObjective.PassmoreReport26.title"
+msgid "Report back to Passmore"
+msgstr "Volte para falar com o Passmore"
+
+#: Content/Tasks/The hunt for the bank robber/Report back to Passmore.asset
+#, fuzzy
+msgctxt "TaskObjective.PassmoreReport26.description"
+msgid "You refused to help Casper Colikke track down Heikki's heist money. As a result, his guards beat you up and took everything in your pockets."
+msgstr "Você se recusou a ajudar o Casper Colikke a encontrar o dinheiro do assalto do Heikki. Por isso, os seguranças dele te deram uma surra e levaram tudo o que estava nos seus bolsos."
+
+#: Content/Tasks/The hunt for the bank robber/Talk to Casper.asset
+#, fuzzy
+msgctxt "TaskObjective.CasperTalk65.title"
+msgid "Talk to Casper"
+msgstr "Fale com o Casper"
+
+#: Content/Tasks/The hunt for the bank robber/Talk to Heikki.asset
+#, fuzzy
+msgctxt "TaskObjective.HeikkiTalk28.title"
+msgid "Talk to Heikki"
+msgstr "Fale com o Heikki"
+
+#: Content/Tasks/The hunt for the bank robber/Talk to a bank employee.asset
+#, fuzzy
+msgctxt "TaskObjective.BankGuy35.title"
+msgid "Talk to a bank employee"
+msgstr "Fale com um funcionário do banco"
+
+#: Content/Tasks/The hunt for the bank robber/Talk to the electronics store salesperson.asset
+#, fuzzy
+msgctxt "TaskObjective.EleGuy34.title"
+msgid "Talk to the electronics store salesperson"
+msgstr "Fale com o vendedor da loja de eletrônicos"
+
+#: Content/Tasks/The hunt for the bank robber/Talk to the electronics store salesperson.asset
+#, fuzzy
+msgctxt "TaskObjective.EleGuy34.description"
+msgid "Passmore suggested that you go and ask the electronics store salesperson or a bank employee if they know anything about Heikki."
+msgstr "O Passmore sugeriu que você fosse perguntar ao vendedor da loja de eletrônicos ou a um funcionário do banco se sabem alguma coisa sobre o Heikki."
+
+#: Content/Tasks/The hunt for the bank robber/The hunt for the bank robber.asset
+#, fuzzy
+msgctxt "TaskInfo.BankHunt77.title"
+msgid "The hunt for the bank robber"
+msgstr "A caça ao assaltante de banco"
+
+#: Content/Tasks/The hunt for the bank robber/The hunt for the bank robber.asset
+#, fuzzy
+msgctxt "TaskInfo.BankHunt77.description"
+msgid "Passmore's friend Heikki Mailanen emptied the bank before you and now Passmore wants you to find him."
+msgstr "O amigo do Passmore, Heikki Mailanen, esvaziou o banco antes de você, e agora o Passmore quer que você o encontre."
+
+#: Content/Tasks/The hunt for the bank robber/Wait for Casper to return.asset
+#, fuzzy
+msgctxt "TaskObjective.CasperReturn25.title"
+msgid "Wait for Casper to return"
+msgstr "Espere o Casper voltar"
+
+#: Content/Tasks/The hunt for the bank robber/Wait for Casper to return.asset
+#, fuzzy
+msgctxt "TaskObjective.CasperReturn25.description"
+msgid "You learned that the casino owner, Casper Colikke, wants to get the money Heikki got from the bank heist, and you agreed to help him."
+msgstr "Você descobriu que o dono do cassino, Casper Colikke, quer o dinheiro que o Heikki conseguiu no assalto ao banco, e você topou ajudá-lo."
+
+#: Content/Tasks/Tunnel B2/Find out what's inside tunnel B2.asset
+#, fuzzy
+msgctxt "TaskObjective.FindB233.title"
+msgid "Find out what's inside tunnel B2"
+msgstr "Descubra o que tem dentro do túnel B2"
+
+#: Content/Tasks/Tunnel B2/Tunnel B2.asset
+#, fuzzy
+msgctxt "TaskInfo.TunnelB212.title"
+msgid "Tunnel B2"
+msgstr "Túnel B2"
+
+#: Content/Tasks/Tunnel B2/Tunnel B2.asset
+#, fuzzy
+msgctxt "TaskInfo.TunnelB212.description"
+msgid "Mike's body in the Bergmann tunnels had keys with the label \"B2\"."
+msgstr "O corpo do Mike nos Túneis Bergmann tinha chaves com a etiqueta “B2”."
+
+#: Content/Tasks/Tunnel of water trees/Ask Welhö about the book.asset
+#, fuzzy
+msgctxt "TaskObjective.WelhoBook35.title"
+msgid "Ask Welhö about the book"
+msgstr "Pergunte ao Welhö sobre o livro"
+
+#: Content/Tasks/Tunnel of water trees/Ask Welhö about the book.asset
+#, fuzzy
+msgctxt "TaskObjective.WelhoBook35.description"
+msgid "You learned from Aune Korsborg, the bookstore owner, that a man named Welhö bought the last two copies of the book."
+msgstr "A dona da livraria, Aune Korsborg, te contou que um homem chamado Welhö comprou os dois últimos exemplares do livro."
+
+#: Content/Tasks/Tunnel of water trees/Find Mikael.asset
+#, fuzzy
+msgctxt "TaskObjective.MikalFind37.title"
+msgid "Find Mikael"
+msgstr "Encontre o Mikael"
+
+#: Content/Tasks/Tunnel of water trees/Find Mikael.asset
+#, fuzzy
+msgctxt "TaskObjective.MikalFind37.description"
+msgid "Welhö told you that he ordered his apprentice, Mikael Arnaldur, to burn the final two copies of the book. He said that Mikael lives in the middle of the slums, in a hut with a makeshift outdoor shower right next to the front door."
+msgstr "O Welhö te contou que mandou o aprendiz dele, Mikael Arnaldur, queimar os dois últimos exemplares do livro. Disse que o Mikael mora no meio da favela, num barraco com um chuveiro improvisado ao ar livre bem ao lado da porta da frente."
+
+#: Content/Tasks/Tunnel of water trees/Find all remaining pages.asset
+#, fuzzy
+msgctxt "TaskObjective.PagesFind36.title"
+msgid "Find all remaining pages"
+msgstr "Encontre todas as páginas restantes"
+
+#: Content/Tasks/Tunnel of water trees/Find all remaining pages.asset
+#, fuzzy
+msgctxt "TaskObjective.PagesFind36.description"
+msgid "Mikael burned the last two copies, but there are still some loose pages left in his hut."
+msgstr "O Mikael queimou os dois últimos exemplares, mas ainda sobraram algumas páginas soltas no barraco dele."
+
+#: Content/Tasks/Tunnel of water trees/Go to library and ask about....asset
+#, fuzzy
+msgctxt "TaskObjective.Library34.title"
+msgid "Find the Bazaar Bookstore and ask about Tunnel of Water Trees"
+msgstr "Encontre a Livraria do Bazar e pergunte sobre Túnel das Árvores de Água"
+
+#: Content/Tasks/Tunnel of water trees/Talk to Mikael.asset
+#, fuzzy
+msgctxt "TaskObjective.MikaelTalk23.title"
+msgid "Talk to Mikael"
+msgstr "Fale com o Mikael"
+
+#: Content/Tasks/Tunnel of water trees/Talk to Welhö.asset
+#, fuzzy
+msgctxt "TaskObjective.Welhö33.title"
+msgid "Talk to Welhö"
+msgstr "Fale com o Welhö"
+
+#: Content/Tasks/Tunnel of water trees/Talk to Welhö.asset
+#, fuzzy
+msgctxt "TaskObjective.Welhö33.description"
+msgid "You found the remaining loose pages. Maybe Mikael or Welhö knows more about the book."
+msgstr "Você encontrou as páginas soltas que restavam. Talvez o Mikael ou o Welhö saibam mais sobre o livro."
+
+#: Content/Tasks/Tunnel of water trees/Tunnel of water trees.asset
+#, fuzzy
+msgctxt "TaskInfo.WaterTrees13.title"
+msgid "Tunnel of Water Trees"
+msgstr "Túnel das Árvores de Água"
+
+#: Content/Tasks/Tunnel of water trees/Tunnel of water trees.asset
+#, fuzzy
+msgctxt "TaskInfo.WaterTrees13.description"
+msgid "Mike in the Bergmann Tunnels told you about a book called Tunnel of Water Trees. He said you should ask about it at the Bazaar Bookstore."
+msgstr "O Mike, nos Túneis Bergmann, te falou de um livro chamado Túnel das Árvores de Água. Ele disse para você perguntar sobre ele na Livraria do Bazar."
+
+#: Content/Tasks/Turnip farmer/Grow cucumbers for Jomppe.asset
+#, fuzzy
+msgctxt "TaskObjective.Cucumbers1.title"
+msgid "Grow cucumbers for Jomppe"
+msgstr "Plante pepinos para o Jomppe"
+
+#: Content/Tasks/Turnip farmer/Grow peppers for Jomppe.asset
+#, fuzzy
+msgctxt "TaskObjective.Peppers2.title"
+msgid "Grow peppers for Jomppe"
+msgstr "Plante pimentões para o Jomppe"
+
+#: Content/Tasks/Turnip farmer/Grow potatoes for Jomppe.asset
+#, fuzzy
+msgctxt "TaskObjective.Potatoes3.title"
+msgid "Grow potatoes for Jomppe"
+msgstr "Plante batatas para o Jomppe"
+
+#: Content/Tasks/Turnip farmer/Grow turnips for Jomppe.asset
+#, fuzzy
+msgctxt "TaskObjective.Turnips4.title"
+msgid "Grow turnips for Jomppe"
+msgstr "Plante nabos para o Jomppe"
+
+#: Content/Tasks/Turnip farmer/Kurahaara farmer.asset
+#, fuzzy
+msgctxt "TaskInfo.Farmer1.title"
+msgid "Kurahaara farmer"
+msgstr "O fazendeiro Kurahaara"
+
+#: Content/Tasks/Turnip farmer/Kurahaara farmer.asset
+#, fuzzy
+msgctxt "TaskInfo.Farmer1.description"
+msgid "Jomppe Kurahaara asked you to help him grow some vegetables at his farm and bring them to him. He promised to pay for it."
+msgstr "O Jomppe Kurahaara pediu que você o ajudasse a plantar alguns legumes na fazenda dele e levasse a colheita até ele. Ele prometeu pagar pelo serviço."
+
+#: Content/Tasks/Vocational Education/Attend5Lectures.asset
+#, fuzzy
+msgctxt "TaskObjective.PontikkaEducation15.title"
+msgid "Attend five lectures"
+msgstr "Assista a cinco aulas"
+
+#: Content/Tasks/Vocational Education/Attend5Lectures.asset
+#, fuzzy
+msgctxt "TaskObjective.PontikkaEducation15.description"
+msgid "Arvo made it clear that classes are held every Tuesday and Thursday at exactly 14:00. Make sure to arrive early, as latecomers will be locked out."
+msgstr "O Arvo deixou claro que as aulas são às terças e quintas, às 14:00 em ponto. Chegue cedo, porque quem se atrasa fica trancado do lado de fora."
+
+#: Content/Tasks/Vocational Education/PassAnExam.asset
+#, fuzzy
+msgctxt "TaskObjective.PontikkaEducation25.title"
+msgid "Pass the final exam"
+msgstr "Passe na prova final"
+
+#: Content/Tasks/Vocational Education/PassAnExam.asset
+#, fuzzy
+msgctxt "TaskObjective.PontikkaEducation25.description"
+msgid "You have attended the required number of lectures. To finally earn your diploma, you must pass the final exam. Show up before 14:00 on an upcoming Tuesday or Thursday to put your knowledge to the test."
+msgstr "Você assistiu ao número exigido de aulas. Para finalmente conseguir seu diploma, você precisa passar na prova final. Apareça antes das 14:00 numa das próximas terças ou quintas para pôr seu conhecimento à prova."
+
+#: Content/Tasks/Vocational Education/TalkToArvo.asset
+#, fuzzy
+msgctxt "TaskObjective.PontikkaEducation50.title"
+msgid "Talk to Arvo"
+msgstr "Fale com o Arvo"
+
+#: Content/Tasks/Vocational Education/TalkToArvo.asset
+#, fuzzy
+msgctxt "TaskObjective.PontikkaEducation50.description"
+msgid "You successfully passed the exam. You should talk to Arvo."
+msgstr "Você passou na prova. Fale com o Arvo."
+
+#: Content/Tasks/Vocational Education/Vocational Education.asset
+#, fuzzy
+msgctxt "TaskInfo.PontikkaEducation10.title"
+msgid "Vocational education"
+msgstr "Ensino técnico"
+
+#: Content/Tasks/Vocational Education/Vocational Education.asset
+#, fuzzy
+msgctxt "TaskInfo.PontikkaEducation10.description"
+msgid "You have officially enrolled in a moonshining course. It is time to study up and become a master moonshiner."
+msgstr "Você se matriculou oficialmente num curso de produção de cachaça. Hora de estudar e virar mestre alambiqueiro."
+
+#: Content/Tasks/Who lives in the basement/Find out who lives in the B2 basement.asset
+#, fuzzy
+msgctxt "TaskObjective.FindB2Basement58.title"
+msgid "Find out who lives in the B2 basement"
+msgstr "Descubra quem mora no porão B2"
+
+#: Content/Tasks/Who lives in the basement/Gain access to the B2 basement.asset
+#, fuzzy
+msgctxt "TaskObjective.AccessB2Basement59.title"
+msgid "Gain access to the B2 basement"
+msgstr "Consiga acesso ao porão B2"
+
+#: Content/Tasks/Who lives in the basement/Gain access to the B2 basement.asset
+#, fuzzy
+msgctxt "TaskObjective.AccessB2Basement59.description"
+msgid "She told you that the password to the Deekula B basement door is Lukas. She said you might find answers there."
+msgstr "Ela te contou que a senha da porta do porão do Deekula B é Lukas. Disse que talvez você encontre respostas lá."
+
+#: Content/Tasks/Who lives in the basement/Tell Eliana what you found.asset
+#, fuzzy
+msgctxt "TaskObjective.Eliana23.title"
+msgid "Tell Eliana what you found"
+msgstr "Conte à Eliana o que você encontrou"
+
+#: Content/Tasks/Who lives in the basement/Tell Eliana what you found.asset
+#, fuzzy
+msgctxt "TaskObjective.Eliana23.description"
+msgid "You talked to a person named Anya, who lives in the basement. She wants you to find Hanss."
+msgstr "Você conversou com uma pessoa chamada Anya, que mora no porão. Ela quer que você encontre o Hanss."
+
+#: Content/Tasks/Who lives in the basement/Who lives in the basement.asset
+#, fuzzy
+msgctxt "TaskInfo.basement20.title"
+msgid "Who lives in the basement"
+msgstr "Quem mora no porão"
+
+#: Content/Tasks/Who lives in the basement/Who lives in the basement.asset
+#, fuzzy
+msgctxt "TaskInfo.basement20.description"
+msgid "Eliana seems to know more about things than she admits."
+msgstr "A Eliana parece saber mais sobre as coisas do que admite."
+

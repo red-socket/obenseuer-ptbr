@@ -16,6 +16,8 @@ namespace ObenseuerPTBR
         private const int CacheLimit = 8192;
 
         private static readonly Regex Placeholder = new Regex(@"\{(\d+)\}", RegexOptions.CultureInvariant);
+        private static readonly Regex Counter = new Regex(@"^(.*\S) (\d+/\d+)$", RegexOptions.Singleline | RegexOptions.CultureInvariant);
+        private static readonly System.Globalization.CultureInfo PtBr = new System.Globalization.CultureInfo("pt-BR");
         private static readonly Regex OuterTags = new Regex(@"^((?:<[^<>]+>)+)(.*?)((?:</?[^<>]+>)*)$",
             RegexOptions.Singleline | RegexOptions.CultureInvariant);
 
@@ -75,6 +77,17 @@ namespace ObenseuerPTBR
                 if (inner != null) return tags.Groups[1].Value + inner + tags.Groups[3].Value;
             }
 
+            // Same text in other letter case: the game lower-cases names inside sentences and capitalizes labels.
+            if (catalog.TryTextIgnoreCase(text, out pt)) return MatchCase(text, pt);
+
+            // Objective counters: "Examine the apartments 3/17".
+            Match counter = Counter.Match(text);
+            if (counter.Success)
+            {
+                string inner = Translate(counter.Groups[1].Value, depth + 1);
+                if (inner != null) return inner + " " + counter.Groups[2].Value;
+            }
+
             // Interaction verbs are drawn as "(Open)": translate the inside if the whole isn't known.
             if (text.Length > 2 && text[0] == '(' && text[text.Length - 1] == ')')
             {
@@ -108,6 +121,20 @@ namespace ObenseuerPTBR
                 if (changed) return string.Join("\n", lines);
             }
             return null;
+        }
+
+        private static string MatchCase(string english, string pt)
+        {
+            bool hasLower = false, hasUpper = false;
+            foreach (char c in english)
+            {
+                if (char.IsLower(c)) hasLower = true;
+                else if (char.IsUpper(c)) hasUpper = true;
+            }
+            if (hasUpper && !hasLower) return pt.ToUpper(PtBr);
+            if (english.Length > 0 && char.IsLower(english[0]) && pt.Length > 0)
+                return char.ToLower(pt[0], PtBr) + pt.Substring(1);
+            return pt;
         }
 
         // "Items added ({0})!" -> ^Items\ added\ \((?<a0>.+?)\)!$ ; a repeated {n} must match the same text.

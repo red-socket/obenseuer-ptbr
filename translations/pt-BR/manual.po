@@ -48,3 +48,43 @@ msgstr "Sexta {0}"
 msgid "Saturday {0}"
 msgstr "Sábado {0}"
 
+#. SRC/ObjectiveUI.cs:41 optional objective suffix
+#, fuzzy
+msgid "{0} (Optional)"
+msgstr "{0} (opcional)"
+
+#. SRC/TenementUpgradeProgress.cs:64 renovation task title: tier + target, lower-cased
+#, fuzzy
+msgid "Tenement {0} {1}"
+msgstr "Prédio: {1} ({0})"
+
+#. SRC/TenementUpgradeProgress.cs:65 renovation task description
+#, fuzzy
+msgid "You ordered a tenement {0} {1} upgrade from {2}"
+msgstr "Você encomendou de {2} uma melhoria de {1} ({0}) para o prédio"
+
+#. SRC/TenementUpgradeProgress.cs:67 renovation objective
+#, fuzzy
+msgid "Wait for the tenement {0} upgrade to complete"
+msgstr "Aguarde a conclusão da melhoria de {0} do prédio"
+
+#. SRC/TenementUpgradeProgress.cs:80 apartment renovation task title: number, tier, target
+#, fuzzy
+msgid "Apt {0} {1} {2}"
+msgstr "Apto {0}: {2} ({1})"
+
+#. SRC/TenementUpgradeProgress.cs:82 apartment renovation task description
+#, fuzzy
+msgid "You ordered an apartment {0} {1} {2} upgrade from {3}"
+msgstr "Você encomendou de {3} uma melhoria de {2} ({1}) para o apartamento {0}"
+
+#. SRC/TenementUpgradeProgress.cs:84 apartment renovation objective
+#, fuzzy
+msgid "Wait for the apartment {0} {1} upgrade to complete"
+msgstr "Aguarde a conclusão da melhoria de {1} do apartamento {0}"
+
+#. SRC/TenementUpgradeProgress.cs:118 renovation final objective
+#, fuzzy
+msgid "Complete the final payment"
+msgstr "Faça o pagamento final"
+

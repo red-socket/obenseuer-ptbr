@@ -14,6 +14,9 @@ namespace ObenseuerPTBR
     {
         private readonly Dictionary<string, string> byKey = new Dictionary<string, string>(StringComparer.Ordinal);
         private readonly Dictionary<string, string> byText = new Dictionary<string, string>(StringComparer.Ordinal);
+        // Keyed entries (tasks, notes, furniture...) by their English text, for labels that show them verbatim.
+        private readonly Dictionary<string, string> promoted = new Dictionary<string, string>(StringComparer.Ordinal);
+        private Dictionary<string, string> folded;   // lower-cased English -> translation, built on first use
 
         private readonly HashSet<string> values = new HashSet<string>(StringComparer.Ordinal);
 
@@ -28,7 +31,20 @@ namespace ObenseuerPTBR
         public bool TryText(string english, out string text)
         {
             text = null;
-            return english != null && byText.TryGetValue(english, out text);
+            return english != null && (byText.TryGetValue(english, out text) || promoted.TryGetValue(english, out text));
+        }
+
+        /// <summary>Case-insensitive lookup ("heating room", "NEW GAME"); the caller restores the case.</summary>
+        public bool TryTextIgnoreCase(string english, out string text)
+        {
+            if (folded == null)
+            {
+                folded = new Dictionary<string, string>(StringComparer.Ordinal);
+                foreach (var e in promoted) folded[e.Key.ToLowerInvariant()] = e.Value;
+                foreach (var e in byText) folded[e.Key.ToLowerInvariant()] = e.Value;
+            }
+            text = null;
+            return english != null && folded.TryGetValue(english.ToLowerInvariant(), out text);
         }
 
         /// <summary>True if the text is already a translation (so it is not reported as untranslated).</summary>
@@ -65,7 +81,12 @@ namespace ObenseuerPTBR
                     if (fuzzy) Fuzzy++;
                     if (!fuzzy || useFuzzy)
                     {
-                        if (ctx != null) byKey[ctx] = str;
+                        if (ctx != null)
+                        {
+                            byKey[ctx] = str;
+                            if (!ctx.StartsWith("dlg.", StringComparison.Ordinal) && !promoted.ContainsKey(id))
+                                promoted[id] = str;
+                        }
                         else byText[id] = str;
                         values.Add(str);
                     }

@@ -1267,7 +1267,7 @@ msgstr "Fenella Hunt"
 #: Scenes/Interior Tenement Deekula Mine Entrance.unity (manufacturingProcess.title)
 #, fuzzy
 msgid "Fermenting barrel"
-msgstr "Barril de fermentação"
+msgstr "Barril fermentador"
 
 #: GameObject/Fermenting Bucket.prefab (manufacturingProcess.title)
 #: GameObject/Fermenting Bucket_0.prefab (manufacturingProcess.title)
@@ -1275,13 +1275,13 @@ msgstr "Barril de fermentação"
 #: Scenes/Interior Mines Potato Mine.unity (manufacturingProcess.title)
 #, fuzzy
 msgid "Fermenting bucket"
-msgstr "Balde de fermentação"
+msgstr "Balde fermentador"
 
 #: GameObject/Fermenting Container.prefab (manufacturingProcess.title)
 #: GameObject/Fermenting Container_0.prefab (manufacturingProcess.title)
 #, fuzzy
 msgid "Fermentation container"
-msgstr "Recipiente de fermentação"
+msgstr "Recipiente fermentador"
 
 #: GameObject/Filing Cabinet.prefab (Storage.title)
 #: GameObject/Filing Cabinet_0.prefab (Storage.title)

@@ -15,7 +15,7 @@ namespace ObenseuerPTBR
     {
         public const string Guid = "redsocket.obenseuer.ptbr";
         public const string Name = "Obenseuer PT-BR";
-        public const string Version = "0.2.0";
+        public const string Version = "0.3.0";
         public const string TestedGameVersion = "0.5.19";
 
         internal static ManualLogSource Log;
