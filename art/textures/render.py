@@ -196,6 +196,9 @@ def text_layer(size, t):
     small = np.asarray(full.resize((w, h), Image.BOX)).astype(float) / 255.0
     if t.get("crisp"):   # pixel-art lettering: no anti-aliasing
         small = (small >= t["crisp"]).astype(float)
+    if t.get("contrast"):   # [lo, hi]: keep anti-aliasing but steepen it, for small, sharp lettering
+        lo, hi = t["contrast"]
+        small = np.clip((small - lo) / (hi - lo), 0, 1)
     return small * t.get("opacity", 1.0)
 
 
@@ -305,6 +308,15 @@ def render(name, spec, save=True):
             u = cv2.GaussianBlur(rng.random(a.shape), (0, 0), 1.2)
             u = (u - u.min()) / (np.ptp(u) or 1)
             a = a * (1 - t["wear"] * u ** 2)   # squared: mostly intact, a few patches worn away
+        if t.get("chip"):   # chipped paint: that fraction of the letter pixels gone entirely, in small clusters
+            rng = np.random.default_rng(zlib.crc32((name + "chip" + t.get("text", "")).encode()))
+            u = cv2.GaussianBlur(rng.random(a.shape), (0, 0), t.get("chip_scale", 0.7))
+            inside = a > 0.3
+            if inside.any():
+                a = a * (u >= np.quantile(u[inside], t["chip"]))
+        if t.get("grime"):   # dark specks on the surface stay on top of the paint
+            lum = rgb.mean(axis=2)
+            a = a * ((cv2.GaussianBlur(lum, (0, 0), 2) - lum) <= t["grime"])
         out = out * (1 - a[:, :, None]) + ink(t, a, name, rgb, orig, old) * a[:, :, None]
         if aspec and "letters" in aspec:
             aout = aout * (1 - a) + t.get("alpha", aspec["letters"]) * a
