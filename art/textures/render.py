@@ -201,6 +201,24 @@ def pixel_layer(size, t, name):
     return mask * t.get("opacity", 1.0)
 
 
+def ink(t, a, name):
+    """Per-pixel ink colour (h, w, 3) for text t drawn with mask a. Worn signs don't have flat ink:
+    "shade": [top, bottom] brightness added from the top to the bottom row of the text,
+    "mottle": strength of blotchy variation (stains)."""
+    h, w = a.shape
+    col = np.zeros((h, w, 3)) + np.array(hexrgb(t["color"]), float)
+    rows = np.nonzero(a.any(axis=1))[0]
+    if t.get("shade") and len(rows):
+        top, bottom = t["shade"]
+        ramp = np.interp(np.arange(h), [rows[0], rows[-1]], [top, bottom])
+        col += ramp[:, None, None]
+    if t.get("mottle"):
+        rng = np.random.default_rng(zlib.crc32((name + t.get("text", "")).encode()))
+        field = cv2.GaussianBlur(rng.normal(size=(h, w)), (0, 0), 0.8)
+        col += (t["mottle"] * field / (field.std() or 1))[:, :, None]
+    return np.clip(col, 0, 255)
+
+
 def render(name, spec, save=True):
     src = Image.open(os.path.join(GAME, spec.get("source", name) + ".png"))
     has_alpha = src.mode in ("RGBA", "LA") or "transparency" in src.info
@@ -231,7 +249,12 @@ def render(name, spec, save=True):
     aout = alpha.astype(float)
     for t in spec["text"]:
         a = pixel_layer(im.size, t, name) if t.get("pixel") else text_layer(im.size, t)
-        out = out * (1 - a[:, :, None]) + np.array(hexrgb(t["color"]), float) * a[:, :, None]
+        if t.get("wear"):   # worn ink: fade the mask in uneven patches, up to that fraction
+            rng = np.random.default_rng(zlib.crc32((name + "wear" + t.get("text", "")).encode()))
+            u = cv2.GaussianBlur(rng.random(a.shape), (0, 0), 1.2)
+            u = (u - u.min()) / (np.ptp(u) or 1)
+            a = a * (1 - t["wear"] * u ** 2)   # squared: mostly intact, a few patches worn away
+        out = out * (1 - a[:, :, None]) + ink(t, a, name) * a[:, :, None]
         if aspec and "letters" in aspec:
             aout = aout * (1 - a) + t.get("alpha", aspec["letters"]) * a
     res = np.dstack([np.clip(out + 0.5, 0, 255).astype(np.uint8), np.clip(aout + 0.5, 0, 255).astype(np.uint8)])

@@ -64,10 +64,12 @@ def data_uri(img):
 def main():
     batch = sys.argv[1]
     names = BATCHES[batch]
+    key = batch
     only = {int(a) for a in sys.argv[2:]}
     if only:
         names = [n for n in names if NUMBERS[n] in only]
         batch += "-redo"
+    key = batch + "".join(f"-{n}" for n in sorted(only))   # a new set of textures starts a fresh page state
     cards, blank = [], []
     for i, n in enumerate(names, 1):
         spec = SPECS[n]
@@ -139,7 +141,7 @@ blocked in this viewer), type approve / redo / keep after each line of the box i
 <textarea id="out">{html.escape(chr(10).join([f"Texture review {batch}"] + blank))}</textarea>
 <p><button id="copy">Copy</button></p>
 <script>
-const key = "texture-review-{batch}";
+const key = "texture-review-{key}";
 const cards = [...document.querySelectorAll(".card")];
 let saved = {{}};
 try {{ saved = JSON.parse(localStorage.getItem(key) || "{{}}"); }} catch (e) {{}}

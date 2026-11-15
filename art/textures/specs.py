@@ -86,10 +86,12 @@ SPECS = {
         "alpha": {"erase": [{"rect": [2, 2, 41, 12], "mode": "light", "thresh": 40, "k": 5, "isolate": True},
                             {"rect": [12, 14, 32, 23], "mode": "dark", "thresh": 40, "k": 5, "isolate": True},
                             {"rect": [2, 23, 41, 30], "mode": "dark", "thresh": 40, "k": 5}], "letters": 0},
-        "text": [{"pixel": "border-top", "box": [1, 0, 42, 0], "baselines": [11], "gap": 2, "color": "#a9a8a3",
-                  "alpha": 235, "text": "DIVISA"},
-                 {"pixel": "border-mid", "box": [1, 0, 42, 0], "baselines": [22], "color": "#202020", "text": "NÃO"},
-                 {"pixel": "border-low", "box": [1, 0, 42, 0], "baselines": [28], "color": "#1c1c1b", "text": "ULTRAPASSE"}],
+        "text": [{"pixel": "border-top", "box": [1, 0, 42, 0], "baselines": [11], "gap": 2, "color": "#a5a49f",
+                  "shade": [-28, 22], "mottle": 16, "alpha": 200, "text": "DIVISA"},
+                 {"pixel": "border-mid", "box": [1, 0, 42, 0], "baselines": [22], "color": "#1f1f1e", "mottle": 4,
+                  "text": "NÃO"},
+                 {"pixel": "border-low", "box": [1, 0, 42, 0], "baselines": [28], "color": "#1c1c1b", "mottle": 4,
+                  "text": "ULTRAPASSE"}],
     },
     # Bergmann tunnels (place name, kept): "MAINTENANCE TUNNEL". The gloss map holds an unrelated
     # "DANGER / KEEP OUT" from the base sign; it only changes shininess and is left alone.
@@ -168,18 +170,16 @@ SPECS = {
         "note": '"Barreira policial" is the usual term. Alternative: "BLITZ".',
         "erase": [{"rect": [13, 14, 53, 29], "mode": "dark", "thresh": 25, "k": 7, "grain": 5},
                   {"rect": [10, 35, 56, 48], "mode": "dark", "thresh": 25, "k": 7, "grain": 5}],
-        "text": [{"box": [12, 16, 54, 29], "font": "sans-bold", "color": "#211810", "stretch": True, "text": "POLÍCIA"},
-                 {"box": [12, 38, 54, 45], "font": "sans-bold", "color": "#211810", "stretch": True, "text": "BARREIRA"}],
+        "text": [{"box": [14, 15, 51, 28], "font": "sans-bold", "color": "#1a120a", "stretch": True, "stroke": 0.2, "text": "POLÍCIA"},
+                 {"box": [14, 39, 51, 44], "font": "sans-bold", "color": "#1a120a", "stretch": True, "text": "BARREIRA"}],
     },
     # Hand-written cardboard: "Bricks are not welcome here"
     "sign_004_no_bricks": {
         "en": 'Bricks are not welcome here',
-        "note": 'Hand-written. Main version: Reenie Beanie, thickened. Other fonts are shown as options; name one in the comment to switch.',
+        "note": 'Hand-written, in Gochi Hand with worn, uneven ink.',
         "erase": [{"rect": [18, 6, 112, 90], "mode": "dark", "thresh": 20, "k": 9}],
-        "text": [{"box": [22, 8, 108, 88], "font": "reenie", "stroke": 0.5, "color": "#1c1c1c", "leading": 0.05,
-                  "text": "Tijolos\nnão são\nbem-vindos\naqui"}],
-        "alts": {"Gochi Hand": {"font": "gochi", "stroke": 0}, "Gloria Hallelujah": {"font": "gloria", "stroke": 0},
-                 "Caveat Bold": {"font": "caveat", "weight": 700, "stroke": 0}},
+        "text": [{"box": [22, 8, 108, 88], "font": "gochi", "color": "#1e1e1e", "leading": 0.05,
+                  "wear": 0.75, "mottle": 10, "text": "Tijolos\nnão são\nbem-vindos\naqui"}],
     },
 }
 
