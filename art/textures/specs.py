@@ -267,25 +267,25 @@ SPECS = {
     # Mall corridor signs: wide-tracked caps (12 px) on a light band (rows 213-247), arrow kept.
     "sign_002_exit_mallment_left": {
         "en": 'EXIT TO BAZAAR (arrow left)',
-        "note": 'Bazaar is "Bazar" in the game text. The full phrase needs tighter spacing than the original; the shorter option keeps its wide spacing.',
-        "erase": [{"rect": [48, 215, 244, 246], "mode": "dark", "thresh": 30, "k": 9, "isolate": True}],
-        "text": [{"box": [50, 214, 240, 246], "font": "sans", "stroke": 0.25, "size": 17, "tracking": 0.1, "baseline": 237,
-                  "color": "#030303", "text": "SAÍDA PARA O BAZAR"}],
-        "alts": {"SAÍDA – BAZAR": {"text": "SAÍDA – BAZAR", "tracking": 0.4}},
+        "note": 'Set in the sign\'s own sharp pixel capitals (S, D, P and the accent drawn to match). The full phrase needs tighter letter spacing; the shorter option keeps the original spacing. Bazaar is "Bazar" in the game text.',
+        "erase": [{"rect": [44, 215, 246, 246], "color": "#d1d1d1"}],
+        "text": [{"pixel": "mall", "box": [46, 0, 245, 0], "baselines": [236], "gap": 2, "space": 6, "color": "#000000",
+                  "text": "SAÍDA PARA O BAZAR"}],
+        "alts": {"SAÍDA – BAZAR": {"text": "SAÍDA – BAZAR", "gap": 5, "space": 10}},
     },
     "sign_002_exit_mallment_left_corner": {
         "en": 'EXIT TO BAZAAR (arrow up-left)',
-        "erase": [{"rect": [52, 215, 244, 246], "mode": "dark", "thresh": 30, "k": 9, "isolate": True}],
-        "text": [{"box": [53, 214, 242, 246], "font": "sans", "stroke": 0.25, "size": 17, "tracking": 0.1, "baseline": 237,
-                  "color": "#030303", "text": "SAÍDA PARA O BAZAR"}],
-        "alts": {"SAÍDA – BAZAR": {"text": "SAÍDA – BAZAR", "tracking": 0.4}},
+        "erase": [{"rect": [50, 215, 246, 246], "color": "#d1d1d1"}],
+        "text": [{"pixel": "mall", "box": [51, 0, 246, 0], "baselines": [236], "gap": 2, "space": 6, "color": "#000000",
+                  "text": "SAÍDA PARA O BAZAR"}],
+        "alts": {"SAÍDA – BAZAR": {"text": "SAÍDA – BAZAR", "gap": 5, "space": 10}},
     },
     "sign_002_exit_mallment_down": {
         "en": 'EXIT TO BAZAAR (arrow down)',
-        "erase": [{"rect": [14, 215, 205, 246], "mode": "dark", "thresh": 30, "k": 9, "isolate": True}],
-        "text": [{"box": [16, 214, 206, 246], "font": "sans", "stroke": 0.25, "size": 17, "tracking": 0.1, "baseline": 237,
-                  "color": "#030303", "text": "SAÍDA PARA O BAZAR"}],
-        "alts": {"SAÍDA – BAZAR": {"text": "SAÍDA – BAZAR", "tracking": 0.4}},
+        "erase": [{"rect": [10, 215, 209, 246], "color": "#d1d1d1"}],
+        "text": [{"pixel": "mall", "box": [10, 0, 208, 0], "baselines": [236], "gap": 2, "space": 6, "color": "#000000",
+                  "text": "SAÍDA PARA O BAZAR"}],
+        "alts": {"SAÍDA – BAZAR": {"text": "SAÍDA – BAZAR", "gap": 5, "space": 10}},
     },
     # Apartment building plate: light bold caps on a dark grainy panel.
     "apartment_sign_001_guard": {

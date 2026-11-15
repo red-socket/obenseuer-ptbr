@@ -20,7 +20,7 @@ Fixes from the first full play session:
 - With the BetterTenement mod installed, its Landlord Ledger window, upgrade cards and map tooltips are in Portuguese too ("Livro-caixa", "Sem efeito no aluguel", "Próximo: …"). Without BetterTenement nothing changes.
 - Resident tooltips: "Estado civil" and "Profissão" are translated, and the relationship and job follow the resident's gender ("Noiva", "Professora").
 - Deeply nested labels, such as a tooltip line with colour tags and a " · " separator, are translated all the way down ("Próximo: Suja").
-- Twenty-nine signs and screens with English text are now in Portuguese: warning and notice signs (high voltage, radioactive area, private property, the Bergmann tunnel signs, the "out of stock" notice in shops), the passport ticket machine and ATM screens, the green exit lights, the "call the guard" plate and the hot water tank sign. Signs drawn in pixel lettering keep it. The plugin replaces each sign's texture in memory when the game loads it and leaves the game files alone. The other signs come in later versions.
+- Thirty-two signs and screens with English text are now in Portuguese: warning and notice signs (high voltage, radioactive area, private property, the Bergmann tunnel signs, the "out of stock" notice in shops), the passport ticket machine and ATM screens, the green exit lights, the exit signs in the mall corridors, the "call the guard" plate and the hot water tank sign. Signs drawn in pixel lettering keep it. The plugin replaces each sign's texture in memory when the game loads it and leaves the game files alone. The other signs come in later versions.
 
 ## 0.4.1 (unreleased)
 
