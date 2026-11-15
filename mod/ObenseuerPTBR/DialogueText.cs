@@ -59,6 +59,16 @@ namespace ObenseuerPTBR
         private static void Prefix(DialogueDatabase database) => DialogueText.Localize(database);
     }
 
+    /// <summary>
+    /// Resolves {{masculine|feminine}} markers as the Dialogue System parses a line for display (subtitles,
+    /// responses, barks), before any UI sees it. The TMP preprocessor resolves them too, as a fallback.
+    /// </summary>
+    [HarmonyPatch(typeof(FormattedText), nameof(FormattedText.Parse))]
+    internal static class DialogueGenderPatch
+    {
+        private static void Prefix(ref string rawText) => rawText = GenderMarkers.Resolve(rawText);
+    }
+
     [HarmonyPatch(typeof(DialogueSystemController), nameof(DialogueSystemController.InitializeLocalization))]
     internal static class DialogueLanguagePatch
     {

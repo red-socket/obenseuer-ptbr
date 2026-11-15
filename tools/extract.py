@@ -51,6 +51,8 @@ FIELDS = {
     "ToolTipInfo": ["toolTipInfoTitle", "toolTipInfoDetails"],
     "PlayerStatsToolTipInfo": ["toolTipInfoTitle", "toolTipInfoDetails"],
     "HintContext": ["title", "header", "lines"],
+    "manufacturing": ["ManuName"],
+    "Growing": ["ManuName"],
 }
 
 # ScriptableObject classes whose strings get an asset-based key instead of a text key.
@@ -67,7 +69,8 @@ SO_DOMAINS = {
 UI_SINKS = re.compile(
     r"CreateNotification|ChangeUseText|UseAndHoldText|ShowNotification|UpdateToolTipInfo|"
     r"ToolTip\.instance\.Activate|\.Activate\(|HintContent\(|\.AddText\(|\.AddList\(|KeyCodeInfoToString|"
-    r"CreateStatInfoUI|\.text\s*=|\.text\s*\+=|SetText\(|ShowLine\(|Print\(")
+    r"CreateStatInfoUI|\.text\s*=|\.text\s*\+=|SetText\(|ShowLine\(|Print\(|\breturn\s+\$?\"|useMessage\s*=|"
+    r"\btitle\s*=\s*\$?\"|ChangeUseText|ShowMovingItem|\bstring \w+ = \$?\"[A-Z]|=> \$?\"|\[Description\(\"")
 NOT_UI = re.compile(r"Debug\.|LogWarning|LogError|Exception\(|Resources\.Load|GetKey|PlayerPrefs|Animator|"
                     r"\.Play\(|SetBool|SetTrigger|Shader\.|Find\(|CompareTag|DialogueLua|Lua\.|GetComponent")
 LITERAL = re.compile(r'\$?@?"((?:[^"\\]|\\.)*)"')
@@ -456,7 +459,7 @@ def extract_csharp(src, cat):
                     t = _template(m.group(0))
                     if t:
                         cat.add(None, t, ref)
-                    used.append(m.span())
+                        used.append(m.span())   # literals inside calls in the chain are still collected below
                 for m in re.finditer(STR_LIT, line):
                     if any(a <= m.start() < b for a, b in used):
                         continue

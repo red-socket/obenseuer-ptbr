@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.4.2 (unreleased)
+
+Fixes from the first full play session:
+
+- Gendered words in dialogue no longer show both forms ("{{Bem-vindo|Bem-vinda}}"). The plugin now resolves them before the game builds the subtitle.
+- Notes and emails are translated in the Notes tab. Text you type in your own notebooks is left alone.
+- About 650 more interface strings: tooltip lines ("Valor estimado", "Queima por", "Estragando"), interaction prompts ("(Colher) (Segure - Continuar colhendo)"), crafting station names, key names, trader wealth, save slot names, needs warnings ("Sede!") and the controls hint line at the bottom of the menu.
+- Renovation tasks read naturally ("Prédio: escadaria (surrado)") and include the courtyard, roof and other targets.
+- Item names built from pieces are translated ("Galão plástico com água limpa", "Pote de vidro (vazio)").
+- The same English word can now have different translations in different places: the inventory button says "Beber" while the item type stays "Bebida", and the backpack tab says "ABRIR" while the bar sign says "ABERTO".
+- Labels that flickered between two sizes (furniture shop) settle on one size, and auto-sized labels can shrink a little further instead of cutting the text off.
+
 ## 0.4.1 (unreleased)
 
 - Speaker names on subtitles and phone calls are translated when they are titles rather than names ("Guarda", "Padre", "Serviço de emergência"). People's names stay as they are.

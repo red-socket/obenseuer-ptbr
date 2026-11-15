@@ -1,5 +1,5 @@
 # Hand-written entries for strings tools/extract.py cannot find (built in code from pieces).
-# Not regenerated: edit by hand.
+# Not regenerated: edit by hand. msgctxt "scope:<object>:<English>" applies only to labels under that object.
 msgid ""
 msgstr ""
 "Project-Id-Version: Obenseuer PT-BR\n"
@@ -201,4 +201,595 @@ msgstr "Ele"
 msgctxt "player.PronounCapitalized.She"
 msgid "She"
 msgstr "Ela"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Eat"
+msgid "Eat"
+msgstr "Comer"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Drink"
+msgid "Drink"
+msgstr "Beber"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Equip"
+msgid "Equip"
+msgstr "Equipar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Open"
+msgid "Open"
+msgstr "Abrir"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Crumple"
+msgid "Crumple"
+msgstr "Amassar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Smoke"
+msgid "Smoke"
+msgstr "Fumar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Read"
+msgid "Read"
+msgstr "Ler"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Use"
+msgid "Use"
+msgstr "Usar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Break"
+msgid "Break"
+msgstr "Quebrar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Take a pill"
+msgid "Take a pill"
+msgstr "Tomar um comprimido"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Slaughter"
+msgid "Slaughter"
+msgstr "Abater"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Reload"
+msgid "Reload"
+msgstr "Recarregar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Empty"
+msgid "Empty"
+msgstr "Esvaziar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Unpack"
+msgid "Unpack"
+msgstr "Desembalar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Pet"
+msgid "Pet"
+msgstr "Fazer carinho"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Vape"
+msgid "Vape"
+msgstr "Vaporizar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Inject"
+msgid "Inject"
+msgstr "Injetar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Scratch"
+msgid "Scratch"
+msgstr "Raspar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Call"
+msgid "Call"
+msgstr "Ligar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Take"
+msgid "Take"
+msgstr "Pegar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Take an egg"
+msgid "Take an egg"
+msgstr "Pegar um ovo"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Take a mask"
+msgid "Take a mask"
+msgstr "Pegar uma máscara"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Refill"
+msgid "Refill"
+msgstr "Recarregar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Set bait"
+msgid "Set bait"
+msgstr "Pôr isca"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Take a syringe"
+msgid "Take a syringe"
+msgstr "Pegar uma seringa"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Attach Filter"
+msgid "Attach Filter"
+msgstr "Encaixar filtro"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Write"
+msgid "Write"
+msgstr "Escrever"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Carry"
+msgid "Carry"
+msgstr "Carregar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Play"
+msgid "Play"
+msgstr "Jogar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button Disabled'
+#, fuzzy
+msgctxt "scope:Use Button Disabled:Switch Batteries"
+msgid "Switch Batteries"
+msgstr "Trocar as pilhas"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Eat"
+msgid "Eat"
+msgstr "Comer"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Drink"
+msgid "Drink"
+msgstr "Beber"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Equip"
+msgid "Equip"
+msgstr "Equipar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Open"
+msgid "Open"
+msgstr "Abrir"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Crumple"
+msgid "Crumple"
+msgstr "Amassar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Smoke"
+msgid "Smoke"
+msgstr "Fumar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Read"
+msgid "Read"
+msgstr "Ler"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Use"
+msgid "Use"
+msgstr "Usar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Break"
+msgid "Break"
+msgstr "Quebrar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Take a pill"
+msgid "Take a pill"
+msgstr "Tomar um comprimido"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Slaughter"
+msgid "Slaughter"
+msgstr "Abater"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Reload"
+msgid "Reload"
+msgstr "Recarregar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Empty"
+msgid "Empty"
+msgstr "Esvaziar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Unpack"
+msgid "Unpack"
+msgstr "Desembalar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Pet"
+msgid "Pet"
+msgstr "Fazer carinho"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Vape"
+msgid "Vape"
+msgstr "Vaporizar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Inject"
+msgid "Inject"
+msgstr "Injetar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Scratch"
+msgid "Scratch"
+msgstr "Raspar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Call"
+msgid "Call"
+msgstr "Ligar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Take"
+msgid "Take"
+msgstr "Pegar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Take an egg"
+msgid "Take an egg"
+msgstr "Pegar um ovo"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Take a mask"
+msgid "Take a mask"
+msgstr "Pegar uma máscara"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Refill"
+msgid "Refill"
+msgstr "Recarregar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Set bait"
+msgid "Set bait"
+msgstr "Pôr isca"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Take a syringe"
+msgid "Take a syringe"
+msgstr "Pegar uma seringa"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Attach Filter"
+msgid "Attach Filter"
+msgstr "Encaixar filtro"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Write"
+msgid "Write"
+msgstr "Escrever"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Carry"
+msgid "Carry"
+msgstr "Carregar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Play"
+msgid "Play"
+msgstr "Jogar"
+
+#. Inventory info panel: item action from Items.json (SRC/ItemInfoPanel.cs:282), label under 'Use Button'
+#, fuzzy
+msgctxt "scope:Use Button:Switch Batteries"
+msgid "Switch Batteries"
+msgstr "Trocar as pilhas"
+
+#. Inventory backpack slot tab 'OPEN' (the bar sign 'OPEN' is 'ABERTO')
+#, fuzzy
+msgctxt "scope:OpenText:OPEN"
+msgid "OPEN"
+msgstr "ABRIR"
+
+#. SRC/Item.cs:463 liquid in a container ('Água limpa in a Galão plástico')
+#, fuzzy
+msgid "{0} in a {1}"
+msgstr "{1} com {0:l}"
+
+#. SRC/Item.cs:458 empty liquid container (title is lower-cased by the game)
+#, fuzzy
+msgid "Empty {0}"
+msgstr "{0:u} (vazio)"
+
+#. SRC/Item.cs:485/505 item or furniture in a package
+#, fuzzy
+msgid "{0} in {1}"
+msgstr "{0} em {1:l}"
+
+#. SRC/Item.cs:489 package
+#, fuzzy
+msgid "{0} units of {1} in {2}"
+msgstr "{0} unidades de {1:l} em {2:l}"
+
+#. SRC/Item.cs:493 package
+#, fuzzy
+msgid "{0} items in {1}"
+msgstr "{0} itens em {1:l}"
+
+#. SRC/Item.cs:468 invoice item title
+#, fuzzy
+msgid "Invoice - {0}: {1} {2}"
+msgstr "Boleto - {0}: {1} {2}"
+
+#. SRC/Item.cs:468 expired invoice
+#, fuzzy
+msgid "Expired Invoice - {0}"
+msgstr "Boleto vencido - {0}"
+
+#. Save/load slot list
+#, fuzzy
+msgid "Slot {0}: {1}"
+msgstr "Espaço {0}: {1}"
+
+#. Save/load slot list (autosave slots)
+#, fuzzy
+msgid "Autosave {0}: {1}"
+msgstr "Automático {0}: {1}"
+
+#. Renovation duration
+#, fuzzy
+msgid "{0} days"
+msgstr "{0} dias"
+
+#. Renovation duration
+#, fuzzy
+msgid "{0} day"
+msgstr "{0} dia"
+
+#. SRC/QuickSlotBar.cs:464 quick-slot hint
+#, fuzzy
+msgid "({0} to plant)"
+msgstr "({0} para plantar)"
+
+#. SRC/QuickSlotBar.cs:471 and interaction prompts '(Hold - Break)'
+#, fuzzy
+msgid "Hold - {0}"
+msgstr "Segure - {0}"
+
+#. SRC/Growing.cs:777 quick-slot repeat name
+#, fuzzy
+msgid "Keep planting"
+msgstr "Continuar plantando"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "Wealth: <color=#{0}>Depleted"
+msgstr "Riqueza: <color=#{0}>Esgotada"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "Wealth: <color=#{0}>Low"
+msgstr "Riqueza: <color=#{0}>Baixa"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "Wealth: <color=#{0}>Small"
+msgstr "Riqueza: <color=#{0}>Pequena"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "Wealth: <color=#{0}>Humble"
+msgstr "Riqueza: <color=#{0}>Humilde"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "Wealth: <color=#{0}>Modest"
+msgstr "Riqueza: <color=#{0}>Modesta"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "Wealth: <color=#{0}>Moderate"
+msgstr "Riqueza: <color=#{0}>Moderada"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "Wealth: <color=#{0}>Generous"
+msgstr "Riqueza: <color=#{0}>Generosa"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "Wealth: <color=#{0}>Decent"
+msgstr "Riqueza: <color=#{0}>Razoável"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "Wealth: <color=#{0}>High"
+msgstr "Riqueza: <color=#{0}>Alta"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "Wealth: <color=#{0}>Infinite"
+msgstr "Riqueza: <color=#{0}>Infinita"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "RM Wealth: <color=#{0}>Depleted"
+msgstr "Riqueza em RM: <color=#{0}>Esgotada"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "RM Wealth: <color=#{0}>Low"
+msgstr "Riqueza em RM: <color=#{0}>Baixa"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "RM Wealth: <color=#{0}>Small"
+msgstr "Riqueza em RM: <color=#{0}>Pequena"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "RM Wealth: <color=#{0}>Humble"
+msgstr "Riqueza em RM: <color=#{0}>Humilde"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "RM Wealth: <color=#{0}>Modest"
+msgstr "Riqueza em RM: <color=#{0}>Modesta"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "RM Wealth: <color=#{0}>Moderate"
+msgstr "Riqueza em RM: <color=#{0}>Moderada"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "RM Wealth: <color=#{0}>Generous"
+msgstr "Riqueza em RM: <color=#{0}>Generosa"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "RM Wealth: <color=#{0}>Decent"
+msgstr "Riqueza em RM: <color=#{0}>Razoável"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "RM Wealth: <color=#{0}>High"
+msgstr "Riqueza em RM: <color=#{0}>Alta"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "RM Wealth: <color=#{0}>Infinite"
+msgstr "Riqueza em RM: <color=#{0}>Infinita"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "OC Wealth: <color=#{0}>Depleted"
+msgstr "Riqueza em OC: <color=#{0}>Esgotada"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "OC Wealth: <color=#{0}>Low"
+msgstr "Riqueza em OC: <color=#{0}>Baixa"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "OC Wealth: <color=#{0}>Small"
+msgstr "Riqueza em OC: <color=#{0}>Pequena"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "OC Wealth: <color=#{0}>Humble"
+msgstr "Riqueza em OC: <color=#{0}>Humilde"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "OC Wealth: <color=#{0}>Modest"
+msgstr "Riqueza em OC: <color=#{0}>Modesta"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "OC Wealth: <color=#{0}>Moderate"
+msgstr "Riqueza em OC: <color=#{0}>Moderada"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "OC Wealth: <color=#{0}>Generous"
+msgstr "Riqueza em OC: <color=#{0}>Generosa"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "OC Wealth: <color=#{0}>Decent"
+msgstr "Riqueza em OC: <color=#{0}>Razoável"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "OC Wealth: <color=#{0}>High"
+msgstr "Riqueza em OC: <color=#{0}>Alta"
+
+#. SRC/StoragePanelUI.cs:119-150 trader wealth label (colour hex in {0})
+#, fuzzy
+msgid "OC Wealth: <color=#{0}>Infinite"
+msgstr "Riqueza em OC: <color=#{0}>Infinita"
+
+#. Interaction prompt '(Hold - Break)' (breakable objects)
+#, fuzzy
+msgid "Break"
+msgstr "Quebrar"
 

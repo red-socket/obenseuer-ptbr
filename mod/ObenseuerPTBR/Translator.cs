@@ -16,6 +16,11 @@ namespace ObenseuerPTBR
         private const int CacheLimit = 8192;
 
         private static readonly Regex Placeholder = new Regex(@"\{(\d+)\}", RegexOptions.CultureInvariant);
+        private static readonly Regex TranslationSlot = new Regex(@"\{(\d+)(?::([lu]))?\}", RegexOptions.CultureInvariant);
+        private static readonly Regex Suffixed = new Regex(@"^([^()<>\n]+?) \(([^()<>\n]+)\)$", RegexOptions.CultureInvariant);
+        private static readonly Regex TagSplit = new Regex(@"(<[^<>]+>)", RegexOptions.CultureInvariant);
+        private static readonly Regex ParenGroups = new Regex(@"(?<=\)) (?=\()", RegexOptions.CultureInvariant);
+        private static readonly Regex KeyHint = new Regex(@"^([^ ()<>]{1,12}\))([^()<>]+)$", RegexOptions.CultureInvariant);
         private static readonly Regex Labelled = new Regex(@"^([^:\n<>{}\[\]]{1,48}): (.+)$", RegexOptions.Singleline | RegexOptions.CultureInvariant);
         private static readonly Regex Counter = new Regex(@"^(.*\S) (\d+/\d+)$", RegexOptions.Singleline | RegexOptions.CultureInvariant);
         private static readonly System.Globalization.CultureInfo PtBr = new System.Globalization.CultureInfo("pt-BR");
@@ -90,22 +95,78 @@ namespace ObenseuerPTBR
             }
 
             // Interaction verbs are drawn as "(Open)": translate the inside if the whole isn't known.
-            if (text.Length > 2 && text[0] == '(' && text[text.Length - 1] == ')')
+            if (text.Length > 2 && text[0] == '(' && text[text.Length - 1] == ')'
+                && text.IndexOfAny(new[] { '(', ')', '<' }, 1, text.Length - 2) < 0)
             {
                 string inner = Translate(text.Substring(1, text.Length - 2), depth + 1);
                 if (inner != null) return "(" + inner + ")";
             }
 
+            // Warnings and exclamations: "Thirst!" -> "Sede!".
+            char last = text[text.Length - 1];
+            if (text.Length > 2 && (last == '!' || last == '?' || last == '.' || last == ':'))
+            {
+                string inner = Translate(text.Substring(0, text.Length - 1), depth + 1);
+                if (inner != null) return inner + last;
+            }
+
             foreach (Template t in templates)
             {
                 Match m = t.Pattern.Match(text);
-                if (!m.Success) continue;
-                return Placeholder.Replace(t.Translation, p =>
+                if (!m.Success || CapturesTag(m)) continue;
+                // {0} inserts the (translated) value; {0:l} / {0:u} lower-/upper-cases its first letter ("{1} com {0:l}").
+                return TranslationSlot.Replace(t.Translation, p =>
                 {
                     Group g = m.Groups["a" + p.Groups[1].Value];
                     if (!g.Success) return p.Value;
-                    return Translate(g.Value, depth + 1) ?? g.Value;
+                    string v = Translate(g.Value, depth + 1) ?? g.Value;
+                    if (!p.Groups[2].Success || v.Length == 0) return v;
+                    char first = p.Groups[2].Value == "l" ? char.ToLower(v[0], PtBr) : char.ToUpper(v[0], PtBr);
+                    return first + v.Substring(1);
                 });
+            }
+
+            // "Log storage (Empty)": the name and the state are translated separately.
+            Match suffixed = Suffixed.Match(text);
+            if (suffixed.Success)
+            {
+                string a = Translate(suffixed.Groups[1].Value, depth + 1), b = Translate(suffixed.Groups[2].Value, depth + 1);
+                if (a != null || b != null)
+                {
+                    if (b != null && b.Length > 0) b = char.ToLower(b[0], PtBr) + b.Substring(1);   // "(vazio)"
+                    return (a ?? suffixed.Groups[1].Value) + " (" + (b ?? suffixed.Groups[2].Value) + ")";
+                }
+            }
+
+            // Gamepad/keyboard hint line: "C)DRAG & DROP   R)DROP   Tab)EXIT".
+            if (text.IndexOf(")", StringComparison.Ordinal) > 0)
+            {
+                string[] parts = text.Split(new[] { "   " }, StringSplitOptions.None);
+                bool all = parts.Length > 0, changed = false;
+                for (int i = 0; i < parts.Length && all; i++)
+                {
+                    Match k = KeyHint.Match(parts[i]);
+                    if (!k.Success) { all = false; break; }
+                    string tl = Translate(k.Groups[2].Value, depth + 1);
+                    if (tl != null) { parts[i] = k.Groups[1].Value + tl; changed = true; }
+                }
+                if (all && changed) return string.Join("   ", parts);
+            }
+
+            // Several pieces in one label: rich-text runs ("<color>(Harvest)</color> <color>(Hold - Break)</color>")
+            // or prompts side by side ("(LMB to plant) (Hold - Keep planting)"). Each piece is translated on its own.
+            string[] pieces = text.IndexOf('<') >= 0 ? TagSplit.Split(text) : ParenGroups.Split(text);
+            if (pieces.Length > 1)
+            {
+                bool changed = false;
+                for (int i = 0; i < pieces.Length; i++)
+                {
+                    string piece = pieces[i];
+                    if (piece.Length == 0 || piece[0] == '<' || piece.Trim().Length == 0) continue;
+                    string tl = Translate(piece, depth + 1);
+                    if (tl != null) { pieces[i] = tl; changed = true; }
+                }
+                if (changed) return string.Join(text.IndexOf('<') >= 0 ? "" : " ", pieces);
             }
 
             // "Guard: Halt!" (bark and phone subtitles), "Quality: Good": translate a known label in front of
@@ -138,6 +199,14 @@ namespace ObenseuerPTBR
             return null;
         }
 
+        // A slot that swallowed rich-text tags means the template matched across separate pieces of a label.
+        private static bool CapturesTag(Match m)
+        {
+            for (int i = 1; i < m.Groups.Count; i++)
+                if (m.Groups[i].Success && m.Groups[i].Value.IndexOf('<') >= 0) return true;
+            return false;
+        }
+
         private static string MatchCase(string english, string pt)
         {
             bool hasLower = false, hasUpper = false;
@@ -147,6 +216,7 @@ namespace ObenseuerPTBR
                 else if (char.IsUpper(c)) hasUpper = true;
             }
             if (hasUpper && !hasLower) return pt.ToUpper(PtBr);
+            if (hasLower && !hasUpper) return pt.ToLower(PtBr);
             if (english.Length > 0 && char.IsLower(english[0]) && pt.Length > 0)
                 return char.ToLower(pt[0], PtBr) + pt.Substring(1);
             return pt;
@@ -176,7 +246,7 @@ namespace ObenseuerPTBR
                 throw new ArgumentException("too little literal text to match safely");
             return new Template
             {
-                Pattern = new Regex(sb.ToString(), RegexOptions.Singleline | RegexOptions.CultureInvariant),
+                Pattern = new Regex(sb.ToString(), RegexOptions.CultureInvariant),   // "." stops at line breaks
                 Translation = translation,
                 Literal = literal,
             };

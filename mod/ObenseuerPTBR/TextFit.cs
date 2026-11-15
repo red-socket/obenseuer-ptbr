@@ -46,8 +46,13 @@ namespace ObenseuerPTBR
             float en = Width(label, english), tr = Width(label, pt);
             if (en <= 0f || tr <= en * 1.02f)
                 return pt;
-            if (TryWiden(label, english, tr) || label.enableAutoSizing)
+            if (TryWiden(label, english, tr))
                 return pt;
+            if (label.enableAutoSizing)
+            {
+                LowerMinSize(label, tr);
+                return pt;
+            }
 
             float scale = 1f;
             bool sign = label is TextMeshPro;   // world-space text: the sign was drawn for the English width
@@ -71,6 +76,26 @@ namespace ObenseuerPTBR
             if (scale >= 0.99f)
                 return pt;
             return "<size=" + Mathf.FloorToInt(scale * 100f).ToString(CultureInfo.InvariantCulture) + "%>" + pt;
+        }
+
+        /// <summary>
+        /// An auto-sizing one-line label stops shrinking at its minimum size and cuts the text with an ellipsis.
+        /// If the translation is too wide even at the minimum, lower the minimum (not below 60% of it).
+        /// </summary>
+        private static void LowerMinSize(TMP_Text label, float widthEm)
+        {
+            if (label.textWrappingMode != TextWrappingModes.NoWrap && !IsOneLine(label)) return;
+            float box = label.rectTransform.rect.width - label.margin.x - label.margin.z;
+            if (box <= 0f || widthEm <= 0f) return;
+            float needed = box / widthEm * 0.97f;
+            if (needed >= label.fontSizeMin) return;
+            float min = Mathf.Max(label.fontSizeMin * MinUiScale, needed);
+            pending[label.GetInstanceID()] = () =>
+            {
+                if (label == null) return;
+                label.fontSizeMin = min;
+                label.ForceMeshUpdate(false, true);
+            };
         }
 
         /// <summary>

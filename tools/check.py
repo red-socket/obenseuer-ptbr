@@ -24,7 +24,8 @@ GENDER = re.compile(r"\{\{[^{}|]*\|[^{}|]*\}\}")
 
 def problems(en, pt):
     out = []
-    a, b = collections.Counter(TOKENS.findall(en)), collections.Counter(TOKENS.findall(pt))
+    pt_norm = re.sub(r"\{(\d+):[lu]\}", r"{\1}", pt)   # {0:l} / {0:u} case modifiers count as {0}
+    a, b = collections.Counter(TOKENS.findall(en)), collections.Counter(TOKENS.findall(pt_norm))
     if a != b:
         miss, extra = a - b, b - a
         out.append("markup differs" + (f"; missing {sorted(miss)}" if miss else "") + (f"; extra {sorted(extra)}" if extra else ""))

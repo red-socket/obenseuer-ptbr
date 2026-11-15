@@ -118,6 +118,9 @@ msgid "Gold and Jewellery Store"
 msgstr "Loja de Ouro e Joias"
 
 #: Content/Landmarks/Bazaar/Grill.asset
+#: GameObject/Upgrade_PLAYER_Yard_(lvl 3) - Decent.prefab (manufacturing.ManuName)
+#: GameObject/Upgrade_PLAYER_Yard_(lvl 4) - Fine.prefab (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Murju A.unity (manufacturing.ManuName)
 #, fuzzy
 msgid "Grill"
 msgstr "Grelhados"
@@ -570,6 +573,16 @@ msgstr "Revista Esgoto Aberto"
 msgid "Puuhari Magazine"
 msgstr "Revista Puuhari"
 
+#: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Furniture_(lvl 1) - Makeshift - Malone.prefab (Growing.ManuName)
+#: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Furniture_(lvl 2) - Shabby - Malone.prefab (Growing.ManuName)
+#: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Furniture_(lvl 3) - Decent- Malone.prefab (Growing.ManuName)
+#: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Furniture_(lvl 4) - Fine - Malone.prefab (Growing.ManuName)
+#: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Kitchen_(lvl 2) - Shabby - Malone.prefab (Growing.ManuName)
+#: GameObject/Flowerpot.prefab (Growing.ManuName)
+#, fuzzy
+msgid "Plant pot"
+msgstr "Vaso de planta"
+
 #: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Furniture_(lvl 1) - Makeshift - Malone.prefab (Storage.title)
 #: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Furniture_(lvl 2) - Shabby - Malone.prefab (Storage.title)
 #: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Furniture_(lvl 3) - Decent- Malone.prefab (Storage.title)
@@ -730,6 +743,26 @@ msgstr "Criado-mudo"
 msgid "Cabinet"
 msgstr "Armário"
 
+#: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Heating_(lvl 1) - Makeshift - Malone.prefab (manufacturing.ManuName)
+#: GameObject/Upgrade_NPC_LARGE_Heating_(lvl 1) - Makeshift.prefab (manufacturing.ManuName)
+#: GameObject/Upgrade_NPC_MEDIUM_Heating_(lvl 1) - Makeshift.prefab (manufacturing.ManuName)
+#: GameObject/Upgrade_NPC_SMALL_Heating_(lvl 1) - Makeshift  - Crazy Neighbor.prefab (manufacturing.ManuName)
+#: GameObject/Upgrade_NPC_SMALL_Heating_(lvl 1) - Makeshift  - Crazy Neighbor_0.prefab (manufacturing.ManuName)
+#: GameObject/Upgrade_NPC_SMALL_Heating_(lvl 1) - Makeshift - Malone.prefab (manufacturing.ManuName)
+#, fuzzy
+msgid "Barrel stove"
+msgstr "Fogão de tambor"
+
+#: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Kitchen_(lvl 1) - Makeshift - Malone.prefab (manufacturing.ManuName)
+#: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Kitchen_(lvl 2) - Shabby - Malone.prefab (manufacturing.ManuName)
+#: GameObject/Table Stove.prefab (manufacturing.ManuName)
+#: GameObject/Table Stove_0.prefab (manufacturing.ManuName)
+#: GameObject/Upgrade_NPC_LARGE_Kitchen_(lvl 2) - Shabby.prefab (manufacturing.ManuName)
+#: GameObject/Upgrade_NPC_MEDIUM_Kitchen_(lvl 2) - Shabby.prefab (manufacturing.ManuName)
+#, fuzzy
+msgid "Table Stove"
+msgstr "Fogareiro"
+
 #: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Kitchen_(lvl 1) - Makeshift - Malone.prefab (Storage.title)
 #: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Kitchen_(lvl 2) - Shabby - Malone.prefab (Storage.title)
 #: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Kitchen_(lvl 3) - Decent - Malone.prefab (Storage.title)
@@ -751,11 +784,11 @@ msgid "Freezer"
 msgstr "Freezer"
 
 #: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Kitchen_(lvl 2) - Shabby - Malone.prefab (manufacturing.title)
+#: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Kitchen_(lvl 2) - Shabby - Malone.prefab (manufacturing.ManuName)
 #: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Kitchen_(lvl 3) - Decent - Malone.prefab (manufacturing.title)
-#: GameObject/Old Microwave.prefab (manufacturing.title)
-#: GameObject/Old Microwave_0.prefab (manufacturing.title)
-#: GameObject/Upgrade_NPC_LARGE_Kitchen_(lvl 2) - Shabby.prefab (manufacturing.title)
-#: GameObject/Upgrade_NPC_LARGE_Kitchen_(lvl 3) - Decent.prefab (manufacturing.title)
+#: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Kitchen_(lvl 3) - Decent - Malone.prefab (manufacturing.ManuName)
+#: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Kitchen_(lvl 4) - Fine - Malone.prefab (manufacturing.ManuName)
+#: GameObject/Microwave.prefab (manufacturing.ManuName)
 #, fuzzy
 msgid "Microwave oven"
 msgstr "Micro-ondas"
@@ -770,6 +803,36 @@ msgstr "Micro-ondas"
 msgid "Sink"
 msgstr "Pia"
 
+#: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Kitchen_(lvl 2) - Shabby - Malone.prefab (manufacturing.ManuName)
+#: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Kitchen_(lvl 3) - Decent - Malone.prefab (manufacturing.ManuName)
+#: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Kitchen_(lvl 4) - Fine - Malone.prefab (manufacturing.ManuName)
+#: GameObject/Kitchen Tools.prefab (manufacturing.ManuName)
+#: GameObject/Kitchen Tools_0.prefab (manufacturing.ManuName)
+#: GameObject/Upgrade_NPC_LARGE_Kitchen_(lvl 1) - Makeshift.prefab (manufacturing.ManuName)
+#, fuzzy
+msgid "Kitchen"
+msgstr "Cozinha"
+
+#: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Kitchen_(lvl 3) - Decent - Malone.prefab (manufacturing.ManuName)
+#: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Kitchen_(lvl 4) - Fine - Malone.prefab (manufacturing.title)
+#: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Kitchen_(lvl 4) - Fine - Malone.prefab (manufacturing.ManuName)
+#: GameObject/Old Stove.prefab (manufacturing.ManuName)
+#: GameObject/Old Stove_0.prefab (manufacturing.ManuName)
+#: GameObject/Stove.prefab (manufacturing.title)
+#, fuzzy
+msgid "Stovetop"
+msgstr "Fogão"
+
+#: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Kitchen_(lvl 3) - Decent - Malone.prefab (manufacturing.ManuName)
+#: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Kitchen_(lvl 4) - Fine - Malone.prefab (manufacturing.title)
+#: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Kitchen_(lvl 4) - Fine - Malone.prefab (manufacturing.ManuName)
+#: GameObject/Old Stove.prefab (manufacturing.ManuName)
+#: GameObject/Old Stove_0.prefab (manufacturing.ManuName)
+#: GameObject/Stove.prefab (manufacturing.title)
+#, fuzzy
+msgid "Oven"
+msgstr "Forno"
+
 #: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Kitchen_(lvl 4) - Fine - Malone.prefab (Storage.title)
 #: GameObject/Small Wooden Cupboard.prefab (Storage.title)
 #: GameObject/Small Wooden Cupboard_0.prefab (Storage.title)
@@ -779,26 +842,6 @@ msgstr "Pia"
 #, fuzzy
 msgid "Cupboard"
 msgstr "Guarda-louça"
-
-#: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Kitchen_(lvl 4) - Fine - Malone.prefab (manufacturing.title)
-#: GameObject/Stove.prefab (manufacturing.title)
-#: GameObject/Stove_0.prefab (manufacturing.title)
-#: GameObject/Upgrade_NPC_LARGE_Kitchen_(lvl 4) - Fine.prefab (manufacturing.title)
-#: GameObject/Upgrade_NPC_MEDIUM_Kitchen_(lvl 4) - Fine.prefab (manufacturing.title)
-#: GameObject/Upgrade_NPC_SMALL_Kitchen_(lvl 4) - Fine - Malone.prefab (manufacturing.title)
-#, fuzzy
-msgid "Stovetop"
-msgstr "Fogão"
-
-#: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_Kitchen_(lvl 4) - Fine - Malone.prefab (manufacturing.title)
-#: GameObject/Stove.prefab (manufacturing.title)
-#: GameObject/Stove_0.prefab (manufacturing.title)
-#: GameObject/Upgrade_NPC_LARGE_Kitchen_(lvl 4) - Fine.prefab (manufacturing.title)
-#: GameObject/Upgrade_NPC_MEDIUM_Kitchen_(lvl 4) - Fine.prefab (manufacturing.title)
-#: GameObject/Upgrade_NPC_SMALL_Kitchen_(lvl 4) - Fine - Malone.prefab (manufacturing.title)
-#, fuzzy
-msgid "Oven"
-msgstr "Forno"
 
 #: Content/Tenement/Residents/Malone Petronis/Upgrade_NPC_SMALL_WC_(lvl 1) - Makeshift - Malone.prefab (ToiletBucket.title)
 #: GameObject/Bucket Toilet.prefab (ToiletBucket.title)
@@ -850,6 +893,16 @@ msgstr "Porta-papel higiênico"
 msgid "Plastic Barrel"
 msgstr "Barril plástico"
 
+#: GameObject/3D Printer.prefab (manufacturing.ManuName)
+#: GameObject/3D Printer_0.prefab (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Electronics.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Internet Cafe.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Mallment.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Mentti B.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "3D Printer"
+msgstr "Impressora 3D"
+
 #: GameObject/Agnes Takala.prefab (InteractableTalk.title)
 #: GameObject/Agnes Takala_0.prefab (InteractableTalk.title)
 #: Scenes/Open Sewer Tenement.unity (InteractableTalk.title)
@@ -896,12 +949,46 @@ msgstr "Amanda Korhonen"
 msgid "Ami Kunkka"
 msgstr "Ami Kunkka"
 
+#: GameObject/Angle Grinder.prefab (manufacturing.ManuName)
+#: GameObject/Angle Grinder_0.prefab (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Mentti A.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Mentti B.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Mine.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Slum Workshop.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Metalworking Workbench"
+msgstr "Bancada de metalurgia"
+
 #: GameObject/Anu Otter.prefab (InteractableTalk.title)
 #: GameObject/Anu Otter_0.prefab (InteractableTalk.title)
 #: Scenes/Interior Bazaar Inn.unity (InteractableTalk.title)
 #, fuzzy
 msgid "Anu Otter"
 msgstr "Anu Otter"
+
+#: GameObject/Anvil.prefab (manufacturing.ManuName)
+#: GameObject/Anvil_0.prefab (manufacturing.ManuName)
+#, fuzzy
+msgid "Anvil"
+msgstr "Bigorna"
+
+#: GameObject/Aquarium.prefab (Growing.ManuName)
+#: GameObject/Aquarium_0.prefab (Growing.ManuName)
+#: GameObject/Upgrade_NPC_SMALL_Heating_(lvl 4) - Fine - Crazy Neighbor.prefab (Growing.ManuName)
+#: GameObject/Upgrade_NPC_SMALL_Heating_(lvl 4) - Fine - Crazy Neighbor_0.prefab (Growing.ManuName)
+#: GameObject/Upgrade_NPC_SMALL_Heating_(lvl 4) - Fine.prefab (Growing.ManuName)
+#: Scenes/Interior Bazaar Bank.unity (Growing.ManuName)
+#, fuzzy
+msgid "Aquarium"
+msgstr "Aquário"
+
+#: GameObject/Aquatic Farm.prefab (Growing.ManuName)
+#: GameObject/Aquatic Farm_0.prefab (Growing.ManuName)
+#: Scenes/Interior Bazaar Mentti A.unity (Growing.ManuName)
+#: Scenes/Interior Bazaar Mentti B.unity (Growing.ManuName)
+#, fuzzy
+msgid "Aquatic Farm"
+msgstr "Fazenda aquática"
 
 #: GameObject/Arc Floor Lamp.prefab (Button.title)
 #: GameObject/Arc Floor Lamp_0.prefab (Button.title)
@@ -919,6 +1006,35 @@ msgstr "Luminária de chão em arco"
 msgid "Police"
 msgstr "Policial"
 
+#: GameObject/Bag of Soil.prefab (Growing.ManuName)
+#: GameObject/Bag of Soil_0.prefab (Growing.ManuName)
+#: GameObject/Upgrade_NPC_SMALL_Furniture_(lvl 1) - Makeshift_1tenant_pate.prefab (Growing.ManuName)
+#: GameObject/Upgrade_NPC_SMALL_Furniture_(lvl 1) - Makeshift_1tenant_pate_0.prefab (Growing.ManuName)
+#: Scenes/Interior Bazaar Greenhouse.unity (Growing.ManuName)
+#: Scenes/Interior Bazaar Mentti B.unity (Growing.ManuName)
+#, fuzzy
+msgid "Bag of soil"
+msgstr "Saco de terra"
+
+#: GameObject/Ball Grill.prefab (manufacturing.ManuName)
+#: GameObject/Ball Grill_0.prefab (manufacturing.ManuName)
+#: GameObject/Upgrade_NPC_LARGE_Kitchen_(lvl 1) - Makeshift.prefab (manufacturing.ManuName)
+#: GameObject/Upgrade_NPC_MEDIUM_Kitchen_(lvl 1) - Makeshift.prefab (manufacturing.ManuName)
+#: GameObject/Upgrade_NPC_SMALL_Kitchen_(lvl 1) - Makeshift.prefab (manufacturing.ManuName)
+#: GameObject/Upgrade_PLAYER_Pier_Sauna_(lvl1) - Makeshift_0.prefab (manufacturing.ManuName)
+#, fuzzy
+msgid "Ball grill"
+msgstr "Churrasqueira redonda"
+
+#: GameObject/Bandsaw.prefab (manufacturing.ManuName)
+#: GameObject/Bandsaw_0.prefab (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Mentti A.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Rob-in.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Slum Workshop.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Bandsaw"
+msgstr "Serra de fita"
+
 #: GameObject/Bankers Lamp.prefab (Button.title)
 #: GameObject/Bankers Lamp_0.prefab (Button.title)
 #: Scenes/Interior Bazaar Chamber of Commerce.unity (Button.title)
@@ -928,6 +1044,16 @@ msgstr "Policial"
 #, fuzzy
 msgid "Banker's Lamp"
 msgstr "Luminária de banqueiro"
+
+#: GameObject/Barrel With Support.prefab (Growing.ManuName)
+#: GameObject/Barrel With Support_0.prefab (Growing.ManuName)
+#: GameObject/Barrel.prefab (Growing.ManuName)
+#: GameObject/Barrel_0.prefab (Growing.ManuName)
+#: Scenes/Interior Bazaar Greenhouse.unity (Growing.ManuName)
+#: Scenes/Interior Bazaar Mentti A.unity (Growing.ManuName)
+#, fuzzy
+msgid "Barrel"
+msgstr "Barril"
 
 #: GameObject/Battery Bank.prefab (Storage.title)
 #: GameObject/Battery Bank_0.prefab (Storage.title)
@@ -972,7 +1098,9 @@ msgid "(Watch - 2 hours)"
 msgstr "(Assistir - 2 horas)"
 
 #: GameObject/Biogas Reactor.prefab (manufacturing.title)
+#: GameObject/Biogas Reactor.prefab (manufacturing.ManuName)
 #: GameObject/Biogas Reactor_0.prefab (manufacturing.title)
+#: GameObject/Biogas Reactor_0.prefab (manufacturing.ManuName)
 #, fuzzy
 msgid "Biogas Reactor"
 msgstr "Reator de biogás"
@@ -1019,6 +1147,23 @@ msgstr "Banco (direita)"
 msgid "Boot Scraper"
 msgstr "Raspador de botas"
 
+#: GameObject/Bottle Corker.prefab (manufacturing.ManuName)
+#: GameObject/Bottle Corker_0.prefab (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Mentti B.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Murju A.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Murju B.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Pontikka.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Bottle Corker"
+msgstr "Arrolhador"
+
+#: GameObject/Brick Furnace.prefab (manufacturing.ManuName)
+#: GameObject/Brick Furnace_0.prefab (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Slum Workshop.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Brick Furnace"
+msgstr "Forno de tijolos"
+
 #: GameObject/Brick Furnace.prefab (Storage.title)
 #: GameObject/Brick Furnace_0.prefab (Storage.title)
 #: GameObject/Gas Furnace.prefab (Storage.title)
@@ -1060,6 +1205,25 @@ msgstr "Vela"
 msgid "Cat Climbing Tree"
 msgstr "Arranhador de gato"
 
+#: GameObject/Cat cage Large.prefab (Growing.ManuName)
+#: GameObject/Cat cage Large_0.prefab (Growing.ManuName)
+#: Scenes/Test Map Empty.unity (Growing.ManuName)
+#, fuzzy
+msgid "Large cat cage"
+msgstr "Gaiola de gato grande"
+
+#: GameObject/Cat cage Medium.prefab (Growing.ManuName)
+#: GameObject/Cat cage Medium_0.prefab (Growing.ManuName)
+#, fuzzy
+msgid "Medium cat cage"
+msgstr "Gaiola de gato média"
+
+#: GameObject/Cat cage Small.prefab (Growing.ManuName)
+#: GameObject/Cat cage Small_0.prefab (Growing.ManuName)
+#, fuzzy
+msgid "Small cat cage"
+msgstr "Gaiola de gato pequena"
+
 #: GameObject/Ceiling Light.prefab (Button.title)
 #: GameObject/Ceiling Light_0.prefab (Button.title)
 #: GameObject/Floor Lamp.prefab (Button.title)
@@ -1078,6 +1242,16 @@ msgstr "Luminária"
 msgid "Charger"
 msgstr "Carregador"
 
+#: GameObject/Chemical Lab.prefab (manufacturing.ManuName)
+#: GameObject/Chemical Lab_0.prefab (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Pontikka.unity (manufacturing.ManuName)
+#: Scenes/Interior Tenement A.unity (manufacturing.ManuName)
+#: Scenes/Interior Tenement B.unity (manufacturing.ManuName)
+#: Scenes/Interior Tenement Deekula A.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Chemical lab"
+msgstr "Laboratório químico"
+
 #: GameObject/Chest Freezer.prefab (Storage.title)
 #: GameObject/Chest Freezer_0.prefab (Storage.title)
 #: Scenes/Interior Bazaar Butchershop.unity (Storage.title)
@@ -1087,6 +1261,32 @@ msgstr "Carregador"
 #, fuzzy
 msgid "Chest freezer"
 msgstr "Freezer horizontal"
+
+#: GameObject/Chicken coop Large.prefab (Growing.ManuName)
+#: GameObject/Chicken coop Large_0.prefab (Growing.ManuName)
+#: Scenes/Interior Bazaar Mentti B.unity (Growing.ManuName)
+#: Scenes/Interior Bazaar Murju B.unity (Growing.ManuName)
+#, fuzzy
+msgid "Large chicken coop"
+msgstr "Galinheiro grande"
+
+#: GameObject/Chicken coop Small.prefab (Growing.ManuName)
+#: GameObject/Chicken coop Small_0.prefab (Growing.ManuName)
+#: Scenes/Interior Bazaar Mentti A.unity (Growing.ManuName)
+#: Scenes/Interior Bazaar Slum Shack 6.unity (Growing.ManuName)
+#, fuzzy
+msgid "Small chicken coop"
+msgstr "Galinheiro pequeno"
+
+#: GameObject/Coffee Machine.prefab (manufacturing.ManuName)
+#: GameObject/Coffee Machine_0.prefab (manufacturing.ManuName)
+#: GameObject/Lattemaster Coffeemaker.prefab (manufacturing.ManuName)
+#: GameObject/Lattemaster Coffeemaker_0.prefab (manufacturing.ManuName)
+#: GameObject/Old Coffeemaker.prefab (manufacturing.ManuName)
+#: GameObject/Old Coffeemaker_0.prefab (manufacturing.ManuName)
+#, fuzzy
+msgid "Coffee maker"
+msgstr "Cafeteira"
 
 #: GameObject/Comfy Office Chair.prefab (InteractableChair.title)
 #: GameObject/Comfy Office Chair_0.prefab (InteractableChair.title)
@@ -1118,12 +1318,42 @@ msgstr "Mesa"
 msgid "Refrigerator"
 msgstr "Geladeira"
 
+#: GameObject/Commercial Stove.prefab (manufacturing.ManuName)
+#: GameObject/Commercial Stove_0.prefab (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Ankea.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Bar.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Mallment.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Noodle Shop.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Industrial stove"
+msgstr "Fogão industrial"
+
+#: GameObject/Compost.prefab (manufacturing.ManuName)
+#: GameObject/Compost_0.prefab (manufacturing.ManuName)
+#: Scenes/Interior Mines Potato Mine.unity (manufacturing.ManuName)
+#: Scenes/Open Sewer Bazaar.unity (manufacturing.ManuName)
+#: Scenes/Open Sewer Mines.unity (manufacturing.ManuName)
+#: Scenes/Open Sewer Tenement.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Compost"
+msgstr "Composteira"
+
 #: GameObject/Copper Moonshine Still.prefab (manufacturingProcess.title)
 #: GameObject/Copper Moonshine Still_0.prefab (manufacturingProcess.title)
 #: Scenes/Interior Bazaar Pontikka.unity (manufacturingProcess.title)
 #, fuzzy
 msgid "Copper Still"
 msgstr "Alambique de cobre"
+
+#: GameObject/Copy Machine.prefab (manufacturing.ManuName)
+#: GameObject/Copy Machine_0.prefab (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Books.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Casino.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Chamber of Commerce.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Engineer Office.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Copy machine"
+msgstr "Copiadora"
 
 #: GameObject/Curtains.prefab (Button.title)
 #: GameObject/Curtains_0.prefab (Button.title)
@@ -1152,6 +1382,16 @@ msgstr "Daan Claesson"
 msgid "Distillation Kit"
 msgstr "Kit de destilação"
 
+#: GameObject/Drawing Board.prefab (manufacturing.ManuName)
+#: GameObject/Drawing Board_0.prefab (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Books.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Chamber of Commerce.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Engineer Office.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Gym.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Drawing Board"
+msgstr "Prancheta de desenho"
+
 #: GameObject/Einar Kaivuri.prefab (InteractableTalk.title)
 #: GameObject/Einar Kaivuri_0.prefab (InteractableTalk.title)
 #: Scenes/Interior Mines Canteen.unity (InteractableTalk.title)
@@ -1159,6 +1399,42 @@ msgstr "Kit de destilação"
 #, fuzzy
 msgid "Einar Kaivuri"
 msgstr "Einar Kaivuri"
+
+#: GameObject/Electric Kiln.prefab (manufacturing.ManuName)
+#: GameObject/Electric Kiln_0.prefab (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Clock Tower.unity (FurnitureCollectable.title)
+#: Scenes/Interior Player Tenement.unity (FurnitureCollectable.title)
+#: Scenes/Interior Tenement A.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Electric Kiln"
+msgstr "Forno elétrico de cerâmica"
+
+#: GameObject/Electric Meat Grinder.prefab (manufacturing.ManuName)
+#: GameObject/Electric Meat Grinder_0.prefab (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Butchershop.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Inn.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Restaurant.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Meat Grinder"
+msgstr "Moedor de carne"
+
+#: GameObject/Electronics Station.prefab (manufacturing.ManuName)
+#: GameObject/Electronics Station_0.prefab (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Mentti B.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Murju B.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Power Company.unity (manufacturing.ManuName)
+#: Scenes/Interior Tenement A.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Electronics Station"
+msgstr "Estação de eletrônica"
+
+#: GameObject/Electronics Workbench.prefab (manufacturing.ManuName)
+#: GameObject/Electronics Workbench_0.prefab (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Electronics.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Power Company.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Electronics Workbench"
+msgstr "Bancada de eletrônica"
 
 #: GameObject/Elevator_ON_(lvl 1).prefab (SelectionButton.title)
 #: GameObject/Elevator_ON_(lvl 2).prefab (SelectionButton.title)
@@ -1301,7 +1577,7 @@ msgstr "Arquivo"
 #: GameObject/Upgrade_Heating_(lvl 1) - Wood.prefab (Storage.title)
 #, fuzzy
 msgid "Log storage"
-msgstr "Lenha"
+msgstr "Depósito de lenha"
 
 #: GameObject/Flat Screen Television.prefab (InteractableWait.m_useMessage)
 #: GameObject/Flat Screen Television_0.prefab (InteractableWait.m_useMessage)
@@ -1320,6 +1596,24 @@ msgstr "(Assistir - 4 horas)"
 msgid "Mattress"
 msgstr "Colchão"
 
+#: GameObject/Flowerbox With Lamp.prefab (Growing.ManuName)
+#: GameObject/Flowerbox With Lamp_0.prefab (Growing.ManuName)
+#: GameObject/Flowerbox With Supports.prefab (Growing.ManuName)
+#: GameObject/Flowerbox With Supports_0.prefab (Growing.ManuName)
+#: GameObject/Flowerbox.prefab (Growing.ManuName)
+#: GameObject/Flowerbox_0.prefab (Growing.ManuName)
+#, fuzzy
+msgid "Growing box"
+msgstr "Caixa de cultivo"
+
+#: GameObject/Fume Cabinet.prefab (Growing.ManuName)
+#: GameObject/Fume Cabinet_0.prefab (Growing.ManuName)
+#: Scenes/Interior Bazaar Pontikka.unity (Growing.ManuName)
+#: Scenes/Interior Tenement A.unity (Growing.ManuName)
+#, fuzzy
+msgid "Fume cabinet"
+msgstr "Capela de exaustão"
+
 #: GameObject/Gaming Chair.prefab (InteractableChair.title)
 #: GameObject/Gaming Chair_0.prefab (InteractableChair.title)
 #: GameObject/Upgrade_NPC_SMALL_Furniture_(lvl 3) - Decent_1tenant_elsa_varis.prefab (InteractableChair.title)
@@ -1330,6 +1624,22 @@ msgstr "Colchão"
 msgid "Gaming Chair"
 msgstr "Cadeira gamer"
 
+#: GameObject/Gas Furnace.prefab (manufacturing.ManuName)
+#: GameObject/Gas Furnace_0.prefab (manufacturing.ManuName)
+#, fuzzy
+msgid "Gas Furnace"
+msgstr "Forno a gás"
+
+#: GameObject/Geared Head Drill.prefab (manufacturing.ManuName)
+#: GameObject/Geared Head Drill_0.prefab (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Books.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Engineer Office.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Gym.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Mentti A.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Drill"
+msgstr "Furadeira"
+
 #: GameObject/Gift Box.prefab (Storage.title)
 #: GameObject/Gift Box_0.prefab (Storage.title)
 #: GameObject/Upgrade_NPC_LARGE_Furniture_(lvl 4) - Fine_3tenant_lasse_lurjus.prefab (Storage.title)
@@ -1339,6 +1649,12 @@ msgstr "Cadeira gamer"
 #, fuzzy
 msgid "Gift"
 msgstr "Presente"
+
+#: GameObject/Grain Mill.prefab (manufacturing.ManuName)
+#: GameObject/Grain Mill_0.prefab (manufacturing.ManuName)
+#, fuzzy
+msgid "Grain Mill"
+msgstr "Moinho de grãos"
 
 #: GameObject/Green Dumpster.prefab (Storage.title)
 #: GameObject/Green Dumpster_0.prefab (Storage.title)
@@ -1389,6 +1705,23 @@ msgstr "Henning Torskvær"
 msgid "Hospital Table"
 msgstr "Mesa hospitalar"
 
+#: GameObject/Hydraulic Press.prefab (manufacturing.ManuName)
+#: GameObject/Hydraulic Press_0.prefab (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Metal Shop.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Hydraulic Press"
+msgstr "Prensa hidráulica"
+
+#: GameObject/Hydroponic Farm With Support.prefab (Growing.ManuName)
+#: GameObject/Hydroponic Farm With Support_0.prefab (Growing.ManuName)
+#: GameObject/Hydroponic Farm.prefab (Growing.ManuName)
+#: GameObject/Hydroponic Farm_0.prefab (Growing.ManuName)
+#: GameObject/Upgrade_NPC_SMALL_Furniture_(lvl 4) - Fine_1tenant_pate_rantanen.prefab (Growing.ManuName)
+#: GameObject/Upgrade_NPC_SMALL_Furniture_(lvl 4) - Fine_1tenant_pate_rantanen_0.prefab (Growing.ManuName)
+#, fuzzy
+msgid "Hydroponics farm"
+msgstr "Fazenda hidropônica"
+
 #: GameObject/IBC Container.prefab (LiquidStorage.title)
 #: GameObject/IBC Container_0.prefab (LiquidStorage.title)
 #: GameObject/Makeshift IBC Sink.prefab (LiquidStorage.title)
@@ -1405,6 +1738,14 @@ msgstr "Contêiner IBC"
 #, fuzzy
 msgid "Ilona Pettinen"
 msgstr "Ilona Pettinen"
+
+#: GameObject/Inflatable Pool.prefab (Growing.ManuName)
+#: GameObject/Inflatable Pool_0.prefab (Growing.ManuName)
+#: GameObject/Upgrade_Basement_Sauna_(lvl 1) - Makeshift.prefab (Growing.ManuName)
+#: Scenes/Interior Tenement Deekula A.unity (Growing.ManuName)
+#, fuzzy
+msgid "Pool"
+msgstr "Piscina"
 
 #: GameObject/Ingrid Claesson.prefab (InteractableTalk.title)
 #: GameObject/Ingrid Claesson_0.prefab (InteractableTalk.title)
@@ -1614,6 +1955,16 @@ msgstr "Levo Claesson"
 msgid "Liouba Bennett"
 msgstr "Liouba Bennett"
 
+#: GameObject/Loom.prefab (manufacturing.ManuName)
+#: GameObject/Loom_0.prefab (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Mentti B.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Murju A.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Slum Barrack House 2.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Textile Mill.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Loom"
+msgstr "Tear"
+
 #: GameObject/Makeshift Barrel Sink 2.prefab (LiquidStorage.title)
 #: GameObject/Makeshift Barrel Sink 2_0.prefab (LiquidStorage.title)
 #: GameObject/Upgrade_NPC_LARGE_Kitchen_(lvl 1) - Makeshift.prefab (LiquidStorage.title)
@@ -1651,7 +2002,9 @@ msgid "(Peek)"
 msgstr "(Espiar)"
 
 #: GameObject/Malter.prefab (manufacturing.title)
+#: GameObject/Malter.prefab (manufacturing.ManuName)
 #: GameObject/Malter_0.prefab (manufacturing.title)
+#: GameObject/Malter_0.prefab (manufacturing.ManuName)
 #, fuzzy
 msgid "Malter"
 msgstr "Malteadora"
@@ -1681,12 +2034,32 @@ msgstr "Tina de fermentação"
 msgid "Mashing kettle"
 msgstr "Caldeira de fermentação"
 
+#: GameObject/Meat Grinder.prefab (manufacturing.ManuName)
+#: GameObject/Meat Grinder_0.prefab (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Mentti A.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Mentti B.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Murju B.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Pontikka.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Meat grinder"
+msgstr "Moedor de carne"
+
 #: GameObject/Memorial Candle.prefab (Lantern.title)
 #: GameObject/Memorial Candle_0.prefab (Lantern.title)
 #: Scenes/Interior Bazaar Slum Barrack House 3.unity (Lantern.title)
 #, fuzzy
 msgid "Memorial Candle"
 msgstr "Vela votiva"
+
+#: GameObject/Metalworking Lathe.prefab (manufacturing.ManuName)
+#: GameObject/Metalworking Lathe_0.prefab (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Books.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Engineer Office.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Gym.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Metal Shop.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Lathe"
+msgstr "Torno mecânico"
 
 #: GameObject/Mikael Arnaldur.prefab (InteractableTalk.title)
 #: GameObject/Mikael Arnaldur.prefab (Trade.title)
@@ -1732,6 +2105,26 @@ msgstr "Moray Larson"
 #, fuzzy
 msgid "Growing cabinet"
 msgstr "Armário de cultivo"
+
+#: GameObject/Mushroom Growing Cabinet.prefab (Growing.ManuName)
+#: GameObject/Mushroom Growing Cabinet_0.prefab (Growing.ManuName)
+#: GameObject/Upgrade_NPC_LARGE_Furniture_(lvl 4) - Fine_4tenant_harri_hyvinkää.prefab (Growing.ManuName)
+#: GameObject/Upgrade_NPC_LARGE_Furniture_(lvl 4) - Fine_4tenant_harri_hyvinkää_0.prefab (Growing.ManuName)
+#: Scenes/Interior Bazaar Fungi Boutique.unity (Growing.ManuName)
+#: Scenes/Interior Bazaar Pontikka.unity (Growing.ManuName)
+#, fuzzy
+msgid "Growing Cabinet"
+msgstr "Armário de cultivo"
+
+#: GameObject/Mushroom Growing Rack.prefab (Growing.ManuName)
+#: GameObject/Mushroom Growing Rack_0.prefab (Growing.ManuName)
+#: Scenes/Interior Bazaar Greenhouse.unity (Growing.ManuName)
+#: Scenes/Interior Bazaar Mentti B.unity (Growing.ManuName)
+#: Scenes/Interior Bazaar Murju B.unity (Growing.ManuName)
+#: Scenes/Interior Bazaar Pontikka.unity (Growing.ManuName)
+#, fuzzy
+msgid "Mushroom Farm"
+msgstr "Fazenda de cogumelos"
 
 #: GameObject/Mushroom Lamp Blue.prefab (Button.title)
 #: GameObject/Mushroom Lamp Blue_0.prefab (Button.title)
@@ -1803,6 +2196,16 @@ msgstr "(Acender/apagar)"
 #, fuzzy
 msgid "Olavi Hyypiö"
 msgstr "Olavi Hyypiö"
+
+#: GameObject/Old Bathtub Growing With Support.prefab (Growing.ManuName)
+#: GameObject/Old Bathtub Growing With Support_0.prefab (Growing.ManuName)
+#: GameObject/Old Bathtub Growing.prefab (Growing.ManuName)
+#: GameObject/Old Bathtub Growing_0.prefab (Growing.ManuName)
+#: Scenes/Interior Bazaar Murju A.unity (Growing.ManuName)
+#: Scenes/Interior Bazaar Pontikka.unity (Growing.ManuName)
+#, fuzzy
+msgid "Bathtub"
+msgstr "Banheira"
 
 #: GameObject/Old Computer.prefab (TelevisionNoise.title)
 #: GameObject/Old Computer.prefab (InteractableTalk.title)
@@ -1895,6 +2298,69 @@ msgstr "Caixa plástica"
 msgid "Potato sack"
 msgstr "Saco de batatas"
 
+#: GameObject/Power Hammer.prefab (manufacturing.ManuName)
+#: GameObject/Power Hammer_0.prefab (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Metal Shop.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Power Hammer"
+msgstr "Martelo pilão"
+
+#: GameObject/Printer.prefab (manufacturing.ManuName)
+#: GameObject/Printer_0.prefab (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Chamber of Commerce.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Gold Shop.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar House1.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar House2.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Printer"
+msgstr "Impressora"
+
+#: GameObject/Printing Press.prefab (manufacturing.ManuName)
+#: GameObject/Printing Press_0.prefab (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Books.unity (manufacturing.ManuName)
+#: Scenes/Interior Tenement Deekula A.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Printing press"
+msgstr "Prensa tipográfica"
+
+#: GameObject/Rat Cage Large.prefab (Growing.ManuName)
+#: GameObject/Rat Cage Large_0.prefab (Growing.ManuName)
+#: Scenes/Interior Bazaar Pontikka.unity (Growing.ManuName)
+#: Scenes/Interior Tenement Deekula A.unity (Growing.ManuName)
+#, fuzzy
+msgid "Large cage"
+msgstr "Gaiola grande"
+
+#: GameObject/Rat Cage Medium.prefab (Growing.ManuName)
+#: GameObject/Rat Cage Medium_0.prefab (Growing.ManuName)
+#: Scenes/Interior Bazaar Pontikka.unity (Growing.ManuName)
+#: Scenes/Interior Bazaar Ratfighting Arena.unity (Growing.ManuName)
+#: Scenes/Interior Bazaar Slum Shack 2.unity (Growing.ManuName)
+#: Scenes/Interior Tenement A.unity (Growing.ManuName)
+#, fuzzy
+msgid "Medium cage"
+msgstr "Gaiola média"
+
+#: GameObject/Rat Cage Small.prefab (Growing.ManuName)
+#: GameObject/Rat Cage Small_0.prefab (Growing.ManuName)
+#: Scenes/Interior Bazaar Mentti B.unity (Growing.ManuName)
+#: Scenes/Interior Bazaar Murju A.unity (Growing.ManuName)
+#: Scenes/Interior Bazaar Pontikka.unity (Growing.ManuName)
+#: Scenes/Interior Bazaar Ratfighting Arena.unity (Growing.ManuName)
+#, fuzzy
+msgid "Small cage"
+msgstr "Gaiola pequena"
+
+#: GameObject/Rat Cage Tiny.prefab (Growing.ManuName)
+#: GameObject/Rat Cage Tiny_0.prefab (Growing.ManuName)
+#: Scenes/Interior Bazaar Mentti B.unity (Growing.ManuName)
+#: Scenes/Interior Bazaar Murju A.unity (Growing.ManuName)
+#: Scenes/Interior Bazaar Ratfighting Arena.unity (Growing.ManuName)
+#: Scenes/Interior Bazaar Slum Shack 3.unity (Growing.ManuName)
+#, fuzzy
+msgid "Tiny cage"
+msgstr "Gaiola minúscula"
+
 #: GameObject/Rocking Chair.prefab (InteractableChair.title)
 #: GameObject/Rocking Chair_0.prefab (InteractableChair.title)
 #: GameObject/Upgrade_NPC_MEDIUM_Furniture_(lvl 3) - Decent_1tenant_amanda_korhonen.prefab (InteractableChair.title)
@@ -1904,6 +2370,12 @@ msgstr "Saco de batatas"
 #, fuzzy
 msgid "Rocking chair"
 msgstr "Cadeira de balanço"
+
+#: GameObject/Rolling Machine.prefab (manufacturing.ManuName)
+#: GameObject/Rolling Machine_0.prefab (manufacturing.ManuName)
+#, fuzzy
+msgid "Rolling Machine"
+msgstr "Laminadora"
 
 #: GameObject/Saddle Stool.prefab (InteractableChair.title)
 #: GameObject/Saddle Stool_0.prefab (InteractableChair.title)
@@ -1955,6 +2427,26 @@ msgstr "Samuel Jonasson"
 msgid "Sara Claine"
 msgstr "Sara Claine"
 
+#: GameObject/Sawbuck With Chainsaw.prefab (manufacturing.ManuName)
+#: GameObject/Sawbuck With Chainsaw_0.prefab (manufacturing.ManuName)
+#: GameObject/Sawbuck.prefab (manufacturing.ManuName)
+#: GameObject/Sawbuck_0.prefab (manufacturing.ManuName)
+#: GameObject/Upgrade_Heating_(lvl 1) - Wood.prefab (manufacturing.ManuName)
+#: GameObject/Upgrade_Mine_(lvl 2) - Shabby Construction Logic.prefab (manufacturing.ManuName)
+#, fuzzy
+msgid "Sawbuck"
+msgstr "Cavalete"
+
+#: GameObject/Sewing Machine.prefab (manufacturing.ManuName)
+#: GameObject/Sewing Machine_0.prefab (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Caravan House.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar House1.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Mentti B.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Murju A.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Sewing Machine"
+msgstr "Máquina de costura"
+
 #: GameObject/Sign Industrial.prefab (EditableSign.title)
 #: GameObject/Sign Industrial_0.prefab (EditableSign.title)
 #: GameObject/Street Sign.prefab (EditableSign.title)
@@ -1972,6 +2464,22 @@ msgstr "Placa"
 #, fuzzy
 msgid "Small Drawer"
 msgstr "Gaveteiro pequeno"
+
+#: GameObject/Small Jaw Crusher.prefab (manufacturing.ManuName)
+#: GameObject/Small Jaw Crusher_0.prefab (manufacturing.ManuName)
+#, fuzzy
+msgid "Jaw Crusher"
+msgstr "Britador de mandíbula"
+
+#: GameObject/Smoker.prefab (manufacturing.ManuName)
+#: GameObject/Smoker_0.prefab (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Butchershop.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Mentti B.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Murju A.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Restaurant.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Smoker"
+msgstr "Defumador"
 
 #: GameObject/Sofa Blue.prefab (InteractableChair.title)
 #: GameObject/Sofa Blue_0.prefab (InteractableChair.title)
@@ -2024,6 +2532,15 @@ msgstr "Caixa de isopor"
 msgid "Fan"
 msgstr "Ventilador"
 
+#: GameObject/Table Saw.prefab (manufacturing.ManuName)
+#: GameObject/Table Saw_0.prefab (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Mentti A.unity (manufacturing.ManuName)
+#: Scenes/Interior Tenement A.unity (manufacturing.ManuName)
+#: Scenes/Interior Tenement Deekula C.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Table saw"
+msgstr "Serra de bancada"
+
 #: GameObject/Taneli Kurju.prefab (InteractableTalk.title)
 #: GameObject/Taneli Kurju_0.prefab (InteractableTalk.title)
 #: Scenes/Interior Tenement Kolhola.unity (InteractableTalk.title)
@@ -2060,6 +2577,16 @@ msgstr "Marcar melhoria"
 msgid "Highlights items in inventory that are required for upgrade"
 msgstr "Destaca no inventário os itens necessários para a melhoria"
 
+#: GameObject/Terrarium.prefab (Growing.ManuName)
+#: GameObject/Terrarium_0.prefab (Growing.ManuName)
+#: GameObject/Upgrade_NPC_LARGE_Furniture_(lvl 3) - Decent_4tenant_harri_hyvinkää.prefab (Growing.ManuName)
+#: GameObject/Upgrade_NPC_LARGE_Furniture_(lvl 3) - Decent_4tenant_harri_hyvinkää_0.prefab (Growing.ManuName)
+#: Scenes/Interior Bazaar Mallment.unity (Growing.ManuName)
+#: Scenes/Interior Bazaar Murju B.unity (Growing.ManuName)
+#, fuzzy
+msgid "Terrarium"
+msgstr "Terrário"
+
 #: GameObject/Test Map NPC Follower.prefab (InteractableTalk.title)
 #: GameObject/Test Map NPC Follower_0.prefab (InteractableTalk.title)
 #: GameObject/Test Map NPC.prefab (InteractableTalk.title)
@@ -2076,6 +2603,16 @@ msgstr "Vizinho maluco"
 #, fuzzy
 msgid "Teuvo Skogman"
 msgstr "Teuvo Skogman"
+
+#: GameObject/Tincan.prefab (Growing.ManuName)
+#: GameObject/Tincan_0.prefab (Growing.ManuName)
+#: GameObject/Upgrade_NPC_SMALL_Furniture_(lvl 1) - Makeshift_1tenant_pate.prefab (Growing.ManuName)
+#: GameObject/Upgrade_NPC_SMALL_Furniture_(lvl 1) - Makeshift_1tenant_pate_0.prefab (Growing.ManuName)
+#: GameObject/Upgrade_NPC_SMALL_Furniture_(lvl 2) - Shabby_1tenant_pate_rantanen.prefab (Growing.ManuName)
+#: GameObject/Upgrade_NPC_SMALL_Furniture_(lvl 2) - Shabby_1tenant_pate_rantanen_0.prefab (Growing.ManuName)
+#, fuzzy
+msgid "Can"
+msgstr "Lata"
 
 #: GameObject/TippingWagon_Usable.prefab (Storage.title)
 #: GameObject/TippingWagon_Usable_0.prefab (Storage.title)
@@ -2141,6 +2678,16 @@ msgstr "Lixeira"
 #, fuzzy
 msgid "Tuffet"
 msgstr "Pufe"
+
+#: GameObject/Typewriter.prefab (manufacturing.ManuName)
+#: GameObject/Typewriter_0.prefab (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Gold Shop.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar House2.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Mentti A.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Mentti B.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Typewriter"
+msgstr "Máquina de escrever"
 
 #: GameObject/Tähti Kattila.prefab (InteractableTalk.title)
 #: GameObject/Tähti Kattila_0.prefab (InteractableTalk.title)
@@ -2350,6 +2897,11 @@ msgstr "Alavanca"
 msgid "Door"
 msgstr "Porta"
 
+#: GameObject/Upgrade_Mine_(lvl 4) - Fine Logic.prefab (manufacturing.ManuName)
+#, fuzzy
+msgid "Ore Crusher"
+msgstr "Britador de minério"
+
 #: GameObject/Upgrade_Mine_(lvl 4) - Fine Logic.prefab (Button.title)
 #: Scenes/Interior Bazaar Mine.unity (Button.title)
 #: Scenes/Interior Bazaar Police and Jail.unity (Button.title)
@@ -2449,6 +3001,16 @@ msgstr "Porta-vinhos"
 #, fuzzy
 msgid "Record Player"
 msgstr "Toca-discos"
+
+#: GameObject/Upgrade_NPC_LARGE_Heating_(lvl 2) - Shabby.prefab (manufacturing.ManuName)
+#: GameObject/Upgrade_NPC_MEDIUM_Heating_(lvl 2) - Shabby.prefab (manufacturing.ManuName)
+#: GameObject/Upgrade_NPC_SMALL_Heating_(lvl 2) - Shabby - Crazy Neighbor.prefab (manufacturing.ManuName)
+#: GameObject/Upgrade_NPC_SMALL_Heating_(lvl 2) - Shabby - Crazy Neighbor_0.prefab (manufacturing.ManuName)
+#: GameObject/Upgrade_NPC_SMALL_Heating_(lvl 2) - Shabby.prefab (manufacturing.ManuName)
+#: GameObject/Upgrade_PLAYER_Heating_(lvl 2) - Shabby.prefab (manufacturing.ManuName)
+#, fuzzy
+msgid "Wood stove"
+msgstr "Fogão a lenha"
 
 #: GameObject/Upgrade_NPC_LARGE_Walls_(lvl 3) - Decent.prefab (DoorChangelevel.title)
 #: GameObject/Upgrade_PLAYER_ExtensionBack_(lvl 2) - Shabby.prefab (DoorChangelevel.title)
@@ -2551,6 +3113,13 @@ msgstr "Veeti Pärisevä"
 #, fuzzy
 msgid "Veikko Martinsen"
 msgstr "Veikko Martinsen"
+
+#: GameObject/Vertical Farm.prefab (Growing.ManuName)
+#: GameObject/Vertical Farm_0.prefab (Growing.ManuName)
+#: Scenes/Interior Bazaar Pontikka.unity (Growing.ManuName)
+#, fuzzy
+msgid "Vertical farm"
+msgstr "Fazenda vertical"
 
 #: GameObject/Viljo Kattila.prefab (InteractableTalk.title)
 #: GameObject/Viljo Kattila_0.prefab (InteractableTalk.title)
@@ -5287,6 +5856,14 @@ msgstr "(Devolver louça)"
 msgid "Gustav's Bakery"
 msgstr "Padaria do Gustav"
 
+#: Scenes/Interior Bazaar Bakery.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Fungi Boutique.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Mallment.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Restaurant.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Espresso Machine"
+msgstr "Máquina de expresso"
+
 #: Scenes/Interior Bazaar Bakery.unity (InteractableTalk.title)
 #: Scenes/Test Map Empty.unity (InteractableTalk.title)
 #, fuzzy
@@ -6187,12 +6764,6 @@ msgstr "Tapete persa"
 #: Scenes/Interior Bazaar Clock Tower.unity (FurnitureCollectable.title)
 #: Scenes/Interior Player Tenement.unity (FurnitureCollectable.title)
 #, fuzzy
-msgid "Electric Kiln"
-msgstr "Forno elétrico de cerâmica"
-
-#: Scenes/Interior Bazaar Clock Tower.unity (FurnitureCollectable.title)
-#: Scenes/Interior Player Tenement.unity (FurnitureCollectable.title)
-#, fuzzy
 msgid "Wooden Tv Table (3)"
 msgstr "Rack de TV de madeira (3)"
 
@@ -6661,6 +7232,13 @@ msgstr "Torsten Dvergsson"
 msgid "Mechanical Watch"
 msgstr "Relógio mecânico"
 
+#: Scenes/Interior Bazaar Greenhouse.unity (Growing.ManuName)
+#: Scenes/Interior Bazaar Pontikka.unity (Growing.ManuName)
+#: Scenes/Interior Bazaar Slum Shack 6.unity (Growing.ManuName)
+#, fuzzy
+msgid "Tire pot"
+msgstr "Vaso de pneu"
+
 #: Scenes/Interior Bazaar Gym.unity (InteractableTalk.title)
 #, fuzzy
 msgid "Otso Terästalia"
@@ -6690,6 +7268,13 @@ msgstr "Max Músculo"
 #, fuzzy
 msgid "Vending Machine"
 msgstr "Máquina de vendas"
+
+#: Scenes/Interior Bazaar House2.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Mentti B.unity (manufacturing.ManuName)
+#: Scenes/Interior Tenement A.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Gas stove"
+msgstr "Fogão a gás"
 
 #: Scenes/Interior Bazaar House2.unity (DoorChangelevel.title)
 #, fuzzy
@@ -7113,6 +7698,12 @@ msgstr "Café Torget"
 #, fuzzy
 msgid "Marjan Marja"
 msgstr "Frutinhas da Marja"
+
+#: Scenes/Interior Bazaar Mallment.unity (manufacturing.ManuName)
+#: Scenes/Interior Bazaar Restaurant.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Pizza Oven"
+msgstr "Forno de pizza"
 
 #: Scenes/Interior Bazaar Mallment.unity (InteractablePay.title)
 #: Scenes/Interior Bazaar Murju A.unity (InteractablePay.title)
@@ -7918,6 +8509,12 @@ msgstr "Galpão"
 msgid "Keke's Hoard"
 msgstr "Tralhas do Keke"
 
+#: Scenes/Interior Bazaar Pontikka.unity (manufacturing.ManuName)
+#: Scenes/Open Sewer Bazaar.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Brick stove"
+msgstr "Fogão de tijolos"
+
 #: Scenes/Interior Bazaar Pontikka.unity (VendingMachine.title)
 #, fuzzy
 msgid "The Garden Bar"
@@ -7927,6 +8524,13 @@ msgstr "Bar do Jardim"
 #, fuzzy
 msgid "Jeppe's Mycolab"
 msgstr "Micolab do Jeppe"
+
+#: Scenes/Interior Bazaar Pontikka.unity (Growing.ManuName)
+#: Scenes/Interior Mines Potato Mine.unity (Growing.ManuName)
+#: Scenes/Interior Tenement Greenhouse.unity (Growing.ManuName)
+#, fuzzy
+msgid "Small farm"
+msgstr "Horta pequena"
 
 #: Scenes/Interior Bazaar Pontikka.unity (InteractableTalk.title)
 #: Scenes/Interior Tenement Deekula B.unity (InteractableTalk.title)
@@ -8092,6 +8696,11 @@ msgstr "Kauko Poronen"
 #, fuzzy
 msgid "Alan Bacon Cookbook 2"
 msgstr "Livro de receitas Alan Bacon 2"
+
+#: Scenes/Interior Bazaar Slum Shack 5.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Makeshift Pizza Oven"
+msgstr "Forno de pizza improvisado"
 
 #: Scenes/Interior Bazaar Slum Shack 5.unity (InteractableTalk.title)
 #, fuzzy
@@ -8448,6 +9057,11 @@ msgstr "(Inserir cogumelos vermelhos)"
 msgid "Button"
 msgstr "Botão"
 
+#: Scenes/Interior Tenement A.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Fume Cabinet"
+msgstr "Capela de exaustão"
+
 #: Scenes/Interior Tenement A.unity (Trade.title)
 #, fuzzy
 msgid "Emma-Maija"
@@ -8499,6 +9113,11 @@ msgstr "Johannes Eskola"
 #, fuzzy
 msgid "Ayla Green"
 msgstr "Ayla Green"
+
+#: Scenes/Interior Tenement A.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Injection Machine"
+msgstr "Injetora"
 
 #: Scenes/Interior Tenement A.unity (InteractableTalk.title)
 #, fuzzy
@@ -9818,6 +10437,11 @@ msgstr "Kurahaara"
 #, fuzzy
 msgid "Border Checkpoint"
 msgstr "Posto de fronteira"
+
+#: Scenes/Open Sewer Tenement.unity (manufacturing.ManuName)
+#, fuzzy
+msgid "Field kitchen"
+msgstr "Cozinha de campanha"
 
 #: Scenes/Open Sewer Tenement.unity (InteractableTalk.title)
 #, fuzzy

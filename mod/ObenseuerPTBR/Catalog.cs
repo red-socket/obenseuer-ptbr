@@ -47,6 +47,12 @@ namespace ObenseuerPTBR
             return english != null && folded.TryGetValue(english.ToLowerInvariant(), out text);
         }
 
+        // Keyed entries that also apply wherever their English text is shown. Dialogue lines, player words
+        // and context entries ("scope:<object>:<English>") only apply to their own key.
+        private static bool Promotable(string ctx) =>
+            !ctx.StartsWith("dlg.", StringComparison.Ordinal) && !ctx.StartsWith("player.", StringComparison.Ordinal)
+            && !ctx.StartsWith("scope:", StringComparison.Ordinal);
+
         /// <summary>True if the text is already a translation (so it is not reported as untranslated).</summary>
         public bool IsTranslation(string text) => values.Contains(text);
 
@@ -84,7 +90,7 @@ namespace ObenseuerPTBR
                         if (ctx != null)
                         {
                             byKey[ctx] = str;
-                            if (!ctx.StartsWith("dlg.", StringComparison.Ordinal) && !ctx.StartsWith("player.", StringComparison.Ordinal) && !promoted.ContainsKey(id))
+                            if (Promotable(ctx) && !promoted.ContainsKey(id))
                                 promoted[id] = str;
                         }
                         else byText[id] = str;

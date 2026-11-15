@@ -30,7 +30,8 @@ def cmd_export(args):
     groups = {}  # English -> line
     for domain in args.domains:
         pot = po.read(os.path.join(ROOT, "source/pot", f"{domain}.pot"))
-        done = po.index(po.read_if_exists(os.path.join(ROOT, "translations", args.lang, f"{domain}.po")))
+        done = {k for k, e in po.index(po.read_if_exists(
+            os.path.join(ROOT, "translations", args.lang, f"{domain}.po"))).items() if e.msgstr}
         for e in pot:
             if not e.msgid or (e.msgctxt, e.msgid) in done:
                 continue
@@ -112,9 +113,18 @@ def cmd_import(args):
                     drafts[src_line["en"]] = out["pt"]
                     for d in src_line["domains"]:
                         domains_seen.add(d)
-    for domain in sorted(domains_seen):
+    sync_domains(sorted(domains_seen), drafts, args.lang)
+
+
+def cmd_sync(args):
+    """Rebuild <domain>.po from a fresh .pot, keeping existing translations; new strings come in empty."""
+    sync_domains(args.domains, {}, args.lang)
+
+
+def sync_domains(domains, drafts, lang):
+    for domain in domains:
         pot = po.read(os.path.join(ROOT, "source/pot", f"{domain}.pot"))
-        po_path = os.path.join(ROOT, "translations", args.lang, f"{domain}.po")
+        po_path = os.path.join(ROOT, "translations", lang, f"{domain}.po")
         existing = po.index(po.read_if_exists(po_path))
         out, added = [], 0
         for e in pot:
@@ -130,7 +140,7 @@ def cmd_import(args):
             out.append(e)
         keys = {e.key for e in out}
         extra = [e for k, e in existing.items() if k not in keys and e.msgstr]  # hand-added entries
-        po.write(po_path, out + extra, lang=args.lang)
+        po.write(po_path, out + extra, lang=lang)
         print(f"{domain}: {added} drafts added -> {os.path.relpath(po_path, ROOT)}")
 
 
@@ -154,8 +164,11 @@ def main():
     im = sub.add_parser("import")
     im.add_argument("files", nargs="+", help="*.out.jsonl files (the source .jsonl must sit next to each)")
     im.add_argument("--lang", default="pt-BR")
+    sy = sub.add_parser("sync")
+    sy.add_argument("--domains", nargs="+", required=True)
+    sy.add_argument("--lang", default="pt-BR")
     args = ap.parse_args()
-    return cmd_export(args) if args.cmd == "export" else cmd_import(args)
+    return {"export": cmd_export, "import": cmd_import, "sync": cmd_sync}[args.cmd](args)
 
 
 if __name__ == "__main__":

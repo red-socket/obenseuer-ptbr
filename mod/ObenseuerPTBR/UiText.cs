@@ -20,25 +20,34 @@ namespace ObenseuerPTBR
         private static bool failed;
 
         private readonly TMP_Text label;
+        private readonly TMP_InputField input;   // set when the label shows an input field's text
 
-        private UiText(TMP_Text label)
+        // Flicker guard: a label whose fit keeps flipping (the layout reacts to our size tag) is left unshrunk.
+        private string lastEnglish, lastShown, previousShown, settled;
+        private int flips;
+
+        private UiText(TMP_Text label, TMP_InputField input)
         {
             this.label = label;
+            this.input = input;
         }
 
         public string PreprocessText(string text)
         {
             if (!Plugin.Enabled.Value || string.IsNullOrEmpty(text) || Plugin.Translator == null)
                 return text;
+            if (input != null && input.isFocused)
+                return text;   // the player is typing: show exactly what is in the field
             try
             {
-                string pt = Plugin.Translator.Translate(text);
+                string pt = Scoped(text) ?? Plugin.Translator.Translate(text);
                 if (pt != null)
-                    return TextFit.Fit(label, text, GenderMarkers.Resolve(pt));
+                    return Stable(text, TextFit.Fit(label, text, GenderMarkers.Resolve(pt)), GenderMarkers.Resolve(pt));
                 string resolved = GenderMarkers.Resolve(text);   // dialogue arrives already in Portuguese
                 if (!ReferenceEquals(resolved, text))
                     return resolved;
-                Collect(text.Trim(), label);
+                if (input == null)
+                    Collect(text.Trim(), label);
                 return text;
             }
             catch (Exception e)
@@ -49,14 +58,41 @@ namespace ObenseuerPTBR
             }
         }
 
-        /// <summary>Attaches the preprocessor to one label, unless it shows text the player types.</summary>
+        // Context entries (manual.po): msgctxt "scope:<object name>:<English>" for the label's own object or one of
+        // its three nearest parents, e.g. "scope:Use Button Disabled:Drink" -> "Beber" while the item type "Drink"
+        // elsewhere stays "Bebida".
+        private string Scoped(string text)
+        {
+            Transform t = label.transform;
+            for (int i = 0; i < 4 && t != null; i++, t = t.parent)
+                if (Plugin.Catalog.TryKey("scope:" + t.name + ":" + text, out string pt))
+                    return pt;
+            return null;
+        }
+
+        private string Stable(string english, string fitted, string plain)
+        {
+            if (settled == english) return plain;
+            if (english == lastEnglish && fitted != lastShown && fitted == previousShown && ++flips >= 2)
+            {
+                settled = english;
+                return plain;
+            }
+            if (english != lastEnglish) flips = 0;
+            previousShown = lastShown;
+            lastShown = fitted;
+            lastEnglish = english;
+            return fitted;
+        }
+
+        /// <summary>Attaches the preprocessor to one label (input fields too: only their displayed text changes).</summary>
         public static void Attach(TMP_Text label)
         {
             if (label == null || label.textPreprocessor != null) return;   // ours already, or someone else's
             var input = label.GetComponentInParent<TMP_InputField>(true);
-            if (input != null && input.textComponent == label) return;
+            if (input != null && input.textComponent != label) input = null;
             TextFit.PreferOneLine(label);
-            label.textPreprocessor = new UiText(label);
+            label.textPreprocessor = new UiText(label, input);
             label.havePropertiesChanged = true;
             label.SetVerticesDirty();
         }
