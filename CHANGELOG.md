@@ -11,6 +11,15 @@ Fixes from the first full play session:
 - Item names built from pieces are translated ("Galão plástico com água limpa", "Pote de vidro (vazio)").
 - The same English word can now have different translations in different places: the inventory button says "Beber" while the item type stays "Bebida", and the backpack tab says "ABRIR" while the bar sign says "ABERTO".
 - Labels that flickered between two sizes (furniture shop) settle on one size, and auto-sized labels can shrink a little further instead of cutting the text off.
+- Notes opened from the list are translated too. Before, the title and text of some notes (the bridge toll note, for one) stayed in English.
+- The typewriter font used in menus and notes drew ã and õ with a smudge instead of a tilde, and put the accent of capitals like Á and Ô on top of the letter. Those letters are now redrawn when the game starts, from the font's own letters and accents. The `FixTypewriterAccents` setting turns this off.
+- More text built by the game from pieces: the hostel bed menu ("Quarto 2, cama 6: 33 OC por noite"), the sleep timer ("Dormindo: Um dia"), the bed comfort prompt, crafting details (process time, fail chance, power), station modifiers, crime notifications ("Furto +505"), the building map tooltips, the mine cart controls and the "Segure - Comer" style prompts for every item action.
+- Task descriptions with a second paragraph are translated in full. Before, the last paragraph stayed in English.
+- A label that has rich text turned off no longer shows a raw `<size=...>` tag when the Portuguese is longer.
+- Labels next to an icon are shrunk instead of widened, so the text no longer slides under the icon ("ancelar" on the sleep screen).
+- With the BetterTenement mod installed, its Landlord Ledger window, upgrade cards and map tooltips are in Portuguese too ("Livro-caixa", "Sem efeito no aluguel", "Próximo: …"). Without BetterTenement nothing changes.
+- Resident tooltips: "Estado civil" and "Profissão" are translated, and the relationship and job follow the resident's gender ("Noiva", "Professora").
+- Deeply nested labels, such as a tooltip line with colour tags and a " · " separator, are translated all the way down ("Próximo: Suja").
 
 ## 0.4.1 (unreleased)
 

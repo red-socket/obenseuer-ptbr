@@ -11,6 +11,7 @@ namespace ObenseuerPTBR
 {
     [BepInPlugin(Guid, Name, Version)]
     [BepInProcess("Obenseuer.exe")]
+    [BepInDependency(ModStrings.BetterTenementGuid, BepInDependency.DependencyFlags.SoftDependency)]
     public sealed class Plugin : BaseUnityPlugin
     {
         public const string Guid = "redsocket.obenseuer.ptbr";
@@ -25,6 +26,8 @@ namespace ObenseuerPTBR
         internal static ConfigEntry<string> Language;
         internal static ConfigEntry<bool> UseFuzzy;
         internal static ConfigEntry<bool> CollectUntranslated;
+        internal static ConfigEntry<bool> TranslateTextures;
+        internal static ConfigEntry<bool> FixFontAccents;
         internal static string UntranslatedPath;
 
         private void Awake()
@@ -36,6 +39,10 @@ namespace ObenseuerPTBR
                 "Folder under translations/ to load the .po files from.");
             UseFuzzy = Config.Bind("Translators", "ShowUnreviewedDrafts", true,
                 "Also show translations marked fuzzy: drafts not reviewed yet, or lines whose English changed in a game update.");
+            TranslateTextures = Config.Bind("General", "TranslateTextures", true,
+                "Replace signs, posters and other textures with text by their Portuguese versions. Takes effect on the next scene load.");
+            FixFontAccents = Config.Bind("General", "FixTypewriterAccents", true,
+                "Redraw the accented letters of the game's typewriter font, whose tildes and capital accents are broken. Needs a game restart.");
             CollectUntranslated = Config.Bind("Translators", "CollectUntranslated", false,
                 "Append every on-screen English label that has no translation to untranslated.po in the plugin folder.");
 
@@ -47,15 +54,22 @@ namespace ObenseuerPTBR
             Catalog = new Catalog();
             Catalog.LoadFolder(Path.Combine(Path.Combine(dir, "translations"), Language.Value), UseFuzzy.Value);
             Translator = new Translator(Catalog, Log.LogWarning);
+            TextureSwap.LoadFolder(Path.Combine(Path.Combine(dir, "textures"), Language.Value));
             Log.LogInfo($"Loaded {Catalog.Count} translations ({Translator.TemplateCount} templates, {Catalog.Fuzzy} fuzzy) for {Language.Value}");
 
-            try { new Harmony(Guid).PatchAll(typeof(Plugin).Assembly); }
+            var harmony = new Harmony(Guid);
+            try { harmony.PatchAll(typeof(Plugin).Assembly); }
             catch (Exception e) { Log.LogError($"Patching failed: {e}"); }
+            try { ModStrings.Apply(harmony); }
+            catch (Exception e) { Log.LogWarning($"Other mods' text not translated: {e.Message}"); }
 
             SceneManager.sceneLoaded += (scene, mode) =>
             {
                 UiText.AttachAll();
                 FontFallback.Check();
+                AccentGlyphs.FixAll();
+                TextureSwap.Apply();
+                StartCoroutine(TextureSwap.ApplyLater());
             };
             Enabled.SettingChanged += (s, e) => UiText.AttachAll();
         }
@@ -66,6 +80,7 @@ namespace ObenseuerPTBR
         {
             UiText.AttachAll();
             FontFallback.Check();
+            AccentGlyphs.FixAll();
             ItemText.ApplyItems();
             ItemText.ApplyRecipes();
         }

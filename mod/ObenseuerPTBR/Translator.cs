@@ -12,7 +12,7 @@ namespace ObenseuerPTBR
     /// </summary>
     internal sealed class Translator
     {
-        private const int MaxDepth = 3;
+        private const int MaxDepth = 5;   // tags, trim, lines, separators and "Label:" can nest
         private const int CacheLimit = 8192;
 
         private static readonly Regex Placeholder = new Regex(@"\{(\d+)\}", RegexOptions.CultureInvariant);
@@ -20,9 +20,10 @@ namespace ObenseuerPTBR
         private static readonly Regex Suffixed = new Regex(@"^([^()<>\n]+?) \(([^()<>\n]+)\)$", RegexOptions.CultureInvariant);
         private static readonly Regex TagSplit = new Regex(@"(<[^<>]+>)", RegexOptions.CultureInvariant);
         private static readonly Regex ParenGroups = new Regex(@"(?<=\)) (?=\()", RegexOptions.CultureInvariant);
-        private static readonly Regex KeyHint = new Regex(@"^([^ ()<>]{1,12}\))([^()<>]+)$", RegexOptions.CultureInvariant);
+        private static readonly Regex KeyHint = new Regex(@"^([^()<>]{1,16}\))([^()<>]+)$", RegexOptions.CultureInvariant);
         private static readonly Regex Labelled = new Regex(@"^([^:\n<>{}\[\]]{1,48}): (.+)$", RegexOptions.Singleline | RegexOptions.CultureInvariant);
-        private static readonly Regex Counter = new Regex(@"^(.*\S) (\d+/\d+)$", RegexOptions.Singleline | RegexOptions.CultureInvariant);
+        private static readonly Regex Counter = new Regex(@"^(.*\S) (\d+/\d+|[+-]\d+)$", RegexOptions.Singleline | RegexOptions.CultureInvariant);
+        private static readonly string[] Separators = { " · ", " — " };
         private static readonly System.Globalization.CultureInfo PtBr = new System.Globalization.CultureInfo("pt-BR");
         private static readonly Regex OuterTags = new Regex(@"^((?:<[^<>]+>)+)(.*?)((?:</?[^<>]+>)*)$",
             RegexOptions.Singleline | RegexOptions.CultureInvariant);
@@ -86,7 +87,7 @@ namespace ObenseuerPTBR
             // Same text in other letter case: the game lower-cases names inside sentences and capitalizes labels.
             if (catalog.TryTextIgnoreCase(text, out pt)) return MatchCase(text, pt);
 
-            // Objective counters: "Examine the apartments 3/17".
+            // Objective counters and amounts: "Examine the apartments 3/17", "Theft +505".
             Match counter = Counter.Match(text);
             if (counter.Success)
             {
@@ -102,9 +103,10 @@ namespace ObenseuerPTBR
                 if (inner != null) return "(" + inner + ")";
             }
 
-            // Warnings and exclamations: "Thirst!" -> "Sede!".
+            // Warnings and exclamations: "Thirst!" -> "Sede!". Single lines only: on a multi-line text, cutting the
+            // final mark would leave its last line unmatched.
             char last = text[text.Length - 1];
-            if (text.Length > 2 && (last == '!' || last == '?' || last == '.' || last == ':'))
+            if (text.Length > 2 && (last == '!' || last == '?' || last == '.' || last == ':') && text.IndexOf('\n') < 0)
             {
                 string inner = Translate(text.Substring(0, text.Length - 1), depth + 1);
                 if (inner != null) return inner + last;
@@ -169,6 +171,21 @@ namespace ObenseuerPTBR
                 if (changed) return string.Join(text.IndexOf('<') >= 0 ? "" : " ", pieces);
             }
 
+            // Parts joined by a middle dot or a dash: "Next: Makeshift · Ken", "Bed — Pleasant, Safeish".
+            if (text.IndexOf('\n') < 0)
+                foreach (string sep in Separators)
+                {
+                    if (text.IndexOf(sep, StringComparison.Ordinal) <= 0) continue;
+                    string[] parts = text.Split(new[] { sep }, StringSplitOptions.None);
+                    bool changed = false;
+                    for (int i = 0; i < parts.Length; i++)
+                    {
+                        string tl = Translate(parts[i], depth + 1) ?? List(parts[i], depth + 1);
+                        if (tl != null) { parts[i] = tl; changed = true; }
+                    }
+                    if (changed) return string.Join(sep, parts);
+                }
+
             // "Guard: Halt!" (bark and phone subtitles), "Quality: Good": translate a known label in front of
             // the colon, and the value too if it has a translation (dialogue values arrive already translated).
             Match labelled = Labelled.Match(text);
@@ -199,12 +216,28 @@ namespace ObenseuerPTBR
             return null;
         }
 
-        // A slot that swallowed rich-text tags means the template matched across separate pieces of a label.
+        // A slot that swallowed rich-text tags or a "Label: " means the template matched across separate pieces of
+        // a label ("{0} day" against "Sleeping: One day").
         private static bool CapturesTag(Match m)
         {
             for (int i = 1; i < m.Groups.Count; i++)
-                if (m.Groups[i].Success && m.Groups[i].Value.IndexOf('<') >= 0) return true;
+                if (m.Groups[i].Success && (m.Groups[i].Value.IndexOf('<') >= 0 || m.Groups[i].Value.IndexOf(": ", StringComparison.Ordinal) >= 0))
+                    return true;
             return false;
+        }
+
+        // "Pleasant, Safeish": a comma list where every item is a known word. Later items start lower-case.
+        private string List(string text, int depth)
+        {
+            if (text.IndexOf(", ", StringComparison.Ordinal) < 0) return null;
+            string[] items = text.Split(new[] { ", " }, StringSplitOptions.None);
+            for (int i = 0; i < items.Length; i++)
+            {
+                string tl = Translate(items[i], depth);
+                if (tl == null || tl.Length == 0) return null;
+                items[i] = i == 0 ? tl : char.ToLower(tl[0], PtBr) + tl.Substring(1);
+            }
+            return string.Join(", ", items);
         }
 
         private static string MatchCase(string english, string pt)

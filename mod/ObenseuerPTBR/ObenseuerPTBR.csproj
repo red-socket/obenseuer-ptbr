@@ -7,9 +7,13 @@
 
   <Target Name="DeployToGame" AfterTargets="Build" Condition="'$(Deploy)' == 'true'">
     <PropertyGroup><PluginDir>$(GameDir)/BepInEx/plugins/$(AssemblyName)</PluginDir></PropertyGroup>
-    <ItemGroup><Po Include="$(TranslationsDir)/**/*.po" /></ItemGroup>
+    <ItemGroup>
+      <Po Include="$(TranslationsDir)/**/*.po" />
+      <Tex Include="$(MSBuildThisFileDirectory)../../textures/**/*.png" />
+    </ItemGroup>
     <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(PluginDir)" />
     <Copy SourceFiles="@(Po)" DestinationFolder="$(PluginDir)/translations/%(RecursiveDir)" />
+    <Copy SourceFiles="@(Tex)" DestinationFolder="$(PluginDir)/textures/%(RecursiveDir)" />
     <Message Importance="high" Text="Deployed $(AssemblyName).dll and @(Po->Count()) .po files to $(PluginDir)" />
   </Target>
 </Project>

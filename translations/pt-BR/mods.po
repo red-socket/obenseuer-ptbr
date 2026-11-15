@@ -1,0 +1,262 @@
+# Text of other mods that draw their own windows, applied by ModStrings.cs to that mod's string literals.
+# msgctxt "mod.<Mod>:<literal>": the literal must match the mod's code exactly (spaces and \n included).
+# Not regenerated: edit by hand when the mod changes. BetterTenement: mods/BetterTenement in red-socket/obenseuer-mods.
+msgid ""
+msgstr ""
+"Project-Id-Version: Obenseuer PT-BR\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. BetterTenement LedgerPanel: tab and window title
+#, fuzzy
+msgctxt "mod.BetterTenement:Ledger ("
+msgid "Ledger ("
+msgstr "Livro-caixa ("
+
+#. BetterTenement LedgerPanel: tab and window title
+#, fuzzy
+msgctxt "mod.BetterTenement:Landlord Ledger <size=12>("
+msgid "Landlord Ledger <size=12>("
+msgstr "Livro-caixa do proprietário <size=12>("
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:Ledger unavailable here (see the log)."
+msgid "Ledger unavailable here (see the log)."
+msgstr "Livro-caixa indisponível aqui (veja o log)."
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:No tenement data in this area."
+msgid "No tenement data in this area."
+msgstr "Sem dados do prédio nesta área."
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:Rent per payday"
+msgid "Rent per payday"
+msgstr "Aluguel por dia de pagamento"
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:being evicted"
+msgid "being evicted"
+msgstr "sendo despejado"
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:moving in"
+msgid "moving in"
+msgstr "mudando-se"
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:furniture left"
+msgid "furniture left"
+msgstr "móveis deixados"
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:rented"
+msgid "rented"
+msgstr "alugado"
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:vacant, ready"
+msgid "vacant, ready"
+msgstr "vago, pronto"
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:not ready: not examined"
+msgid "not ready: not examined"
+msgstr "não pronto: não examinado"
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:not ready: Group 1 {0}% / Group 2 {1}%"
+msgid "not ready: Group 1 {0}% / Group 2 {1}%"
+msgstr "não pronto: grupo 1 {0}% / grupo 2 {1}%"
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:Apt {0}: {1}"
+msgid "Apt {0}: {1}"
+msgstr "Apto {0}: {1}"
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:Occupancy"
+msgid "Occupancy"
+msgstr "Ocupação"
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:{0} of {1} rented, {2} vacant and ready"
+msgid "{0} of {1} rented, {2} vacant and ready"
+msgstr "{0} de {1} alugados, {2} vagos e prontos"
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:Renovations"
+msgid "Renovations"
+msgstr "Reformas"
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:None running."
+msgid "None running."
+msgstr "Nenhuma em andamento."
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:Renovations progress only in areas with tenement logic."
+msgid "Renovations progress only in areas with tenement logic."
+msgstr "As reformas só avançam nas áreas do prédio."
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:Apt {0} "
+msgid "Apt {0} "
+msgstr "Apto {0} "
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:Ready: pay {0} RM at {1}"
+msgid "Ready: pay {0} RM at {1}"
+msgstr "Pronto: pague {0} RM para {1}"
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:Shopping list (starred upgrades)"
+msgid "Shopping list (starred upgrades)"
+msgstr "Lista de compras (melhorias com estrela)"
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:Star upgrades at a contractor to build a list."
+msgid "Star upgrades at a contractor to build a list."
+msgstr "Marque melhorias com estrela num empreiteiro para montar a lista."
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:{0} carried"
+msgid "{0} carried"
+msgstr "{0} com você"
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:{0} in chest"
+msgid "{0} in chest"
+msgstr "{0} no baú"
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:{0}: need {1} · have {2} (chest {3}{4}, carried {5}"
+msgid "{0}: need {1} · have {2} (chest {3}{4}, carried {5}"
+msgstr "{0}: precisa de {1} · tem {2} (baú {3}{4}, com você {5}"
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:; stolen "
+msgid "; stolen "
+msgstr "; roubados "
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:missing {0}"
+msgid "missing {0}"
+msgstr "faltam {0}"
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:First payments {0} OC · final payments {1} RM"
+msgid "First payments {0} OC · final payments {1} RM"
+msgstr "Entradas {0} OC · pagamentos finais {1} RM"
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:Needs first: "
+msgid "Needs first: "
+msgstr "Precisa antes: "
+
+#. BetterTenement LedgerData: Ledger window
+#, fuzzy
+msgctxt "mod.BetterTenement:~ = count from that contractor's chest at your last visit."
+msgid "~ = count from that contractor's chest at your last visit."
+msgstr "~ = contagem do baú desse empreiteiro na sua última visita."
+
+#. BetterTenement LedgerCard: upgrade cards and building map tooltip
+#, fuzzy
+msgctxt "mod.BetterTenement:No contractor offers this tier yet"
+msgid "No contractor offers this tier yet"
+msgstr "Nenhum empreiteiro oferece este nível ainda"
+
+#. BetterTenement LedgerCard: upgrade cards and building map tooltip
+#, fuzzy
+msgctxt "mod.BetterTenement:Done by "
+msgid "Done by "
+msgstr "Feito por "
+
+#. BetterTenement LedgerCard: upgrade cards and building map tooltip
+#, fuzzy
+msgctxt "mod.BetterTenement:By "
+msgid "By "
+msgstr "Por "
+
+#. BetterTenement LedgerCard: upgrade cards and building map tooltip
+#, fuzzy
+msgctxt "mod.BetterTenement:no contractor yet"
+msgid "no contractor yet"
+msgstr "nenhum empreiteiro ainda"
+
+#. BetterTenement LedgerCard: upgrade cards and building map tooltip
+#, fuzzy
+msgctxt "mod.BetterTenement:\nNext: "
+msgid "\nNext: "
+msgstr "\nPróximo: "
+
+#. BetterTenement LedgerMath: rent and value effect line
+#, fuzzy
+msgctxt "mod.BetterTenement:No rent effect"
+msgid "No rent effect"
+msgstr "Sem efeito no aluguel"
+
+#. BetterTenement LedgerMath: rent and value effect line
+#, fuzzy
+msgctxt "mod.BetterTenement:value "
+msgid "value "
+msgstr "valor "
+
+#. BetterTenement LedgerMath: rent and value effect line
+#, fuzzy
+msgctxt "mod.BetterTenement: per flat (size-scaled)"
+msgid " per flat (size-scaled)"
+msgstr " por apartamento (conforme o tamanho)"
+
+#. BetterTenement LedgerMath: rent and value effect line
+#, fuzzy
+msgctxt "mod.BetterTenement: · rent n/a (changed by another mod)"
+msgid " · rent n/a (changed by another mod)"
+msgstr " · aluguel indisponível (alterado por outro mod)"
+
+#. BetterTenement LedgerMath: rent and value effect line
+#, fuzzy
+msgctxt "mod.BetterTenement: · rent rises once rented"
+msgid " · rent rises once rented"
+msgstr " · o aluguel sobe quando for alugado"
+
+#. BetterTenement LedgerMath: rent and value effect line
+#, fuzzy
+msgctxt "mod.BetterTenement: value · rent n/a (changed by another mod)"
+msgid " value · rent n/a (changed by another mod)"
+msgstr " de valor · aluguel indisponível (alterado por outro mod)"
+
+#. BetterTenement LedgerMath: rent and value effect line
+#, fuzzy
+msgctxt "mod.BetterTenement: value · "
+msgid " value · "
+msgstr " de valor · "

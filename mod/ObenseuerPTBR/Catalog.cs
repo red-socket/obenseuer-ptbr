@@ -28,6 +28,15 @@ namespace ObenseuerPTBR
 
         public bool TryKey(string key, out string text) => byKey.TryGetValue(key, out text);
 
+        /// <summary>Keyed entries whose key starts with <paramref name="prefix"/>, by the rest of the key.</summary>
+        public Dictionary<string, string> KeysWithPrefix(string prefix)
+        {
+            var map = new Dictionary<string, string>(StringComparer.Ordinal);
+            foreach (var e in byKey)
+                if (e.Key.StartsWith(prefix, StringComparison.Ordinal)) map[e.Key.Substring(prefix.Length)] = e.Value;
+            return map;
+        }
+
         public bool TryText(string english, out string text)
         {
             text = null;
@@ -47,11 +56,13 @@ namespace ObenseuerPTBR
             return english != null && folded.TryGetValue(english.ToLowerInvariant(), out text);
         }
 
-        // Keyed entries that also apply wherever their English text is shown. Dialogue lines, player words
-        // and context entries ("scope:<object>:<English>") only apply to their own key.
+        // Keyed entries that also apply wherever their English text is shown. Dialogue lines, player words,
+        // context entries ("scope:<object>:<English>"), other mods' strings ("mod.<Mod>:<English>") and
+        // gendered resident words ("npc.<English>") only apply to their own key.
         private static bool Promotable(string ctx) =>
             !ctx.StartsWith("dlg.", StringComparison.Ordinal) && !ctx.StartsWith("player.", StringComparison.Ordinal)
-            && !ctx.StartsWith("scope:", StringComparison.Ordinal);
+            && !ctx.StartsWith("scope:", StringComparison.Ordinal) && !ctx.StartsWith("mod.", StringComparison.Ordinal)
+            && !ctx.StartsWith("npc.", StringComparison.Ordinal);
 
         /// <summary>True if the text is already a translation (so it is not reported as untranslated).</summary>
         public bool IsTranslation(string text) => values.Contains(text);

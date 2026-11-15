@@ -793,3 +793,832 @@ msgstr "Riqueza em OC: <color=#{0}>Infinita"
 msgid "Break"
 msgstr "Quebrar"
 
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Eat"
+msgstr "Segure - Comer"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Drink"
+msgstr "Segure - Beber"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Equip"
+msgstr "Segure - Equipar"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Open"
+msgstr "Segure - Abrir"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Crumple"
+msgstr "Segure - Amassar"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Smoke"
+msgstr "Segure - Fumar"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Read"
+msgstr "Segure - Ler"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Use"
+msgstr "Segure - Usar"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Break"
+msgstr "Segure - Quebrar"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Take a pill"
+msgstr "Segure - Tomar um comprimido"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Slaughter"
+msgstr "Segure - Abater"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Reload"
+msgstr "Segure - Recarregar"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Empty"
+msgstr "Segure - Esvaziar"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Unpack"
+msgstr "Segure - Desembalar"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Pet"
+msgstr "Segure - Fazer carinho"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Vape"
+msgstr "Segure - Vapear"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Inject"
+msgstr "Segure - Injetar"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Scratch"
+msgstr "Segure - Raspar"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Call"
+msgstr "Segure - Ligar"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Take"
+msgstr "Segure - Pegar"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Take an egg"
+msgstr "Segure - Pegar um ovo"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Take a mask"
+msgstr "Segure - Pegar uma máscara"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Refill"
+msgstr "Segure - Reabastecer"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Set bait"
+msgstr "Segure - Colocar isca"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Take a syringe"
+msgstr "Segure - Pegar uma seringa"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Attach Filter"
+msgstr "Segure - Encaixar filtro"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Write"
+msgstr "Segure - Escrever"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Carry"
+msgstr "Segure - Carregar"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Play"
+msgstr "Segure - Jogar"
+
+#. SRC/CollectibleItem.cs:676, QuickSlotBar.cs:471 hold prompt with the item's action name (Items.json Actions)
+#, fuzzy
+msgid "Hold - Switch Batteries"
+msgstr "Segure - Trocar pilhas"
+
+#. SRC/Hotel.cs:130-182 hostel bed menu (roomName from the scene)
+#, fuzzy
+msgid "Room: {0} per night"
+msgstr "Quarto: {0} por noite"
+
+#. SRC/Hotel.cs:130-182 hostel bed menu (roomName from the scene)
+#, fuzzy
+msgid "{0}: {1} per night"
+msgstr "{0}: {1} por noite"
+
+#. SRC/Hotel.cs:130-182 hostel bed menu (roomName from the scene)
+#, fuzzy
+msgid "1 night: {0}"
+msgstr "1 noite: {0}"
+
+#. SRC/Hotel.cs:130-182 hostel bed menu (roomName from the scene)
+#, fuzzy
+msgid "{0} nights: {1}"
+msgstr "{0} noites: {1}"
+
+#. SRC/Hotel.cs:130-182 hostel bed menu (roomName from the scene)
+#, fuzzy
+msgid "Room {0} bed {1}"
+msgstr "Quarto {0}, cama {1}"
+
+#. SRC/Hotel.cs:130-182 hostel bed menu (roomName from the scene)
+#, fuzzy
+msgid "Room {0}"
+msgstr "Quarto {0}"
+
+#. SRC/Hotel.cs:130-182 hostel bed menu (roomName from the scene)
+#, fuzzy
+msgid "Room 5 bed in the middle"
+msgstr "Quarto 5, cama do meio"
+
+#. SRC/Hotel.cs:130-182 hostel bed menu (roomName from the scene)
+#, fuzzy
+msgid "Room 5 bed by the door"
+msgstr "Quarto 5, cama perto da porta"
+
+#. SRC/Hotel.cs:130-182 hostel bed menu (roomName from the scene)
+#, fuzzy
+msgid "Room 5 bed at window"
+msgstr "Quarto 5, cama da janela"
+
+#. SRC/Hotel.cs:130-182 hostel bed menu (roomName from the scene)
+#, fuzzy
+msgid "Room 4 (Console Room)"
+msgstr "Quarto 4 (sala do videogame)"
+
+#. SRC/WaitingUI.cs:122-150 sleep/wait duration ('Sleeping: One day 05:20')
+#, fuzzy
+msgid "One day {0}"
+msgstr "Um dia {0}"
+
+#. SRC/WaitingUI.cs:122-150 sleep/wait duration ('Sleeping: One day 05:20')
+#, fuzzy
+msgid "{0} days {1}"
+msgstr "{0} dias {1}"
+
+#. SRC/RecipeInfoUI.cs:255-280 crafting station recipe info
+#, fuzzy
+msgid "Process time"
+msgstr "Tempo de processo"
+
+#. SRC/RecipeInfoUI.cs:255-280 crafting station recipe info
+#, fuzzy
+msgid "Fail chance"
+msgstr "Chance de falha"
+
+#. SRC/RecipeInfoUI.cs:255-280 crafting station recipe info
+#, fuzzy
+msgid "Grow time"
+msgstr "Tempo de crescimento"
+
+#. SRC/RecipeInfoUI.cs:255-280 crafting station recipe info
+#, fuzzy
+msgid "Power"
+msgstr "Energia"
+
+#. SRC/UpgradeButtonUI.cs:350-360 building map tooltip
+#, fuzzy
+msgid "Upgrades available!"
+msgstr "Melhorias disponíveis!"
+
+#. SRC/UpgradeButtonUI.cs:350-360 building map tooltip
+#, fuzzy
+msgid "Upgraded to max!"
+msgstr "Melhorado ao máximo!"
+
+#. SRC/UpgradeButtonUI.cs:350-360 building map tooltip
+#, fuzzy
+msgid "Contractor doesn't do these upgrades!"
+msgstr "O empreiteiro não faz essas melhorias!"
+
+#. SRC/UpgradeButtonUI.cs:350-360 building map tooltip
+#, fuzzy
+msgid "No upgrades available!"
+msgstr "Nenhuma melhoria disponível!"
+
+#. SRC/UpgradeButtonUI.cs:350-360 building map tooltip
+#, fuzzy
+msgid "Needs other upgrades!"
+msgstr "Precisa de outras melhorias!"
+
+#. SRC/UpgradeButtonUI.cs:350-360 building map tooltip
+#, fuzzy
+msgid "Not enough resources!"
+msgstr "Recursos insuficientes!"
+
+#. SRC/UpgradeButtonUI.cs:350-360 building map tooltip
+#, fuzzy
+msgid "Does not meet the requirements!"
+msgstr "Não cumpre os requisitos!"
+
+#. SRC/Minitrain.cs:410 mine cart key hints
+#, fuzzy
+msgid "MOVE FORWARD"
+msgstr "AVANÇAR"
+
+#. SRC/Minitrain.cs:410 mine cart key hints
+#, fuzzy
+msgid "MOVE BACKWARDS"
+msgstr "RECUAR"
+
+#. SRC/Minitrain.cs:410 mine cart key hints
+#, fuzzy
+msgid "NEUTRAL"
+msgstr "PONTO MORTO"
+
+#. SRC/Minitrain.cs:410 mine cart key hints
+#, fuzzy
+msgid "BRAKE"
+msgstr "FREAR"
+
+#. SRC/Crime.cs:12-28 crime types in the 'Crime committed:' notification
+#, fuzzy
+msgid "Unspecified"
+msgstr "Não especificado"
+
+#. SRC/Crime.cs:12-28 crime types in the 'Crime committed:' notification
+#, fuzzy
+msgid "Theft"
+msgstr "Furto"
+
+#. SRC/Crime.cs:12-28 crime types in the 'Crime committed:' notification
+#, fuzzy
+msgid "Violence"
+msgstr "Violência"
+
+#. SRC/Crime.cs:12-28 crime types in the 'Crime committed:' notification
+#, fuzzy
+msgid "Fraud"
+msgstr "Fraude"
+
+#. SRC/Crime.cs:12-28 crime types in the 'Crime committed:' notification
+#, fuzzy
+msgid "Administrative"
+msgstr "Infração administrativa"
+
+#. SRC/Crime.cs:12-28 crime types in the 'Crime committed:' notification
+#, fuzzy
+msgid "Trespassing"
+msgstr "Invasão"
+
+#. SRC/Crime.cs:12-28 crime types in the 'Crime committed:' notification
+#, fuzzy
+msgid "Burglary"
+msgstr "Arrombamento"
+
+#. SRC/Crime.cs:12-28 crime types in the 'Crime committed:' notification
+#, fuzzy
+msgid "Harassment"
+msgstr "Assédio"
+
+#. SRC/Crime.cs:12-28 crime types in the 'Crime committed:' notification
+#, fuzzy
+msgid "Vandalism"
+msgstr "Vandalismo"
+
+#. SRC/Crime.cs:12-28 crime types in the 'Crime committed:' notification
+#, fuzzy
+msgid "Terrorism"
+msgstr "Terrorismo"
+
+#. SRC/RecipeCondition.cs, ModifierUI.cs:25 crafting station modifier ('Modifier: Clean')
+#, fuzzy
+msgid "Modifier"
+msgstr "Modificador"
+
+#. SRC/RecipeCondition.cs, ModifierUI.cs:25 crafting station modifier ('Modifier: Clean')
+#, fuzzy
+msgid "Clean"
+msgstr "Limpo"
+
+#. SRC/RecipeCondition.cs, ModifierUI.cs:25 crafting station modifier ('Modifier: Clean')
+#, fuzzy
+msgid "Infested"
+msgstr "Infestado"
+
+#. SRC/RecipeCondition.cs, ModifierUI.cs:25 crafting station modifier ('Modifier: Clean')
+#, fuzzy
+msgid "Crude"
+msgstr "Rústico"
+
+#. SRC/RecipeCondition.cs, ModifierUI.cs:25 crafting station modifier ('Modifier: Clean')
+#, fuzzy
+msgid "Upgraded"
+msgstr "Melhorado"
+
+#. SRC/RecipeCondition.cs, ModifierUI.cs:25 crafting station modifier ('Modifier: Clean')
+#, fuzzy
+msgid "Special"
+msgstr "Especial"
+
+#. SRC/RecipeCondition.cs, ModifierUI.cs:25 crafting station modifier ('Modifier: Clean')
+#, fuzzy
+msgid "Wasteland"
+msgstr "Terra devastada"
+
+#. SRC/RecipeCondition.cs, ModifierUI.cs:25 crafting station modifier ('Modifier: Clean')
+#, fuzzy
+msgid "Moist"
+msgstr "Úmido"
+
+#. SRC/ResidentImageUI.cs:22-36 resident tooltip label
+#, fuzzy
+msgid "Relationship"
+msgstr "Estado civil"
+
+#. SRC/ResidentImageUI.cs:22-36 resident tooltip label
+#, fuzzy
+msgid "Job"
+msgstr "Profissão"
+
+#. Resident tooltip relationship, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Single"
+msgid "Single"
+msgstr "{{Solteiro|Solteira}}"
+
+#. Resident tooltip relationship, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Married"
+msgid "Married"
+msgstr "{{Casado|Casada}}"
+
+#. Resident tooltip relationship, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Divorced"
+msgid "Divorced"
+msgstr "{{Divorciado|Divorciada}}"
+
+#. Resident tooltip relationship, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Engaged"
+msgid "Engaged"
+msgstr "{{Noivo|Noiva}}"
+
+#. Resident tooltip relationship, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Unknown"
+msgid "Unknown"
+msgstr "{{Desconhecido|Desconhecida}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Accountant"
+msgid "Accountant"
+msgstr "{{Contador|Contadora}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Alcohol Retailer"
+msgid "Alcohol Retailer"
+msgstr "{{Vendedor de bebidas|Vendedora de bebidas}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Auctioner"
+msgid "Auctioner"
+msgstr "{{Leiloeiro|Leiloeira}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Author"
+msgid "Author"
+msgstr "{{Escritor|Escritora}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Baker"
+msgid "Baker"
+msgstr "{{Padeiro|Padeira}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Bookseller"
+msgid "Bookseller"
+msgstr "{{Livreiro|Livreira}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Butcher"
+msgid "Butcher"
+msgstr "{{Açougueiro|Açougueira}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Cat breeder"
+msgid "Cat breeder"
+msgstr "{{Criador de gatos|Criadora de gatos}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Civil engineer"
+msgid "Civil engineer"
+msgstr "{{Engenheiro civil|Engenheira civil}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Clerk"
+msgid "Clerk"
+msgstr "{{Escriturário|Escriturária}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Clown"
+msgid "Clown"
+msgstr "{{Palhaço|Palhaça}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Concrete Finisher"
+msgid "Concrete Finisher"
+msgstr "{{Acabador de concreto|Acabadora de concreto}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Construction worker"
+msgid "Construction worker"
+msgstr "{{Peão de obra|Operária da construção}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Demolitionist"
+msgid "Demolitionist"
+msgstr "{{Demolidor|Demolidora}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Distillery Master"
+msgid "Distillery Master"
+msgstr "{{Mestre destilador|Mestra destiladora}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Doorman"
+msgid "Doorman"
+msgstr "{{Porteiro|Porteira}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Dubious Pizza Chef"
+msgid "Dubious Pizza Chef"
+msgstr "{{Pizzaiolo duvidoso|Pizzaiola duvidosa}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Elevator fitter"
+msgid "Elevator fitter"
+msgstr "{{Instalador de elevadores|Instaladora de elevadores}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Estate Agent"
+msgid "Estate Agent"
+msgstr "{{Corretor de imóveis|Corretora de imóveis}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Farmer"
+msgid "Farmer"
+msgstr "{{Agricultor|Agricultora}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Firewood seller"
+msgid "Firewood seller"
+msgstr "{{Vendedor de lenha|Vendedora de lenha}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Gamer"
+msgid "Gamer"
+msgstr "{{Jogador|Jogadora}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Gift Seller"
+msgid "Gift Seller"
+msgstr "{{Vendedor de presentes|Vendedora de presentes}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Grill Kiosk Owner"
+msgid "Grill Kiosk Owner"
+msgstr "{{Dono do quiosque de grelhados|Dona do quiosque de grelhados}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Grillmaster"
+msgid "Grillmaster"
+msgstr "{{Churrasqueiro|Churrasqueira}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Gym Keeper"
+msgid "Gym Keeper"
+msgstr "{{Dono da academia|Dona da academia}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Hoarder"
+msgid "Hoarder"
+msgstr "{{Acumulador|Acumuladora}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Internet Cafe Keeper"
+msgid "Internet Cafe Keeper"
+msgstr "{{Dono da lan house|Dona da lan house}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Jail Warden"
+msgid "Jail Warden"
+msgstr "{{Diretor da cadeia|Diretora da cadeia}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Janitor"
+msgid "Janitor"
+msgstr "{{Zelador|Zeladora}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Jeweller"
+msgid "Jeweller"
+msgstr "{{Joalheiro|Joalheira}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Kino Operator"
+msgid "Kino Operator"
+msgstr "{{Operador do Kino|Operadora do Kino}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Lantern factory worker"
+msgid "Lantern factory worker"
+msgstr "{{Operário da fábrica de lampiões|Operária da fábrica de lampiões}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Lawyer"
+msgid "Lawyer"
+msgstr "{{Advogado|Advogada}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Machinist"
+msgid "Machinist"
+msgstr "{{Torneiro mecânico|Torneira mecânica}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Maintenance Guy"
+msgid "Maintenance Guy"
+msgstr "{{Cara da manutenção|Moça da manutenção}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Masher"
+msgid "Masher"
+msgstr "{{Cachaceiro|Cachaceira}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Medical scientist"
+msgid "Medical scientist"
+msgstr "{{Pesquisador médico|Pesquisadora médica}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Miner"
+msgid "Miner"
+msgstr "{{Mineiro|Mineira}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Moonshiner"
+msgid "Moonshiner"
+msgstr "{{Alambiqueiro|Alambiqueira}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.NPP Operator"
+msgid "NPP Operator"
+msgstr "{{Operador de usina nuclear|Operadora de usina nuclear}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Nurse"
+msgid "Nurse"
+msgstr "{{Enfermeiro|Enfermeira}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Oddjobber"
+msgid "Oddjobber"
+msgstr "{{Biscateiro|Biscateira}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Pharmacist"
+msgid "Pharmacist"
+msgstr "{{Farmacêutico|Farmacêutica}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Photographer"
+msgid "Photographer"
+msgstr "{{Fotógrafo|Fotógrafa}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Pigfarmer"
+msgid "Pigfarmer"
+msgstr "{{Criador de porcos|Criadora de porcos}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Plumber"
+msgid "Plumber"
+msgstr "{{Encanador|Encanadora}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Postal Worker"
+msgid "Postal Worker"
+msgstr "{{Funcionário dos correios|Funcionária dos correios}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Practical nurse"
+msgid "Practical nurse"
+msgstr "{{Técnico de enfermagem|Técnica de enfermagem}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Prisoner"
+msgid "Prisoner"
+msgstr "{{Presidiário|Presidiária}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Programmer"
+msgid "Programmer"
+msgstr "{{Programador|Programadora}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Rat fighter"
+msgid "Rat fighter"
+msgstr "{{Rinheiro de ratos|Rinheira de ratos}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Repairman"
+msgid "Repairman"
+msgstr "{{Técnico de reparos|Técnica de reparos}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Restaurant Owner"
+msgid "Restaurant Owner"
+msgstr "{{Dono de restaurante|Dona de restaurante}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Retired"
+msgid "Retired"
+msgstr "{{Aposentado|Aposentada}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Robber"
+msgid "Robber"
+msgstr "{{Ladrão|Ladra}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Salesman"
+msgid "Salesman"
+msgstr "{{Vendedor|Vendedora}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Salesperson"
+msgid "Salesperson"
+msgstr "{{Vendedor|Vendedora}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Sauna competitioner"
+msgid "Sauna competitioner"
+msgstr "{{Competidor de sauna|Competidora de sauna}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Seller"
+msgid "Seller"
+msgstr "{{Vendedor|Vendedora}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Teacher"
+msgid "Teacher"
+msgstr "{{Professor|Professora}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Telemarketer"
+msgid "Telemarketer"
+msgstr "{{Operador de telemarketing|Operadora de telemarketing}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Textile Entrepreneur"
+msgid "Textile Entrepreneur"
+msgstr "{{Empresário têxtil|Empresária têxtil}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Truck Driver"
+msgid "Truck Driver"
+msgstr "{{Caminhoneiro|Caminhoneira}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Unemployed"
+msgid "Unemployed"
+msgstr "{{Desempregado|Desempregada}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Veteran"
+msgid "Veteran"
+msgstr "{{Veterano|Veterana}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Vices Vendor"
+msgid "Vices Vendor"
+msgstr "{{Vendedor de vícios|Vendedora de vícios}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Waitress"
+msgid "Waitress"
+msgstr "{{Garçom|Garçonete}}"
+
+#. Resident tooltip job, by the resident's gender ({{masculine|feminine}}); see ResidentText.cs
+#, fuzzy
+msgctxt "npc.Wizard"
+msgid "Wizard"
+msgstr "{{Mago|Maga}}"

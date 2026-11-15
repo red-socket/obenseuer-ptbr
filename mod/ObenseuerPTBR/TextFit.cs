@@ -75,6 +75,12 @@ namespace ObenseuerPTBR
             }
             if (scale >= 0.99f)
                 return pt;
+            if (!label.richText)
+            {
+                // The size tag needs rich text. Turn it on only when the text has no '<' that would start parsing.
+                if (pt.IndexOf('<') >= 0 || english.IndexOf('<') >= 0) return pt;
+                label.richText = true;
+            }
             return "<size=" + Mathf.FloorToInt(scale * 100f).ToString(CultureInfo.InvariantCulture) + "%>" + pt;
         }
 
@@ -156,6 +162,7 @@ namespace ObenseuerPTBR
             if (extra <= 0f) return false;
             float newDelta = Mathf.Min(-Gutter, rt.sizeDelta.x + extra);
             if (newDelta <= rt.sizeDelta.x + 0.5f) return false;
+            if (CoversIcon(rt, needed)) return false;
             widened.Add(label.GetInstanceID());
             pending[label.GetInstanceID()] = () =>
             {
@@ -164,6 +171,31 @@ namespace ObenseuerPTBR
                 label.ForceMeshUpdate(false, true);
             };
             return true;
+        }
+
+        // Widening must not slide the text under an icon beside it (sleep screen: "Cancelar" next to its button
+        // glyph). Graphics that enclose the whole label are its background and don't count.
+        private static bool CoversIcon(RectTransform rt, float textWidth)
+        {
+            Rect label = WorldRect(rt);
+            float half = textWidth * 0.5f * rt.lossyScale.x;
+            Rect text = Rect.MinMaxRect(label.center.x - half, label.yMin, label.center.x + half, label.yMax);
+            foreach (Graphic g in rt.parent.GetComponentsInChildren<Graphic>(false))
+            {
+                if (g.transform == rt || g.transform.IsChildOf(rt) || !g.enabled || g is TMP_Text) continue;
+                Rect r = WorldRect(g.rectTransform);
+                bool encloses = r.xMin <= label.xMin + 1f && r.xMax >= label.xMax - 1f && r.yMin <= label.yMin + 1f && r.yMax >= label.yMax - 1f;
+                if (!encloses && r.Overlaps(text)) return true;
+            }
+            return false;
+        }
+
+        private static readonly Vector3[] corners = new Vector3[4];
+
+        private static Rect WorldRect(RectTransform rt)
+        {
+            rt.GetWorldCorners(corners);
+            return Rect.MinMaxRect(corners[0].x, corners[0].y, corners[2].x, corners[2].y);
         }
 
         // Estimated wrapped line count: each paragraph's width over the (adjusted) box, at a given size scale.

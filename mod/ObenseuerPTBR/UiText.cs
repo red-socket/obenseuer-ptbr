@@ -40,6 +40,9 @@ namespace ObenseuerPTBR
                 return text;   // the player is typing: show exactly what is in the field
             try
             {
+                // An input field shows its text with a zero-width space appended: translate without it.
+                if (input != null && text.Length > 1 && text[text.Length - 1] == '​')
+                    return PreprocessText(text.Substring(0, text.Length - 1)) + "​";
                 string pt = Scoped(text) ?? Plugin.Translator.Translate(text);
                 if (pt != null)
                     return Stable(text, TextFit.Fit(label, text, GenderMarkers.Resolve(pt)), GenderMarkers.Resolve(pt));
