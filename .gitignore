@@ -27,3 +27,4 @@ __pycache__/
 
 # Review spreadsheet exported from the .po files (tools/review_csv.py)
 /review/
+/art/textures/out/
