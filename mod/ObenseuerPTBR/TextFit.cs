@@ -109,10 +109,10 @@ namespace ObenseuerPTBR
         }
 
         /// <summary>
-        /// True when the label's width follows its own text: a content size fitter on the label, or on a parent
-        /// whose layout group sizes its children (the main-menu buttons). Fitting such a label would fight the
-        /// layout and flicker. A layout group without a fitter gives fixed cells (the blueprint table), which
-        /// still need fitting.
+        /// True when the label's width follows its own text: a content size fitter on the label, a parent layout
+        /// group that sizes children to their preferred width, or one whose own fitter sizes it to its children.
+        /// Fitting such a label would fight the layout and flicker. Fixed cells (the blueprint table, which has
+        /// no layout group) still get fitted.
         /// </summary>
         public static bool SizedByLayout(TMP_Text label)
         {
@@ -120,7 +120,10 @@ namespace ObenseuerPTBR
             Transform parent = label.transform.parent;
             if (parent == null) return false;
             var group = parent.GetComponent<HorizontalOrVerticalLayoutGroup>();
-            return group != null && group.enabled && group.childControlWidth && FitsWidth(parent.GetComponent<ContentSizeFitter>());
+            if (group == null || !group.enabled || !group.childControlWidth) return false;
+            // The group gives the label its preferred (text) width when it doesn't stretch children to fill,
+            // or when a fitter sizes the group itself to its children (furniture info panel, main menu).
+            return !group.childForceExpandWidth || FitsWidth(parent.GetComponent<ContentSizeFitter>());
         }
 
         private static bool FitsWidth(ContentSizeFitter f) =>
