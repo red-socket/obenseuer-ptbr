@@ -29,6 +29,11 @@ FONTS = {
     "gochi": f"{_G}/gochihand/GochiHand-Regular.ttf",
     "gloria": f"{_G}/gloriahallelujah/GloriaHallelujah.ttf",
     "caveat": f"{_G}/caveat/Caveat[wght].ttf",
+    "typewriter": f"{_G}/specialelite/SpecialElite-Regular.ttf",
+    "narrow": "/usr/share/fonts/gsfonts/NimbusSansNarrow-Regular.otf",
+    "covered": f"{_G}/coveredbyyourgrace/CoveredByYourGrace.ttf",
+    "indie": f"{_G}/indieflower/IndieFlower-Regular.ttf",
+    "marker": f"{_G}/permanentmarker/PermanentMarker-Regular.ttf",
     "label": "/usr/share/fonts/TTF/DejaVuSans.ttf",
 }
 
@@ -309,6 +314,138 @@ SPECS = {
                  {"box": [26, 31, 102, 48], "font": "roboto-cond-bold", "stretch": True, "color": "#101010",
                   "ink_from": [0, -21], "text": "ÁGUA QUENTE"}],
     },
+
+    # ---- Batch 03: shop alarm signs, desk notes, hostel decals, alarm label, mine floors ----
+    "theft_alarm_001_sign_electronics": {
+        "en": 'ELSTRöM ELECTRONICS (x7)',
+        "note": 'Elström is the shop name (kept, with its lowercase ö); only ELECTRONICS changes, in the sign\'s own letters (ô drawn like the ö).',
+        "erase": [{"rect": [47, 5, 111, 15], "thresh": 100, "isolate": True}, {"rect": [47, 23, 111, 33], "thresh": 100, "isolate": True}, {"rect": [47, 41, 111, 51], "thresh": 100, "isolate": True}, {"rect": [47, 59, 111, 69], "thresh": 100, "isolate": True}, {"rect": [47, 77, 111, 87], "thresh": 100, "isolate": True}, {"rect": [47, 95, 111, 105], "thresh": 100, "isolate": True}, {"rect": [47, 113, 111, 123], "thresh": 100, "isolate": True}],
+        "text": [{"pixel": "elstrom", "box": [49, 0, 128, 0], "align": "left", "baselines": [13, 31, 49, 67, 85, 103, 121], "gap": 1,
+                  "color": "#03b6ef", "text": "ELETRôNICOS\nELETRôNICOS\nELETRôNICOS\nELETRôNICOS\nELETRôNICOS\nELETRôNICOS\nELETRôNICOS"}],
+    },
+    "theft_alarm_001_sign_electronics_e": {
+        "en": 'ELSTRöM ELECTRONICS (x7)',
+        "note": 'Glow (emission) map of the sign before; letters take the old letters\' dimmed colour.',
+        "mask_source": "theft_alarm_001_sign_electronics",
+        "erase": [{"rect": [47, 5, 111, 15], "thresh": 100, "isolate": True}, {"rect": [47, 23, 111, 33], "thresh": 100, "isolate": True}, {"rect": [47, 41, 111, 51], "thresh": 100, "isolate": True}, {"rect": [47, 59, 111, 69], "thresh": 100, "isolate": True}, {"rect": [47, 77, 111, 87], "thresh": 100, "isolate": True}, {"rect": [47, 95, 111, 105], "thresh": 100, "isolate": True}, {"rect": [47, 113, 111, 123], "thresh": 100, "isolate": True}],
+        "text": [{"pixel": "elstrom", "box": [49, 0, 128, 0], "align": "left", "baselines": [13, 31, 49, 67, 85, 103, 121], "gap": 1,
+                  "ink": "letters", "color": "#03b6ef", "text": "ELETRôNICOS\nELETRôNICOS\nELETRôNICOS\nELETRôNICOS\nELETRôNICOS\nELETRôNICOS\nELETRôNICOS"}],
+    },
+    "theft_alarm_001_sign_skeida": {
+        "en": 'SKEIDA / PHARMACY',
+        "note": 'Skeida is kept (shop name, "Farmácia Skeida" in the item texts). Sign\'s own letters; F and the accent drawn.',
+        "erase": [{"rect": [4, 104, 110, 121], "thresh": 100, "isolate": True, "grain": 3}],
+        "text": [{"pixel": "skeida", "box": [4, 0, 110, 0], "baselines": [118], "gap": 2, "color": "#d6d7d6", "text": "FARMÁCIA"}],
+    },
+    "theft_alarm_001_sign_skeida_e": {
+        "en": 'SKEIDA / PHARMACY',
+        "note": 'Glow (emission) map of the sign before; letters take the old letters\' dimmed colour.',
+        "mask_source": "theft_alarm_001_sign_skeida",
+        "erase": [{"rect": [4, 104, 110, 121], "thresh": 100, "isolate": True, "grain": 3}],
+        "text": [{"pixel": "skeida", "box": [4, 0, 110, 0], "baselines": [118], "gap": 2, "ink": "letters", "color": "#d6d7d6", "text": "FARMÁCIA"}],
+    },
+    "theft_alarm_001_sign_rob-in": {
+        "en": 'ROB-IN / BUILD / AND / REPAIR',
+        "note": 'Rob-In is kept. "OBRAS E REPAROS" doesn\'t fit the boxes in this lettering (REPAROS is 2 px too wide), so singular OBRA / REPARO.',
+        "erase": [{"rect": [41, 51, 82, 62], "bg": "#f2c61b", "thresh": 150, "isolate": True, "grain": 2},
+                  {"rect": [36, 64, 78, 75], "bg": "#f2c61b", "thresh": 150, "isolate": True, "grain": 2},
+                  {"rect": [36, 77, 80, 88], "bg": "#f2c61b", "thresh": 150, "isolate": True, "grain": 2}],
+        "text": [{"pixel": "robin", "box": [41, 0, 82, 0], "baselines": [60], "gap": 2, "color": "#ea0202", "text": "OBRA"},
+                 {"pixel": "robin", "box": [44, 0, 74, 0], "baselines": [73], "gap": 2, "color": "#ea0202", "text": "E"},
+                 {"pixel": "robin", "box": [36, 0, 81, 0], "baselines": [86], "gap": 1, "color": "#ea0202", "text": "REPARO"}],
+    },
+    "theft_alarm_001_sign_rob-in_e": {
+        "en": 'ROB-IN / BUILD / AND / REPAIR',
+        "note": 'Glow (emission) map of the sign before; letters take the old letters\' dimmed colour.',
+        "mask_source": "theft_alarm_001_sign_rob-in",
+        "erase": [{"rect": [41, 51, 82, 62], "bg": "#f2c61b", "thresh": 150, "isolate": True, "grain": 2},
+                  {"rect": [36, 64, 78, 75], "bg": "#f2c61b", "thresh": 150, "isolate": True, "grain": 2},
+                  {"rect": [36, 77, 80, 88], "bg": "#f2c61b", "thresh": 150, "isolate": True, "grain": 2}],
+        "text": [{"pixel": "robin", "box": [41, 0, 82, 0], "baselines": [60], "gap": 2, "ink": "letters", "color": "#ea0202", "text": "OBRA"},
+                 {"pixel": "robin", "box": [44, 0, 74, 0], "baselines": [73], "gap": 2, "ink": "letters", "color": "#ea0202", "text": "E"},
+                 {"pixel": "robin", "box": [36, 0, 81, 0], "baselines": [86], "gap": 1, "ink": "letters", "color": "#ea0202", "text": "REPARO"}],
+    },
+    "theft_alarm_001_sign_taxfree": {
+        "en": 'TAX / FREE',
+        "note": 'The Tax Free Shop is "Free Shop" in the game text, as Brazilians call duty-free shops. FREE copied from the sign; S H O P drawn.',
+        "erase": [{"rect": [31, 44, 87, 84], "thresh": 100, "isolate": True, "grain": 2}],
+        "text": [{"pixel": "taxfree", "box": [28, 0, 88, 0], "baselines": [59], "gap": 2, "color": "#000000", "text": "FREE"},
+                 {"pixel": "taxfree", "box": [28, 0, 88, 0], "baselines": [81], "gap": 3, "color": "#000000", "text": "SHOP"}],
+    },
+    "theft_alarm_001_sign_taxfree_e": {
+        "en": 'TAX / FREE',
+        "note": 'Glow (emission) map of the sign before; letters take the old letters\' dimmed colour.',
+        "mask_source": "theft_alarm_001_sign_taxfree",
+        "erase": [{"rect": [31, 44, 87, 84], "thresh": 100, "isolate": True, "grain": 2}],
+        "text": [{"pixel": "taxfree", "box": [28, 0, 88, 0], "baselines": [59], "gap": 2, "ink": "letters", "color": "#000000", "text": "FREE"},
+                 {"pixel": "taxfree", "box": [28, 0, 88, 0], "baselines": [81], "gap": 3, "ink": "letters", "color": "#000000", "text": "SHOP"}],
+    },
+    # Desk notes (gloss map has no letters).
+    "desk_sign_001": {
+        "en": 'Sit down and ring the bell (arrow to the bell)',
+        "note": 'Typewriter text in Special Elite (a free font with the same worn type). Alternative: "toque o sino".',
+        "erase": [{"rect": [8, 69, 121, 99], "mode": "dark", "thresh": 25, "k": 7, "grain": 2}],
+        "text": [{"box": [13, 66, 120, 84], "font": "typewriter", "size": 12.5, "baseline": 81, "align": "left", "stroke": 0.35,
+                  "color": "#3e3e3e", "text": "Sente-se e"},
+                 {"box": [13, 80, 120, 98], "font": "typewriter", "size": 12.5, "baseline": 94, "align": "left", "stroke": 0.35,
+                  "color": "#3e3e3e", "text": "toque a sineta"}],
+    },
+    "desk_sign_001_robin_fix_this": {
+        "en": 'ROB[IN, scribbled out] FIX THIS! (marker)',
+        "note": 'The scribbled name and the big "!" stay; "FIX THIS" becomes "CONSERTA" (informal, as on a note to a coworker).',
+        "erase": [{"rect": [15, 90, 111, 121], "mode": "dark", "thresh": 25, "k": 9, "grain": 2}],
+        "text": [{"box": [17, 95, 109, 119], "font": "gochi", "stretch": True, "color": "#505050", "text": "CONSERTA"}],
+        "alts": {"Covered By Your Grace": {"font": "covered"}, "Permanent Marker": {"font": "marker"}},
+    },
+    "desk_sign_001_dishes": {
+        "en": 'Dish return (handwritten)',
+        "note": 'Literally "return the dishes".',
+        "erase": [{"rect": [28, 74, 102, 113], "mode": "dark", "thresh": 20, "k": 9, "grain": 2}],
+        "text": [{"box": [28, 74, 102, 112], "font": "reenie", "stroke": 0.5, "color": "#3a3a35", "leading": 0, "text": "Devolva\na louça"}],
+        "alts": {"Gochi Hand": {"font": "gochi", "stroke": 0}, "Indie Flower": {"font": "indie", "stroke": 0}},
+    },
+    # Hostel shower decals (alpha is the decal outline only).
+    "decal_hostel_shower_001": {
+        "en": 'Bathroom & Showers / Customers only!',
+        "erase": [{"rect": [22, 47, 234, 69], "mode": "light", "thresh": 30, "k": 9, "isolate": True, "grain": 2},
+                  {"rect": [22, 188, 234, 225], "mode": "dark", "thresh": 30, "k": 11, "isolate": True, "grain": 2}],
+        "text": [{"box": [24, 44, 232, 68], "font": "sans", "baseline": 67, "color": "#d4d7d7", "text": "Banheiros e chuveiros"},
+                 {"box": [24, 186, 232, 224], "font": "narrow", "baseline": 216, "color": "#232321", "text": "Só para clientes!"}],
+    },
+    "decal_hostel_shower_002": {
+        "en": 'CAUTION / Do not drink!',
+        "note": 'Alternative: "Água não potável" (non-potable water), the usual wording on Brazilian taps.',
+        "erase": [{"rect": [30, 21, 98, 35], "mode": "light", "thresh": 30, "k": 7, "isolate": True, "grain": 2},
+                  {"rect": [24, 93, 104, 110], "mode": "dark", "thresh": 30, "k": 9, "isolate": True, "grain": 2}],
+        "text": [{"box": [30, 20, 98, 34], "font": "sans", "baseline": 34, "color": "#f7f9fa", "text": "CUIDADO"},
+                 {"box": [24, 92, 104, 110], "font": "narrow", "baseline": 107, "color": "#1b1b1b", "text": "Não beba!"}],
+    },
+    # Alarm box label: two vertical lines, read top to bottom (first line on the right).
+    "alarm_001": {
+        "en": 'SECURITY ALARM (vertical)',
+        "erase": [{"rect": [79, 55, 98, 106], "mode": "light", "thresh": 25, "k": 7, "grain": 2}],
+        "text": [{"box": [89, 56, 97, 106], "font": "sans-bold", "rotate": 270, "crisp": 0.45, "color": "#a6aca5", "text": "ALARME DE"},
+                 {"box": [79, 56, 88, 106], "font": "sans-bold", "rotate": 270, "crisp": 0.45, "color": "#a6aca5", "text": "SEGURANÇA"}],
+    },
+    "sign_008_mines_floors": {
+        "en": 'FLOOR A / FLOOR B / FLOOR C (painted, worn)',
+        "note": 'NÍVEL is the usual word for mine levels; alternative: ANDAR. The new letters take the old ones\' paint, so the worn C stays worn.',
+        "erase": [{"rect": [134, 41, 220, 58], "mode": "light", "thresh": 30, "k": 9, "grain": 3},
+                  {"rect": [134, 116, 220, 133], "mode": "light", "thresh": 30, "k": 9, "grain": 3},
+                  {"rect": [134, 191, 220, 208], "mode": "light", "thresh": 25, "k": 9, "grain": 3}],
+        "text": [{"box": [135, 36, 219, 57], "font": "sans-bold", "baseline": 57, "ink": "letters", "wear": 0.4, "color": "#9bb09f", "text": "NÍVEL A"},
+                 {"box": [135, 111, 219, 132], "font": "sans-bold", "baseline": 132, "ink": "letters", "wear": 0.4, "color": "#9bb09f", "text": "NÍVEL B"},
+                 {"box": [135, 186, 219, 207], "font": "sans-bold", "baseline": 207, "ink": "letters", "wear": 0.7, "color": "#94a996", "text": "NÍVEL C"}],
+    },
+    "sign_008_mines_floors_b": {
+        "en": 'FLOOR A / FLOOR B / FLOOR C (painted, worn)',
+        "erase": [{"rect": [134, 41, 220, 58], "mode": "light", "thresh": 30, "k": 9, "grain": 3},
+                  {"rect": [134, 116, 220, 133], "mode": "light", "thresh": 30, "k": 9, "grain": 3},
+                  {"rect": [134, 191, 220, 208], "mode": "light", "thresh": 25, "k": 9, "grain": 3}],
+        "text": [{"box": [135, 36, 219, 57], "font": "sans-bold", "baseline": 57, "ink": "letters", "wear": 0.4, "color": "#9bb09f", "text": "NÍVEL A"},
+                 {"box": [135, 111, 219, 132], "font": "sans-bold", "baseline": 132, "ink": "letters", "wear": 0.4, "color": "#9bb09f", "text": "NÍVEL B"},
+                 {"box": [135, 186, 219, 207], "font": "sans-bold", "baseline": 207, "ink": "letters", "wear": 0.7, "color": "#94a996", "text": "NÍVEL C"}],
+    },
 }
 
 # Review batches: each is checked by the user, texture by texture, against the original.
@@ -325,6 +462,11 @@ BATCHES = {
            "ATM_screen_001_out_of_order", "exit_sign_001_e", "sign_002_exit_mallment_left",
            "sign_002_exit_mallment_left_corner", "sign_002_exit_mallment_down", "apartment_sign_001_guard",
            "tank_modular_sign_001"],
+    "03": ["theft_alarm_001_sign_electronics", "theft_alarm_001_sign_electronics_e", "theft_alarm_001_sign_skeida",
+           "theft_alarm_001_sign_skeida_e", "theft_alarm_001_sign_rob-in", "theft_alarm_001_sign_rob-in_e",
+           "theft_alarm_001_sign_taxfree", "theft_alarm_001_sign_taxfree_e", "desk_sign_001",
+           "desk_sign_001_robin_fix_this", "desk_sign_001_dishes", "decal_hostel_shower_001", "decal_hostel_shower_002",
+           "alarm_001", "sign_008_mines_floors", "sign_008_mines_floors_b"],
 }
 
 NUMBERS = {}

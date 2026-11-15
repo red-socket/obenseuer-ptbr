@@ -61,7 +61,8 @@ def regrain(out, mask, rect, radius, seed, local):
     return out
 
 
-def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, isolate=False, grain=0):
+def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, isolate=False, grain=0, detect=None,
+          return_mask=False):
     """Inpaint the old letters inside rect.
 
     mode "color": letters are pixels far from the background colour (flat backgrounds).
@@ -69,19 +70,22 @@ def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, is
     (black-hat / top-hat with a k x k kernel), so grime and stains on worn signs are left alone.
     isolate: fill only from pixels inside rect, so a frame right next to the letters doesn't bleed in.
     grain: put back texture grain sampled within that radius (see regrain).
+    detect: find the letters on this image instead (same layout), e.g. the base texture of a dim emission map.
     """
     x0, y0, x1, y1 = rect
-    region = rgb[y0:y1, x0:x1].astype(int)
+    look = rgb if detect is None else detect
+    region = look[y0:y1, x0:x1].astype(int)
     if mode == "color":
         ref = np.median(region.reshape(-1, 3), axis=0) if bg is None else np.array(hexrgb(bg))
         letters = np.abs(region - ref).sum(axis=2) > thresh
     else:
-        gray = cv2.cvtColor(rgb, cv2.COLOR_RGB2GRAY)
+        gray = cv2.cvtColor(np.ascontiguousarray(look), cv2.COLOR_RGB2GRAY)
         op = cv2.MORPH_BLACKHAT if mode == "dark" else cv2.MORPH_TOPHAT
         hat = cv2.morphologyEx(gray, op, cv2.getStructuringElement(cv2.MORPH_RECT, (k, k)))
         letters = hat[y0:y1, x0:x1] > thresh
     mask = np.zeros(rgb.shape[:2], np.uint8)
     mask[y0:y1, x0:x1] = letters.astype(np.uint8) * 255
+    core = mask > 0   # the letters themselves, before growing the mask into their anti-aliased edges
     if grow:
         mask = cv2.dilate(mask, np.ones((3, 3), np.uint8), iterations=grow)
         clip = np.zeros_like(mask); clip[y0:y1, x0:x1] = 255
@@ -94,7 +98,7 @@ def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, is
         out = cv2.inpaint(rgb, mask, radius, cv2.INPAINT_TELEA)
     if grain:
         out = regrain(out, mask > 0, rect, grain, x0 * 1000 + y0, isolate)
-    return out
+    return (out, core) if return_mask else out
 
 
 def fill(rgb, rect, color):
@@ -224,13 +228,23 @@ def pixel_layer(size, t, name):
     return mask * t.get("opacity", 1.0)
 
 
-def ink(t, a, name, rgb):
+def ink(t, a, name, rgb, orig, old):
     """Per-pixel ink colour (h, w, 3) for text t drawn with mask a. Worn signs don't have flat ink:
     "shade": [top, bottom] brightness added from the top to the bottom row of the text,
     "mottle": strength of blotchy variation (stains),
-    "ink_from": [dx, dy] takes the colour from the cleaned texture that far away (e.g. the sign's own paint)."""
+    "ink_from": [dx, dy] takes the colour from the cleaned texture that far away (e.g. the sign's own paint),
+    "ink": "letters" uses the colour of the erased letters nearby (smoothly filled in), so glow falloff and
+    vignettes on emission maps carry over."""
     h, w = a.shape
     col = np.zeros((h, w, 3)) + np.array(hexrgb(t["color"]), float)
+    if t.get("ink") == "letters" and old.any():
+        sigma = t.get("ink_sigma", 4)
+        wsum = cv2.GaussianBlur(old.astype(float), (0, 0), sigma)
+        csum = cv2.GaussianBlur(orig.astype(float) * old[:, :, None], (0, 0), sigma)
+        field = csum / np.maximum(wsum, 1e-6)[:, :, None]
+        mean = orig[old].mean(axis=0)
+        trust = np.clip(wsum / 0.05, 0, 1)[:, :, None]   # far from any old letter: their average colour
+        col = field * trust + mean * (1 - trust)
     if t.get("ink_from"):
         dx, dy = t["ink_from"]
         ys = np.clip(np.arange(h) + dy, 0, h - 1)
@@ -253,13 +267,21 @@ def render(name, spec, save=True):
     has_alpha = src.mode in ("RGBA", "LA") or "transparency" in src.info
     im = src.convert("RGBA")
     rgb = np.array(im)[:, :, :3].copy()
+    orig = rgb.copy()
     alpha = np.array(im)[:, :, 3]
+    # "mask_source": detect the old letters on another texture with the same layout (emission maps are too dim).
+    detect = None
+    if spec.get("mask_source"):
+        detect = np.array(Image.open(os.path.join(GAME, spec["mask_source"] + ".png")).convert("RGB"))
+    old = np.zeros(rgb.shape[:2], bool)   # the erased letters, for "ink": "letters"
     for op in spec.get("erase", []):
         if op.get("color"):
             rgb = fill(rgb, op["rect"], op["color"])
         else:
-            rgb = erase(rgb, op["rect"], op.get("bg"), op.get("thresh", 40), op.get("grow", 1), op.get("radius", 3),
-                        op.get("mode", "color"), op.get("k", 5), op.get("isolate", False), op.get("grain", 0))
+            rgb, m = erase(rgb, op["rect"], op.get("bg"), op.get("thresh", 40), op.get("grow", 1), op.get("radius", 3),
+                           op.get("mode", "color"), op.get("k", 5), op.get("isolate", False), op.get("grain", 0),
+                           detect, return_mask=True)
+            old |= m
     if spec.get("noise"):
         # Inpainting leaves flat patches; a little grain makes them match the print.
         rng = np.random.default_rng(len(name))
@@ -283,7 +305,7 @@ def render(name, spec, save=True):
             u = cv2.GaussianBlur(rng.random(a.shape), (0, 0), 1.2)
             u = (u - u.min()) / (np.ptp(u) or 1)
             a = a * (1 - t["wear"] * u ** 2)   # squared: mostly intact, a few patches worn away
-        out = out * (1 - a[:, :, None]) + ink(t, a, name, rgb) * a[:, :, None]
+        out = out * (1 - a[:, :, None]) + ink(t, a, name, rgb, orig, old) * a[:, :, None]
         if aspec and "letters" in aspec:
             aout = aout * (1 - a) + t.get("alpha", aspec["letters"]) * a
     res = np.dstack([np.clip(out + 0.5, 0, 255).astype(np.uint8), np.clip(aout + 0.5, 0, 255).astype(np.uint8)])
