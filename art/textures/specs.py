@@ -25,6 +25,10 @@ FONTS = {
     "oswald-bold": f"{_G}/oswald/Oswald-Bold.ttf",
     "anton": f"{_G}/anton/Anton-Regular.ttf",
     "hand": f"{_G}/patrickhand/PatrickHand-Regular.ttf",
+    "reenie": f"{_G}/reeniebeanie/ReenieBeanie.ttf",
+    "gochi": f"{_G}/gochihand/GochiHand-Regular.ttf",
+    "gloria": f"{_G}/gloriahallelujah/GloriaHallelujah.ttf",
+    "caveat": f"{_G}/caveat/Caveat[wght].ttf",
     "label": "/usr/share/fonts/TTF/DejaVuSans.ttf",
 }
 
@@ -32,9 +36,9 @@ SPECS = {
     # Bazaar shop shelf: "Due to high demand, this item is temporarily out of stock. We apologize for any inconvenience."
     "sign_004_out_of_stock": {
         "en": 'Due to high demand, this item is temporarily out of stock. We apologize for any inconvenience.',
-        "note": 'The original lettering is a narrow pixel font; this uses a condensed sans stretched to the same block.',
-        "erase": [{"rect": [6, 6, 122, 122], "color": "#dcdcdc"}],
-        "text": [{"box": [9, 9, 119, 119], "font": "roboto-cond-bold", "color": "#000000", "leading": 0.2, "stretch": True,
+        "note": 'Set in the sign\'s own pixel font (letters copied from the texture; q, á and à drawn to match).',
+        "erase": [{"rect": [4, 4, 124, 124], "color": "#e2e3e2"}],
+        "text": [{"pixel": "oos", "box": [4, 0, 124, 0], "baselines": [21, 40, 58, 77, 95, 114], "space": 4, "color": "#000000",
                   "text": "Devido à alta\nprocura, este item\nestá esgotado\npor enquanto.\nDesculpe o\ntranstorno."}],
     },
     # Bazaar gate: "NOTICE / Only personnel with a valid passport"
@@ -59,7 +63,7 @@ SPECS = {
     "sign_004_trespass_0": {
         "en": 'PRIVATE PROPERTY',
         "note": 'Vertical text; PROPRIEDADE is longer than PROPERTY, so its letters are narrower.',
-        "erase": [{"rect": [1, 1, 28, 59], "bg": "#b8b8b8", "thresh": 70}],
+        "erase": [{"rect": [1, 1, 25, 59], "bg": "#b8b8b8", "thresh": 70}],   # circle starts at x 26
         "text": [{"box": [15, 3, 25, 57], "font": "sans-bold", "color": "#141414", "rotate": 270, "stretch": True, "text": "PROPRIEDADE"},
                  {"box": [3, 3, 13, 57], "font": "sans-bold", "color": "#141414", "rotate": 270, "stretch": True, "text": "PRIVADA"}],
     },
@@ -75,27 +79,33 @@ SPECS = {
     # the same six letters as BORDER.
     "sign_004_border": {
         "en": 'BORDER / NO TRESPASSING',
-        "note": '"FRONTEIRA" (9 letters) is unreadable at 43 px wide, so "DIVISA" (6, like BORDER). The original hollow letters became solid ones.',
-        "erase": [{"rect": [1, 1, 42, 11], "mode": "light", "thresh": 20, "k": 5},
-                  {"rect": [1, 14, 42, 31], "mode": "dark", "thresh": 25, "k": 5}],
-        "alpha": {"erase": [{"rect": [0, 0, 43, 31], "mode": "dark", "thresh": 40, "k": 5}], "letters": 0},
-        "text": [{"box": [1, 1, 42, 11], "font": "sans-bold", "color": "#c9b48a", "stretch": True, "crisp": 0.5, "text": "DIVISA"},
-                 {"box": [14, 13, 29, 21], "font": "sans-bold", "color": "#1a1a1a", "stretch": True, "crisp": 0.5, "text": "NÃO"},
-                 {"box": [1, 22, 42, 30], "font": "sans-bold", "color": "#1a1a1a", "stretch": True, "crisp": 0.5, "text": "ULTRAPASSE"}],
+        "note": '"FRONTEIRA" (9 letters) doesn\'t fit 43 px in this lettering, so "DIVISA" (6, like BORDER). Each line uses the original\'s pixel lettering, redrawn letter by letter.',
+        "erase": [{"rect": [2, 2, 41, 12], "mode": "light", "thresh": 20, "k": 5, "isolate": True},
+                  {"rect": [12, 14, 32, 23], "mode": "dark", "thresh": 25, "k": 5, "isolate": True},
+                  {"rect": [2, 23, 41, 30], "mode": "dark", "thresh": 25, "k": 5}],
+        "alpha": {"erase": [{"rect": [2, 2, 41, 12], "mode": "light", "thresh": 40, "k": 5, "isolate": True},
+                            {"rect": [12, 14, 32, 23], "mode": "dark", "thresh": 40, "k": 5, "isolate": True},
+                            {"rect": [2, 23, 41, 30], "mode": "dark", "thresh": 40, "k": 5}], "letters": 0},
+        "text": [{"pixel": "border-top", "box": [1, 0, 42, 0], "baselines": [11], "gap": 2, "color": "#a9a8a3",
+                  "alpha": 235, "text": "DIVISA"},
+                 {"pixel": "border-mid", "box": [1, 0, 42, 0], "baselines": [22], "color": "#202020", "text": "NÃO"},
+                 {"pixel": "border-low", "box": [1, 0, 42, 0], "baselines": [28], "color": "#1c1c1b", "text": "ULTRAPASSE"}],
     },
     # Bergmann tunnels (place name, kept): "MAINTENANCE TUNNEL". The gloss map holds an unrelated
     # "DANGER / KEEP OUT" from the base sign; it only changes shininess and is left alone.
     "sign_004_bergmann": {
         "en": 'BERGMANN / MAINTENANCE TUNNEL',
-        "note": 'Bergmann is kept (place name, "Túneis Bergmann" in the item texts).',
-        "erase": [{"rect": [3, 19, 61, 41], "mode": "dark", "thresh": 25, "k": 5, "isolate": True}],
-        "text": [{"box": [3, 20, 60, 40], "font": "sans-bold", "color": "#262624", "leading": 0.2, "crisp": 0.45, "text": "TÚNEL DE\nMANUTENÇÃO"}],
+        "note": 'Bergmann is kept (place name, "Túneis Bergmann" in the item texts). Set in the sign\'s own worn pixel capitals; D, O, G and the accents drawn to match.',
+        "erase": [{"rect": [3, 19, 61, 43], "mode": "dark", "thresh": 25, "k": 5, "isolate": True}],
+        "text": [{"pixel": "bergmann", "box": [2, 0, 62, 0], "baselines": [29, 40], "color": "#1e1e1c", "fade": 0.2,
+                  "text": "TÚNEL DE\nMANUTENÇÃO"}],
     },
     # "WATER TUNNEL"
     "sign_004_bergmann_2": {
         "en": 'BERGMANN / WATER TUNNEL',
-        "erase": [{"rect": [3, 19, 60, 41], "mode": "dark", "thresh": 25, "k": 5}],
-        "text": [{"box": [10, 20, 54, 40], "font": "sans-bold", "color": "#262624", "leading": 0.2, "crisp": 0.45, "text": "TÚNEL\nDE ÁGUA"}],
+        "erase": [{"rect": [3, 19, 60, 43], "mode": "dark", "thresh": 25, "k": 5}],
+        "text": [{"pixel": "bergmann", "box": [2, 0, 62, 0], "baselines": [29, 40], "color": "#1e1e1c", "fade": 0.2,
+                  "text": "TÚNEL\nDE ÁGUA"}],
     },
     # Yellow hazard plate: "DANGER! / CONTAMINATED / AREA"
     "sign_004_bio2": {
@@ -148,7 +158,7 @@ SPECS = {
     "Sign Private Property_0": {
         "en": 'PRIVATE PROPERTY',
         "note": 'Texture of the placeable "Private property" sign.',
-        "erase": [{"rect": [9, 42, 55, 63], "bg": "#bababa", "thresh": 45, "isolate": True}],
+        "erase": [{"rect": [9, 44, 55, 63], "bg": "#bababa", "thresh": 45, "isolate": True}],   # circle ends at row 42
         "text": [{"box": [10, 44, 53, 52], "font": "sans", "color": "#262626", "stretch": True, "stroke": 0.15, "text": "PROPRIEDADE"},
                  {"box": [14, 53, 49, 61], "font": "sans", "color": "#262626", "stretch": True, "stroke": 0.15, "text": "PRIVADA"}],
     },
@@ -156,17 +166,20 @@ SPECS = {
     "sign_police_checkpoint": {
         "en": 'POLICE / CHECKPOINT',
         "note": '"Barreira policial" is the usual term. Alternative: "BLITZ".',
-        "erase": [{"rect": [13, 15, 53, 29], "bg": "#8a6c14", "thresh": 70, "grow": 1, "isolate": True},
-                  {"rect": [11, 37, 55, 47], "bg": "#8a6c14", "thresh": 70, "grow": 1, "isolate": True}],
+        "erase": [{"rect": [13, 14, 53, 29], "mode": "dark", "thresh": 25, "k": 7, "grain": 5},
+                  {"rect": [10, 35, 56, 48], "mode": "dark", "thresh": 25, "k": 7, "grain": 5}],
         "text": [{"box": [12, 16, 54, 29], "font": "sans-bold", "color": "#211810", "stretch": True, "text": "POLÍCIA"},
                  {"box": [12, 38, 54, 45], "font": "sans-bold", "color": "#211810", "stretch": True, "text": "BARREIRA"}],
     },
     # Hand-written cardboard: "Bricks are not welcome here"
     "sign_004_no_bricks": {
         "en": 'Bricks are not welcome here',
-        "note": 'Hand-written; the font is neater than the original scrawl.',
+        "note": 'Hand-written. Main version: Reenie Beanie, thickened. Other fonts are shown as options; name one in the comment to switch.',
         "erase": [{"rect": [18, 6, 112, 90], "mode": "dark", "thresh": 20, "k": 9}],
-        "text": [{"box": [22, 8, 108, 88], "font": "hand", "color": "#262626", "leading": 0.05, "text": "Tijolos\nnão são\nbem-vindos\naqui"}],
+        "text": [{"box": [22, 8, 108, 88], "font": "reenie", "stroke": 0.5, "color": "#1c1c1c", "leading": 0.05,
+                  "text": "Tijolos\nnão são\nbem-vindos\naqui"}],
+        "alts": {"Gochi Hand": {"font": "gochi", "stroke": 0}, "Gloria Hallelujah": {"font": "gloria", "stroke": 0},
+                 "Caveat Bold": {"font": "caveat", "weight": 700, "stroke": 0}},
     },
 }
 

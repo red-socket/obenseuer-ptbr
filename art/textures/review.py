@@ -2,6 +2,7 @@
 """Build the before/after review page for a batch of redrawn textures.
 
     python review.py 01        -> review/textures/batch-01.html (gitignored)
+    python review.py 01 4 7    -> review/textures/batch-01-redo.html, only textures #4 and #7
 
 Every texture is shown next to the original (colour, and the gloss map when the spec redraws it),
 with the English and Portuguese text, where the game uses it, and the open questions. The page
@@ -20,7 +21,8 @@ from PIL import Image
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(HERE))
 sys.path.insert(0, HERE)
-from render import GAME, OUT  # noqa: E402
+import copy  # noqa: E402
+from render import GAME, OUT, render  # noqa: E402
 from specs import BATCHES, NUMBERS, SPECS  # noqa: E402
 
 ASSETS = os.path.dirname(GAME)
@@ -62,10 +64,15 @@ def data_uri(img):
 def main():
     batch = sys.argv[1]
     names = BATCHES[batch]
-    cards = []
+    only = {int(a) for a in sys.argv[2:]}
+    if only:
+        names = [n for n in names if NUMBERS[n] in only]
+        batch += "-redo"
+    cards, blank = [], []
     for i, n in enumerate(names, 1):
         spec = SPECS[n]
         num = NUMBERS[n]
+        blank.append(f"#{num} {n}: ")
         a = Image.open(os.path.join(GAME, spec.get("source", n) + ".png")).convert("RGBA")
         b = Image.open(os.path.join(OUT, n + ".png")).convert("RGBA")
         scale = max(1, min(6, 384 // a.width))
@@ -73,6 +80,11 @@ def main():
         pics = [("Original", a.convert("RGB")), ("Português", b.convert("RGB"))]
         if spec.get("alpha"):
             pics += [("Original gloss", a.getchannel("A")), ("Portuguese gloss", b.getchannel("A"))]
+        # "alts": {label: overrides for the first text line} shows other candidates (e.g. fonts) to choose from.
+        for label, over in spec.get("alts", {}).items():
+            alt = copy.deepcopy(spec)
+            alt["text"][0].update(over)
+            pics.append((f"Option: {label}", render(n, alt, save=False).convert("RGB")))
         imgs = "".join(f'<figure><img src="{data_uri(p)}" width="{w}"><figcaption>{c}</figcaption></figure>'
                        for c, p in pics)
         pt = " / ".join(t["text"].replace("\n", " ") for t in spec["text"])
@@ -119,11 +131,12 @@ button {{ padding:6px 12px; border-radius:4px; border:1px solid var(--line); bac
 <header><h1>Texture review, batch {batch}</h1>
 <p>Each texture next to the game's original, enlarged with hard pixels so every change shows. "Smooth" switches to
 filtered scaling, closer to what the game draws at a distance. Pick a decision per texture; the summary at the bottom
-is what to paste back into the chat.</p></header>
+is what to paste back into the chat. If picking a decision doesn't update the summary box (scripts
+blocked in this viewer), type approve / redo / keep after each line of the box instead.</p></header>
 <div class="bar"><label><input type="checkbox" id="smooth"> Smooth</label><span id="count"></span></div>
 {"".join(cards)}
 <h2>Decisions</h2>
-<textarea id="out" readonly></textarea>
+<textarea id="out">{html.escape(chr(10).join([f"Texture review {batch}"] + blank))}</textarea>
 <p><button id="copy">Copy</button></p>
 <script>
 const key = "texture-review-{batch}";

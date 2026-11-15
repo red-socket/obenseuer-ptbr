@@ -15,6 +15,7 @@ Needs Pillow, numpy and opencv-python.
 import argparse
 import os
 import sys
+import zlib
 
 import cv2
 import numpy as np
@@ -29,6 +30,7 @@ SS = 8   # supersampling for text
 
 sys.path.insert(0, HERE)
 from specs import SPECS, FONTS  # noqa: E402
+from pixelfonts import PIXEL_FONTS  # noqa: E402
 
 
 def hexrgb(c):
@@ -36,13 +38,33 @@ def hexrgb(c):
     return tuple(int(c[i:i + 2], 16) for i in (0, 2, 4))
 
 
-def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, isolate=False):
+def regrain(out, mask, rect, radius, seed):
+    """Inpainting is smooth; grainy textures show the patch. Give every inpainted pixel the fine detail
+    (pixel minus its blurred surroundings) of a random untouched pixel nearby whose blurred colour is close."""
+    base = cv2.GaussianBlur(out.astype(float), (0, 0), 1.2)
+    detail = out.astype(float) - base
+    rng = np.random.default_rng(seed)
+    h, w = mask.shape
+    res = out.astype(float)
+    x0, y0, x1, y1 = rect
+    for y, x in zip(*np.nonzero(mask[y0:y1, x0:x1])):
+        y, x = y + y0, x + x0
+        for _ in range(40):
+            sy, sx = y + rng.integers(-radius, radius + 1), x + rng.integers(-radius, radius + 1)
+            if 0 <= sy < h and 0 <= sx < w and not mask[sy, sx] and np.abs(base[sy, sx] - base[y, x]).sum() < 45:
+                res[y, x] = base[y, x] + detail[sy, sx]
+                break
+    return np.clip(res + 0.5, 0, 255).astype(np.uint8)
+
+
+def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, isolate=False, grain=0):
     """Inpaint the old letters inside rect.
 
     mode "color": letters are pixels far from the background colour (flat backgrounds).
     mode "dark" / "light": letters are thin strokes darker / lighter than their surroundings
     (black-hat / top-hat with a k x k kernel), so grime and stains on worn signs are left alone.
     isolate: fill only from pixels inside rect, so a frame right next to the letters doesn't bleed in.
+    grain: put back texture grain sampled within that radius (see regrain).
     """
     x0, y0, x1, y1 = rect
     region = rgb[y0:y1, x0:x1].astype(int)
@@ -64,8 +86,11 @@ def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, is
         out = rgb.copy()
         out[y0:y1, x0:x1] = cv2.inpaint(np.ascontiguousarray(rgb[y0:y1, x0:x1]),
                                         np.ascontiguousarray(mask[y0:y1, x0:x1]), radius, cv2.INPAINT_TELEA)
-        return out
-    return cv2.inpaint(rgb, mask, radius, cv2.INPAINT_TELEA)
+    else:
+        out = cv2.inpaint(rgb, mask, radius, cv2.INPAINT_TELEA)
+    if grain:
+        out = regrain(out, mask > 0, rect, grain, x0 * 1000 + y0)
+    return out
 
 
 def fill(rgb, rect, color):
@@ -88,6 +113,8 @@ def text_layer(size, t):
 
     def measure(px):
         f = ImageFont.truetype(font_path, px)
+        if t.get("weight"):   # variable fonts: wght axis
+            f.set_variation_by_axes([t["weight"]])
         boxes = [f.getbbox(l) for l in lines]
         hb = f.getbbox("Hgjpy")   # ink height of a line; accents may reach into the gap above
         lh = hb[3] - hb[1]
@@ -145,7 +172,36 @@ def text_layer(size, t):
     return small * t.get("opacity", 1.0)
 
 
-def render(name, spec):
+def pixel_layer(size, t, name):
+    """Text t set in a bitmap font from pixelfonts.py: one line per baseline in t["baselines"], centred in
+    the box's x range (or left-aligned), "gap" empty columns between letters and "space" between words.
+    "fade" lightens each ink pixel by a random amount up to that fraction, like the worn originals.
+    Returns a mask in 0..1."""
+    w, h = size
+    font = PIXEL_FONTS[t["pixel"]]
+    gap, space = t.get("gap", 1), t.get("space", 3)
+    mask = np.zeros((h, w))
+    x0, _, x1, _ = t["box"]
+    for line, base in zip(t["text"].split("\n"), t["baselines"]):
+        words = [[font[c] for c in word] for word in line.split(" ")]
+        width = sum(sum(len(g[0][0]) for g in wd) + gap * (len(wd) - 1) for wd in words) + space * (len(words) - 1)
+        x = x0 if t.get("align") == "left" else x0 + (x1 - x0 - width + 1) // 2
+        for wd in words:
+            for rows, below in wd:
+                top = base + below - len(rows) + 1
+                for dy, row in enumerate(rows):
+                    for dx, c in enumerate(row):
+                        if c == "#" and 0 <= top + dy < h and 0 <= x + dx < w:
+                            mask[top + dy, x + dx] = 1
+                x += len(rows[0]) + gap
+            x += space - gap
+    if t.get("fade"):
+        rng = np.random.default_rng(zlib.crc32(name.encode()))
+        mask *= 1 - t["fade"] * rng.random(mask.shape)
+    return mask * t.get("opacity", 1.0)
+
+
+def render(name, spec, save=True):
     src = Image.open(os.path.join(GAME, spec.get("source", name) + ".png"))
     has_alpha = src.mode in ("RGBA", "LA") or "transparency" in src.info
     im = src.convert("RGBA")
@@ -156,7 +212,7 @@ def render(name, spec):
             rgb = fill(rgb, op["rect"], op["color"])
         else:
             rgb = erase(rgb, op["rect"], op.get("bg"), op.get("thresh", 40), op.get("grow", 1), op.get("radius", 3),
-                        op.get("mode", "color"), op.get("k", 5), op.get("isolate", False))
+                        op.get("mode", "color"), op.get("k", 5), op.get("isolate", False), op.get("grain", 0))
     if spec.get("noise"):
         # Inpainting leaves flat patches; a little grain makes them match the print.
         rng = np.random.default_rng(len(name))
@@ -174,15 +230,16 @@ def render(name, spec):
     out = rgb.astype(float)
     aout = alpha.astype(float)
     for t in spec["text"]:
-        a = text_layer(im.size, t)
+        a = pixel_layer(im.size, t, name) if t.get("pixel") else text_layer(im.size, t)
         out = out * (1 - a[:, :, None]) + np.array(hexrgb(t["color"]), float) * a[:, :, None]
         if aspec and "letters" in aspec:
             aout = aout * (1 - a) + t.get("alpha", aspec["letters"]) * a
     res = np.dstack([np.clip(out + 0.5, 0, 255).astype(np.uint8), np.clip(aout + 0.5, 0, 255).astype(np.uint8)])
     mode = "RGBA" if has_alpha else "RGB"
     img = Image.fromarray(res, "RGBA").convert(mode)
-    os.makedirs(OUT, exist_ok=True)
-    img.save(os.path.join(OUT, name + ".png"))
+    if save:
+        os.makedirs(OUT, exist_ok=True)
+        img.save(os.path.join(OUT, name + ".png"))
     return img
 
 
