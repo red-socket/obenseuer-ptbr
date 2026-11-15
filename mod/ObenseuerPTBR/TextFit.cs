@@ -1,27 +1,52 @@
+using System;
+using System.Collections.Generic;
 using System.Globalization;
 using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace ObenseuerPTBR
 {
     /// <summary>
     /// Keeps Portuguese (usually longer than the English) inside the space the game laid out for the English.
-    /// A translation that needs more lines than the English, or is wider than a sign drawn for the English,
-    /// is scaled down with a &lt;size=N%&gt; tag, never below a minimum.
+    /// A one-line label centred in a wider parent (a button whose label box was sized for the English word)
+    /// is widened first. A translation that still needs more lines than the English, or is wider than a sign
+    /// drawn for the English, is scaled down with a &lt;size=N%&gt; tag, never below a minimum.
     /// </summary>
     internal static class TextFit
     {
         private const float MinUiScale = 0.6f;
         private const float MinSignScale = 0.55f;
+        private const float Gutter = 6f;   // space kept between a widened label and its parent's edges
         private static readonly Regex Tag = new Regex("<[^<>]*>", RegexOptions.CultureInvariant);
+
+        // Label resizes are applied on the next frame, outside TMP's text generation.
+        private static readonly Dictionary<int, Action> pending = new Dictionary<int, Action>();
+        private static readonly HashSet<int> widened = new HashSet<int>();   // each label is widened at most once
+
+        public static void ApplyPending()
+        {
+            if (pending.Count == 0) return;
+            var actions = new List<Action>(pending.Values);
+            pending.Clear();
+            foreach (Action a in actions)
+            {
+                try { a(); }
+                catch (Exception e) { Plugin.Log.LogDebug($"Label resize skipped: {e.Message}"); }
+            }
+        }
 
         public static string Fit(TMP_Text label, string english, string pt)
         {
-            if (label == null || label.font == null || label.enableAutoSizing || pt.IndexOf("<size", System.StringComparison.OrdinalIgnoreCase) >= 0)
+            if (label == null || label.font == null || pt.IndexOf("<size", StringComparison.OrdinalIgnoreCase) >= 0)
                 return pt;
+            if (SizedByLayout(label))
+                return pt;   // the layout already sizes the box to the text; fitting would fight it
             float en = Width(label, english), tr = Width(label, pt);
             if (en <= 0f || tr <= en * 1.02f)
+                return pt;
+            if (TryWiden(label, english, tr) || label.enableAutoSizing)
                 return pt;
 
             float scale = 1f;
@@ -38,8 +63,9 @@ namespace ObenseuerPTBR
             }
             else
             {
-                int lines = Lines(label, english, unit, box, 1f);
-                for (scale = 1f; scale > MinUiScale && Lines(label, pt, unit, box, scale) > lines; scale -= 0.05f) { }
+                // The English was laid out to fit, so count its lines leniently and the Portuguese strictly.
+                int lines = Lines(label, english, unit, box * 1.03f, 1f);
+                for (scale = 1f; scale > MinUiScale && Lines(label, pt, unit, box * 0.94f, scale) > lines; scale -= 0.05f) { }
                 scale = Mathf.Max(MinUiScale, scale);
             }
             if (scale >= 0.99f)
@@ -54,20 +80,72 @@ namespace ObenseuerPTBR
         public static void PreferOneLine(TMP_Text label)
         {
             if (!label.enableAutoSizing || label.textWrappingMode == TextWrappingModes.NoWrap) return;
-            float h = label.rectTransform.rect.height - label.margin.y - label.margin.w;
-            string text = label.text;
-            if (h <= 0f || h >= label.fontSizeMax * 2f || (text != null && text.IndexOf('\n') >= 0)) return;
-            label.textWrappingMode = TextWrappingModes.NoWrap;
+            if (IsOneLine(label)) label.textWrappingMode = TextWrappingModes.NoWrap;
         }
 
-        // Estimated wrapped line count: each paragraph's width over the box, at a given size scale.
+        /// <summary>
+        /// True when the label's width follows its own text: a content size fitter on the label, or on a parent
+        /// whose layout group sizes its children (the main-menu buttons). Fitting such a label would fight the
+        /// layout and flicker. A layout group without a fitter gives fixed cells (the blueprint table), which
+        /// still need fitting.
+        /// </summary>
+        public static bool SizedByLayout(TMP_Text label)
+        {
+            if (FitsWidth(label.GetComponent<ContentSizeFitter>())) return true;
+            Transform parent = label.transform.parent;
+            if (parent == null) return false;
+            var group = parent.GetComponent<HorizontalOrVerticalLayoutGroup>();
+            return group != null && group.enabled && group.childControlWidth && FitsWidth(parent.GetComponent<ContentSizeFitter>());
+        }
+
+        private static bool FitsWidth(ContentSizeFitter f) =>
+            f != null && f.enabled && f.horizontalFit != ContentSizeFitter.FitMode.Unconstrained;
+
+        // Too short for two lines at the label's authored size, and the English is a single line.
+        private static bool IsOneLine(TMP_Text label)
+        {
+            float h = label.rectTransform.rect.height - label.margin.y - label.margin.w;
+            float size = label.enableAutoSizing ? Mathf.Min(label.fontSizeMax, label.fontSize) : label.fontSize;
+            string text = label.text;
+            return h > 0f && size > 0f && h < size * 2.4f && (text == null || text.IndexOf('\n') < 0);
+        }
+
+        /// <summary>
+        /// Widens a one-line UI label that is centred in its parent and inset from its edges, so the translation
+        /// fits on one line at the label's full size. Returns true if a resize was scheduled.
+        /// </summary>
+        private static bool TryWiden(TMP_Text label, string english, float widthEm)
+        {
+            if (label is TextMeshPro || english.IndexOf('\n') >= 0 || widened.Contains(label.GetInstanceID())
+                || SizedByLayout(label) || !IsOneLine(label)) return false;
+            RectTransform rt = label.rectTransform;
+            if (!(rt.parent is RectTransform parent) || rt.anchorMin.x != 0f || rt.anchorMax.x != 1f
+                || Mathf.Abs(rt.pivot.x - 0.5f) > 0.01f || Mathf.Abs(rt.anchoredPosition.x) > 1f || rt.sizeDelta.x >= -Gutter)
+                return false;
+            float size = label.enableAutoSizing ? label.fontSizeMax : label.fontSize;
+            float needed = widthEm * size + label.margin.x + label.margin.z + 2f;
+            float extra = needed - rt.rect.width;
+            if (extra <= 0f) return false;
+            float newDelta = Mathf.Min(-Gutter, rt.sizeDelta.x + extra);
+            if (newDelta <= rt.sizeDelta.x + 0.5f) return false;
+            widened.Add(label.GetInstanceID());
+            pending[label.GetInstanceID()] = () =>
+            {
+                if (label == null) return;
+                rt.sizeDelta = new Vector2(newDelta, rt.sizeDelta.y);
+                label.ForceMeshUpdate(false, true);
+            };
+            return true;
+        }
+
+        // Estimated wrapped line count: each paragraph's width over the (adjusted) box, at a given size scale.
         private static int Lines(TMP_Text label, string text, float unit, float box, float scale)
         {
             int lines = 0;
             foreach (string para in Tag.Replace(text, "").Split('\n'))
             {
                 float w = Width(label, para) * unit * scale;
-                lines += Mathf.Max(1, Mathf.CeilToInt(w / (box * 0.97f)));
+                lines += Mathf.Max(1, Mathf.CeilToInt(w / box));
             }
             return lines;
         }
@@ -80,6 +158,7 @@ namespace ObenseuerPTBR
             if ((style & (FontStyles.UpperCase | FontStyles.SmallCaps)) != 0) s = s.ToUpperInvariant();
             else if ((style & FontStyles.LowerCase) != 0) s = s.ToLowerInvariant();
             float spacing = label.characterSpacing * 0.01f, max = 0f, line = 0f;
+            if ((style & FontStyles.Bold) != 0) spacing += label.font.boldSpacing * 0.01f;   // TMP widens bold glyphs
             foreach (char c in s)
             {
                 if (c == '\n') { max = Mathf.Max(max, line); line = 0f; continue; }

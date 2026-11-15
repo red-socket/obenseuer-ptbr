@@ -60,6 +60,8 @@ namespace ObenseuerPTBR
             Enabled.SettingChanged += (s, e) => UiText.AttachAll();
         }
 
+        private void Update() => TextFit.ApplyPending();
+
         private void Start()
         {
             UiText.AttachAll();

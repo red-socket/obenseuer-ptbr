@@ -26,6 +26,7 @@ Translations are gettext `.po` files in `translations/pt-BR/`, one per domain. E
 ## For translators
 
 - Edit the `.po` files with [Poedit](https://poedit.net/), Weblate or any text editor.
+- Or review in a spreadsheet: `python3 -I tools/review_csv.py export` writes every entry to `review/pt-BR.csv` (columns: file, key, english, portuguese, reviewed, note, context). Edit the Portuguese, put an `x` in `reviewed` to approve a line, then `python3 -I tools/review_csv.py import` and `python3 -I tools/check.py`.
 - `tools/extract.py` regenerates the English templates (`.pot`) from a local [AssetRipper](https://github.com/AssetRipper/AssetRipper) export of the game. After a game update, merge them into the translations with `msgmerge`, so changed lines are marked fuzzy and new lines appear untranslated.
 - Turn on `CollectUntranslated` in `BepInEx/config/redsocket.obenseuer.ptbr.cfg` to log every on-screen English label that has no translation to `untranslated.po`.
 
