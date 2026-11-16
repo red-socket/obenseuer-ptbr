@@ -597,6 +597,8 @@ def render(name, spec, save=True):
                     if key in nz:
                         frac, lo, hi = nz[key]; hit = rng.random(v.shape) < frac
                         v[hit] = rng.uniform(lo, hi, v.shape)[hit]
+                if nz.get("blur"):   # soften the specks a little, like the original's
+                    v = cv2.GaussianBlur(v, (0, 0), nz["blur"])
                 a3[y0:y1, x0:x1] = np.clip(v, 0, 255).astype(np.uint8)[:, :, None]
                 continue
             a3 = fill(a3, op["rect"], op["color"]) if op.get("color") else erase(

@@ -1870,6 +1870,7 @@ SPECS = {
 
 
 
+
     # ---- Batch 14: tier 1c signs (market bands, canteen menu, wooden aisle signs, timetable, notices, badge, Rob-In) ----
     "Market_sign_alcohol_001": {
         "en": "ALCOHOL (outlined letters on a band)",
@@ -1882,7 +1883,7 @@ SPECS = {
         "en": "DRINKS (outlined letters on a band)",
         "note": "\"Bebidas\". Outlined block letters filling the band like the original.",
         "erase": [{"rect": [0, 202, 256, 256], "bg": "#00b4ec", "thresh": 25, "grow": 1, "isolate": True, "scatter": [256, 50]}],
-        "alpha": {"erase": [{"rect": [0, 202, 256, 256], "noise": {"base": 250, "grey": [0.04, 120, 210], "dark": [0.025, 0, 90]}}], "outline": 20},
+        "alpha": {"erase": [{"rect": [0, 202, 256, 256], "noise": {"base": 250, "grey": [0.09, 110, 215], "dark": [0.05, 0, 90], "blur": 0.6}}], "outline": 20},
         "text": [{"box": [2, 205, 254, 255], "font": "sans-bold", "text": "BEBIDAS", "stretch": True, "outline": [2, "#0a6c98"], "color": "#00b0ea"}],
     },
     "Market_sign_001_skin2": {
