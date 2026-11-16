@@ -1353,6 +1353,7 @@ SPECS = {
 
 
 
+
     # ---- Batch 10: shop windows, security plates, cardboard signs (tier 1b) ----
     "shop_facade_001_window_alco": {
         "en": "WINE BEER SPIRITS / ALCO (liquor shop window)",
@@ -1424,20 +1425,18 @@ SPECS = {
     },
     "cardboard_sign_002_buy_stuff_0": {
         "en": "BUY MY / STUFF :) (red marker on cardboard)",
-        "note": "Marker hand in Nanum Pen Script; other hands are shown as options.",
+        "note": "Marker hand in Waiting for the Sunrise (chosen in review).",
         "erase": [{"rect": [0, 20, 128, 86], "bg": "#9f8b5a", "thresh": 50, "grow": 1, "only_red": 25, "scatter": [6, 4]}],
-        "text": [{"box": [4, 22, 124, 50], "font": "nanum-pen", "text": "COMPRE MINHAS", "size": 34, "stroke": 0.3, "color": "#a4402e", "mottle": 8},
-                 {"box": [10, 54, 118, 84], "font": "nanum-pen", "text": "COISAS :)", "size": 40, "stroke": 0.3, "color": "#a4402e", "mottle": 8}],
-        "alts": {"Reenie Beanie": {"font": "reenie-b", "stroke": 0.6}, "Waiting for the Sunrise": {"font": "sunrise", "stroke": 0.6}, "Rock Salt": {"font": "rocksalt"}},
+        "text": [{"box": [4, 22, 124, 50], "font": "sunrise", "text": "COMPRE MINHAS", "size": 34, "stroke": 0.6, "color": "#a4402e", "mottle": 8},
+                 {"box": [10, 54, 118, 84], "font": "sunrise", "text": "COISAS :)", "size": 40, "stroke": 0.6, "color": "#a4402e", "mottle": 8}],
     },
     "cardboard_sign_002_hostel": {
         "en": "PLACE / TO / SLEEP, 30 OC (red marker; bed doodle)",
-        "note": "\"Lugar pra dormir\" (\"pra\" is the everyday form of \"para\"). The bed doodle and 30 OC stay. Options: other hands.",
+        "note": "\"Lugar pra dormir\" (\"pra\" is the everyday form of \"para\"). The bed doodle and 30 OC stay. Reenie Beanie (chosen in review).",
         "erase": [{"rect": [4, 38, 100, 108], "bg": "#9f8b5a", "thresh": 50, "grow": 1, "only_red": 25, "isolate": True, "scatter": [6, 4]}],
-        "text": [{"box": [8, 40, 92, 70], "font": "nanum-pen", "text": "LUGAR", "stretch": True, "stroke": 0.3, "rotate": -3, "color": "#a4402e", "mottle": 8},
-                 {"box": [26, 70, 62, 86], "font": "nanum-pen", "text": "PRA", "stretch": True, "stroke": 0.3, "rotate": -3, "color": "#a4402e", "mottle": 8},
-                 {"box": [12, 86, 82, 100], "font": "nanum-pen", "text": "DORMIR", "stretch": True, "stroke": 0.3, "rotate": -2, "color": "#a4402e", "mottle": 8}],
-        "alts": {"Reenie Beanie": {"font": "reenie-b", "stroke": 0.6}, "Waiting for the Sunrise": {"font": "sunrise", "stroke": 0.6}, "Rock Salt": {"font": "rocksalt"}},
+        "text": [{"box": [8, 40, 92, 70], "font": "reenie-b", "text": "LUGAR", "stretch": True, "stroke": 0.6, "rotate": -3, "color": "#a4402e", "mottle": 8},
+                 {"box": [26, 70, 62, 86], "font": "reenie-b", "text": "PRA", "stretch": True, "stroke": 0.6, "rotate": -3, "color": "#a4402e", "mottle": 8},
+                 {"box": [12, 86, 82, 100], "font": "reenie-b", "text": "DORMIR", "stretch": True, "stroke": 0.6, "rotate": -2, "color": "#a4402e", "mottle": 8}],
     },
     "mine_motel_sign_001": {
         "en": "THE PICKAXE / MOTEL (the O is a pickaxe badge)",
