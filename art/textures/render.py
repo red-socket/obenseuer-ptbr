@@ -4,7 +4,8 @@
     python render.py [NAME ...]            render the specs in specs.py (all, or the named ones)
     python render.py --sheet OUT NAME ...  also write a before/after review sheet
 
-Reads the game texture from the AssetRipper export, erases the English text, draws the Portuguese
+Reads the game texture from the AssetRipper export, erases the English text (or takes a hand-cleaned plate from
+art/textures/clean/<name>.png), draws the Portuguese
 and writes art/textures/out/pt-BR/<name>.png (same name and size; staging, not shipped). Approved
 textures are copied to textures/pt-BR/, which is what the plugin loads.
 
@@ -416,6 +417,15 @@ def render(name, spec, save=True):
                 a = (layer.astype(float) / 255) * inside
                 rgb = np.clip(rgb * (1 - a[:, :, None]) + np.array(hexrgb(rp["color"]), float) * a[:, :, None] + 0.5,
                               0, 255).astype(np.uint8)
+    # A hand-cleaned plate (text removed in an image editor) replaces the automatic erase: art/textures/clean/<name>.png,
+    # same size as the game texture. The erase ops above still run so new text can take its colour from the old letters.
+    clean = os.path.join(HERE, "clean", name + ".png")
+    if os.path.exists(clean):
+        plate = np.array(Image.open(clean).convert("RGB"))
+        if plate.shape == rgb.shape:
+            rgb = plate.copy()
+        else:
+            print(f"warning: {clean} is {plate.shape[1]}x{plate.shape[0]}, expected {rgb.shape[1]}x{rgb.shape[0]}; ignored")
     if spec.get("noise"):
         # Inpainting leaves flat patches; a little grain makes them match the print.
         rng = np.random.default_rng(len(name))

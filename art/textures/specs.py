@@ -1462,6 +1462,10 @@ SPECS = {
 
 
 
+
+
+
+
     # ---- Batch 11: Ankea posters, farm, restaurant, fungi, casino, Möbelmann, beer (tier 1b) ----
     "Market_sign_002_ankea_a": {
         "en": "ANKEA / kolotus / gaming chair / check price inside! / new gaming collection (poster)",
@@ -1497,10 +1501,10 @@ SPECS = {
     },
     "farm_sign_001": {
         "en": "KURAHAARA BROTHERS / FARMING COOPERATIVE (painted sign)",
-        "note": "\"Irmãos Kurahaara\" as in the game text (fazenda dos irmãos Kurahaara).",
-        "erase": [{"rect": [28, 20, 476, 52], "mode": "light", "thresh": 20, "k": 15, "grain": 2, "scatter": [8, 4]}, {"rect": [46, 64, 468, 114], "mode": "light", "thresh": 20, "k": 15, "grain": 2, "scatter": [8, 4]}],
-        "text": [{"box": [34, 21, 470, 50], "font": "hand", "text": "IRMÃOS KURAHAARA", "stretch": True, "mottle": 8, "color": "#7f9552"},
-                 {"box": [54, 68, 460, 111], "font": "hand", "text": "COOPERATIVA AGRÍCOLA", "stretch": True, "mottle": 8, "color": "#b18a63"}],
+        "note": "\"Irmãos Kurahaara\" as in the game text. Uneven hand-painted pixel capitals like the original.",
+        "erase": [{"rect": [34, 20, 470, 52], "mode": "light", "thresh": 20, "k": 15, "grain": 2, "isolate": True, "scatter": [12, 6]}, {"rect": [56, 64, 462, 114], "mode": "light", "thresh": 20, "k": 15, "grain": 2, "isolate": True, "scatter": [12, 6]}],
+        "text": [{"box": [34, 22, 470, 50], "font": "hand", "text": "IRMÃOS KURAHAARA", "stretch": True, "pixelate": 2, "mottle": 10, "color": "#829856"},
+                 {"box": [54, 69, 460, 110], "font": "hand", "text": "COOPERATIVA AGRÍCOLA", "stretch": True, "pixelate": 2, "mottle": 10, "color": "#b48d66"}],
     },
     "shop_facade_001_window_macaroni": {
         "en": "RESTAURANT / Scatola Di Maccheroni",
@@ -1530,10 +1534,10 @@ SPECS = {
     },
     "sign_002_general_store": {
         "en": "GENERAL TRADER / BUYS/SELLS STUFF (hand-painted board)",
-        "note": "\"Comerciante geral\" as in the game text.",
+        "note": "\"Comerciante geral\" as in the game text. Crude pixel brush lettering like the original.",
         "erase": [{"rect": [10, 132, 150, 154], "mode": "dark", "thresh": 25, "k": 9, "grain": 2, "isolate": True, "scatter": [16, 10]}],
-        "text": [{"box": [14, 132, 146, 145], "font": "kalam", "text": "COMERCIANTE GERAL", "stretch": True, "stroke": 0.4, "color": "#262626"},
-                 {"box": [24, 144, 138, 155], "font": "kalam", "text": "COMPRA E VENDE COISAS", "stretch": True, "color": "#2e2e2e"}],
+        "text": [{"box": [14, 132, 146, 145], "font": "kalam", "text": "COMERCIANTE GERAL", "stretch": True, "stroke": 0.2, "crisp": 0.45, "color": "#202020"},
+                 {"box": [26, 145, 136, 155], "font": "kalam", "text": "COMPRA E VENDE COISAS", "stretch": True, "crisp": 0.45, "color": "#2a2a2a"}],
     },
     "shop_facade_001_window_casino_crazy_a": {
         "en": "CASINO CASINO CASINO (top band)",
@@ -1564,20 +1568,22 @@ SPECS = {
     },
     "sign_006_möbelmann": {
         "en": "MÖBELMANN / FURNITURES (scratchy paint)",
-        "note": "Möbelmann (name) stays; \"Móveis Möbelmann\" in the game text.",
-        "erase": [{"rect": [4, 38, 124, 70], "mode": "light", "thresh": 22, "k": 13, "grain": 2, "isolate": True, "scatter": [10, 6]}],
-        "text": [{"box": [14, 40, 112, 68], "font": "marker", "text": "MÓVEIS", "stretch": True, "outline": [1, "#2a2420"], "color": "#c9b3ab"}],
+        "note": "Möbelmann (name) stays; \"Móveis Möbelmann\" in the game text. Jagged scratchy capitals with a dark outline.",
+        "erase": [{"rect": [4, 38, 124, 70], "thresh": 70, "grow": 1, "isolate": True, "scatter": [16, 6]}],
+        "text": [{"box": [16, 40, 112, 68], "font": "rocksalt", "text": "MÓVEIS", "stretch": True, "pixelate": 2, "outline": [2, "#1c1612"], "color": "#c9b3ab"}],
+        "alts": {"Luckiest Guy": {"font": "luckiest"}, "Chewy": {"font": "chewy"}},
     },
     "Market_sign_beer_001": {
         "en": "BEER (outlined block letters, cut off at the bottom)",
-        "erase": [{"rect": [0, 186, 256, 256], "bg": "#dda000", "thresh": 40, "grow": 1, "isolate": True, "scatter": [8, 8]}],
-        "text": [{"box": [2, 193, 254, 272], "font": "sans-bold", "text": "CERVEJA", "stretch": True, "outline": [3, "#b08000"], "color": "#dda000", "clip": [0, 186, 256, 256]}],
+        "note": "Wide block letters like BEER; CERVEJA has 7 letters, so they are smaller.",
+        "erase": [{"rect": [0, 186, 256, 256], "bg": "#ebab00", "thresh": 10, "grow": 1, "isolate": True, "scatter": [48, 8]}],
+        "text": [{"box": [4, 194, 252, 262], "font": "sans-bold", "text": "CERVEJA", "size": 72, "baseline": 250, "tracking": 0.04, "outline": [3, "#b88500"], "color": "#e6a700", "clip": [0, 186, 256, 256]}],
     },
     "cash_desk_001_sign": {
         "en": "DID YOU REMEMBER? / OSMO OLUT (poster)",
-        "note": "Osmo Olut (brand) stays: \"Lembrou da Osmo Olut?\".",
-        "erase": [{"rect": [5, 31, 102, 48], "mode": "light", "thresh": 25, "k": 9, "grain": 2, "scatter": [6, 3]}],
-        "text": [{"box": [7, 33, 99, 46], "font": "barlow", "text": "LEMBROU DA...", "stretch": True, "tracking": 0.15, "color": "#877561"}],
+        "note": "Osmo Olut (brand) stays: \"Você lembrou? Osmo Olut\".",
+        "erase": [{"rect": [5, 31, 102, 48], "mode": "light", "thresh": 25, "k": 9, "grain": 2, "isolate": True, "scatter": [8, 4]}],
+        "text": [{"box": [7, 33, 99, 46], "font": "barlow", "text": "VOCÊ LEMBROU?", "size": 13, "baseline": 45, "tracking": 0.28, "align": "left", "color": "#877561"}],
     },
 }
 
