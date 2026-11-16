@@ -27,6 +27,7 @@ GAME = os.environ.get("OBENSEUER_TEXTURES",
                       os.path.expanduser("~/Projects/obenseuer/AssetRipper/ExportedProject/Assets/Texture2D"))
 OUT = os.path.join(HERE, "out", "pt-BR")
 SS = 8   # supersampling for text
+LAYERS = {}   # name -> (old letters, text coverage, output colour) of the last render, for "transfer"
 
 sys.path.insert(0, HERE)
 from specs import SPECS, FONTS  # noqa: E402
@@ -62,7 +63,7 @@ def regrain(out, mask, rect, radius, seed, local):
 
 
 def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, isolate=False, grain=0, detect=None,
-          return_mask=False):
+          return_mask=False, poly=None):
     """Inpaint the old letters inside rect.
 
     mode "color": letters are pixels far from the background colour (flat backgrounds).
@@ -71,6 +72,7 @@ def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, is
     isolate: fill only from pixels inside rect, so a frame right next to the letters doesn't bleed in.
     grain: put back texture grain sampled within that radius (see regrain).
     detect: find the letters on this image instead (same layout), e.g. the base texture of a dim emission map.
+    poly: only erase inside this polygon too (slanted text next to other artwork).
     """
     x0, y0, x1, y1 = rect
     look = rgb if detect is None else detect
@@ -85,10 +87,14 @@ def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, is
         letters = hat[y0:y1, x0:x1] > thresh
     mask = np.zeros(rgb.shape[:2], np.uint8)
     mask[y0:y1, x0:x1] = letters.astype(np.uint8) * 255
+    if poly is not None:
+        keep = np.zeros_like(mask); cv2.fillPoly(keep, [np.array(poly, np.int32)], 255); mask &= keep
     core = mask > 0   # the letters themselves, before growing the mask into their anti-aliased edges
     if grow:
         mask = cv2.dilate(mask, np.ones((3, 3), np.uint8), iterations=grow)
         clip = np.zeros_like(mask); clip[y0:y1, x0:x1] = 255
+        if poly is not None:
+            clip[:] = 0; cv2.fillPoly(clip, [np.array(poly, np.int32)], 255)
         mask &= clip
     if isolate:
         out = rgb.copy()
@@ -286,8 +292,55 @@ def render(name, spec, save=True):
         else:
             rgb, m = erase(rgb, op["rect"], op.get("bg"), op.get("thresh", 40), op.get("grow", 1), op.get("radius", 3),
                            op.get("mode", "color"), op.get("k", 5), op.get("isolate", False), op.get("grain", 0),
-                           detect, return_mask=True)
+                           detect, return_mask=True, poly=op.get("poly"))
             old |= m
+    # "transfer": {"from": texture, "rect": [x0, y0, x1, y1]}: this texture contains a scaled copy of another one
+    # (e.g. a poster of the metro map). The other texture's old letters, scaled into rect and widened a little, are
+    # inpainted here, then its new letters are laid on top at the same scale; the copy keeps its own dirt.
+    tr = spec.get("transfer")
+    if tr:
+        render(tr["from"], SPECS[tr["from"]], save=False)
+        sold, scov, sout = LAYERS[tr["from"]]
+        x0, y0, x1, y1 = tr["rect"]
+        size = (x1 - x0, y1 - y0)
+        hole = (cv2.resize(sold.astype(np.float32), size, interpolation=cv2.INTER_AREA) > tr.get("hole", 0.12)).astype(np.uint8)
+        full = np.zeros(rgb.shape[:2], np.uint8); full[y0:y1, x0:x1] = hole[:rgb.shape[0] - y0, :rgb.shape[1] - x0] * 255
+        full[rgb.max(axis=2).astype(int) - rgb.min(axis=2) > 70] = 0   # never inpaint over coloured lines (tracks)
+        rgb = cv2.inpaint(rgb, full, 2, cv2.INPAINT_TELEA)
+        cov = cv2.resize(scov.astype(np.float32), size, interpolation=cv2.INTER_AREA)
+        col = cv2.resize((sout * scov[:, :, None]).astype(np.float32), size, interpolation=cv2.INTER_AREA)
+        col = col / np.maximum(cov, 1e-6)[:, :, None]
+        cov = np.clip(cov * tr.get("gain", 1.0), 0, 1)   # copies are usually crisper than a plain downscale
+        sub = rgb[y0:y1, x0:x1].astype(float)
+        sub = sub * (1 - cov[:, :, None]) + col * cov[:, :, None]
+        rgb[y0:y1, x0:x1] = np.clip(sub + 0.5, 0, 255).astype(np.uint8)
+    # "repair": put back line art that an erase cut through.
+    #   {"vline": [x0, x1], "rows": [y0, y1], "from_row": y}: a straight vertical line, copied from an intact row;
+    #   {"curve": poly, "near": px, "color": hex, "thickness": px, "rgb_test": [rmin, gmax]}: a hand-drawn curve
+    #   through poly, refitted (ellipse) from its pixels within "near" px outside poly (and inside "fit_rect")
+    #   and redrawn inside poly.
+    for rp in spec.get("repair", []):
+        if "vline" in rp:
+            x0, x1 = rp["vline"]; y0, y1 = rp["rows"]
+            rgb[y0:y1, x0:x1] = orig[rp["from_row"], x0:x1][None, :, :]
+        if "curve" in rp:
+            poly = np.array(rp["curve"], np.int32)
+            inside = np.zeros(rgb.shape[:2], np.uint8); cv2.fillPoly(inside, [poly], 1)
+            near = cv2.dilate(inside, np.ones((2 * rp["near"] + 1, 2 * rp["near"] + 1), np.uint8)) & (1 - inside)
+            rmin, gmax = rp["rgb_test"]
+            o = orig.astype(int)
+            line = (o[:, :, 0] > rmin) & (o[:, :, 1] < gmax) & (o[:, :, 0] - o[:, :, 1] > 40) & (near > 0)
+            if rp.get("fit_rect"):   # only the curve's own pixels, not other red art nearby
+                fx0, fy0, fx1, fy1 = rp["fit_rect"]
+                keep = np.zeros_like(line); keep[fy0:fy1, fx0:fx1] = True; line &= keep
+            ys, xs = np.nonzero(line)
+            if len(xs) >= 5:
+                ell = cv2.fitEllipse(np.column_stack([xs, ys]).astype(np.float32))
+                layer = np.zeros(rgb.shape[:2], np.uint8)
+                cv2.ellipse(layer, ell, 255, rp.get("thickness", 4), cv2.LINE_AA)
+                a = (layer.astype(float) / 255) * inside
+                rgb = np.clip(rgb * (1 - a[:, :, None]) + np.array(hexrgb(rp["color"]), float) * a[:, :, None] + 0.5,
+                              0, 255).astype(np.uint8)
     if spec.get("noise"):
         # Inpainting leaves flat patches; a little grain makes them match the print.
         rng = np.random.default_rng(len(name))
@@ -304,8 +357,15 @@ def render(name, spec, save=True):
         alpha = a3[:, :, 0]
     out = rgb.astype(float)
     aout = alpha.astype(float)
+    cov = np.zeros(rgb.shape[:2])
     for t in spec["text"]:
         a = pixel_layer(im.size, t, name) if t.get("pixel") else text_layer(im.size, t)
+        if t.get("under"):   # stay under reddish artwork (e.g. hatching drawn over a street name): r - g above this
+            a = a * ((orig[:, :, 0].astype(int) - orig[:, :, 1]) <= t["under"])
+        if t.get("clip"):   # [x0, y0, x1, y1]: draw only inside (text partly hidden behind something)
+            cx0, cy0, cx1, cy1 = t["clip"]
+            keep = np.zeros_like(a); keep[cy0:cy1, cx0:cx1] = 1
+            a = a * keep
         if t.get("wear"):   # worn ink: fade the mask in uneven patches, up to that fraction
             rng = np.random.default_rng(zlib.crc32((name + "wear" + t.get("text", "")).encode()))
             u = cv2.GaussianBlur(rng.random(a.shape), (0, 0), 1.2)
@@ -321,6 +381,7 @@ def render(name, spec, save=True):
             lum = rgb.mean(axis=2)
             a = a * ((cv2.GaussianBlur(lum, (0, 0), 2) - lum) <= t["grime"])
         out = out * (1 - a[:, :, None]) + ink(t, a, name, rgb, orig, old) * a[:, :, None]
+        cov = 1 - (1 - cov) * (1 - a)
         if aspec and "letters" in aspec:
             aout = aout * (1 - a) + t.get("alpha", aspec["letters"]) * a
     # "alpha_follow": {"rect", "gain"}: on textures whose gloss map is a greyscale copy of the artwork, move the
@@ -334,6 +395,7 @@ def render(name, spec, save=True):
         base = cv2.inpaint(np.ascontiguousarray(alpha), hole, 3, cv2.INPAINT_TELEA).astype(float)
         dl = out.mean(axis=2) - rgb.astype(float).mean(axis=2)
         aout[y0:y1, x0:x1] = (base + af.get("gain", 1.0) * dl)[y0:y1, x0:x1]
+    LAYERS[name] = (old, cov, out)
     res = np.dstack([np.clip(out + 0.5, 0, 255).astype(np.uint8), np.clip(aout + 0.5, 0, 255).astype(np.uint8)])
     mode = "RGBA" if has_alpha else "RGB"
     img = Image.fromarray(res, "RGBA").convert(mode)
