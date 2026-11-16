@@ -37,6 +37,7 @@ FONTS = {
     "lato-black": f"{_G}/lato/Lato-Black.ttf",
     "mono-bold": "/usr/share/fonts/TTF/DejaVuSansMono-Bold.ttf",
     "mono": "/usr/share/fonts/TTF/DejaVuSansMono.ttf",
+    "courier": "/usr/share/fonts/liberation/LiberationMono-Regular.ttf",
     "barlow": f"{_G}/barlow/Barlow-Medium.ttf",
     "lato": f"{_G}/lato/Lato-Regular.ttf",
     "lato-bold": f"{_G}/lato/Lato-Bold.ttf",
@@ -1046,6 +1047,9 @@ SPECS = {
 
 
 
+
+
+
     # ---- Batch 08: shop windows, doors and facades (tier 1b) ----
     "Market_window_002_skeida_2": {
         "en": "WE ARE OPEN EVERYDAY / MON-FRI 0-24 / SATURDAY 0-24 / SUNDAY 0-24 / SKEIDA PHARMACY (window sticker)",
@@ -1158,14 +1162,14 @@ SPECS = {
     "Market_window_002": {
         "en": "ALWAYS OPEN / O MARKET (window sticker)",
         "note": "O Market (name) stays.",
-        "erase": [{"rect": [60, 306, 288, 338], "mode": "dark", "thresh": 25, "k": 11, "grain": 2}],
+        "erase": [{"rect": [60, 306, 288, 335], "mode": "dark", "thresh": 25, "k": 11, "grain": 2, "isolate": True}],
         "alpha_follow": {"rect": [0, 260, 330, 512]},
         "text": [{"box": [62, 307, 282, 334], "font": "sans-bold", "text": "SEMPRE ABERTO", "baseline": 332, "size": 27, "color": "#2734b8", "crisp": 0.5}],
     },
     "sign_002_vet": {
         "en": "VETERINARY CLINIC (spaced capitals)",
         "erase": [{"rect": [56, 222, 234, 239], "mode": "dark", "thresh": 25, "k": 7, "grain": 2}],
-        "text": [{"box": [56, 222, 238, 238], "font": "mono-bold", "text": "CLÍNICA VETERINÁRIA", "baseline": 234, "size": 11, "tracking": 0.1, "color": "#262626", "crisp": 0.42}],
+        "text": [{"box": [54, 221, 240, 239], "font": "courier", "text": "CLÍNICA VETERINÁRIA", "baseline": 235, "size": 14.5, "tracking": 0.02, "color": "#1e1e1e", "crisp": 0.5}],
     },
     "Market_window_002_skeida": {
         "en": "SKEIDA PHARMACY / I'M NOT YOUR SLAVE (small print)",
