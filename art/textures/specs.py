@@ -1606,6 +1606,7 @@ SPECS = {
 
 
 
+
     # ---- Batch 12: menus, Rosso, mirrored Osmo poster, Open Sewer signs, fungal note, ATM (tier 1b) ----
     "Market_sign_001_skin9": {
         "en": "DRINKS menu (chalkboard): Osmo Olut Can, Osmo Lonkero Can, Osmo Energy Drink, Coffee in a Takeaway Cup, Milk Coffee in a Takeaway Cup; Moca-Cola Classic, Moca-Cola Light Classic, Ice Tea, Splurt, Fail, Jaffe, Evitan",
@@ -1659,11 +1660,9 @@ SPECS = {
     },
     "cash_desk_001_sign_inverted": {
         "en": "DID YOU REMEMBER? / OSMO OLUT (mirrored poster, seen from behind)",
-        "note": "The mirrored copy of the Osmo Olut poster (#156), with the same Portuguese mirrored too.",
-        "flip": True,
-        "erase": [{"rect": [5, 33, 100, 48], "mode": "near", "bg": "#877155", "thresh": 24, "grow": 0, "isolate": True, "scatter": [3, 1]}],
-        "alpha": {"erase": [{"rect": [5, 33, 100, 48], "mode": "near", "bg": "#877155", "thresh": 24, "grow": 0, "isolate": True, "scatter": [3, 1], "detect_rgb": True}], "letters": 255},
-        "text": [{"pixel": "osmo", "box": [7, 33, 99, 46], "baselines": [42], "align": "left", "gap": 2, "space": 4, "color": "#877155", "text": "VOCÊ LEMBROU?"}],
+        "note": "The approved Osmo Olut poster (#156), colour mirrored; this texture's gloss is not mirrored, so it is kept as in #156.",
+        "derive": {"from": "cash_desk_001_sign", "mirror_rgb": True},
+        "text": [],
     },
     "sign_003": {
         "en": "OPEN SEWER (stone letters on a framed board)",

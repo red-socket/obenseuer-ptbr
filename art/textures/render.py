@@ -398,11 +398,20 @@ def ink(t, a, name, rgb, orig, old):
 
 
 def render(name, spec, save=True):
+    der = spec.get("derive")
+    if der:   # {"from": name, "mirror_rgb": bool}: a copy of another sign, e.g. a poster seen from behind whose
+        # colour is mirrored but whose gloss is not; reuse that sign's render instead of redoing it
+        res = np.array(render(der["from"], SPECS[der["from"]], save=False).convert("RGBA"))
+        if der.get("mirror_rgb"):
+            res[:, :, :3] = res[:, ::-1, :3]
+        img = Image.fromarray(res, "RGBA")
+        if save:
+            os.makedirs(OUT, exist_ok=True)
+            img.save(os.path.join(OUT, name + ".png"))
+        return img
     src = Image.open(os.path.join(GAME, spec.get("source", name) + ".png"))
     has_alpha = src.mode in ("RGBA", "LA") or "transparency" in src.info
     im = src.convert("RGBA")
-    if spec.get("flip"):   # mirrored copy of another sign (seen from behind): work in the unmirrored layout
-        im = im.transpose(Image.FLIP_LEFT_RIGHT)
     rgb = np.array(im)[:, :, :3].copy()
     orig = rgb.copy()
     alpha = np.array(im)[:, :, 3]
@@ -565,8 +574,6 @@ def render(name, spec, save=True):
     res = np.dstack([np.clip(out + 0.5, 0, 255).astype(np.uint8), np.clip(aout + 0.5, 0, 255).astype(np.uint8)])
     mode = "RGBA" if has_alpha else "RGB"
     img = Image.fromarray(res, "RGBA").convert(mode)
-    if spec.get("flip"):
-        img = img.transpose(Image.FLIP_LEFT_RIGHT)
     if save:
         os.makedirs(OUT, exist_ok=True)
         img.save(os.path.join(OUT, name + ".png"))
