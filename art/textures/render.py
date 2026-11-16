@@ -607,6 +607,11 @@ def render(name, spec, save=True):
                 poly=op.get("poly"), scatter=op.get("scatter"),
                 detect=orig if op.get("detect_rgb") else None)   # find the letters on the colour image
         alpha = a3[:, :, 0]
+        if aspec.get("copy_alpha"):   # the "copy" blocks carry their gloss too (re-used letters keep their shine)
+            a0 = np.array(im)[:, :, 3]
+            for cp in spec.get("copy", []):
+                x0, y0, x1, y1 = cp["from"]; tx, ty = cp["to"]
+                alpha[ty:ty + y1 - y0, tx:tx + x1 - x0] = a0[y0:y1, x0:x1]
     out = rgb.astype(float)
     aout = alpha.astype(float)
     cov = np.zeros(rgb.shape[:2])
