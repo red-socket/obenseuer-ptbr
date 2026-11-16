@@ -63,21 +63,27 @@ def regrain(out, mask, rect, radius, seed, local):
 
 
 def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, isolate=False, grain=0, detect=None,
-          return_mask=False, poly=None):
+          return_mask=False, poly=None, scatter=None):
     """Inpaint the old letters inside rect.
 
     mode "color": letters are pixels far from the background colour (flat backgrounds).
+    mode "bright": whitish letters on a coloured surface (lowest channel above thresh).
     mode "dark" / "light": letters are thin strokes darker / lighter than their surroundings
     (black-hat / top-hat with a k x k kernel), so grime and stains on worn signs are left alone.
     isolate: fill only from pixels inside rect, so a frame right next to the letters doesn't bleed in.
     grain: put back texture grain sampled within that radius (see regrain).
     detect: find the letters on this image instead (same layout), e.g. the base texture of a dim emission map.
     poly: only erase inside this polygon too (slanted text next to other artwork).
+    scatter: [rx, ry]: instead of inpainting, give each letter pixel the colour of a random untouched pixel within
+    rx/ry, for speckled or grimy surfaces where a smooth fill would show.
     """
     x0, y0, x1, y1 = rect
     look = rgb if detect is None else detect
     region = look[y0:y1, x0:x1].astype(int)
-    if mode == "color":
+    hat = ref = None
+    if mode == "bright":   # whitish letters on a coloured surface: all three channels above thresh
+        letters = region.min(axis=2) > thresh
+    elif mode == "color":
         ref = np.median(region.reshape(-1, 3), axis=0) if bg is None else np.array(hexrgb(bg))
         letters = np.abs(region - ref).sum(axis=2) > thresh
     else:
@@ -96,6 +102,27 @@ def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, is
         if poly is not None:
             clip[:] = 0; cv2.fillPoly(clip, [np.array(poly, np.int32)], 255)
         mask &= clip
+    if scatter:
+        rx, ry = scatter
+        m = mask > 0
+        avoid = m.copy()   # never sample letter-like pixels, even outside rect (stripes, other text)
+        if mode == "bright":
+            like = look.min(axis=2) > thresh
+        elif mode == "color":
+            like = np.abs(look.astype(int) - ref).sum(axis=2) > thresh
+        else:
+            like = hat > thresh
+        avoid |= cv2.dilate(like.astype(np.uint8), np.ones((3, 3), np.uint8)) > 0
+        out = cv2.inpaint(rgb, mask, radius, cv2.INPAINT_TELEA)   # fallback where no sample is found
+        rng = np.random.default_rng(x0 * 7919 + y0)
+        h, w = m.shape
+        for y, x in zip(*np.nonzero(m)):
+            for _ in range(120):
+                sy, sx = y + rng.integers(-ry, ry + 1), x + rng.integers(-rx, rx + 1)
+                if 0 <= sy < h and 0 <= sx < w and not avoid[sy, sx] and (not isolate or (x0 <= sx < x1 and y0 <= sy < y1)):
+                    out[y, x] = rgb[sy, sx]
+                    break
+        return (out, core) if return_mask else out
     if isolate:
         out = rgb.copy()
         out[y0:y1, x0:x1] = cv2.inpaint(np.ascontiguousarray(rgb[y0:y1, x0:x1]),
@@ -295,8 +322,13 @@ def render(name, spec, save=True):
         else:
             rgb, m = erase(rgb, op["rect"], op.get("bg"), op.get("thresh", 40), op.get("grow", 1), op.get("radius", 3),
                            op.get("mode", "color"), op.get("k", 5), op.get("isolate", False), op.get("grain", 0),
-                           detect, return_mask=True, poly=op.get("poly"))
+                           detect, return_mask=True, poly=op.get("poly"), scatter=op.get("scatter"))
             old |= m
+    # "copy": [{"from": [x0, y0, x1, y1], "to": [x, y]}]: paste a block of the original texture elsewhere (reuse the
+    # sign's own letters when a word only changes a letter or two).
+    for cp in spec.get("copy", []):
+        x0, y0, x1, y1 = cp["from"]; tx, ty = cp["to"]
+        rgb[ty:ty + y1 - y0, tx:tx + x1 - x0] = orig[y0:y1, x0:x1]
     # "transfer": {"from": texture, "rect": [x0, y0, x1, y1]}: this texture contains a scaled copy of another one
     # (e.g. a poster of the metro map). The other texture's old letters, scaled into rect and widened a little, are
     # inpainted here, then its new letters are laid on top at the same scale; the copy keeps its own dirt.
@@ -383,6 +415,13 @@ def render(name, spec, save=True):
         if t.get("grime"):   # dark specks on the surface stay on top of the paint
             lum = rgb.mean(axis=2)
             a = a * ((cv2.GaussianBlur(lum, (0, 0), 2) - lum) <= t["grime"])
+        if t.get("soften"):   # brush-painted edges
+            a = cv2.GaussianBlur(a, (0, 0), t["soften"])
+        if t.get("outline"):   # [px, colour]: an outline around the letters, drawn first
+            px, oc = t["outline"]
+            ring = cv2.dilate(a.astype(np.float32), cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * px + 1, 2 * px + 1)))
+            ring = np.clip(ring - a, 0, 1)
+            out = out * (1 - ring[:, :, None]) + np.array(hexrgb(oc), float) * ring[:, :, None]
         if t.get("shadow"):   # [dx, dy, colour]: a drop shadow, the same mask shifted, drawn first
             dx, dy, sc = t["shadow"]
             sh = np.zeros_like(a)

@@ -1186,11 +1186,23 @@ SPECS = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
     # ---- Batch 09: small hazard and notice plates (tier 1b) ----
     "sign_004_explosives": {
         "en": "EXPLOSIVE (vertical)",
-        "erase": [{"rect": [10, 1, 19, 57], "mode": "dark", "thresh": 25, "k": 5, "grain": 2, "isolate": True}],
-        "text": [{"box": [12, 3, 17, 55], "font": "sans", "text": "EXPLOSIVO", "rotate": 270, "stretch": True, "crisp": 0.45, "color": "#2a2620"}],
+        "note": "EXPLOSIVE and EXPLOSIVO differ only in the last letter: the sign's own O is copied over the final E.",
+        "copy": [{"from": [11, 26, 18, 31], "to": [11, 45]}],
+        "text": [],
     },
     "sign_004_bio_0": {
         "en": "BIOHAZARD",
@@ -1200,15 +1212,16 @@ SPECS = {
     },
     "sign_004_welcome": {
         "en": "WELCOME",
-        "erase": [{"rect": [2, 21, 78, 33], "mode": "light", "thresh": 25, "k": 7, "grain": 2, "isolate": True}],
+        "erase": [{"rect": [3, 21, 76, 33], "mode": "bright", "thresh": 85, "k": 7, "grain": 2, "grow": 1, "isolate": True, "scatter": [6, 4]}],
         "text": [{"box": [3, 22, 77, 32], "font": "sans-bold", "text": "BEM-VINDO", "stretch": True, "mottle": 10, "chip": 0.06, "chip_scale": 0.5, "color": "#a6a29c"}],
     },
     "sign_004_water": {
         "en": "NORDMARK / WATER / SERVICES",
-        "note": "Nordmark (company) stays; \"Serviços de água\".",
-        "erase": [{"rect": [4, 22, 78, 53], "mode": "light", "thresh": 25, "k": 9, "grain": 2}],
-        "text": [{"box": [6, 23, 76, 36], "font": "sans-bold", "text": "SERVIÇOS", "stretch": True, "mottle": 12, "chip": 0.08, "chip_scale": 0.5, "color": "#cdc4a8"},
-                 {"box": [10, 38, 70, 51], "font": "sans-bold", "text": "DE ÁGUA", "stretch": True, "mottle": 12, "chip": 0.08, "chip_scale": 0.5, "color": "#cdc4a8"}],
+        "note": "Nordmark (company) stays, redrawn in the same lettering as the new lines; \"Serviços de água\".",
+        "erase": [{"rect": [3, 5, 78, 55], "mode": "bright", "thresh": 95, "k": 7, "grain": 2, "grow": 1, "scatter": [4, 4]}],
+        "text": [{"box": [6, 9, 74, 22], "font": "sans-bold", "text": "NORDMARK", "stretch": True, "mottle": 12, "chip": 0.08, "chip_scale": 0.5, "color": "#cdc4a8"},
+                 {"box": [6, 24, 76, 37], "font": "sans-bold", "text": "SERVIÇOS", "stretch": True, "mottle": 12, "chip": 0.08, "chip_scale": 0.5, "color": "#cdc4a8"},
+                 {"box": [10, 39, 70, 52], "font": "sans-bold", "text": "DE ÁGUA", "stretch": True, "mottle": 12, "chip": 0.08, "chip_scale": 0.5, "color": "#cdc4a8"}],
     },
     "sign_004_water_b": {
         "en": "HOT MAIN / COLD MAIN (pipe labels)",
@@ -1222,7 +1235,7 @@ SPECS = {
     "sign_004_bridge": {
         "en": "BRIDGE / TOLL / 10 OC",
         "note": "\"Pedágio da ponte\" as in the game text; 10 OC stays.",
-        "erase": [{"rect": [6, 3, 70, 37], "mode": "light", "thresh": 25, "k": 9, "grain": 2}],
+        "erase": [{"rect": [5, 2, 71, 38], "mode": "bright", "thresh": 110, "k": 7, "grain": 2, "grow": 1, "scatter": [4, 4]}],
         "text": [{"box": [8, 4, 68, 20], "font": "sans-bold", "text": "PEDÁGIO", "stretch": True, "mottle": 14, "chip": 0.15, "chip_scale": 0.5, "color": "#e2dccb"},
                  {"box": [10, 23, 66, 36], "font": "sans-bold", "text": "DA PONTE", "stretch": True, "mottle": 14, "chip": 0.15, "chip_scale": 0.5, "color": "#e2dccb"}],
     },
@@ -1239,50 +1252,51 @@ SPECS = {
         "note": "\"Proibido fumar / Multa 1000\". The gloss map repeats the letters, redrawn too.",
         "erase": [{"rect": [74, 20, 94, 58], "mode": "dark", "thresh": 25, "k": 5, "grain": 2, "isolate": True}, {"rect": [94, 44, 110, 60], "mode": "light", "thresh": 25, "k": 5, "grain": 2, "isolate": True}],
         "alpha": {"erase": [{"rect": [74, 20, 94, 58], "mode": "dark", "thresh": 40, "k": 5}, {"rect": [94, 44, 110, 60], "mode": "dark", "thresh": 40, "k": 5}], "letters": 0},
-        "text": [{"box": [76, 20, 83, 58], "font": "sans-bold", "text": "Proibido", "rotate": 90, "crisp": 0.45, "color": "#202020"},
-                 {"box": [85, 22, 93, 56], "font": "sans-bold", "text": "fumar", "rotate": 90, "crisp": 0.45, "color": "#202020"},
-                 {"box": [96, 44, 108, 60], "font": "sans-bold", "text": "Multa", "rotate": 90, "crisp": 0.45, "color": "#c09a9a", "alpha": 255}],
+        "text": [{"box": [76, 20, 83, 58], "font": "sans-bold", "text": "Proibido", "rotate": 90, "contrast": [0.1, 0.85], "color": "#202020"},
+                 {"box": [85, 22, 93, 56], "font": "sans-bold", "text": "fumar", "rotate": 90, "contrast": [0.1, 0.85], "color": "#202020"},
+                 {"box": [96, 44, 108, 60], "font": "sans-bold", "text": "Multa", "rotate": 90, "contrast": [0.1, 0.85], "color": "#c09a9a", "alpha": 255}],
     },
     "sign_009_diesel": {
         "en": "DIESEL FUEL (vertical, two columns)",
         "note": "\"Óleo diesel\" as on Brazilian pumps. The gloss map repeats the letters, redrawn too.",
         "erase": [{"rect": [66, 13, 86, 70], "mode": "dark", "thresh": 25, "k": 11, "grain": 2, "isolate": True}, {"rect": [92, 13, 112, 70], "mode": "dark", "thresh": 25, "k": 11, "grain": 2, "isolate": True}],
         "alpha": {"erase": [{"rect": [66, 13, 86, 70], "mode": "dark", "thresh": 40, "k": 11}, {"rect": [92, 13, 112, 70], "mode": "dark", "thresh": 40, "k": 11}], "letters": 0},
-        "text": [{"box": [68, 20, 84, 62], "font": "sans", "text": "ÓLEO", "rotate": 90, "size": 20, "color": "#1a1714"},
-                 {"box": [94, 15, 110, 68], "font": "sans", "text": "DIESEL", "rotate": 90, "size": 20, "color": "#1a1714"}],
+        "text": [{"box": [64, 10, 88, 72], "font": "sans", "text": "ÓLEO", "rotate": 90, "size": 23, "squeeze": 0.64, "stroke": 0.25, "crisp": 0.5, "color": "#111010"},
+                 {"box": [92, 10, 114, 72], "font": "sans", "text": "DIESEL", "rotate": 90, "size": 23, "squeeze": 0.64, "stroke": 0.25, "crisp": 0.5, "color": "#111010"}],
     },
     "sign_006_keep_out": {
-        "en": "KEEP OUT! (painted on planks)",
-        "erase": [{"rect": [6, 4, 104, 60], "mode": "dark", "thresh": 35, "k": 17, "grain": 3}],
-        "text": [{"box": [18, 4, 96, 36], "font": "changa", "text": "NÃO", "stretch": True, "mottle": 12, "chip": 0.05, "chip_scale": 0.6, "color": "#3a201c"},
-                 {"box": [8, 38, 102, 60], "font": "changa", "text": "ENTRE!", "stretch": True, "mottle": 12, "chip": 0.05, "chip_scale": 0.6, "color": "#3a201c"}],
+        "en": "KEEP OUT! (brush-painted on a red splotch)",
+        "erase": [{"rect": [6, 4, 104, 61], "mode": "dark", "thresh": 22, "k": 15, "grain": 2, "grow": 1, "scatter": [5, 5]}],
+        "text": [{"box": [14, 4, 98, 35], "font": "kalam", "text": "NÃO", "stretch": True, "stroke": 0.6, "soften": 0.6, "mottle": 8, "color": "#3b1f1a"},
+                 {"box": [8, 36, 102, 60], "font": "kalam", "text": "ENTRE!", "stretch": True, "stroke": 0.6, "soften": 0.6, "mottle": 8, "color": "#3b1f1a"}],
     },
     "sign_006_hardware": {
-        "en": "HARD- / WARE",
+        "en": "HARD- / WARE (hand-painted)",
         "note": "\"Ferragens\" as in the game text, split the same way.",
         "erase": [{"rect": [27, 21, 96, 58], "mode": "light", "thresh": 40, "k": 15, "grain": 2, "isolate": True}],
-        "text": [{"box": [29, 21, 94, 40], "font": "kalam", "text": "FERRA-", "stretch": True, "color": "#f0f0e6"},
-                 {"box": [33, 41, 86, 57], "font": "kalam", "text": "GENS", "stretch": True, "color": "#f0f0e6"}],
+        "text": [{"box": [29, 21, 93, 40], "font": "jah", "text": "FERRA-", "stretch": True, "stroke": 0.6, "color": "#f0f0e6"},
+                 {"box": [38, 41, 84, 57], "font": "jah", "text": "GENS", "stretch": True, "stroke": 0.6, "color": "#f0f0e6"}],
     },
     "sign_006_mines_elevator": {
         "en": "Broken (arrow down) / Use (arrow right), handwritten",
-        "note": "Only \"Broken\" changes (\"Quebrado\"); \"Use\" is the same word in Portuguese.",
-        "erase": [{"rect": [10, 5, 92, 26], "mode": "dark", "thresh": 25, "k": 11, "grain": 2}],
-        "text": [{"box": [10, 5, 92, 26], "font": "marker", "text": "Quebrado", "stretch": True, "color": "#38312a"}],
+        "note": "Both words redrawn in one hand so they match; \"Use\" is the same word in Portuguese.",
+        "erase": [{"rect": [10, 5, 92, 26], "mode": "dark", "thresh": 25, "k": 11, "grain": 2, "scatter": [5, 4]}, {"rect": [18, 31, 64, 48], "mode": "dark", "thresh": 25, "k": 11, "grain": 2, "scatter": [5, 3]}],
+        "text": [{"box": [12, 2, 92, 28], "font": "kalam", "text": "Quebrado", "size": 22, "baseline": 23, "align": "left", "stroke": 0.3, "soften": 0.4, "color": "#2f2b26"},
+                 {"box": [20, 28, 70, 50], "font": "kalam", "text": "Use", "size": 24, "baseline": 47, "align": "left", "stroke": 0.3, "soften": 0.4, "color": "#2f2b26"}],
     },
     "sign_006_contract_work": {
         "en": "TENEMENT / Contract / work!",
-        "note": "The business is \"Empreiteira de Prédios\" in the game text.",
-        "erase": [{"rect": [4, 4, 120, 76], "bg": "#7c6650", "thresh": 70, "grow": 1, "isolate": True, "grain": 3}],
-        "text": [{"box": [10, 6, 112, 22], "font": "sans-bold", "text": "EMPREITEIRA", "stretch": True, "stroke": 0.3, "mottle": 8, "color": "#8e5d22", "shadow": [1, 1, "#3c2a16"]},
-                 {"box": [10, 25, 112, 45], "font": "changa", "text": "de Prédios", "stretch": True, "mottle": 8, "color": "#8e5d22", "shadow": [1, 1, "#3c2a16"]},
-                 {"box": [30, 48, 98, 72], "font": "changa", "text": "Obras!", "stretch": True, "mottle": 8, "color": "#8e5d22", "shadow": [1, 1, "#3c2a16"]}],
+        "note": "The business is \"Empreiteira de Prédios\" in the game text. Orange letters with a dark outline like the original.",
+        "erase": [{"rect": [3, 3, 122, 82], "mode": "dark", "thresh": 22, "k": 17, "grain": 2, "grow": 1, "scatter": [6, 5]}, {"rect": [3, 3, 122, 82], "bg": "#806a52", "thresh": 70, "grow": 1, "scatter": [6, 5]}],
+        "text": [{"box": [12, 7, 110, 21], "font": "oswald-bold", "text": "EMPREITEIRA", "stretch": True, "outline": [1, "#2e2418"], "mottle": 8, "color": "#8c5d24"},
+                 {"box": [10, 25, 112, 45], "font": "changa", "text": "de Prédios", "stretch": True, "outline": [1, "#2e2418"], "mottle": 8, "color": "#8c5d24"},
+                 {"box": [36, 50, 92, 70], "font": "changa", "text": "Obras!", "stretch": True, "outline": [1, "#2e2418"], "mottle": 8, "color": "#8c5d24"}],
     },
     "sign_006_contract_work_resources": {
-        "en": "TENEMENT / RESOURCES (stencil, faded)",
-        "erase": [{"rect": [10, 22, 118, 58], "bg": "#7c6146", "thresh": 50, "grow": 1, "isolate": True, "grain": 3}],
-        "text": [{"box": [18, 24, 110, 38], "font": "sans-bold", "text": "RECURSOS", "stretch": True, "mottle": 12, "chip": 0.1, "chip_scale": 0.5, "color": "#5a4836", "shadow": [1, 1, "#3a2c1e"]},
-                 {"box": [12, 41, 116, 55], "font": "sans-bold", "text": "DO PRÉDIO", "stretch": True, "mottle": 12, "chip": 0.1, "chip_scale": 0.5, "color": "#5a4836", "shadow": [1, 1, "#3a2c1e"]}],
+        "en": "TENEMENT / RESOURCES (grey letters with a dark outline, faded)",
+        "erase": [{"rect": [10, 21, 118, 59], "mode": "dark", "thresh": 18, "k": 11, "grain": 2, "grow": 1, "scatter": [6, 4]}],
+        "text": [{"box": [20, 24, 108, 38], "font": "sans-bold", "text": "RECURSOS", "stretch": True, "outline": [1, "#3a2e22"], "mottle": 8, "chip": 0.06, "chip_scale": 0.5, "color": "#5e574f"},
+                 {"box": [14, 42, 114, 56], "font": "sans-bold", "text": "DO PRÉDIO", "stretch": True, "outline": [1, "#3a2e22"], "mottle": 8, "chip": 0.06, "chip_scale": 0.5, "color": "#5e574f"}],
     },
     "sign_008_contract_work": {
         "en": "-Tenement -Apartment renovation -Plumbing -Tools! and much more! (chalk)",
@@ -1300,9 +1314,9 @@ SPECS = {
         "note": "The gloss map repeats the headings, redrawn too.",
         "erase": [{"rect": [54, 4, 106, 17], "mode": "dark", "thresh": 25, "k": 5, "grain": 2, "isolate": True}, {"rect": [40, 19, 78, 30], "mode": "dark", "thresh": 25, "k": 5, "grain": 2, "isolate": True}, {"rect": [54, 76, 102, 88], "mode": "dark", "thresh": 25, "k": 5, "grain": 2, "isolate": True}],
         "alpha": {"erase": [{"rect": [54, 4, 106, 17], "mode": "dark", "thresh": 40, "k": 5}, {"rect": [40, 19, 78, 30], "mode": "dark", "thresh": 40, "k": 5}, {"rect": [54, 76, 102, 88], "mode": "dark", "thresh": 40, "k": 5}], "letters": 0},
-        "text": [{"box": [56, 5, 104, 16], "font": "sans", "text": "AVISO", "stretch": True, "color": "#2a2b2c"},
-                 {"box": [42, 21, 72, 28], "font": "sans-bold", "text": "LUZES", "stretch": True, "color": "#2a2b2c"},
-                 {"box": [56, 78, 100, 86], "font": "sans", "text": "ATENÇÃO", "stretch": True, "color": "#2a2b2c"}],
+        "text": [{"box": [60, 6, 100, 16], "font": "sans", "text": "AVISO", "stretch": True, "crisp": 0.5, "color": "#1e1f20"},
+                 {"box": [42, 21, 72, 28], "font": "sans-bold", "text": "LUZES", "stretch": True, "crisp": 0.5, "color": "#1e1f20"},
+                 {"box": [56, 78, 100, 86], "font": "sans", "text": "ATENÇÃO", "stretch": True, "crisp": 0.5, "color": "#1e1f20"}],
     },
 }
 
