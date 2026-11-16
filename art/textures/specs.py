@@ -1337,6 +1337,113 @@ SPECS = {
                  {"box": [42, 21, 72, 28], "font": "sans-bold", "text": "LUZES", "stretch": True, "crisp": 0.5, "color": "#1e1f20"},
                  {"box": [57, 0, 100, 0], "text": "ATENÇÃO", "pixel": "board", "baselines": [85], "gap": 1, "color": "#1e1f20"}],
     },
+
+
+
+
+
+
+
+    # ---- Batch 10: shop windows, security plates, cardboard signs (tier 1b) ----
+    "shop_facade_001_window_alco": {
+        "en": "WINE BEER SPIRITS / ALCO (liquor shop window)",
+        "note": "ALCO (shop name) stays. \"Destilados\" is the usual word for spirits on Brazilian shop signs.",
+        "erase": [{"rect": [10, 25, 166, 41], "mode": "light", "thresh": 25, "k": 7, "grain": 2, "isolate": True}],
+        "text": [{"box": [13, 25, 250, 41], "font": "sans-bold", "text": "VINHOS  CERVEJAS  DESTILADOS", "align": "left", "size": 14, "baseline": 38, "color": "#e3d8d8", "contrast": [0.1, 0.85]}],
+    },
+    "shop_facade_001_window_alco_b": {
+        "en": "WINE / BEER / SPIRITS (spread across the window)",
+        "erase": [{"rect": [20, 25, 63, 41], "mode": "light", "thresh": 25, "k": 7, "grain": 2, "isolate": True}, {"rect": [101, 25, 144, 41], "mode": "light", "thresh": 25, "k": 7, "grain": 2, "isolate": True}, {"rect": [177, 25, 236, 41], "mode": "light", "thresh": 25, "k": 7, "grain": 2, "isolate": True}],
+        "text": [{"box": [10, 25, 74, 41], "font": "sans-bold", "text": "VINHOS", "size": 14, "baseline": 38, "color": "#e3d8d8", "contrast": [0.1, 0.85]},
+                 {"box": [88, 25, 158, 41], "font": "sans-bold", "text": "CERVEJAS", "size": 14, "baseline": 38, "color": "#e3d8d8", "contrast": [0.1, 0.85]},
+                 {"box": [166, 25, 252, 41], "font": "sans-bold", "text": "DESTILADOS", "squeeze": 0.9, "size": 14, "baseline": 38, "color": "#e3d8d8", "contrast": [0.1, 0.85]}],
+    },
+    "sign_007_security": {
+        "en": "SECURITY (twice, on yellow plates)",
+        "erase": [{"rect": [28, 53, 111, 71], "mode": "dark", "thresh": 25, "k": 9, "grain": 2, "isolate": True}, {"rect": [153, 53, 236, 71], "mode": "dark", "thresh": 25, "k": 9, "grain": 2, "isolate": True}],
+        "text": [{"box": [30, 54, 109, 72], "font": "sans-bold", "text": "SEGURANÇA", "stretch": True, "crisp": 0.5, "color": "#000000"},
+                 {"box": [155, 54, 234, 72], "font": "sans-bold", "text": "SEGURANÇA", "stretch": True, "crisp": 0.5, "color": "#000000"}],
+    },
+    "sign_007_security_e": {
+        "en": "SECURITY (twice, on yellow plates) (glow map)",
+        "note": "Glow (emission) map of the plates before.",
+        "mask_source": "sign_007_security",
+        "erase": [{"rect": [28, 53, 111, 71], "mode": "dark", "thresh": 25, "k": 9, "grain": 2, "isolate": True}, {"rect": [153, 53, 236, 71], "mode": "dark", "thresh": 25, "k": 9, "grain": 2, "isolate": True}],
+        "text": [{"box": [30, 54, 109, 72], "font": "sans-bold", "text": "SEGURANÇA", "stretch": True, "crisp": 0.5, "color": "#000000"},
+                 {"box": [155, 54, 234, 72], "font": "sans-bold", "text": "SEGURANÇA", "stretch": True, "crisp": 0.5, "color": "#000000"}],
+    },
+    "sign_002_security": {
+        "en": "SECURITY (worn stencil on a white board)",
+        "erase": [{"rect": [5, 133, 155, 155], "mode": "dark", "thresh": 20, "k": 9, "grain": 2, "grow": 1, "isolate": True, "scatter": [14, 10]}],
+        "text": [{"box": [7, 134, 153, 154], "font": "sans", "text": "SEGURANÇA", "size": 21, "baseline": 151, "stroke": 0.3, "tracking": 0.14, "mottle": 10, "chip": 0.06, "chip_scale": 0.5, "clip": [5, 133, 155, 155], "color": "#101010"}],
+    },
+    "landmark_security_0": {
+        "en": "SECURITY (condensed, on a yellow plate)",
+        "erase": [{"rect": [8, 48, 120, 80], "mode": "dark", "thresh": 25, "k": 11, "grain": 2, "isolate": True}],
+        "text": [{"box": [10, 50, 118, 79], "font": "oswald-bold", "text": "SEGURANÇA", "stretch": True, "crisp": 0.5, "color": "#212021"}],
+    },
+    "sign_002_rescue": {
+        "en": "RESCUE (spaced capitals)",
+        "note": "\"Resgate\", as the rescue station is called in the game text (Quartel de Resgate).",
+        "erase": [{"rect": [18, 213, 238, 248], "mode": "dark", "thresh": 25, "k": 11, "grain": 2, "isolate": True}],
+        "text": [{"box": [22, 214, 236, 248], "font": "sans-bold", "text": "RESGATE", "size": 40, "baseline": 245, "squeeze": 0.78, "tracking": 0.25, "contrast": [0.1, 0.85], "color": "#7e3223"}],
+    },
+    "Market_sign_001_skin7": {
+        "en": "BARBER / SHOP (serif, above a moustache)",
+        "note": "One word in Portuguese, \"Barbearia\" (as in the game text), so the second line goes; the moustache stays.",
+        "erase": [{"rect": [72, 200, 184, 238], "mode": "light", "thresh": 25, "k": 9, "grain": 2, "isolate": True}],
+        "text": [{"box": [74, 203, 182, 224], "font": "serif", "text": "BARBEARIA", "stretch": True, "color": "#c6c7c6"}],
+    },
+    "shop_facade_001_window_internet_a": {
+        "en": "INTERNET CAFE (blocky pixel letters)",
+        "note": "\"Lan house\", what the game text calls it (Brazilian name for an internet café).",
+        "erase": [{"rect": [52, 116, 204, 202], "bg": "#151615", "thresh": 70, "grow": 1, "scatter": [8, 6]}],
+        "text": [{"box": [85, 120, 170, 141], "text": "LAN", "pixel": "board", "baselines": [200], "gap": 1, "stretch": True, "color": "#48d443"},
+                 {"box": [55, 154, 200, 197], "text": "HOUSE", "pixel": "board", "baselines": [200], "gap": 1, "stretch": True, "color": "#c342d1"}],
+    },
+    "shop_facade_001_window_internet_b": {
+        "en": "INTERNET CAFE (small window sticker)",
+        "erase": [{"rect": [129, 117, 213, 165], "bg": "#151515", "thresh": 70, "grow": 1, "scatter": [8, 6]}],
+        "text": [{"box": [151, 120, 190, 131], "text": "LAN", "pixel": "board", "baselines": [200], "gap": 1, "stretch": True, "color": "#48d443"},
+                 {"box": [131, 139, 210, 161], "text": "HOUSE", "pixel": "board", "baselines": [200], "gap": 1, "stretch": True, "color": "#c342d1"}],
+    },
+    "shop_facade_001_window_internet_c": {
+        "en": "INTERNET CAFE, mirrored (seen from inside)",
+        "erase": [{"rect": [129, 117, 213, 165], "bg": "#151515", "thresh": 70, "grow": 1, "scatter": [8, 6]}],
+        "text": [{"box": [151, 120, 190, 131], "text": "LAN", "pixel": "board", "baselines": [200], "gap": 1, "stretch": True, "mirror": True, "color": "#48d443"},
+                 {"box": [131, 139, 210, 161], "text": "HOUSE", "pixel": "board", "baselines": [200], "gap": 1, "stretch": True, "mirror": True, "color": "#c342d1"}],
+    },
+    "cardboard_sign_002_buy_stuff_0": {
+        "en": "BUY MY / STUFF :) (red marker on cardboard)",
+        "note": "Option: the slangier \"COMPRA MEU / BAGULHO :)\".",
+        "erase": [{"rect": [0, 20, 128, 86], "bg": "#9f8b5a", "thresh": 50, "grow": 1, "only_red": 25, "scatter": [6, 4]}],
+        "text": [{"box": [4, 22, 124, 52], "font": "hand", "text": "COMPRE MINHAS", "stroke": 0.4, "color": "#b4372c", "mottle": 8},
+                 {"box": [10, 54, 118, 84], "font": "hand", "text": "COISAS :)", "stroke": 0.4, "color": "#b4372c", "mottle": 8}],
+        "alts": {"COMPRA MEU BAGULHO": {"text": "COMPRA MEU"}},
+    },
+    "cardboard_sign_002_hostel": {
+        "en": "PLACE / TO / SLEEP, 30 OC (red marker; bed doodle)",
+        "note": "\"Lugar pra dormir\" (\"pra\" is the everyday form of \"para\"). The bed doodle and 30 OC stay.",
+        "erase": [{"rect": [4, 38, 100, 108], "bg": "#9f8b5a", "thresh": 50, "grow": 1, "only_red": 25, "isolate": True, "scatter": [6, 4]}],
+        "text": [{"box": [8, 40, 92, 70], "font": "hand", "text": "LUGAR", "stroke": 0.4, "rotate": -3, "color": "#b4372c", "mottle": 8},
+                 {"box": [26, 70, 62, 86], "font": "hand", "text": "PRA", "stroke": 0.4, "rotate": -3, "color": "#b4372c", "mottle": 8},
+                 {"box": [10, 86, 84, 102], "font": "hand", "text": "DORMIR", "stroke": 0.4, "rotate": -3, "color": "#b4372c", "mottle": 8}],
+    },
+    "mine_motel_sign_001": {
+        "en": "THE PICKAXE / MOTEL (the O is a pickaxe badge)",
+        "note": "\"Motel Picareta\" in the game text; MOTEL is the same word, so only the top line changes.",
+        "erase": [{"rect": [6, 5, 250, 23], "bg": "#808080", "thresh": 60, "grow": 1, "isolate": True}],
+        "text": [{"box": [9, 7, 247, 22], "font": "sans-bold", "text": "PICARETA", "stretch": True, "tracking": 0.6, "outline": [1, "#3a0000"], "color": "#d10404"}],
+    },
+    "Market_window_002_skin2": {
+        "en": "(graffiti) you're going to stay / ALWAYS OPEN / (graffiti) SEWER",
+        "note": "Printed SEMPRE ABERTO as on the other O Market window; the graffiti reads \"você vai ficar ... esgoto\", so \"aberto ... esgoto\" keeps the Esgoto Aberto (Open Sewer) joke.",
+        "erase": [{"rect": [66, 280, 290, 309], "mode": "dark", "thresh": 30, "k": 9, "grain": 2, "scatter": [6, 3]}, {"rect": [60, 306, 288, 335], "mode": "dark", "thresh": 25, "k": 11, "grain": 2, "isolate": True}, {"rect": [180, 336, 282, 366], "mode": "dark", "thresh": 30, "k": 9, "grain": 2, "exclude_red": 30, "scatter": [6, 3]}],
+        "alpha_follow": {"rect": [0, 260, 330, 512]},
+        "text": [{"box": [70, 282, 286, 310], "font": "jah", "text": "você vai ficar", "stretch": True, "color": "#222222"},
+                 {"box": [62, 307, 282, 334], "font": "sans-bold", "text": "SEMPRE ABERTO", "baseline": 332, "size": 27, "color": "#2734b8"},
+                 {"box": [186, 337, 278, 365], "font": "jah", "text": "ESGOTO", "stretch": True, "color": "#222222"}],
+    },
 }
 
 # Review batches: each is checked by the user, texture by texture, against the original.
@@ -1370,6 +1477,7 @@ BATCHES = {
            "map_tenement_001"],    "07": ["Market_sign_002_pawn", "Market_sign_002_plants_and_pots", "cardboard_sign_002_auction", "Market_sign_002_alcohol", "Market_sign_002_firewood", "Market_sign_002_one_stop_shop", "street_sign_001_hardware_stall", "Market_sign_002_kurahaara", "Market_sign_002_coffee", "Market_sign_002_0", "apartment_sign_001_staff_only", "sign_004_slum_gate", "Market_door_002_window_rob_b", "street_sign_001_selma", "sign_009_closed", "sign_009_bazaar"],
     "08": ["Market_window_002_skeida_2", "Market_sign_003_skin1", "front_door_001_taxfree", "front_door_001_taxfree_e", "front_door_001_glass_vet", "street_sign_001_bicycle_shop", "Market_sign_003_0", "shop_facade_001_window_gym_a", "shop_facade_001_window_casino_coin_a", "prison_sign_001", "Market_door_002_window_skeida", "landmark_commercial_furniture_shop_0", "Market_door_002_window_skeida_b", "Market_window_002", "sign_002_vet", "Market_window_002_skeida"],
     "09": ["sign_004_explosives", "sign_004_bio_0", "sign_004_welcome", "sign_004_water", "sign_004_water_b", "sign_004_bridge", "sign_004_SOMC", "sign_009_smoking", "sign_009_diesel", "sign_006_keep_out", "sign_006_hardware", "sign_006_mines_elevator", "sign_006_contract_work", "sign_006_contract_work_resources", "sign_008_contract_work", "sign_008"],
+    "10": ["shop_facade_001_window_alco", "shop_facade_001_window_alco_b", "sign_007_security", "sign_007_security_e", "sign_002_security", "landmark_security_0", "sign_002_rescue", "Market_sign_001_skin7", "shop_facade_001_window_internet_a", "shop_facade_001_window_internet_b", "shop_facade_001_window_internet_c", "cardboard_sign_002_buy_stuff_0", "cardboard_sign_002_hostel", "mine_motel_sign_001", "Market_window_002_skin2"],
 }
 
 NUMBERS = {}

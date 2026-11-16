@@ -63,7 +63,7 @@ def regrain(out, mask, rect, radius, seed, local):
 
 
 def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, isolate=False, grain=0, detect=None,
-          return_mask=False, poly=None, scatter=None, exclude_red=None, sample_min=None):
+          return_mask=False, poly=None, scatter=None, exclude_red=None, sample_min=None, only_red=None):
     """Inpaint the old letters inside rect.
 
     mode "color": letters are pixels far from the background colour (flat backgrounds).
@@ -99,6 +99,8 @@ def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, is
         keep = np.zeros_like(mask); cv2.fillPoly(keep, [np.array(poly, np.int32)], 255); mask &= keep
     if exclude_red is not None:
         mask[(look[:, :, 0].astype(int) - look[:, :, 1]) > exclude_red] = 0
+    if only_red is not None:   # red ink only (keeps black doodles and lines)
+        mask[(look[:, :, 0].astype(int) - look[:, :, 1]) <= only_red] = 0
     core = mask > 0   # the letters themselves, before growing the mask into their anti-aliased edges
     if grow:
         mask = cv2.dilate(mask, np.ones((3, 3), np.uint8), iterations=grow)
@@ -108,6 +110,9 @@ def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, is
         mask &= clip
         if exclude_red is not None:
             mask[(look[:, :, 0].astype(int) - look[:, :, 1]) > exclude_red] = 0
+        if only_red is not None:
+            red = (look[:, :, 0].astype(int) - look[:, :, 1]) > only_red
+            mask &= (cv2.dilate(red.astype(np.uint8), np.ones((3, 3), np.uint8)) * 255)
     if scatter:
         rx, ry = scatter
         m = mask > 0
@@ -239,6 +244,15 @@ def text_layer(size, t):
         cy = int(t["baseline"] * SS - base)
     full.paste(canvas, (cx, cy))
     small = np.asarray(full.resize((w, h), Image.BOX)).astype(float) / 255.0
+    if t.get("pixelate"):   # blocky lettering: draw at 1/n resolution, then scale back up in n x n blocks
+        n = t["pixelate"]
+        hh, ww = small.shape
+        lo = cv2.resize(small, (max(1, ww // n), max(1, hh // n)), interpolation=cv2.INTER_AREA) >= 0.45
+        small = cv2.resize(lo.astype(np.uint8), (ww // n * n, hh // n * n), interpolation=cv2.INTER_NEAREST).astype(float)
+        small = np.pad(small, ((0, hh - small.shape[0]), (0, ww - small.shape[1])))
+    if t.get("mirror"):   # reversed (seen through glass from inside): flip inside the box
+        bx0, _, bx1, _ = t["box"]
+        small[:, bx0:bx1] = small[:, bx0:bx1][:, ::-1]
     if t.get("crisp"):   # pixel-art lettering: no anti-aliasing
         small = (small >= t["crisp"]).astype(float)
     if t.get("contrast"):   # [lo, hi]: keep anti-aliasing but steepen it, for small, sharp lettering
@@ -270,6 +284,16 @@ def pixel_layer(size, t, name):
                             mask[top + dy, x + dx] = 1
                 x += len(rows[0]) + gap
             x += space - gap
+    if t.get("stretch"):   # blocky lettering: scale the drawn pixels up to fill the box exactly (nearest neighbour)
+        bx0, by0, bx1, by1 = t["box"]
+        ys, xs = np.nonzero(mask)
+        if len(xs):
+            glyphs = mask[ys.min():ys.max() + 1, xs.min():xs.max() + 1].astype(np.uint8)
+            big = cv2.resize(glyphs, (bx1 - bx0, by1 - by0), interpolation=cv2.INTER_NEAREST)
+            mask = np.zeros_like(mask)
+            if t.get("mirror"):
+                big = big[:, ::-1]
+            mask[by0:by1, bx0:bx1] = big
     if t.get("fade"):
         rng = np.random.default_rng(zlib.crc32(name.encode()))
         mask *= 1 - t["fade"] * rng.random(mask.shape)
@@ -332,7 +356,7 @@ def render(name, spec, save=True):
             rgb, m = erase(rgb, op["rect"], op.get("bg"), op.get("thresh", 40), op.get("grow", 1), op.get("radius", 3),
                            op.get("mode", "color"), op.get("k", 5), op.get("isolate", False), op.get("grain", 0),
                            detect, return_mask=True, poly=op.get("poly"), scatter=op.get("scatter"),
-                           exclude_red=op.get("exclude_red"), sample_min=op.get("sample_min"))
+                           exclude_red=op.get("exclude_red"), sample_min=op.get("sample_min"), only_red=op.get("only_red"))
             old |= m
     # "copy": [{"from": [x0, y0, x1, y1], "to": [x, y]}]: paste a block of the original texture elsewhere (reuse the
     # sign's own letters when a word only changes a letter or two).
