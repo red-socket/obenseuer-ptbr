@@ -321,6 +321,32 @@ def text_layer(size, t):
     return small * t.get("opacity", 1.0)
 
 
+def sideways_layer(size, t):
+    """Letters each turned by t["sideways"] degrees (90 = tops to the left) and set one after another along the box,
+    for vertical signs whose texture runs sideways. All letters share one cell height before turning, so they line
+    up; the row is then stretched to the box."""
+    w, h = size
+    f = ImageFont.truetype(FONTS[t.get("font", "sans-bold")], 200)
+    hb = f.getbbox("HÇÃÕÉ")   # one cell height for every letter, accents and cedillas included
+    cells = []
+    for ch in t["text"]:
+        cw = int(f.getlength(ch)) or 1
+        c = Image.new("L", (cw + 20, hb[3] - hb[1] + 20), 0)
+        if ch != " ":
+            ImageDraw.Draw(c).text((10, 10 - hb[1]), ch, font=f, fill=255, stroke_width=int(t.get("stroke", 0) * 25))
+        cells.append(c.rotate(t["sideways"], expand=True))
+    gap = int(t.get("tracking", 0) * 200)
+    W = sum(c.width for c in cells) + gap * (len(cells) - 1); H = max(c.height for c in cells)
+    row = Image.new("L", (W, H), 0); x = 0
+    for c in cells:
+        row.paste(c, (x, (H - c.height) // 2)); x += c.width + gap
+    row = row.crop(row.getbbox() or (0, 0, 1, 1))
+    x0, y0, x1, y1 = t["box"]
+    full = Image.new("L", (w * SS, h * SS), 0)
+    full.paste(row.resize(((x1 - x0) * SS, (y1 - y0) * SS), Image.LANCZOS), (x0 * SS, y0 * SS))
+    return np.asarray(full.resize((w, h), Image.BOX)).astype(float) / 255.0 * t.get("opacity", 1.0)
+
+
 def circle_layer(size, t):
     """Text set around a circle (badges). t["circle"] = {"center": [x, y], "radius": r, "mid": degrees, "outward": bool}.
     Angles run clockwise from the top. outward (top arcs): read clockwise, letter tops point away from the centre,
@@ -573,7 +599,7 @@ def render(name, spec, save=True):
     aout = alpha.astype(float)
     cov = np.zeros(rgb.shape[:2])
     for t in spec["text"]:
-        a = pixel_layer(im.size, t, name) if t.get("pixel") else circle_layer(im.size, t) if t.get("circle") else text_layer(im.size, t)
+        a = pixel_layer(im.size, t, name) if t.get("pixel") else circle_layer(im.size, t) if t.get("circle") else sideways_layer(im.size, t) if t.get("sideways") else text_layer(im.size, t)
         if t.get("behind_dark"):   # stay behind dark objects in the original (a chair drawn over the text)
             a = a * (orig.max(axis=2) > t["behind_dark"])
         if t.get("under"):   # stay under reddish artwork (e.g. hatching drawn over a street name): r - g above this
