@@ -101,6 +101,7 @@ def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, is
     """Inpaint the old letters inside rect.
 
     mode "color": letters are pixels far from the background colour (flat backgrounds).
+    mode "near": letters are pixels close to bg, here the letter colour (crisp one-colour pixel lettering).
     mode "bright": whitish letters on a coloured surface (lowest channel above thresh).
     mode "dark" / "light": letters are thin strokes darker / lighter than their surroundings
     (black-hat / top-hat with a k x k kernel), so grime and stains on worn signs are left alone.
@@ -124,6 +125,9 @@ def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, is
     elif mode == "color":
         ref = np.median(region.reshape(-1, 3), axis=0) if bg is None else np.array(hexrgb(bg))
         letters = np.abs(region - ref).sum(axis=2) > thresh
+    elif mode == "near":   # crisp letters in one exact colour: pixels within thresh of bg (artwork around is kept)
+        ref = np.array(hexrgb(bg))
+        letters = np.abs(region - ref).sum(axis=2) <= thresh
     else:
         gray = cv2.cvtColor(np.ascontiguousarray(look), cv2.COLOR_RGB2GRAY)
         op = cv2.MORPH_BLACKHAT if mode == "dark" else cv2.MORPH_TOPHAT
@@ -159,6 +163,8 @@ def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, is
             like = look.min(axis=2) > thresh
         elif mode == "color":
             like = np.abs(look.astype(int) - ref).sum(axis=2) > thresh
+        elif mode == "near":
+            like = np.abs(look.astype(int) - ref).sum(axis=2) <= thresh
         else:
             like = hat > thresh
         avoid |= cv2.dilate(like.astype(np.uint8), np.ones((3, 3), np.uint8)) > 0

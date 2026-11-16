@@ -279,8 +279,25 @@ _STAFF["Ó"] = _accent(_STAFF["O"], ["..#"], 0)
 # Accent marks for composed letters (drawn with an outline in the spec).
 _MARKS = {"´": (["..##", ".##.", "##.."], 0)}
 
+# cash_desk_001_sign (Osmo Olut poster): 1-px capitals 6 rows like DID YOU REMEMBER?. D O U R E M B from the poster,
+# V C L ? drawn to match.
+_OSMO = {
+    "B": (["###.", "#..#", "###.", "#..#", "#..#", "###."], 0),
+    "C": (["###", "#..", "#..", "#..", "#..", "###"], 0),
+    "D": (["###.", "#..#", "#..#", "#..#", "#..#", "###."], 0),
+    "E": (["###", "#..", "###", "#..", "#..", "###"], 0),
+    "L": (["#..", "#..", "#..", "#..", "#..", "###"], 0),
+    "M": (["#...#", "#...#", "##.##", "##.##", "#.#.#", "#.#.#"], 0),
+    "O": ([".###.", "#...#", "#...#", "#...#", "#...#", ".###."], 0),
+    "R": (["###", "#.#", "#.#", "##.", "#.#", "#.#"], 0),
+    "U": (["#..#"] * 5 + ["####"], 0),
+    "V": (["#...#", "#...#", ".#.#.", ".#.#.", ".#.#.", "..#.."], 0),
+    "?": (["###", "..#", ".##", ".#.", "...", ".#."], 0),
+}
+_OSMO["Ê"] = _accent(_OSMO["E"], [".#.", "#.#"])
+
 PIXEL_FONTS = {"oos": _OOS, "bergmann": _BERG, "border-top": _BORDER_TOP, "border-mid": _BORDER_MID,
                "border-low": _BORDER_LOW, "exit": _EXIT, "mall": _MALL,
                "elstrom": _ELSTROM, "skeida": _SKEIDA, "robin": _ROBIN, "taxfree": _TAXFREE,
                "barrel": _BARREL, "dispenser": _DISPENSER,
-               "board": _BOARD, "staff": _STAFF, "marks": _MARKS}
+               "board": _BOARD, "staff": _STAFF, "osmo": _OSMO, "marks": _MARKS}
