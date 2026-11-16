@@ -589,6 +589,16 @@ def render(name, spec, save=True):
     if aspec:
         a3 = np.dstack([alpha] * 3)
         for op in aspec.get("erase", []):
+            if op.get("noise"):   # {"base", "dark": [frac, lo, hi], "grey": [frac, lo, hi]}: a flat gloss value with sharp
+                nz = op["noise"]   # random specks, for plain gloss areas where any fill would smear (beer, drinks bands)
+                x0, y0, x1, y1 = op["rect"]; rng = np.random.default_rng(zlib.crc32((name + "noise").encode()))
+                v = np.full((y1 - y0, x1 - x0), float(nz["base"]))
+                for key in ("grey", "dark"):
+                    if key in nz:
+                        frac, lo, hi = nz[key]; hit = rng.random(v.shape) < frac
+                        v[hit] = rng.uniform(lo, hi, v.shape)[hit]
+                a3[y0:y1, x0:x1] = np.clip(v, 0, 255).astype(np.uint8)[:, :, None]
+                continue
             a3 = fill(a3, op["rect"], op["color"]) if op.get("color") else erase(
                 a3, op["rect"], op.get("bg"), op.get("thresh", 40), op.get("grow", 1), op.get("radius", 3),
                 op.get("mode", "color"), op.get("k", 5), op.get("isolate", False), op.get("grain", 0),
