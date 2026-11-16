@@ -83,7 +83,12 @@ def main():
         w = a.width * scale
         main = "Português (main version)" if spec.get("alts") else "Português"
         pics = [("Original", a.convert("RGB")), (main, b.convert("RGB"))]
-        if spec.get("alpha") or spec.get("derive"):
+        if any(t.get("alpha_only") for t in spec["text"]):   # cutout sign: the alpha is the shape, show what the game draws
+            def cut(im):
+                bg = Image.new("RGB", im.size, (40, 40, 40))
+                return Image.composite(im.convert("RGB"), bg, im.getchannel("A").point(lambda v: 255 if v >= 77 else 0))
+            pics += [("Original in game (cut out)", cut(a)), ("Portuguese in game (cut out)", cut(b))]
+        elif spec.get("alpha") or spec.get("derive"):
             pics += [("Original gloss", a.getchannel("A")), ("Portuguese gloss", b.getchannel("A"))]
         # "alts": {label: overrides for the first text line} shows other candidates (e.g. fonts) to choose from;
         # with "all": True the overrides go to every line (the same word on several panels).
