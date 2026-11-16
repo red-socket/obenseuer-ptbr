@@ -42,6 +42,8 @@ FONTS = {
     "barlow": f"{_G}/barlow/Barlow-Medium.ttf",
     "lato": f"{_G}/lato/Lato-Regular.ttf",
     "dancing": f"{_G}/dancingscript/DancingScript[wght].ttf",
+    "kaushan": f"{_G}/kaushanscript/KaushanScript-Regular.ttf",
+    "alfaslabone": f"{_G}/alfaslabone/AlfaSlabOne-Regular.ttf",
     "cinzel": f"{_G}/cinzel/Cinzel[wght].ttf",
     "lato-bold": f"{_G}/lato/Lato-Bold.ttf",
     "jah": f"{_G}/justanotherhand/JustAnotherHand-Regular.ttf",
@@ -1846,6 +1848,167 @@ SPECS = {
         "alpha": {"erase": [{"rect": [0, 0, 512, 64], "color": "#000000"}], "letters": 250},
         "text": [{"box": [9, 0, 502, 64], "font": "russo", "text": "ARTESANATO E CARPINTARIA", "alpha_only": True, "size": 54, "baseline": 51, "squeeze": 0.49637117247193147, "tracking": 0.12}],
     },
+
+
+
+
+
+
+
+
+
+
+
+    # ---- Batch 14: tier 1c signs (market bands, canteen menu, wooden aisle signs, timetable, notices, badge, Rob-In) ----
+    "Market_sign_alcohol_001": {
+        "en": "ALCOHOL (outlined letters on a band)",
+        "note": "\"Álcool\". Outlined block letters filling the band like the original; the accent fits above slightly shorter letters.",
+        "erase": [{"rect": [0, 206, 256, 256], "bg": "#f6003a", "thresh": 40, "grow": 1, "isolate": True, "scatter": [40, 8]}],
+        "alpha": {"erase": [{"rect": [0, 211, 256, 256], "thresh": 60, "grow": 1, "isolate": True, "scatter": [256, 45]}], "outline": 20},
+        "text": [{"box": [2, 216, 254, 255], "font": "sans-bold", "text": "ÁLCOOL", "stretch": True, "outline": [2, "#a8002a"], "color": "#f2003a"}],
+    },
+    "Market_sign_drinks_001": {
+        "en": "DRINKS (outlined letters on a band)",
+        "note": "\"Bebidas\". Outlined block letters filling the band like the original.",
+        "erase": [{"rect": [0, 206, 256, 256], "bg": "#00b4ec", "thresh": 40, "grow": 1, "isolate": True, "scatter": [40, 8]}],
+        "alpha": {"erase": [{"rect": [0, 211, 256, 256], "thresh": 60, "grow": 1, "isolate": True, "scatter": [256, 45]}], "outline": 20},
+        "text": [{"box": [2, 211, 254, 255], "font": "sans-bold", "text": "BEBIDAS", "stretch": True, "outline": [2, "#0a6c98"], "color": "#00b0ea"}],
+    },
+    "Market_sign_001_skin2": {
+        "en": "ONE STOP SHOP (decorated letters on an orange board)",
+        "note": "\"Tem de tudo\", the Brazilian way of saying a shop sells everything; brown letters with a dark edge and yellow glow like the original.",
+        "erase": [{"rect": [12, 205, 248, 236], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "lama": True}],
+        "text": [{"box": [16, 211, 244, 231], "font": "archivo-black", "text": "TEM DE TUDO", "stretch": True, "tracking": 0.25, "outline": [3, "#f6e23a"], "color": "#f6e23a"},
+                 {"box": [16, 211, 244, 231], "font": "archivo-black", "text": "TEM DE TUDO", "stretch": True, "tracking": 0.25, "outline": [1, "#2a1406"], "color": "#6e3a12"}],
+    },
+    "Market_sign_001_skin2_e": {
+        "en": "ONE STOP SHOP (decorated letters on an orange board) (glow map)",
+        "note": "Glow map of the sign before.",
+        "mask_source": "Market_sign_001_skin2",
+        "erase": [{"rect": [12, 205, 248, 236], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "lama": True}],
+        "text": [{"box": [16, 211, 244, 231], "font": "archivo-black", "text": "TEM DE TUDO", "stretch": True, "tracking": 0.25, "outline": [3, "#f6e23a"], "color": "#f6e23a", "ink": "letters"},
+                 {"box": [16, 211, 244, 231], "font": "archivo-black", "text": "TEM DE TUDO", "stretch": True, "tracking": 0.25, "outline": [1, "#2a1406"], "color": "#6e3a12", "ink": "letters"}],
+    },
+    "Market_sign_001_skin3": {
+        "en": "DRINKS menu of the mines canteen (chalkboard): Osmo Olut, Kilju, Wine, Pint, Whiskey, Coffee, Plonk, Special Coffee, Cocoa, Pontikka (plain, turnip, potato, carrot), Today's special",
+        "note": "Names from the game text where they exist (Vinho, Uísque, Café; Kilju and Pontikka stay); Pint is \"caneca\" (a mug of beer), Plonk is \"zurrapa\" (cheap wine), Cocoa is \"cacau\"; the pontikka flavours are listed under one Pontikka line (nabo as in Morro do Nabo). Columns re-spaced so every line keeps the original letter size. Prices stay; all lines are 10.5px so the longest fits its column.",
+        "erase": [{"rect": [3, 188, 254, 256], "mode": "light", "thresh": 30, "k": 7, "grain": 2, "isolate": True, "scatter": [8, 3]}],
+        "alpha": {"erase": [{"rect": [3, 188, 254, 256], "mode": "light", "k": 7, "thresh": 30, "grow": 1, "isolate": True, "scatter": [8, 3], "detect_rgb": True}], "letters": 10},
+        "text": [{"box": [5, 186, 86, 205], "font": "dancing", "text": "BEBIDAS", "baseline": 201, "size": 11, "tracking": 0.25, "thin": 0.25, "align": "left", "ink": "letters"},
+                 {"box": [5, 199, 81, 215], "font": "dancing", "text": "Osmo Olut 25 OC", "baseline": 211, "size": 10.5, "tracking": 0.04, "thin": 0.25, "align": "left", "ink": "letters"},
+                 {"box": [5, 209, 81, 225], "font": "dancing", "text": "Kilju 35 OC", "baseline": 221, "size": 10.5, "tracking": 0.04, "thin": 0.25, "align": "left", "ink": "letters"},
+                 {"box": [5, 219, 81, 235], "font": "dancing", "text": "Vinho 60 OC", "baseline": 231, "size": 10.5, "tracking": 0.04, "thin": 0.25, "align": "left", "ink": "letters"},
+                 {"box": [5, 229, 81, 245], "font": "dancing", "text": "Caneca 35 OC", "baseline": 241, "size": 10.5, "tracking": 0.04, "thin": 0.25, "align": "left", "ink": "letters"},
+                 {"box": [5, 239, 81, 255], "font": "dancing", "text": "Uísque 110 OC", "baseline": 251, "size": 10.5, "tracking": 0.04, "thin": 0.25, "align": "left", "ink": "letters"},
+                 {"box": [86, 199, 152, 215], "font": "dancing", "text": "Café 45 OC", "baseline": 211, "size": 10.5, "tracking": 0.04, "thin": 0.25, "align": "left", "ink": "letters"},
+                 {"box": [86, 209, 152, 225], "font": "dancing", "text": "Zurrapa 53 OC", "baseline": 221, "size": 10.5, "tracking": 0.04, "thin": 0.25, "align": "left", "ink": "letters"},
+                 {"box": [86, 219, 152, 235], "font": "dancing", "text": "Café", "baseline": 231, "size": 10.5, "tracking": 0.04, "thin": 0.25, "align": "left", "ink": "letters"},
+                 {"box": [86, 229, 152, 245], "font": "dancing", "text": "especial 65 OC", "baseline": 241, "size": 10.5, "tracking": 0.04, "thin": 0.25, "align": "left", "ink": "letters"},
+                 {"box": [86, 239, 152, 255], "font": "dancing", "text": "Cacau 45 OC", "baseline": 251, "size": 10.5, "tracking": 0.04, "thin": 0.25, "align": "left", "ink": "letters"},
+                 {"box": [157, 199, 254, 215], "font": "dancing", "text": "Pontikka 100 OC", "baseline": 211, "size": 10.5, "tracking": 0.04, "thin": 0.25, "align": "left", "ink": "letters"},
+                 {"box": [157, 209, 254, 225], "font": "dancing", "text": "– de nabo 80 OC", "baseline": 221, "size": 10.5, "tracking": 0.04, "thin": 0.25, "align": "left", "ink": "letters"},
+                 {"box": [157, 219, 254, 235], "font": "dancing", "text": "– de batata 80 OC", "baseline": 231, "size": 10.5, "tracking": 0.04, "thin": 0.25, "align": "left", "ink": "letters"},
+                 {"box": [157, 229, 254, 245], "font": "dancing", "text": "– de cenoura 92 OC", "baseline": 241, "size": 10.5, "tracking": 0.04, "thin": 0.25, "align": "left", "ink": "letters"},
+                 {"box": [157, 239, 254, 255], "font": "dancing", "text": "Especial do dia 60 OC", "baseline": 251, "size": 10.5, "tracking": 0.04, "thin": 0.25, "align": "left", "ink": "letters"}],
+    },
+    "Market_sign_001_skin6": {
+        "en": "Fresh Fruits & Berries (thin script on a chalkboard)",
+        "note": "\"Frutas frescas e bagas\" (bagas as in the game text's juniper berries); the same thin script.",
+        "erase": [{"rect": [12, 208, 248, 238], "mode": "light", "thresh": 30, "k": 7, "grain": 2, "isolate": True, "scatter": [8, 3]}],
+        "text": [{"box": [16, 208, 242, 238], "font": "dancing", "text": "Frutas Frescas e Bagas", "baseline": 231, "size": 22, "tracking": 0.12, "thin": 0.25, "ink": "letters"}],
+    },
+    "sign_006_exit": {
+        "en": "EXIT with an arrow (white paint on green)",
+        "note": "\"Saída\"; the arrow stays. Worn paint as partly see-through pixels.",
+        "erase": [{"rect": [14, 22, 84, 62], "mode": "light", "thresh": 30, "k": 11, "grain": 0, "isolate": True, "scatter": [6, 3]}],
+        "text": [{"box": [16, 26, 80, 59], "font": "oswald-semi", "text": "SAÍDA", "stretch": True, "crisp": 0.5, "speckle": [0.25, 0.7], "mottle": 8, "color": "#c5cbbb"}],
+    },
+    "sign_006_jams": {
+        "en": "Jams & / Canned / Foods (red and green script on wood, tomato and cucumber)",
+        "note": "\"Geleias & enlatados\", the usual aisle words; the tomato and cucumber stay.",
+        "erase": [{"rect": [10, 2, 84, 26], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "lama": True}, {"rect": [10, 26, 79, 62], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "lama": True}],
+        "alpha": {"erase": [{"rect": [10, 2, 84, 26], "thresh": 60, "grow": 2, "isolate": True, "scatter": [8, 4], "detect_rgb": True}, {"rect": [10, 26, 79, 62], "thresh": 60, "grow": 2, "isolate": True, "scatter": [8, 4], "detect_rgb": True}], "letters": 60, "outline": 60},
+        "text": [{"box": [12, 3, 82, 25], "font": "kaushan", "text": "Geleias &", "stretch": True, "outline": [1, "#3a0a08"], "color": "#a0181c"},
+                 {"box": [12, 30, 73, 58], "font": "kaushan", "text": "Enlatados", "stretch": True, "outline": [1, "#0c2a08"], "color": "#1e8a1c"}],
+    },
+    "sign_006_plants": {
+        "en": "Decorative / Plants & / Pots (green slab letters on wood)",
+        "note": "\"Plantas ornamentais e vasos\" (ornamental as in the game text's seeds).",
+        "erase": [{"rect": [10, 4, 110, 64], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "lama": True}],
+        "text": [{"box": [14, 9, 106, 24], "font": "alfaslabone", "text": "Plantas", "size": 17, "outline": [1, "#0c2a08"], "color": "#1e8a1c"},
+                 {"box": [10, 27, 110, 42], "font": "alfaslabone", "text": "Ornamentais", "size": 17, "outline": [1, "#0c2a08"], "color": "#1e8a1c"},
+                 {"box": [14, 45, 106, 60], "font": "alfaslabone", "text": "e Vasos", "size": 17, "outline": [1, "#0c2a08"], "color": "#1e8a1c"}],
+    },
+    "sign_006_oreloader": {
+        "en": "close / open by the arrows of a lever (red marker on yellow)",
+        "note": "\"Fechar\" / \"abrir\"; the arrows stay.",
+        "erase": [{"rect": [22, 1, 64, 30], "mode": "color", "thresh": 70, "k": 7, "grain": 0, "only_red": 40, "isolate": True, "scatter": [5, 3], "poly": [[24, 1], [63, 1], [63, 27], [58, 27], [52, 22], [44, 18], [36, 15], [24, 12]]}, {"rect": [64, 28, 102, 70], "mode": "color", "thresh": 70, "k": 7, "grain": 0, "only_red": 40, "isolate": True, "scatter": [5, 3], "poly": [[67, 28], [84, 28], [101, 40], [101, 69], [84, 69], [78, 44], [67, 39]]}],
+        "text": [{"box": [26, 2, 64, 26], "font": "kalam", "text": "fechar", "rotate": -22, "color": "#a8200c"},
+                 {"box": [64, 34, 98, 72], "font": "kalam", "text": "abrir", "rotate": -62, "color": "#a8200c"}],
+    },
+    "sign_009_drinks": {
+        "en": "COLD / DRINKS (outlined letters with a blue glow, by bottles)",
+        "note": "\"Bebidas / geladas\" in the same two styles; the bottles stay.",
+        "erase": [{"rect": [56, 22, 122, 72], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "lama": True}],
+        "alpha": {"erase": [{"rect": [56, 22, 122, 72], "thresh": 60, "grow": 2, "isolate": True, "scatter": [10, 6], "detect_rgb": True}], "letters": 255, "outline": 255},
+        "text": [{"box": [58, 24, 118, 46], "font": "luckiest", "text": "BEBIDAS", "stretch": True, "rotate": -8, "outline": [3, "#6fb0e0"], "color": "#6fb0e0"},
+                 {"box": [58, 24, 118, 46], "font": "luckiest", "text": "BEBIDAS", "stretch": True, "rotate": -8, "outline": [1, "#101010"], "color": "#eef2f6"},
+                 {"box": [64, 47, 114, 63], "font": "serif-bold", "text": "GELADAS", "stretch": True, "rotate": -10, "outline": [1, "#6fb0e0"], "color": "#101010"}],
+    },
+    "sign_010_bus": {
+        "en": "PUBLIC TRANSPORT / TIMETABLE (header of a bus timetable; the table is Finnish)",
+        "note": "\"Transporte público / horários\"; the Finnish table stays.",
+        "erase": [{"rect": [36, 9, 150, 36], "mode": "dark", "thresh": 25, "k": 9, "grain": 2, "isolate": True, "scatter": [6, 3]}],
+        "alpha": {"erase": [{"rect": [36, 9, 150, 36], "mode": "dark", "k": 9, "thresh": 25, "grow": 1, "isolate": True, "scatter": [6, 3], "detect_rgb": True}], "letters": 97},
+        "text": [{"box": [38, 10, 148, 21], "font": "lato", "text": "TRANSPORTE PÚBLICO", "stretch": True, "color": "#33496c"},
+                 {"box": [38, 23, 98, 34], "font": "lato", "text": "HORÁRIOS", "stretch": True, "color": "#33496c"}],
+    },
+    "Decal_002_grill": {
+        "en": "EIJA'S GRILL / Opening hours / MON-SAT 18-24 / SUNDAY CLOSED (printed notice)",
+        "note": "Eija's Grill (name) stays; \"Horário\", SEG-SÁB as on the other signs, \"Domingo fechado\".",
+        "erase": [{"rect": [24, 24, 104, 39], "mode": "dark", "thresh": 20, "k": 9, "grain": 2, "isolate": True, "scatter": [6, 3]}, {"rect": [30, 44, 98, 60], "mode": "dark", "thresh": 20, "k": 9, "grain": 2, "isolate": True, "scatter": [6, 3]}, {"rect": [30, 82, 98, 113], "mode": "dark", "thresh": 20, "k": 9, "grain": 2, "isolate": True, "scatter": [6, 3]}],
+        "text": [{"box": [28, 25, 100, 39], "font": "lato", "text": "Horário", "baseline": 36, "size": 13, "color": "#4a4a4a"},
+                 {"box": [30, 45, 98, 59], "font": "lato", "text": "SEG-SÁB", "baseline": 58, "size": 17, "color": "#4a4a4a"},
+                 {"box": [30, 85, 98, 99], "font": "lato", "text": "DOMINGO", "baseline": 98, "size": 17, "color": "#4a4a4a"},
+                 {"box": [30, 101, 98, 115], "font": "lato", "text": "FECHADO", "baseline": 114, "size": 17, "color": "#4a4a4a"}],
+    },
+    "Decal_002_skin13": {
+        "en": "WE ARE / OPEN / EVERYDAY; MON-FRI, SATURDAY, SUNDAY 0-24; SKEIDA PHARMACY (pharmacy notice)",
+        "note": "\"Aberto todos os dias\" as on the Skeida window; weekday words as on the other signs; the hours stay.",
+        "erase": [{"rect": [24, 10, 90, 20], "mode": "color", "thresh": 45, "k": 7, "grain": 0, "isolate": True, "scatter": [10, 4]}, {"rect": [24, 24, 90, 34], "mode": "color", "thresh": 45, "k": 7, "grain": 0, "isolate": True, "scatter": [10, 4]}, {"rect": [24, 37, 90, 47], "mode": "color", "thresh": 45, "k": 7, "grain": 0, "isolate": True, "scatter": [30, 4]}, {"rect": [24, 66, 80, 110], "mode": "light", "thresh": 40, "k": 9, "grain": 0, "isolate": True, "scatter": [4, 2]}, {"rect": [34, 114, 93, 120], "mode": "dark", "thresh": 40, "k": 5, "grain": 0, "isolate": True, "scatter": [4, 1]}],
+        "text": [{"pixel": "board", "box": [26, 11, 67, 19], "baselines": [22], "text": "ABERTO", "gap": 1, "space": 3, "align": "left", "bold": True, "stretch": True, "color": "#f2f6f0"},
+                 {"pixel": "board", "box": [26, 25, 76, 33], "baselines": [36], "text": "TODOS OS", "gap": 1, "space": 3, "align": "left", "bold": True, "stretch": True, "color": "#f2f6f0"},
+                 {"pixel": "board", "box": [26, 38, 49, 46], "baselines": [50], "text": "DIAS", "gap": 1, "space": 3, "align": "left", "bold": True, "stretch": True, "color": "#f2f6f0"},
+                 {"pixel": "board", "box": [26, 68, 80, 78], "baselines": [71], "text": "SEG-SEX", "gap": 1, "align": "left", "color": "#f2f6f0"},
+                 {"pixel": "board", "box": [26, 84, 80, 94], "baselines": [87], "text": "SÁBADO", "gap": 1, "align": "left", "color": "#f2f6f0"},
+                 {"pixel": "board", "box": [26, 100, 80, 110], "baselines": [103], "text": "DOMINGO", "gap": 1, "align": "left", "color": "#f2f6f0"},
+                 {"pixel": "tiny", "box": [34, 114, 93, 120], "baselines": [118], "text": "FARMÁCIA SKEIDA", "gap": 1, "space": 2, "color": "#4c9a50"}],
+    },
+    "street_sign_001_power_company": {
+        "en": "Get your / electricity / contract here! (chalk on a blackboard)",
+        "note": "\"Faça aqui seu contrato de energia!\"; the badge and arrow stay.",
+        "erase": [{"rect": [132, 64, 246, 126], "mode": "light", "thresh": 30, "k": 9, "grain": 2, "isolate": True, "scatter": [6, 3]}],
+        "text": [{"box": [138, 67, 244, 84], "font": "kalam", "text": "Faça aqui seu", "ink": "letters"},
+                 {"box": [136, 87, 245, 104], "font": "kalam", "text": "contrato de", "ink": "letters"},
+                 {"box": [138, 107, 242, 124], "font": "kalam", "text": "energia!", "ink": "letters"}],
+        "alts": {"Gloria Hallelujah": {"font": "gloria"}, "Patrick Hand": {"font": "hand"}},
+    },
+    "Decal_003_os_power_company": {
+        "en": "Open Sewer Power Company (around a lightning badge)",
+        "note": "\"Companhia Elétrica Esgoto Aberto\" as in the game text: Esgoto Aberto over the top, Companhia Elétrica along the bottom. The badge is a cutout: the letters are redrawn in the alpha too.",
+        "erase": [{"rect": [130, 15, 163, 49], "mode": "dark", "thresh": 40, "k": 15, "grain": 0, "isolate": True, "scatter": [6, 6], "poly": [[131, 44], [131, 16], [161, 20], [153, 47]]}, {"rect": [152, 19, 190, 58], "mode": "dark", "thresh": 40, "k": 15, "grain": 0, "isolate": True, "scatter": [6, 6], "poly": [[153, 47], [161, 20], [188, 31], [174, 56]]}, {"rect": [173, 30, 214, 71], "mode": "dark", "thresh": 40, "k": 15, "grain": 0, "isolate": True, "scatter": [6, 6], "poly": [[174, 56], [188, 31], [212, 49], [192, 69]]}, {"rect": [191, 48, 232, 89], "mode": "dark", "thresh": 40, "k": 15, "grain": 0, "isolate": True, "scatter": [6, 6], "poly": [[192, 69], [212, 49], [230, 73], [205, 87]]}, {"rect": [204, 72, 243, 110], "mode": "dark", "thresh": 40, "k": 15, "grain": 0, "isolate": True, "scatter": [6, 6], "poly": [[205, 87], [230, 73], [241, 100], [214, 108]]}, {"rect": [213, 99, 247, 132], "mode": "dark", "thresh": 40, "k": 15, "grain": 0, "isolate": True, "scatter": [6, 6], "poly": [[214, 108], [241, 100], [245, 130], [217, 130]]}, {"rect": [213, 129, 247, 162], "mode": "dark", "thresh": 40, "k": 15, "grain": 0, "isolate": True, "scatter": [6, 6], "poly": [[217, 130], [245, 130], [241, 160], [214, 152]]}, {"rect": [204, 151, 243, 189], "mode": "dark", "thresh": 40, "k": 15, "grain": 0, "isolate": True, "scatter": [6, 6], "poly": [[214, 152], [241, 160], [230, 187], [205, 173]]}, {"rect": [191, 172, 232, 213], "mode": "dark", "thresh": 40, "k": 15, "grain": 0, "isolate": True, "scatter": [6, 6], "poly": [[205, 173], [230, 187], [212, 211], [192, 191]]}, {"rect": [173, 190, 214, 231], "mode": "dark", "thresh": 40, "k": 15, "grain": 0, "isolate": True, "scatter": [6, 6], "poly": [[192, 191], [212, 211], [188, 229], [174, 204]]}, {"rect": [152, 203, 190, 242], "mode": "dark", "thresh": 40, "k": 15, "grain": 0, "isolate": True, "scatter": [6, 6], "poly": [[174, 204], [188, 229], [161, 240], [153, 213]]}, {"rect": [130, 212, 163, 246], "mode": "dark", "thresh": 40, "k": 15, "grain": 0, "isolate": True, "scatter": [6, 6], "poly": [[153, 213], [161, 240], [131, 244], [131, 216]]}, {"rect": [100, 212, 133, 246], "mode": "dark", "thresh": 40, "k": 15, "grain": 0, "isolate": True, "scatter": [6, 6], "poly": [[131, 216], [131, 244], [101, 240], [109, 213]]}, {"rect": [73, 203, 111, 242], "mode": "dark", "thresh": 40, "k": 15, "grain": 0, "isolate": True, "scatter": [6, 6], "poly": [[109, 213], [101, 240], [74, 229], [88, 204]]}, {"rect": [49, 190, 90, 231], "mode": "dark", "thresh": 40, "k": 15, "grain": 0, "isolate": True, "scatter": [6, 6], "poly": [[88, 204], [74, 229], [50, 211], [70, 191]]}, {"rect": [31, 172, 72, 213], "mode": "dark", "thresh": 40, "k": 15, "grain": 0, "isolate": True, "scatter": [6, 6], "poly": [[70, 191], [50, 211], [32, 187], [57, 173]]}, {"rect": [20, 151, 59, 189], "mode": "dark", "thresh": 40, "k": 15, "grain": 0, "isolate": True, "scatter": [6, 6], "poly": [[57, 173], [32, 187], [21, 160], [48, 152]]}, {"rect": [16, 129, 50, 162], "mode": "dark", "thresh": 40, "k": 15, "grain": 0, "isolate": True, "scatter": [6, 6], "poly": [[48, 152], [21, 160], [17, 130], [45, 130]]}, {"rect": [16, 99, 50, 132], "mode": "dark", "thresh": 40, "k": 15, "grain": 0, "isolate": True, "scatter": [6, 6], "poly": [[45, 130], [17, 130], [21, 100], [48, 108]]}, {"rect": [20, 72, 59, 110], "mode": "dark", "thresh": 40, "k": 15, "grain": 0, "isolate": True, "scatter": [6, 6], "poly": [[48, 108], [21, 100], [32, 73], [57, 87]]}, {"rect": [31, 48, 72, 89], "mode": "dark", "thresh": 40, "k": 15, "grain": 0, "isolate": True, "scatter": [6, 6], "poly": [[57, 87], [32, 73], [50, 49], [70, 69]]}, {"rect": [49, 30, 90, 71], "mode": "dark", "thresh": 40, "k": 15, "grain": 0, "isolate": True, "scatter": [6, 6], "poly": [[70, 69], [50, 49], [74, 31], [88, 56]]}, {"rect": [73, 19, 111, 58], "mode": "dark", "thresh": 40, "k": 15, "grain": 0, "isolate": True, "scatter": [6, 6], "poly": [[88, 56], [74, 31], [101, 20], [109, 47]]}, {"rect": [100, 15, 133, 49], "mode": "dark", "thresh": 40, "k": 15, "grain": 0, "isolate": True, "scatter": [6, 6], "poly": [[109, 47], [101, 20], [131, 16], [131, 44]]}],
+        "alpha": {"erase": [{"rect": [130, 15, 163, 49], "poly": [[131, 44], [131, 16], [161, 20], [153, 47]], "mode": "bright", "thresh": 100, "grow": 1, "isolate": True, "scatter": [6, 6]}, {"rect": [152, 19, 190, 58], "poly": [[153, 47], [161, 20], [188, 31], [174, 56]], "mode": "bright", "thresh": 100, "grow": 1, "isolate": True, "scatter": [6, 6]}, {"rect": [173, 30, 214, 71], "poly": [[174, 56], [188, 31], [212, 49], [192, 69]], "mode": "bright", "thresh": 100, "grow": 1, "isolate": True, "scatter": [6, 6]}, {"rect": [191, 48, 232, 89], "poly": [[192, 69], [212, 49], [230, 73], [205, 87]], "mode": "bright", "thresh": 100, "grow": 1, "isolate": True, "scatter": [6, 6]}, {"rect": [204, 72, 243, 110], "poly": [[205, 87], [230, 73], [241, 100], [214, 108]], "mode": "bright", "thresh": 100, "grow": 1, "isolate": True, "scatter": [6, 6]}, {"rect": [213, 99, 247, 132], "poly": [[214, 108], [241, 100], [245, 130], [217, 130]], "mode": "bright", "thresh": 100, "grow": 1, "isolate": True, "scatter": [6, 6]}, {"rect": [213, 129, 247, 162], "poly": [[217, 130], [245, 130], [241, 160], [214, 152]], "mode": "bright", "thresh": 100, "grow": 1, "isolate": True, "scatter": [6, 6]}, {"rect": [204, 151, 243, 189], "poly": [[214, 152], [241, 160], [230, 187], [205, 173]], "mode": "bright", "thresh": 100, "grow": 1, "isolate": True, "scatter": [6, 6]}, {"rect": [191, 172, 232, 213], "poly": [[205, 173], [230, 187], [212, 211], [192, 191]], "mode": "bright", "thresh": 100, "grow": 1, "isolate": True, "scatter": [6, 6]}, {"rect": [173, 190, 214, 231], "poly": [[192, 191], [212, 211], [188, 229], [174, 204]], "mode": "bright", "thresh": 100, "grow": 1, "isolate": True, "scatter": [6, 6]}, {"rect": [152, 203, 190, 242], "poly": [[174, 204], [188, 229], [161, 240], [153, 213]], "mode": "bright", "thresh": 100, "grow": 1, "isolate": True, "scatter": [6, 6]}, {"rect": [130, 212, 163, 246], "poly": [[153, 213], [161, 240], [131, 244], [131, 216]], "mode": "bright", "thresh": 100, "grow": 1, "isolate": True, "scatter": [6, 6]}, {"rect": [100, 212, 133, 246], "poly": [[131, 216], [131, 244], [101, 240], [109, 213]], "mode": "bright", "thresh": 100, "grow": 1, "isolate": True, "scatter": [6, 6]}, {"rect": [73, 203, 111, 242], "poly": [[109, 213], [101, 240], [74, 229], [88, 204]], "mode": "bright", "thresh": 100, "grow": 1, "isolate": True, "scatter": [6, 6]}, {"rect": [49, 190, 90, 231], "poly": [[88, 204], [74, 229], [50, 211], [70, 191]], "mode": "bright", "thresh": 100, "grow": 1, "isolate": True, "scatter": [6, 6]}, {"rect": [31, 172, 72, 213], "poly": [[70, 191], [50, 211], [32, 187], [57, 173]], "mode": "bright", "thresh": 100, "grow": 1, "isolate": True, "scatter": [6, 6]}, {"rect": [20, 151, 59, 189], "poly": [[57, 173], [32, 187], [21, 160], [48, 152]], "mode": "bright", "thresh": 100, "grow": 1, "isolate": True, "scatter": [6, 6]}, {"rect": [16, 129, 50, 162], "poly": [[48, 152], [21, 160], [17, 130], [45, 130]], "mode": "bright", "thresh": 100, "grow": 1, "isolate": True, "scatter": [6, 6]}, {"rect": [16, 99, 50, 132], "poly": [[45, 130], [17, 130], [21, 100], [48, 108]], "mode": "bright", "thresh": 100, "grow": 1, "isolate": True, "scatter": [6, 6]}, {"rect": [20, 72, 59, 110], "poly": [[48, 108], [21, 100], [32, 73], [57, 87]], "mode": "bright", "thresh": 100, "grow": 1, "isolate": True, "scatter": [6, 6]}, {"rect": [31, 48, 72, 89], "poly": [[57, 87], [32, 73], [50, 49], [70, 69]], "mode": "bright", "thresh": 100, "grow": 1, "isolate": True, "scatter": [6, 6]}, {"rect": [49, 30, 90, 71], "poly": [[70, 69], [50, 49], [74, 31], [88, 56]], "mode": "bright", "thresh": 100, "grow": 1, "isolate": True, "scatter": [6, 6]}, {"rect": [73, 19, 111, 58], "poly": [[88, 56], [74, 31], [101, 20], [109, 47]], "mode": "bright", "thresh": 100, "grow": 1, "isolate": True, "scatter": [6, 6]}, {"rect": [100, 15, 133, 49], "poly": [[109, 47], [101, 20], [131, 16], [131, 44]], "mode": "bright", "thresh": 100, "grow": 1, "isolate": True, "scatter": [6, 6]}], "letters": 255},
+        "text": [{"box": [0, 0, 256, 256], "font": "russo", "text": "Esgoto Aberto", "size": 20, "tracking": 0.265, "circle": {"center": [131, 130], "radius": 92, "mid": 309, "outward": True}, "color": "#141414"},
+                 {"box": [0, 0, 256, 256], "font": "russo", "text": "Companhia Elétrica", "size": 20, "tracking": 0.06, "circle": {"center": [131, 130], "radius": 100, "mid": 136, "outward": False}, "color": "#141414"}],
+    },
+    "Decal_003_rob_in": {
+        "en": "ROB-IN / BUILD / AND / REPAIR (red pixel letters on yellow boards, two builders)",
+        "note": "Rob-In (name) stays; \"Construções e reparos\" as in the game text.",
+        "erase": [{"rect": [62, 66, 202, 100], "mode": "color", "thresh": 80, "k": 7, "grain": 0, "only_red": 60, "isolate": True, "scatter": [6, 3]}, {"rect": [84, 108, 172, 143], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "only_red": 40, "isolate": True, "scatter": [6, 3]}, {"rect": [60, 146, 204, 184], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "only_red": 40, "isolate": True, "scatter": [6, 3]}],
+        "text": [{"box": [64, 68, 200, 98], "font": "archivo-black", "text": "CONSTRUÇÕES", "stretch": True, "pixelate": 2, "outline": [1, "#5a0a0a"], "color": "#d81010"},
+                 {"box": [116, 112, 142, 136], "font": "archivo-black", "text": "E", "stretch": True, "pixelate": 2, "outline": [1, "#5a0a0a"], "color": "#d81010"},
+                 {"box": [64, 150, 200, 176], "font": "archivo-black", "text": "REPAROS", "stretch": True, "pixelate": 2, "outline": [1, "#5a0a0a"], "color": "#d81010"}],
+    },
 }
 
 # Review batches: each is checked by the user, texture by texture, against the original.
@@ -1885,6 +2048,7 @@ BATCHES = {
     "11": ["Market_sign_002_ankea_a", "Market_sign_002_ankea_b", "Market_sign_002_ankea_c", "Market_sign_002_ankea_d", "farm_sign_001", "shop_facade_001_window_macaroni", "shop_facade_001_window_macaroni_e", "shop_facade_001_window_fungi_a", "shop_facade_001_window_fungi_a_e", "sign_002_general_store", "shop_facade_001_window_casino_crazy_a", "shop_facade_001_window_casino_b", "shop_facade_001_window_casino_a", "sign_006_möbelmann", "Market_sign_beer_001", "cash_desk_001_sign"],
     "12": ["Market_sign_001_skin9", "Market_sign_001_skin8", "shop_facade_001_window_rob", "shop_facade_001_window_rob_a_e", "cash_desk_001_sign_inverted", "sign_003", "sign_001", "Market_sign_002_skin2", "sign_007_atm", "sign_007_atm_e"],
     "13": ["sign_004", "sign_dead_end", "open_sign_001_em", "trashcan_002", "trashcan_002b", "sign_004_bank", "sign_004_lights", "sign_004_bergmann_3", "Sign_004_coins", "mine_signs_001_tenement", "mine_signs_001_fuel", "mine_signs_001_oredropoff", "mine_signs_001_service", "mine_signs_001b_components", "mine_signs_001b_construction", "mine_signs_001b_gardening", "mine_signs_001b_tools", "mine_signs_001b_woodworking"],
+    "14": ["Market_sign_alcohol_001", "Market_sign_drinks_001", "Market_sign_001_skin2", "Market_sign_001_skin2_e", "Market_sign_001_skin3", "Market_sign_001_skin6", "sign_006_exit", "sign_006_jams", "sign_006_plants", "sign_006_oreloader", "sign_009_drinks", "sign_010_bus", "Decal_002_grill", "Decal_002_skin13", "street_sign_001_power_company", "Decal_003_os_power_company", "Decal_003_rob_in"],
 }
 
 NUMBERS = {}

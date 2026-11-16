@@ -321,6 +321,45 @@ def text_layer(size, t):
     return small * t.get("opacity", 1.0)
 
 
+def circle_layer(size, t):
+    """Text set around a circle (badges). t["circle"] = {"center": [x, y], "radius": r, "mid": degrees, "outward": bool}.
+    Angles run clockwise from the top. outward (top arcs): read clockwise, letter tops point away from the centre,
+    baseline on the radius. Otherwise (bottom arcs): read counter-clockwise, tops point to the centre, the radius is
+    the letters' outer (baseline) edge. "size" is the font size in px, "tracking" extra em between letters."""
+    w, h = size
+    c = t["circle"]; cx, cy = c["center"]; r = c["radius"]; out_ = c.get("outward", True)
+    f = ImageFont.truetype(FONTS[t.get("font", "sans-bold")], int(t["size"] * SS))
+    tr = t.get("tracking", 0) * t["size"] * SS
+    adv = [f.getlength(ch) + tr for ch in t["text"]]
+    total = sum(adv) - tr
+    R = r * SS
+    full = Image.new("L", (w * SS, h * SS), 0)
+    asc = f.getbbox("H")[1]
+    s = -total / 2
+    for ch, a_ in zip(t["text"], adv):
+        if ch != " ":
+            mid = s + (a_ - tr) / 2
+            ang = c["mid"] + (1 if out_ else -1) * np.degrees(mid / R)
+            g = Image.new("L", (int(a_ + 4 * SS), int(t["size"] * SS * 1.6)), 0)
+            gb = f.getbbox(ch)
+            ImageDraw.Draw(g).text((2 * SS + tr / 2 * 0, -asc + 2 * SS), ch, font=f, fill=255)
+            base_y = 2 * SS + (f.getbbox("H")[3] - asc)   # baseline row inside g
+            rot = -ang if out_ else -(ang - 180)
+            # glyph anchor: horizontal centre, baseline
+            gx = 2 * SS + (a_ - tr) / 2
+            gr = g.rotate(rot, expand=True, resample=Image.BICUBIC, center=(gx, base_y))
+            # position of the anchor on the circle
+            th = np.radians(ang)
+            px, py = cx * SS + R * np.sin(th), cy * SS - R * np.cos(th)
+            # after rotate(expand), the anchor moves: rotate it the same way around the image centre
+            W0, H0 = g.size; W1, H1 = gr.size
+            ar = np.radians(rot); dx, dy = gx - W0 / 2, base_y - H0 / 2
+            nx = W1 / 2 + dx * np.cos(ar) + dy * np.sin(ar); ny = H1 / 2 - dx * np.sin(ar) + dy * np.cos(ar)
+            full.paste(Image.new("L", gr.size, 255), (int(px - nx), int(py - ny)), gr)
+        s += a_
+    return np.asarray(full.resize((w, h), Image.BOX)).astype(float) / 255.0 * t.get("opacity", 1.0)
+
+
 def pixel_layer(size, t, name):
     """Text t set in a bitmap font from pixelfonts.py: one line per baseline in t["baselines"], centred in
     the box's x range (or left-aligned), "gap" empty columns between letters and "space" between words.
@@ -344,6 +383,8 @@ def pixel_layer(size, t, name):
                             mask[top + dy, x + dx] = 1
                 x += len(rows[0]) + gap
             x += space - gap
+    if t.get("bold"):   # heavier pixel lettering: every stroke one pixel wider to the right
+        mask = np.maximum(mask, np.pad(mask, ((0, 0), (1, 0)))[:, :-1])
     if t.get("stretch"):   # blocky lettering: scale the drawn pixels up to fill the box exactly (nearest neighbour)
         bx0, by0, bx1, by1 = t["box"]
         ys, xs = np.nonzero(mask)
@@ -532,7 +573,7 @@ def render(name, spec, save=True):
     aout = alpha.astype(float)
     cov = np.zeros(rgb.shape[:2])
     for t in spec["text"]:
-        a = pixel_layer(im.size, t, name) if t.get("pixel") else text_layer(im.size, t)
+        a = pixel_layer(im.size, t, name) if t.get("pixel") else circle_layer(im.size, t) if t.get("circle") else text_layer(im.size, t)
         if t.get("behind_dark"):   # stay behind dark objects in the original (a chair drawn over the text)
             a = a * (orig.max(axis=2) > t["behind_dark"])
         if t.get("under"):   # stay under reddish artwork (e.g. hatching drawn over a street name): r - g above this
