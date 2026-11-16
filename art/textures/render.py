@@ -408,6 +408,8 @@ def render(name, spec, save=True):
         if save:
             os.makedirs(OUT, exist_ok=True)
             img.save(os.path.join(OUT, name + ".png"))
+            if spec.get("game_name"):
+                img.save(os.path.join(OUT, spec["game_name"] + ".png"))
         return img
     src = Image.open(os.path.join(GAME, spec.get("source", name) + ".png"))
     has_alpha = src.mode in ("RGBA", "LA") or "transparency" in src.info
@@ -577,6 +579,8 @@ def render(name, spec, save=True):
     if save:
         os.makedirs(OUT, exist_ok=True)
         img.save(os.path.join(OUT, name + ".png"))
+        if spec.get("game_name"):   # AssetRipper's "_0" export name; the game calls the texture this
+            img.save(os.path.join(OUT, spec["game_name"] + ".png"))
     return img
 
 

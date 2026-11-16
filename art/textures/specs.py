@@ -98,6 +98,7 @@ SPECS = {
     },
     # Vertical "PRIVATE PROPERTY" next to a no-entry pictogram
     "sign_004_trespass_0": {
+        "game_name": "sign_004_trespass",
         "en": 'PRIVATE PROPERTY',
         "note": 'Vertical text; PROPRIEDADE is longer than PROPERTY, so its letters are narrower.',
         "erase": [{"rect": [1, 1, 25, 59], "bg": "#b8b8b8", "thresh": 70}],   # circle starts at x 26
@@ -196,6 +197,7 @@ SPECS = {
     },
     # Small no-entry plate: "PRIVATE PROPERTY"
     "Sign Private Property_0": {
+        "game_name": "Sign Private Property",
         "en": 'PRIVATE PROPERTY',
         "note": 'Texture of the placeable "Private property" sign.',
         "erase": [{"rect": [9, 44, 55, 63], "bg": "#bababa", "thresh": 45, "isolate": True}],   # circle ends at row 42
@@ -641,6 +643,7 @@ SPECS = {
 
     # ---- Batch 05: teletext screens (one layout, mapped to each screen's scale) ----
     "tv_001_screen_on_text_tv_0": {
+        "game_name": "tv_001_screen_on_text_tv",
         "en": 'OPEN SEWER TEXT TV teletext page: 7 headlines, menu (NEWS, PROGRAMS, BETS, RADIO, SPORTS, WEATHER, BAZAAR, CHAT)',
         "note": "The teletext headlines are new Portuguese lines written to fit the original widths (none are in the game text). Open Sewer is \"Esgoto Aberto\" as in the glossary; OSTV, Pummeli and CHAT stay.",
         "erase": [{"rect": [62, 63, 253, 81], "mode": "light", "thresh": 30, "k": 7, "isolate": True, "grain": 2}, {"rect": [37, 91, 253, 106], "mode": "light", "thresh": 30, "k": 7, "isolate": True, "grain": 2}, {"rect": [37, 110, 253, 125], "mode": "light", "thresh": 30, "k": 7, "isolate": True, "grain": 2}, {"rect": [37, 129, 253, 144], "mode": "light", "thresh": 30, "k": 7, "isolate": True, "grain": 2}, {"rect": [37, 149, 253, 164], "mode": "light", "thresh": 30, "k": 7, "isolate": True, "grain": 2}, {"rect": [37, 168, 253, 183], "mode": "light", "thresh": 30, "k": 7, "isolate": True, "grain": 2}, {"rect": [37, 187, 253, 202], "mode": "light", "thresh": 30, "k": 7, "isolate": True, "grain": 2}, {"rect": [37, 206, 253, 221], "mode": "light", "thresh": 30, "k": 7, "isolate": True, "grain": 2}, {"rect": [22, 228, 50, 239], "mode": "dark", "thresh": 25, "k": 5, "isolate": True, "grain": 1}, {"rect": [82, 228, 134, 239], "mode": "dark", "thresh": 25, "k": 5, "isolate": True, "grain": 1}, {"rect": [154, 228, 183, 239], "mode": "dark", "thresh": 25, "k": 5, "isolate": True, "grain": 1}, {"rect": [218, 228, 250, 239], "mode": "dark", "thresh": 25, "k": 5, "isolate": True, "grain": 1}, {"rect": [24, 240, 61, 251], "mode": "dark", "thresh": 25, "k": 5, "isolate": True, "grain": 1}, {"rect": [82, 240, 128, 251], "mode": "dark", "thresh": 25, "k": 5, "isolate": True, "grain": 1}, {"rect": [158, 240, 194, 251], "mode": "dark", "thresh": 25, "k": 5, "isolate": True, "grain": 1}],
@@ -661,6 +664,7 @@ SPECS = {
                  {"box": [161, 236, 197, 250], "font": "mono", "size": 9.6, "squeeze": 1.0, "vsqueeze": 0.86, "baseline": 248, "align": "left", "contrast": [0.1, 0.85], "color": "#2a2ad8", "text": "BAZAR"}],
     },
     "tv_003_screen_on_text_tv_0": {
+        "game_name": "tv_003_screen_on_text_tv",
         "en": 'OPEN SEWER TEXT TV teletext page: 7 headlines, menu (NEWS, PROGRAMS, BETS, RADIO, SPORTS, WEATHER, BAZAAR, CHAT)',
         "note": "Same page as #64 at this screen's size.",
         "erase": [{"rect": [113, 37, 394, 56], "mode": "light", "thresh": 30, "k": 11, "isolate": True, "grain": 2}, {"rect": [76, 66, 394, 82], "mode": "light", "thresh": 30, "k": 11, "isolate": True, "grain": 2}, {"rect": [76, 86, 394, 102], "mode": "light", "thresh": 30, "k": 11, "isolate": True, "grain": 2}, {"rect": [76, 106, 394, 122], "mode": "light", "thresh": 30, "k": 11, "isolate": True, "grain": 2}, {"rect": [76, 127, 394, 143], "mode": "light", "thresh": 30, "k": 11, "isolate": True, "grain": 2}, {"rect": [76, 147, 394, 163], "mode": "light", "thresh": 30, "k": 11, "isolate": True, "grain": 2}, {"rect": [76, 167, 394, 183], "mode": "light", "thresh": 30, "k": 11, "isolate": True, "grain": 2}, {"rect": [76, 187, 394, 203], "mode": "light", "thresh": 30, "k": 11, "isolate": True, "grain": 2}, {"rect": [53, 211, 95, 222], "mode": "dark", "thresh": 25, "k": 7, "isolate": True, "grain": 1}, {"rect": [142, 211, 219, 222], "mode": "dark", "thresh": 25, "k": 7, "isolate": True, "grain": 1}, {"rect": [248, 211, 291, 222], "mode": "dark", "thresh": 25, "k": 7, "isolate": True, "grain": 1}, {"rect": [343, 211, 390, 222], "mode": "dark", "thresh": 25, "k": 7, "isolate": True, "grain": 1}, {"rect": [56, 223, 111, 235], "mode": "dark", "thresh": 25, "k": 7, "isolate": True, "grain": 1}, {"rect": [142, 223, 210, 235], "mode": "dark", "thresh": 25, "k": 7, "isolate": True, "grain": 1}, {"rect": [254, 223, 307, 235], "mode": "dark", "thresh": 25, "k": 7, "isolate": True, "grain": 1}],
@@ -681,6 +685,7 @@ SPECS = {
                  {"box": [259, 219, 311, 234], "font": "mono", "size": 14.2, "squeeze": 1.0, "vsqueeze": 0.613, "baseline": 232, "align": "left", "contrast": [0.1, 0.85], "color": "#2a2ad8", "text": "BAZAR"}],
     },
     "tv_003_screen_on_text_tv_e_0": {
+        "game_name": "tv_003_screen_on_text_tv_e",
         "en": 'OPEN SEWER TEXT TV teletext page: 7 headlines, menu (NEWS, PROGRAMS, BETS, RADIO, SPORTS, WEATHER, BAZAAR, CHAT)',
         "note": "Glow (emission) map of the screen before; letters take the old letters' dimmed colour.",
         "mask_source": "tv_003_screen_on_text_tv_0",
@@ -1011,6 +1016,7 @@ SPECS = {
                  {"box": [14, 68, 98, 90], "font": "sans-bold", "text": "DO CAFÉ", "squeeze": 0.88, "baseline": 88, "size": 26, "stroke": 0.45, "contrast": [0.1, 0.8], "color": "#121212"}],
     },
     "Market_sign_002_0": {
+        "game_name": "Market_sign_002",
         "en": "SALE / UP TO / -70% / OFF / SPECIAL OFFER",
         "note": "PROMOÇÃO for SALE; -70% and OFF stay (Brazilian shops use \"OFF\"). Keeping SALE is shown as an option.",
         "erase": [{"rect": [6, 0, 110, 38], "mode": "dark", "thresh": 25, "k": 21, "grain": 2}, {"rect": [34, 44, 79, 60], "mode": "light", "thresh": 25, "k": 7, "grain": 2}, {"rect": [11, 112, 101, 125], "mode": "dark", "thresh": 25, "k": 9, "grain": 2}],
@@ -1131,6 +1137,7 @@ SPECS = {
                  {"box": [145, 156, 238, 168], "font": "kalam", "text": "CONSERTOS", "baseline": 166, "size": 12, "shear": 0.12, "color": "#e6e6e6", "crisp": 0.5}],
     },
     "Market_sign_003_0": {
+        "game_name": "Market_sign_003",
         "en": "OSMO OLUT / The World's Strongest Beer / YOU KNOW WHAT YOU NEED",
         "note": "Osmo Olut (brand) stays.",
         "erase": [{"rect": [6, 26, 122, 40], "mode": "light", "thresh": 25, "k": 7, "grain": 2}, {"rect": [20, 245, 106, 253], "mode": "light", "thresh": 25, "k": 5, "grain": 2}],
@@ -1166,6 +1173,7 @@ SPECS = {
                  {"box": [22, 101, 114, 116], "font": "sans-bold", "text": "BEM-VINDO", "baseline": 115, "size": 16, "color": "#e4ece4"}],
     },
     "landmark_commercial_furniture_shop_0": {
+        "game_name": "landmark_commercial_furniture_shop",
         "en": "commercial / FURNITURE",
         "note": "Order turned around for Portuguese: small \"móveis\" above the big \"COMERCIAIS\".",
         "erase": [{"rect": [16, 50, 115, 69], "mode": "dark", "thresh": 25, "k": 9, "grain": 2}, {"rect": [8, 63, 121, 81], "mode": "dark", "thresh": 25, "k": 11, "grain": 2}],
@@ -1235,6 +1243,7 @@ SPECS = {
         "text": [],
     },
     "sign_004_bio_0": {
+        "game_name": "sign_004_bio",
         "en": "BIOHAZARD",
         "note": "\"Risco biológico\" is the Brazilian sign wording; it is longer, so the letters are narrower. The gloss map's DANGER / KEEP OUT belongs to a base sign and stays.",
         "erase": [{"rect": [5, 43, 76, 57], "mode": "dark", "thresh": 25, "k": 9, "grain": 2, "isolate": True}],
@@ -1392,6 +1401,7 @@ SPECS = {
         "text": [{"box": [7, 134, 153, 154], "font": "sans", "text": "SEGURANÇA", "size": 21, "baseline": 151, "stroke": 0.3, "tracking": 0.14, "mottle": 10, "chip": 0.06, "chip_scale": 0.5, "clip": [5, 133, 155, 155], "color": "#101010"}],
     },
     "landmark_security_0": {
+        "game_name": "landmark_security",
         "en": "SECURITY (condensed, on a yellow plate)",
         "erase": [{"rect": [8, 48, 120, 80], "mode": "dark", "thresh": 25, "k": 11, "grain": 2, "isolate": True}],
         "text": [{"box": [10, 50, 118, 79], "font": "oswald-bold", "text": "SEGURANÇA", "stretch": True, "crisp": 0.5, "color": "#212021"}],
@@ -1429,6 +1439,7 @@ SPECS = {
                  {"box": [131, 139, 210, 161], "text": "HOUSE", "pixel": "board", "baselines": [200], "gap": 1, "stretch": True, "mirror": True, "color": "#c342d1"}],
     },
     "cardboard_sign_002_buy_stuff_0": {
+        "game_name": "cardboard_sign_002_buy_stuff",
         "en": "BUY MY / STUFF :) (red marker on cardboard)",
         "note": "Marker hand in Waiting for the Sunrise (chosen in review).",
         "erase": [{"rect": [0, 20, 128, 86], "bg": "#9f8b5a", "thresh": 50, "grow": 1, "only_red": 25, "scatter": [6, 4]}],
@@ -1708,6 +1719,8 @@ SPECS = {
 # Review batches: each is checked by the user, texture by texture, against the original.
 # Textures are numbered #1, #2, ... in the order they appear here, across batches; the user refers to
 # them by number. Append only: never reorder, remove or insert, or every later number shifts.
+# "game_name": AssetRipper exports a second texture with the same name as <name>_0; in the game both are called
+# game_name, and the plugin matches that name, so the shipped file uses it.
 BATCHES = {
     "01": ["sign_004_out_of_stock", "sign_004_trespass_bazaar", "sign_004_repaired", "sign_004_trespass_0",
            "Sign Private Property_0", "sign_004_camera", "sign_004_border", "sign_004_bergmann",
