@@ -63,8 +63,41 @@ def regrain(out, mask, rect, radius, seed, local):
     return out
 
 
+IOPAINT = os.environ.get("IOPAINT", os.path.expanduser("~/.local/share/iopaint/venv/bin/iopaint"))
+LAMA_CACHE = os.path.join(HERE, "out", "lama-cache")
+
+
+def lama_inpaint(rgb, mask):
+    """Inpaint mask (255 = fill) with LaMa through the IOPaint CLI. Results are cached by input, so re-renders are
+    fast and the same on every run."""
+    rgb, mask = np.ascontiguousarray(rgb), np.ascontiguousarray(mask)
+    key = "%08x" % (zlib.crc32(mask.tobytes(), zlib.crc32(rgb.tobytes())) & 0xffffffff) + "_%dx%d" % rgb.shape[1::-1]
+    cached = os.path.join(LAMA_CACHE, key + ".png")
+    if not os.path.exists(cached):
+        import shutil
+        import subprocess
+        import tempfile
+        if not os.path.exists(IOPAINT):
+            sys.exit(f"lama erase needs IOPaint at {IOPAINT} (or set IOPAINT)")
+        with tempfile.TemporaryDirectory() as tmp:
+            for sub in ("img", "mask", "res"):
+                os.mkdir(os.path.join(tmp, sub))
+            Image.fromarray(rgb).save(os.path.join(tmp, "img", "a.png"))
+            Image.fromarray(mask).save(os.path.join(tmp, "mask", "a.png"))
+            subprocess.run([IOPAINT, "run", "--model", "lama", "--device", "cpu", "--image", os.path.join(tmp, "img"),
+                            "--mask", os.path.join(tmp, "mask"), "--output", os.path.join(tmp, "res")],
+                           check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+            os.makedirs(LAMA_CACHE, exist_ok=True)
+            shutil.move(os.path.join(tmp, "res", "a.png"), cached)
+    res = np.array(Image.open(cached).convert("RGB"))
+    out = rgb.copy()
+    out[mask > 0] = res[mask > 0]   # LaMa may shift untouched pixels slightly; keep them exact
+    return out
+
+
 def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, isolate=False, grain=0, detect=None,
-          return_mask=False, poly=None, scatter=None, exclude_red=None, sample_min=None, only_red=None, exclude_dark=None):
+          return_mask=False, poly=None, scatter=None, exclude_red=None, sample_min=None, only_red=None, exclude_dark=None,
+          lama=False):
     """Inpaint the old letters inside rect.
 
     mode "color": letters are pixels far from the background colour (flat backgrounds).
@@ -79,6 +112,8 @@ def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, is
     sample_min: scatter only copies pixels whose darkest channel is above this (plain paper, not ink).
     scatter: [rx, ry]: instead of inpainting, give each letter pixel the colour of a random untouched pixel within
     rx/ry, for speckled or grimy surfaces where a smooth fill would show.
+    lama: fill with the LaMa model (IOPaint) instead of OpenCV; much better on large letters and textured surfaces.
+    Use it with a letter mask: on these small textures, filling a whole rect makes up planks and patches.
     """
     x0, y0, x1, y1 = rect
     look = rgb if detect is None else detect
@@ -141,7 +176,9 @@ def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, is
                     out[y, x] = rgb[sy, sx]
                     break
         return (out, core) if return_mask else out
-    if isolate:
+    if lama:   # LaMa needs the surroundings for context; the mask already stays inside rect
+        out = lama_inpaint(rgb, mask)
+    elif isolate:
         out = rgb.copy()
         out[y0:y1, x0:x1] = cv2.inpaint(np.ascontiguousarray(rgb[y0:y1, x0:x1]),
                                         np.ascontiguousarray(mask[y0:y1, x0:x1]), radius, cv2.INPAINT_TELEA)
@@ -363,7 +400,8 @@ def render(name, spec, save=True):
             rgb, m = erase(rgb, op["rect"], op.get("bg"), op.get("thresh", 40), op.get("grow", 1), op.get("radius", 3),
                            op.get("mode", "color"), op.get("k", 5), op.get("isolate", False), op.get("grain", 0),
                            detect, return_mask=True, poly=op.get("poly"), scatter=op.get("scatter"),
-                           exclude_red=op.get("exclude_red"), sample_min=op.get("sample_min"), only_red=op.get("only_red"), exclude_dark=op.get("exclude_dark"))
+                           exclude_red=op.get("exclude_red"), sample_min=op.get("sample_min"), only_red=op.get("only_red"), exclude_dark=op.get("exclude_dark"),
+                           lama=op.get("lama", False))
             old |= m
     # "copy": [{"from": [x0, y0, x1, y1], "to": [x, y]}]: paste a block of the original texture elsewhere (reuse the
     # sign's own letters when a word only changes a letter or two).

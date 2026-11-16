@@ -1466,6 +1466,7 @@ SPECS = {
 
 
 
+
     # ---- Batch 11: Ankea posters, farm, restaurant, fungi, casino, Möbelmann, beer (tier 1b) ----
     "Market_sign_002_ankea_a": {
         "en": "ANKEA / kolotus / gaming chair / check price inside! / new gaming collection (poster)",
@@ -1569,7 +1570,7 @@ SPECS = {
     "sign_006_möbelmann": {
         "en": "MÖBELMANN / FURNITURES (scratchy paint)",
         "note": "Möbelmann (name) stays; \"Móveis Möbelmann\" in the game text. Jagged scratchy capitals with a dark outline.",
-        "erase": [{"rect": [4, 38, 124, 70], "thresh": 70, "grow": 1, "isolate": True, "scatter": [16, 6]}],
+        "erase": [{"rect": [4, 38, 124, 70], "thresh": 70, "grow": 1, "lama": True}],
         "text": [{"box": [16, 40, 112, 68], "font": "rocksalt", "text": "MÓVEIS", "stretch": True, "pixelate": 2, "outline": [2, "#1c1612"], "color": "#c9b3ab"}],
         "alts": {"Luckiest Guy": {"font": "luckiest"}, "Chewy": {"font": "chewy"}},
     },
