@@ -83,7 +83,7 @@ def main():
         w = a.width * scale
         main = "Português (main version)" if spec.get("alts") else "Português"
         pics = [("Original", a.convert("RGB")), (main, b.convert("RGB"))]
-        if spec.get("alpha"):
+        if spec.get("alpha") or spec.get("derive"):
             pics += [("Original gloss", a.getchannel("A")), ("Portuguese gloss", b.getchannel("A"))]
         # "alts": {label: overrides for the first text line} shows other candidates (e.g. fonts) to choose from;
         # with "all": True the overrides go to every line (the same word on several panels).
