@@ -2027,6 +2027,8 @@ SPECS = {
 
 
 
+
+
     # ---- Batch 15: tier 1c signs (graffiti, posters, door plate, security band, scratchcards, phone booth, freezer, chair, salon, bottle machine) ----
     "Decal_003_graffiti_alcohol": {
         "en": "BRING / THE / ALCOHOL (graffiti on a black patch)",
@@ -2051,7 +2053,7 @@ SPECS = {
         "note": "\"Despejem o senhorio\" (senhorio as in the game text). The decal is a cutout, so the letters are redrawn in the alpha.",
         "game_name": "Decal_002_graffiti_5",
         "cutout": True,
-        "erase": [],
+        "erase": [{"rect": [4, 16, 128, 112], "mode": "color", "thresh": 10, "k": 7, "grain": 0, "grow": 2, "isolate": True, "scatter": [20, 20]}],
         "alpha": {"erase": [{"rect": [6, 18, 128, 110], "color": "#000000"}], "letters": 255},
         "text": [{"box": [18, 24, 112, 60], "font": "marker", "text": "DESPEJEM", "stretch": True, "color": "#562018"},
                  {"box": [50, 60, 68, 78], "font": "marker", "text": "O", "color": "#562018"},
@@ -2075,7 +2077,7 @@ SPECS = {
         "en": "SECURITY (on a hazard-striped band)",
         "note": "\"Segurança\".",
         "erase": [{"rect": [4, 48, 124, 78], "mode": "dark", "thresh": 40, "k": 11, "grain": 0, "isolate": True, "scatter": [12, 3]}],
-        "text": [{"box": [5, 51, 123, 75], "font": "sans-bold", "text": "SEGURANÇA", "stretch": True, "color": "#212021"}],
+        "text": [{"box": [5, 51, 123, 75], "font": "sans-bold", "text": "SEGURANÇA", "stretch": True, "crisp": 0.5, "color": "#212021"}],
     },
     "Decal_002_skin30": {
         "en": "PEPSOALDENTE / 24H PROTECTION (toothpaste ad)",
