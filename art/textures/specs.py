@@ -1867,6 +1867,7 @@ SPECS = {
 
 
 
+
     # ---- Batch 14: tier 1c signs (market bands, canteen menu, wooden aisle signs, timetable, notices, badge, Rob-In) ----
     "Market_sign_alcohol_001": {
         "en": "ALCOHOL (outlined letters on a band)",
@@ -1878,9 +1879,9 @@ SPECS = {
     "Market_sign_drinks_001": {
         "en": "DRINKS (outlined letters on a band)",
         "note": "\"Bebidas\". Outlined block letters filling the band like the original.",
-        "erase": [{"rect": [0, 206, 256, 256], "bg": "#00b4ec", "thresh": 25, "grow": 1, "isolate": True, "scatter": [256, 45]}],
+        "erase": [{"rect": [0, 202, 256, 256], "bg": "#00b4ec", "thresh": 25, "grow": 1, "isolate": True, "scatter": [256, 50]}],
         "alpha": {"erase": [{"rect": [0, 211, 256, 256], "thresh": 60, "grow": 1, "isolate": True, "scatter": [256, 45]}], "outline": 20},
-        "text": [{"box": [2, 211, 254, 255], "font": "sans-bold", "text": "BEBIDAS", "stretch": True, "outline": [2, "#0a6c98"], "color": "#00b0ea"}],
+        "text": [{"box": [2, 205, 254, 255], "font": "sans-bold", "text": "BEBIDAS", "stretch": True, "outline": [2, "#0a6c98"], "color": "#00b0ea"}],
     },
     "Market_sign_001_skin2": {
         "en": "ONE STOP SHOP (decorated letters on an orange board)",
@@ -1936,7 +1937,7 @@ SPECS = {
     "sign_006_jams": {
         "en": "Jams & / Canned / Foods (red and green script on wood, tomato and cucumber)",
         "note": "\"Geleias & enlatados\", the usual aisle words; the tomato and cucumber stay.",
-        "erase": [{"rect": [10, 2, 84, 26], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "lama": True}, {"rect": [10, 26, 79, 62], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "lama": True}],
+        "erase": [{"rect": [10, 22, 79, 62], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "lama": True}, {"rect": [10, 2, 84, 24], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "lama": True}],
         "alpha": {"erase": [{"rect": [10, 2, 84, 26], "thresh": 60, "grow": 2, "isolate": True, "scatter": [8, 4], "detect_rgb": True}, {"rect": [10, 26, 79, 62], "thresh": 60, "grow": 2, "isolate": True, "scatter": [8, 4], "detect_rgb": True}], "letters": 60, "outline": 60},
         "text": [{"box": [12, 3, 82, 25], "font": "kaushan", "text": "Geleias &", "stretch": True, "outline": [1, "#4a0000"], "color": "#8c4142", "mottle": 6},
                  {"box": [12, 30, 73, 58], "font": "kaushan", "text": "Enlatados", "stretch": True, "outline": [1, "#084d00"], "color": "#4a8242", "mottle": 6}],
@@ -1997,12 +1998,11 @@ SPECS = {
     },
     "street_sign_001_power_company": {
         "en": "Get your / electricity / contract here! (chalk on a blackboard)",
-        "note": "\"Faça aqui seu contrato de energia!\"; the badge and arrow stay.",
+        "note": "\"Faça aqui seu contrato de energia!\" in Caveat (the user's pick), one size for all lines; the badge and arrow stay.",
         "erase": [{"rect": [132, 64, 246, 126], "mode": "light", "thresh": 30, "k": 9, "grain": 2, "isolate": True, "scatter": [6, 3]}],
-        "text": [{"box": [136, 66, 246, 85], "font": "indieflower", "text": "Faça aqui seu", "size": 17.5, "ink": "letters", "stroke": 0.3},
-                 {"box": [136, 86, 246, 105], "font": "indieflower", "text": "contrato de", "size": 17.5, "ink": "letters", "stroke": 0.3},
-                 {"box": [136, 106, 246, 125], "font": "indieflower", "text": "energia!", "size": 17.5, "ink": "letters", "stroke": 0.3}],
-        "alts": {"Schoolbell": {"font": "schoolbell", "all": True, "size": 19.0}, "Caveat": {"font": "caveat", "all": True, "size": 23.5}},
+        "text": [{"box": [136, 66, 246, 85], "font": "caveat", "text": "Faça aqui seu", "size": 23.5, "ink": "letters", "stroke": 0.3},
+                 {"box": [136, 86, 246, 105], "font": "caveat", "text": "contrato de", "size": 23.5, "ink": "letters", "stroke": 0.3},
+                 {"box": [136, 106, 246, 125], "font": "caveat", "text": "energia!", "size": 23.5, "ink": "letters", "stroke": 0.3}],
     },
     "Decal_003_os_power_company": {
         "en": "Open Sewer Power Company (around a lightning badge)",
@@ -2014,12 +2014,11 @@ SPECS = {
     },
     "Decal_003_rob_in": {
         "en": "ROB-IN / BUILD / AND / REPAIR (red pixel letters on yellow boards, two builders)",
-        "note": "Rob-In (name) stays; \"Construções e reparos\" as in the game text, in the sign's own chunky pixel capitals (C S T Ç Õ drawn to match). CONSTRUÇÕES is 11 letters where BUILD is 5, so its pixels are narrower; OBRAS is offered as a 5-letter option.",
+        "note": "Rob-In (name) stays; \"Obras e reparos\" (the user's pick over the game text's longer \"Construções\") in the sign's own chunky pixel capitals.",
         "erase": [{"rect": [62, 66, 202, 100], "mode": "color", "thresh": 80, "k": 7, "grain": 0, "only_red": 60, "isolate": True, "scatter": [6, 3]}, {"rect": [84, 108, 172, 143], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "only_red": 40, "isolate": True, "scatter": [6, 3]}, {"rect": [60, 146, 204, 184], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "only_red": 40, "isolate": True, "scatter": [6, 3]}],
-        "text": [{"pixel": "rob6", "box": [65, 74, 199, 101], "baselines": [82], "text": "CONSTRUÇÕES", "gap": 1, "stretch": True, "color": "#d81010"},
+        "text": [{"pixel": "rob6", "box": [74, 74, 182, 101], "baselines": [82], "text": "OBRAS", "gap": 1, "stretch": True, "color": "#d81010"},
                  {"pixel": "rob6", "box": [119, 113, 137, 140], "baselines": [121], "text": "E", "stretch": True, "color": "#d81010"},
                  {"pixel": "rob6", "box": [64, 157, 196, 184], "baselines": [165], "text": "REPAROS", "gap": 1, "stretch": True, "color": "#d81010"}],
-        "alts": {"OBRAS (5 letters, like BUILD)": {"text": "OBRAS", "box": [74, 74, 182, 101]}},
     },
 }
 
