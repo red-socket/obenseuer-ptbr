@@ -63,7 +63,7 @@ def regrain(out, mask, rect, radius, seed, local):
 
 
 def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, isolate=False, grain=0, detect=None,
-          return_mask=False, poly=None, scatter=None, exclude_red=None, sample_min=None, only_red=None):
+          return_mask=False, poly=None, scatter=None, exclude_red=None, sample_min=None, only_red=None, exclude_dark=None):
     """Inpaint the old letters inside rect.
 
     mode "color": letters are pixels far from the background colour (flat backgrounds).
@@ -113,6 +113,8 @@ def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, is
         if only_red is not None:
             red = (look[:, :, 0].astype(int) - look[:, :, 1]) > only_red
             mask &= (cv2.dilate(red.astype(np.uint8), np.ones((3, 3), np.uint8)) * 255)
+        if exclude_dark is not None:   # never touch dark objects next to the letters (a chair drawn over them)
+            mask[look.max(axis=2) < exclude_dark] = 0
     if scatter:
         rx, ry = scatter
         m = mask > 0
@@ -126,6 +128,8 @@ def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, is
         avoid |= cv2.dilate(like.astype(np.uint8), np.ones((3, 3), np.uint8)) > 0
         if sample_min is not None:
             avoid |= look.min(axis=2) < sample_min
+        if exclude_dark is not None:
+            avoid |= look.max(axis=2) < exclude_dark
         out = cv2.inpaint(rgb, mask, radius, cv2.INPAINT_TELEA)   # fallback where no sample is found
         rng = np.random.default_rng(x0 * 7919 + y0)
         h, w = m.shape
@@ -238,6 +242,8 @@ def text_layer(size, t):
     cy = y0 * SS + ((y1 - y0) * SS - canvas.height) // 2
     if t.get("align") == "left" and not rot:
         cx = x0 * SS
+    if t.get("anchor") == "right" and not rot:   # right edge of the ink on the box's right edge
+        cx = x1 * SS - canvas.width
     if t.get("valign") == "top":
         cy = y0 * SS
     if "baseline" in t and not rot:
@@ -356,7 +362,7 @@ def render(name, spec, save=True):
             rgb, m = erase(rgb, op["rect"], op.get("bg"), op.get("thresh", 40), op.get("grow", 1), op.get("radius", 3),
                            op.get("mode", "color"), op.get("k", 5), op.get("isolate", False), op.get("grain", 0),
                            detect, return_mask=True, poly=op.get("poly"), scatter=op.get("scatter"),
-                           exclude_red=op.get("exclude_red"), sample_min=op.get("sample_min"), only_red=op.get("only_red"))
+                           exclude_red=op.get("exclude_red"), sample_min=op.get("sample_min"), only_red=op.get("only_red"), exclude_dark=op.get("exclude_dark"))
             old |= m
     # "copy": [{"from": [x0, y0, x1, y1], "to": [x, y]}]: paste a block of the original texture elsewhere (reuse the
     # sign's own letters when a word only changes a letter or two).

@@ -1457,15 +1457,20 @@ SPECS = {
 
 
 
+
+
+
+
+
     # ---- Batch 11: Ankea posters, farm, restaurant, fungi, casino, Möbelmann, beer (tier 1b) ----
     "Market_sign_002_ankea_a": {
         "en": "ANKEA / kolotus / gaming chair / check price inside! / new gaming collection (poster)",
         "note": "ANKEA and the product name (kolotus) stay. The text stays behind the chair, as in the original.",
-        "erase": [{"rect": [6, 60, 44, 86], "mode": "light", "thresh": 25, "k": 7, "grain": 2, "scatter": [5, 4]}, {"rect": [4, 90, 92, 118], "mode": "light", "thresh": 25, "k": 7, "grain": 2, "exclude_red": 30, "scatter": [5, 4]}, {"rect": [28, 115, 114, 127], "mode": "light", "thresh": 25, "k": 5, "grain": 2, "scatter": [5, 2]}],
-        "text": [{"box": [8, 61, 48, 72], "font": "lato", "text": "cadeira", "baseline": 70, "size": 13, "align": "left", "color": "#dfe3ec"},
-                 {"box": [8, 73, 48, 85], "font": "lato", "text": "gamer", "baseline": 82, "size": 13, "align": "left", "color": "#dfe3ec"},
-                 {"box": [6, 92, 122, 116], "font": "lato", "text": "confira o preço!", "baseline": 111, "size": 18, "align": "left", "behind_dark": 80, "color": "#dfe3ec"},
-                 {"box": [30, 115, 112, 126], "font": "lato-bold", "text": "nova coleção gamer", "stretch": True, "color": "#d1d2d3"}],
+        "erase": [{"rect": [6, 60, 44, 86], "mode": "light", "thresh": 25, "k": 7, "grain": 2, "scatter": [5, 4]}, {"rect": [4, 90, 107, 116], "mode": "light", "thresh": 25, "k": 7, "grain": 2, "exclude_red": 30, "exclude_dark": 150, "isolate": True, "scatter": [5, 4]}, {"rect": [28, 115, 108, 127], "mode": "light", "thresh": 25, "k": 5, "grain": 2, "exclude_dark": 150, "isolate": True, "scatter": [5, 2]}],
+        "text": [{"box": [8, 61, 48, 72], "font": "lato-bold", "text": "cadeira", "baseline": 70, "size": 13, "align": "left", "color": "#e6e9f0"},
+                 {"box": [8, 73, 48, 85], "font": "lato-bold", "text": "gamer", "baseline": 82, "size": 13, "align": "left", "color": "#e6e9f0"},
+                 {"box": [6, 92, 105, 116], "font": "lato", "text": "confira o preço!", "baseline": 111, "size": 16, "align": "left", "behind_dark": 80, "color": "#e6e9f0"},
+                 {"box": [30, 116, 108, 126], "font": "lato-bold", "text": "nova coleção gamer", "stretch": True, "color": "#d1d2d3"}],
     },
     "Market_sign_002_ankea_b": {
         "en": "ANKEA / collection / konttori (poster)",
@@ -1476,19 +1481,19 @@ SPECS = {
     "Market_sign_002_ankea_c": {
         "en": "ANKEA pusikko / potted plants / green room essentials (poster)",
         "note": "pusikko (product name) stays. \"Tudo pro seu canto verde\" (everything for your green corner).",
-        "erase": [{"rect": [70, 20, 110, 44], "mode": "light", "thresh": 25, "k": 7, "grain": 2, "scatter": [5, 4]}, {"rect": [48, 82, 110, 124], "mode": "light", "thresh": 25, "k": 7, "grain": 2, "scatter": [5, 4]}],
-        "text": [{"box": [60, 21, 109, 32], "font": "lato", "text": "plantas", "baseline": 30, "size": 12, "align": "right", "color": "#dfe3ec"},
-                 {"box": [60, 31, 109, 43], "font": "lato", "text": "em vaso", "baseline": 40, "size": 12, "align": "right", "color": "#dfe3ec"},
-                 {"box": [50, 84, 109, 97], "font": "lato", "text": "tudo pro", "baseline": 95, "size": 14, "align": "right", "color": "#dfe3ec"},
-                 {"box": [50, 97, 109, 110], "font": "lato", "text": "seu canto", "baseline": 107, "size": 14, "align": "right", "color": "#dfe3ec"},
-                 {"box": [50, 109, 109, 123], "font": "lato", "text": "verde", "baseline": 120, "size": 14, "align": "right", "color": "#dfe3ec"}],
+        "erase": [{"rect": [70, 20, 107, 44], "mode": "light", "thresh": 25, "k": 7, "grain": 2, "isolate": True, "scatter": [5, 4]}, {"rect": [48, 82, 107, 123], "mode": "light", "thresh": 25, "k": 7, "grain": 2, "isolate": True, "scatter": [5, 4]}],
+        "text": [{"box": [60, 21, 107, 32], "font": "lato-bold", "text": "plantas", "baseline": 30, "size": 12, "align": "right", "anchor": "right", "color": "#e6e9f0"},
+                 {"box": [60, 31, 107, 43], "font": "lato-bold", "text": "em vaso", "baseline": 40, "size": 12, "align": "right", "anchor": "right", "color": "#e6e9f0"},
+                 {"box": [50, 84, 107, 97], "font": "lato-bold", "text": "tudo pro", "baseline": 95, "size": 14, "align": "right", "anchor": "right", "color": "#e6e9f0"},
+                 {"box": [50, 97, 107, 110], "font": "lato-bold", "text": "seu canto", "baseline": 107, "size": 14, "align": "right", "anchor": "right", "color": "#e6e9f0"},
+                 {"box": [50, 109, 107, 123], "font": "lato-bold", "text": "verde", "baseline": 120, "size": 14, "align": "right", "anchor": "right", "color": "#e6e9f0"}],
     },
     "Market_sign_002_ankea_d": {
         "en": "ANKEA bistro / meatballs (poster)",
         "note": "\"Bistrô / almôndegas\".",
-        "erase": [{"rect": [62, 3, 112, 25], "mode": "light", "thresh": 25, "k": 9, "grain": 2, "scatter": [5, 4]}, {"rect": [4, 94, 112, 125], "mode": "light", "thresh": 25, "k": 11, "grain": 2, "scatter": [6, 4]}],
-        "text": [{"box": [64, 3, 112, 24], "font": "lato", "text": "bistrô", "baseline": 21, "size": 21, "shear": 0.22, "color": "#c1c3c9"},
-                 {"box": [6, 96, 104, 123], "font": "lato", "text": "almôndegas", "stretch": True, "shear": 0.22, "color": "#c1c3c9"}],
+        "erase": [{"rect": [62, 3, 107, 25], "mode": "light", "thresh": 25, "k": 9, "grain": 2, "isolate": True, "scatter": [5, 4]}, {"rect": [5, 94, 107, 124], "mode": "light", "thresh": 25, "k": 11, "grain": 2, "isolate": True, "scatter": [6, 4]}],
+        "text": [{"box": [64, 3, 112, 24], "font": "lato-bold", "text": "bistrô", "baseline": 21, "size": 21, "shear": 0.18, "color": "#c4c6cc"},
+                 {"box": [6, 96, 104, 123], "font": "lato", "text": "almôndegas", "stretch": True, "shear": 0.18, "color": "#c4c6cc"}],
     },
     "farm_sign_001": {
         "en": "KURAHAARA BROTHERS / FARMING COOPERATIVE (painted sign)",
