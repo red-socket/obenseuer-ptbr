@@ -1721,6 +1721,7 @@ SPECS = {
 
 
 
+
     # ---- Batch 13: tier 1c signs (danger, dead end, LED open sign, bins, mine and O-Iron aisle signs) ----
     "sign_004": {
         "en": "DANGER / KEEP OUT (40x30 pixel sign)",
@@ -1763,9 +1764,9 @@ SPECS = {
     },
     "sign_004_lights": {
         "en": "LIGHTS (white paint on a mustard board)",
-        "note": "\"Luzes\": crisp pixel letters with single-pixel wear like the original.",
+        "note": "\"Luzes\": crisp pixel letters; worn pixels are partly see-through, by varying amounts, like the original.",
         "erase": [{"rect": [4, 8, 78, 54], "mode": "light", "thresh": 35, "k": 11, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 4]}],
-        "text": [{"box": [7, 11, 74, 51], "font": "hand", "text": "LUZES", "stretch": True, "crisp": 0.5, "chip": 0.07, "chip_scale": 0.35, "mottle": 12, "color": "#cdd0cc"}],
+        "text": [{"box": [7, 11, 74, 51], "font": "hand", "text": "LUZES", "stretch": True, "crisp": 0.5, "speckle": [0.3, 0.75], "mottle": 8, "color": "#cdd0cc"}],
         "alts": {"Bolder": {"stroke": 0.3}},
     },
     "sign_004_bergmann_3": {

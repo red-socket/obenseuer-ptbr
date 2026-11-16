@@ -546,6 +546,11 @@ def render(name, spec, save=True):
             u = cv2.GaussianBlur(rng.random(a.shape), (0, 0), 1.2)
             u = (u - u.min()) / (np.ptp(u) or 1)
             a = a * (1 - t["wear"] * u ** 2)   # squared: mostly intact, a few patches worn away
+        if t.get("speckle"):   # [fraction, depth]: worn paint, that fraction of the letter pixels partly see-through
+            rng = np.random.default_rng(zlib.crc32((name + "speckle" + t.get("text", "")).encode()))
+            frac, depth = t["speckle"]   # (each by a random amount up to depth), single pixels like on pixel-art signs
+            hit = rng.random(a.shape) < frac
+            a = a * np.where(hit, 1 - depth * rng.random(a.shape), 1)
         if t.get("chip"):   # chipped paint: that fraction of the letter pixels gone entirely, in small clusters
             rng = np.random.default_rng(zlib.crc32((name + "chip" + t.get("text", "")).encode()))
             u = cv2.GaussianBlur(rng.random(a.shape), (0, 0), t.get("chip_scale", 0.7))
