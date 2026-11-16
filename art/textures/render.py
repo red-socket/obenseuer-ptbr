@@ -187,6 +187,9 @@ def text_layer(size, t):
         nw, nh = int(cw * sx), int(ch * t.get("vsqueeze", 1.0))
     base = base * max(1, nh) / ch
     canvas = canvas.resize((max(1, nw), max(1, nh)), Image.LANCZOS)
+    if t.get("shear"):   # italic slant: positive leans the tops to the right
+        sh = t["shear"]; cw2, ch2 = canvas.size; pad = int(abs(sh) * ch2) + 1
+        canvas = canvas.transform((cw2 + pad, ch2), Image.AFFINE, (1, sh, -pad if sh > 0 else 0, 0, 1, 0), Image.BICUBIC)
     if rot:
         canvas = canvas.rotate(rot, expand=True, resample=Image.BICUBIC)
     full = Image.new("L", (w * SS, h * SS), 0)
@@ -245,7 +248,7 @@ def ink(t, a, name, rgb, orig, old):
     "ink": "letters" uses the colour of the erased letters nearby (smoothly filled in), so glow falloff and
     vignettes on emission maps carry over."""
     h, w = a.shape
-    col = np.zeros((h, w, 3)) + np.array(hexrgb(t["color"]), float)
+    col = np.zeros((h, w, 3)) + np.array(hexrgb(t.get("color", "#000000")), float)
     if t.get("ink") == "letters" and old.any():
         sigma = t.get("ink_sigma", 4)
         wsum = cv2.GaussianBlur(old.astype(float), (0, 0), sigma)

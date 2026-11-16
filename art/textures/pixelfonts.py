@@ -255,8 +255,20 @@ _BOARD = {
 }
 _BOARD["Â"] = _accent(_BOARD["A"], ["..#..", ".#.#."])
 
+# apartment_sign_001_staff_only (32x32): 1-px capitals 7 rows like STAFF ONLY, 3 px wide so RESTRITO fits; drawn.
+_STAFF = {
+    "A": ([".#.", "#.#", "#.#", "###", "#.#", "#.#", "#.#"], 0),
+    "C": (["###", "#..", "#..", "#..", "#..", "#..", "###"], 0),
+    "E": (["###", "#..", "#..", "##.", "#..", "#..", "###"], 0),
+    "S": (["###", "#..", "#..", "###", "..#", "..#", "###"], 0),
+    "O": (["###", "#.#", "#.#", "#.#", "#.#", "#.#", "###"], 0),
+    "R": (["##.", "#.#", "#.#", "##.", "#.#", "#.#", "#.#"], 0),
+    "T": (["###"] + [".#."] * 6, 0),
+    "I": (["#"] * 7, 0),
+}
+
 PIXEL_FONTS = {"oos": _OOS, "bergmann": _BERG, "border-top": _BORDER_TOP, "border-mid": _BORDER_MID,
                "border-low": _BORDER_LOW, "exit": _EXIT, "mall": _MALL,
                "elstrom": _ELSTROM, "skeida": _SKEIDA, "robin": _ROBIN, "taxfree": _TAXFREE,
                "barrel": _BARREL, "dispenser": _DISPENSER,
-               "board": _BOARD}
+               "board": _BOARD, "staff": _STAFF}
