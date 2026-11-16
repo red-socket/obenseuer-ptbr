@@ -383,6 +383,13 @@ def render(name, spec, save=True):
         if t.get("grime"):   # dark specks on the surface stay on top of the paint
             lum = rgb.mean(axis=2)
             a = a * ((cv2.GaussianBlur(lum, (0, 0), 2) - lum) <= t["grime"])
+        if t.get("shadow"):   # [dx, dy, colour]: a drop shadow, the same mask shifted, drawn first
+            dx, dy, sc = t["shadow"]
+            sh = np.zeros_like(a)
+            sh[max(0, dy):a.shape[0] + min(0, dy), max(0, dx):a.shape[1] + min(0, dx)] = \
+                a[max(0, -dy):a.shape[0] - max(0, dy), max(0, -dx):a.shape[1] - max(0, dx)]
+            sh = sh * (1 - a)
+            out = out * (1 - sh[:, :, None]) + np.array(hexrgb(sc), float) * sh[:, :, None]
         out = out * (1 - a[:, :, None]) + ink(t, a, name, rgb, orig, old) * a[:, :, None]
         cov = 1 - (1 - cov) * (1 - a)
         if aspec and "letters" in aspec:
