@@ -430,6 +430,8 @@ def render(name, spec, save=True):
     cov = np.zeros(rgb.shape[:2])
     for t in spec["text"]:
         a = pixel_layer(im.size, t, name) if t.get("pixel") else text_layer(im.size, t)
+        if t.get("behind_dark"):   # stay behind dark objects in the original (a chair drawn over the text)
+            a = a * (orig.max(axis=2) > t["behind_dark"])
         if t.get("under"):   # stay under reddish artwork (e.g. hatching drawn over a street name): r - g above this
             a = a * ((orig[:, :, 0].astype(int) - orig[:, :, 1]) <= t["under"])
         if t.get("clip"):   # [x0, y0, x1, y1]: draw only inside (text partly hidden behind something)

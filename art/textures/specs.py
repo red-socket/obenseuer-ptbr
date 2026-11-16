@@ -1453,6 +1453,127 @@ SPECS = {
                  {"box": [62, 307, 282, 334], "font": "sans-bold", "text": "SEMPRE ABERTO", "baseline": 332, "size": 27, "color": "#2734b8"},
                  {"box": [186, 337, 278, 365], "font": "jah", "text": "ESGOTO", "stretch": True, "color": "#222222"}],
     },
+
+
+
+
+    # ---- Batch 11: Ankea posters, farm, restaurant, fungi, casino, Möbelmann, beer (tier 1b) ----
+    "Market_sign_002_ankea_a": {
+        "en": "ANKEA / kolotus / gaming chair / check price inside! / new gaming collection (poster)",
+        "note": "ANKEA and the product name (kolotus) stay. The text stays behind the chair, as in the original.",
+        "erase": [{"rect": [6, 60, 44, 86], "mode": "light", "thresh": 25, "k": 7, "grain": 2, "scatter": [5, 4]}, {"rect": [4, 90, 92, 118], "mode": "light", "thresh": 25, "k": 7, "grain": 2, "exclude_red": 30, "scatter": [5, 4]}, {"rect": [28, 115, 114, 127], "mode": "light", "thresh": 25, "k": 5, "grain": 2, "scatter": [5, 2]}],
+        "text": [{"box": [8, 61, 48, 72], "font": "lato", "text": "cadeira", "baseline": 70, "size": 13, "align": "left", "color": "#dfe3ec"},
+                 {"box": [8, 73, 48, 85], "font": "lato", "text": "gamer", "baseline": 82, "size": 13, "align": "left", "color": "#dfe3ec"},
+                 {"box": [6, 92, 122, 116], "font": "lato", "text": "confira o preço!", "baseline": 111, "size": 18, "align": "left", "behind_dark": 80, "color": "#dfe3ec"},
+                 {"box": [30, 115, 112, 126], "font": "lato-bold", "text": "nova coleção gamer", "stretch": True, "color": "#d1d2d3"}],
+    },
+    "Market_sign_002_ankea_b": {
+        "en": "ANKEA / collection / konttori (poster)",
+        "note": "ANKEA and konttori (product name) stay.",
+        "erase": [{"rect": [7, 104, 46, 119], "mode": "light", "thresh": 25, "k": 7, "grain": 2, "scatter": [5, 4]}],
+        "text": [{"box": [8, 106, 48, 118], "font": "lato", "text": "coleção", "baseline": 116, "size": 11, "align": "left", "color": "#dfe3ec"}],
+    },
+    "Market_sign_002_ankea_c": {
+        "en": "ANKEA pusikko / potted plants / green room essentials (poster)",
+        "note": "pusikko (product name) stays. \"Tudo pro seu canto verde\" (everything for your green corner).",
+        "erase": [{"rect": [70, 20, 110, 44], "mode": "light", "thresh": 25, "k": 7, "grain": 2, "scatter": [5, 4]}, {"rect": [48, 82, 110, 124], "mode": "light", "thresh": 25, "k": 7, "grain": 2, "scatter": [5, 4]}],
+        "text": [{"box": [60, 21, 109, 32], "font": "lato", "text": "plantas", "baseline": 30, "size": 12, "align": "right", "color": "#dfe3ec"},
+                 {"box": [60, 31, 109, 43], "font": "lato", "text": "em vaso", "baseline": 40, "size": 12, "align": "right", "color": "#dfe3ec"},
+                 {"box": [50, 84, 109, 97], "font": "lato", "text": "tudo pro", "baseline": 95, "size": 14, "align": "right", "color": "#dfe3ec"},
+                 {"box": [50, 97, 109, 110], "font": "lato", "text": "seu canto", "baseline": 107, "size": 14, "align": "right", "color": "#dfe3ec"},
+                 {"box": [50, 109, 109, 123], "font": "lato", "text": "verde", "baseline": 120, "size": 14, "align": "right", "color": "#dfe3ec"}],
+    },
+    "Market_sign_002_ankea_d": {
+        "en": "ANKEA bistro / meatballs (poster)",
+        "note": "\"Bistrô / almôndegas\".",
+        "erase": [{"rect": [62, 3, 112, 25], "mode": "light", "thresh": 25, "k": 9, "grain": 2, "scatter": [5, 4]}, {"rect": [4, 94, 112, 125], "mode": "light", "thresh": 25, "k": 11, "grain": 2, "scatter": [6, 4]}],
+        "text": [{"box": [64, 3, 112, 24], "font": "lato", "text": "bistrô", "baseline": 21, "size": 21, "shear": 0.22, "color": "#c1c3c9"},
+                 {"box": [6, 96, 104, 123], "font": "lato", "text": "almôndegas", "stretch": True, "shear": 0.22, "color": "#c1c3c9"}],
+    },
+    "farm_sign_001": {
+        "en": "KURAHAARA BROTHERS / FARMING COOPERATIVE (painted sign)",
+        "note": "\"Irmãos Kurahaara\" as in the game text (fazenda dos irmãos Kurahaara).",
+        "erase": [{"rect": [28, 20, 476, 52], "mode": "light", "thresh": 20, "k": 15, "grain": 2, "scatter": [8, 4]}, {"rect": [46, 64, 468, 114], "mode": "light", "thresh": 20, "k": 15, "grain": 2, "scatter": [8, 4]}],
+        "text": [{"box": [34, 21, 470, 50], "font": "hand", "text": "IRMÃOS KURAHAARA", "stretch": True, "mottle": 8, "color": "#7f9552"},
+                 {"box": [54, 68, 460, 111], "font": "hand", "text": "COOPERATIVA AGRÍCOLA", "stretch": True, "mottle": 8, "color": "#b18a63"}],
+    },
+    "shop_facade_001_window_macaroni": {
+        "en": "RESTAURANT / Scatola Di Maccheroni",
+        "note": "Scatola Di Maccheroni (name) stays.",
+        "erase": [{"rect": [10, 70, 162, 93], "mode": "light", "thresh": 25, "k": 9, "grain": 2, "isolate": True}],
+        "text": [{"box": [12, 72, 162, 91], "font": "serif", "text": "RESTAURANTE", "stretch": True, "color": "#5b8348"}],
+    },
+    "shop_facade_001_window_macaroni_e": {
+        "en": "RESTAURANT / Scatola Di Maccheroni (glow map)",
+        "note": "Glow map of the window before.",
+        "mask_source": "shop_facade_001_window_macaroni",
+        "erase": [{"rect": [10, 70, 162, 93], "mode": "light", "thresh": 25, "k": 9, "grain": 2, "isolate": True}],
+        "text": [{"box": [12, 72, 162, 91], "font": "serif", "text": "RESTAURANTE", "stretch": True, "ink": "letters"}],
+    },
+    "shop_facade_001_window_fungi_a": {
+        "en": "Fungi Boutique / cultivation substrate mycelium",
+        "note": "Fungi Boutique (name) stays.",
+        "erase": [{"rect": [8, 176, 250, 207], "mode": "light", "thresh": 25, "k": 9, "grain": 2, "isolate": True, "scatter": [6, 3]}],
+        "text": [{"box": [12, 178, 246, 205], "font": "hand", "text": "cultivo   substrato   micélio", "size": 23, "baseline": 200, "color": "#9d9a63"}],
+    },
+    "shop_facade_001_window_fungi_a_e": {
+        "en": "Fungi Boutique / cultivation substrate mycelium (glow map)",
+        "note": "Glow map of the window before.",
+        "mask_source": "shop_facade_001_window_fungi_a",
+        "erase": [{"rect": [8, 176, 250, 207], "mode": "light", "thresh": 25, "k": 9, "grain": 2, "isolate": True, "scatter": [6, 3]}],
+        "text": [{"box": [12, 178, 246, 205], "font": "hand", "text": "cultivo   substrato   micélio", "size": 23, "baseline": 200, "ink": "letters"}],
+    },
+    "sign_002_general_store": {
+        "en": "GENERAL TRADER / BUYS/SELLS STUFF (hand-painted board)",
+        "note": "\"Comerciante geral\" as in the game text.",
+        "erase": [{"rect": [10, 132, 150, 154], "mode": "dark", "thresh": 25, "k": 9, "grain": 2, "isolate": True, "scatter": [16, 10]}],
+        "text": [{"box": [14, 132, 146, 145], "font": "kalam", "text": "COMERCIANTE GERAL", "stretch": True, "stroke": 0.4, "color": "#262626"},
+                 {"box": [24, 144, 138, 155], "font": "kalam", "text": "COMPRA E VENDE COISAS", "stretch": True, "color": "#2e2e2e"}],
+    },
+    "shop_facade_001_window_casino_crazy_a": {
+        "en": "CASINO CASINO CASINO (top band)",
+        "note": "Cassino (Portuguese spelling), as on the other casino windows.",
+        "erase": [{"rect": [9, 25, 77, 41], "bg": "#6ac54e", "thresh": 90, "grow": 1, "isolate": True, "scatter": [6, 2]}, {"rect": [93, 25, 162, 41], "bg": "#6ac54e", "thresh": 90, "grow": 1, "isolate": True, "scatter": [6, 2]}, {"rect": [179, 25, 247, 41], "bg": "#6ac54e", "thresh": 90, "grow": 1, "isolate": True, "scatter": [6, 2]}],
+        "text": [{"box": [8, 26, 80, 40], "font": "sans-bold", "text": "CASSINO", "stretch": True, "color": "#0c120c"},
+                 {"box": [91, 26, 165, 40], "font": "sans-bold", "text": "CASSINO", "stretch": True, "color": "#0c120c"},
+                 {"box": [176, 26, 250, 40], "font": "sans-bold", "text": "CASSINO", "stretch": True, "color": "#0c120c"}],
+    },
+    "shop_facade_001_window_casino_a": {
+        "en": "CASINO CASINO CASINO (top band)",
+        "note": "Cassino (Portuguese spelling), as on the other casino windows.",
+        "erase": [{"rect": [9, 25, 77, 41], "bg": "#6ac54e", "thresh": 90, "grow": 1, "isolate": True, "scatter": [6, 2]}, {"rect": [93, 25, 162, 41], "bg": "#6ac54e", "thresh": 90, "grow": 1, "isolate": True, "scatter": [6, 2]}, {"rect": [179, 25, 247, 41], "bg": "#6ac54e", "thresh": 90, "grow": 1, "isolate": True, "scatter": [6, 2]}],
+        "text": [{"box": [8, 26, 80, 40], "font": "sans-bold", "text": "CASSINO", "stretch": True, "color": "#0c120c"},
+                 {"box": [91, 26, 165, 40], "font": "sans-bold", "text": "CASSINO", "stretch": True, "color": "#0c120c"},
+                 {"box": [176, 26, 250, 40], "font": "sans-bold", "text": "CASSINO", "stretch": True, "color": "#0c120c"}],
+    },
+    "shop_facade_001_window_casino_b": {
+        "en": "CASINO x3; vertical CRAZY / BIG / WINS",
+        "note": "Cassino as on the other windows. The vertical words become SUPER / MEGA / BÔNUS (same letter counts, casino-style).",
+        "erase": [{"rect": [9, 25, 77, 41], "bg": "#6ac54e", "thresh": 90, "grow": 1, "isolate": True, "scatter": [6, 2]}, {"rect": [93, 25, 162, 41], "bg": "#6ac54e", "thresh": 90, "grow": 1, "isolate": True, "scatter": [6, 2]}, {"rect": [179, 25, 247, 41], "bg": "#6ac54e", "thresh": 90, "grow": 1, "isolate": True, "scatter": [6, 2]}, {"rect": [26, 74, 58, 194], "bg": "#2c2c2c", "thresh": 70, "grow": 1, "isolate": True, "scatter": [8, 6]}, {"rect": [110, 74, 146, 194], "bg": "#2c2c2c", "thresh": 70, "grow": 1, "isolate": True, "scatter": [8, 6]}, {"rect": [192, 74, 238, 194], "bg": "#2c2c2c", "thresh": 70, "grow": 1, "isolate": True, "scatter": [8, 6]}],
+        "text": [{"box": [8, 26, 80, 40], "font": "sans-bold", "text": "CASSINO", "stretch": True, "color": "#0c120c"},
+                 {"box": [91, 26, 165, 40], "font": "sans-bold", "text": "CASSINO", "stretch": True, "color": "#0c120c"},
+                 {"box": [176, 26, 250, 40], "font": "sans-bold", "text": "CASSINO", "stretch": True, "color": "#0c120c"},
+                 {"box": [30, 78, 54, 189], "font": "serif-bold", "text": "S\nU\nP\nE\nR", "stretch": True, "color": "#58c62f", "leading": -0.05, "outline": [1, "#0a0a0a"]},
+                 {"box": [114, 80, 140, 189], "font": "serif-bold", "text": "M\nE\nG\nA", "stretch": True, "color": "#efa808", "leading": -0.05, "outline": [1, "#0a0a0a"]},
+                 {"box": [201, 78, 229, 189], "font": "serif-bold", "text": "B\nÔ\nN\nU\nS", "stretch": True, "color": "#57cf31", "leading": -0.05, "outline": [1, "#0a0a0a"]}],
+    },
+    "sign_006_möbelmann": {
+        "en": "MÖBELMANN / FURNITURES (scratchy paint)",
+        "note": "Möbelmann (name) stays; \"Móveis Möbelmann\" in the game text.",
+        "erase": [{"rect": [4, 38, 124, 70], "mode": "light", "thresh": 22, "k": 13, "grain": 2, "isolate": True, "scatter": [10, 6]}],
+        "text": [{"box": [14, 40, 112, 68], "font": "marker", "text": "MÓVEIS", "stretch": True, "outline": [1, "#2a2420"], "color": "#c9b3ab"}],
+    },
+    "Market_sign_beer_001": {
+        "en": "BEER (outlined block letters, cut off at the bottom)",
+        "erase": [{"rect": [0, 186, 256, 256], "bg": "#dda000", "thresh": 40, "grow": 1, "isolate": True, "scatter": [8, 8]}],
+        "text": [{"box": [2, 193, 254, 272], "font": "sans-bold", "text": "CERVEJA", "stretch": True, "outline": [3, "#b08000"], "color": "#dda000", "clip": [0, 186, 256, 256]}],
+    },
+    "cash_desk_001_sign": {
+        "en": "DID YOU REMEMBER? / OSMO OLUT (poster)",
+        "note": "Osmo Olut (brand) stays: \"Lembrou da Osmo Olut?\".",
+        "erase": [{"rect": [5, 31, 102, 48], "mode": "light", "thresh": 25, "k": 9, "grain": 2, "scatter": [6, 3]}],
+        "text": [{"box": [7, 33, 99, 46], "font": "barlow", "text": "LEMBROU DA...", "stretch": True, "tracking": 0.15, "color": "#877561"}],
+    },
 }
 
 # Review batches: each is checked by the user, texture by texture, against the original.
@@ -1487,6 +1608,7 @@ BATCHES = {
     "08": ["Market_window_002_skeida_2", "Market_sign_003_skin1", "front_door_001_taxfree", "front_door_001_taxfree_e", "front_door_001_glass_vet", "street_sign_001_bicycle_shop", "Market_sign_003_0", "shop_facade_001_window_gym_a", "shop_facade_001_window_casino_coin_a", "prison_sign_001", "Market_door_002_window_skeida", "landmark_commercial_furniture_shop_0", "Market_door_002_window_skeida_b", "Market_window_002", "sign_002_vet", "Market_window_002_skeida"],
     "09": ["sign_004_explosives", "sign_004_bio_0", "sign_004_welcome", "sign_004_water", "sign_004_water_b", "sign_004_bridge", "sign_004_SOMC", "sign_009_smoking", "sign_009_diesel", "sign_006_keep_out", "sign_006_hardware", "sign_006_mines_elevator", "sign_006_contract_work", "sign_006_contract_work_resources", "sign_008_contract_work", "sign_008"],
     "10": ["shop_facade_001_window_alco", "shop_facade_001_window_alco_b", "sign_007_security", "sign_007_security_e", "sign_002_security", "landmark_security_0", "sign_002_rescue", "Market_sign_001_skin7", "shop_facade_001_window_internet_a", "shop_facade_001_window_internet_b", "shop_facade_001_window_internet_c", "cardboard_sign_002_buy_stuff_0", "cardboard_sign_002_hostel", "mine_motel_sign_001", "Market_window_002_skin2"],
+    "11": ["Market_sign_002_ankea_a", "Market_sign_002_ankea_b", "Market_sign_002_ankea_c", "Market_sign_002_ankea_d", "farm_sign_001", "shop_facade_001_window_macaroni", "shop_facade_001_window_macaroni_e", "shop_facade_001_window_fungi_a", "shop_facade_001_window_fungi_a_e", "sign_002_general_store", "shop_facade_001_window_casino_crazy_a", "shop_facade_001_window_casino_b", "shop_facade_001_window_casino_a", "sign_006_möbelmann", "Market_sign_beer_001", "cash_desk_001_sign"],
 }
 
 NUMBERS = {}
