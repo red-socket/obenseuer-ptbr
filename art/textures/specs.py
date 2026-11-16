@@ -2023,6 +2023,120 @@ SPECS = {
                  {"pixel": "rob6", "box": [119, 113, 137, 140], "baselines": [121], "text": "E", "stretch": True, "color": "#d81010"},
                  {"pixel": "rob6", "box": [64, 157, 196, 184], "baselines": [165], "text": "REPAROS", "gap": 1, "stretch": True, "color": "#d81010"}],
     },
+
+
+
+    # ---- Batch 15: tier 1c signs (graffiti, posters, door plate, security band, scratchcards, phone booth, freezer, chair, salon, bottle machine) ----
+    "Decal_003_graffiti_alcohol": {
+        "en": "BRING / THE / ALCOHOL (graffiti on a black patch)",
+        "note": "\"Tragam o álcool\", three lines like the original.",
+        "erase": [{"rect": [40, 66, 214, 178], "mode": "color", "thresh": 70, "k": 7, "grain": 0, "isolate": True, "scatter": [16, 8]}],
+        "text": [{"box": [60, 70, 166, 108], "font": "marker", "text": "TRAGAM", "stretch": True, "outline": [2, "#5b5f95"], "color": "#92a548"},
+                 {"box": [112, 110, 138, 136], "font": "marker", "text": "O", "outline": [2, "#5b5f95"], "color": "#92a548"},
+                 {"box": [44, 138, 208, 174], "font": "marker", "text": "ÁLCOOL", "stretch": True, "outline": [2, "#5b5f95"], "color": "#92a548"}],
+    },
+    "Decal_003_graffiti_welcome_open_sewer": {
+        "en": "WELCOME / to open / SEWER (brush graffiti; cut-out decal)",
+        "note": "\"Bem-vindo ao Esgoto Aberto\": BEM-VINDO big, AO ESGOTO small, ABERTO big. The decal is a cutout, so the letters are redrawn in the alpha.",
+        "erase": [],
+        "alpha": {"erase": [{"rect": [24, 60, 232, 196], "mode": "bright", "thresh": 100, "grow": 1, "isolate": True, "scatter": [12, 12], "poly": [[24, 82], [60, 67], [128, 63], [196, 67], [232, 82], [232, 122], [204, 184], [128, 194], [52, 184], [24, 122]]}], "letters": 255},
+        "text": [{"box": [40, 62, 216, 112], "font": "marker", "text": "BEM-VINDO", "stretch": True, "arch": 6, "color": "#2c2820"},
+                 {"box": [62, 116, 162, 138], "font": "marker", "text": "AO ESGOTO", "stretch": True, "color": "#2c2820"},
+                 {"box": [56, 140, 176, 186], "font": "marker", "text": "ABERTO", "stretch": True, "color": "#2c2820"}],
+    },
+    "Decal_002_graffiti_5_0": {
+        "en": "EVICT / THE / LANDLORD (brush graffiti; cut-out decal)",
+        "note": "\"Despejem o senhorio\" (senhorio as in the game text). The decal is a cutout, so the letters are redrawn in the alpha.",
+        "game_name": "Decal_002_graffiti_5",
+        "erase": [],
+        "alpha": {"erase": [{"rect": [6, 18, 128, 110], "color": "#000000"}], "letters": 255},
+        "text": [{"box": [18, 24, 112, 60], "font": "marker", "text": "DESPEJEM", "stretch": True, "color": "#562018"},
+                 {"box": [50, 60, 68, 78], "font": "marker", "text": "O", "color": "#562018"},
+                 {"box": [10, 78, 123, 106], "font": "marker", "text": "SENHORIO", "stretch": True, "color": "#562018"}],
+    },
+    "painting_004_skin13": {
+        "en": "Everything / is possible if you / GET A FUCKING JOB (motivational poster)",
+        "note": "\"Tudo é possível se você TRABALHAR, PORRA!\": same 17 characters in the bottom line, same rude punchline.",
+        "erase": [{"rect": [12, 50, 116, 108], "mode": "dark", "thresh": 40, "k": 9, "grain": 0, "isolate": True, "scatter": [8, 3]}],
+        "text": [{"box": [30, 52, 98, 76], "font": "kaushan", "text": "Tudo", "stretch": True, "color": "#000000"},
+                 {"box": [20, 79, 106, 93], "font": "kaushan", "text": "é possível se você", "color": "#000000"},
+                 {"box": [16, 96, 110, 105], "font": "archivo-black", "text": "TRABALHAR, PORRA!", "crisp": 0.5, "color": "#000000"}],
+    },
+    "Door_004_sign_crazy_neighbor": {
+        "en": "YOUR LOVELY NEIGHBOR (door plate)",
+        "note": "\"Seu querido vizinho\".",
+        "erase": [{"rect": [3, 2, 126, 15], "mode": "light", "thresh": 40, "k": 7, "grain": 0, "isolate": True, "scatter": [6, 2]}],
+        "text": [{"box": [4, 3, 124, 14], "font": "serif-bold", "text": "SEU QUERIDO VIZINHO", "stretch": True, "stroke": 0.35, "color": "#e2e2e2"}],
+    },
+    "Decal_002_security": {
+        "en": "SECURITY (on a hazard-striped band)",
+        "note": "\"Segurança\".",
+        "erase": [{"rect": [4, 48, 124, 78], "mode": "dark", "thresh": 40, "k": 11, "grain": 0, "isolate": True, "scatter": [12, 3]}],
+        "text": [{"box": [5, 51, 123, 75], "font": "sans-bold", "text": "SEGURANÇA", "stretch": True, "color": "#212021"}],
+    },
+    "Decal_002_skin30": {
+        "en": "PEPSOALDENTE / 24H PROTECTION (toothpaste ad)",
+        "note": "Pepsoaldente (brand) stays; \"Proteção 24h\".",
+        "erase": [{"rect": [6, 86, 122, 103], "mode": "light", "thresh": 40, "k": 9, "grain": 0, "isolate": True, "scatter": [10, 4]}],
+        "text": [{"box": [8, 86, 120, 103], "font": "exo2-bold", "text": "PROTEÇÃO 24H", "size": 15, "baseline": 101, "crisp": 0.5, "color": "#ffffff"}],
+    },
+    "scratchcard_cabinet_001": {
+        "en": "BIG WINS! (letters stacked down a scratchcard display)",
+        "note": "\"Prêmios!\" (prizes), one letter per row like the original.",
+        "erase": [{"rect": [180, 12, 202, 166], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "isolate": True, "scatter": [6, 6]}],
+        "text": [{"box": [182, 15, 198, 30], "font": "lato", "text": "P", "baseline": 29, "size": 15, "crisp": 0.5, "color": "#c0ba5f"},
+                 {"box": [182, 31, 198, 46], "font": "lato", "text": "R", "baseline": 45, "size": 15, "crisp": 0.5, "color": "#c0ba5f"},
+                 {"box": [182, 47, 198, 62], "font": "lato", "text": "Ê", "baseline": 61, "size": 15, "crisp": 0.5, "color": "#c0ba5f"},
+                 {"box": [182, 63, 198, 78], "font": "lato", "text": "M", "baseline": 77, "size": 15, "crisp": 0.5, "color": "#c0ba5f"},
+                 {"box": [182, 79, 198, 94], "font": "lato", "text": "I", "baseline": 93, "size": 15, "crisp": 0.5, "color": "#c0ba5f"},
+                 {"box": [182, 95, 198, 110], "font": "lato", "text": "O", "baseline": 109, "size": 15, "crisp": 0.5, "color": "#c0ba5f"},
+                 {"box": [182, 111, 198, 126], "font": "lato", "text": "S", "baseline": 125, "size": 15, "crisp": 0.5, "color": "#c0ba5f"},
+                 {"box": [182, 127, 198, 142], "font": "lato", "text": "!", "baseline": 141, "size": 15, "crisp": 0.5, "color": "#c0ba5f"}],
+    },
+    "telephone_booth_001": {
+        "en": "TELEPHONE x4 (sideways labels on a phone booth)",
+        "note": "\"Telefone\", sideways like the original.",
+        "erase": [{"rect": [182, 244, 204, 392], "mode": "light", "thresh": 40, "k": 9, "grain": 0, "isolate": True, "scatter": [3, 8]}, {"rect": [217, 244, 239, 392], "mode": "light", "thresh": 40, "k": 9, "grain": 0, "isolate": True, "scatter": [3, 8]}, {"rect": [252, 244, 274, 392], "mode": "light", "thresh": 40, "k": 9, "grain": 0, "isolate": True, "scatter": [3, 8]}, {"rect": [743, 730, 763, 888], "mode": "light", "thresh": 40, "k": 9, "grain": 0, "isolate": True, "scatter": [3, 8]}],
+        "text": [{"box": [184, 248, 201, 388], "font": "lato-bold", "text": "TELEFONE", "rotate": 90, "tracking": 0.35, "shadow": [1, 1, "#3c4c54"], "color": "#effbff"},
+                 {"box": [219, 248, 236, 388], "font": "lato-bold", "text": "TELEFONE", "rotate": 90, "tracking": 0.35, "shadow": [1, 1, "#3c4c54"], "color": "#effbff"},
+                 {"box": [254, 248, 271, 388], "font": "lato-bold", "text": "TELEFONE", "rotate": 90, "tracking": 0.35, "shadow": [1, 1, "#3c4c54"], "color": "#effbff"},
+                 {"box": [745, 734, 761, 884], "font": "lato-bold", "text": "TELEFONE", "rotate": 90, "tracking": 0.35, "shadow": [1, 1, "#3c4c54"], "color": "#effbff"}],
+    },
+    "icecream_freezer_001": {
+        "en": "ICECREAM (on a freezer, between two bars)",
+        "note": "\"Sorvete\"; the bars stay. The gloss repeats the letters, so it is redrawn too.",
+        "erase": [{"rect": [66, 126, 134, 142], "mode": "color", "thresh": 80, "k": 7, "grain": 0, "isolate": True, "scatter": [8, 1]}],
+        "alpha": {"erase": [{"rect": [66, 126, 134, 142], "thresh": 80, "grow": 1, "isolate": True, "scatter": [8, 1], "detect_rgb": True}], "letters": 139},
+        "text": [{"box": [69, 128, 131, 141], "font": "barlow-cond-bold", "text": "SORVETE", "stretch": True, "crisp": 0.5, "color": "#325dbe"}],
+    },
+    "plastic_chair_001_sign": {
+        "en": "Sorry / I'm on a / Coffee Break (sign on a chair)",
+        "note": "\"Desculpe, estou na pausa do café\", in the same blocky slab letters.",
+        "erase": [{"rect": [16, 68, 90, 102], "mode": "dark", "thresh": 40, "k": 9, "grain": 0, "isolate": True, "scatter": [8, 3]}, {"rect": [4, 103, 96, 122], "mode": "dark", "thresh": 40, "k": 9, "grain": 0, "isolate": True, "scatter": [8, 3]}],
+        "text": [{"box": [20, 70, 84, 87], "font": "mono-bold", "text": "Desculpe,", "stretch": True, "crisp": 0.5, "color": "#181818"},
+                 {"box": [18, 88, 80, 101], "font": "mono-bold", "text": "estou na", "stretch": True, "crisp": 0.5, "color": "#181818"},
+                 {"box": [7, 104, 95, 119], "font": "mono-bold", "text": "pausa do café", "stretch": True, "crisp": 0.5, "color": "#181818"}],
+    },
+    "Decal_002_beauty_salon": {
+        "en": "BEAUTY / SALON (flyer with a price list)",
+        "note": "\"Salão de beleza\"; the price list is only bars and stays.",
+        "erase": [{"rect": [22, 64, 64, 89], "mode": "dark", "thresh": 40, "k": 9, "grain": 0, "isolate": True, "scatter": [6, 3]}],
+        "text": [{"box": [23, 67, 63, 77], "font": "typewriter", "text": "SALÃO DE", "stretch": True, "crisp": 0.45, "color": "#000000"},
+                 {"box": [25, 79, 59, 87], "font": "typewriter", "text": "BELEZA", "stretch": True, "crisp": 0.45, "color": "#000000"}],
+    },
+    "bottle_recycling_machine_001": {
+        "en": "HELLO :) (screen of the bottle recycling machine)",
+        "note": "\"Olá :)\"; the smiley stays.",
+        "erase": [{"rect": [26, 64, 50, 74], "mode": "dark", "thresh": 40, "k": 5, "grain": 0, "isolate": True, "scatter": [4, 1]}],
+        "text": [{"pixel": "board", "box": [24, 63, 52, 74], "baselines": [73], "text": "OLÁ", "gap": 1, "color": "#203f2a"}],
+    },
+    "bottle_recycling_machine_001_e": {
+        "en": "HELLO :) (screen of the bottle recycling machine) (glow map)",
+        "note": "Glow map of the machine before.",
+        "mask_source": "bottle_recycling_machine_001",
+        "erase": [{"rect": [26, 64, 50, 74], "mode": "dark", "thresh": 40, "k": 5, "grain": 0, "isolate": True, "scatter": [4, 1]}],
+        "text": [{"pixel": "board", "box": [24, 63, 52, 74], "baselines": [73], "text": "OLÁ", "gap": 1, "ink": "letters"}],
+    },
 }
 
 # Review batches: each is checked by the user, texture by texture, against the original.
@@ -2063,6 +2177,7 @@ BATCHES = {
     "12": ["Market_sign_001_skin9", "Market_sign_001_skin8", "shop_facade_001_window_rob", "shop_facade_001_window_rob_a_e", "cash_desk_001_sign_inverted", "sign_003", "sign_001", "Market_sign_002_skin2", "sign_007_atm", "sign_007_atm_e"],
     "13": ["sign_004", "sign_dead_end", "open_sign_001_em", "trashcan_002", "trashcan_002b", "sign_004_bank", "sign_004_lights", "sign_004_bergmann_3", "Sign_004_coins", "mine_signs_001_tenement", "mine_signs_001_fuel", "mine_signs_001_oredropoff", "mine_signs_001_service", "mine_signs_001b_components", "mine_signs_001b_construction", "mine_signs_001b_gardening", "mine_signs_001b_tools", "mine_signs_001b_woodworking"],
     "14": ["Market_sign_alcohol_001", "Market_sign_drinks_001", "Market_sign_001_skin2", "Market_sign_001_skin2_e", "Market_sign_001_skin3", "Market_sign_001_skin6", "sign_006_exit", "sign_006_jams", "sign_006_plants", "sign_006_oreloader", "sign_009_drinks", "sign_010_bus", "Decal_002_grill", "Decal_002_skin13", "street_sign_001_power_company", "Decal_003_os_power_company", "Decal_003_rob_in"],
+    "15": ["Decal_003_graffiti_alcohol", "Decal_003_graffiti_welcome_open_sewer", "Decal_002_graffiti_5_0", "painting_004_skin13", "Door_004_sign_crazy_neighbor", "Decal_002_security", "Decal_002_skin30", "scratchcard_cabinet_001", "telephone_booth_001", "icecream_freezer_001", "plastic_chair_001_sign", "Decal_002_beauty_salon", "bottle_recycling_machine_001", "bottle_recycling_machine_001_e"],
 }
 
 NUMBERS = {}
