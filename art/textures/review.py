@@ -3,6 +3,7 @@
 
     python review.py 01        -> review/textures/batch-01.html (gitignored)
     python review.py 01 4 7    -> review/textures/batch-01-redo.html, only textures #4 and #7
+    python review.py any 4 77  -> review/textures/batch-any-redo.html, by number across batches
 
 Every texture is shown next to the original (colour, and the gloss map when the spec redraws it),
 with the English and Portuguese text, where the game uses it, and the open questions. The page
@@ -63,7 +64,8 @@ def data_uri(img):
 
 def main():
     batch = sys.argv[1]
-    names = BATCHES[batch]
+    # "any": textures from any batch, picked by number (python review.py any 77 82 -> batch-any-redo.html)
+    names = sorted(NUMBERS, key=NUMBERS.get) if batch == "any" else BATCHES[batch]
     key = batch
     only = {int(a) for a in sys.argv[2:]}
     if only:

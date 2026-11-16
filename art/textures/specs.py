@@ -1210,6 +1210,10 @@ SPECS = {
 
 
 
+
+
+
+
     # ---- Batch 09: small hazard and notice plates (tier 1b) ----
     "sign_004_explosives": {
         "en": "EXPLOSIVE (vertical)",
@@ -1279,8 +1283,8 @@ SPECS = {
     "sign_006_keep_out": {
         "en": "KEEP OUT! (brush-painted on a red splotch)",
         "erase": [{"rect": [20, 4, 108, 71], "mode": "dark", "thresh": 22, "k": 15, "grain": 2, "grow": 1, "scatter": [5, 5]}],
-        "text": [{"box": [24, 6, 100, 36], "font": "kalam", "text": "NÃO", "stretch": True, "stroke": 0.6, "soften": 0.35, "color": "#2e1714"},
-                 {"box": [20, 38, 104, 66], "font": "kalam", "text": "ENTRE!", "stretch": True, "stroke": 0.6, "soften": 0.35, "color": "#2e1714"}],
+        "text": [{"box": [24, 3, 100, 36], "font": "kalam", "text": "NÃO", "stretch": True, "stroke": 0.6, "soften": 0.45, "mottle": 9, "color": "#2e1714"},
+                 {"box": [20, 38, 104, 66], "font": "kalam", "text": "ENTRE!", "stretch": True, "stroke": 0.6, "soften": 0.45, "mottle": 9, "color": "#2e1714"}],
     },
     "sign_006_hardware": {
         "en": "HARD- / WARE (hand-painted)",
@@ -1298,20 +1302,18 @@ SPECS = {
     },
     "sign_006_contract_work": {
         "en": "TENEMENT / Contract / work!",
-        "note": "The business is \"Empreiteira de Prédios\" in the game text. Hand-painted orange letters with a dark outline in Patrick Hand; other hands are shown as options.",
+        "note": "The business is \"Empreiteira de Prédios\" in the game text. All three lines in Gloria Hallelujah capitals (the EMPREITEIRA style you liked), heavier on the big lines.",
         "erase": [{"rect": [3, 3, 122, 82], "mode": "dark", "thresh": 22, "k": 17, "grain": 2, "grow": 1, "scatter": [6, 5]}, {"rect": [3, 3, 122, 82], "bg": "#806a52", "thresh": 70, "grow": 1, "isolate": True, "scatter": [4, 4]}],
-        "text": [{"box": [12, 6, 110, 22], "font": "hand", "text": "EMPREITEIRA", "stretch": True, "stroke": 0.8, "outline": [1, "#2e2418"], "color": "#8c5d24"},
-                 {"box": [8, 24, 114, 47], "font": "hand", "text": "de Prédios", "stretch": True, "stroke": 0.8, "outline": [1, "#2e2418"], "color": "#8c5d24"},
-                 {"box": [34, 49, 96, 72], "font": "hand", "text": "Obras!", "stretch": True, "stroke": 0.8, "outline": [1, "#2e2418"], "color": "#8c5d24"}],
-        "alts": {"Kalam": {"font": "kalam"}, "Gloria Hallelujah": {"font": "gloria", "stroke": 0.6}},
+        "text": [{"box": [12, 6, 110, 22], "font": "gloria", "text": "EMPREITEIRA", "stretch": True, "stroke": 0.6, "outline": [1, "#2e2418"], "color": "#8c5d24"},
+                 {"box": [8, 25, 114, 46], "font": "gloria", "text": "DE PRÉDIOS", "stretch": True, "stroke": 1.0, "outline": [1, "#2e2418"], "color": "#8c5d24"},
+                 {"box": [28, 49, 100, 72], "font": "gloria", "text": "OBRAS!", "stretch": True, "stroke": 1.0, "outline": [1, "#2e2418"], "color": "#8c5d24"}],
     },
     "sign_006_contract_work_resources": {
-        "en": "TENEMENT / RESOURCES (outlined letters, faded)",
-        "note": "Squared letters at the original size, filled close to the board colour so they read as outlined. Other fonts are shown as options.",
+        "en": "TENEMENT / RESOURCES (pixel letters: grey strokes with a dark outline)",
+        "note": "Set in the sign's own pixel letters: RECURSOS is copied letter by letter from RESOURCES; D, P, I and É are put together from parts of the same letters (É gets a pixel accent).",
+        "copy": [{"from": [21, 40, 30, 54], "to": [22, 24]}, {"from": [31, 40, 40, 54], "to": [32, 24]}, {"from": [81, 40, 91, 54], "to": [42, 24]}, {"from": [61, 40, 70, 54], "to": [53, 24]}, {"from": [21, 40, 30, 54], "to": [63, 24]}, {"from": [41, 40, 49, 54], "to": [73, 24]}, {"from": [50, 40, 60, 54], "to": [82, 24]}, {"from": [41, 40, 49, 54], "to": [93, 24]}, {"from": [31, 40, 34, 54], "to": [21, 41]}, {"from": [55, 40, 60, 54], "to": [24, 41]}, {"from": [50, 40, 60, 54], "to": [30, 41]}, {"from": [21, 40, 30, 54], "to": [46, 41]}, {"from": [12, 22, 18, 29], "to": [49, 48]}, {"from": [21, 40, 30, 54], "to": [56, 41]}, {"from": [31, 40, 40, 54], "to": [66, 41]}, {"from": [31, 40, 34, 54], "to": [76, 41]}, {"from": [55, 40, 60, 54], "to": [79, 41]}, {"from": [31, 40, 34, 54], "to": [85, 41]}, {"from": [50, 40, 60, 54], "to": [89, 41]}],
         "erase": [{"rect": [10, 21, 118, 59], "mode": "dark", "thresh": 18, "k": 11, "grain": 2, "grow": 1, "scatter": [6, 4]}],
-        "text": [{"box": [22, 26, 104, 37], "font": "exo2-bold", "text": "RECURSOS", "stretch": True, "outline": [1, "#3a2e22"], "mottle": 6, "color": "#6c5d4c"},
-                 {"box": [16, 43, 110, 54], "font": "exo2-bold", "text": "DO PRÉDIO", "stretch": True, "outline": [1, "#3a2e22"], "mottle": 6, "color": "#6c5d4c"}],
-        "alts": {"Saira Bold": {"font": "saira-bold"}, "Russo One": {"font": "russo"}},
+        "text": [{"box": [68, 0, 74, 0], "text": "´", "pixel": "marks", "baselines": [40], "outline": [1, "#36291c"], "color": "#5e554c"}],
     },
     "sign_008_contract_work": {
         "en": "-Tenement -Apartment renovation -Plumbing -Tools! and much more! (chalk)",

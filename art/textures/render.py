@@ -189,15 +189,16 @@ def text_layer(size, t):
             hi = mid - 1
     f, tw, th, lh = measure(lo)
     tr = t.get("tracking", 0) * lo
-    canvas = Image.new("L", (tw + 8 * SS, th + 8 * SS), 0)
+    pad = 4 * SS + int(0.5 * lh)   # room for accents above capitals (tilde on big letters)
+    canvas = Image.new("L", (tw + 2 * pad, th + 2 * pad), 0)
     d = ImageDraw.Draw(canvas)
-    y = 4 * SS - f.getbbox("Hgjpy")[1]
+    y = pad - f.getbbox("Hgjpy")[1]
     base = y + f.getmetrics()[0]   # baseline of the first line
     for line in lines:
         b = line_bbox(f, line, tr)
         lw = b[2] - b[0]
         align = t.get("align", "center")
-        x = 4 * SS + (0 if align == "left" else (tw - lw) if align == "right" else (tw - lw) // 2) - b[0]
+        x = pad + (0 if align == "left" else (tw - lw) if align == "right" else (tw - lw) // 2) - b[0]
         for c in (line if tr else [line]):
             d.text((x, y), c, font=f, fill=255, stroke_width=int(t.get("stroke", 0) * SS))
             x += f.getlength(c) + tr

@@ -276,8 +276,11 @@ _STAFF = {
 }
 _STAFF["Ó"] = _accent(_STAFF["O"], ["..#"], 0)
 
+# Accent marks for composed letters (drawn with an outline in the spec).
+_MARKS = {"´": (["..##", ".##.", "##.."], 0)}
+
 PIXEL_FONTS = {"oos": _OOS, "bergmann": _BERG, "border-top": _BORDER_TOP, "border-mid": _BORDER_MID,
                "border-low": _BORDER_LOW, "exit": _EXIT, "mall": _MALL,
                "elstrom": _ELSTROM, "skeida": _SKEIDA, "robin": _ROBIN, "taxfree": _TAXFREE,
                "barrel": _BARREL, "dispenser": _DISPENSER,
-               "board": _BOARD, "staff": _STAFF}
+               "board": _BOARD, "staff": _STAFF, "marks": _MARKS}
