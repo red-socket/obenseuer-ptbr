@@ -904,6 +904,7 @@ SPECS = {
 
 
 
+
     # ---- Batch 07: opening hours and short shop signs (tier 1b) ----
     "Market_sign_002_pawn": {
         "en": "PAWN SHOP / Quick cash! / MON - Closed / TUE - Closed / WED-FRI - 9-17 / SAT - 10-17 / SUN - 12-17 (handwritten)",
@@ -962,22 +963,22 @@ SPECS = {
         "en": "MON 12-16 / TUE 12-18 / WED 10-17 / THU 10-17 / SAT 12-18 / SUN 12-16 (handwritten)",
         "note": "Only the day names change; the times are the original handwriting. Weekdays use the usual Brazilian abbreviations (SEG TER QUA QUI SEX SÁB DOM).",
         "erase": [{"rect": [67, 6, 96, 20], "mode": "dark", "thresh": 25, "k": 7, "grain": 2}, {"rect": [67, 20, 96, 33], "mode": "dark", "thresh": 25, "k": 7, "grain": 2}, {"rect": [67, 33, 95, 46], "mode": "dark", "thresh": 25, "k": 7, "grain": 2}, {"rect": [67, 46, 94, 58], "mode": "dark", "thresh": 25, "k": 7, "grain": 2}, {"rect": [67, 58, 94, 70], "mode": "dark", "thresh": 25, "k": 7, "grain": 2}, {"rect": [67, 70, 95, 84], "mode": "dark", "thresh": 25, "k": 7, "grain": 2}],
-        "text": [{"box": [69, 5, 94, 20], "font": "jah", "text": "SEG", "baseline": 18, "size": 24, "align": "left", "color": "#3c3e3c", "stroke": 0.25},
-                 {"box": [69, 17, 94, 32], "font": "jah", "text": "TER", "baseline": 30, "size": 24, "align": "left", "color": "#3c3e3c", "stroke": 0.25},
-                 {"box": [69, 30, 94, 45], "font": "jah", "text": "QUA", "baseline": 43, "size": 24, "align": "left", "color": "#3c3e3c", "stroke": 0.25},
-                 {"box": [69, 43, 94, 58], "font": "jah", "text": "QUI", "baseline": 56, "size": 24, "align": "left", "color": "#3c3e3c", "stroke": 0.25},
-                 {"box": [69, 55, 94, 70], "font": "jah", "text": "SÁB", "baseline": 68, "size": 24, "align": "left", "color": "#3c3e3c", "stroke": 0.25},
-                 {"box": [69, 68, 94, 83], "font": "jah", "text": "DOM", "baseline": 81, "size": 24, "align": "left", "color": "#3c3e3c", "stroke": 0.25}],
+        "text": [{"box": [71, 5, 95, 20], "font": "jah", "text": "SEG", "baseline": 18, "size": 24, "align": "left", "color": "#3c3e3c", "stroke": 0.25},
+                 {"box": [71, 17, 95, 32], "font": "jah", "text": "TER", "baseline": 30, "size": 24, "align": "left", "color": "#3c3e3c", "stroke": 0.25},
+                 {"box": [71, 30, 95, 45], "font": "jah", "text": "QUA", "baseline": 43, "size": 24, "align": "left", "color": "#3c3e3c", "stroke": 0.25},
+                 {"box": [71, 43, 95, 58], "font": "jah", "text": "QUI", "baseline": 56, "size": 24, "align": "left", "color": "#3c3e3c", "stroke": 0.25},
+                 {"box": [71, 55, 95, 70], "font": "jah", "text": "SÁB", "baseline": 68, "size": 24, "align": "left", "color": "#3c3e3c", "stroke": 0.25},
+                 {"box": [71, 68, 95, 83], "font": "jah", "text": "DOM", "baseline": 81, "size": 24, "align": "left", "color": "#3c3e3c", "stroke": 0.25}],
     },
     "Market_sign_002_kurahaara": {
         "en": "MON 6-17 / TUE 7(6)-1(7) / WED 9(8)-17 / THU ?(6)-17 / FRI 9(6)-17 (times corrected by hand)",
         "note": "Only the day names change; the hand-corrected times stay. Weekdays use the usual Brazilian abbreviations (SEG TER QUA QUI SEX SÁB DOM).",
         "erase": [{"rect": [10, 16, 59, 37], "mode": "dark", "thresh": 25, "k": 9, "grain": 2}, {"rect": [10, 37, 48, 58], "mode": "dark", "thresh": 25, "k": 9, "grain": 2}, {"rect": [10, 57, 52, 77], "mode": "dark", "thresh": 25, "k": 9, "grain": 2}, {"rect": [10, 77, 48, 96], "mode": "dark", "thresh": 25, "k": 9, "grain": 2}, {"rect": [10, 96, 46, 118], "mode": "dark", "thresh": 25, "k": 9, "grain": 2}],
-        "text": [{"box": [16, 16, 52, 37], "font": "sans", "text": "SEG", "baseline": 33, "size": 19, "squeeze": 0.9, "align": "left", "color": "#222222"},
-                 {"box": [14, 37, 47, 57], "font": "sans", "text": "TER", "baseline": 53, "size": 19, "squeeze": 0.85, "align": "left", "color": "#222222"},
-                 {"box": [14, 57, 50, 77], "font": "sans", "text": "QUA", "baseline": 73, "size": 19, "squeeze": 0.85, "align": "left", "color": "#222222"},
-                 {"box": [13, 77, 46, 96], "font": "sans", "text": "QUI", "baseline": 92, "size": 19, "squeeze": 0.85, "align": "left", "color": "#222222"},
-                 {"box": [12, 96, 46, 117], "font": "sans", "text": "SEX", "baseline": 112, "size": 19, "squeeze": 0.85, "align": "left", "color": "#222222"}],
+        "text": [{"box": [16, 16, 52, 37], "font": "sans", "text": "SEG", "size": 19, "squeeze": 0.9, "rotate": -3.3, "color": "#222222"},
+                 {"box": [14, 37, 47, 57], "font": "sans", "text": "TER", "size": 19, "squeeze": 0.85, "rotate": -3.3, "color": "#222222"},
+                 {"box": [14, 57, 50, 77], "font": "sans", "text": "QUA", "size": 19, "squeeze": 0.85, "rotate": -3.3, "color": "#222222"},
+                 {"box": [13, 77, 46, 96], "font": "sans", "text": "QUI", "size": 19, "squeeze": 0.85, "rotate": -3.3, "color": "#222222"},
+                 {"box": [12, 96, 46, 117], "font": "sans", "text": "SEX", "size": 19, "squeeze": 0.85, "rotate": -3.3, "color": "#222222"}],
     },
     "Market_sign_002_coffee": {
         "en": "O MARKET / COFFEE / CORNER",
@@ -997,10 +998,10 @@ SPECS = {
     },
     "apartment_sign_001_staff_only": {
         "en": "STAFF / ONLY (pixel letters)",
-        "note": "\"Acesso restrito\", the usual staff-only sign in Brazil, in 3-pixel-wide letters so it fits 32 px.",
+        "note": "\"Acesso restrito\" is 1 px too wide to keep a margin at 32 px, so \"ENTRADA PROIBIDA\" (no entry). Option: \"SÓ PARA EQUIPE\" (staff only).",
         "erase": [{"rect": [1, 12, 31, 31], "color": "#734d18"}],
-        "text": [{"box": [1, 0, 31, 0], "text": "ACESSO", "pixel": "staff", "baselines": [19], "color": "#0c0a06"},
-                 {"box": [1, 0, 31, 0], "text": "RESTRITO", "pixel": "staff", "baselines": [28], "color": "#0c0a06"}],
+        "text": [{"box": [1, 0, 31, 0], "text": "ENTRADA\nPROIBIDA", "pixel": "staff", "baselines": [19, 28], "color": "#0c0a06"}],
+        "alts": {"SÓ PARA EQUIPE": {"text": "SÓ PARA\nEQUIPE"}},
     },
     "sign_004_slum_gate": {
         "en": "GATE OPEN / 06-20",
@@ -1010,15 +1011,15 @@ SPECS = {
     },
     "Market_door_002_window_rob_b": {
         "en": "EVERY DAY 7 18 (opening hours on a door sticker)",
-        "erase": [{"rect": [6, 44, 108, 74], "mode": "dark", "thresh": 25, "k": 15, "grain": 2}],
-        "text": [{"box": [8, 45, 106, 72], "font": "oswald-semi", "text": "TODO DIA", "stretch": True, "mottle": 8, "ink": "letters"}],
+        "erase": [{"rect": [6, 44, 108, 76], "mode": "dark", "thresh": 25, "k": 15, "grain": 2}],
+        "text": [{"box": [8, 47, 106, 74], "font": "oswald-semi", "text": "TODO DIA", "stretch": True, "mottle": 8, "color": "#211d16"}],
     },
     "street_sign_001_selma": {
         "en": "Welcome / Mon-Thu 6-16 / Sat 10-16 (chalk)",
         "note": "Times kept. Weekdays use the usual Brazilian abbreviations (SEG TER QUA QUI SEX SÁB DOM).",
         "erase": [{"rect": [68, 9, 123, 26], "mode": "light", "thresh": 25, "k": 7, "grain": 2}, {"rect": [68, 26, 118, 40], "mode": "light", "thresh": 25, "k": 7, "grain": 2}, {"rect": [75, 50, 114, 69], "mode": "light", "thresh": 25, "k": 7, "grain": 2}],
         "text": [{"box": [70, 6, 123, 27], "font": "schoolbell", "text": "Bem-vindo", "squeeze": 0.85, "baseline": 23, "size": 17, "align": "left", "color": "#c4c8c4", "stroke": 0.2, "mottle": 10, "chip": 0.08, "chip_scale": 0.5},
-                 {"box": [71, 25, 120, 41], "font": "schoolbell", "text": "Seg-Qui", "baseline": 37, "size": 16, "align": "left", "color": "#c4c8c4", "stroke": 0.2, "mottle": 10, "chip": 0.08, "chip_scale": 0.5},
+                 {"box": [71, 24, 120, 39], "font": "schoolbell", "text": "Seg-Qui", "baseline": 35, "size": 14, "align": "left", "color": "#c4c8c4", "stroke": 0.2, "mottle": 10, "chip": 0.08, "chip_scale": 0.5},
                  {"box": [78, 47, 118, 69], "font": "schoolbell", "text": "Sáb", "baseline": 66, "size": 23, "align": "left", "color": "#c4c8c4", "stroke": 0.2, "mottle": 10, "chip": 0.08, "chip_scale": 0.5}],
     },
     "sign_009_closed": {

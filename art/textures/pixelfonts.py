@@ -255,7 +255,7 @@ _BOARD = {
 }
 _BOARD["Â"] = _accent(_BOARD["A"], ["..#..", ".#.#."])
 
-# apartment_sign_001_staff_only (32x32): 1-px capitals 7 rows like STAFF ONLY, 3 px wide so RESTRITO fits; drawn.
+# apartment_sign_001_staff_only (32x32): 1-px capitals 7 rows like STAFF ONLY, 3 px wide (N 4) to fit 32 px; drawn.
 _STAFF = {
     "A": ([".#.", "#.#", "#.#", "###", "#.#", "#.#", "#.#"], 0),
     "C": (["###", "#..", "#..", "#..", "#..", "#..", "###"], 0),
@@ -265,7 +265,14 @@ _STAFF = {
     "R": (["##.", "#.#", "#.#", "##.", "#.#", "#.#", "#.#"], 0),
     "T": (["###"] + [".#."] * 6, 0),
     "I": (["#"] * 7, 0),
+    "N": (["#..#", "##.#", "##.#", "#.##", "#.##", "#..#", "#..#"], 0),
+    "D": (["##.", "#.#", "#.#", "#.#", "#.#", "#.#", "##."], 0),
+    "P": (["###", "#.#", "#.#", "###", "#..", "#..", "#.."], 0),
+    "B": (["##.", "#.#", "#.#", "##.", "#.#", "#.#", "##."], 0),
+    "Q": (["###", "#.#", "#.#", "#.#", "#.#", "###", "..#"], 0),
+    "U": (["#.#"] * 6 + ["###"], 0),
 }
+_STAFF["Ó"] = _accent(_STAFF["O"], ["..#"], 0)
 
 PIXEL_FONTS = {"oos": _OOS, "bergmann": _BERG, "border-top": _BORDER_TOP, "border-mid": _BORDER_MID,
                "border-low": _BORDER_LOW, "exit": _EXIT, "mall": _MALL,
