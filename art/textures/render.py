@@ -475,7 +475,8 @@ def render(name, spec, save=True):
         rng = np.random.default_rng(len(name))
         rgb = np.clip(rgb.astype(int) + rng.normal(0, spec["noise"], rgb.shape[:2])[:, :, None], 0, 255).astype(np.uint8)
     # The alpha channel is the gloss map on most signs (Standard shader, smoothness from albedo alpha)
-    # and often carries the letters too. "alpha": {"erase": [...], "letters": value} redraws them there.
+    # and often carries the letters too. "alpha": {"erase": [...], "letters": value} redraws them there;
+    # "outline": value gives text outlines their own gloss.
     aspec = spec.get("alpha")
     if aspec:
         a3 = np.dstack([alpha] * 3)
@@ -483,7 +484,8 @@ def render(name, spec, save=True):
             a3 = fill(a3, op["rect"], op["color"]) if op.get("color") else erase(
                 a3, op["rect"], op.get("bg"), op.get("thresh", 40), op.get("grow", 1), op.get("radius", 3),
                 op.get("mode", "color"), op.get("k", 5), op.get("isolate", False), op.get("grain", 0),
-                poly=op.get("poly"), scatter=op.get("scatter"))
+                poly=op.get("poly"), scatter=op.get("scatter"),
+                detect=orig if op.get("detect_rgb") else None)   # find the letters on the colour image
         alpha = a3[:, :, 0]
     out = rgb.astype(float)
     aout = alpha.astype(float)
@@ -519,6 +521,8 @@ def render(name, spec, save=True):
             ring = cv2.dilate(a.astype(np.float32), cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * px + 1, 2 * px + 1)))
             ring = np.clip(ring - a, 0, 1)
             out = out * (1 - ring[:, :, None]) + np.array(hexrgb(oc), float) * ring[:, :, None]
+            if aspec and "outline" in aspec:   # outlines with their own gloss (matte paint on a glossy board)
+                aout = aout * (1 - ring) + aspec["outline"] * ring
         if t.get("shadow"):   # [dx, dy, colour]: a drop shadow, the same mask shifted, drawn first
             dx, dy, sc = t["shadow"]
             sh = np.zeros_like(a)

@@ -1478,14 +1478,16 @@ SPECS = {
 
 
 
+
+
     # ---- Batch 11: Ankea posters, farm, restaurant, fungi, casino, Möbelmann, beer (tier 1b) ----
     "Market_sign_002_ankea_a": {
         "en": "ANKEA / kolotus / gaming chair / check price inside! / new gaming collection (poster)",
-        "note": "ANKEA and the product name (kolotus) stay. The text stays behind the chair, as in the original; the small line is as small as the original.",
+        "note": "ANKEA and the product name (kolotus) stay. The price line is drawn over the chair legs so it stays legible; the small line is as small as the original.",
         "erase": [{"rect": [6, 60, 44, 86], "mode": "light", "thresh": 25, "k": 7, "grain": 2, "scatter": [5, 4]}, {"rect": [4, 90, 107, 116], "mode": "light", "thresh": 25, "k": 7, "grain": 2, "exclude_red": 30, "exclude_dark": 150, "isolate": True, "scatter": [14, 5]}, {"rect": [28, 115, 108, 127], "mode": "light", "thresh": 25, "k": 5, "grain": 2, "exclude_dark": 150, "isolate": True, "scatter": [14, 3]}],
         "text": [{"box": [8, 61, 48, 72], "font": "lato-bold", "text": "cadeira", "baseline": 70, "size": 13, "align": "left", "color": "#e6e9f0"},
                  {"box": [8, 73, 48, 85], "font": "lato-bold", "text": "gamer", "baseline": 82, "size": 13, "align": "left", "color": "#e6e9f0"},
-                 {"box": [6, 92, 105, 116], "font": "lato", "text": "confira o preço!", "baseline": 109, "size": 16, "align": "left", "behind_dark": 80, "color": "#e6e9f0"},
+                 {"box": [6, 92, 105, 116], "font": "lato", "text": "confira o preço!", "baseline": 109, "size": 16, "align": "left", "color": "#e6e9f0"},
                  {"box": [48, 116, 104, 122], "font": "lato-bold", "text": "nova coleção gamer", "stretch": True, "color": "#d1d2d3"}],
     },
     "Market_sign_002_ankea_b": {
@@ -1587,16 +1589,16 @@ SPECS = {
     },
     "Market_sign_beer_001": {
         "en": "BEER (outlined block letters, cut off at the bottom)",
-        "note": "Tall outlined letters filling the band and cut off at the bottom, like BEER.",
+        "note": "Tall outlined letters filling the band like BEER, the whole word visible; matte outlines on the glossy band as in the original.",
         "erase": [{"rect": [0, 186, 256, 256], "bg": "#ebab00", "thresh": 10, "grow": 1, "isolate": True, "scatter": [48, 8]}],
-        "alpha": {"erase": [{"rect": [0, 186, 256, 256], "thresh": 40, "grow": 1, "isolate": True}]},
-        "text": [{"box": [3, 195, 253, 274], "font": "sans-bold", "text": "CERVEJA", "stretch": True, "outline": [3, "#b88500"], "color": "#e6a700", "clip": [0, 186, 256, 256]}],
+        "alpha": {"erase": [{"rect": [0, 186, 256, 256], "thresh": 40, "grow": 1, "isolate": True}], "outline": 20},
+        "text": [{"box": [4, 196, 252, 252], "font": "sans-bold", "text": "CERVEJA", "stretch": True, "outline": [3, "#b88500"], "color": "#e6a700", "clip": [0, 186, 256, 256]}],
     },
     "cash_desk_001_sign": {
         "en": "DID YOU REMEMBER? / OSMO OLUT (poster)",
         "note": "Osmo Olut (brand) stays: \"Você lembrou? Osmo Olut\". The poster's own 1-pixel capitals; the hand and the pour are left alone.",
         "erase": [{"rect": [5, 33, 100, 48], "mode": "near", "bg": "#877155", "thresh": 24, "grow": 0, "isolate": True, "scatter": [3, 1]}],
-        "alpha": {"erase": [{"rect": [5, 31, 102, 48], "thresh": 40, "grow": 1, "isolate": True}], "letters": 255},
+        "alpha": {"erase": [{"rect": [5, 33, 100, 48], "mode": "near", "bg": "#877155", "thresh": 24, "grow": 0, "isolate": True, "scatter": [3, 1], "detect_rgb": True}], "letters": 255},
         "text": [{"pixel": "osmo", "box": [7, 33, 99, 46], "baselines": [42], "align": "left", "gap": 2, "space": 4, "color": "#877155", "text": "VOCÊ LEMBROU?"}],
     },
 }
