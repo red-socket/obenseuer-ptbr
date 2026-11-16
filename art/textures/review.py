@@ -85,10 +85,12 @@ def main():
         pics = [("Original", a.convert("RGB")), (main, b.convert("RGB"))]
         if spec.get("alpha"):
             pics += [("Original gloss", a.getchannel("A")), ("Portuguese gloss", b.getchannel("A"))]
-        # "alts": {label: overrides for the first text line} shows other candidates (e.g. fonts) to choose from.
+        # "alts": {label: overrides for the first text line} shows other candidates (e.g. fonts) to choose from;
+        # with "all": True the overrides go to every line (the same word on several panels).
         for label, over in spec.get("alts", {}).items():
             alt = copy.deepcopy(spec)
-            alt["text"][0].update(over)
+            for t in alt["text"] if over.get("all") else alt["text"][:1]:
+                t.update({k: v for k, v in over.items() if k != "all"})
             pics.append((f"Option: {label}", render(n, alt, save=False).convert("RGB")))
         imgs = "".join(f'<figure><img src="{data_uri(p)}" width="{w}"><figcaption>{c}</figcaption></figure>'
                        for c, p in pics)

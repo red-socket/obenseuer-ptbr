@@ -11,7 +11,7 @@ textures are copied to textures/pt-BR/, which is what the plugin loads.
 
 The alpha channel is kept from the original unless the spec redraws it: on these opaque signs it is
 the gloss (smoothness) map, which sometimes repeats the letters.
-Needs Pillow, numpy and opencv-python.
+Needs Pillow, numpy and opencv-python (scikit-image for "thin" text, IOPaint for "lama" erases).
 """
 import argparse
 import os
@@ -279,6 +279,13 @@ def text_layer(size, t):
     if t.get("shear"):   # italic slant: positive leans the tops to the right
         sh = t["shear"]; cw2, ch2 = canvas.size; pad = int(abs(sh) * ch2) + 1
         canvas = canvas.transform((cw2 + pad, ch2), Image.AFFINE, (1, sh, -pad if sh > 0 else 0, 0, 1, 0), Image.BICUBIC)
+    if t.get("arch"):   # curved line of text: the ends sit that many px lower than the middle
+        arr = np.asarray(canvas); ch2, cw2 = arr.shape; drop = int(t["arch"] * SS)
+        off = (drop * ((np.arange(cw2) - cw2 / 2) / (cw2 / 2)) ** 2).astype(int)
+        bent = np.zeros((ch2 + drop + 1, cw2), np.uint8)
+        for x in range(cw2):
+            bent[off[x]:off[x] + ch2, x] = arr[:, x]
+        canvas = Image.fromarray(bent)
     if rot:
         canvas = canvas.rotate(rot, expand=True, resample=Image.BICUBIC)
     full = Image.new("L", (w * SS, h * SS), 0)
@@ -308,6 +315,9 @@ def text_layer(size, t):
     if t.get("contrast"):   # [lo, hi]: keep anti-aliasing but steepen it, for small, sharp lettering
         lo, hi = t["contrast"]
         small = np.clip((small - lo) / (hi - lo), 0, 1)
+    if t.get("thin"):   # 1-px line lettering (chalk script): skeleton of the coverage above that value
+        from skimage.morphology import skeletonize   # needs scikit-image
+        small = skeletonize(small > t["thin"]).astype(float)
     return small * t.get("opacity", 1.0)
 
 
@@ -391,6 +401,8 @@ def render(name, spec, save=True):
     src = Image.open(os.path.join(GAME, spec.get("source", name) + ".png"))
     has_alpha = src.mode in ("RGBA", "LA") or "transparency" in src.info
     im = src.convert("RGBA")
+    if spec.get("flip"):   # mirrored copy of another sign (seen from behind): work in the unmirrored layout
+        im = im.transpose(Image.FLIP_LEFT_RIGHT)
     rgb = np.array(im)[:, :, :3].copy()
     orig = rgb.copy()
     alpha = np.array(im)[:, :, 3]
@@ -553,6 +565,8 @@ def render(name, spec, save=True):
     res = np.dstack([np.clip(out + 0.5, 0, 255).astype(np.uint8), np.clip(aout + 0.5, 0, 255).astype(np.uint8)])
     mode = "RGBA" if has_alpha else "RGB"
     img = Image.fromarray(res, "RGBA").convert(mode)
+    if spec.get("flip"):
+        img = img.transpose(Image.FLIP_LEFT_RIGHT)
     if save:
         os.makedirs(OUT, exist_ok=True)
         img.save(os.path.join(OUT, name + ".png"))
