@@ -245,7 +245,10 @@ def ink(t, a, name, rgb, orig, old):
         wsum = cv2.GaussianBlur(old.astype(float), (0, 0), sigma)
         csum = cv2.GaussianBlur(orig.astype(float) * old[:, :, None], (0, 0), sigma)
         field = csum / np.maximum(wsum, 1e-6)[:, :, None]
-        mean = orig[old].mean(axis=0)
+        x0, y0, x1, y1 = t["box"]   # fallback: the old letters around this text, else all of them
+        near = np.zeros_like(old)
+        near[max(0, y0 - 10):y1 + 10, max(0, x0 - 10):x1 + 10] = True
+        mean = orig[old & near].mean(axis=0) if (old & near).any() else orig[old].mean(axis=0)
         trust = np.clip(wsum / 0.05, 0, 1)[:, :, None]   # far from any old letter: their average colour
         col = field * trust + mean * (1 - trust)
     if t.get("ink_from"):
