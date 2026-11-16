@@ -83,7 +83,7 @@ def main():
         w = a.width * scale
         main = "Português (main version)" if spec.get("alts") else "Português"
         pics = [("Original", a.convert("RGB")), (main, b.convert("RGB"))]
-        if any(t.get("alpha_only") for t in spec["text"]):   # cutout sign: the alpha is the shape, show what the game draws
+        if spec.get("cutout") or any(t.get("alpha_only") for t in spec["text"]):   # cutout sign: the alpha is the shape, show what the game draws
             def cut(im):
                 bg = Image.new("RGB", im.size, (40, 40, 40))
                 return Image.composite(im.convert("RGB"), bg, im.getchannel("A").point(lambda v: 255 if v >= 77 else 0))

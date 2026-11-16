@@ -2026,6 +2026,7 @@ SPECS = {
 
 
 
+
     # ---- Batch 15: tier 1c signs (graffiti, posters, door plate, security band, scratchcards, phone booth, freezer, chair, salon, bottle machine) ----
     "Decal_003_graffiti_alcohol": {
         "en": "BRING / THE / ALCOHOL (graffiti on a black patch)",
@@ -2038,6 +2039,7 @@ SPECS = {
     "Decal_003_graffiti_welcome_open_sewer": {
         "en": "WELCOME / to open / SEWER (brush graffiti; cut-out decal)",
         "note": "\"Bem-vindo ao Esgoto Aberto\": BEM-VINDO big, AO ESGOTO small, ABERTO big. The decal is a cutout, so the letters are redrawn in the alpha.",
+        "cutout": True,
         "erase": [],
         "alpha": {"erase": [{"rect": [24, 60, 232, 196], "mode": "bright", "thresh": 100, "grow": 1, "isolate": True, "scatter": [12, 12], "poly": [[24, 82], [60, 67], [128, 63], [196, 67], [232, 82], [232, 122], [204, 184], [128, 194], [52, 184], [24, 122]]}], "letters": 255},
         "text": [{"box": [40, 62, 216, 112], "font": "marker", "text": "BEM-VINDO", "stretch": True, "arch": 6, "color": "#2c2820"},
@@ -2048,6 +2050,7 @@ SPECS = {
         "en": "EVICT / THE / LANDLORD (brush graffiti; cut-out decal)",
         "note": "\"Despejem o senhorio\" (senhorio as in the game text). The decal is a cutout, so the letters are redrawn in the alpha.",
         "game_name": "Decal_002_graffiti_5",
+        "cutout": True,
         "erase": [],
         "alpha": {"erase": [{"rect": [6, 18, 128, 110], "color": "#000000"}], "letters": 255},
         "text": [{"box": [18, 24, 112, 60], "font": "marker", "text": "DESPEJEM", "stretch": True, "color": "#562018"},
