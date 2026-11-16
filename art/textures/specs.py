@@ -51,6 +51,13 @@ FONTS = {
     "luckiest": f"{_G}/luckiestguy/LuckiestGuy-Regular.ttf",
     "archivo-black": f"{_G}/archivoblack/ArchivoBlack-Regular.ttf",
     "montserrat-bold": f"{_G}/montserrat/Montserrat-Bold.ttf",
+    "caveat-brush": f"{_G}/caveatbrush/CaveatBrush-Regular.ttf",
+    "rocksalt": f"{_G}/rocksalt/RockSalt-Regular.ttf",
+    "nanum-pen": f"{_G}/nanumpenscript/NanumPenScript-Regular.ttf",
+    "sue-ellen": f"{_G}/sueellenfrancisco/SueEllenFrancisco-Regular.ttf",
+    "sunrise": f"{_G}/waitingforthesunrise/WaitingfortheSunrise.ttf",
+    "reenie-b": f"{_G}/reeniebeanie/ReenieBeanie.ttf",
+    "nothing": f"{_G}/nothingyoucoulddo/NothingYouCouldDo.ttf",
     "exo2-black": f"{_G}/exo2/Exo2-Black.ttf",
     "exo2-bold": f"{_G}/exo2/Exo2-Bold.ttf",
     "saira-bold": f"{_G}/saira/Saira-Bold.ttf",
@@ -1344,6 +1351,8 @@ SPECS = {
 
 
 
+
+
     # ---- Batch 10: shop windows, security plates, cardboard signs (tier 1b) ----
     "shop_facade_001_window_alco": {
         "en": "WINE BEER SPIRITS / ALCO (liquor shop window)",
@@ -1374,7 +1383,7 @@ SPECS = {
     },
     "sign_002_security": {
         "en": "SECURITY (worn stencil on a white board)",
-        "erase": [{"rect": [5, 133, 155, 155], "mode": "dark", "thresh": 20, "k": 9, "grain": 2, "grow": 1, "isolate": True, "scatter": [14, 10]}],
+        "erase": [{"rect": [5, 133, 155, 155], "mode": "dark", "thresh": 20, "k": 9, "grain": 3, "grow": 1, "isolate": True}],
         "text": [{"box": [7, 134, 153, 154], "font": "sans", "text": "SEGURANÇA", "size": 21, "baseline": 151, "stroke": 0.3, "tracking": 0.14, "mottle": 10, "chip": 0.06, "chip_scale": 0.5, "clip": [5, 133, 155, 155], "color": "#101010"}],
     },
     "landmark_security_0": {
@@ -1391,7 +1400,7 @@ SPECS = {
     "Market_sign_001_skin7": {
         "en": "BARBER / SHOP (serif, above a moustache)",
         "note": "One word in Portuguese, \"Barbearia\" (as in the game text), so the second line goes; the moustache stays.",
-        "erase": [{"rect": [72, 200, 184, 238], "mode": "light", "thresh": 25, "k": 9, "grain": 2, "isolate": True}],
+        "erase": [{"rect": [72, 200, 184, 222], "mode": "light", "thresh": 25, "k": 9, "grain": 2, "isolate": True}, {"rect": [100, 222, 160, 233], "mode": "light", "thresh": 25, "k": 9, "grain": 2, "isolate": True}],
         "text": [{"box": [74, 203, 182, 224], "font": "serif", "text": "BARBEARIA", "stretch": True, "color": "#c6c7c6"}],
     },
     "shop_facade_001_window_internet_a": {
@@ -1415,19 +1424,20 @@ SPECS = {
     },
     "cardboard_sign_002_buy_stuff_0": {
         "en": "BUY MY / STUFF :) (red marker on cardboard)",
-        "note": "Option: the slangier \"COMPRA MEU / BAGULHO :)\".",
+        "note": "Marker hand in Nanum Pen Script; other hands are shown as options.",
         "erase": [{"rect": [0, 20, 128, 86], "bg": "#9f8b5a", "thresh": 50, "grow": 1, "only_red": 25, "scatter": [6, 4]}],
-        "text": [{"box": [4, 22, 124, 52], "font": "hand", "text": "COMPRE MINHAS", "stroke": 0.4, "color": "#b4372c", "mottle": 8},
-                 {"box": [10, 54, 118, 84], "font": "hand", "text": "COISAS :)", "stroke": 0.4, "color": "#b4372c", "mottle": 8}],
-        "alts": {"COMPRA MEU BAGULHO": {"text": "COMPRA MEU"}},
+        "text": [{"box": [4, 22, 124, 50], "font": "nanum-pen", "text": "COMPRE MINHAS", "size": 34, "stroke": 0.3, "color": "#a4402e", "mottle": 8},
+                 {"box": [10, 54, 118, 84], "font": "nanum-pen", "text": "COISAS :)", "size": 40, "stroke": 0.3, "color": "#a4402e", "mottle": 8}],
+        "alts": {"Reenie Beanie": {"font": "reenie-b", "stroke": 0.6}, "Waiting for the Sunrise": {"font": "sunrise", "stroke": 0.6}, "Rock Salt": {"font": "rocksalt"}},
     },
     "cardboard_sign_002_hostel": {
         "en": "PLACE / TO / SLEEP, 30 OC (red marker; bed doodle)",
-        "note": "\"Lugar pra dormir\" (\"pra\" is the everyday form of \"para\"). The bed doodle and 30 OC stay.",
+        "note": "\"Lugar pra dormir\" (\"pra\" is the everyday form of \"para\"). The bed doodle and 30 OC stay. Options: other hands.",
         "erase": [{"rect": [4, 38, 100, 108], "bg": "#9f8b5a", "thresh": 50, "grow": 1, "only_red": 25, "isolate": True, "scatter": [6, 4]}],
-        "text": [{"box": [8, 40, 92, 70], "font": "hand", "text": "LUGAR", "stroke": 0.4, "rotate": -3, "color": "#b4372c", "mottle": 8},
-                 {"box": [26, 70, 62, 86], "font": "hand", "text": "PRA", "stroke": 0.4, "rotate": -3, "color": "#b4372c", "mottle": 8},
-                 {"box": [10, 86, 84, 102], "font": "hand", "text": "DORMIR", "stroke": 0.4, "rotate": -3, "color": "#b4372c", "mottle": 8}],
+        "text": [{"box": [8, 40, 92, 70], "font": "nanum-pen", "text": "LUGAR", "stretch": True, "stroke": 0.3, "rotate": -3, "color": "#a4402e", "mottle": 8},
+                 {"box": [26, 70, 62, 86], "font": "nanum-pen", "text": "PRA", "stretch": True, "stroke": 0.3, "rotate": -3, "color": "#a4402e", "mottle": 8},
+                 {"box": [12, 86, 82, 100], "font": "nanum-pen", "text": "DORMIR", "stretch": True, "stroke": 0.3, "rotate": -2, "color": "#a4402e", "mottle": 8}],
+        "alts": {"Reenie Beanie": {"font": "reenie-b", "stroke": 0.6}, "Waiting for the Sunrise": {"font": "sunrise", "stroke": 0.6}, "Rock Salt": {"font": "rocksalt"}},
     },
     "mine_motel_sign_001": {
         "en": "THE PICKAXE / MOTEL (the O is a pickaxe badge)",
