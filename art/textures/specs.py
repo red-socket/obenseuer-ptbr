@@ -51,6 +51,9 @@ FONTS = {
     "luckiest": f"{_G}/luckiestguy/LuckiestGuy-Regular.ttf",
     "archivo-black": f"{_G}/archivoblack/ArchivoBlack-Regular.ttf",
     "montserrat-bold": f"{_G}/montserrat/Montserrat-Bold.ttf",
+    "exo2-black": f"{_G}/exo2/Exo2-Black.ttf",
+    "exo2-bold": f"{_G}/exo2/Exo2-Bold.ttf",
+    "saira-bold": f"{_G}/saira/Saira-Bold.ttf",
     "covered": f"{_G}/coveredbyyourgrace/CoveredByYourGrace.ttf",
     "indie": f"{_G}/indieflower/IndieFlower-Regular.ttf",
     "marker": f"{_G}/permanentmarker/PermanentMarker-Regular.ttf",
@@ -1206,6 +1209,7 @@ SPECS = {
 
 
 
+
     # ---- Batch 09: small hazard and notice plates (tier 1b) ----
     "sign_004_explosives": {
         "en": "EXPLOSIVE (vertical)",
@@ -1275,8 +1279,8 @@ SPECS = {
     "sign_006_keep_out": {
         "en": "KEEP OUT! (brush-painted on a red splotch)",
         "erase": [{"rect": [20, 4, 108, 71], "mode": "dark", "thresh": 22, "k": 15, "grain": 2, "grow": 1, "scatter": [5, 5]}],
-        "text": [{"box": [24, 6, 100, 36], "font": "kalam", "text": "NÃO", "stretch": True, "stroke": 0.6, "soften": 0.9, "color": "#2e1714"},
-                 {"box": [20, 38, 104, 66], "font": "kalam", "text": "ENTRE!", "stretch": True, "stroke": 0.6, "soften": 0.9, "color": "#2e1714"}],
+        "text": [{"box": [24, 6, 100, 36], "font": "kalam", "text": "NÃO", "stretch": True, "stroke": 0.6, "soften": 0.35, "color": "#2e1714"},
+                 {"box": [20, 38, 104, 66], "font": "kalam", "text": "ENTRE!", "stretch": True, "stroke": 0.6, "soften": 0.35, "color": "#2e1714"}],
     },
     "sign_006_hardware": {
         "en": "HARD- / WARE (hand-painted)",
@@ -1294,17 +1298,20 @@ SPECS = {
     },
     "sign_006_contract_work": {
         "en": "TENEMENT / Contract / work!",
-        "note": "The business is \"Empreiteira de Prédios\" in the game text. Hand-painted orange letters with a dark outline.",
-        "erase": [{"rect": [3, 3, 122, 82], "mode": "dark", "thresh": 22, "k": 17, "grain": 2, "grow": 1, "scatter": [6, 5]}, {"rect": [3, 3, 122, 82], "bg": "#806a52", "thresh": 70, "grow": 1, "scatter": [6, 5]}],
-        "text": [{"box": [12, 6, 110, 22], "font": "chewy", "text": "EMPREITEIRA", "stretch": True, "outline": [1, "#2e2418"], "color": "#8c5d24"},
-                 {"box": [8, 24, 114, 47], "font": "chewy", "text": "de Prédios", "stretch": True, "outline": [1, "#2e2418"], "color": "#8c5d24"},
-                 {"box": [34, 49, 96, 72], "font": "chewy", "text": "Obras!", "stretch": True, "outline": [1, "#2e2418"], "color": "#8c5d24"}],
+        "note": "The business is \"Empreiteira de Prédios\" in the game text. Hand-painted orange letters with a dark outline in Patrick Hand; other hands are shown as options.",
+        "erase": [{"rect": [3, 3, 122, 82], "mode": "dark", "thresh": 22, "k": 17, "grain": 2, "grow": 1, "scatter": [6, 5]}, {"rect": [3, 3, 122, 82], "bg": "#806a52", "thresh": 70, "grow": 1, "isolate": True, "scatter": [4, 4]}],
+        "text": [{"box": [12, 6, 110, 22], "font": "hand", "text": "EMPREITEIRA", "stretch": True, "stroke": 0.8, "outline": [1, "#2e2418"], "color": "#8c5d24"},
+                 {"box": [8, 24, 114, 47], "font": "hand", "text": "de Prédios", "stretch": True, "stroke": 0.8, "outline": [1, "#2e2418"], "color": "#8c5d24"},
+                 {"box": [34, 49, 96, 72], "font": "hand", "text": "Obras!", "stretch": True, "stroke": 0.8, "outline": [1, "#2e2418"], "color": "#8c5d24"}],
+        "alts": {"Kalam": {"font": "kalam"}, "Gloria Hallelujah": {"font": "gloria", "stroke": 0.6}},
     },
     "sign_006_contract_work_resources": {
-        "en": "TENEMENT / RESOURCES (grey letters with a dark outline, faded)",
+        "en": "TENEMENT / RESOURCES (outlined letters, faded)",
+        "note": "Squared letters at the original size, filled close to the board colour so they read as outlined. Other fonts are shown as options.",
         "erase": [{"rect": [10, 21, 118, 59], "mode": "dark", "thresh": 18, "k": 11, "grain": 2, "grow": 1, "scatter": [6, 4]}],
-        "text": [{"box": [22, 26, 106, 38], "font": "montserrat-bold", "text": "RECURSOS", "stretch": True, "outline": [1, "#3a2e22"], "mottle": 8, "chip": 0.05, "chip_scale": 0.5, "color": "#655d54"},
-                 {"box": [16, 42, 112, 54], "font": "montserrat-bold", "text": "DO PRÉDIO", "stretch": True, "outline": [1, "#3a2e22"], "mottle": 8, "chip": 0.05, "chip_scale": 0.5, "color": "#655d54"}],
+        "text": [{"box": [22, 26, 104, 37], "font": "exo2-bold", "text": "RECURSOS", "stretch": True, "outline": [1, "#3a2e22"], "mottle": 6, "color": "#6c5d4c"},
+                 {"box": [16, 43, 110, 54], "font": "exo2-bold", "text": "DO PRÉDIO", "stretch": True, "outline": [1, "#3a2e22"], "mottle": 6, "color": "#6c5d4c"}],
+        "alts": {"Saira Bold": {"font": "saira-bold"}, "Russo One": {"font": "russo"}},
     },
     "sign_008_contract_work": {
         "en": "-Tenement -Apartment renovation -Plumbing -Tools! and much more! (chalk)",
