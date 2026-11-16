@@ -134,6 +134,7 @@ SPECS = {
         "en": 'BERGMANN / MAINTENANCE TUNNEL',
         "note": 'Bergmann is kept (place name, "Túneis Bergmann" in the item texts). Set in the sign\'s own worn pixel capitals; D, O, G and the accents drawn to match.',
         "erase": [{"rect": [3, 19, 61, 43], "mode": "dark", "thresh": 25, "k": 5, "isolate": True}],
+        "alpha": {"erase": [{"rect": [3, 19, 61, 43], "thresh": 100, "grow": 1, "isolate": True}], "letters": 0},
         "text": [{"pixel": "bergmann", "box": [2, 0, 62, 0], "baselines": [29, 40], "color": "#1e1e1c", "fade": 0.2,
                   "text": "TÚNEL DE\nMANUTENÇÃO"}],
     },
@@ -877,6 +878,7 @@ SPECS = {
         "transfer": {"from": "metro_map", "rect": [0, 69, 363, 256], "gain": 2.2},
         "erase": [{"rect": [6, 8, 150, 46], "mode": "light", "thresh": 30, "k": 21, "isolate": True, "grain": 2},
                   {"rect": [6, 46, 136, 62], "mode": "light", "thresh": 30, "k": 9, "isolate": True, "grain": 2}],
+        "alpha": {"erase": [{"rect": [6, 8, 150, 46], "thresh": 40, "grow": 1, "isolate": True}, {"rect": [6, 46, 136, 62], "thresh": 40, "grow": 1, "isolate": True}], "letters": 119},
         "text": [{"box": [8, 8, 300, 46], "font": "lato-black", "size": 44, "tracking": 0.08, "baseline": 44, "align": "left", "color": "#f2eeee", "text": "Bazar"},
                  {"box": [8, 46, 200, 62], "font": "lato-black", "size": 17, "tracking": 0.12, "baseline": 59, "align": "left", "color": "#f2eeee", "text": "S1 - Linha Central"}],
     },
@@ -1396,6 +1398,7 @@ SPECS = {
         "en": "RESCUE (spaced capitals)",
         "note": "\"Resgate\", as the rescue station is called in the game text (Quartel de Resgate).",
         "erase": [{"rect": [18, 213, 238, 248], "mode": "dark", "thresh": 25, "k": 11, "grain": 2, "isolate": True}],
+        "alpha": {"erase": [{"rect": [18, 213, 238, 248], "thresh": 40, "grow": 1, "isolate": True}], "letters": 119},
         "text": [{"box": [22, 214, 236, 248], "font": "sans-bold", "text": "RESGATE", "size": 40, "baseline": 245, "squeeze": 0.78, "tracking": 0.25, "contrast": [0.1, 0.85], "color": "#7e3223"}],
     },
     "Market_sign_001_skin7": {
@@ -1442,6 +1445,7 @@ SPECS = {
         "en": "THE PICKAXE / MOTEL (the O is a pickaxe badge)",
         "note": "\"Motel Picareta\" in the game text; MOTEL is the same word, so only the top line changes.",
         "erase": [{"rect": [6, 5, 250, 23], "bg": "#808080", "thresh": 60, "grow": 1, "isolate": True}],
+        "alpha": {"erase": [{"rect": [6, 5, 250, 23], "thresh": 40, "grow": 1, "isolate": True}], "letters": 255},
         "text": [{"box": [9, 7, 247, 22], "font": "sans-bold", "text": "PICARETA", "stretch": True, "tracking": 0.6, "outline": [1, "#3a0000"], "color": "#d10404"}],
     },
     "Market_window_002_skin2": {
@@ -1453,6 +1457,9 @@ SPECS = {
                  {"box": [62, 307, 282, 334], "font": "sans-bold", "text": "SEMPRE ABERTO", "baseline": 332, "size": 27, "color": "#2734b8"},
                  {"box": [186, 337, 278, 365], "font": "jah", "text": "ESGOTO", "stretch": True, "color": "#222222"}],
     },
+
+
+
 
 
 
@@ -1502,10 +1509,11 @@ SPECS = {
     },
     "farm_sign_001": {
         "en": "KURAHAARA BROTHERS / FARMING COOPERATIVE (painted sign)",
-        "note": "\"Irmãos Kurahaara\" as in the game text. Uneven hand-painted pixel capitals like the original.",
+        "note": "\"Irmãos Kurahaara\" as in the game text. Uneven hand-painted pixel capitals like the original. Clean plate by the user (art/textures/clean/).",
         "erase": [{"rect": [34, 20, 470, 52], "mode": "light", "thresh": 20, "k": 15, "grain": 2, "isolate": True, "scatter": [12, 6]}, {"rect": [56, 64, 462, 114], "mode": "light", "thresh": 20, "k": 15, "grain": 2, "isolate": True, "scatter": [12, 6]}],
-        "text": [{"box": [34, 22, 470, 50], "font": "hand", "text": "IRMÃOS KURAHAARA", "stretch": True, "pixelate": 2, "mottle": 10, "color": "#829856"},
-                 {"box": [54, 69, 460, 110], "font": "hand", "text": "COOPERATIVA AGRÍCOLA", "stretch": True, "pixelate": 2, "mottle": 10, "color": "#b48d66"}],
+        "alpha": {"erase": [{"rect": [36, 10, 462, 60], "color": "#000000"}, {"rect": [56, 60, 448, 118], "color": "#000000"}], "letters": 255},
+        "text": [{"box": [40, 22, 450, 50], "font": "hand", "text": "IRMÃOS KURAHAARA", "stretch": True, "pixelate": 2, "mottle": 10, "color": "#829856"},
+                 {"box": [64, 69, 436, 108], "font": "hand", "text": "COOPERATIVA AGRÍCOLA", "stretch": True, "pixelate": 2, "mottle": 10, "color": "#b48d66"}],
     },
     "shop_facade_001_window_macaroni": {
         "en": "RESTAURANT / Scatola Di Maccheroni",
@@ -1578,12 +1586,14 @@ SPECS = {
         "en": "BEER (outlined block letters, cut off at the bottom)",
         "note": "Wide block letters like BEER; CERVEJA has 7 letters, so they are smaller.",
         "erase": [{"rect": [0, 186, 256, 256], "bg": "#ebab00", "thresh": 10, "grow": 1, "isolate": True, "scatter": [48, 8]}],
+        "alpha": {"erase": [{"rect": [0, 186, 256, 256], "thresh": 40, "grow": 1, "isolate": True}]},
         "text": [{"box": [4, 194, 252, 262], "font": "sans-bold", "text": "CERVEJA", "size": 72, "baseline": 250, "tracking": 0.04, "outline": [3, "#b88500"], "color": "#e6a700", "clip": [0, 186, 256, 256]}],
     },
     "cash_desk_001_sign": {
         "en": "DID YOU REMEMBER? / OSMO OLUT (poster)",
         "note": "Osmo Olut (brand) stays: \"Você lembrou? Osmo Olut\".",
         "erase": [{"rect": [5, 31, 102, 48], "mode": "light", "thresh": 25, "k": 9, "grain": 2, "isolate": True, "scatter": [8, 4]}],
+        "alpha": {"erase": [{"rect": [5, 31, 102, 48], "thresh": 40, "grow": 1, "isolate": True}], "letters": 255},
         "text": [{"box": [7, 33, 99, 46], "font": "barlow", "text": "VOCÊ LEMBROU?", "size": 13, "baseline": 45, "tracking": 0.28, "align": "left", "color": "#877561"}],
     },
 }
