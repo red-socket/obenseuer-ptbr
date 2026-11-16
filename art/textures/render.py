@@ -63,7 +63,7 @@ def regrain(out, mask, rect, radius, seed, local):
 
 
 def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, isolate=False, grain=0, detect=None,
-          return_mask=False, poly=None, scatter=None):
+          return_mask=False, poly=None, scatter=None, exclude_red=None, sample_min=None):
     """Inpaint the old letters inside rect.
 
     mode "color": letters are pixels far from the background colour (flat backgrounds).
@@ -74,6 +74,8 @@ def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, is
     grain: put back texture grain sampled within that radius (see regrain).
     detect: find the letters on this image instead (same layout), e.g. the base texture of a dim emission map.
     poly: only erase inside this polygon too (slanted text next to other artwork).
+    exclude_red: leave pixels with r - g above this alone (red artwork crossing the letters).
+    sample_min: scatter only copies pixels whose darkest channel is above this (plain paper, not ink).
     scatter: [rx, ry]: instead of inpainting, give each letter pixel the colour of a random untouched pixel within
     rx/ry, for speckled or grimy surfaces where a smooth fill would show.
     """
@@ -95,6 +97,8 @@ def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, is
     mask[y0:y1, x0:x1] = letters.astype(np.uint8) * 255
     if poly is not None:
         keep = np.zeros_like(mask); cv2.fillPoly(keep, [np.array(poly, np.int32)], 255); mask &= keep
+    if exclude_red is not None:
+        mask[(look[:, :, 0].astype(int) - look[:, :, 1]) > exclude_red] = 0
     core = mask > 0   # the letters themselves, before growing the mask into their anti-aliased edges
     if grow:
         mask = cv2.dilate(mask, np.ones((3, 3), np.uint8), iterations=grow)
@@ -102,6 +106,8 @@ def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, is
         if poly is not None:
             clip[:] = 0; cv2.fillPoly(clip, [np.array(poly, np.int32)], 255)
         mask &= clip
+        if exclude_red is not None:
+            mask[(look[:, :, 0].astype(int) - look[:, :, 1]) > exclude_red] = 0
     if scatter:
         rx, ry = scatter
         m = mask > 0
@@ -113,6 +119,8 @@ def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, is
         else:
             like = hat > thresh
         avoid |= cv2.dilate(like.astype(np.uint8), np.ones((3, 3), np.uint8)) > 0
+        if sample_min is not None:
+            avoid |= look.min(axis=2) < sample_min
         out = cv2.inpaint(rgb, mask, radius, cv2.INPAINT_TELEA)   # fallback where no sample is found
         rng = np.random.default_rng(x0 * 7919 + y0)
         h, w = m.shape
@@ -323,7 +331,8 @@ def render(name, spec, save=True):
         else:
             rgb, m = erase(rgb, op["rect"], op.get("bg"), op.get("thresh", 40), op.get("grow", 1), op.get("radius", 3),
                            op.get("mode", "color"), op.get("k", 5), op.get("isolate", False), op.get("grain", 0),
-                           detect, return_mask=True, poly=op.get("poly"), scatter=op.get("scatter"))
+                           detect, return_mask=True, poly=op.get("poly"), scatter=op.get("scatter"),
+                           exclude_red=op.get("exclude_red"), sample_min=op.get("sample_min"))
             old |= m
     # "copy": [{"from": [x0, y0, x1, y1], "to": [x, y]}]: paste a block of the original texture elsewhere (reuse the
     # sign's own letters when a word only changes a letter or two).
@@ -431,7 +440,11 @@ def render(name, spec, save=True):
                 a[max(0, -dy):a.shape[0] - max(0, dy), max(0, -dx):a.shape[1] - max(0, dx)]
             sh = sh * (1 - a)
             out = out * (1 - sh[:, :, None]) + np.array(hexrgb(sc), float) * sh[:, :, None]
-        out = out * (1 - a[:, :, None]) + ink(t, a, name, rgb, orig, old) * a[:, :, None]
+        col = ink(t, a, name, rgb, orig, old)
+        if t.get("ink_texture"):   # paint takes on the surface's texture: add its fine detail (pixel minus blur)
+            base = rgb.astype(float)
+            col = np.clip(col + t["ink_texture"] * (base - cv2.GaussianBlur(base, (0, 0), 1.5)), 0, 255)
+        out = out * (1 - a[:, :, None]) + col * a[:, :, None]
         cov = 1 - (1 - cov) * (1 - a)
         if aspec and "letters" in aspec:
             aout = aout * (1 - a) + t.get("alpha", aspec["letters"]) * a

@@ -901,7 +901,7 @@ SPECS = {
                   {"rect": [1295, 168, 1820, 232], "mode": "dark", "thresh": 35, "k": 15, "grain": 4},
                   {"rect": [1064, 645, 1136, 958], "mode": "dark", "thresh": 35, "k": 15, "grain": 4},
                   {"rect": [1068, 1815, 1132, 2048], "mode": "dark", "thresh": 35, "k": 15, "grain": 4},
-                  {"rect": [528, 1384, 970, 1438], "mode": "dark", "thresh": 35, "k": 15, "grain": 4},
+                  {"rect": [520, 1380, 980, 1442], "mode": "dark", "thresh": 35, "k": 15, "exclude_red": 30, "scatter": [8, 8], "sample_min": 170},
                   {"rect": [1700, 900, 1925, 1065], "thresh": 70, "isolate": True, "grain": 3, "poly": [[1700, 1010], [1724, 1056], [1922, 952], [1897, 900]]}],
         "repair": [{"vline": [1865, 1872], "rows": [895, 1065], "from_row": 880},
                    {"curve": [[1700, 1010], [1724, 1056], [1922, 952], [1897, 900]], "near": 90, "fit_rect": [1640, 820, 1863, 980], "color": "#7d3a3a",
@@ -959,7 +959,7 @@ SPECS = {
     "Market_sign_002_firewood": {
         "en": "MON-FRI 6-17 / SATURDAY 10-17 (brush)",
         "note": "Times kept. Weekdays use the usual Brazilian abbreviations (SEG TER QUA QUI SEX SÁB DOM).",
-        "erase": [{"rect": [4, 4, 112, 31], "mode": "dark", "thresh": 25, "k": 13, "grain": 2}, {"rect": [4, 58, 108, 92], "mode": "dark", "thresh": 25, "k": 13, "grain": 2}],
+        "erase": [{"rect": [4, 4, 104, 31], "mode": "dark", "thresh": 25, "k": 13, "isolate": True, "grain": 2}, {"rect": [4, 58, 108, 92], "mode": "dark", "thresh": 25, "k": 13, "grain": 2}],
         "text": [{"box": [10, 5, 106, 30], "font": "marker", "text": "SEG-SEX", "stretch": True, "mottle": 10, "color": "#4a4a4a"},
                  {"box": [6, 59, 106, 91], "font": "marker", "text": "SÁBADO", "stretch": True, "mottle": 10, "color": "#4a4a4a"}],
     },
@@ -1214,6 +1214,8 @@ SPECS = {
 
 
 
+
+
     # ---- Batch 09: small hazard and notice plates (tier 1b) ----
     "sign_004_explosives": {
         "en": "EXPLOSIVE (vertical)",
@@ -1283,8 +1285,8 @@ SPECS = {
     "sign_006_keep_out": {
         "en": "KEEP OUT! (brush-painted on a red splotch)",
         "erase": [{"rect": [20, 4, 108, 71], "mode": "dark", "thresh": 22, "k": 15, "grain": 2, "grow": 1, "scatter": [5, 5]}],
-        "text": [{"box": [24, 3, 100, 36], "font": "kalam", "text": "NÃO", "stretch": True, "stroke": 0.6, "soften": 0.45, "mottle": 9, "color": "#2e1714"},
-                 {"box": [20, 38, 104, 66], "font": "kalam", "text": "ENTRE!", "stretch": True, "stroke": 0.6, "soften": 0.45, "mottle": 9, "color": "#2e1714"}],
+        "text": [{"box": [24, 3, 100, 36], "font": "kalam", "text": "NÃO", "stretch": True, "stroke": 0.6, "soften": 0.45, "mottle": 9, "opacity": 0.85, "ink_texture": 0.6, "color": "#2e1714"},
+                 {"box": [20, 38, 104, 66], "font": "kalam", "text": "ENTRE!", "stretch": True, "stroke": 0.6, "soften": 0.45, "mottle": 9, "opacity": 0.85, "ink_texture": 0.6, "color": "#2e1714"}],
     },
     "sign_006_hardware": {
         "en": "HARD- / WARE (hand-painted)",
@@ -1305,8 +1307,8 @@ SPECS = {
         "note": "The business is \"Empreiteira de Prédios\" in the game text. All three lines in Gloria Hallelujah capitals (the EMPREITEIRA style you liked), heavier on the big lines.",
         "erase": [{"rect": [3, 3, 122, 82], "mode": "dark", "thresh": 22, "k": 17, "grain": 2, "grow": 1, "scatter": [6, 5]}, {"rect": [3, 3, 122, 82], "bg": "#806a52", "thresh": 70, "grow": 1, "isolate": True, "scatter": [4, 4]}],
         "text": [{"box": [12, 6, 110, 22], "font": "gloria", "text": "EMPREITEIRA", "stretch": True, "stroke": 0.6, "outline": [1, "#2e2418"], "color": "#8c5d24"},
-                 {"box": [8, 25, 114, 46], "font": "gloria", "text": "DE PRÉDIOS", "stretch": True, "stroke": 1.0, "outline": [1, "#2e2418"], "color": "#8c5d24"},
-                 {"box": [28, 49, 100, 72], "font": "gloria", "text": "OBRAS!", "stretch": True, "stroke": 1.0, "outline": [1, "#2e2418"], "color": "#8c5d24"}],
+                 {"box": [8, 25, 114, 46], "font": "gloria", "text": "DE PRÉDIOS", "stretch": True, "stroke": 1.0, "outline": [2, "#2e2418"], "color": "#8c5d24"},
+                 {"box": [28, 49, 100, 72], "font": "gloria", "text": "OBRAS!", "stretch": True, "stroke": 1.0, "outline": [2, "#2e2418"], "color": "#8c5d24"}],
     },
     "sign_006_contract_work_resources": {
         "en": "TENEMENT / RESOURCES (pixel letters: grey strokes with a dark outline)",
