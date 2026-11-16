@@ -388,7 +388,8 @@ def render(name, spec, save=True):
         for op in aspec.get("erase", []):
             a3 = fill(a3, op["rect"], op["color"]) if op.get("color") else erase(
                 a3, op["rect"], op.get("bg"), op.get("thresh", 40), op.get("grow", 1), op.get("radius", 3),
-                op.get("mode", "color"), op.get("k", 5), op.get("isolate", False))
+                op.get("mode", "color"), op.get("k", 5), op.get("isolate", False), op.get("grain", 0),
+                poly=op.get("poly"), scatter=op.get("scatter"))
         alpha = a3[:, :, 0]
     out = rgb.astype(float)
     aout = alpha.astype(float)

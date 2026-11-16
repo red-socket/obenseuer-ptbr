@@ -254,6 +254,8 @@ _BOARD = {
     "W": (["#...#", "#...#", "#...#", "#.#.#", "#.#.#", "##.##", "#...#"], 0),
 }
 _BOARD["Â"] = _accent(_BOARD["A"], ["..#..", ".#.#."])
+_BOARD["Ã"] = _accent(_BOARD["A"], [".#.#.", "#.#.."], 0)
+_BOARD["Ç"] = _below(_BOARD["C"], ["..#..", ".##.."])
 
 # apartment_sign_001_staff_only (32x32): 1-px capitals 7 rows like STAFF ONLY, 3 px wide (N 4) to fit 32 px; drawn.
 _STAFF = {
