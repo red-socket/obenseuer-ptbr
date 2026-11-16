@@ -432,6 +432,24 @@ def render(name, spec, save=True):
                            exclude_red=op.get("exclude_red"), sample_min=op.get("sample_min"), only_red=op.get("only_red"), exclude_dark=op.get("exclude_dark"),
                            lama=op.get("lama", False))
             old |= m
+    # "dotmatrix": LED signs. Clear "clear" to black, then stamp the sign's own lit dot (the pitch x pitch block at
+    # "dot") on a grid from "origin", one dot per lit cell of the pixel font text.
+    dm = spec.get("dotmatrix")
+    if dm:
+        x0, y0, x1, y1 = dm["clear"]
+        rgb[y0:y1, x0:x1] = 0
+        p = dm["pitch"]; sx, sy = dm["dot"]
+        sprite = orig[sy:sy + p, sx:sx + p]
+        font = PIXEL_FONTS[dm["font"]]; gap = dm.get("gap", 1)
+        col = 0
+        for c in dm["text"]:
+            rows, _ = font[c]
+            for dy, row in enumerate(rows):
+                for dx, v in enumerate(row):
+                    if v == "#":
+                        X = dm["origin"][0] + (col + dx) * p; Y = dm["origin"][1] + dy * p
+                        rgb[Y:Y + p, X:X + p] = np.maximum(rgb[Y:Y + p, X:X + p], sprite)
+            col += len(rows[0]) + gap
     # "copy": [{"from": [x0, y0, x1, y1], "to": [x, y]}]: paste a block of the original texture elsewhere (reuse the
     # sign's own letters when a word only changes a letter or two).
     for cp in spec.get("copy", []):
@@ -557,7 +575,8 @@ def render(name, spec, save=True):
         if t.get("ink_texture"):   # paint takes on the surface's texture: add its fine detail (pixel minus blur)
             base = rgb.astype(float)
             col = np.clip(col + t["ink_texture"] * (base - cv2.GaussianBlur(base, (0, 0), 1.5)), 0, 255)
-        out = out * (1 - a[:, :, None]) + col * a[:, :, None]
+        if not t.get("alpha_only"):   # alpha_only: the letters exist only in the alpha (cutout signs, colour left as is)
+            out = out * (1 - a[:, :, None]) + col * a[:, :, None]
         cov = 1 - (1 - cov) * (1 - a)
         if aspec and "letters" in aspec:
             aout = aout * (1 - a) + t.get("alpha", aspec["letters"]) * a

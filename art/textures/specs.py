@@ -21,6 +21,7 @@ FONTS = {
     "roboto-cond-bold": f"{_G}/robotocondensed/RobotoCondensed-Bold.ttf",
     "roboto-cond": f"{_G}/robotocondensed/RobotoCondensed-Medium.ttf",
     "barlow-cond-bold": f"{_G}/barlowcondensed/BarlowCondensed-Bold.ttf",
+    "barlow-cond": f"{_G}/barlowcondensed/BarlowCondensed-Regular.ttf",
     "barlow-cond-semibold": f"{_G}/barlowcondensed/BarlowCondensed-SemiBold.ttf",
     "oswald-bold": f"{_G}/oswald/Oswald-Bold.ttf",
     "anton": f"{_G}/anton/Anton-Regular.ttf",
@@ -1714,6 +1715,132 @@ SPECS = {
                  {"box": [159, 49, 230, 74], "font": "sans-bold", "text": "CAIXA", "stretch": True, "ink": "letters"}],
         "alts": {"SAQUE": {"text": "SAQUE", "all": True}, "24H": {"text": "24H", "all": True}},
     },
+
+
+
+    # ---- Batch 13: tier 1c signs (danger, dead end, LED open sign, bins, mine and O-Iron aisle signs) ----
+    "sign_004": {
+        "en": "DANGER / KEEP OUT (40x30 pixel sign)",
+        "note": "\"Perigo / não entre\" in the sign's own pixel capitals (3x5 white on red, 6-row black); the gloss repeats the letters, so it is redrawn too.",
+        "erase": [{"rect": [4, 5, 36, 10], "mode": "bright", "thresh": 150, "k": 5, "grain": 0, "isolate": True, "scatter": [3, 1]}, {"rect": [2, 15, 38, 23], "mode": "dark", "thresh": 60, "k": 5, "grain": 0, "isolate": True, "scatter": [3, 1]}],
+        "alpha": {"erase": [{"rect": [6, 5, 34, 10], "mode": "bright", "thresh": 160, "grow": 0, "isolate": True, "scatter": [2, 1]}, {"rect": [2, 16, 38, 23], "mode": "dark", "thresh": 60, "k": 5, "grow": 1, "isolate": True, "scatter": [3, 1]}], "letters": 255},
+        "text": [{"pixel": "tiny", "box": [4, 5, 36, 10], "baselines": [9], "text": "PERIGO", "gap": 1, "color": "#e8e2e0", "alpha": 255},
+                 {"pixel": "keep", "box": [2, 15, 38, 23], "baselines": [22], "text": "NÃO ENTRE", "gap": 1, "space": 2, "color": "#141414", "alpha": 0}],
+    },
+    "sign_dead_end": {
+        "en": "DEAD END (diagonal, yellow road sign)",
+        "note": "\"Sem saída\", the Brazilian road sign wording.",
+        "erase": [{"rect": [5, 5, 59, 59], "mode": "dark", "thresh": 30, "k": 11, "grain": 0, "isolate": True, "scatter": [4, 4]}],
+        "text": [{"box": [8, 8, 56, 56], "font": "sans-bold", "text": "SEM\nSAÍDA", "rotate": -45, "crisp": 0.5, "leading": 0.05, "color": "#1c1808"}],
+    },
+    "open_sign_001_em": {
+        "en": "OPEN (LED sign, glow map)",
+        "note": "\"Aberto\" in the sign's own lit dots, 5x11 letters on the same 6-px grid.",
+        "erase": [],
+        "dotmatrix": {"clear": [14, 14, 242, 104], "dot": [26, 38], "pitch": 6, "origin": [23, 26], "font": "led", "gap": 1, "text": "ABERTO"},
+        "text": [],
+    },
+    "trashcan_002": {
+        "en": "TRASH (bin label)",
+        "note": "\"Lixo\", 3x5 capitals like the original.",
+        "erase": [{"rect": [54, 50, 76, 56], "mode": "light", "thresh": 30, "k": 5, "grain": 0, "isolate": True, "scatter": [3, 1]}],
+        "text": [{"pixel": "tiny", "box": [44, 50, 84, 56], "baselines": [55], "text": "LIXO", "gap": 1, "ink": "letters"}],
+    },
+    "trashcan_002b": {
+        "en": "BOTTLES (bin label)",
+        "note": "\"Garrafas\", 3x5 capitals like the original.",
+        "erase": [{"rect": [50, 50, 82, 56], "mode": "light", "thresh": 30, "k": 5, "grain": 0, "isolate": True, "scatter": [3, 1]}],
+        "text": [{"pixel": "tiny", "box": [40, 50, 92, 56], "baselines": [55], "text": "GARRAFAS", "gap": 1, "ink": "letters"}],
+    },
+    "sign_004_bank": {
+        "en": "BANK with an arrow (hand-drawn)",
+        "note": "\"Banco\"; the arrow stays. The gloss map's DANGER / KEEP OUT belongs to a base sign and stays.",
+        "erase": [{"rect": [3, 13, 38, 27], "mode": "dark", "thresh": 35, "k": 5, "grain": 0, "isolate": True, "scatter": [4, 2]}],
+        "text": [{"box": [4, 14, 37, 26], "font": "hand", "text": "BANCO", "stretch": True, "thin": 0.3, "color": "#202020"}],
+    },
+    "sign_004_lights": {
+        "en": "LIGHTS (white paint on a mustard board)",
+        "note": "\"Luzes\".",
+        "erase": [{"rect": [4, 8, 78, 54], "mode": "light", "thresh": 35, "k": 11, "grain": 0, "grow": 2, "lama": True}],
+        "text": [{"box": [7, 11, 74, 51], "font": "hand", "text": "LUZES", "stretch": True, "stroke": 0.6, "ink": "letters", "wear": 0.35, "chip": 0.06}],
+    },
+    "sign_004_bergmann_3": {
+        "en": "BERGMANN / OBENSEUER / WATER / TREATMENT",
+        "note": "Bergmann and Obenseuer (names) stay; \"tratamento de água\" in the board's 5x7 capitals, worn like the original. The gloss map's DANGER / KEEP OUT belongs to a base sign and stays.",
+        "erase": [{"rect": [3, 25, 62, 35], "mode": "dark", "thresh": 30, "k": 5, "grain": 0, "isolate": True, "scatter": [4, 2]}, {"rect": [3, 36, 62, 46], "mode": "dark", "thresh": 30, "k": 5, "grain": 0, "isolate": True, "scatter": [4, 2]}],
+        "text": [{"pixel": "board", "box": [1, 26, 61, 34], "baselines": [33], "text": "TRATAMENTO", "gap": 1, "color": "#1e1e1c", "fade": 0.35},
+                 {"pixel": "board", "box": [2, 36, 62, 45], "baselines": [44], "text": "DE ÁGUA", "gap": 1, "space": 3, "color": "#1e1e1c", "fade": 0.35}],
+    },
+    "Sign_004_coins": {
+        "en": "COINS with an arrow (chalky paint on green)",
+        "note": "\"Moedas\"; the arrow stays.",
+        "erase": [{"rect": [3, 2, 41, 13], "mode": "light", "thresh": 35, "k": 7, "grain": 0, "isolate": True, "scatter": [4, 2]}],
+        "text": [{"box": [4, 3, 40, 13], "font": "hand", "text": "MOEDAS", "stretch": True, "crisp": 0.4, "ink": "letters"}],
+    },
+    "mine_signs_001_tenement": {
+        "en": "TENEMENT ACCESS (mine sign, cut-out letters)",
+        "note": "\"Acesso ao prédio\" as in the game text where it has one; same thin condensed capitals and height. The sign is a cutout: the letters live in the alpha.",
+        "erase": [{"rect": [0, 0, 512, 64], "mode": "dark", "thresh": 20, "k": 5, "grain": 0, "isolate": True, "scatter": [6, 2]}],
+        "alpha": {"erase": [{"rect": [0, 0, 512, 64], "color": "#000000"}], "letters": 187},
+        "text": [{"box": [8, 0, 504, 64], "font": "barlow-cond", "text": "ACESSO AO PRÉDIO", "size": 63, "baseline": 54, "tracking": 0.04, "alpha_only": True}],
+    },
+    "mine_signs_001_fuel": {
+        "en": "FUEL (mine sign, cut-out letters)",
+        "note": "\"Combustível\" as in the game text where it has one; same thin condensed capitals and height. The sign is a cutout: the letters live in the alpha.",
+        "erase": [{"rect": [0, 0, 512, 64], "mode": "dark", "thresh": 20, "k": 5, "grain": 0, "isolate": True, "scatter": [6, 2]}],
+        "alpha": {"erase": [{"rect": [0, 0, 512, 64], "color": "#000000"}], "letters": 187},
+        "text": [{"box": [8, 0, 504, 64], "font": "barlow-cond", "text": "COMBUSTÍVEL", "size": 73, "baseline": 58, "tracking": 0.04, "alpha_only": True}],
+    },
+    "mine_signs_001_oredropoff": {
+        "en": "ORE DROP-OFF (mine sign, cut-out letters)",
+        "note": "\"Entrega de minério\" as in the game text where it has one; same thin condensed capitals and height. The sign is a cutout: the letters live in the alpha.",
+        "erase": [{"rect": [0, 0, 512, 64], "mode": "dark", "thresh": 20, "k": 5, "grain": 0, "isolate": True, "scatter": [6, 2]}],
+        "alpha": {"erase": [{"rect": [0, 0, 512, 64], "color": "#000000"}], "letters": 187},
+        "text": [{"box": [8, 0, 504, 64], "font": "barlow-cond", "text": "ENTREGA DE MINÉRIO", "size": 63, "baseline": 54, "tracking": 0.04, "alpha_only": True}],
+    },
+    "mine_signs_001_service": {
+        "en": "SERVICE AREA (mine sign, cut-out letters)",
+        "note": "\"Área de serviço\" as in the game text where it has one; same thin condensed capitals and height. The sign is a cutout: the letters live in the alpha.",
+        "erase": [{"rect": [0, 0, 512, 64], "mode": "dark", "thresh": 20, "k": 5, "grain": 0, "isolate": True, "scatter": [6, 2]}],
+        "alpha": {"erase": [{"rect": [0, 0, 512, 64], "color": "#000000"}], "letters": 187},
+        "text": [{"box": [8, 0, 504, 64], "font": "barlow-cond", "text": "ÁREA DE SERVIÇO", "size": 73, "baseline": 58, "tracking": 0.04, "alpha_only": True}],
+    },
+    "mine_signs_001b_components": {
+        "en": "COMPONENTS & ELECTRICAL (O-Iron aisle sign, cut-out letters)",
+        "note": "Bold rounded capitals stretched across the sign like the original; \"maquinário\" and \"carpintaria\" as in the game text. The letters live in the alpha.",
+        "erase": [{"rect": [0, 0, 512, 64], "mode": "dark", "thresh": 20, "k": 5, "grain": 0, "isolate": True, "scatter": [6, 2]}],
+        "alpha": {"erase": [{"rect": [0, 0, 512, 64], "color": "#000000"}], "letters": 250},
+        "text": [{"box": [5, 0, 508, 64], "font": "russo", "text": "COMPONENTES E ELÉTRICA", "alpha_only": True, "size": 43, "baseline": 47, "squeeze": 0.6993800537589714, "tracking": 0.12}],
+    },
+    "mine_signs_001b_construction": {
+        "en": "CONSTRUCTION & MACHINERY (O-Iron aisle sign, cut-out letters)",
+        "note": "Bold rounded capitals stretched across the sign like the original; \"maquinário\" and \"carpintaria\" as in the game text. The letters live in the alpha.",
+        "erase": [{"rect": [0, 0, 512, 64], "mode": "dark", "thresh": 20, "k": 5, "grain": 0, "isolate": True, "scatter": [6, 2]}],
+        "alpha": {"erase": [{"rect": [0, 0, 512, 64], "color": "#000000"}], "letters": 250},
+        "text": [{"box": [7, 0, 505, 64], "font": "russo", "text": "CONSTRUÇÃO E MAQUINÁRIO", "alpha_only": True, "size": 40, "baseline": 46, "squeeze": 0.6934325561569508, "tracking": 0.12}],
+    },
+    "mine_signs_001b_gardening": {
+        "en": "GARDENING & STORAGE (O-Iron aisle sign, cut-out letters)",
+        "note": "Bold rounded capitals stretched across the sign like the original; \"maquinário\" and \"carpintaria\" as in the game text. The letters live in the alpha.",
+        "erase": [{"rect": [0, 0, 512, 64], "mode": "dark", "thresh": 20, "k": 5, "grain": 0, "isolate": True, "scatter": [6, 2]}],
+        "alpha": {"erase": [{"rect": [0, 0, 512, 64], "color": "#000000"}], "letters": 250},
+        "text": [{"box": [9, 0, 505, 64], "font": "russo", "text": "JARDINAGEM E ARMAZENAGEM", "alpha_only": True, "size": 51, "baseline": 51, "squeeze": 0.5069617310705768, "tracking": 0.12}],
+    },
+    "mine_signs_001b_tools": {
+        "en": "HAND & POWER TOOLS (O-Iron aisle sign, cut-out letters)",
+        "note": "Bold rounded capitals stretched across the sign like the original; \"maquinário\" and \"carpintaria\" as in the game text. The letters live in the alpha.",
+        "erase": [{"rect": [0, 0, 512, 64], "mode": "dark", "thresh": 20, "k": 5, "grain": 0, "isolate": True, "scatter": [6, 2]}],
+        "alpha": {"erase": [{"rect": [0, 0, 512, 64], "color": "#000000"}], "letters": 250},
+        "text": [{"box": [5, 0, 508, 64], "font": "russo", "text": "FERRAMENTAS MANUAIS E ELÉTRICAS", "alpha_only": True, "size": 54, "baseline": 51, "squeeze": 0.3891847043341068, "tracking": 0.12}],
+        "alts": {"FERRAMENTAS": {"text": "FERRAMENTAS", "size": 54, "baseline": 51, "squeeze": 1.0, "tracking": 0.12}},
+    },
+    "mine_signs_001b_woodworking": {
+        "en": "CRAFTS & CARPENTRY (O-Iron aisle sign, cut-out letters)",
+        "note": "Bold rounded capitals stretched across the sign like the original; \"maquinário\" and \"carpintaria\" as in the game text. The letters live in the alpha.",
+        "erase": [{"rect": [0, 0, 512, 64], "mode": "dark", "thresh": 20, "k": 5, "grain": 0, "isolate": True, "scatter": [6, 2]}],
+        "alpha": {"erase": [{"rect": [0, 0, 512, 64], "color": "#000000"}], "letters": 250},
+        "text": [{"box": [9, 0, 502, 64], "font": "russo", "text": "ARTESANATO E CARPINTARIA", "alpha_only": True, "size": 54, "baseline": 51, "squeeze": 0.49637117247193147, "tracking": 0.12}],
+    },
 }
 
 # Review batches: each is checked by the user, texture by texture, against the original.
@@ -1752,6 +1879,7 @@ BATCHES = {
     "10": ["shop_facade_001_window_alco", "shop_facade_001_window_alco_b", "sign_007_security", "sign_007_security_e", "sign_002_security", "landmark_security_0", "sign_002_rescue", "Market_sign_001_skin7", "shop_facade_001_window_internet_a", "shop_facade_001_window_internet_b", "shop_facade_001_window_internet_c", "cardboard_sign_002_buy_stuff_0", "cardboard_sign_002_hostel", "mine_motel_sign_001", "Market_window_002_skin2"],
     "11": ["Market_sign_002_ankea_a", "Market_sign_002_ankea_b", "Market_sign_002_ankea_c", "Market_sign_002_ankea_d", "farm_sign_001", "shop_facade_001_window_macaroni", "shop_facade_001_window_macaroni_e", "shop_facade_001_window_fungi_a", "shop_facade_001_window_fungi_a_e", "sign_002_general_store", "shop_facade_001_window_casino_crazy_a", "shop_facade_001_window_casino_b", "shop_facade_001_window_casino_a", "sign_006_möbelmann", "Market_sign_beer_001", "cash_desk_001_sign"],
     "12": ["Market_sign_001_skin9", "Market_sign_001_skin8", "shop_facade_001_window_rob", "shop_facade_001_window_rob_a_e", "cash_desk_001_sign_inverted", "sign_003", "sign_001", "Market_sign_002_skin2", "sign_007_atm", "sign_007_atm_e"],
+    "13": ["sign_004", "sign_dead_end", "open_sign_001_em", "trashcan_002", "trashcan_002b", "sign_004_bank", "sign_004_lights", "sign_004_bergmann_3", "Sign_004_coins", "mine_signs_001_tenement", "mine_signs_001_fuel", "mine_signs_001_oredropoff", "mine_signs_001_service", "mine_signs_001b_components", "mine_signs_001b_construction", "mine_signs_001b_gardening", "mine_signs_001b_tools", "mine_signs_001b_woodworking"],
 }
 
 NUMBERS = {}
