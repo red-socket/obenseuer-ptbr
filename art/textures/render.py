@@ -694,6 +694,13 @@ def render(name, spec, save=True):
     cov = np.zeros(rgb.shape[:2])
     for t in spec["text"]:
         a = pixel_layer(im.size, t, name) if t.get("pixel") else circle_layer(im.size, t) if t.get("circle") else sideways_layer(im.size, t) if t.get("sideways") else text_layer(im.size, t)
+        if t.get("quad"):   # [tl, tr, br, bl]: the box warped onto these corners (text on a cover seen at an angle)
+            bx0, by0, bx1, by1 = t["box"]
+            m = cv2.getPerspectiveTransform(np.float32([[bx0, by0], [bx1, by0], [bx1, by1], [bx0, by1]]), np.float32(t["quad"]))
+            a = cv2.warpPerspective(a.astype(np.float32), m, (a.shape[1], a.shape[0]), flags=cv2.INTER_LINEAR).astype(float)
+            if t.get("quad_crisp"):   # [lo, hi]: re-sharpen after the warp (hard-edged originals)
+                lo, hi = t["quad_crisp"]
+                a = np.clip((a - lo) / (hi - lo), 0, 1)
         if t.get("behind_dark"):   # stay behind dark objects in the original (a chair drawn over the text)
             a = a * (orig.max(axis=2) > t["behind_dark"])
         if t.get("under"):   # stay under reddish artwork (e.g. hatching drawn over a street name): r - g above this

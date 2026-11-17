@@ -2531,13 +2531,16 @@ SPECS = {
 
 
 
+
+
+
     # ---- Batch 19: tier 2 posters, flyers and brochure stands ----
     "Decal_002_poster_keep_your_money_safe": {
         "en": "KEEP YOUR / MONEY SAFE (bank poster)",
-        "note": "\"Guarde seu / dinheiro seguro\", soft serif capitals like the original.",
+        "note": "\"Proteja seu / dinheiro\" (the usual bank slogan), soft serif capitals like the original.",
         "erase": [{"rect": [22, 94, 106, 122], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 2, "lama": True}],
-        "text": [{"box": [30, 97, 99, 105], "font": "serif-bold", "text": "GUARDE SEU", "stretch": True, "color": "#f8f6f5", "halo": [1.0, "#201814", 0.5, 1, 1]},
-                 {"box": [25, 111, 103, 119], "font": "serif-bold", "text": "DINHEIRO SEGURO", "stretch": True, "color": "#f8f6f5", "halo": [1.0, "#201814", 0.5, 1, 1]}],
+        "text": [{"box": [29, 97, 100, 105], "font": "serif-bold", "text": "PROTEJA SEU", "stretch": True, "color": "#f8f6f5", "halo": [1.0, "#201814", 0.5, 1, 1]},
+                 {"box": [33, 111, 96, 119], "font": "serif-bold", "text": "DINHEIRO", "stretch": True, "color": "#f8f6f5", "halo": [1.0, "#201814", 0.5, 1, 1]}],
     },
     "Decal_002_poster_corruption": {
         "en": "YOU CAN STOP CORRUPTION (poster; the background is the words CORRUPTION STOP repeated)",
@@ -2587,13 +2590,13 @@ SPECS = {
     },
     "Decal_002_poster_feeble_screams": {
         "en": "FEEBLE / SCREAMS / FROM / FACTORIES / UNKNOWN (faint album poster)",
-        "note": "\"Gritos / fracos / de / fábricas / desconhecidas\", faint grey serif capitals like the original.",
+        "note": "\"Gritos / fracos / de / fábricas / desconhecidas\", faint, soft grey serif capitals, about as hard to read as the original.",
         "erase": [{"rect": [36, 13, 98, 53], "mode": "light", "thresh": 20, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 3]}],
-        "text": [{"box": [52, 15, 82, 21], "font": "serif-bold", "text": "GRITOS", "stretch": True, "color": "#8a8c8a", "ink_texture": 0.6, "mottle": 8},
-                 {"box": [44, 23, 90, 29], "font": "serif-bold", "text": "FRACOS", "stretch": True, "color": "#8a8c8a", "ink_texture": 0.6, "mottle": 8},
-                 {"box": [63, 30, 73, 34], "font": "serif-bold", "text": "DE", "stretch": True, "color": "#8a8c8a", "ink_texture": 0.6, "mottle": 8},
-                 {"box": [41, 35, 94, 43], "font": "serif-bold", "text": "FÁBRICAS", "stretch": True, "color": "#8a8c8a", "ink_texture": 0.6, "mottle": 8},
-                 {"box": [40, 45, 95, 51], "font": "serif-bold", "text": "DESCONHECIDAS", "stretch": True, "color": "#8a8c8a", "ink_texture": 0.6, "mottle": 8}],
+        "text": [{"box": [52, 15, 82, 21], "font": "serif-bold", "text": "GRITOS", "stretch": True, "color": "#808280", "ink_texture": 1.0, "mottle": 12, "soften": 0.6},
+                 {"box": [44, 23, 90, 29], "font": "serif-bold", "text": "FRACOS", "stretch": True, "color": "#808280", "ink_texture": 1.0, "mottle": 12, "soften": 0.6},
+                 {"box": [63, 30, 73, 34], "font": "serif-bold", "text": "DE", "stretch": True, "color": "#808280", "ink_texture": 1.0, "mottle": 12, "soften": 0.6},
+                 {"box": [41, 35, 94, 43], "font": "serif-bold", "text": "FÁBRICAS", "stretch": True, "color": "#808280", "ink_texture": 1.0, "mottle": 12, "soften": 0.6},
+                 {"box": [40, 45, 95, 51], "font": "serif-bold", "text": "DESCONHECIDAS", "stretch": True, "color": "#808280", "ink_texture": 1.0, "mottle": 12, "soften": 0.6}],
     },
     "Decal_002_skin21": {
         "en": "CATS ARE AWESOME / BUT SO IS THIS BOOK / WHY DO WE LOVE CATS (book poster)",
@@ -2607,12 +2610,12 @@ SPECS = {
     },
     "Decal_002_skin23": {
         "en": "HISTORY HAS NEVER BEEN / THIS METAL / THE ROCK BOOK (book poster)",
-        "note": "\"A história nunca foi / tão metal\", the book \"Livro do rock\" (small line, then ROCK big like BOOK; no article, so the small line stays readable). Soft letters like the original; the author's name stays.",
+        "note": "\"A história nunca foi / tão metal\", the book \"Livro do rock\" (small line, then ROCK big like BOOK; no article, so the small line stays readable), slanted with the cover. Soft letters like the original; the author's name stays.",
         "erase": [{"rect": [24, 1, 104, 9], "mode": "color", "thresh": 80, "k": 7, "grain": 0, "bg": "#1c1000", "grow": 1, "isolate": True, "scatter": [10, 3]}, {"rect": [38, 8, 88, 18], "mode": "color", "thresh": 80, "k": 7, "grain": 0, "bg": "#1c1000", "grow": 1, "isolate": True, "scatter": [10, 3]}, {"rect": [36, 35, 65, 65], "mode": "bright", "thresh": 170, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 4], "sample_min": 0, "exclude_dark": 60}],
         "text": [{"box": [27, 3, 100, 8], "font": "sans-bold", "text": "A HISTÓRIA NUNCA FOI", "stretch": True, "color": "#e2e1e1"},
                  {"box": [44, 9, 83, 17], "font": "sans-bold", "text": "TÃO METAL", "stretch": True, "color": "#e20200"},
-                 {"box": [36, 37, 62, 46], "font": "oswald-bold", "text": "LIVRO DO", "stretch": True, "color": "#ffffff"},
-                 {"box": [36, 48, 62, 64], "font": "oswald-bold", "text": "ROCK", "stretch": True, "color": "#ffffff"}],
+                 {"box": [36, 37, 64, 46], "font": "oswald-bold", "text": "LIVRO DO", "stretch": True, "quad_crisp": [0.25, 0.6], "quad": [[36, 40], [64, 36], [64, 45], [36, 48]], "color": "#ffffff"},
+                 {"box": [36, 48, 64, 64], "font": "oswald-bold", "text": "ROCK", "stretch": True, "quad_crisp": [0.25, 0.6], "quad": [[36, 49], [64, 46], [64, 61], [36, 64]], "color": "#ffffff"}],
     },
     "Decal_002_skin22": {
         "en": "LEAVE THE GUN / TAKE THE BOOK / HATS GUNS & CANNOLI (book poster, a Godfather joke)",
