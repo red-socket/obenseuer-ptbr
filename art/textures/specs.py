@@ -2240,6 +2240,131 @@ SPECS = {
         "erase": [{"rect": [3, 44, 61, 53], "mode": "dark", "thresh": 25, "k": 9, "grain": 0, "grow": 1, "scatter": [30, 8], "sample_min": 50}],
         "text": [{"pixel": "bio", "box": [3, 45, 61, 51], "baselines": [51], "text": "INFECTANTE", "gap": 2, "color": "#1f1805"}],
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    # ---- Batch 17: tier 2 posters (way up, missing dog, Stalburg Steel, poison, internet, contract work, The Engineer, Osmo Olut) ----
+    "Decal_002_poster_way_up": {
+        "en": "THINK POSITIVELY / WHEN YOU ARE AT THE BOTTOM / THE ONLY WAY IS UP! (pixel poster)",
+        "note": "\"Pense positivo / Quando se está no fundo, o único caminho é subir!\" in the poster's own pixel capitals; SUBIR! in the big 2-px letters of UP!.",
+        "erase": [{"rect": [28, 5, 100, 14], "mode": "light", "thresh": 40, "k": 5, "grain": 0, "isolate": True, "scatter": [8, 2], "exclude_dark": 45}, {"rect": [34, 36, 90, 97], "mode": "light", "thresh": 40, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 3], "exclude_dark": 45}],
+        "text": [{"pixel": "wayup", "box": [28, 6, 101, 12], "baselines": [12], "text": "PENSE POSITIVO", "gap": 1, "space": 3, "color": "#e9e8e8"},
+                 {"pixel": "wayup", "box": [30, 36, 93, 44], "baselines": [44, 53, 62], "text": "QUANDO SE\nESTÁ NO\nFUNDO,", "gap": 1, "space": 3, "color": "#e9e8e8"},
+                 {"pixel": "wayup", "box": [30, 64, 93, 82], "baselines": [73, 82], "text": "O ÚNICO\nCAMINHO É", "gap": 1, "space": 3, "color": "#e9e8e8"},
+                 {"pixel": "wayup-big", "box": [30, 85, 93, 95], "baselines": [95], "text": "SUBIR!", "gap": 2, "space": 3, "color": "#e9e8e8"}],
+    },
+    "Decal_002_poster_miner": {
+        "en": "THINK POSITIVELY / WHEN YOU ARE AT THE BOTTOM + graffiti PICKAXES OUT, WE'RE GOING DEEPER (pixel poster)",
+        "note": "Same top lines as the way-up poster (\"Quando se está no fundo,\"); the scrawl says \"Picaretas na mão, vamos mais fundo\", FUNDO in red like DEEPER, in a scrawl drawn after the original's.",
+        "erase": [{"rect": [28, 5, 100, 14], "mode": "light", "thresh": 40, "k": 5, "grain": 0, "isolate": True, "scatter": [8, 2], "exclude_dark": 45}, {"rect": [34, 36, 90, 64], "mode": "light", "thresh": 40, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 3], "exclude_dark": 45}, {"rect": [40, 68, 77, 98], "mode": "near", "thresh": 60, "k": 7, "grain": 0, "bg": "#000000", "grow": 0, "isolate": True, "scatter": [6, 3], "sample_min": 30}, {"rect": [77, 68, 92, 100], "mode": "near", "thresh": 60, "k": 7, "grain": 0, "bg": "#000000", "grow": 0, "isolate": True, "scatter": [4, 3]}, {"rect": [40, 89, 77, 98], "mode": "near", "thresh": 90, "k": 7, "grain": 0, "bg": "#7f0000", "grow": 0, "isolate": True, "scatter": [6, 3], "sample_min": 30}, {"rect": [64, 96, 80, 100], "mode": "near", "thresh": 90, "k": 7, "grain": 0, "bg": "#7f0000", "grow": 0, "isolate": True, "scatter": [4, 2]}],
+        "text": [{"pixel": "wayup", "box": [28, 6, 101, 12], "baselines": [12], "text": "PENSE POSITIVO", "gap": 1, "space": 3, "color": "#e9e8e8"},
+                 {"pixel": "wayup", "box": [30, 36, 93, 44], "baselines": [44, 53, 62], "text": "QUANDO SE\nESTÁ NO\nFUNDO,", "gap": 1, "space": 3, "color": "#e9e8e8"},
+                 {"pixel": "scrawl", "box": [44, 68, 81, 74], "baselines": [73], "text": "PICARETAS", "gap": 1, "color": "#000000"},
+                 {"pixel": "scrawl", "box": [44, 76, 70, 82], "baselines": [81], "text": "NA MÃO,", "gap": 1, "space": 3, "color": "#000000"},
+                 {"pixel": "scrawl", "box": [40, 83, 81, 89], "baselines": [88], "text": "VAMOS MAIS", "gap": 1, "space": 3, "color": "#000000"},
+                 {"pixel": "wayup", "box": [42, 89, 74, 97], "baselines": [96], "text": "FUNDO", "gap": 1, "color": "#7f0000"}],
+    },
+    "Decal_002_poster_way_up_2": {
+        "en": "THINK POSITIVELY / WHEN YOU ARE AT / THE BOTTOM / THE ONLY WAY IS / UP! (poster with a face)",
+        "note": "Same words as the pixel version: \"Pense positivo / quando se está no / fundo, / o único caminho é / subir!\".",
+        "erase": [{"rect": [66, 75, 190, 122], "mode": "color", "thresh": -1, "k": 7, "grain": 2, "grow": 0, "radius": 6}, {"rect": [70, 132, 188, 167], "mode": "color", "thresh": -1, "k": 7, "grain": 2, "grow": 0, "radius": 6}],
+        "text": [{"box": [62, 78, 196, 90], "font": "sans-bold", "text": "PENSE POSITIVO", "baseline": 89, "size": 13, "color": "#dcdad6", "shadow": [1, 1, "#5e5b45"], "halo": [1.6, "#2a281c", 1.1, 1, 1], "squeeze": 0.92},
+                 {"box": [62, 92, 196, 104], "font": "sans-bold", "text": "QUANDO SE ESTÁ NO", "baseline": 103, "size": 13, "color": "#dcdad6", "shadow": [1, 1, "#5e5b45"], "halo": [1.6, "#2a281c", 1.1, 1, 1], "squeeze": 0.92},
+                 {"box": [62, 107, 196, 119], "font": "sans-bold", "text": "FUNDO,", "baseline": 118, "size": 13, "color": "#dcdad6", "shadow": [1, 1, "#5e5b45"], "halo": [1.6, "#2a281c", 1.1, 1, 1], "squeeze": 0.92},
+                 {"box": [62, 135, 196, 147], "font": "sans-bold", "text": "O ÚNICO CAMINHO É", "baseline": 146, "size": 13, "color": "#dcdad6", "shadow": [1, 1, "#5e5b45"], "halo": [1.6, "#2a281c", 1.1, 1, 1], "squeeze": 0.92},
+                 {"box": [62, 152, 196, 164], "font": "sans-bold", "text": "SUBIR!", "baseline": 163, "size": 13, "color": "#dcdad6", "shadow": [1, 1, "#5e5b45"], "halo": [1.6, "#2a281c", 1.1, 1, 1], "squeeze": 0.92}],
+    },
+    "Decal_002_missing": {
+        "en": "MISSING / MY DOG? / ... / CALL:035435435 (worn flyer; the small print is unreadable)",
+        "note": "\"Perdido / meu cão? / ligue:035435435\"; the blurred body lines stay. Worn red letters like the original's.",
+        "erase": [{"rect": [14, 2, 82, 15], "mode": "color", "thresh": 40, "k": 7, "grain": 0, "only_red": 20, "grow": 1, "isolate": True, "scatter": [6, 3]}, {"rect": [30, 15, 72, 21], "mode": "dark", "thresh": 20, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 2]}, {"rect": [12, 89, 80, 96], "mode": "color", "thresh": 40, "k": 7, "grain": 0, "only_red": 20, "grow": 1, "isolate": True, "scatter": [6, 2]}],
+        "text": [{"box": [19, 3, 68, 14], "font": "barlow-cond-semibold", "text": "PERDIDO", "stretch": True, "crisp": 0.4, "speckle": [0.35, 0.8], "color": "#985c55"},
+                 {"pixel": "call", "box": [30, 15, 70, 20], "baselines": [20], "text": "MEU CÃO?", "gap": 1, "space": 3, "speckle": [0.4, 0.6], "color": "#45453b"},
+                 {"pixel": "call", "box": [12, 90, 78, 94], "baselines": [94], "text": "LIGUE:035435435", "gap": 1, "speckle": [0.25, 0.6], "color": "#99645b"}],
+    },
+    "Decal_002_stalburg_steel": {
+        "en": "STALBURG / STEEL (logo; STEEL is half hidden) / STRUCTURING THE FUTURE (poster)",
+        "note": "Stalburg (name) stays; \"Aço\" for STEEL, as cut off as the original; \"Estruturando o futuro\" in the poster's 3x5 capitals over the same stripes.",
+        "erase": [{"rect": [16, 80, 80, 95], "mode": "near", "thresh": 70, "k": 7, "grain": 0, "bg": "#bbb5a5", "grow": 0, "isolate": True, "scatter": [0, 7]}, {"rect": [34, 70, 64, 74], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "bg": "#000000", "grow": 0, "isolate": True, "scatter": [3, 2]}],
+        "text": [{"pixel": "call", "box": [22, 81, 76, 85], "baselines": [85], "text": "ESTRUTURANDO", "gap": 1, "color": "#bbb5a5"},
+                 {"pixel": "call", "box": [22, 89, 76, 93], "baselines": [93], "text": "O FUTURO", "gap": 1, "space": 3, "color": "#bbb5a5"},
+                 {"pixel": "call", "box": [34, 71, 64, 75], "baselines": [75], "text": "AÇO", "gap": 1, "clip": [34, 71, 64, 73], "color": "#8c2c1c"}],
+    },
+    "Decal_002_poison_mind": {
+        "en": "THEY / POISON / YOUR / MIND (poster with two figures)",
+        "note": "\"Eles envenenam sua mente\", as the poster item is called in the game text; same layout and grey grunge letters.",
+        "erase": [{"rect": [80, 3, 216, 45], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 2, "lama": True}, {"rect": [108, 45, 218, 69], "mode": "bright", "thresh": 120, "k": 7, "grain": 0, "grow": 2, "lama": True}, {"rect": [54, 152, 200, 196], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 2, "lama": True}, {"rect": [40, 195, 218, 252], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 2, "lama": True}],
+        "text": [{"box": [85, 7, 210, 42], "font": "sans-bold", "text": "ELES", "stretch": True, "color": "#c5c4c3", "ink_texture": 0.8, "mottle": 6},
+                 {"box": [113, 47, 211, 66], "font": "sans-bold", "text": "ENVENENAM", "stretch": True, "color": "#c5c4c3", "ink_texture": 0.8, "mottle": 6},
+                 {"box": [76, 156, 178, 193], "font": "sans-bold", "text": "SUA", "stretch": True, "color": "#c5c4c3", "ink_texture": 0.8, "mottle": 6},
+                 {"box": [43, 199, 213, 249], "font": "sans-bold", "text": "MENTE", "stretch": True, "color": "#c5c4c3", "ink_texture": 0.8, "mottle": 6}],
+    },
+    "decal_002_internets": {
+        "en": "INTERNET = FREEDOM / Interne.ts (poster with a globe)",
+        "note": "\"Internet = liberdade\"; Interne.ts (brand) stays. Slightly narrower capitals so LIBERDADE fits the same line.",
+        "erase": [{"rect": [21, 1, 106, 9], "mode": "color", "thresh": 45, "k": 7, "grain": 0, "bg": "#d5d8d5", "grow": 0, "isolate": True, "scatter": [8, 2]}],
+        "text": [{"pixel": "call", "box": [20, 3, 108, 7], "baselines": [7], "text": "INTERNET = LIBERDADE", "gap": 1, "space": 3, "color": "#305493"}],
+    },
+    "brochure_stand_001_contract_work": {
+        "en": "BLUEPRINTS & BLUEPRINTS / EVERYTHING OK? / We'll fix it! (three brochures on a stand)",
+        "note": "\"Projetos & projetos\", \"Tudo certo?\", \"A gente faz já!\" (we'll do it right away), short lines like We'll / fix / it! so the woman stays clear; the tiny print blocks stay.",
+        "erase": [{"rect": [4, 5, 42, 9], "mode": "light", "thresh": 40, "k": 5, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 2]}, {"rect": [4, 19, 42, 23], "mode": "light", "thresh": 40, "k": 5, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 2]}, {"rect": [45, 3, 83, 9], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 1, "lama": True}, {"rect": [86, 1, 117, 15], "mode": "bright", "thresh": 215, "k": 7, "grain": 0, "grow": 1, "lama": True}, {"rect": [86, 15, 108, 40], "mode": "bright", "thresh": 215, "k": 7, "grain": 0, "grow": 1, "lama": True}],
+        "text": [{"box": [6, 5, 40, 9], "font": "sans-bold", "text": "PROJETOS", "stretch": True, "crisp": 0.4, "color": "#f4f6f9"},
+                 {"box": [6, 19, 40, 23], "font": "sans-bold", "text": "PROJETOS", "stretch": True, "crisp": 0.4, "color": "#f4f6f9"},
+                 {"box": [47, 4, 81, 8], "font": "sans-bold", "text": "TUDO CERTO?", "stretch": True, "crisp": 0.4, "color": "#f3eee7"},
+                 {"box": [88, 2, 116, 14], "font": "roboto-cond-bold", "text": "A gente", "baseline": 13, "color": "#ffffff", "align": "left", "size": 13},
+                 {"box": [88, 16, 116, 28], "font": "roboto-cond-bold", "text": "faz", "baseline": 28, "color": "#ffffff", "align": "left", "size": 13},
+                 {"box": [88, 29, 116, 41], "font": "roboto-cond-bold", "text": "já!", "baseline": 38, "color": "#ffffff", "align": "left", "size": 13}],
+    },
+    "Decal_002_the_engineer": {
+        "en": "THE ENGINEER / Solves your problems. No bullshit. / JANUARY 15 (film poster)",
+        "note": "\"O Engenheiro\" as the film is called in the game text (DVD, poster item); \"Resolve problemas. Sem frescura.\"; \"15 de janeiro\". The credits are unreadable and stay.",
+        "erase": [{"rect": [32, 85, 40, 98], "mode": "bright", "thresh": 120, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [3, 6]}, {"rect": [40, 85, 102, 99], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 3]}, {"rect": [26, 100, 104, 106], "mode": "color", "thresh": 90, "k": 7, "grain": 0, "bg": "#000000", "only_red": 40, "grow": 1, "isolate": True, "scatter": [8, 2]}, {"rect": [48, 118, 78, 124], "mode": "color", "thresh": 90, "k": 7, "grain": 0, "bg": "#000000", "only_red": 40, "grow": 1, "isolate": True, "scatter": [8, 2]}],
+        "text": [{"pixel": "call", "box": [34, 91, 40, 95], "baselines": [95], "text": "O", "color": "#c8c8c0"},
+                 {"box": [42, 87, 100, 97], "font": "oswald-semi", "text": "ENGENHEIRO", "stretch": True, "crisp": 0.4, "tracking": 0.12, "color": "#efefe7"},
+                 {"box": [29, 101, 101, 105], "font": "sans-bold", "text": "Resolve problemas. Sem frescura.", "stretch": True, "crisp": 0.4, "color": "#ce4100"},
+                 {"box": [46, 119, 80, 123], "font": "sans-bold", "text": "15 DE JANEIRO", "stretch": True, "crisp": 0.4, "color": "#a50000"}],
+    },
+    "Decal_002_the_engineer_autographed": {
+        "en": "THE ENGINEER / Solves your problems. No bullshit. / JANUARY 15 (film poster, signed)",
+        "note": "\"O Engenheiro\" as the film is called in the game text (DVD, poster item); \"Resolve problemas. Sem frescura.\"; \"15 de janeiro\". The credits are unreadable and stay. The autograph stays.",
+        "erase": [{"rect": [32, 85, 40, 98], "mode": "bright", "thresh": 120, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [3, 6]}, {"rect": [40, 85, 102, 99], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 3]}, {"rect": [26, 100, 104, 106], "mode": "color", "thresh": 90, "k": 7, "grain": 0, "bg": "#000000", "only_red": 40, "grow": 1, "isolate": True, "scatter": [8, 2]}, {"rect": [48, 118, 78, 124], "mode": "color", "thresh": 90, "k": 7, "grain": 0, "bg": "#000000", "only_red": 40, "grow": 1, "isolate": True, "scatter": [8, 2]}],
+        "text": [{"pixel": "call", "box": [34, 91, 40, 95], "baselines": [95], "text": "O", "color": "#c8c8c0"},
+                 {"box": [42, 87, 100, 97], "font": "oswald-semi", "text": "ENGENHEIRO", "stretch": True, "crisp": 0.4, "tracking": 0.12, "color": "#efefe7"},
+                 {"box": [29, 101, 101, 105], "font": "sans-bold", "text": "Resolve problemas. Sem frescura.", "stretch": True, "crisp": 0.4, "color": "#ce4100"},
+                 {"box": [46, 119, 80, 123], "font": "sans-bold", "text": "15 DE JANEIRO", "stretch": True, "crisp": 0.4, "color": "#a50000"}],
+    },
+    "Decal_002_osmo_olut": {
+        "en": "OSMO OLUT / The World's Strongest Beer / YOU KNOW WHAT YOU NEED (beer poster)",
+        "note": "Osmo Olut (brand) stays; the same wording as the shipped Osmo Olut sign: \"A cerveja mais forte do mundo\", \"Você sabe do que precisa\". Both lines are only 3-4 px tall, as on the original.",
+        "erase": [{"rect": [32, 11, 96, 16], "mode": "light", "thresh": 25, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 2]}, {"rect": [18, 119, 112, 126], "mode": "light", "thresh": 25, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 2]}],
+        "text": [{"box": [35, 12, 93, 15], "font": "serif", "text": "A cerveja mais forte do mundo", "stretch": True, "crisp": 0.25, "color": "#b0b4b0"},
+                 {"box": [21, 120, 109, 125], "font": "serif", "text": "VOCÊ SABE DO QUE PRECISA", "stretch": True, "crisp": 0.25, "tracking": 0.15, "color": "#a8a8a5"}],
+    },
 }
 
 # Review batches: each is checked by the user, texture by texture, against the original.
@@ -2282,6 +2407,7 @@ BATCHES = {
     "14": ["Market_sign_alcohol_001", "Market_sign_drinks_001", "Market_sign_001_skin2", "Market_sign_001_skin2_e", "Market_sign_001_skin3", "Market_sign_001_skin6", "sign_006_exit", "sign_006_jams", "sign_006_plants", "sign_006_oreloader", "sign_009_drinks", "sign_010_bus", "Decal_002_grill", "Decal_002_skin13", "street_sign_001_power_company", "Decal_003_os_power_company", "Decal_003_rob_in"],
     "15": ["Decal_003_graffiti_alcohol", "Decal_003_graffiti_welcome_open_sewer", "Decal_002_graffiti_5_0", "painting_004_skin13", "Door_004_sign_crazy_neighbor", "Decal_002_security", "Decal_002_skin30", "scratchcard_cabinet_001", "telephone_booth_001", "icecream_freezer_001", "plastic_chair_001_sign", "Decal_002_beauty_salon", "bottle_recycling_machine_001", "bottle_recycling_machine_001_e"],
     "16": ["vending_machine_003_moca_cola", "vending_machine_003_moca_cola_e", "bus_001_linescreen", "vending_machine_display_007", "vending_machine_display_007_e", "vending_machine_display_generic", "tv_004_screen_on_elström", "shroom_extract_machine_001", "newspaper_stand_001", "Sign Biohazard"],
+    "17": ["Decal_002_poster_way_up", "Decal_002_poster_miner", "Decal_002_poster_way_up_2", "Decal_002_missing", "Decal_002_stalburg_steel", "Decal_002_poison_mind", "decal_002_internets", "brochure_stand_001_contract_work", "Decal_002_the_engineer", "Decal_002_the_engineer_autographed", "Decal_002_osmo_olut"],
 }
 
 NUMBERS = {}

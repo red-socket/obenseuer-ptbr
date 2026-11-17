@@ -686,6 +686,11 @@ def render(name, spec, save=True):
                 a[max(0, -dy):a.shape[0] - max(0, dy), max(0, -dx):a.shape[1] - max(0, dx)]
             sh = sh * (1 - a)
             out = out * (1 - sh[:, :, None]) + np.array(hexrgb(sc), float) * sh[:, :, None]
+        if t.get("halo"):   # [blur, colour, strength, dx, dy]: a soft dark glow under the letters (print drop shadow)
+            hb, hc, hs, hdx, hdy = t["halo"]
+            hm = np.roll(np.roll(a, hdy, axis=0), hdx, axis=1)
+            hm = np.clip(cv2.GaussianBlur(hm.astype(np.float32), (0, 0), hb) * hs, 0, 1) * (1 - a)
+            out = out * (1 - hm[:, :, None]) + np.array(hexrgb(hc), float) * hm[:, :, None]
         col = ink(t, a, name, rgb, orig, old)
         if t.get("ink_texture"):   # paint takes on the surface's texture: add its fine detail (pixel minus blur)
             base = rgb.astype(float)
