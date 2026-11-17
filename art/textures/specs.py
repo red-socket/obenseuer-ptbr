@@ -3246,12 +3246,13 @@ SPECS = {
     },
 
 
+
     # ---- Batch 25: Dr. Pena's sign and the spray-painted contract work sign ----
     "sign_drpena_001": {
         "en": "DR. PENA MD + / MEDICAL EXPERT (Dr. Pena's sign; the letters are cut out of the alpha)",
         "note": "Dr. Pena MD stays (the game keeps the name); MEDICAL EXPERT is MÉDICO ESPECIALISTA in chunky brush capitals like the original, white and hard-edged.",
         "cutout": True,
-        "erase": [{"rect": [0, 40, 256, 64], "color": "#ffffff"}],
+        "erase": [{"rect": [0, 40, 256, 64], "color": "#808080"}],
         "alpha": {"erase": [{"rect": [0, 40, 256, 64], "color": "#000000"}]},
         "text": [{"box": [12, 41, 244, 61], "font": "gochi", "text": "MÉDICO ESPECIALISTA", "stretch": True, "crisp": 0.5, "color": "#ffffff", "ink_texture": 0.35, "mottle": 12, "alpha": 255}],
     },
@@ -3259,7 +3260,7 @@ SPECS = {
         "en": "TENEMENT CONTRACT WORK -> (spray-painted, below Dr. Pena's sign; the game tints it yellow)",
         "note": "\"Empreiteira / de / prédios\" (the game's name for the business, as on the shipped contract-work sign) in a thin spray scrawl like the original: big EMPREITEIRA, DE over PRÉDIOS; the arrow stays.",
         "cutout": True,
-        "erase": [{"rect": [0, 106, 217, 156], "color": "#c6c7c6"}],
+        "erase": [{"rect": [0, 106, 217, 156], "color": "#ffffff"}, {"rect": [217, 108, 235, 130], "color": "#ffffff"}, {"rect": [217, 130, 225, 137], "color": "#ffffff"}],
         "alpha": {"erase": [{"rect": [0, 106, 217, 156], "color": "#000000"}, {"rect": [217, 108, 235, 130], "color": "#000000"}, {"rect": [217, 130, 225, 137], "color": "#000000"}]},
         "text": [{"box": [6, 117, 140, 147], "font": "reenie", "text": "EMPREITEIRA", "stretch": True, "stroke": 0.4, "color": "#c6c7c6", "alpha": 255},
                  {"box": [166, 111, 192, 125], "font": "reenie", "text": "DE", "stretch": True, "stroke": 0.4, "color": "#c6c7c6", "alpha": 255},
