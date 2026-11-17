@@ -2873,6 +2873,7 @@ SPECS = {
 
 
 
+
     # ---- Batch 21: tier 3 magazines and books ----
     "magazine_001": {
         "en": "OPEN SEWER (magazine cover)",
@@ -2895,7 +2896,7 @@ SPECS = {
         "note": "Not Casa (user): a name for a magazine about the home. LAR (home, as in lar doce lar) in HOUSE's own 4-wide capitals, left-aligned like HOUSE (user: less wide); REFORMA (renovation, the DIY reading) is on the page as the other option.",
         "erase": [{"rect": [32, 1, 61, 8], "mode": "dark", "thresh": 60, "k": 5, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}],
         "text": [{"pixel": "mag-house", "box": [33, 2, 61, 7], "baselines": [6], "text": "LAR", "align": "left", "gap": 1, "ink": "letters"}],
-        "alts": {"REFORMA": {"text": "REFORMA", "box": [32, 2, 61, 7], "stretch": False}},
+        "alts": {"REFORMA": {"text": "REFORMA", "pixel": "mag", "box": [32, 2, 61, 7], "align": "center"}},
     },
     "magazine_001_skin1": {
         "en": "STALBURG WOMEN (magazine cover; STAL plus small lines, then WOMEN behind the model's hair)",
