@@ -2874,6 +2874,10 @@ SPECS = {
 
 
 
+
+
+
+
     # ---- Batch 21: tier 3 magazines and books ----
     "magazine_001": {
         "en": "OPEN SEWER (magazine cover)",
@@ -2992,43 +2996,20 @@ SPECS = {
     },
     "bookset_b": {
         "en": "Book covers on the police station shelf (the sheet is stored upside down): PLAN F, ALL YOU NEED / TO KNOW / ABOUT / STALBURG, THE LEGEND OF THE / STALBURG / UNDERGROUND, CHEMISTRY, THE TUNNEL OF / WATER TREES",
-        "note": "Only the clearly readable titles (user): \"Plano F\", \"Tudo o que / precisa saber / sobre / Stalburg\", \"A lenda da / Stalburg / subterrânea\", \"Química\", \"O túnel das / árvores d'água\". Stalburg and the authors stay; the blurred titles (The Office Survival Guide, 6 Summer Nights, The Pineapple, Lost in Mountains), the spines and the blurbs stay as they are. Coordinates are on the sheet turned the right way up.",
+        "note": "Only the clearly readable titles (user): \"Plano F\", \"Tudo o que / precisa saber / sobre / Stalburg\", \"A lenda do / Submundo / de Stalburg\" (the game's name for the Stalburg Underground cult, user), \"Química\", \"O túnel das / árvores d'água\". Stalburg and the authors stay; the blurred titles (The Office Survival Guide, 6 Summer Nights, The Pineapple, Lost in Mountains), the spines and the blurbs stay as they are. Coordinates are on the sheet turned the right way up.",
         "rot180": True,
-        "erase": [{"rect": [40, 118, 66, 127], "mode": "color", "thresh": 45, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}, {"rect": [39, 209, 70, 227], "mode": "color", "thresh": 45, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}, {"rect": [40, 162, 71, 166], "mode": "color", "thresh": 40, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [16, 0]}, {"rect": [40, 172, 71, 177], "mode": "color", "thresh": 40, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [16, 0]}, {"rect": [110, 210, 145, 216], "color": "#020202"}, {"rect": [181, 209, 216, 222], "mode": "color", "thresh": 40, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [14, 1]}],
+        "erase": [{"rect": [40, 118, 66, 127], "mode": "color", "thresh": 45, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}, {"rect": [39, 209, 70, 227], "mode": "color", "thresh": 45, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}, {"rect": [40, 162, 71, 166], "mode": "color", "thresh": 40, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [16, 0]}, {"rect": [40, 166, 71, 172], "mode": "color", "thresh": 40, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [16, 0]}, {"rect": [40, 172, 71, 177], "mode": "color", "thresh": 40, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [16, 0]}, {"rect": [110, 210, 145, 216], "color": "#020202"}, {"rect": [181, 209, 216, 222], "mode": "color", "thresh": 40, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [14, 1]}],
         "text": [{"box": [41, 120, 66, 125], "font": "sans-bold", "text": "PLANO", "stretch": True, "color": "#c0b256"},
                  {"box": [39, 210, 70, 214], "font": "sans-bold", "text": "TUDO O QUE", "stretch": True, "color": "#b88a44"},
                  {"box": [40, 216, 69, 220], "font": "sans-bold", "text": "PRECISA SABER", "stretch": True, "color": "#b88a44"},
                  {"box": [45, 222, 57, 226], "font": "sans-bold", "text": "SOBRE", "stretch": True, "color": "#b88a44"},
-                 {"box": [40, 163, 71, 166], "font": "serif-bold", "text": "A LENDA DA", "stretch": True, "color": "#94823f"},
-                 {"box": [41, 172, 70, 177], "font": "serif-bold", "text": "SUBTERRÂNEA", "stretch": True, "color": "#94823f"},
+                 {"box": [40, 163, 71, 166], "font": "serif-bold", "text": "A LENDA DO", "stretch": True, "color": "#94823f"},
+                 {"box": [41, 167, 70, 172], "font": "serif-bold", "text": "SUBMUNDO", "stretch": True, "color": "#8f7a3c"},
+                 {"box": [41, 173, 70, 177], "font": "serif-bold", "text": "DE STALBURG", "stretch": True, "color": "#94823f"},
                  {"box": [115, 209, 141, 215], "font": "sans", "text": "QUÍMICA", "stretch": True, "color": "#c4ccc4"},
                  {"box": [184, 209, 215, 214], "font": "serif", "text": "O TÚNEL DAS", "stretch": True, "color": "#949f9f"},
                  {"box": [182, 215, 216, 221], "font": "serif", "text": "ÁRVORES D'ÁGUA", "stretch": True, "color": "#949f9f"}],
     },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     # ---- Batch 22: tier 4 packaging and labels (first half) ----
     "pill_packet_001_facemasks": {
         "en": "MIASMAFIL / 8PCS (face mask packet; the text runs down the packet)",
@@ -3138,26 +3119,6 @@ SPECS = {
                  {"box": [20, 222, 38, 226], "font": "patua", "text": "TINTA", "stretch": True, "color": "#26221c"}],
     },
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     # ---- Batch 23: tier 4 packaging and labels (second half) ----
     "sack_001_ammonium_nitrate": {
         "en": "AMMONIUM / NITRATE x2 (25 KG sack)",
@@ -3261,6 +3222,26 @@ SPECS = {
         "text": [{"box": [0, 0, 120, 24], "font": "oswald-bold", "text": "PERTENCES", "stretch": True, "color": "#dedede", "quad": [[49.2, 63.4], [12.4, 39.6], [16.1, 34.1], [52.9, 57.9]]},
                  {"box": [0, 0, 120, 24], "font": "oswald-bold", "text": "DO PRESO", "stretch": True, "color": "#dedede", "quad": [[50.2, 54.7], [20.1, 35.3], [23.6, 29.8], [53.7, 49.2]]}],
     },
+
+    # ---- Batch 24: leftovers ----
+    "telephone_directory_001": {
+        "en": "YELLOW PAGES (back cover) / TELEPHONE / DIRECTORY (front cover) of the phone book",
+        "note": "\"Páginas / amarelas\" as in the game text, on two lines like the front; \"Lista / telefônica\", the Brazilian name. The 2-pixel YELLOW PAGES under the front cover is unreadable and stays.",
+        "erase": [{"rect": [3, 2, 50, 7], "mode": "dark", "thresh": 15, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 1], "avoid_thresh": 30}, {"rect": [58, 2, 100, 12], "mode": "color", "thresh": 45, "k": 7, "grain": 0, "bg": "#0e2c6b", "grow": 1, "isolate": True, "scatter": [12, 0]}],
+        "text": [{"pixel": "tiny3", "box": [5, 2, 48, 5], "baselines": [5], "text": "PÁGINAS", "gap": 1, "align": "left", "color": "#443c10"},
+                 {"pixel": "tiny3", "box": [5, 8, 48, 10], "baselines": [10], "text": "AMARELAS", "gap": 1, "align": "left", "color": "#443c10"},
+                 {"pixel": "tiny3", "box": [60, 3, 104, 5], "baselines": [5], "text": "LISTA", "gap": 1, "align": "left", "color": "#b6743f"},
+                 {"pixel": "tiny3", "box": [60, 7, 104, 10], "baselines": [10], "text": "TELEFÔNICA", "gap": 1, "align": "left", "color": "#b6743f"}],
+    },
+    "Decal_003_aziz": {
+        "en": "AZIZ'S / HAMBURGER & KEBAB (shop sign; the letters live in the alpha, the colour underneath is bleed)",
+        "note": "The game calls the place Kebab & Hambúrguer do Aziz: AZIZ (no 's in Portuguese) between the stars and KEBAB & HAMBÚRGUER between the green rules, in Trajan-like capitals drawn into the alpha; their colour is the texture's own (the old letters' greys, darker to the left). Stars and rules stay.",
+        "cutout": True,
+        "erase": [{"rect": [68, 99, 71, 135], "color": "#5f655f"}, {"rect": [71, 99, 74, 135], "color": "#5f655f"}, {"rect": [74, 99, 77, 135], "color": "#5f655f"}, {"rect": [77, 99, 80, 135], "color": "#606660"}, {"rect": [80, 99, 83, 135], "color": "#616761"}, {"rect": [83, 99, 86, 135], "color": "#636963"}, {"rect": [86, 99, 89, 135], "color": "#656b65"}, {"rect": [89, 99, 92, 135], "color": "#666c66"}, {"rect": [92, 99, 95, 135], "color": "#696f69"}, {"rect": [95, 99, 98, 135], "color": "#6c726c"}, {"rect": [98, 99, 101, 135], "color": "#6f756f"}, {"rect": [101, 99, 104, 135], "color": "#727872"}, {"rect": [104, 99, 107, 135], "color": "#757b75"}, {"rect": [107, 99, 110, 135], "color": "#787e78"}, {"rect": [110, 99, 113, 135], "color": "#787e78"}, {"rect": [113, 99, 116, 135], "color": "#7a807a"}, {"rect": [116, 99, 119, 135], "color": "#7a807a"}, {"rect": [119, 99, 122, 135], "color": "#7c827c"}, {"rect": [122, 99, 125, 135], "color": "#7e847e"}, {"rect": [125, 99, 128, 135], "color": "#828882"}, {"rect": [128, 99, 131, 135], "color": "#868c86"}, {"rect": [131, 99, 134, 135], "color": "#8a908a"}, {"rect": [134, 99, 137, 135], "color": "#8e948e"}, {"rect": [137, 99, 140, 135], "color": "#919791"}, {"rect": [140, 99, 143, 135], "color": "#949a94"}, {"rect": [143, 99, 146, 135], "color": "#969c96"}, {"rect": [146, 99, 149, 135], "color": "#989e98"}, {"rect": [149, 99, 152, 135], "color": "#9ba19b"}, {"rect": [152, 99, 155, 135], "color": "#9ca29c"}, {"rect": [155, 99, 158, 135], "color": "#9ca29c"}, {"rect": [158, 99, 161, 135], "color": "#9ca29c"}, {"rect": [161, 99, 164, 135], "color": "#9ca29c"}, {"rect": [164, 99, 167, 135], "color": "#9ca29c"}, {"rect": [167, 99, 170, 135], "color": "#9ba19b"}, {"rect": [170, 99, 173, 135], "color": "#9aa09a"}, {"rect": [173, 99, 176, 135], "color": "#989e98"}, {"rect": [176, 99, 179, 135], "color": "#969c96"}, {"rect": [179, 99, 182, 135], "color": "#959b95"}, {"rect": [182, 99, 185, 135], "color": "#949a94"}, {"rect": [185, 99, 188, 135], "color": "#949a94"}, {"rect": [188, 99, 189, 135], "color": "#949a94"}, {"rect": [14, 139, 17, 157], "color": "#4f554f"}, {"rect": [17, 139, 20, 157], "color": "#4f554f"}, {"rect": [20, 139, 23, 157], "color": "#4f554f"}, {"rect": [23, 139, 26, 157], "color": "#4e544e"}, {"rect": [26, 139, 29, 157], "color": "#4e544e"}, {"rect": [29, 139, 32, 157], "color": "#4d534d"}, {"rect": [32, 139, 35, 157], "color": "#4c524c"}, {"rect": [35, 139, 38, 157], "color": "#4b514b"}, {"rect": [38, 139, 41, 157], "color": "#4c524c"}, {"rect": [41, 139, 44, 157], "color": "#4c524c"}, {"rect": [44, 139, 47, 157], "color": "#4d534d"}, {"rect": [47, 139, 50, 157], "color": "#4e544e"}, {"rect": [50, 139, 53, 157], "color": "#4f554f"}, {"rect": [53, 139, 56, 157], "color": "#505650"}, {"rect": [56, 139, 59, 157], "color": "#525852"}, {"rect": [59, 139, 62, 157], "color": "#545a54"}, {"rect": [62, 139, 65, 157], "color": "#555b55"}, {"rect": [65, 139, 68, 157], "color": "#575d57"}, {"rect": [68, 139, 71, 157], "color": "#595f59"}, {"rect": [71, 139, 74, 157], "color": "#5b615b"}, {"rect": [74, 139, 77, 157], "color": "#5e645e"}, {"rect": [77, 139, 80, 157], "color": "#606660"}, {"rect": [80, 139, 83, 157], "color": "#636963"}, {"rect": [83, 139, 86, 157], "color": "#666c66"}, {"rect": [86, 139, 89, 157], "color": "#6a706a"}, {"rect": [89, 139, 92, 157], "color": "#6e746e"}, {"rect": [92, 139, 95, 157], "color": "#727872"}, {"rect": [95, 139, 98, 157], "color": "#767c76"}, {"rect": [98, 139, 101, 157], "color": "#787e78"}, {"rect": [101, 139, 104, 157], "color": "#7a807a"}, {"rect": [104, 139, 107, 157], "color": "#7c827c"}, {"rect": [107, 139, 110, 157], "color": "#7e847e"}, {"rect": [110, 139, 113, 157], "color": "#808680"}, {"rect": [113, 139, 116, 157], "color": "#838983"}, {"rect": [116, 139, 119, 157], "color": "#868c86"}, {"rect": [119, 139, 122, 157], "color": "#898f89"}, {"rect": [122, 139, 125, 157], "color": "#8c928c"}, {"rect": [125, 139, 128, 157], "color": "#8f958f"}, {"rect": [128, 139, 131, 157], "color": "#929892"}, {"rect": [131, 139, 134, 157], "color": "#949a94"}, {"rect": [134, 139, 137, 157], "color": "#979d97"}, {"rect": [137, 139, 140, 157], "color": "#999f99"}, {"rect": [140, 139, 143, 157], "color": "#9ca29c"}, {"rect": [143, 139, 146, 157], "color": "#9ba19b"}, {"rect": [146, 139, 149, 157], "color": "#9ba19b"}, {"rect": [149, 139, 152, 157], "color": "#9aa09a"}, {"rect": [152, 139, 155, 157], "color": "#999f99"}, {"rect": [155, 139, 158, 157], "color": "#989e98"}, {"rect": [158, 139, 161, 157], "color": "#969c96"}, {"rect": [161, 139, 164, 157], "color": "#949a94"}, {"rect": [164, 139, 167, 157], "color": "#919791"}, {"rect": [167, 139, 170, 157], "color": "#8f958f"}, {"rect": [170, 139, 173, 157], "color": "#8c928c"}, {"rect": [173, 139, 176, 157], "color": "#8a908a"}, {"rect": [176, 139, 179, 157], "color": "#888e88"}, {"rect": [179, 139, 182, 157], "color": "#858b85"}, {"rect": [182, 139, 185, 157], "color": "#838983"}, {"rect": [185, 139, 188, 157], "color": "#808680"}, {"rect": [188, 139, 191, 157], "color": "#7d837d"}, {"rect": [191, 139, 194, 157], "color": "#7a807a"}, {"rect": [194, 139, 197, 157], "color": "#767c76"}, {"rect": [197, 139, 200, 157], "color": "#737973"}, {"rect": [200, 139, 203, 157], "color": "#707670"}, {"rect": [203, 139, 206, 157], "color": "#6d736d"}, {"rect": [206, 139, 209, 157], "color": "#6b716b"}, {"rect": [209, 139, 212, 157], "color": "#686e68"}, {"rect": [212, 139, 215, 157], "color": "#666c66"}, {"rect": [215, 139, 218, 157], "color": "#636963"}, {"rect": [218, 139, 221, 157], "color": "#616761"}, {"rect": [221, 139, 224, 157], "color": "#5f655f"}, {"rect": [224, 139, 227, 157], "color": "#5c625c"}, {"rect": [227, 139, 230, 157], "color": "#5a605a"}, {"rect": [230, 139, 233, 157], "color": "#575d57"}, {"rect": [233, 139, 236, 157], "color": "#575d57"}, {"rect": [236, 139, 239, 157], "color": "#575d57"}],
+        "alpha": {"erase": [{"rect": [68, 99, 189, 135], "color": "#000000"}, {"rect": [14, 139, 239, 157], "color": "#000000"}]},
+        "text": [{"box": [0, 0, 256, 140], "font": "cinzel", "text": "AZIZ", "size": 42, "baseline": 132, "stroke": 1.0, "ink_from": [0, 0], "alpha": 255},
+                 {"box": [17, 139, 237, 155], "font": "cinzel", "text": "KEBAB & HAMBÚRGUER", "stretch": True, "stroke": 0.5, "ink_from": [0, 0], "alpha": 255}],
+    },
 }
 
 # Review batches: each is checked by the user, texture by texture, against the original.
@@ -3310,6 +3291,7 @@ BATCHES = {
     "21": ["magazine_001", "magazine_001_Open_Sewer_readable", "magazine_001_skin3", "magazine_001_skin1", "magazine_001_skin2", "magazine_001_skin4", "magazine_001_skin5", "magazine_001_ARG", "magazine_001_IC", "magazine_001_lifehack-pekka", "Magazine House", "Magazine Stalburg Trains", "Magazine Stalburg Women", "books_001_0", "bookset_b"],
     "22": ["pill_packet_001_facemasks", "bottle_set_001_0", "hot_dog_label", "trash_bag_001b", "trash_bag_001c", "cardboard_box_013_skin1", "bottle_011_label", "asbestos_bag_002", "asbestos_bag_001", "Bag_002_rat_baits", "postcard_001_spade_of_aces_revealed", "postcard_001_OC_pot_revealed", "Bag_002_dog_food", "paint_bucket_0"],
     "23": ["sack_001_ammonium_nitrate", "sack_001_limestone", "sack_001_gravel", "bottle_001_label_moonshine", "selection_alcohol", "bottle_002_homebrew_beer", "snus_001", "keycard_001_bazaar_jail", "organ_transport_cooler_001", "toilet_paper_16_pack", "toilet_paper_6_pack_rotta", "postcard_001_parcel", "cardboard_box_006-008_b", "trash_bag_001_prison"],
+    "24": ["telephone_directory_001", "Decal_003_aziz"],
 }
 
 NUMBERS = {}
