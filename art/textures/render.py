@@ -472,12 +472,14 @@ def render(name, spec, save=True):
         if der.get("mirror_rgb"):
             res[:, :, :3] = res[:, ::-1, :3]
         if der.get("shade"):   # a glow map that is the base texture darkened by a smooth vignette: measure the
-            # vignette on the two originals and apply it to the new base; the glow map keeps its own alpha
+            # vignette on the two originals and apply it to the new base. The alpha follows the new base when the
+            # originals' alphas are the same (a copy of the gloss), otherwise the glow map keeps its own.
             mine = np.array(Image.open(os.path.join(GAME, name + ".png")).convert("RGBA")).astype(float)
-            base = np.array(Image.open(os.path.join(GAME, der["from"] + ".png")).convert("RGB")).astype(float)
-            v = cv2.GaussianBlur((mine[:, :, :3].sum(2) + 1) / (base.sum(2) + 1), (0, 0), der["shade"])
+            base = np.array(Image.open(os.path.join(GAME, der["from"] + ".png")).convert("RGBA")).astype(float)
+            v = cv2.GaussianBlur((mine[:, :, :3].sum(2) + 1) / (base[:, :, :3].sum(2) + 1), (0, 0), der["shade"])
             res[:, :, :3] = np.clip(res[:, :, :3] * v[:, :, None] + 0.5, 0, 255).astype(np.uint8)
-            res[:, :, 3] = mine[:, :, 3].astype(np.uint8)
+            if not np.array_equal(mine[:, :, 3], base[:, :, 3]):
+                res[:, :, 3] = mine[:, :, 3].astype(np.uint8)
         img = Image.fromarray(res, "RGBA")
         if save:
             os.makedirs(OUT, exist_ok=True)
