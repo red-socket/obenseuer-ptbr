@@ -720,9 +720,14 @@ _BIG52 = {
     "5": (["########", "########", "##......", "##......", "#######.", "########", "......##", "......##", "##....##", "########", ".######."], 0),
     "2": ([".######.", "########", "##....##", "......##", ".....###", "...####.", ".####...", "###.....", "##......", "########", "########"], 0),
 }
+# The same 52 smaller (user), 6 wide and 9 rows.
+_MID52 = {
+    "5": (["######", "######", "##....", "#####.", "######", "....##", "##..##", "######", ".####."], 0),
+    "2": ([".####.", "######", "##..##", "....##", "...###", ".####.", "###...", "######", "######"], 0),
+}
 
 PIXEL_FONTS = {"oos": _OOS, "bergmann": _BERG, "border-top": _BORDER_TOP, "border-mid": _BORDER_MID,
                "border-low": _BORDER_LOW, "exit": _EXIT, "mall": _MALL,
                "elstrom": _ELSTROM, "skeida": _SKEIDA, "robin": _ROBIN, "taxfree": _TAXFREE,
                "barrel": _BARREL, "dispenser": _DISPENSER,
-               "board": _BOARD, "staff": _STAFF, "osmo": _OSMO, "tiny": _TINY, "keep": _KEEP, "led": _LED, "rob6": _ROB6, "elst": _ELST, "news": _NEWS, "bio": _BIO, "wayup": _WAYUP, "wayup-big": _WAYUP_BIG, "scrawl": _SCRAWL, "call": _CALL, "therapy": _THERAPY, "fast": _FAST, "mag": _MAG, "mag4": _MAG4, "mag6": _MAG6, "mag7": _MAG7, "mag3": _MAG3, "mag-house": _MAG_HOUSE, "soap": _SOAP, "soap3": _SOAP3, "hotdog": _HOTDOG, "nowin": _NOWIN, "fluff": _FLUFF, "thin9": _THIN9, "thin8": _THIN8, "thin9n": _THIN9N, "thin9p": _THIN9P, "thin8n": _THIN8N, "sack6": _SACK6, "nails": _NAILS, "tp4": _TP4, "big52": _BIG52, "tp5": _TP5, "fast-narrow": _FAST_NARROW, "baby": _BABY, "marks": _MARKS}
+               "board": _BOARD, "staff": _STAFF, "osmo": _OSMO, "tiny": _TINY, "keep": _KEEP, "led": _LED, "rob6": _ROB6, "elst": _ELST, "news": _NEWS, "bio": _BIO, "wayup": _WAYUP, "wayup-big": _WAYUP_BIG, "scrawl": _SCRAWL, "call": _CALL, "therapy": _THERAPY, "fast": _FAST, "mag": _MAG, "mag4": _MAG4, "mag6": _MAG6, "mag7": _MAG7, "mag3": _MAG3, "mag-house": _MAG_HOUSE, "soap": _SOAP, "soap3": _SOAP3, "hotdog": _HOTDOG, "nowin": _NOWIN, "fluff": _FLUFF, "thin9": _THIN9, "thin8": _THIN8, "thin9n": _THIN9N, "thin9p": _THIN9P, "thin8n": _THIN8N, "sack6": _SACK6, "nails": _NAILS, "tp4": _TP4, "big52": _BIG52, "mid52": _MID52, "tp5": _TP5, "fast-narrow": _FAST_NARROW, "baby": _BABY, "marks": _MARKS}

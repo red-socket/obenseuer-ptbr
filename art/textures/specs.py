@@ -3156,6 +3156,8 @@ SPECS = {
 
 
 
+
+
     # ---- Batch 23: tier 4 packaging and labels (second half) ----
     "sack_001_ammonium_nitrate": {
         "en": "AMMONIUM / NITRATE x2 (25 KG sack)",
@@ -3184,16 +3186,16 @@ SPECS = {
     },
     "bottle_001_label_moonshine": {
         "en": "MOON / SHINE (32-px bottle label with a skull)",
-        "note": "A big 52 (user: a nod to the 51 cachaça brand; CACHA / ÇA broke badly on two lines) centred over the skull in the original letters' colour, which stays.",
+        "note": "A 52 (user: smaller; a nod to the 51 cachaça brand; CACHA / ÇA broke badly on two lines) centred over the skull in the original letters' colour, which stays.",
         "erase": [{"rect": [4, 2, 25, 15], "mode": "dark", "thresh": 40, "k": 5, "grain": 0, "grow": 0, "isolate": True, "scatter": [4, 0]}],
-        "text": [{"pixel": "big52", "box": [4, 3, 24, 13], "baselines": [13], "text": "52", "gap": 2, "color": "#212121"}],
+        "text": [{"pixel": "mid52", "box": [4, 3, 24, 13], "baselines": [12], "text": "52", "gap": 2, "color": "#212121"}],
     },
     "selection_alcohol": {
         "en": "Otto's / XXX / MOONSHINE (artwork; the letters are cut out of the label)",
-        "note": "Otto's and XXX stay; MOONSHINE is CACHAÇA (game text) in a slab serif, lighter than the first try and with its ends raised like MOONSHINE (user), cut out of the label the same way.",
+        "note": "Otto's and XXX stay; MOONSHINE is CACHAÇA (game text) in a slab serif, lighter than the first try and flatter and wider like MOONSHINE's squat letters, its ends raised a little, worn see-through like the old letters (user), cut out of the label the same way.",
         "erase": [{"rect": [192, 229, 334, 249], "color": "#ffffff"}],
         "alpha": {"erase": [{"rect": [192, 228, 334, 249], "mode": "dark", "k": 9, "thresh": 100, "grow": 1, "isolate": True, "scatter": [4, 2]}]},
-        "text": [{"box": [196, 224, 330, 250], "font": "coustard", "text": "CACHAÇA", "size": 20, "tracking": 0.16, "stroke": 0.45, "circle": {"center": [262, -175], "radius": 420, "mid": 180, "outward": False}, "color": "#141414", "alpha": 0}],
+        "text": [{"box": [196, 224, 330, 250], "font": "coustard", "text": "CACHAÇA", "size": 17, "xscale": 1.35, "tracking": 0.05, "stroke": 0.45, "circle": {"center": [262, -455], "radius": 700, "mid": 180, "outward": False}, "color": "#1c1c1c", "alpha": 0, "wear": 0.7}],
     },
     "bottle_002_homebrew_beer": {
         "en": "BEER (homebrew bottle label)",

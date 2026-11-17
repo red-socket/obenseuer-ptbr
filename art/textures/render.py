@@ -367,7 +367,8 @@ def circle_layer(size, t):
     c = t["circle"]; cx, cy = c["center"]; r = c["radius"]; out_ = c.get("outward", True)
     f = ImageFont.truetype(FONTS[t.get("font", "sans-bold")], int(t["size"] * SS))
     tr = t.get("tracking", 0) * t["size"] * SS
-    adv = [f.getlength(ch) + tr for ch in t["text"]]
+    xs = t.get("xscale", 1.0)   # wider (or narrower) letters than the font draws them
+    adv = [f.getlength(ch) * xs + tr for ch in t["text"]]
     total = sum(adv) - tr
     R = r * SS
     full = Image.new("L", (w * SS, h * SS), 0)
@@ -385,6 +386,9 @@ def circle_layer(size, t):
             rot = -ang if out_ else -(ang - 180)
             # glyph anchor: horizontal centre, baseline
             gx = 2 * SS + (a_ - tr) / 2
+            if xs != 1.0:
+                g = g.resize((max(1, int(g.width * xs)), g.height), Image.BICUBIC)
+                gx = (2 * SS + f.getlength(ch) / 2) * xs
             gr = g.rotate(rot, expand=True, resample=Image.BICUBIC, center=(gx, base_y))
             # position of the anchor on the circle
             th = np.radians(ang)
