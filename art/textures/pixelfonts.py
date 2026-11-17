@@ -612,6 +612,13 @@ _MAG7 = {
     "T": (["###", ".#.", ".#.", ".#.", ".#.", ".#.", ".#."], 0),
 }
 _MAG7["Â"] = _accent(_MAG7["A"], [".#.", "#.#"], gap=0)
+# "Ŧ": T and A sharing one column of space (the top bars join), so PÂNTANO fits SWAMP's band a pixel narrower.
+_MAG7["Ŧ"] = (["######", ".#.#.#", ".#.#.#", ".#.###", ".#.#.#", ".#.#.#", ".#.#.#"], 0)
+# The HOUSE cover's own 4-wide capitals (magazine_001_skin3).
+_MAG_HOUSE = {
+    "L": (["#...", "#...", "#...", "#...", "####"], 0), "A": (["####", "#..#", "####", "#..#", "#..#"], 0),
+    "R": (["###.", "#..#", "###.", "#..#", "#..#"], 0),
+}
 # 3 rows: the tiny cover lines (HOW on ARG, TIPS on Lifehack-Pekka).
 _MAG3 = {
     "A": ([".#.", "###", "#.#"], 0), "C": (["##", "#.", "##"], 0), "D": (["##.", "#.#", "##."], 0), "I": (["#", "#", "#"], 0),
@@ -622,4 +629,4 @@ PIXEL_FONTS = {"oos": _OOS, "bergmann": _BERG, "border-top": _BORDER_TOP, "borde
                "border-low": _BORDER_LOW, "exit": _EXIT, "mall": _MALL,
                "elstrom": _ELSTROM, "skeida": _SKEIDA, "robin": _ROBIN, "taxfree": _TAXFREE,
                "barrel": _BARREL, "dispenser": _DISPENSER,
-               "board": _BOARD, "staff": _STAFF, "osmo": _OSMO, "tiny": _TINY, "keep": _KEEP, "led": _LED, "rob6": _ROB6, "elst": _ELST, "news": _NEWS, "bio": _BIO, "wayup": _WAYUP, "wayup-big": _WAYUP_BIG, "scrawl": _SCRAWL, "call": _CALL, "therapy": _THERAPY, "fast": _FAST, "mag": _MAG, "mag4": _MAG4, "mag6": _MAG6, "mag7": _MAG7, "mag3": _MAG3, "fast-narrow": _FAST_NARROW, "baby": _BABY, "marks": _MARKS}
+               "board": _BOARD, "staff": _STAFF, "osmo": _OSMO, "tiny": _TINY, "keep": _KEEP, "led": _LED, "rob6": _ROB6, "elst": _ELST, "news": _NEWS, "bio": _BIO, "wayup": _WAYUP, "wayup-big": _WAYUP_BIG, "scrawl": _SCRAWL, "call": _CALL, "therapy": _THERAPY, "fast": _FAST, "mag": _MAG, "mag4": _MAG4, "mag6": _MAG6, "mag7": _MAG7, "mag3": _MAG3, "mag-house": _MAG_HOUSE, "fast-narrow": _FAST_NARROW, "baby": _BABY, "marks": _MARKS}

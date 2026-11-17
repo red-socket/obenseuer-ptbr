@@ -2872,6 +2872,7 @@ SPECS = {
 
 
 
+
     # ---- Batch 21: tier 3 magazines and books ----
     "magazine_001": {
         "en": "OPEN SEWER (magazine cover)",
@@ -2891,9 +2892,9 @@ SPECS = {
     },
     "magazine_001_skin3": {
         "en": "HOUSE (home magazine cover)",
-        "note": "Not Casa (user): a name for a magazine about the home. LAR (home, as in lar doce lar) in the cover's capitals drawn twice as wide; REFORMA (renovation, the DIY reading) is on the page as the other option.",
+        "note": "Not Casa (user): a name for a magazine about the home. LAR (home, as in lar doce lar) in HOUSE's own 4-wide capitals, left-aligned like HOUSE (user: less wide); REFORMA (renovation, the DIY reading) is on the page as the other option.",
         "erase": [{"rect": [32, 1, 61, 8], "mode": "dark", "thresh": 60, "k": 5, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}],
-        "text": [{"pixel": "mag", "box": [34, 2, 56, 7], "baselines": [6], "text": "LAR", "stretch": True, "gap": 1, "ink": "letters"}],
+        "text": [{"pixel": "mag-house", "box": [33, 2, 61, 7], "baselines": [6], "text": "LAR", "align": "left", "gap": 1, "ink": "letters"}],
         "alts": {"REFORMA": {"text": "REFORMA", "box": [32, 2, 61, 7], "stretch": False}},
     },
     "magazine_001_skin1": {
@@ -2920,9 +2921,9 @@ SPECS = {
     },
     "magazine_001_skin5": {
         "en": "STOLLAR / SWAMP (magazine covers)",
-        "note": "Stollar (a name) stays; SWAMP is PÂNTANO in the cover's 7-row capitals, the accent in the green strip above.",
+        "note": "Stollar (a name) stays; SWAMP is PÂNTANO in the cover's 7-row capitals, the accent in the green strip above; T and A share their top bar so the word clears the left edge (user).",
         "erase": [{"rect": [31, 3, 60, 10], "mode": "bright", "thresh": 200, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}],
-        "text": [{"pixel": "mag7", "box": [31, 1, 60, 9], "baselines": [9], "text": "PÂNTANO", "gap": 1, "ink": "letters"}],
+        "text": [{"pixel": "mag7", "box": [32, 1, 60, 9], "baselines": [9], "text": "PÂNŦNO", "gap": 1, "ink": "letters"}],
     },
     "magazine_001_ARG": {
         "en": "ARG / FARM! / HOW (magazine cover)",
@@ -2967,7 +2968,7 @@ SPECS = {
         "en": "Book covers: THE PINEAPPLE by Jimmy P. Apple (front, spine, back: WINNER OF 10 STARBURGER AWARDS), HOW TO / APPLY FOR / SOCIAL / SECURITY / BENEFITS, THE BIG BOOK OF BEER (front and spine), ALAN BACON / COOKBOOK / II",
         "note": "\"O abacaxi\" by Juca A. Bacaxi as on the shipped poster; \"Como pedir / benefícios / da / previdência / social\"; \"O grande / livro da / cerveja\" (front and spine); Alan Bacon stays, COOKBOOK is RECEITAS in the cover's pixel capitals. The leather spines have no readable words and stay. Ships as books_001 (game name; the two exports are identical).",
         "game_name": "books_001",
-        "erase": [{"rect": [45, 44, 82, 50], "mode": "color", "thresh": 90, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}, {"rect": [39, 45, 44, 80], "mode": "color", "thresh": 90, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [1, 3]}, {"rect": [6, 45, 31, 52], "mode": "dark", "thresh": 40, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}, {"rect": [45, 91, 82, 96], "mode": "dark", "thresh": 40, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}, {"rect": [137, 38, 177, 83], "mode": "color", "thresh": 40, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 2]}, {"rect": [243, 24, 282, 56], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "grow": 1, "only_red": 90, "lama": True}, {"rect": [244, 29, 278, 43], "mode": "near", "thresh": 200, "k": 7, "grain": 0, "bg": "#ece48a", "grow": 1, "lama": True}, {"rect": [230, 27, 236, 84], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [1, 4]}, {"rect": [403, 28, 440, 33], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}],
+        "erase": [{"rect": [45, 44, 82, 50], "mode": "color", "thresh": 90, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}, {"rect": [39, 45, 44, 80], "mode": "color", "thresh": 90, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [1, 3]}, {"rect": [6, 45, 31, 52], "mode": "dark", "thresh": 40, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}, {"rect": [45, 91, 82, 96], "mode": "dark", "thresh": 40, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}, {"rect": [137, 38, 177, 83], "mode": "color", "thresh": 40, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 2]}, {"rect": [243, 24, 282, 56], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "grow": 1, "only_red": 90, "lama": True}, {"rect": [244, 29, 278, 43], "mode": "near", "thresh": 200, "k": 7, "grain": 0, "bg": "#ece48a", "grow": 1, "lama": True}, {"rect": [230, 27, 236, 84], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [1, 4]}, {"rect": [405, 28, 440, 33], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}],
         "text": [{"box": [47, 46, 81, 49], "font": "archivo-black", "text": "O ABACAXI", "stretch": True, "ink": "letters", "ink_sigma": 2},
                  {"box": [40, 47, 43, 78], "font": "archivo-black", "text": "O ABACAXI", "sideways": -90, "stretch": True, "stroke": 0.4, "color": "#e6d468"},
                  {"box": [10, 47, 28, 49], "font": "archivo-black", "text": "VENCEDOR DE 10", "stretch": True, "ink": "letters", "ink_sigma": 2},
@@ -2986,7 +2987,7 @@ SPECS = {
                  {"box": [232, 39, 235, 47], "font": "sans-bold", "text": "GRANDE", "sideways": -90, "stretch": True, "stroke": 0.4, "color": "#e01010"},
                  {"box": [232, 49, 235, 67], "font": "sans-bold", "text": "LIVRO DA", "sideways": -90, "stretch": True, "stroke": 0.4, "color": "#d8cf74"},
                  {"box": [232, 69, 235, 82], "font": "sans-bold", "text": "CERVEJA", "sideways": -90, "stretch": True, "stroke": 0.4, "color": "#e01010"},
-                 {"pixel": "mag4", "box": [403, 28, 440, 31], "baselines": [31], "text": "RECEITAS", "gap": 2, "color": "#f4f4f4"}],
+                 {"pixel": "mag4", "box": [408, 28, 437, 31], "baselines": [31], "text": "RECEITAS", "gap": 1, "color": "#f4f4f4"}],
     },
     "bookset_b": {
         "en": "Book covers on the police station shelf (the sheet is stored upside down): PLAN F, ALL YOU NEED / TO KNOW / ABOUT / STALBURG, THE LEGEND OF THE / STALBURG / UNDERGROUND, CHEMISTRY, THE TUNNEL OF / WATER TREES",
