@@ -2161,6 +2161,7 @@ SPECS = {
 
 
 
+
     # ---- Batch 16: tier 1c signs (drinks machine, bus display, rat and Jermu's displays, Elström TV, extractor, newspaper stand, biohazard) ----
     "vending_machine_003_moca_cola": {
         "en": "Ice Tea (one button of a drinks machine; the others are brands)",
@@ -2235,10 +2236,9 @@ SPECS = {
     },
     "Sign Biohazard": {
         "en": "BIOHAZARD (sign with the symbol)",
-        "note": "\"Biorrisco\": nine letters like BIOHAZARD, in the sign's own letters (C and S drawn to match); \"Infectante\" (the Brazilian waste-bag label) as an option. RISCO BIOLÓGICO does not fit a 64-px sign. The frame stays.",
+        "note": "\"Infectante\" (the Brazilian label for biohazard waste; user's pick over \"biorrisco\") in the sign's own letters (C, E, F, N, T drawn to match). RISCO BIOLÓGICO does not fit a 64-px sign. The frame stays.",
         "erase": [{"rect": [3, 44, 61, 53], "mode": "dark", "thresh": 25, "k": 9, "grain": 0, "grow": 1, "scatter": [30, 8], "sample_min": 50}],
-        "text": [{"pixel": "bio", "box": [3, 45, 61, 51], "baselines": [51], "text": "BIORRISCO", "gap": 3, "color": "#1f1805"}],
-        "alts": {"INFECTANTE": {"text": "INFECTANTE", "gap": 2}},
+        "text": [{"pixel": "bio", "box": [3, 45, 61, 51], "baselines": [51], "text": "INFECTANTE", "gap": 2, "color": "#1f1805"}],
     },
 }
 
