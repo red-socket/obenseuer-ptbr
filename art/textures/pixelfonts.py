@@ -490,9 +490,61 @@ _CALL["Ç"] = (_CALL["C"][0] + [".#."], 1)
 # decal_002_internets: INTERNET = LIBERDADE in the same 3x5 capitals (the poster's own are 4 wide; LIBERDADE needs room).
 _CALL["B"] = (["##.", "#.#", "##.", "#.#", "##."], 0)
 _CALL["="] = (["...", "###", "...", "###", "..."], 0)
+# Decal_002_skin26 (pineapple book): VENCEDOR DE 10 / PRÊMIOS / STARBURGER! in the same 3x5 capitals.
+_CALL.update({
+    "V": (["#.#", "#.#", "#.#", "#.#", ".#."], 0),
+    "P": (["##.", "#.#", "##.", "#..", "#.."], 0),
+    "1": ([".#.", "##.", ".#.", ".#.", "###"], 0),
+    "!": (["#", "#", "#", ".", "#"], 0),
+})
+_CALL["Ê"] = _accent(_CALL["E"], [".#."], gap=0)
+# Decal_002_skin24 badge: JÁ / SAIU!
+_CALL["J"] = (["..#", "..#", "..#", "#.#", "###"], 0)
+_CALL["Á"] = _accent(_CALL["A"], [".#."], gap=0)
+# Bulletin_board_001 (brown poster): VOCÊ É / O PRÓXIMO
+_CALL["X"] = (["#.#", "#.#", ".#.", "#.#", "#.#"], 0)
+_CALL["É"] = _accent(_CALL["E"], ["..#"], gap=0)
+_CALL["Ó"] = _accent(_CALL["O"], ["..#"], gap=0)
+
+# Decal_002_therapy: thin 6-row capitals of MENTAL HEALTH COUNSELING & THERAPY, drawn 4 wide (M, N, T, V 5) so
+# ACONSELHAMENTO fits the poster.
+_THERAPY = {
+    "A": ([".##.", "#..#", "#..#", "####", "#..#", "#..#"], 0),
+    "C": ([".###", "#...", "#...", "#...", "#...", ".###"], 0),
+    "D": (["###.", "#..#", "#..#", "#..#", "#..#", "###."], 0),
+    "E": (["####", "#...", "###.", "#...", "#...", "####"], 0),
+    "H": (["#..#", "#..#", "####", "#..#", "#..#", "#..#"], 0),
+    "I": (["#"] * 6, 0),
+    "L": (["#..."] * 5 + ["####"], 0),
+    "M": (["#...#", "##.##", "#.#.#", "#...#", "#...#", "#...#"], 0),
+    "N": (["#...#", "##..#", "#.#.#", "#..##", "#...#", "#...#"], 0),
+    "O": ([".##.", "#..#", "#..#", "#..#", "#..#", ".##."], 0),
+    "P": (["###.", "#..#", "###.", "#...", "#...", "#..."], 0),
+    "R": (["###.", "#..#", "###.", "#.#.", "#..#", "#..#"], 0),
+    "S": ([".###", "#...", ".##.", "...#", "...#", "###."], 0),
+    "T": (["#####"] + ["..#.."] * 5, 0),
+    "U": (["#..#"] * 5 + [".##."], 0),
+    ":": ([".", "#", ".", ".", "#", "."], 0),
+}
+_THERAPY["Ú"] = _accent(_THERAPY["U"], ["..#."], gap=0)
+_THERAPY["Á"] = _accent(_THERAPY["A"], ["..#."], gap=0)   # brochure_stand_001: CARDÁPIO
+
+# brochure_stand_001_pharmacy: the white pixel lower case of "sleep like a baby" (x-height 4, ascenders 2, descenders 2).
+_BABY = {
+    "a": (["##.", "..#", "###", "###"], 0),
+    "b": (["#..", "#..", "###", "#.#", "#.#", "###"], 0),
+    "c": ([".##", "#..", "#..", ".##"], 0),
+    "d": (["..#", "..#", "###", "#.#", "#.#", "###"], 0),
+    "e": (["###", "#.#", "##.", ".##"], 0),
+    "m": (["####.", "#.#.#", "#.#.#", "#.#.#"], 0),
+    "o": (["###", "#.#", "#.#", "###"], 0),
+    "r": (["#.#", "##.", "#..", "#.."], 0),
+    "u": (["#.#", "#.#", "#.#", "###"], 0),
+}
+_BABY["ê"] = _accent(_BABY["e"], [".#.", "#.#"], gap=0)
 
 PIXEL_FONTS = {"oos": _OOS, "bergmann": _BERG, "border-top": _BORDER_TOP, "border-mid": _BORDER_MID,
                "border-low": _BORDER_LOW, "exit": _EXIT, "mall": _MALL,
                "elstrom": _ELSTROM, "skeida": _SKEIDA, "robin": _ROBIN, "taxfree": _TAXFREE,
                "barrel": _BARREL, "dispenser": _DISPENSER,
-               "board": _BOARD, "staff": _STAFF, "osmo": _OSMO, "tiny": _TINY, "keep": _KEEP, "led": _LED, "rob6": _ROB6, "elst": _ELST, "news": _NEWS, "bio": _BIO, "wayup": _WAYUP, "wayup-big": _WAYUP_BIG, "scrawl": _SCRAWL, "call": _CALL, "marks": _MARKS}
+               "board": _BOARD, "staff": _STAFF, "osmo": _OSMO, "tiny": _TINY, "keep": _KEEP, "led": _LED, "rob6": _ROB6, "elst": _ELST, "news": _NEWS, "bio": _BIO, "wayup": _WAYUP, "wayup-big": _WAYUP_BIG, "scrawl": _SCRAWL, "call": _CALL, "therapy": _THERAPY, "baby": _BABY, "marks": _MARKS}

@@ -388,7 +388,7 @@ def circle_layer(size, t):
 
 def pixel_layer(size, t, name):
     """Text t set in a bitmap font from pixelfonts.py: one line per baseline in t["baselines"], centred in
-    the box's x range (or left-aligned), "gap" empty columns between letters and "space" between words.
+    the box's x range (or left- or right-aligned), "gap" empty columns between letters and "space" between words.
     "fade" lightens each ink pixel by a random amount up to that fraction, like the worn originals.
     Returns a mask in 0..1."""
     w, h = size
@@ -399,7 +399,7 @@ def pixel_layer(size, t, name):
     for line, base in zip(t["text"].split("\n"), t["baselines"]):
         words = [[font[c] for c in word] for word in line.split(" ")]
         width = sum(sum(len(g[0][0]) for g in wd) + gap * (len(wd) - 1) for wd in words) + space * (len(words) - 1)
-        x = x0 if t.get("align") == "left" else x0 + (x1 - x0 - width + 1) // 2
+        x = x0 if t.get("align") == "left" else x1 - width if t.get("align") == "right" else x0 + (x1 - x0 - width + 1) // 2
         for wd in words:
             for rows, below in wd:
                 top = base + below - len(rows) + 1
@@ -486,6 +486,31 @@ def render(name, spec, save=True):
             img.save(os.path.join(OUT, name + ".png"))
             if spec.get("game_name"):
                 img.save(os.path.join(OUT, spec["game_name"] + ".png"))
+        return img
+    wf = spec.get("warp_from")
+    if wf:   # {"from": name, "src": [x0, y0, x1, y1], "quad": [tl, tr, br, bl]}: a small, tilted picture of another sign
+        # (inventory icons of posters). The change made to that sign (new render minus original) is shrunk, warped onto
+        # the quad and added to this texture, so the picture keeps its own lighting and blur.
+        icon = np.array(Image.open(os.path.join(GAME, name + ".png")).convert("RGBA")).astype(float)
+        new = np.array(render(wf["from"], SPECS[wf["from"]], save=False).convert("RGB")).astype(float)
+        old = np.array(Image.open(os.path.join(GAME, wf["from"] + ".png")).convert("RGB")).astype(float)
+        x0, y0, x1, y1 = wf["src"]
+        q = np.float32(wf["quad"])   # fitted to the icon (correlation of the warped original against it)
+        qw, qh = int(np.ptp(q[:, 0])) + 1, int(np.ptp(q[:, 1])) + 1
+
+        def warp(im):
+            small = cv2.resize(np.ascontiguousarray(im[y0:y1, x0:x1]), (qw, qh), interpolation=cv2.INTER_AREA)
+            sh, sw = small.shape[:2]
+            h = cv2.getPerspectiveTransform(np.float32([[0, 0], [sw, 0], [sw, sh], [0, sh]]), q)
+            return cv2.warpPerspective(small, h, (icon.shape[1], icon.shape[0]), flags=cv2.INTER_LINEAR)
+        w_new, w_old = warp(new), warp(old)
+        # the picture is lit differently from the poster: scale the change by the local brightness ratio
+        shade = np.clip(cv2.GaussianBlur(icon[:, :, :3], (0, 0), 3) / (cv2.GaussianBlur(w_old, (0, 0), 3) + 1), 0.3, 1.5)
+        icon[:, :, :3] = np.clip(icon[:, :, :3] + (w_new - w_old) * shade * (icon[:, :, 3:] > 0), 0, 255)
+        img = Image.fromarray((icon + 0.5).astype(np.uint8), "RGBA")
+        if save:
+            os.makedirs(OUT, exist_ok=True)
+            img.save(os.path.join(OUT, name + ".png"))
         return img
     src = Image.open(os.path.join(GAME, spec.get("source", name) + ".png"))
     has_alpha = src.mode in ("RGBA", "LA") or "transparency" in src.info

@@ -2367,6 +2367,133 @@ SPECS = {
         "text": [{"box": [35, 12, 93, 15], "font": "serif", "text": "A cerveja mais forte do mundo", "stretch": True, "crisp": 0.25, "color": "#b0b4b0"},
                  {"box": [21, 120, 109, 125], "font": "serif", "text": "VOCÊ SABE DO QUE PRECISA", "stretch": True, "crisp": 0.25, "tracking": 0.15, "color": "#a8a8a5"}],
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    # ---- Batch 18: tier 2 posters, brochures and poster icons ----
+    "Decal_002_skin26": {
+        "en": "THE PINEAPPLE / WINNER OF 10 STARBURGER AWARDS! / JIMMY P. APPLE (book poster)",
+        "note": "\"O abacaxi\", \"Vencedor de 10 prêmios Starburger!\"; Jimmy P. Apple (author) stays.",
+        "erase": [{"rect": [2, 7, 87, 18], "mode": "color", "thresh": 110, "k": 7, "grain": 0, "bg": "#86b4dc", "grow": 1, "lama": True}, {"rect": [28, 22, 88, 43], "mode": "dark", "thresh": 35, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 2]}],
+        "text": [{"box": [3, 8, 60, 17], "font": "archivo-black", "text": "O ABACAXI", "stretch": True, "crisp": 0.35, "color": "#bdaa63"},
+                 {"pixel": "call", "box": [20, 24, 86, 28], "baselines": [28, 35, 42], "text": "VENCEDOR DE 10\nPRÊMIOS\nSTARBURGER!", "gap": 1, "space": 3, "align": "right", "color": "#0a0e14"}],
+    },
+    "Decal_002_therapy": {
+        "en": "MENTAL HEALTH / COUNSELING & / THERAPY / TALKING SAVES LIVES (poster)",
+        "note": "\"Saúde mental: / aconselhamento / e terapia\", \"Conversar salva vidas\"; thin capitals drawn after the poster's, the slogan in 3x5 capitals. The leaflet stays.",
+        "erase": [{"rect": [22, 8, 104, 38], "mode": "color", "thresh": 35, "k": 7, "grain": 0, "bg": "#739a9c", "grow": 2, "isolate": True, "scatter": [40, 4]}, {"rect": [22, 43, 104, 52], "mode": "color", "thresh": 45, "k": 7, "grain": 0, "bg": "#739a9c", "grow": 1, "isolate": True, "scatter": [40, 3]}],
+        "text": [{"pixel": "therapy", "box": [25, 10, 106, 15], "baselines": [15, 25, 35], "text": "SAÚDE MENTAL:\nACONSELHAMENTO\nE TERAPIA", "gap": 1, "space": 4, "align": "left", "color": "#fffbf7", "halo": [1.2, "#2c4a50", 0.6, 1, 1]},
+                 {"pixel": "call", "box": [24, 45, 106, 49], "baselines": [49], "text": "CONVERSAR SALVA VIDAS", "gap": 1, "space": 3, "align": "left", "color": "#ffffff"}],
+    },
+    "Decal_002_kebab": {
+        "en": "AZIZ'S / HAMBURGER & KEBAB / AUNTHENTIC (sic) TURKISH KEBAB (poster)",
+        "note": "Aziz's (name) stays; \"Hambúrguer & kebab\", \"Kebab turco / autêntico\" (the original misspells AUTHENTIC; the Portuguese is spelled right).",
+        "erase": [{"rect": [19, 18, 108, 27], "mode": "light", "thresh": 20, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [10, 3]}, {"rect": [26, 101, 102, 111], "mode": "near", "thresh": 150, "k": 7, "grain": 0, "bg": "#efe74a", "grow": 1, "lama": True}, {"rect": [24, 111, 104, 121], "mode": "near", "thresh": 150, "k": 7, "grain": 0, "bg": "#efaa31", "grow": 1, "lama": True}],
+        "text": [{"box": [21, 19, 106, 26], "font": "serif", "text": "HAMBÚRGUER & KEBAB", "stretch": True, "crisp": 0.3, "color": "#8c8e8c"},
+                 {"box": [33, 103, 96, 109], "font": "sans-bold", "text": "KEBAB TURCO", "stretch": True, "crisp": 0.5, "outline": [1, "#000000"], "color": "#efe74a"},
+                 {"box": [35, 113, 94, 119], "font": "sans-bold", "text": "AUTÊNTICO", "stretch": True, "crisp": 0.5, "outline": [1, "#000000"], "color": "#efaa31"}],
+    },
+    "Decal_002_skin25": {
+        "en": "BOOKS / WANTED (poster)",
+        "note": "\"Compramos livros\": the verb comes first in Portuguese, so the small line is on top and LIVROS is the big word.",
+        "erase": [{"rect": [58, 75, 106, 99], "mode": "light", "thresh": 35, "k": 9, "grain": 0, "grow": 1, "scatter": [24, 10]}],
+        "text": [{"box": [61, 78, 103, 84], "font": "serif-bold", "text": "COMPRAMOS", "stretch": True, "crisp": 0.4, "speckle": [0.25, 0.6], "color": "#efddbd"},
+                 {"box": [60, 86, 103, 97], "font": "serif-bold", "text": "LIVROS", "stretch": True, "crisp": 0.4, "speckle": [0.25, 0.6], "color": "#efddbd"}],
+    },
+    "Decal_002_poster_hawaii": {
+        "en": "HAWAII / PARTY / JUNE 8th | JW-Hall / 18:05 | 25 POINTS! (party poster)",
+        "note": "\"Havaí / festa / 8 de junho | JW-Hall / 18:05 | 25 pontos!\"; JW-Hall (a place) stays. The orange bars stay.",
+        "erase": [{"rect": [22, 8, 106, 27], "mode": "near", "thresh": 150, "k": 7, "grain": 0, "bg": "#f49448", "grow": 1, "lama": True}, {"rect": [22, 33, 58, 42], "mode": "near", "thresh": 150, "k": 7, "grain": 0, "bg": "#f49448", "grow": 1, "lama": True}, {"rect": [22, 101, 106, 124], "mode": "near", "thresh": 150, "k": 7, "grain": 0, "bg": "#f49448", "grow": 1, "lama": True}],
+        "text": [{"box": [25, 10, 101, 26], "font": "barlow-cond-bold", "text": "HAVAÍ", "stretch": True, "crisp": 0.4, "shadow": [-1, 1, "#6c9a8e"], "color": "#f49448"},
+                 {"box": [26, 35, 53, 40], "font": "sans-bold", "text": "FESTA", "stretch": True, "stroke": 0.15, "shadow": [-1, 1, "#6c9a8e"], "color": "#f49448"},
+                 {"box": [25, 103, 103, 110], "font": "sans-bold", "text": "8 DE JUNHO | JW-Hall", "stretch": True, "stroke": 0.15, "shadow": [-1, 1, "#6c9a8e"], "color": "#f49448"},
+                 {"box": [25, 116, 103, 122], "font": "sans-bold", "text": "18:05 | 25 PONTOS!", "stretch": True, "stroke": 0.15, "shadow": [-1, 1, "#6c9a8e"], "color": "#f49448"}],
+    },
+    "Decal_002_skin24": {
+        "en": "DO SHEEP DREAM OF ELECTRIC RODENTS? / OUT NOW! (book ad; the third title word is blurred, read as RODENTS)",
+        "note": "\"Ovelhas sonham com roedores elétricos?\", flipped like the Brazilian title of the novel (\"Androides sonham com ovelhas elétricas?\"); \"Já saiu!\" on the badge (JÁ À VENDA! does not fit it). The small lines are unreadable and stay.",
+        "erase": [{"rect": [36, 19, 98, 52], "mode": "color", "thresh": 90, "k": 7, "grain": 0, "bg": "#1b1808", "grow": 1, "lama": True}, {"rect": [86, 48, 108, 66], "mode": "near", "thresh": 180, "k": 7, "grain": 0, "bg": "#ffffff", "grow": 1, "lama": True}],
+        "text": [{"box": [40, 22, 95, 30], "font": "anton", "text": "OVELHAS SONHAM", "stretch": True, "crisp": 0.5, "color": "#d6e77b", "outline": [1, "#3c4214"], "halo": [1.8, "#a7b152", 0.55, 0, 0]},
+                 {"box": [44, 32, 90, 40], "font": "anton", "text": "COM ROEDORES", "stretch": True, "crisp": 0.5, "color": "#d6e77b", "outline": [1, "#3c4214"], "halo": [1.8, "#a7b152", 0.55, 0, 0]},
+                 {"box": [47, 42, 86, 50], "font": "anton", "text": "ELÉTRICOS?", "stretch": True, "crisp": 0.5, "color": "#d6e77b", "outline": [1, "#3c4214"], "halo": [1.8, "#a7b152", 0.55, 0, 0]},
+                 {"pixel": "call", "box": [86, 51, 108, 63], "baselines": [56, 63], "text": "JÁ\nSAIU!", "gap": 1, "color": "#ffffff"}],
+    },
+    "brochure_stand_001_pharmacy": {
+        "en": "PHARMACY / sleep like a baby (brochures on a stand)",
+        "note": "\"Farmácia\" and \"durma como um bebê\" in pixel letters like the originals; the lines start a little further left so \"como um\" fits. The tiny print stays.",
+        "erase": [{"rect": [4, 3, 40, 10], "mode": "near", "thresh": 110, "k": 7, "grain": 0, "bg": "#3ba2aa", "grow": 1, "lama": True}, {"rect": [96, 4, 125, 25], "mode": "bright", "thresh": 170, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [10, 3]}],
+        "text": [{"pixel": "call", "box": [6, 4, 40, 8], "baselines": [8], "text": "FARMÁCIA", "gap": 1, "align": "left", "color": "#3ba2aa"},
+                 {"pixel": "baby", "box": [93, 4, 126, 24], "baselines": [10, 16, 22], "text": "durma\ncomo um\nbebê", "gap": 1, "space": 3, "align": "left", "color": "#f4f4f6"}],
+    },
+    "brochure_stand_001": {
+        "en": "MENU (one of three brochures on a stand)",
+        "note": "\"Cardápio\" in 6-row pixel capitals like MENU; its underline and the other brochures stay.",
+        "erase": [{"rect": [86, 4, 126, 11], "mode": "near", "thresh": 120, "k": 7, "grain": 0, "bg": "#ebaa3b", "grow": 0, "isolate": True, "scatter": [10, 2]}],
+        "text": [{"pixel": "therapy", "box": [86, 5, 126, 10], "baselines": [10], "text": "CARDÁPIO", "gap": 1, "color": "#ebaa3b"}],
+    },
+    "Decal_002_skin31": {
+        "en": "TEETH (dental chart; the labels are unreadable)",
+        "note": "\"Dentes\" in 7-row pixel capitals like TEETH; the labels stay.",
+        "erase": [{"rect": [8, 24, 42, 34], "mode": "near", "thresh": 40, "k": 7, "grain": 0, "bg": "#ffffff", "grow": 0, "isolate": True, "scatter": [10, 3]}],
+        "text": [{"pixel": "wayup", "box": [10, 26, 42, 32], "baselines": [32], "text": "DENTES", "gap": 2, "align": "left", "color": "#ffffff"}],
+    },
+    "Decal_002_periodic_table": {
+        "en": "Periodic table of the elements (heading of a periodic table poster)",
+        "note": "\"Tabela periódica dos elementos\", the same length; element symbols are the same in Portuguese. The _0 twin is the same texture.",
+        "erase": [{"rect": [26, 23, 102, 30], "mode": "dark", "thresh": 30, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [10, 2]}],
+        "text": [{"box": [28, 24, 100, 29], "font": "sans", "text": "Tabela periódica dos elementos", "stretch": True, "color": "#1e1e20"}],
+    },
+    "Poster They Poison Your Mind": {
+        "en": "THEY POISON YOUR MIND (64-px inventory picture of the poster)",
+        "note": "The shipped Portuguese poster, shrunk and tilted onto the picture (only the change is added, so the picture keeps its own shading). The _0 twin is the same texture.",
+        "warp_from": {"from": "Decal_002_poison_mind", "src": [36, 0, 218, 256], "quad": [[8.25, 0.0], [58.25, 0.5], [48.0, 64.25], [5.0, 55.0]]},
+        "text": [],
+    },
+    "Poster Stalburg Steel": {
+        "en": "STALBURG STEEL / STRUCTURING THE FUTURE (64-px inventory picture of the poster)",
+        "note": "The shipped Portuguese poster, shrunk and tilted onto the picture (only the change is added, so the picture keeps its own shading). The _0 twin is the same texture.",
+        "warp_from": {"from": "Decal_002_stalburg_steel", "src": [15, 0, 85, 100], "quad": [[8.5, 0.5], [58.75, 0.25], [48.25, 64.75], [5.75, 54.75]]},
+        "text": [],
+    },
+    "Poster Internets Old": {
+        "en": "INTERNET = FREEDOM / Interne.ts (64-px inventory picture of the poster)",
+        "note": "The shipped Portuguese poster, shrunk and tilted onto the picture (only the change is added, so the picture keeps its own shading). The _0 twin is the same texture.",
+        "warp_from": {"from": "decal_002_internets", "src": [19, 0, 109, 128], "quad": [[8.75, 0.5], [58.0, 1.0], [48.75, 65.0], [5.0, 54.5]]},
+        "text": [],
+    },
+    "Bulletin_board_001": {
+        "en": "ARE YOU / THE NE[XT]... (brown poster on a corkboard atlas; the other notes stay)",
+        "note": "Only the brown poster with the face (user): \"Você é / o próx[imo]...\", cut off by the same corner as THE NE...; the top word (a name) and the tiny line stay.",
+        "erase": [{"rect": [126, 229, 164, 246], "mode": "color", "thresh": 70, "k": 7, "grain": 0, "bg": "#604030", "grow": 1, "isolate": True, "scatter": [8, 4], "exclude_dark": 40}],
+        "text": [{"pixel": "call", "box": [128, 230, 160, 234], "baselines": [234], "text": "VOCÊ É", "gap": 1, "space": 3, "align": "left", "color": "#d0dcd0"},
+                 {"pixel": "call", "box": [128, 239, 170, 243], "baselines": [243], "text": "O PRÓXIMO", "gap": 1, "space": 3, "align": "left", "color": "#d0dcd0", "hide": [[157, 236], [155, 240], [153, 244], [152, 247], [170, 247], [170, 236]]}],
+    },
 }
 
 # Review batches: each is checked by the user, texture by texture, against the original.
@@ -2410,6 +2537,7 @@ BATCHES = {
     "15": ["Decal_003_graffiti_alcohol", "Decal_003_graffiti_welcome_open_sewer", "Decal_002_graffiti_5_0", "painting_004_skin13", "Door_004_sign_crazy_neighbor", "Decal_002_security", "Decal_002_skin30", "scratchcard_cabinet_001", "telephone_booth_001", "icecream_freezer_001", "plastic_chair_001_sign", "Decal_002_beauty_salon", "bottle_recycling_machine_001", "bottle_recycling_machine_001_e"],
     "16": ["vending_machine_003_moca_cola", "vending_machine_003_moca_cola_e", "bus_001_linescreen", "vending_machine_display_007", "vending_machine_display_007_e", "vending_machine_display_generic", "tv_004_screen_on_elström", "shroom_extract_machine_001", "newspaper_stand_001", "Sign Biohazard"],
     "17": ["Decal_002_poster_way_up", "Decal_002_poster_miner", "Decal_002_poster_way_up_2", "Decal_002_missing", "Decal_002_stalburg_steel", "Decal_002_poison_mind", "decal_002_internets", "brochure_stand_001_contract_work", "Decal_002_the_engineer", "Decal_002_the_engineer_autographed", "Decal_002_osmo_olut"],
+    "18": ["Decal_002_skin26", "Decal_002_therapy", "Decal_002_kebab", "Decal_002_skin25", "Decal_002_poster_hawaii", "Decal_002_skin24", "brochure_stand_001_pharmacy", "brochure_stand_001", "Decal_002_skin31", "Decal_002_periodic_table", "Poster They Poison Your Mind", "Poster Stalburg Steel", "Poster Internets Old", "Bulletin_board_001"],
 }
 
 NUMBERS = {}
