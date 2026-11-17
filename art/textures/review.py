@@ -143,7 +143,7 @@ button {{ padding:6px 12px; border-radius:4px; border:1px solid var(--line); bac
 <header><h1>Texture review, batch {batch}</h1>
 <p>Each texture next to the game's original, enlarged with hard pixels so every change shows. "Smooth" switches to
 filtered scaling, closer to what the game draws at a distance. Pick a decision per texture; the summary at the bottom
-is what to paste back into the chat. If picking a decision doesn't update the summary box (scripts
+is what to send back. If picking a decision doesn't update the summary box (scripts
 blocked in this viewer), type approve / redo / keep after each line of the box instead.</p></header>
 <div class="bar"><label><input type="checkbox" id="smooth"> Smooth</label><span id="count"></span></div>
 {"".join(cards)}

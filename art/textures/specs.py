@@ -1532,13 +1532,13 @@ SPECS = {
     },
     "Market_sign_002_ankea_d": {
         "en": "ANKEA bistro / meatballs (poster)",
-        "note": "bistro stays as in the original (the user's call); \"almôndegas\" kept as flat as meatballs.",
+        "note": "bistro stays as in the original (the reviewer's call); \"almôndegas\" kept as flat as meatballs.",
         "erase": [{"rect": [5, 94, 107, 124], "mode": "light", "thresh": 25, "k": 11, "grain": 2, "isolate": True, "scatter": [6, 4]}],
         "text": [{"box": [6, 103, 106, 122], "font": "lato", "text": "almôndegas", "stretch": True, "shear": 0.18, "color": "#c4c6cc"}],
     },
     "farm_sign_001": {
         "en": "KURAHAARA BROTHERS / FARMING COOPERATIVE (painted sign)",
-        "note": "\"Irmãos Kurahaara\" as in the game text. Uneven hand-painted pixel capitals like the original. Clean plate by the user (art/textures/clean/).",
+        "note": "\"Irmãos Kurahaara\" as in the game text. Uneven hand-painted pixel capitals like the original. Clean plate by the reviewer (art/textures/clean/).",
         "erase": [{"rect": [34, 20, 470, 52], "mode": "light", "thresh": 20, "k": 15, "grain": 2, "isolate": True, "scatter": [12, 6]}, {"rect": [56, 64, 462, 114], "mode": "light", "thresh": 20, "k": 15, "grain": 2, "isolate": True, "scatter": [12, 6]}],
         "alpha": {"erase": [{"rect": [36, 10, 462, 60], "color": "#000000"}, {"rect": [56, 60, 448, 118], "color": "#000000"}], "letters": 255},
         "text": [{"box": [40, 22, 450, 50], "font": "hand", "text": "IRMÃOS KURAHAARA", "stretch": True, "pixelate": 2, "mottle": 10, "color": "#829856"},
@@ -1948,7 +1948,7 @@ SPECS = {
     },
     "sign_006_plants": {
         "en": "Decorative / Plants & / Pots (green slab letters on wood)",
-        "note": "\"Plantas ornamentais e vasos\" (ornamental as in the game text's seeds), in Kurale (the user's pick), in the original greens.",
+        "note": "\"Plantas ornamentais e vasos\" (ornamental as in the game text's seeds), in Kurale (the reviewer's pick), in the original greens.",
         "erase": [{"rect": [10, 4, 110, 64], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "lama": True}],
         "text": [{"box": [10, 8, 110, 25], "font": "kurale", "text": "Plantas", "size": 16.5, "outline": [1, "#084d00"], "color": "#4a8242", "mottle": 6},
                  {"box": [10, 26, 110, 43], "font": "kurale", "text": "Ornamentais", "size": 16.5, "outline": [1, "#084d00"], "color": "#4a8242", "mottle": 6},
@@ -2002,7 +2002,7 @@ SPECS = {
     },
     "street_sign_001_power_company": {
         "en": "Get your / electricity / contract here! (chalk on a blackboard)",
-        "note": "\"Faça aqui seu contrato de energia!\" in Caveat (the user's pick), one size for all lines; the badge and arrow stay.",
+        "note": "\"Faça aqui seu contrato de energia!\" in Caveat (the reviewer's pick), one size for all lines; the badge and arrow stay.",
         "erase": [{"rect": [132, 64, 246, 126], "mode": "light", "thresh": 30, "k": 9, "grain": 2, "isolate": True, "scatter": [6, 3]}],
         "text": [{"box": [136, 66, 246, 85], "font": "caveat", "text": "Faça aqui seu", "size": 23.5, "ink": "letters", "stroke": 0.3},
                  {"box": [136, 86, 246, 105], "font": "caveat", "text": "contrato de", "size": 23.5, "ink": "letters", "stroke": 0.3},
@@ -2018,7 +2018,7 @@ SPECS = {
     },
     "Decal_003_rob_in": {
         "en": "ROB-IN / BUILD / AND / REPAIR (red pixel letters on yellow boards, two builders)",
-        "note": "Rob-In (name) stays; \"Obras e reparos\" (the user's pick over the game text's longer \"Construções\") in the sign's own chunky pixel capitals.",
+        "note": "Rob-In (name) stays; \"Obras e reparos\" (the reviewer's pick over the game text's longer \"Construções\") in the sign's own chunky pixel capitals.",
         "erase": [{"rect": [62, 66, 202, 100], "mode": "color", "thresh": 80, "k": 7, "grain": 0, "only_red": 60, "isolate": True, "scatter": [6, 3]}, {"rect": [84, 108, 172, 143], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "only_red": 40, "isolate": True, "scatter": [6, 3]}, {"rect": [60, 146, 204, 184], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "only_red": 40, "isolate": True, "scatter": [6, 3]}],
         "text": [{"pixel": "rob6", "box": [74, 74, 182, 101], "baselines": [82], "text": "OBRAS", "gap": 1, "stretch": True, "color": "#d81010"},
                  {"pixel": "rob6", "box": [119, 113, 137, 140], "baselines": [121], "text": "E", "stretch": True, "color": "#d81010"},
@@ -2186,7 +2186,7 @@ SPECS = {
     },
     "vending_machine_display_007": {
         "en": "Cheap / Rats / for / sale (machine display with rat drawings)",
-        "note": "\"Ratos baratos à venda\" in thin rounded letters with a hand-inked black outline of varying width, on the user's clean plates (art/textures/clean/); the rats stay. The gloss has its own words in rough brush capitals (CHEAP RATS FOR SALE!), now RATOS BARATOS À VENDA! in the same places.",
+        "note": "\"Ratos baratos à venda\" in thin rounded letters with a hand-inked black outline of varying width, on the reviewer's clean plates (art/textures/clean/); the rats stay. The gloss has its own words in rough brush capitals (CHEAP RATS FOR SALE!), now RATOS BARATOS À VENDA! in the same places.",
         "erase": [],
         "alpha": {"erase": []},
         "text": [{"box": [8, 16, 132, 52], "font": "fredoka", "text": "Ratos", "stretch": True, "outline": [4, "#140e0c"], "outline_vary": [1.5, 2.5, 1.5], "color": "#853d39", "ink_texture": 0.5, "mottle": 6, "weight": 300},
@@ -2236,7 +2236,7 @@ SPECS = {
     },
     "Sign Biohazard": {
         "en": "BIOHAZARD (sign with the symbol)",
-        "note": "\"Infectante\" (the Brazilian label for biohazard waste; user's pick over \"biorrisco\") in the sign's own letters (C, E, F, N, T drawn to match). RISCO BIOLÓGICO does not fit a 64-px sign. The frame stays.",
+        "note": "\"Infectante\" (the Brazilian label for biohazard waste; reviewer's pick over \"biorrisco\") in the sign's own letters (C, E, F, N, T drawn to match). RISCO BIOLÓGICO does not fit a 64-px sign. The frame stays.",
         "erase": [{"rect": [3, 44, 61, 53], "mode": "dark", "thresh": 25, "k": 9, "grain": 0, "grow": 1, "scatter": [30, 8], "sample_min": 50}],
         "text": [{"pixel": "bio", "box": [3, 45, 61, 51], "baselines": [51], "text": "INFECTANTE", "gap": 2, "color": "#1f1805"}],
     },
@@ -2295,7 +2295,7 @@ SPECS = {
     },
     "Decal_002_poster_way_up_2": {
         "en": "THINK POSITIVELY / WHEN YOU ARE AT / THE BOTTOM / THE ONLY WAY IS / UP! (poster with a face)",
-        "note": "Same words as the pixel version: \"Pense positivo / quando se está no / fundo, / o único caminho é / subir!\", on the user's clean plate (art/textures/clean/), with the soft dark halo redrawn.",
+        "note": "Same words as the pixel version: \"Pense positivo / quando se está no / fundo, / o único caminho é / subir!\", on the reviewer's clean plate (art/textures/clean/), with the soft dark halo redrawn.",
         "erase": [],
         "text": [{"box": [62, 78, 196, 90], "font": "sans-bold", "text": "PENSE POSITIVO", "baseline": 89, "size": 13, "color": "#dcdad6", "shadow": [1, 1, "#5e5b45"], "halo": [1.6, "#2a281c", 1.1, 1, 1], "squeeze": 0.92},
                  {"box": [62, 92, 196, 104], "font": "sans-bold", "text": "QUANDO SE ESTÁ NO", "baseline": 103, "size": 13, "color": "#dcdad6", "shadow": [1, 1, "#5e5b45"], "halo": [1.6, "#2a281c", 1.1, 1, 1], "squeeze": 0.92},
@@ -2336,7 +2336,7 @@ SPECS = {
     },
     "brochure_stand_001_contract_work": {
         "en": "BLUEPRINTS & BLUEPRINTS / EVERYTHING OK? / We'll fix it! (three brochures on a stand)",
-        "note": "Only We'll fix it! is translated (user, batch 17: the other two brochures stay): \"A gente faz já!\" (we'll do it right away), short lines like We'll / fix / it! so the woman stays clear; the tiny print blocks stay.",
+        "note": "Only We'll fix it! is translated (reviewer, batch 17: the other two brochures stay): \"A gente faz já!\" (we'll do it right away), short lines like We'll / fix / it! so the woman stays clear; the tiny print blocks stay.",
         "erase": [{"rect": [86, 1, 117, 15], "mode": "bright", "thresh": 215, "k": 7, "grain": 0, "grow": 1, "lama": True}, {"rect": [86, 15, 108, 40], "mode": "bright", "thresh": 215, "k": 7, "grain": 0, "grow": 1, "lama": True}],
         "text": [{"box": [88, 2, 116, 14], "font": "roboto-cond-bold", "text": "A gente", "baseline": 13, "color": "#ffffff", "align": "left", "size": 13},
                  {"box": [88, 16, 116, 28], "font": "roboto-cond-bold", "text": "faz", "baseline": 28, "color": "#ffffff", "align": "left", "size": 13},
@@ -2404,7 +2404,7 @@ SPECS = {
     # ---- Batch 18: tier 2 posters, brochures and poster icons ----
     "Decal_002_skin26": {
         "en": "THE PINEAPPLE / WINNER OF 10 STARBURGER AWARDS! / JIMMY P. APPLE (book poster)",
-        "note": "\"O abacaxi\", \"Vencedor de 10 prêmios Starburger!\"; the author's pun name Jimmy P. Apple (pineapple) becomes Juca A. Bacaxi (abacaxi; Juca for Jimmy, user). Soft letters like the original.",
+        "note": "\"O abacaxi\", \"Vencedor de 10 prêmios Starburger!\"; the author's pun name Jimmy P. Apple (pineapple) becomes Juca A. Bacaxi (abacaxi; Juca for Jimmy, reviewer). Soft letters like the original.",
         "erase": [{"rect": [2, 7, 87, 18], "mode": "color", "thresh": 110, "k": 7, "grain": 0, "bg": "#86b4dc", "grow": 1, "lama": True}, {"rect": [28, 22, 88, 43], "mode": "dark", "thresh": 35, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 2]}, {"rect": [1, 114, 88, 128], "mode": "dark", "thresh": 35, "k": 11, "grain": 0, "grow": 1, "lama": True}],
         "text": [{"box": [3, 8, 60, 17], "font": "archivo-black", "text": "O ABACAXI", "stretch": True, "color": "#bdaa63"},
                  {"box": [31, 24, 85, 28], "font": "archivo-black", "text": "VENCEDOR DE 10", "stretch": True, "color": "#101820"},
@@ -2502,7 +2502,7 @@ SPECS = {
     },
     "Bulletin_board_001": {
         "en": "ARE YOU / THE NE[XT]... (brown poster on a corkboard atlas; the other notes stay)",
-        "note": "Only the brown poster with the face (user): \"Você é / o próx[imo]...\", cut off by the same corner as THE NE...; the top word (a name) and the tiny line stay.",
+        "note": "Only the brown poster with the face (reviewer): \"Você é / o próx[imo]...\", cut off by the same corner as THE NE...; the top word (a name) and the tiny line stay.",
         "erase": [{"rect": [126, 229, 164, 246], "mode": "color", "thresh": 70, "k": 7, "grain": 0, "bg": "#604030", "grow": 1, "isolate": True, "scatter": [8, 4], "exclude_dark": 40}],
         "text": [{"pixel": "call", "box": [128, 230, 160, 234], "baselines": [234], "text": "VOCÊ É", "gap": 1, "space": 3, "align": "left", "color": "#d0dcd0"},
                  {"pixel": "call", "box": [128, 239, 170, 243], "baselines": [243], "text": "O PRÓXIMO", "gap": 1, "space": 3, "align": "left", "color": "#d0dcd0", "hide": [[157, 236], [155, 240], [153, 244], [152, 247], [170, 247], [170, 236]]}],
@@ -2769,7 +2769,7 @@ SPECS = {
     },
     "poster_kino_002": {
         "en": "Hobopolis / The reality for some / A SOUL WRENCHING FILM / FOR OTHERS / December 23. (cinema poster)",
-        "note": "Hobopolis (hobo + polis) becomes Cracolândia (user's pick, the nickname of São Paulo's crack district) in Rock Salt, a loopy marker hand like the original's; \"A realidade para alguns / um filme de partir a alma / para outros / 23 de dezembro.\" Hard-edged letters like the original; the tiny side notes stay.",
+        "note": "Hobopolis (hobo + polis) becomes Cracolândia (reviewer's pick, the nickname of São Paulo's crack district) in Rock Salt, a loopy marker hand like the original's; \"A realidade para alguns / um filme de partir a alma / para outros / 23 de dezembro.\" Hard-edged letters like the original; the tiny side notes stay.",
         "erase": [{"rect": [42, 4, 212, 70], "mode": "near", "thresh": 150, "k": 7, "grain": 0, "bg": "#e2ad00", "grow": 1, "lama": True}, {"rect": [60, 196, 200, 233], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [12, 3]}, {"rect": [96, 234, 162, 246], "mode": "near", "thresh": 150, "k": 7, "grain": 0, "bg": "#ffc501", "grow": 1, "isolate": True, "scatter": [10, 3]}],
         "text": [{"box": [48, 7, 206, 66], "font": "rocksalt", "text": "Cracolândia", "stretch": True, "crisp": 0.5, "stroke": 0.8, "color": "#e2ad00"},
                  {"box": [82, 199, 175, 207], "font": "sans-bold", "text": "A realidade para alguns", "stretch": True, "crisp": 0.5, "color": "#ffffff"},
@@ -2897,7 +2897,7 @@ SPECS = {
     },
     "magazine_001_skin3": {
         "en": "HOUSE (home magazine cover)",
-        "note": "Not Casa (user): a name for a magazine about the home. LAR (home, as in lar doce lar) in HOUSE's own 4-wide capitals, left-aligned like HOUSE (user: less wide); REFORMA (renovation, the DIY reading) is on the page as the other option.",
+        "note": "Not Casa (reviewer): a name for a magazine about the home. LAR (home, as in lar doce lar) in HOUSE's own 4-wide capitals, left-aligned like HOUSE (reviewer: less wide); REFORMA (renovation, the DIY reading) is on the page as the other option.",
         "erase": [{"rect": [32, 1, 61, 8], "mode": "dark", "thresh": 60, "k": 5, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}],
         "text": [{"pixel": "mag-house", "box": [33, 2, 61, 7], "baselines": [6], "text": "LAR", "align": "left", "gap": 1, "ink": "letters"}],
         "alts": {"REFORMA": {"text": "REFORMA", "pixel": "mag", "box": [32, 2, 61, 7], "align": "center"}},
@@ -2910,7 +2910,7 @@ SPECS = {
     },
     "magazine_001_skin2": {
         "en": "HAMSTER / FOOD!!! (magazine covers: a hamster, a burger)",
-        "note": "HAMSTER stays (same word, user); FOOD!!! is COMIDA!!! in the cover's 6-row capitals.",
+        "note": "HAMSTER stays (same word, reviewer); FOOD!!! is COMIDA!!! in the cover's 6-row capitals.",
         "erase": [{"rect": [32, 1, 61, 9], "mode": "bright", "thresh": 170, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [4, 0]}],
         "text": [{"pixel": "mag6", "box": [32, 2, 61, 7], "baselines": [7], "text": "COMIDA!!!", "gap": 1, "ink": "letters"}],
     },
@@ -2926,7 +2926,7 @@ SPECS = {
     },
     "magazine_001_skin5": {
         "en": "STOLLAR / SWAMP (magazine covers)",
-        "note": "Stollar (a name) stays; SWAMP is PÂNTANO in the cover's 7-row capitals, the accent in the green strip above; T and A share their top bar so the word clears the left edge (user).",
+        "note": "Stollar (a name) stays; SWAMP is PÂNTANO in the cover's 7-row capitals, the accent in the green strip above; T and A share their top bar so the word clears the left edge (reviewer).",
         "erase": [{"rect": [31, 3, 60, 10], "mode": "bright", "thresh": 200, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}],
         "text": [{"pixel": "mag7", "box": [32, 1, 60, 9], "baselines": [9], "text": "PÂNŦNO", "gap": 1, "ink": "letters"}],
     },
@@ -2996,7 +2996,7 @@ SPECS = {
     },
     "bookset_b": {
         "en": "Book covers on the police station shelf (the sheet is stored upside down): PLAN F, ALL YOU NEED / TO KNOW / ABOUT / STALBURG, THE LEGEND OF THE / STALBURG / UNDERGROUND, CHEMISTRY, THE TUNNEL OF / WATER TREES",
-        "note": "Only the clearly readable titles (user): \"Plano F\", \"Tudo o que / precisa saber / sobre / Stalburg\", \"A lenda do / Submundo / de Stalburg\" (the game's name for the Stalburg Underground cult, user), \"Química\", \"O túnel das / árvores de água\" (glossary: Túnel das Árvores de Água). Stalburg and the authors stay; the blurred titles (The Office Survival Guide, 6 Summer Nights, The Pineapple, Lost in Mountains), the spines and the blurbs stay as they are. Coordinates are on the sheet turned the right way up.",
+        "note": "Only the clearly readable titles (reviewer): \"Plano F\", \"Tudo o que / precisa saber / sobre / Stalburg\", \"A lenda do / Submundo / de Stalburg\" (the game's name for the Stalburg Underground cult, reviewer), \"Química\", \"O túnel das / árvores de água\" (glossary: Túnel das Árvores de Água). Stalburg and the authors stay; the blurred titles (The Office Survival Guide, 6 Summer Nights, The Pineapple, Lost in Mountains), the spines and the blurbs stay as they are. Coordinates are on the sheet turned the right way up.",
         "rot180": True,
         "erase": [{"rect": [40, 118, 66, 127], "mode": "color", "thresh": 45, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}, {"rect": [39, 209, 70, 227], "mode": "color", "thresh": 45, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}, {"rect": [40, 162, 71, 166], "mode": "color", "thresh": 40, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [16, 0]}, {"rect": [40, 166, 71, 172], "mode": "color", "thresh": 40, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [16, 0]}, {"rect": [40, 172, 71, 177], "mode": "color", "thresh": 40, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [16, 0]}, {"rect": [110, 210, 145, 216], "color": "#020202"}, {"rect": [181, 209, 216, 222], "mode": "color", "thresh": 40, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [14, 1]}],
         "text": [{"box": [41, 120, 66, 125], "font": "sans-bold", "text": "PLANO", "stretch": True, "color": "#c0b256"},
@@ -3019,14 +3019,14 @@ SPECS = {
     },
     "bottle_set_001_0": {
         "en": "SOAP (small label on a set of bottles; the word runs down the label)",
-        "note": "SABÃO (user; SABONETE is too long) in 3-wide 5-row capitals, no longer than SOAP (user: smaller), turned like SOAP. Ships as bottle_set_001.",
+        "note": "SABÃO (reviewer; SABONETE is too long) in 3-wide 5-row capitals, no longer than SOAP (reviewer: smaller), turned like SOAP. Ships as bottle_set_001.",
         "game_name": "bottle_set_001",
         "erase": [{"rect": [36, 50, 45, 73], "mode": "dark", "thresh": 40, "k": 5, "grain": 0, "grow": 0, "isolate": True, "scatter": [0, 3]}],
         "text": [{"pixel": "soap3", "box": [31, 57, 49, 65], "baselines": [64], "text": "SABÃO", "gap": 1, "align": "left", "rotate": -90, "color": "#101010"}],
     },
     "hot_dog_label": {
         "en": "HOTDOG (label)",
-        "note": "DOGÃO (user; Brazilian slang for a big hot dog) in the label's own 11-row letters (D, O and G are the label's).",
+        "note": "DOGÃO (reviewer; Brazilian slang for a big hot dog) in the label's own 11-row letters (D, O and G are the label's).",
         "erase": [{"rect": [12, 19, 51, 32], "mode": "bright", "thresh": 200, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}],
         "text": [{"pixel": "hotdog", "box": [12, 17, 51, 31], "baselines": [30], "text": "DOGÃO", "gap": 1, "color": "#ffffff"}],
     },
@@ -3061,7 +3061,7 @@ SPECS = {
     },
     "asbestos_bag_002": {
         "en": "STONEFLUFF x4 (asbestos bag: two diagonal, two down the stripes)",
-        "note": "FIBRA MINERAL (user) in the bag's thin pixel capitals, on the same slants.",
+        "note": "FIBRA MINERAL (reviewer) in the bag's thin pixel capitals, on the same slants.",
         "erase": [{"rect": [0, 0, 125, 105], "mode": "bright", "thresh": 180, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [4, 4], "poly": [[16, 17], [30, 3], [106, 79], [92, 95]]}, {"rect": [0, 98, 125, 200], "mode": "bright", "thresh": 180, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [4, 4], "poly": [[14, 113], [28, 99], [104, 175], [90, 191]]}, {"rect": [183, 36, 194, 100], "mode": "bright", "thresh": 180, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [2, 4]}, {"rect": [183, 158, 194, 224], "mode": "bright", "thresh": 180, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [2, 4]}],
         "text": [{"pixel": "fluff", "box": [7, 45, 115, 59], "baselines": [57], "text": "FIBRA MINERAL", "gap": 1, "space": 3, "stretch": True, "rotate": -45, "ink": "letters"},
                  {"pixel": "fluff", "box": [5, 141, 113, 155], "baselines": [153], "text": "FIBRA MINERAL", "gap": 1, "space": 3, "stretch": True, "rotate": -45, "ink": "letters"},
@@ -3076,7 +3076,7 @@ SPECS = {
     },
     "Bag_002_rat_baits": {
         "en": "RAT BAITS x2 (paper bag)",
-        "note": "\"Iscas para / ratos\" on two lines (user), the bait sticker moved down to make room.",
+        "note": "\"Iscas para / ratos\" on two lines (reviewer), the bait sticker moved down to make room.",
         "copy": [{"from": [12, 90, 38, 98], "to": [12, 62]}, {"from": [64, 90, 90, 98], "to": [64, 62]}, {"from": [14, 64, 36, 83], "to": [14, 70]}, {"from": [66, 64, 88, 83], "to": [66, 70]}],
         "erase": [{"rect": [2, 49, 50, 65], "mode": "dark", "thresh": 25, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 2]}, {"rect": [53, 49, 101, 65], "mode": "dark", "thresh": 25, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 2]}],
         "text": [{"box": [4, 50, 47, 57], "font": "hand", "text": "ISCAS PARA", "stretch": True, "color": "#363230", "ink_texture": 0.4, "mottle": 6},
@@ -3102,7 +3102,7 @@ SPECS = {
     },
     "Bag_002_dog_food": {
         "en": "WOOF-WOOF / A complete food / for adult dogs / LAMB & RICE (dog food bag; WOOF-WOOF again on the back)",
-        "note": "WOOF-WOOF is AU-AU (user: a Brazilian name, the dog's bark); \"Alimento completo / para cães adultos\", \"CORDEIRO E ARROZ\".",
+        "note": "WOOF-WOOF is AU-AU (reviewer: a Brazilian name, the dog's bark); \"Alimento completo / para cães adultos\", \"CORDEIRO E ARROZ\".",
         "erase": [{"rect": [8, 86, 92, 99], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 2]}, {"rect": [8, 102, 92, 124], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 2]}, {"rect": [7, 130, 93, 144], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 2]}, {"rect": [156, 99, 198, 108], "mode": "dark", "thresh": 10, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}],
         "text": [{"box": [28, 88, 71, 97], "font": "sans", "text": "AU-AU", "stretch": True, "color": "#f2f2f2"},
                  {"box": [12, 104, 88, 112], "font": "sans", "text": "Alimento completo", "stretch": True, "color": "#f2f2f2"},
@@ -3112,7 +3112,7 @@ SPECS = {
     },
     "paint_bucket_0": {
         "en": "TARFELL / PAINT (paint bucket, a big and a small label)",
-        "note": "Tarfell (brand) stays; PAINT is TINTA on both ovals, centred on each oval's middle row and column (user). Ships as paint_bucket.",
+        "note": "Tarfell (brand) stays; PAINT is TINTA on both ovals, centred on each oval's middle row and column (reviewer). Ships as paint_bucket.",
         "game_name": "paint_bucket",
         "erase": [{"rect": [15, 139, 47, 149], "mode": "color", "thresh": 120, "k": 7, "grain": 0, "bg": "#cf8a2c", "grow": 0, "isolate": True, "scatter": [5, 1]}, {"rect": [13, 219, 45, 228], "mode": "color", "thresh": 120, "k": 7, "grain": 0, "bg": "#cf8a2c", "grow": 0, "isolate": True, "scatter": [5, 1]}],
         "text": [{"box": [15, 139, 42, 146], "font": "patua", "text": "TINTA", "stretch": True, "color": "#1e1b16"},
@@ -3122,7 +3122,7 @@ SPECS = {
     # ---- Batch 23: tier 4 packaging and labels (second half) ----
     "sack_001_ammonium_nitrate": {
         "en": "AMMONIUM / NITRATE x2 (25 KG sack)",
-        "note": "\"Nitrato de / amônio\" as in the game text, in smooth bold capitals like the original (user: anti-aliased); 25KG stays.",
+        "note": "\"Nitrato de / amônio\" as in the game text, in smooth bold capitals like the original (reviewer: anti-aliased); 25KG stays.",
         "erase": [{"rect": [5, 59, 55, 77], "mode": "dark", "thresh": 40, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [10, 3], "avoid_thresh": 25}, {"rect": [70, 59, 120, 77], "mode": "dark", "thresh": 40, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [10, 3], "avoid_thresh": 25}],
         "text": [{"box": [6, 61, 49, 67], "font": "sans-bold", "text": "NITRATO DE", "stretch": True, "color": "#262626"},
                  {"box": [13, 68, 41, 76], "font": "sans-bold", "text": "AMÔNIO", "stretch": True, "color": "#262626"},
@@ -3147,13 +3147,13 @@ SPECS = {
     },
     "bottle_001_label_moonshine": {
         "en": "MOON / SHINE (32-px bottle label with a skull)",
-        "note": "A 52 (user: smaller; a nod to the 51 cachaça brand; CACHA / ÇA broke badly on two lines) centred over the skull in the original letters' colour, which stays.",
+        "note": "A 52 (reviewer: smaller; a nod to the 51 cachaça brand; CACHA / ÇA broke badly on two lines) centred over the skull in the original letters' colour, which stays.",
         "erase": [{"rect": [4, 2, 25, 15], "mode": "dark", "thresh": 40, "k": 5, "grain": 0, "grow": 0, "isolate": True, "scatter": [4, 0]}],
         "text": [{"pixel": "mid52", "box": [4, 3, 24, 13], "baselines": [12], "text": "52", "gap": 2, "color": "#212121"}],
     },
     "selection_alcohol": {
         "en": "Otto's / XXX / MOONSHINE (artwork; the letters are cut out of the label)",
-        "note": "Otto's and XXX stay; MOONSHINE is CACHAÇA (game text) in a slab serif, lighter than the first try and flatter and wider like MOONSHINE's squat letters, its ends raised a little, worn see-through like the old letters (user), cut out of the label the same way.",
+        "note": "Otto's and XXX stay; MOONSHINE is CACHAÇA (game text) in a slab serif, lighter than the first try and flatter and wider like MOONSHINE's squat letters, its ends raised a little, worn see-through like the old letters (reviewer), cut out of the label the same way.",
         "erase": [{"rect": [192, 229, 334, 249], "color": "#ffffff"}],
         "alpha": {"erase": [{"rect": [192, 228, 334, 249], "mode": "dark", "k": 9, "thresh": 100, "grow": 1, "isolate": True, "scatter": [4, 2]}]},
         "text": [{"box": [196, 224, 330, 250], "font": "coustard", "text": "CACHAÇA", "size": 17, "xscale": 1.35, "tracking": 0.05, "stroke": 0.45, "circle": {"center": [262, -455], "radius": 700, "mid": 180, "outward": False}, "color": "#1c1c1c", "alpha": 0, "wear": 0.7}],
@@ -3203,7 +3203,7 @@ SPECS = {
     },
     "postcard_001_parcel": {
         "en": "YOU GOT / PARCEL! / POST (parcel notice card)",
-        "note": "\"Chegou / encomenda!\" (encomenda as in the game text) in the card's thin capitals (C and O 3 wide), right-aligned 3 px in from the card's edge (user); POST is CORREIO.",
+        "note": "\"Chegou / encomenda!\" (encomenda as in the game text) in the card's thin capitals (C and O 3 wide), right-aligned 3 px in from the card's edge (reviewer); POST is CORREIO.",
         "erase": [{"rect": [40, 1, 91, 24], "mode": "bright", "thresh": 180, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}, {"rect": [7, 55, 24, 61], "mode": "dark", "thresh": 40, "k": 5, "grain": 0, "grow": 0, "isolate": True, "scatter": [4, 0]}],
         "text": [{"pixel": "thin9p", "box": [40, 3, 88, 11], "baselines": [11], "text": "CHEGOU", "gap": 1, "align": "right", "color": "#f4f4f4"},
                  {"pixel": "thin9p", "box": [40, 14, 88, 22], "baselines": [22], "text": "ENCOMENDA!", "gap": 1, "align": "right", "color": "#f4f4f4"},
@@ -3237,7 +3237,7 @@ SPECS = {
     },
     "Decal_003_aziz": {
         "en": "AZIZ'S / HAMBURGER & KEBAB (shop sign; the letters live in the alpha, the colour underneath is bleed)",
-        "note": "The game calls the place Kebab & Hambúrguer do Aziz: AZIZ (no 's in Portuguese) between the stars and KEBAB & HAMBÚRGUER between the green rules, in Trajan-like capitals drawn into the alpha; their colour follows the old letters' grey sheen (a left-to-right ramp) on a black ground, so the letters show in the colour channel too (user). Stars and rules stay.",
+        "note": "The game calls the place Kebab & Hambúrguer do Aziz: AZIZ (no 's in Portuguese) between the stars and KEBAB & HAMBÚRGUER between the green rules, in Trajan-like capitals drawn into the alpha; their colour follows the old letters' grey sheen (a left-to-right ramp) on a black ground, so the letters show in the colour channel too (reviewer). Stars and rules stay.",
         "cutout": True,
         "erase": [{"rect": [68, 99, 189, 135], "color": "#000000"}, {"rect": [14, 139, 239, 157], "color": "#000000"}],
         "alpha": {"erase": [{"rect": [68, 99, 189, 135], "color": "#000000"}, {"rect": [14, 139, 239, 157], "color": "#000000"}]},
@@ -3246,8 +3246,8 @@ SPECS = {
     },
 }
 
-# Review batches: each is checked by the user, texture by texture, against the original.
-# Textures are numbered #1, #2, ... in the order they appear here, across batches; the user refers to
+# Review batches: each is checked by the reviewer, texture by texture, against the original.
+# Textures are numbered #1, #2, ... in the order they appear here, across batches; the reviewer refers to
 # them by number. Append only: never reorder, remove or insert, or every later number shifts.
 # "game_name": AssetRipper exports a second texture with the same name as <name>_0; in the game both are called
 # game_name, and the plugin matches that name, so the shipped file uses it.

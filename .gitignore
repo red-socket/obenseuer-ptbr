@@ -1,8 +1,8 @@
-# Internal planning, research and Nexus listings: never published (see CLAUDE.md).
+# Internal planning, research and the Nexus listing draft: never published.
 .internal/
 NEXUS.md
 
-# Local-only workspace rules.
+# Local-only assistant workspace files.
 CLAUDE.md
 .claude/
 
