@@ -3244,6 +3244,27 @@ SPECS = {
         "text": [{"box": [0, 0, 256, 140], "font": "cinzel", "text": "AZIZ", "size": 42, "baseline": 132, "stroke": 1.0, "ramp": [[77, "#5f655f"], [92, "#676d67"], [107, "#777d77"], [122, "#7c827c"], [137, "#909690"], [152, "#9ca29c"], [167, "#9ca29c"], [182, "#949a94"]], "alpha": 255},
                  {"box": [17, 139, 237, 155], "font": "cinzel", "text": "KEBAB & HAMBÚRGUER", "stretch": True, "stroke": 0.5, "ramp": [[22, "#4f554f"], [37, "#4b514b"], [52, "#4f554f"], [67, "#575d57"], [82, "#636963"], [97, "#777d77"], [112, "#808680"], [127, "#909690"], [142, "#9ca29c"], [157, "#989e98"], [172, "#8c928c"], [187, "#808680"], [202, "#6f756f"], [217, "#636963"], [232, "#575d57"]], "alpha": 255}],
     },
+
+
+    # ---- Batch 25: Dr. Pena's sign and the spray-painted contract work sign ----
+    "sign_drpena_001": {
+        "en": "DR. PENA MD + / MEDICAL EXPERT (Dr. Pena's sign; the letters are cut out of the alpha)",
+        "note": "Dr. Pena MD stays (the game keeps the name); MEDICAL EXPERT is MÉDICO ESPECIALISTA in chunky brush capitals like the original, white and hard-edged.",
+        "cutout": True,
+        "erase": [{"rect": [0, 40, 256, 64], "color": "#ffffff"}],
+        "alpha": {"erase": [{"rect": [0, 40, 256, 64], "color": "#000000"}]},
+        "text": [{"box": [12, 41, 244, 61], "font": "gochi", "text": "MÉDICO ESPECIALISTA", "stretch": True, "crisp": 0.5, "color": "#ffffff", "ink_texture": 0.35, "mottle": 12, "alpha": 255}],
+    },
+    "Decal_003_skin19": {
+        "en": "TENEMENT CONTRACT WORK -> (spray-painted, below Dr. Pena's sign; the game tints it yellow)",
+        "note": "\"Empreiteira / de / prédios\" (the game's name for the business, as on the shipped contract-work sign) in a thin spray scrawl like the original: big EMPREITEIRA, DE over PRÉDIOS; the arrow stays.",
+        "cutout": True,
+        "erase": [{"rect": [0, 106, 217, 156], "color": "#c6c7c6"}],
+        "alpha": {"erase": [{"rect": [0, 106, 217, 156], "color": "#000000"}, {"rect": [217, 108, 235, 130], "color": "#000000"}, {"rect": [217, 130, 225, 137], "color": "#000000"}]},
+        "text": [{"box": [6, 117, 140, 147], "font": "reenie", "text": "EMPREITEIRA", "stretch": True, "stroke": 0.4, "color": "#c6c7c6", "alpha": 255},
+                 {"box": [166, 111, 192, 125], "font": "reenie", "text": "DE", "stretch": True, "stroke": 0.4, "color": "#c6c7c6", "alpha": 255},
+                 {"box": [144, 127, 214, 149], "font": "reenie", "text": "PRÉDIOS", "stretch": True, "stroke": 0.4, "color": "#c6c7c6", "alpha": 255}],
+    },
 }
 
 # Review batches: each is checked by the reviewer, texture by texture, against the original.
@@ -3294,6 +3315,7 @@ BATCHES = {
     "22": ["pill_packet_001_facemasks", "bottle_set_001_0", "hot_dog_label", "trash_bag_001b", "trash_bag_001c", "cardboard_box_013_skin1", "bottle_011_label", "asbestos_bag_002", "asbestos_bag_001", "Bag_002_rat_baits", "postcard_001_spade_of_aces_revealed", "postcard_001_OC_pot_revealed", "Bag_002_dog_food", "paint_bucket_0"],
     "23": ["sack_001_ammonium_nitrate", "sack_001_limestone", "sack_001_gravel", "bottle_001_label_moonshine", "selection_alcohol", "bottle_002_homebrew_beer", "snus_001", "keycard_001_bazaar_jail", "organ_transport_cooler_001", "toilet_paper_16_pack", "toilet_paper_6_pack_rotta", "postcard_001_parcel", "cardboard_box_006-008_b", "trash_bag_001_prison"],
     "24": ["telephone_directory_001", "Decal_003_aziz"],
+    "25": ["sign_drpena_001", "Decal_003_skin19"],
 }
 
 NUMBERS = {}
