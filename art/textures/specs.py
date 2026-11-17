@@ -3147,45 +3147,50 @@ SPECS = {
 
 
 
+
+
+
+
+
+
     # ---- Batch 23: tier 4 packaging and labels (second half) ----
     "sack_001_ammonium_nitrate": {
         "en": "AMMONIUM / NITRATE x2 (25 KG sack)",
-        "note": "\"Nitrato de / amônio\" as in the game text, in the sack's 6-row capitals; 25KG stays.",
-        "erase": [{"rect": [5, 59, 55, 77], "mode": "dark", "thresh": 40, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}, {"rect": [70, 59, 120, 77], "mode": "dark", "thresh": 40, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}],
-        "text": [{"pixel": "sack6", "box": [4, 61, 49, 66], "baselines": [66], "text": "NITRATO DE", "gap": 1, "space": 2, "color": "#262626"},
-                 {"pixel": "sack6", "box": [4, 70, 49, 75], "baselines": [75], "text": "AMÔNIO", "gap": 1, "space": 2, "color": "#262626"},
-                 {"pixel": "sack6", "box": [69, 61, 114, 66], "baselines": [66], "text": "NITRATO DE", "gap": 1, "space": 2, "color": "#262626"},
-                 {"pixel": "sack6", "box": [69, 70, 114, 75], "baselines": [75], "text": "AMÔNIO", "gap": 1, "space": 2, "color": "#262626"}],
+        "note": "\"Nitrato de / amônio\" as in the game text, in smooth bold capitals like the original (user: anti-aliased); 25KG stays.",
+        "erase": [{"rect": [5, 59, 55, 77], "mode": "dark", "thresh": 40, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [10, 3], "avoid_thresh": 25}, {"rect": [70, 59, 120, 77], "mode": "dark", "thresh": 40, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [10, 3], "avoid_thresh": 25}],
+        "text": [{"box": [6, 61, 49, 67], "font": "sans-bold", "text": "NITRATO DE", "stretch": True, "color": "#262626"},
+                 {"box": [13, 68, 41, 76], "font": "sans-bold", "text": "AMÔNIO", "stretch": True, "color": "#262626"},
+                 {"box": [71, 61, 114, 67], "font": "sans-bold", "text": "NITRATO DE", "stretch": True, "color": "#262626"},
+                 {"box": [78, 68, 106, 76], "font": "sans-bold", "text": "AMÔNIO", "stretch": True, "color": "#262626"}],
     },
     "sack_001_limestone": {
         "en": "LIMESTONE x2 (sack)",
-        "note": "CALCÁRIO as in the game text, in the sack's thin 9-row capitals (the accent above).",
+        "note": "CALCÁRIO as in the game text, in the sack's thin 9-row capitals (the accent above), centred under the picture square.",
         "erase": [{"rect": [8, 85, 58, 97], "mode": "bright", "thresh": 180, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}, {"rect": [73, 85, 123, 97], "mode": "bright", "thresh": 180, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}],
-        "text": [{"pixel": "thin9", "box": [10, 85, 50, 95], "baselines": [95], "text": "CALCÁRIO", "gap": 1, "align": "left", "color": "#e6e6e6"},
-                 {"pixel": "thin9", "box": [75, 85, 115, 95], "baselines": [95], "text": "CALCÁRIO", "gap": 1, "align": "left", "color": "#e6e6e6"}],
+        "text": [{"pixel": "thin9", "box": [8, 85, 55, 95], "baselines": [95], "text": "CALCÁRIO", "gap": 1, "color": "#e6e6e6"},
+                 {"pixel": "thin9", "box": [73, 85, 120, 95], "baselines": [95], "text": "CALCÁRIO", "gap": 1, "color": "#e6e6e6"}],
     },
     "sack_001_gravel": {
         "en": "GRAVEL x4 (sack: two labels, and twice on the top, one upside down)",
-        "note": "CASCALHO as in the game text, in the sack's thin capitals; the upside-down copy stays upside down.",
+        "note": "CASCALHO as in the game text, in the sack's thin capitals made 3 wide so the word stays inside the picture square; the upside-down copy stays upside down.",
         "erase": [{"rect": [18, 86, 60, 97], "mode": "bright", "thresh": 180, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}, {"rect": [83, 86, 125, 97], "mode": "bright", "thresh": 180, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}, {"rect": [8, 4, 56, 14], "mode": "bright", "thresh": 180, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}, {"rect": [8, 18, 56, 28], "mode": "bright", "thresh": 180, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}],
-        "text": [{"pixel": "thin9", "box": [20, 87, 60, 95], "baselines": [95], "text": "CASCALHO", "gap": 1, "align": "left", "color": "#e6e6e6"},
-                 {"pixel": "thin9", "box": [85, 87, 125, 95], "baselines": [95], "text": "CASCALHO", "gap": 1, "align": "left", "color": "#e6e6e6"},
-                 {"pixel": "thin8", "box": [10, 5, 49, 13], "baselines": [12], "text": "CASCALHO", "gap": 1, "align": "left", "color": "#e6e6e6"},
-                 {"pixel": "thin8", "box": [10, 19, 49, 27], "baselines": [26], "text": "CASCALHO", "gap": 1, "align": "right", "color": "#e6e6e6", "flip": True}],
+        "text": [{"pixel": "thin9n", "box": [20, 87, 54, 95], "baselines": [95], "text": "CASCALHO", "gap": 1, "color": "#e6e6e6"},
+                 {"pixel": "thin9n", "box": [85, 87, 119, 95], "baselines": [95], "text": "CASCALHO", "gap": 1, "color": "#e6e6e6"},
+                 {"pixel": "thin8n", "box": [10, 5, 49, 13], "baselines": [12], "text": "CASCALHO", "gap": 1, "align": "left", "color": "#e6e6e6"},
+                 {"pixel": "thin8n", "box": [10, 19, 49, 27], "baselines": [26], "text": "CASCALHO", "gap": 1, "align": "right", "color": "#e6e6e6", "flip": True}],
     },
     "bottle_001_label_moonshine": {
         "en": "MOON / SHINE (32-px bottle label with a skull)",
-        "note": "CACHA / ÇA (the game calls moonshine cachaça) in the label's 5-row capitals; the skull stays.",
+        "note": "A big 52 (user: a nod to the 51 cachaça brand; CACHA / ÇA broke badly on two lines) over the skull, which stays.",
         "erase": [{"rect": [4, 2, 25, 15], "mode": "dark", "thresh": 40, "k": 5, "grain": 0, "grow": 0, "isolate": True, "scatter": [4, 0]}],
-        "text": [{"pixel": "mag", "box": [4, 3, 25, 7], "baselines": [7], "text": "CACHA", "gap": 1, "color": "#141414"},
-                 {"pixel": "mag", "box": [4, 9, 25, 13], "baselines": [13], "text": "ÇA", "gap": 1, "color": "#141414"}],
+        "text": [{"pixel": "big52", "box": [4, 3, 25, 13], "baselines": [13], "text": "52", "gap": 2, "color": "#141414"}],
     },
     "selection_alcohol": {
         "en": "Otto's / XXX / MOONSHINE (artwork; the letters are cut out of the label)",
-        "note": "Otto's and XXX stay; MOONSHINE is CACHAÇA (game text) in a heavy slab serif like the original, cut out of the label the same way.",
-        "erase": [{"rect": [192, 228, 334, 249], "mode": "dark", "thresh": 40, "k": 9, "grain": 0, "grow": 1, "isolate": True, "scatter": [4, 2]}],
+        "note": "Otto's and XXX stay; MOONSHINE is CACHAÇA (game text) in a slab serif, lighter than the first try and slightly arched upwards (user), cut out of the label the same way.",
+        "erase": [{"rect": [192, 229, 334, 249], "color": "#ffffff"}],
         "alpha": {"erase": [{"rect": [192, 228, 334, 249], "mode": "dark", "k": 9, "thresh": 100, "grow": 1, "isolate": True, "scatter": [4, 2]}]},
-        "text": [{"box": [201, 230, 323, 244], "font": "alfaslabone", "text": "CACHAÇA", "stretch": True, "color": "#141414", "alpha": 0}],
+        "text": [{"box": [196, 224, 330, 250], "font": "coustard", "text": "CACHAÇA", "size": 19, "tracking": 0.1, "stroke": 0.45, "circle": {"center": [262, 664], "radius": 420, "mid": 0, "outward": True}, "color": "#141414", "alpha": 0}],
     },
     "bottle_002_homebrew_beer": {
         "en": "BEER (homebrew bottle label)",
@@ -3232,10 +3237,10 @@ SPECS = {
     },
     "postcard_001_parcel": {
         "en": "YOU GOT / PARCEL! / POST (parcel notice card)",
-        "note": "\"Chegou / encomenda!\" (encomenda as in the game text) in the card's thin capitals, right-aligned like the original; POST is CORREIO.",
+        "note": "\"Chegou / encomenda!\" (encomenda as in the game text) in the card's thin capitals (C and O 3 wide), right-aligned 3 px in from the card's edge (user); POST is CORREIO.",
         "erase": [{"rect": [40, 1, 91, 24], "mode": "bright", "thresh": 180, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}, {"rect": [7, 55, 24, 61], "mode": "dark", "thresh": 40, "k": 5, "grain": 0, "grow": 0, "isolate": True, "scatter": [4, 0]}],
-        "text": [{"pixel": "thin9", "box": [40, 3, 91, 11], "baselines": [11], "text": "CHEGOU", "gap": 1, "align": "right", "color": "#f4f4f4"},
-                 {"pixel": "thin9", "box": [40, 14, 91, 22], "baselines": [22], "text": "ENCOMENDA!", "gap": 1, "align": "right", "color": "#f4f4f4"},
+        "text": [{"pixel": "thin9p", "box": [40, 3, 88, 11], "baselines": [11], "text": "CHEGOU", "gap": 1, "align": "right", "color": "#f4f4f4"},
+                 {"pixel": "thin9p", "box": [40, 14, 88, 22], "baselines": [22], "text": "ENCOMENDA!", "gap": 1, "align": "right", "color": "#f4f4f4"},
                  {"pixel": "mag", "box": [8, 56, 40, 60], "baselines": [60], "text": "CORREIO", "gap": 1, "align": "left", "color": "#101010"}],
     },
     "cardboard_box_006-008_b": {

@@ -379,7 +379,8 @@ def circle_layer(size, t):
             ang = c["mid"] + (1 if out_ else -1) * np.degrees(mid / R)
             g = Image.new("L", (int(a_ + 4 * SS), int(t["size"] * SS * 1.6)), 0)
             gb = f.getbbox(ch)
-            ImageDraw.Draw(g).text((2 * SS + tr / 2 * 0, -asc + 2 * SS), ch, font=f, fill=255)
+            ImageDraw.Draw(g).text((2 * SS + tr / 2 * 0, -asc + 2 * SS), ch, font=f, fill=255,
+                                   stroke_width=int(t.get("stroke", 0) * SS), stroke_fill=255)   # "stroke": px heavier
             base_y = 2 * SS + (f.getbbox("H")[3] - asc)   # baseline row inside g
             rot = -ang if out_ else -(ang - 180)
             # glyph anchor: horizontal centre, baseline
