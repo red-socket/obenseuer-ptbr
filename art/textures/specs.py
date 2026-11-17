@@ -2996,7 +2996,7 @@ SPECS = {
     },
     "bookset_b": {
         "en": "Book covers on the police station shelf (the sheet is stored upside down): PLAN F, ALL YOU NEED / TO KNOW / ABOUT / STALBURG, THE LEGEND OF THE / STALBURG / UNDERGROUND, CHEMISTRY, THE TUNNEL OF / WATER TREES",
-        "note": "Only the clearly readable titles (user): \"Plano F\", \"Tudo o que / precisa saber / sobre / Stalburg\", \"A lenda do / Submundo / de Stalburg\" (the game's name for the Stalburg Underground cult, user), \"Química\", \"O túnel das / árvores d'água\". Stalburg and the authors stay; the blurred titles (The Office Survival Guide, 6 Summer Nights, The Pineapple, Lost in Mountains), the spines and the blurbs stay as they are. Coordinates are on the sheet turned the right way up.",
+        "note": "Only the clearly readable titles (user): \"Plano F\", \"Tudo o que / precisa saber / sobre / Stalburg\", \"A lenda do / Submundo / de Stalburg\" (the game's name for the Stalburg Underground cult, user), \"Química\", \"O túnel das / árvores de água\" (glossary: Túnel das Árvores de Água). Stalburg and the authors stay; the blurred titles (The Office Survival Guide, 6 Summer Nights, The Pineapple, Lost in Mountains), the spines and the blurbs stay as they are. Coordinates are on the sheet turned the right way up.",
         "rot180": True,
         "erase": [{"rect": [40, 118, 66, 127], "mode": "color", "thresh": 45, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}, {"rect": [39, 209, 70, 227], "mode": "color", "thresh": 45, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}, {"rect": [40, 162, 71, 166], "mode": "color", "thresh": 40, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [16, 0]}, {"rect": [40, 166, 71, 172], "mode": "color", "thresh": 40, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [16, 0]}, {"rect": [40, 172, 71, 177], "mode": "color", "thresh": 40, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [16, 0]}, {"rect": [110, 210, 145, 216], "color": "#020202"}, {"rect": [181, 209, 216, 222], "mode": "color", "thresh": 40, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [14, 1]}],
         "text": [{"box": [41, 120, 66, 125], "font": "sans-bold", "text": "PLANO", "stretch": True, "color": "#c0b256"},
@@ -3008,7 +3008,7 @@ SPECS = {
                  {"box": [41, 173, 70, 177], "font": "serif-bold", "text": "DE STALBURG", "stretch": True, "color": "#94823f"},
                  {"box": [115, 209, 141, 215], "font": "sans", "text": "QUÍMICA", "stretch": True, "color": "#c4ccc4"},
                  {"box": [184, 209, 215, 214], "font": "serif", "text": "O TÚNEL DAS", "stretch": True, "color": "#949f9f"},
-                 {"box": [182, 215, 216, 221], "font": "serif", "text": "ÁRVORES D'ÁGUA", "stretch": True, "color": "#949f9f"}],
+                 {"box": [182, 215, 216, 221], "font": "serif", "text": "ÁRVORES DE ÁGUA", "stretch": True, "color": "#949f9f"}],
     },
     # ---- Batch 22: tier 4 packaging and labels (first half) ----
     "pill_packet_001_facemasks": {
