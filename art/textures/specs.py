@@ -2396,28 +2396,38 @@ SPECS = {
 
 
 
+
+
+
+
+
     # ---- Batch 18: tier 2 posters, brochures and poster icons ----
     "Decal_002_skin26": {
         "en": "THE PINEAPPLE / WINNER OF 10 STARBURGER AWARDS! / JIMMY P. APPLE (book poster)",
-        "note": "\"O abacaxi\", \"Vencedor de 10 prêmios Starburger!\"; Jimmy P. Apple (author) stays.",
-        "erase": [{"rect": [2, 7, 87, 18], "mode": "color", "thresh": 110, "k": 7, "grain": 0, "bg": "#86b4dc", "grow": 1, "lama": True}, {"rect": [28, 22, 88, 43], "mode": "dark", "thresh": 35, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 2]}],
-        "text": [{"box": [3, 8, 60, 17], "font": "archivo-black", "text": "O ABACAXI", "stretch": True, "crisp": 0.35, "color": "#bdaa63"},
-                 {"pixel": "call", "box": [20, 24, 86, 28], "baselines": [28, 35, 42], "text": "VENCEDOR DE 10\nPRÊMIOS\nSTARBURGER!", "gap": 1, "space": 3, "align": "right", "color": "#0a0e14"}],
+        "note": "\"O abacaxi\", \"Vencedor de 10 prêmios Starburger!\"; the author's pun name Jimmy P. Apple (pineapple) becomes Juca A. Bacaxi (abacaxi; Juca for Jimmy, user). Soft letters like the original.",
+        "erase": [{"rect": [2, 7, 87, 18], "mode": "color", "thresh": 110, "k": 7, "grain": 0, "bg": "#86b4dc", "grow": 1, "lama": True}, {"rect": [28, 22, 88, 43], "mode": "dark", "thresh": 35, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 2]}, {"rect": [1, 114, 88, 128], "mode": "dark", "thresh": 35, "k": 11, "grain": 0, "grow": 1, "lama": True}],
+        "text": [{"box": [3, 8, 60, 17], "font": "archivo-black", "text": "O ABACAXI", "stretch": True, "color": "#bdaa63"},
+                 {"box": [31, 24, 85, 28], "font": "archivo-black", "text": "VENCEDOR DE 10", "stretch": True, "color": "#101820"},
+                 {"box": [57, 31, 85, 35], "font": "archivo-black", "text": "PRÊMIOS", "stretch": True, "color": "#080c10"},
+                 {"box": [41, 38, 85, 42], "font": "archivo-black", "text": "STARBURGER!", "stretch": True, "color": "#080c10"},
+                 {"box": [3, 116, 87, 127], "font": "archivo-black", "text": "JUCA A. BACAXI", "stretch": True, "color": "#000000"}],
     },
     "Decal_002_therapy": {
         "en": "MENTAL HEALTH / COUNSELING & / THERAPY / TALKING SAVES LIVES (poster)",
-        "note": "\"Saúde mental: / aconselhamento / e terapia\", \"Conversar salva vidas\"; thin capitals drawn after the poster's, the slogan in 3x5 capitals. The leaflet stays.",
-        "erase": [{"rect": [22, 8, 104, 38], "mode": "color", "thresh": 35, "k": 7, "grain": 0, "bg": "#739a9c", "grow": 2, "isolate": True, "scatter": [40, 4]}, {"rect": [22, 43, 104, 52], "mode": "color", "thresh": 45, "k": 7, "grain": 0, "bg": "#739a9c", "grow": 1, "isolate": True, "scatter": [40, 3]}],
-        "text": [{"pixel": "therapy", "box": [25, 10, 106, 15], "baselines": [15, 25, 35], "text": "SAÚDE MENTAL:\nACONSELHAMENTO\nE TERAPIA", "gap": 1, "space": 4, "align": "left", "color": "#fffbf7", "halo": [1.2, "#2c4a50", 0.6, 1, 1]},
-                 {"pixel": "call", "box": [24, 45, 106, 49], "baselines": [49], "text": "CONVERSAR SALVA VIDAS", "gap": 1, "space": 3, "align": "left", "color": "#ffffff"}],
+        "note": "\"Saúde mental: / aconselhamento / e terapia\", \"Conversar salva vidas\"; soft (anti-aliased) letters like the poster's. The leaflet stays.",
+        "erase": [{"rect": [24, 8, 104, 38], "mode": "color", "thresh": 35, "k": 7, "grain": 0, "bg": "#739a9c", "grow": 2, "isolate": True, "scatter": [40, 4]}, {"rect": [24, 43, 104, 52], "mode": "color", "thresh": 45, "k": 7, "grain": 0, "bg": "#739a9c", "grow": 1, "isolate": True, "scatter": [40, 3]}],
+        "text": [{"box": [25, 9, 104, 16], "font": "sans-bold", "text": "SAÚDE MENTAL:", "size": 9, "baseline": 15, "align": "left", "tracking": 0.14, "color": "#fffbf7", "halo": [1.2, "#2c4a50", 0.6, 1, 1]},
+                 {"box": [25, 19, 105, 26], "font": "sans-bold", "text": "ACONSELHAMENTO", "size": 9, "baseline": 25, "align": "left", "tracking": 0.14, "color": "#fffbf7", "halo": [1.2, "#2c4a50", 0.6, 1, 1]},
+                 {"box": [25, 29, 104, 36], "font": "sans-bold", "text": "E TERAPIA", "size": 9, "baseline": 35, "align": "left", "tracking": 0.14, "color": "#fffbf7", "halo": [1.2, "#2c4a50", 0.6, 1, 1]},
+                 {"box": [24, 44, 103, 50], "font": "roboto-cond-bold", "text": "CONVERSAR SALVA VIDAS", "stretch": True, "color": "#ffffff"}],
     },
     "Decal_002_kebab": {
         "en": "AZIZ'S / HAMBURGER & KEBAB / AUNTHENTIC (sic) TURKISH KEBAB (poster)",
         "note": "Aziz's (name) stays; \"Hambúrguer & kebab\", \"Kebab turco / autêntico\" (the original misspells AUTHENTIC; the Portuguese is spelled right).",
         "erase": [{"rect": [19, 18, 108, 27], "mode": "light", "thresh": 20, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [10, 3]}, {"rect": [26, 101, 102, 111], "mode": "near", "thresh": 150, "k": 7, "grain": 0, "bg": "#efe74a", "grow": 1, "lama": True}, {"rect": [24, 111, 104, 121], "mode": "near", "thresh": 150, "k": 7, "grain": 0, "bg": "#efaa31", "grow": 1, "lama": True}],
-        "text": [{"box": [21, 19, 106, 26], "font": "serif", "text": "HAMBÚRGUER & KEBAB", "stretch": True, "crisp": 0.3, "color": "#8c8e8c"},
-                 {"box": [33, 103, 96, 109], "font": "sans-bold", "text": "KEBAB TURCO", "stretch": True, "crisp": 0.5, "outline": [1, "#000000"], "color": "#efe74a"},
-                 {"box": [35, 113, 94, 119], "font": "sans-bold", "text": "AUTÊNTICO", "stretch": True, "crisp": 0.5, "outline": [1, "#000000"], "color": "#efaa31"}],
+        "text": [{"box": [21, 19, 106, 26], "font": "serif", "text": "HAMBÚRGUER & KEBAB", "stretch": True, "color": "#8c8e8c"},
+                 {"box": [33, 103, 96, 109], "font": "sans-bold", "text": "KEBAB TURCO", "stretch": True, "outline": [1, "#000000"], "color": "#efe74a"},
+                 {"box": [35, 113, 94, 119], "font": "sans-bold", "text": "AUTÊNTICO", "stretch": True, "outline": [1, "#000000"], "color": "#efaa31"}],
     },
     "Decal_002_skin25": {
         "en": "BOOKS / WANTED (poster)",
@@ -2430,7 +2440,7 @@ SPECS = {
         "en": "HAWAII / PARTY / JUNE 8th | JW-Hall / 18:05 | 25 POINTS! (party poster)",
         "note": "\"Havaí / festa / 8 de junho | JW-Hall / 18:05 | 25 pontos!\"; JW-Hall (a place) stays. The orange bars stay.",
         "erase": [{"rect": [22, 8, 106, 27], "mode": "near", "thresh": 150, "k": 7, "grain": 0, "bg": "#f49448", "grow": 1, "lama": True}, {"rect": [22, 33, 58, 42], "mode": "near", "thresh": 150, "k": 7, "grain": 0, "bg": "#f49448", "grow": 1, "lama": True}, {"rect": [22, 101, 106, 124], "mode": "near", "thresh": 150, "k": 7, "grain": 0, "bg": "#f49448", "grow": 1, "lama": True}],
-        "text": [{"box": [25, 10, 101, 26], "font": "barlow-cond-bold", "text": "HAVAÍ", "stretch": True, "crisp": 0.4, "shadow": [-1, 1, "#6c9a8e"], "color": "#f49448"},
+        "text": [{"box": [25, 10, 101, 26], "font": "barlow-cond-bold", "text": "HAVAÍ", "stretch": True, "shadow": [-1, 1, "#6c9a8e"], "color": "#f49448"},
                  {"box": [26, 35, 53, 40], "font": "sans-bold", "text": "FESTA", "stretch": True, "stroke": 0.15, "shadow": [-1, 1, "#6c9a8e"], "color": "#f49448"},
                  {"box": [25, 103, 103, 110], "font": "sans-bold", "text": "8 DE JUNHO | JW-Hall", "stretch": True, "stroke": 0.15, "shadow": [-1, 1, "#6c9a8e"], "color": "#f49448"},
                  {"box": [25, 116, 103, 122], "font": "sans-bold", "text": "18:05 | 25 PONTOS!", "stretch": True, "stroke": 0.15, "shadow": [-1, 1, "#6c9a8e"], "color": "#f49448"}],
@@ -2439,17 +2449,20 @@ SPECS = {
         "en": "DO SHEEP DREAM OF ELECTRIC RODENTS? / OUT NOW! (book ad; the third title word is blurred, read as RODENTS)",
         "note": "\"Ovelhas sonham com roedores elétricos?\", flipped like the Brazilian title of the novel (\"Androides sonham com ovelhas elétricas?\"); \"Já saiu!\" on the badge (JÁ À VENDA! does not fit it). The small lines are unreadable and stay.",
         "erase": [{"rect": [36, 19, 98, 52], "mode": "color", "thresh": 90, "k": 7, "grain": 0, "bg": "#1b1808", "grow": 1, "lama": True}, {"rect": [86, 48, 108, 66], "mode": "near", "thresh": 180, "k": 7, "grain": 0, "bg": "#ffffff", "grow": 1, "lama": True}],
-        "text": [{"box": [40, 22, 95, 30], "font": "anton", "text": "OVELHAS SONHAM", "stretch": True, "crisp": 0.5, "color": "#d6e77b", "outline": [1, "#3c4214"], "halo": [1.8, "#a7b152", 0.55, 0, 0]},
-                 {"box": [44, 32, 90, 40], "font": "anton", "text": "COM ROEDORES", "stretch": True, "crisp": 0.5, "color": "#d6e77b", "outline": [1, "#3c4214"], "halo": [1.8, "#a7b152", 0.55, 0, 0]},
-                 {"box": [47, 42, 86, 50], "font": "anton", "text": "ELÉTRICOS?", "stretch": True, "crisp": 0.5, "color": "#d6e77b", "outline": [1, "#3c4214"], "halo": [1.8, "#a7b152", 0.55, 0, 0]},
-                 {"pixel": "call", "box": [86, 51, 108, 63], "baselines": [56, 63], "text": "JÁ\nSAIU!", "gap": 1, "color": "#ffffff"}],
+        "text": [{"box": [40, 22, 95, 30], "font": "anton", "text": "OVELHAS SONHAM", "stretch": True, "color": "#d6e77b", "outline": [1, "#3c4214"], "halo": [1.8, "#a7b152", 0.55, 0, 0]},
+                 {"box": [44, 32, 90, 40], "font": "anton", "text": "COM ROEDORES", "stretch": True, "color": "#d6e77b", "outline": [1, "#3c4214"], "halo": [1.8, "#a7b152", 0.55, 0, 0]},
+                 {"box": [47, 42, 86, 50], "font": "anton", "text": "ELÉTRICOS?", "stretch": True, "color": "#d6e77b", "outline": [1, "#3c4214"], "halo": [1.8, "#a7b152", 0.55, 0, 0]},
+                 {"box": [91, 49, 103, 56], "font": "sans-bold", "text": "JÁ", "stretch": True, "color": "#ffffff"},
+                 {"box": [88, 58, 105, 64], "font": "sans-bold", "text": "SAIU!", "stretch": True, "color": "#ffffff"}],
     },
     "brochure_stand_001_pharmacy": {
         "en": "PHARMACY / sleep like a baby (brochures on a stand)",
-        "note": "\"Farmácia\" and \"durma como um bebê\" in pixel letters like the originals; the lines start a little further left so \"como um\" fits. The tiny print stays.",
+        "note": "\"Farmácia\" and \"durma como um bebê\" in soft letters like the originals; the lines start a little further left so \"como um\" fits. The tiny print stays.",
         "erase": [{"rect": [4, 3, 40, 10], "mode": "near", "thresh": 110, "k": 7, "grain": 0, "bg": "#3ba2aa", "grow": 1, "lama": True}, {"rect": [96, 4, 125, 25], "mode": "bright", "thresh": 170, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [10, 3]}],
-        "text": [{"pixel": "call", "box": [6, 4, 40, 8], "baselines": [8], "text": "FARMÁCIA", "gap": 1, "align": "left", "color": "#3ba2aa"},
-                 {"pixel": "baby", "box": [93, 4, 126, 24], "baselines": [10, 16, 22], "text": "durma\ncomo um\nbebê", "gap": 1, "space": 3, "align": "left", "color": "#f4f4f6"}],
+        "text": [{"box": [6, 4, 39, 9], "font": "sans-bold", "text": "FARMÁCIA", "stretch": True, "color": "#3ba2aa"},
+                 {"box": [94, 3, 126, 11], "font": "sans-bold", "text": "durma", "size": 9, "baseline": 10, "align": "left", "color": "#f4f4f6"},
+                 {"box": [94, 10, 126, 17], "font": "sans-bold", "text": "como um", "size": 9, "baseline": 16, "align": "left", "color": "#f4f4f6"},
+                 {"box": [94, 16, 126, 24], "font": "sans-bold", "text": "bebê", "size": 9, "baseline": 22, "align": "left", "color": "#f4f4f6"}],
     },
     "brochure_stand_001": {
         "en": "MENU (one of three brochures on a stand)",
