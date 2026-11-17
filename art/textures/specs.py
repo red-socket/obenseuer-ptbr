@@ -3022,19 +3022,22 @@ SPECS = {
 
 
 
+
+
+
     # ---- Batch 22: tier 4 packaging and labels (first half) ----
     "pill_packet_001_facemasks": {
         "en": "MIASMAFIL / 8PCS (face mask packet; the text runs down the packet)",
         "note": "Miasmafil (brand) stays; 8 PCS is 8 UN. (unidades), in the same blocky black letters turned to run down the packet.",
-        "erase": [{"rect": [87, 39, 106, 63], "mode": "dark", "thresh": 60, "k": 9, "grain": 0, "grow": 1, "isolate": True, "scatter": [1, 6]}],
-        "text": [{"box": [0, 0, 40, 20], "font": "sans", "text": "UN.", "stretch": True, "color": "#000000", "quad": [[103, 42], [103, 61], [90, 61], [90, 42]], "quad_crisp": [0.35, 0.6]}],
+        "erase": [{"rect": [87, 40, 103, 63], "mode": "dark", "thresh": 60, "k": 9, "grain": 0, "grow": 1, "isolate": True, "scatter": [3, 4], "sample_min": 170}],
+        "text": [{"box": [0, 0, 40, 20], "font": "sans", "text": "UN.", "stretch": True, "color": "#000000", "quad": [[102, 44], [102, 57], [93, 57], [93, 44]], "quad_crisp": [0.35, 0.6]}],
     },
     "bottle_set_001_0": {
         "en": "SOAP (small label on a set of bottles; the word runs down the label)",
-        "note": "SABÃO (user; SABONETE is too long) in the label's 5-row capitals, turned like SOAP. Ships as bottle_set_001.",
+        "note": "SABÃO (user; SABONETE is too long) in 3-wide 5-row capitals, no longer than SOAP (user: smaller), turned like SOAP. Ships as bottle_set_001.",
         "game_name": "bottle_set_001",
         "erase": [{"rect": [36, 50, 45, 73], "mode": "dark", "thresh": 40, "k": 5, "grain": 0, "grow": 0, "isolate": True, "scatter": [0, 3]}],
-        "text": [{"pixel": "soap", "box": [30, 57, 50, 65], "baselines": [64], "text": "SABÃO", "gap": 1, "align": "left", "rotate": -90, "color": "#101010"}],
+        "text": [{"pixel": "soap3", "box": [31, 57, 49, 65], "baselines": [64], "text": "SABÃO", "gap": 1, "align": "left", "rotate": -90, "color": "#101010"}],
     },
     "hot_dog_label": {
         "en": "HOTDOG (label)",
@@ -3126,7 +3129,7 @@ SPECS = {
         "en": "TARFELL / PAINT (paint bucket, a big and a small label)",
         "note": "Tarfell (brand) stays; PAINT is TINTA on both ovals. Ships as paint_bucket.",
         "game_name": "paint_bucket",
-        "erase": [{"rect": [14, 139, 49, 150], "mode": "color", "thresh": 120, "k": 7, "grain": 0, "bg": "#cf8a2c", "grow": 0, "isolate": True, "scatter": [5, 1], "poly": [[46.5, 144.5], [45.6, 146.1], [42.9, 147.5], [38.8, 148.5], [33.7, 149.0], [28.3, 149.0], [23.3, 148.5], [19.1, 147.5], [16.4, 146.1], [15.5, 144.5], [16.4, 142.9], [19.1, 141.5], [23.2, 140.5], [28.3, 140.0], [33.7, 140.0], [38.8, 140.5], [42.9, 141.5], [45.6, 142.9]]}, {"rect": [19, 219, 42, 227], "mode": "dark", "thresh": 40, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [3, 1]}],
+        "erase": [{"rect": [15, 139, 47, 149], "mode": "color", "thresh": 120, "k": 7, "grain": 0, "bg": "#cf8a2c", "grow": 0, "isolate": True, "scatter": [5, 1]}, {"rect": [19, 219, 42, 227], "mode": "dark", "thresh": 40, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [3, 1]}],
         "text": [{"box": [17, 141, 44, 148], "font": "patua", "text": "TINTA", "stretch": True, "color": "#1e1b16"},
                  {"box": [21, 221, 39, 225], "font": "patua", "text": "TINTA", "stretch": True, "color": "#26221c"}],
     },

@@ -631,6 +631,9 @@ _SOAP = {
     "B": (["##.", "#.#", "##.", "#.#", "##."], 0), "O": ([".##.", "#..#", "#..#", "#..#", ".##."], 0),
 }
 _SOAP["Ã"] = _accent(_SOAP["A"], [".#.#", "#.#."], gap=0)
+# The same word in 3-wide letters, so SABÃO is no longer than SOAP was (19 rows down the label).
+_SOAP3 = {c: _MAG[c] for c in "SABO"}
+_SOAP3["Ã"] = _accent(_MAG["A"], [".##", "##."], gap=0)
 # hot_dog_label: HOTDOG's 11-row capitals with 2-pixel strokes (D, O and G are the label's own).
 _HOTDOG = {
     "D": (["####.", "#####", "##.##", "##.##", "##.##", "##.##", "##.##", "##.##", "##.##", "#####", "####."], 0),
@@ -658,9 +661,10 @@ _FLUFF = {c: _fluff(r) for c, r in {
     "F": ["####", "#...", "###.", "#..."], "I": ["#", "#", "#", "#"], "B": ["###.", "#.##", "#..#", "####"],
     "R": ["####", "#..#", "###.", "#..#"], "A": ["####", "#..#", "####", "#..#"], "M": ["#####", "#.#.#", "#.#.#", "#.#.#"],
     "N": ["####", "#..#", "#..#", "#..#"], "E": ["####", "#...", "###.", "####"], "L": ["#...", "#...", "#...", "####"]}.items()}
+_FLUFF["B"] = (["###.", "#..#", "#..#", "###.", "#..#", "#..#", "###."], 0)   # a plain B reads better than the doubled one
 
 PIXEL_FONTS = {"oos": _OOS, "bergmann": _BERG, "border-top": _BORDER_TOP, "border-mid": _BORDER_MID,
                "border-low": _BORDER_LOW, "exit": _EXIT, "mall": _MALL,
                "elstrom": _ELSTROM, "skeida": _SKEIDA, "robin": _ROBIN, "taxfree": _TAXFREE,
                "barrel": _BARREL, "dispenser": _DISPENSER,
-               "board": _BOARD, "staff": _STAFF, "osmo": _OSMO, "tiny": _TINY, "keep": _KEEP, "led": _LED, "rob6": _ROB6, "elst": _ELST, "news": _NEWS, "bio": _BIO, "wayup": _WAYUP, "wayup-big": _WAYUP_BIG, "scrawl": _SCRAWL, "call": _CALL, "therapy": _THERAPY, "fast": _FAST, "mag": _MAG, "mag4": _MAG4, "mag6": _MAG6, "mag7": _MAG7, "mag3": _MAG3, "mag-house": _MAG_HOUSE, "soap": _SOAP, "hotdog": _HOTDOG, "nowin": _NOWIN, "fluff": _FLUFF, "fast-narrow": _FAST_NARROW, "baby": _BABY, "marks": _MARKS}
+               "board": _BOARD, "staff": _STAFF, "osmo": _OSMO, "tiny": _TINY, "keep": _KEEP, "led": _LED, "rob6": _ROB6, "elst": _ELST, "news": _NEWS, "bio": _BIO, "wayup": _WAYUP, "wayup-big": _WAYUP_BIG, "scrawl": _SCRAWL, "call": _CALL, "therapy": _THERAPY, "fast": _FAST, "mag": _MAG, "mag4": _MAG4, "mag6": _MAG6, "mag7": _MAG7, "mag3": _MAG3, "mag-house": _MAG_HOUSE, "soap": _SOAP, "soap3": _SOAP3, "hotdog": _HOTDOG, "nowin": _NOWIN, "fluff": _FLUFF, "fast-narrow": _FAST_NARROW, "baby": _BABY, "marks": _MARKS}
