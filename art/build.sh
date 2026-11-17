@@ -3,7 +3,7 @@
 # Wording avoids ã/õ (Erika Ormig draws that tilde badly) and keeps the DOS-font kicker ASCII.
 set -euo pipefail
 cd "$(dirname "$0")"
-uv run render.py "Obenseuer PT-BR" "Interface e itens em português do Brasil." \
+uv run render.py "Obenseuer PT-BR" "O jogo todo em português do Brasil." \
   --kicker "MOD PARA OBENSEUER" \
   --key-shot shots/janitor-sign.webp \
   --shot shots/floor-plan.webp "A planta de cada andar, com renda, valor e despejo." \

@@ -1,8 +1,8 @@
 # Obenseuer PT-BR
 
-An unofficial Brazilian Portuguese (PT-BR) translation of [Obenseuer](https://store.steampowered.com/app/951240/Obenseuer/) by Loiste Interactive, packaged as a BepInEx 5 plugin. Releases will go up on [Nexus Mods](https://www.nexusmods.com/obeseuer).
+An unofficial Brazilian Portuguese (PT-BR) translation of [Obenseuer](https://store.steampowered.com/app/951240/Obenseuer/) by Loiste Interactive, packaged as a BepInEx 5 plugin. Releases go up on [Nexus Mods](https://www.nexusmods.com/games/obeseuer) and on the GitHub releases page.
 
-Status: the first draft is complete and under review. It covers menus, items, recipes, furniture, interface labels, object names, notifications, tasks, notes, quest items and all dialogue. Textures with text, such as signs and posters, are still in English.
+Status: the first draft is complete and under review. It covers menus, items, recipes, furniture, interface labels, object names, notifications, tasks, notes, quest items, all dialogue and 315 textures with English text (signs, screens, maps, posters and packaging). See the [CHANGELOG](CHANGELOG.md) for details.
 
 The plugin translates the game in memory while it runs. It doesn't change any game files or write anything to your saves, and removing it brings back the English text.
 
@@ -21,6 +21,8 @@ The plugin translates the game in memory while it runs. It doesn't change any ga
 | Recipe names | `StreamingAssets/Recipes.json` | Translated in memory, like items. |
 | Tasks, notes, quest items, furniture | ScriptableObjects | Translated where they are displayed. Saved titles stay English, because the game matches saved tasks and notes by title. |
 | Dialogue | Dialogue System database | Added in memory as the Dialogue System's own Portuguese fields. Lines addressed to your character use `{{masculine\|feminine}}` forms, picked from your character's gender. |
+| Signs, screens, posters, packaging | Textures | Each redrawn texture in `textures/pt-BR/` replaces the game's texture of the same name in memory when the game loads it. The sources and the scripts that draw them are in `art/textures/`. |
+| Other mods' windows | The mod's own code | With the BetterTenement mod installed, the English text in its windows is replaced at load time with the entries in `mods.po`. |
 
 The translations are gettext `.po` files in `translations/pt-BR/`, one per domain. Each entry has a stable key in `msgctxt` (for example `item.17260.title`), except interface labels, which use their English text as the key. Anything missing or untranslated shows in English.
 
@@ -41,6 +43,8 @@ dotnet build -c Release -p:Deploy=true   # also copies the plugin and translatio
 ```
 
 The build looks for the game in the default Steam library under `~/.local/share/Steam`. Point it elsewhere with `-p:GameDir=/path/to/Obenseuer`.
+
+`tools/package.sh` builds the release archive, `releases/ObenseuerPTBR-<version>.zip`. It contains only the plugin, the translations, the textures, the license and the changelog, laid out as `BepInEx/plugins/ObenseuerPTBR/` so you can extract it straight into the game folder.
 
 ## License
 
