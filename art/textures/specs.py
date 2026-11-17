@@ -2709,6 +2709,7 @@ SPECS = {
 
 
 
+
     # ---- Batch 20: tier 2 menus, cinema posters, charts, e-mail pictures and logos ----
     "Decal_002_grill_menu": {
         "en": "FOODS / DRINKS grill menu: Hamburger, Glowing Hamburger, Hot Dog, Glowing Hot Dog, Grilled Potato, Grilled Turnip, Sausage, Glowing Sausage; Osmo Olut Can, Osmo Olut Bottle, Milk, Septi Max, Septi Low, Splurt",
@@ -2770,7 +2771,7 @@ SPECS = {
         "en": "Hobopolis / The reality for some / A SOUL WRENCHING FILM / FOR OTHERS / December 23. (cinema poster)",
         "note": "Hobopolis (hobo + polis) becomes Cracolândia (user's pick, the nickname of São Paulo's crack district) in Rock Salt, a loopy marker hand like the original's; \"A realidade para alguns / um filme de partir a alma / para outros / 23 de dezembro.\" Hard-edged letters like the original; the tiny side notes stay.",
         "erase": [{"rect": [42, 4, 212, 70], "mode": "near", "thresh": 150, "k": 7, "grain": 0, "bg": "#e2ad00", "grow": 1, "lama": True}, {"rect": [60, 196, 200, 233], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [12, 3]}, {"rect": [96, 234, 162, 246], "mode": "near", "thresh": 150, "k": 7, "grain": 0, "bg": "#ffc501", "grow": 1, "isolate": True, "scatter": [10, 3]}],
-        "text": [{"box": [42, 3, 208, 66], "font": "rocksalt", "text": "Cracolândia", "stretch": True, "crisp": 0.5, "stroke": 0.8, "color": "#e2ad00"},
+        "text": [{"box": [48, 7, 206, 66], "font": "rocksalt", "text": "Cracolândia", "stretch": True, "crisp": 0.5, "stroke": 0.8, "color": "#e2ad00"},
                  {"box": [82, 199, 175, 207], "font": "sans-bold", "text": "A realidade para alguns", "stretch": True, "crisp": 0.5, "color": "#ffffff"},
                  {"box": [66, 211, 191, 219], "font": "sans-bold", "text": "UM FILME DE PARTIR A ALMA", "stretch": True, "crisp": 0.5, "color": "#ffffff"},
                  {"box": [100, 223, 159, 231], "font": "sans-bold", "text": "PARA OUTROS", "stretch": True, "crisp": 0.5, "color": "#ffffff"},
