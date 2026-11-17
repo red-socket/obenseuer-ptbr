@@ -2673,6 +2673,174 @@ SPECS = {
         "text": [{"pixel": "call", "box": [31, 22, 60, 26], "baselines": [26], "text": "SEM", "gap": 1, "align": "left", "color": "#1c1c1c"},
                  {"pixel": "call", "box": [31, 28, 60, 32], "baselines": [32], "text": "LUZ?", "gap": 1, "align": "left", "color": "#1c1c1c"}],
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    # ---- Batch 20: tier 2 menus, cinema posters, charts, e-mail pictures and logos ----
+    "Decal_002_grill_menu": {
+        "en": "FOODS / DRINKS grill menu: Hamburger, Glowing Hamburger, Hot Dog, Glowing Hot Dog, Grilled Potato, Grilled Turnip, Sausage, Glowing Sausage; Osmo Olut Can, Osmo Olut Bottle, Milk, Septi Max, Septi Low, Splurt",
+        "note": "Item names as in the game text (Hambúrguer brilhante, Nabo grelhado, Lata de Osmo Olut...); long names take two lines like GLOWING / HAMBURGER. Prices and brands (Septi Max, Septi Low, Splurt) stay.",
+        "erase": [{"rect": [18, 42, 112, 66], "mode": "bright", "thresh": 170, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [12, 4]}, {"rect": [266, 42, 362, 66], "mode": "bright", "thresh": 170, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [12, 4]}, {"rect": [64, 96, 206, 414], "mode": "light", "thresh": 40, "k": 9, "grain": 0, "grow": 1, "isolate": True, "scatter": [10, 3]}, {"rect": [302, 96, 440, 194], "mode": "light", "thresh": 40, "k": 9, "grain": 0, "grow": 1, "isolate": True, "scatter": [10, 3]}],
+        "text": [{"box": [22, 46, 132, 63], "font": "sans-bold", "text": "COMIDAS", "stretch": True, "color": "#ffffff"},
+                 {"box": [270, 46, 376, 63], "font": "sans-bold", "text": "BEBIDAS", "stretch": True, "color": "#ffffff"},
+                 {"box": [67, 97, 237, 112], "font": "sans", "text": "HAMBÚRGUER", "baseline": 109, "size": 12.5, "align": "left", "color": "#efe5e2"},
+                 {"box": [67, 137, 237, 152], "font": "sans", "text": "HAMBÚRGUER", "baseline": 149, "size": 12.5, "align": "left", "color": "#efe5e2"},
+                 {"box": [67, 157, 237, 172], "font": "sans", "text": "BRILHANTE", "baseline": 169, "size": 12.5, "align": "left", "color": "#efe5e2"},
+                 {"box": [67, 197, 237, 212], "font": "sans", "text": "CACHORRO-QUENTE", "baseline": 209, "size": 12.5, "align": "left", "color": "#efe5e2"},
+                 {"box": [67, 218, 237, 233], "font": "sans", "text": "CACHORRO-QUENTE", "baseline": 230, "size": 12.5, "align": "left", "color": "#efe5e2"},
+                 {"box": [67, 238, 237, 253], "font": "sans", "text": "BRILHANTE", "baseline": 250, "size": 12.5, "align": "left", "color": "#efe5e2"},
+                 {"box": [67, 278, 237, 293], "font": "sans", "text": "BATATA GRELHADA", "baseline": 290, "size": 12.5, "align": "left", "color": "#efe5e2"},
+                 {"box": [67, 319, 237, 334], "font": "sans", "text": "NABO GRELHADO", "baseline": 331, "size": 12.5, "align": "left", "color": "#efe5e2"},
+                 {"box": [67, 359, 237, 374], "font": "sans", "text": "LINGUIÇA", "baseline": 371, "size": 12.5, "align": "left", "color": "#efe5e2"},
+                 {"box": [67, 379, 237, 394], "font": "sans", "text": "LINGUIÇA", "baseline": 391, "size": 12.5, "align": "left", "color": "#efe5e2"},
+                 {"box": [67, 399, 237, 414], "font": "sans", "text": "BRILHANTE", "baseline": 411, "size": 12.5, "align": "left", "color": "#efe5e2"},
+                 {"box": [305, 97, 444, 112], "font": "sans", "text": "LATA DE OSMO OLUT", "size": 12.5, "baseline": 109, "align": "left", "squeeze": 0.9, "color": "#efe5e2"},
+                 {"box": [305, 118, 475, 133], "font": "sans", "text": "GARRAFA DE", "baseline": 130, "size": 12.5, "align": "left", "color": "#efe5e2"},
+                 {"box": [305, 138, 475, 153], "font": "sans", "text": "OSMO OLUT", "baseline": 150, "size": 12.5, "align": "left", "color": "#efe5e2"},
+                 {"box": [305, 178, 475, 193], "font": "sans", "text": "LEITE", "baseline": 190, "size": 12.5, "align": "left", "color": "#efe5e2"}],
+    },
+    "fastfood_restaurant_menu_001": {
+        "en": "HAMBURGERS / KEBABS / PIZZAS / PIZZAS / DRINKS / SALAD & OTHER (panel headings of a fast-food menu; the item lines are unreadable)",
+        "note": "Headings in the menu's 5-row pixel capitals; SALAD & OTHER is \"Saladas e mais\" (SALADAS E OUTROS does not fit the panel). Kebabs and pizzas stay plural as in Portuguese.",
+        "erase": [{"rect": [10, 13, 72, 19], "mode": "bright", "thresh": 130, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [10, 1]}, {"rect": [82, 13, 144, 19], "mode": "bright", "thresh": 130, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [10, 1]}, {"rect": [155, 13, 217, 19], "mode": "bright", "thresh": 130, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [10, 1]}, {"rect": [10, 99, 72, 105], "mode": "bright", "thresh": 130, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [10, 1]}, {"rect": [82, 99, 144, 105], "mode": "bright", "thresh": 130, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [10, 1]}, {"rect": [155, 99, 217, 105], "mode": "bright", "thresh": 130, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [10, 1]}],
+        "text": [{"pixel": "fast", "box": [9, 14, 73, 18], "baselines": [18], "text": "HAMBÚRGUERES", "gap": 1, "space": 3, "color": "#d6dfd6"},
+                 {"pixel": "fast", "box": [81, 14, 145, 18], "baselines": [18], "text": "KEBABS", "gap": 1, "space": 3, "color": "#d6dfd6"},
+                 {"pixel": "fast", "box": [154, 14, 218, 18], "baselines": [18], "text": "PIZZAS", "gap": 1, "space": 3, "color": "#d6dfd6"},
+                 {"pixel": "fast", "box": [9, 100, 73, 104], "baselines": [104], "text": "PIZZAS", "gap": 1, "space": 3, "color": "#d6dfd6"},
+                 {"pixel": "fast", "box": [81, 100, 145, 104], "baselines": [104], "text": "BEBIDAS", "gap": 1, "space": 3, "color": "#d6dfd6"},
+                 {"pixel": "fast", "box": [154, 100, 218, 104], "baselines": [104], "text": "SALADAS E MAIS", "gap": 1, "space": 3, "color": "#d6dfd6"}],
+    },
+    "fastfood_restaurant_menu_001_e": {
+        "en": "HAMBURGERS / KEBABS / PIZZAS / PIZZAS / DRINKS / SALAD & OTHER (panel headings of a fast-food menu; the item lines are unreadable) (glow map)",
+        "note": "Glow map of the menu before.",
+        "mask_source": "fastfood_restaurant_menu_001",
+        "erase": [{"rect": [10, 13, 72, 19], "mode": "bright", "thresh": 130, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [10, 1]}, {"rect": [82, 13, 144, 19], "mode": "bright", "thresh": 130, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [10, 1]}, {"rect": [155, 13, 217, 19], "mode": "bright", "thresh": 130, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [10, 1]}, {"rect": [10, 99, 72, 105], "mode": "bright", "thresh": 130, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [10, 1]}, {"rect": [82, 99, 144, 105], "mode": "bright", "thresh": 130, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [10, 1]}, {"rect": [155, 99, 217, 105], "mode": "bright", "thresh": 130, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [10, 1]}],
+        "text": [{"pixel": "fast", "box": [9, 14, 73, 18], "baselines": [18], "text": "HAMBÚRGUERES", "gap": 1, "space": 3, "ink": "letters"},
+                 {"pixel": "fast", "box": [81, 14, 145, 18], "baselines": [18], "text": "KEBABS", "gap": 1, "space": 3, "ink": "letters"},
+                 {"pixel": "fast", "box": [154, 14, 218, 18], "baselines": [18], "text": "PIZZAS", "gap": 1, "space": 3, "ink": "letters"},
+                 {"pixel": "fast", "box": [9, 100, 73, 104], "baselines": [104], "text": "PIZZAS", "gap": 1, "space": 3, "ink": "letters"},
+                 {"pixel": "fast", "box": [81, 100, 145, 104], "baselines": [104], "text": "BEBIDAS", "gap": 1, "space": 3, "ink": "letters"},
+                 {"pixel": "fast", "box": [154, 100, 218, 104], "baselines": [104], "text": "SALADAS E MAIS", "gap": 1, "space": 3, "ink": "letters"}],
+    },
+    "poster_kino_003": {
+        "en": "THE DAMNATION / based on True events / December 28 / From the director of THE WASTE DEAL and GROUP 6 SCANDAL / \"documentary of the year\" (cinema poster)",
+        "note": "\"A danação\", \"baseado em fatos reais\", \"28 de dezembro\", \"Do diretor de O acordo do lixo e O escândalo do Grupo 6\", \"documentário do ano\"; hard-edged letters like the original's pixel lettering.",
+        "erase": [{"rect": [48, 14, 206, 46], "mode": "dark", "thresh": 40, "k": 9, "grain": 0, "grow": 1, "isolate": True, "scatter": [10, 4]}, {"rect": [60, 50, 196, 63], "mode": "bright", "thresh": 170, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [10, 3]}, {"rect": [50, 203, 206, 226], "mode": "bright", "thresh": 170, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [10, 3]}, {"rect": [42, 226, 214, 246], "mode": "dark", "thresh": 25, "k": 9, "grain": 0, "grow": 1, "lama": True}],
+        "text": [{"box": [60, 14, 194, 36], "font": "sans-bold", "text": "A DANAÇÃO", "stretch": True, "crisp": 0.5, "color": "#020100"},
+                 {"box": [62, 35, 192, 46], "font": "sans-bold", "text": "baseado em fatos reais", "stretch": True, "crisp": 0.5, "color": "#020100"},
+                 {"box": [102, 53, 174, 62], "font": "barlow-cond", "text": "28 de dezembro", "stretch": True, "crisp": 0.5, "color": "#fdfdfd"},
+                 {"box": [98, 205, 158, 213], "font": "barlow-cond", "text": "Do diretor de", "stretch": True, "crisp": 0.5, "color": "#ffffff"},
+                 {"box": [50, 217, 207, 225], "font": "barlow-cond", "text": "O ACORDO DO LIXO e O ESCÂNDALO DO GRUPO 6", "stretch": True, "crisp": 0.5, "color": "#ffffff"},
+                 {"box": [56, 229, 200, 243], "font": "sans-bold", "text": "“documentário do ano”", "stretch": True, "crisp": 0.5, "color": "#0b100f"}],
+    },
+    "poster_kino_002": {
+        "en": "Hobopolis / The reality for some / A SOUL WRENCHING FILM / FOR OTHERS / December 23. (cinema poster)",
+        "note": "Hobopolis (hobo + polis) becomes Mendigópolis; \"A realidade para alguns / um filme de partir a alma / para outros / 23 de dezembro.\" Hard-edged letters like the original; the tiny side notes stay.",
+        "erase": [{"rect": [42, 4, 212, 70], "mode": "near", "thresh": 150, "k": 7, "grain": 0, "bg": "#e2ad00", "grow": 1, "lama": True}, {"rect": [60, 196, 200, 233], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [12, 3]}, {"rect": [96, 234, 162, 246], "mode": "near", "thresh": 150, "k": 7, "grain": 0, "bg": "#ffc501", "grow": 1, "isolate": True, "scatter": [10, 3]}],
+        "text": [{"box": [46, 6, 206, 46], "font": "marker", "text": "Mendigópolis", "stretch": True, "crisp": 0.5, "color": "#e2ad00"},
+                 {"box": [82, 199, 175, 207], "font": "sans-bold", "text": "A realidade para alguns", "stretch": True, "crisp": 0.5, "color": "#ffffff"},
+                 {"box": [66, 211, 191, 219], "font": "sans-bold", "text": "UM FILME DE PARTIR A ALMA", "stretch": True, "crisp": 0.5, "color": "#ffffff"},
+                 {"box": [100, 223, 159, 231], "font": "sans-bold", "text": "PARA OUTROS", "stretch": True, "crisp": 0.5, "color": "#ffffff"},
+                 {"box": [96, 237, 161, 244], "font": "sans-bold", "text": "23 de dezembro.", "stretch": True, "crisp": 0.5, "color": "#ffc501"}],
+        "alts": {"Rock Salt": {"font": "rocksalt"}, "Caveat Brush": {"font": "caveat-brush"}},
+    },
+    "Decal_003_poster_osmo_brewery": {
+        "en": "OSMO OLUT BREWING COMPANY / STRONGEST BEERS / The Master Brewer OSMO SAARINEN / labels MANAGEMENT, OSMO OLUT BREWERY, FERMENTING CELLAR, MALTING (painted poster)",
+        "note": "\"Cervejaria Osmo Olut\", \"As cervejas mais fortes\", \"O mestre cervejeiro\" (Osmo Saarinen is a name and stays), labels \"Gerência\", \"Cervejaria Osmo Olut\", \"Adega de fermentação\", \"Maltaria\".",
+        "erase": [{"rect": [86, 20, 434, 40], "mode": "dark", "thresh": 18, "k": 11, "grain": 0, "grow": 1, "isolate": True, "scatter": [14, 4]}, {"rect": [334, 232, 430, 284], "mode": "dark", "thresh": 18, "k": 9, "grain": 0, "grow": 1, "isolate": True, "scatter": [12, 4]}, {"rect": [367, 143, 412, 152], "mode": "dark", "thresh": 30, "k": 5, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 2]}, {"rect": [111, 340, 186, 350], "mode": "dark", "thresh": 30, "k": 5, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 2]}, {"rect": [92, 477, 163, 488], "mode": "dark", "thresh": 25, "k": 5, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 2]}, {"rect": [201, 476, 249, 489], "mode": "dark", "thresh": 25, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 2]}],
+        "text": [{"box": [90, 20, 430, 40], "font": "serif", "text": "CERVEJARIA OSMO OLUT", "size": 21, "baseline": 38, "color": "#696969"},
+                 {"box": [336, 234, 430, 247], "font": "serif", "text": "AS CERVEJAS", "size": 14, "baseline": 246, "color": "#696969"},
+                 {"box": [336, 251, 430, 265], "font": "serif", "text": "MAIS FORTES", "size": 14, "baseline": 264, "color": "#696969"},
+                 {"box": [336, 273, 430, 283], "font": "serif", "text": "O mestre cervejeiro", "size": 8.5, "baseline": 282, "color": "#696969"},
+                 {"box": [369, 144, 410, 151], "font": "sue-ellen", "text": "GERÊNCIA", "color": "#484740", "stretch": True},
+                 {"box": [113, 341, 184, 349], "font": "sue-ellen", "text": "CERVEJARIA OSMO OLUT", "color": "#384432", "stretch": True},
+                 {"box": [94, 478, 161, 487], "font": "sue-ellen", "text": "ADEGA DE FERMENTAÇÃO", "color": "#4a4a42", "stretch": True},
+                 {"box": [203, 478, 247, 487], "font": "sue-ellen", "text": "MALTARIA", "color": "#4a4a42", "stretch": True}],
+    },
+    "Decal_002_poster_radiation": {
+        "en": "RADIATION DOSE CHART: >10 Sv Fatal / 1-10 Sv Radiation sickness / 50 mSv SNW yearly limit / 10 µSv Background radi(ation)",
+        "note": "\"Tabela de doses / de radiação\", \"Doença da radiação\", \"Limite anual SNW\", \"Radiação de fundo\" (cut at the edge like the original); the doses and Fatal (same in Portuguese) stay. Worn bold monospace letters like the original.",
+        "erase": [{"rect": [24, 3, 110, 25], "mode": "color", "thresh": 110, "k": 7, "grain": 0, "bg": "#bd6d15", "grow": 1, "isolate": True, "scatter": [12, 3]}, {"rect": [20, 65, 110, 75], "mode": "dark", "thresh": 25, "k": 9, "grain": 0, "grow": 1, "isolate": True, "scatter": [12, 2]}, {"rect": [20, 90, 110, 101], "mode": "dark", "thresh": 25, "k": 9, "grain": 0, "grow": 1, "isolate": True, "scatter": [12, 2]}, {"rect": [20, 115, 112, 128], "mode": "dark", "thresh": 25, "k": 9, "grain": 0, "grow": 1, "isolate": True, "scatter": [12, 2]}],
+        "text": [{"box": [27, 3, 107, 12], "font": "mono-bold", "text": "TABELA DE DOSES", "stretch": True, "ink_texture": 0.6, "mottle": 10, "color": "#4a2c10"},
+                 {"box": [30, 13, 104, 26], "font": "mono-bold", "text": "DE RADIAÇÃO:", "stretch": True, "ink_texture": 0.6, "mottle": 10, "color": "#4a2c08"},
+                 {"box": [22, 66, 104, 74], "font": "mono-bold", "text": "Doença da radiação", "stretch": True, "ink_texture": 0.6, "mottle": 10, "color": "#393229"},
+                 {"box": [22, 92, 94, 100], "font": "mono-bold", "text": "Limite anual SNW", "stretch": True, "ink_texture": 0.6, "mottle": 10, "color": "#393229"},
+                 {"box": [22, 116, 124, 128], "font": "mono-bold", "text": "Radiação de fundo", "stretch": True, "clip": [0, 0, 110, 128], "ink_texture": 0.6, "mottle": 10, "color": "#393229"}],
+    },
+    "Decal_002_meat_cuts": {
+        "en": "PORK CUTS (butcher chart; the cut labels are unreadable)",
+        "note": "\"Cortes suínos\" in thin soft capitals; the labels stay.",
+        "erase": [{"rect": [44, 50, 174, 70], "mode": "dark", "thresh": 60, "k": 9, "grain": 0, "grow": 1, "isolate": True, "scatter": [20, 6]}],
+        "text": [{"box": [48, 49, 172, 68], "font": "sans", "text": "CORTES SUÍNOS", "stretch": True, "color": "#060403"}],
+    },
+    "email_ankea_0": {
+        "en": "Crispy / at ANKEA / New money collection / now in store / New! / Rahastus Painting 50 RM (picture in an Ankea e-mail)",
+        "note": "\"Fresquinho / na ANKEA\", \"Nova coleção de dinheiro / já na loja\", \"Novo!\", \"Quadro\"; Ankea, Rahastus and the price stay. Ships as email_ankea (game name).",
+        "game_name": "email_ankea",
+        "erase": [{"rect": [28, 26, 330, 172], "mode": "bright", "thresh": 200, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [24, 8]}, {"rect": [348, 266, 422, 292], "mode": "bright", "thresh": 200, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [12, 4]}, {"rect": [336, 332, 420, 354], "mode": "bright", "thresh": 200, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [12, 4]}],
+        "text": [{"box": [34, 22, 330, 66], "font": "montserrat-bold", "text": "Fresquinho", "size": 40, "baseline": 57, "align": "left", "stroke": 0.8, "color": "#ffffff"},
+                 {"box": [33, 74, 330, 105], "font": "montserrat-bold", "text": "na ANKEA", "size": 34, "baseline": 104, "align": "left", "stroke": 0.8, "color": "#ffffff"},
+                 {"box": [35, 118, 330, 146], "font": "montserrat-bold", "text": "Nova coleção de dinheiro", "size": 24, "baseline": 141, "align": "left", "stroke": 0.8, "color": "#ffffff"},
+                 {"box": [35, 148, 330, 170], "font": "montserrat-bold", "text": "já na loja", "size": 24, "baseline": 166, "align": "left", "stroke": 0.8, "color": "#ffffff"},
+                 {"box": [352, 268, 418, 289], "font": "montserrat-bold", "text": "Novo!", "size": 21, "baseline": 287, "align": "left", "stroke": 0.8, "color": "#ffffff"},
+                 {"box": [341, 333, 420, 352], "font": "montserrat-bold", "text": "Quadro", "size": 19, "baseline": 350, "align": "left", "stroke": 0.8, "color": "#ffffff"}],
+    },
+    "background_osmo_olut": {
+        "en": "The World's Strongest Beer / OSMO OLUT 1988 / YOU KNOW WHAT YOU NEED (Osmo Olut ad background)",
+        "note": "Same wording as the shipped Osmo Olut sign: \"A cerveja mais forte do mundo\", \"Você sabe do que precisa\"; the badge stays.",
+        "erase": [{"rect": [196, 78, 828, 138], "mode": "color", "thresh": -1, "k": 7, "grain": 0, "grow": 0, "lama": True}, {"rect": [224, 426, 816, 470], "mode": "color", "thresh": -1, "k": 7, "grain": 0, "grow": 0, "lama": True}],
+        "text": [{"box": [150, 80, 874, 136], "font": "serif-bold", "text": "A cerveja mais forte do mundo", "size": 50, "baseline": 121, "halo": [5, "#fff2c4", 0.45, 0, 0], "color": "#38301a"},
+                 {"box": [150, 428, 874, 466], "font": "serif-bold", "text": "VOCÊ SABE DO QUE PRECISA", "size": 37, "baseline": 462, "halo": [5, "#fff2c4", 0.45, 0, 0], "color": "#393113"}],
+    },
+    "walter_logo_001": {
+        "en": "WALTER / BUILDING FOR THE FUTURE (company logo; the shapes are in the alpha, the colour is black)",
+        "note": "Walter (name) stays; \"Construindo o futuro\" drawn into the alpha at the original's cap height.",
+        "cutout": True,
+        "erase": [],
+        "alpha": {"erase": [{"rect": [0, 890, 1024, 956], "color": "#000000"}]},
+        "text": [{"box": [0, 880, 1024, 960], "font": "sans-bold", "text": "CONSTRUINDO O FUTURO", "size": 74, "baseline": 949, "alpha_only": True, "alpha": 255, "color": "#101010"}],
+    },
+    "email_cigars_0": {
+        "en": "MUDDY MARKKU / BEST CIGARS / FROM SWAMP (picture in the Muddy Markku e-mail)",
+        "note": "Muddy Markku (name) stays; \"Melhores charutos / do pântano\" in Western lettering like the original (tall initials, small capitals between rules). Ships as email_cigars (game name).",
+        "game_name": "email_cigars",
+        "erase": [{"rect": [350, 22, 510, 58], "mode": "color", "thresh": 120, "k": 7, "grain": 0, "bg": "#000000", "grow": 1, "isolate": True, "scatter": [20, 6]}, {"rect": [350, 68, 510, 104], "mode": "color", "thresh": 120, "k": 7, "grain": 0, "bg": "#000000", "grow": 1, "isolate": True, "scatter": [20, 6]}],
+        "text": [{"box": [356, 26, 372, 56], "font": "alfaslabone", "text": "M", "stretch": True, "color": "#cb9628"},
+                 {"box": [374, 30, 428, 51], "font": "alfaslabone", "text": "ELHORES", "stretch": True, "color": "#cb9628"},
+                 {"box": [374, 25, 428, 28], "font": "sans-bold", "text": "█", "stretch": True, "color": "#cb9628"},
+                 {"box": [374, 54, 428, 56], "font": "sans-bold", "text": "█", "stretch": True, "color": "#cb9628"},
+                 {"box": [432, 26, 448, 56], "font": "alfaslabone", "text": "C", "stretch": True, "color": "#cb9628"},
+                 {"box": [450, 30, 504, 51], "font": "alfaslabone", "text": "HARUTOS", "stretch": True, "color": "#cb9628"},
+                 {"box": [450, 25, 504, 28], "font": "sans-bold", "text": "█", "stretch": True, "color": "#cb9628"},
+                 {"box": [450, 54, 504, 56], "font": "sans-bold", "text": "█", "stretch": True, "color": "#cb9628"},
+                 {"box": [356, 72, 372, 102], "font": "alfaslabone", "text": "D", "stretch": True, "color": "#cb9628"},
+                 {"box": [374, 76, 384, 97], "font": "alfaslabone", "text": "O", "stretch": True, "color": "#cb9628"},
+                 {"box": [374, 71, 384, 74], "font": "sans-bold", "text": "█", "stretch": True, "color": "#cb9628"},
+                 {"box": [374, 100, 384, 102], "font": "sans-bold", "text": "█", "stretch": True, "color": "#cb9628"},
+                 {"box": [390, 72, 406, 102], "font": "alfaslabone", "text": "P", "stretch": True, "color": "#cb9628"},
+                 {"box": [408, 73, 504, 97], "font": "alfaslabone", "text": "ÂNTANO", "stretch": True, "color": "#cb9628"},
+                 {"box": [408, 71, 504, 74], "font": "sans-bold", "text": "█", "stretch": True, "color": "#cb9628"},
+                 {"box": [408, 100, 504, 102], "font": "sans-bold", "text": "█", "stretch": True, "color": "#cb9628"}],
+    },
 }
 
 # Review batches: each is checked by the user, texture by texture, against the original.
@@ -2718,6 +2886,7 @@ BATCHES = {
     "17": ["Decal_002_poster_way_up", "Decal_002_poster_miner", "Decal_002_poster_way_up_2", "Decal_002_missing", "Decal_002_stalburg_steel", "Decal_002_poison_mind", "decal_002_internets", "brochure_stand_001_contract_work", "Decal_002_the_engineer", "Decal_002_the_engineer_autographed", "Decal_002_osmo_olut"],
     "18": ["Decal_002_skin26", "Decal_002_therapy", "Decal_002_kebab", "Decal_002_skin25", "Decal_002_poster_hawaii", "Decal_002_skin24", "brochure_stand_001_pharmacy", "brochure_stand_001", "Decal_002_skin31", "Decal_002_periodic_table", "Poster They Poison Your Mind", "Poster Stalburg Steel", "Poster Internets Old", "Bulletin_board_001"],
     "19": ["Decal_002_poster_keep_your_money_safe", "Decal_002_poster_corruption", "Decal_002_flea_market_001", "Decal_002_flea_market_002", "Decal_002_karaoke", "Decal_002_mushroom_infection", "Decal_002_poster_feeble_screams", "Decal_002_skin21", "Decal_002_skin23", "Decal_002_skin22", "brochure_stand_001_bank", "brochure_stand_001_funeral_home", "brochure_stand_001_gym", "brochure_stand_001_paint_shop", "flyer_001_power"],
+    "20": ["Decal_002_grill_menu", "fastfood_restaurant_menu_001", "fastfood_restaurant_menu_001_e", "poster_kino_003", "poster_kino_002", "Decal_003_poster_osmo_brewery", "Decal_002_poster_radiation", "Decal_002_meat_cuts", "email_ankea_0", "background_osmo_olut", "walter_logo_001", "email_cigars_0"],
 }
 
 NUMBERS = {}

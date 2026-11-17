@@ -548,8 +548,28 @@ _BABY = {
 }
 _BABY["ê"] = _accent(_BABY["e"], [".#.", "#.#"], gap=0)
 
+# fastfood_restaurant_menu_001(_e): the 5-row white capitals of the panel headings (HAMBURGERS, KEBABS...), 4 wide.
+_FAST = {
+    "A": ([".##.", "#..#", "####", "#..#", "#..#"], 0),
+    "B": (["###.", "#..#", "###.", "#..#", "###."], 0),
+    "D": (["###.", "#..#", "#..#", "#..#", "###."], 0),
+    "E": (["####", "#...", "###.", "#...", "####"], 0),
+    "G": ([".###", "#...", "#.##", "#..#", ".###"], 0),
+    "H": (["#..#", "#..#", "####", "#..#", "#..#"], 0),
+    "I": (["###", ".#.", ".#.", ".#.", "###"], 0),
+    "K": (["#..#", "#.#.", "##..", "#.#.", "#..#"], 0),
+    "L": (["#...", "#...", "#...", "#...", "####"], 0),
+    "M": (["#...#", "##.##", "#.#.#", "#...#", "#...#"], 0),
+    "P": (["###.", "#..#", "###.", "#...", "#..."], 0),
+    "R": (["###.", "#..#", "###.", "#.#.", "#..#"], 0),
+    "S": ([".###", "#...", ".##.", "...#", "###."], 0),
+    "U": (["#..#", "#..#", "#..#", "#..#", ".##."], 0),
+    "Z": (["####", "..#.", ".#..", "#...", "####"], 0),
+}
+_FAST["Ú"] = _accent(_FAST["U"], ["..#."], gap=0)
+
 PIXEL_FONTS = {"oos": _OOS, "bergmann": _BERG, "border-top": _BORDER_TOP, "border-mid": _BORDER_MID,
                "border-low": _BORDER_LOW, "exit": _EXIT, "mall": _MALL,
                "elstrom": _ELSTROM, "skeida": _SKEIDA, "robin": _ROBIN, "taxfree": _TAXFREE,
                "barrel": _BARREL, "dispenser": _DISPENSER,
-               "board": _BOARD, "staff": _STAFF, "osmo": _OSMO, "tiny": _TINY, "keep": _KEEP, "led": _LED, "rob6": _ROB6, "elst": _ELST, "news": _NEWS, "bio": _BIO, "wayup": _WAYUP, "wayup-big": _WAYUP_BIG, "scrawl": _SCRAWL, "call": _CALL, "therapy": _THERAPY, "baby": _BABY, "marks": _MARKS}
+               "board": _BOARD, "staff": _STAFF, "osmo": _OSMO, "tiny": _TINY, "keep": _KEEP, "led": _LED, "rob6": _ROB6, "elst": _ELST, "news": _NEWS, "bio": _BIO, "wayup": _WAYUP, "wayup-big": _WAYUP_BIG, "scrawl": _SCRAWL, "call": _CALL, "therapy": _THERAPY, "fast": _FAST, "baby": _BABY, "marks": _MARKS}
