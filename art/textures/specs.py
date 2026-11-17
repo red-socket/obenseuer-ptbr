@@ -2855,6 +2855,154 @@ SPECS = {
                  {"box": [408, 71, 504, 74], "font": "sans-bold", "text": "█", "stretch": True, "color": "#cb9628"},
                  {"box": [408, 100, 504, 102], "font": "sans-bold", "text": "█", "stretch": True, "color": "#cb9628"}],
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    # ---- Batch 21: tier 3 magazines and books ----
+    "magazine_001": {
+        "en": "OPEN SEWER (magazine cover)",
+        "note": "\"Esgoto Aberto\" as in the game text (Revista Esgoto Aberto) and on the shop signs, in the cover's blocky capitals and behind the man's hat like SEWER; the dashes and bars beside the title are shortened to fit.",
+        "erase": [{"rect": [32, 1, 61, 13], "mode": "bright", "thresh": 170, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}],
+        "text": [{"pixel": "mag", "box": [32, 2, 61, 6], "baselines": [6], "text": "-ESGOTO-", "gap": 1, "ink": "letters", "only_on": [["#000000", "#ffffff"], 24]},
+                 {"pixel": "mag", "box": [32, 8, 61, 12], "baselines": [12], "text": "=ABERTO=", "gap": 1, "ink": "letters", "only_on": [["#000000", "#ffffff"], 24]}],
+    },
+    "magazine_001_Open_Sewer_readable": {
+        "en": "OPEN SEWER / HAIRY SPECIAL (magazine cover)",
+        "note": "\"Esgoto Aberto\" and \"Especial peludo\" in the cover's red 4-row capitals.",
+        "erase": [{"rect": [32, 1, 61, 13], "mode": "bright", "thresh": 170, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}, {"rect": [33, 24, 60, 33], "mode": "near", "thresh": 120, "k": 7, "grain": 0, "bg": "#b01c20", "grow": 0, "isolate": True, "scatter": [4, 2]}],
+        "text": [{"pixel": "mag", "box": [32, 2, 61, 6], "baselines": [6], "text": "-ESGOTO-", "gap": 1, "ink": "letters"},
+                 {"pixel": "mag", "box": [32, 8, 61, 12], "baselines": [12], "text": "=ABERTO=", "gap": 1, "ink": "letters"},
+                 {"pixel": "mag4", "box": [32, 24, 61, 27], "baselines": [27], "text": "ESPECIAL", "fade": 0.15, "gap": 1, "ink": "letters"},
+                 {"pixel": "mag4", "box": [32, 29, 61, 32], "baselines": [32], "text": "PELUDO", "fade": 0.15, "gap": 1, "ink": "letters"}],
+    },
+    "magazine_001_skin3": {
+        "en": "HOUSE (home magazine cover)",
+        "note": "Not Casa (user): a name for a magazine about the home. LAR (home, as in lar doce lar) in the cover's capitals drawn twice as wide; REFORMA (renovation, the DIY reading) is on the page as the other option.",
+        "erase": [{"rect": [32, 1, 61, 8], "mode": "dark", "thresh": 60, "k": 5, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}],
+        "text": [{"pixel": "mag", "box": [34, 2, 56, 7], "baselines": [6], "text": "LAR", "stretch": True, "gap": 1, "ink": "letters"}],
+        "alts": {"REFORMA": {"text": "REFORMA", "box": [32, 2, 61, 7], "stretch": False}},
+    },
+    "magazine_001_skin1": {
+        "en": "STALBURG WOMEN (magazine cover; STAL plus small lines, then WOMEN behind the model's hair)",
+        "note": "MULHER (\"Revista Mulher\" is a natural Brazilian title; MULHERES does not fit the 29-px line), behind the model's hair like WOMEN (drawn only on the black ground). The STAL line stays.",
+        "erase": [{"rect": [1, 8, 30, 14], "mode": "bright", "thresh": 170, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [4, 0]}],
+        "text": [{"pixel": "mag", "box": [1, 8, 30, 12], "baselines": [12], "text": "MULHER", "only_on": [["#000000", "#ffffff"], 24], "gap": 1, "ink": "letters"}],
+    },
+    "magazine_001_skin2": {
+        "en": "HAMSTER / FOOD!!! (magazine covers: a hamster, a burger)",
+        "note": "HAMSTER stays (same word, user); FOOD!!! is COMIDA!!! in the cover's 6-row capitals.",
+        "erase": [{"rect": [32, 1, 61, 9], "mode": "bright", "thresh": 170, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [4, 0]}],
+        "text": [{"pixel": "mag6", "box": [32, 2, 61, 7], "baselines": [7], "text": "COMIDA!!!", "gap": 1, "ink": "letters"}],
+    },
+    "magazine_001_skin4": {
+        "en": "STALBURG TRAINS! / TV REPAIR FOR DUMMIES (magazine covers)",
+        "note": "\"Trens de Stalburg\" as in the game text: TRENS DE on top, the original STALBURG (dark STAL, red BURG) moved down a line (no room for the !). \"Reparo / de TV / p/ leigos\" in the red 4-row capitals (para leigos is the Brazilian For Dummies).",
+        "copy": [{"from": [0, 1, 31, 7], "to": [0, 7]}],
+        "erase": [{"rect": [0, 1, 31, 13], "mode": "dark", "thresh": 30, "k": 5, "grain": 0, "grow": 0, "isolate": True, "scatter": [4, 0]}, {"rect": [31, 1, 61, 18], "mode": "near", "thresh": 90, "k": 7, "grain": 0, "bg": "#822a2a", "grow": 0, "isolate": True, "scatter": [4, 0]}],
+        "text": [{"pixel": "mag", "box": [0, 2, 31, 6], "baselines": [6], "text": "TRENS DE", "gap": 1, "color": "#202020"},
+                 {"pixel": "mag4", "box": [31, 2, 61, 5], "baselines": [5], "text": "REPARO", "gap": 1, "ink": "letters"},
+                 {"pixel": "mag4", "box": [31, 7, 45, 10], "baselines": [10], "text": "DE TV", "space": 1, "align": "left", "gap": 1, "ink": "letters"},
+                 {"pixel": "mag4", "box": [31, 13, 61, 16], "baselines": [16], "text": "P/ LEIGOS", "space": 2, "gap": 1, "ink": "letters"}],
+    },
+    "magazine_001_skin5": {
+        "en": "STOLLAR / SWAMP (magazine covers)",
+        "note": "Stollar (a name) stays; SWAMP is PÂNTANO in the cover's 7-row capitals, the accent in the green strip above.",
+        "erase": [{"rect": [31, 3, 60, 10], "mode": "bright", "thresh": 200, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}],
+        "text": [{"pixel": "mag7", "box": [31, 1, 60, 9], "baselines": [9], "text": "PÂNTANO", "gap": 1, "ink": "letters"}],
+    },
+    "magazine_001_ARG": {
+        "en": "ARG / FARM! / HOW (magazine cover)",
+        "note": "ARG stays (the magazine's name); \"Fazenda!\" in the orange 4-row capitals, \"Como\" in the yellow 3-row ones.",
+        "erase": [{"rect": [33, 12, 60, 17], "mode": "near", "thresh": 120, "k": 7, "grain": 0, "bg": "#ff6a00", "grow": 0, "isolate": True, "scatter": [4, 0]}, {"rect": [44, 24, 61, 28], "mode": "color", "thresh": 200, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [4, 0]}],
+        "text": [{"pixel": "mag4", "box": [33, 13, 61, 16], "baselines": [16], "text": "FAZENDA!", "gap": 1, "ink": "letters"},
+                 {"pixel": "mag3", "box": [44, 25, 60, 27], "baselines": [27], "text": "COMO", "align": "right", "gap": 1, "ink": "letters"}],
+    },
+    "magazine_001_IC": {
+        "en": "KEEPING / THE CITY / RUNNING / N·C·G (magazine cover)",
+        "note": "\"A cidade / nunca / para\" (the city never stops, a common slogan; a literal translation does not fit); N·C·G stays.",
+        "erase": [{"rect": [1, 3, 31, 22], "mode": "bright", "thresh": 170, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [4, 0]}],
+        "text": [{"pixel": "mag", "box": [1, 4, 31, 8], "baselines": [8], "text": "A CIDADE", "gap": 1, "ink": "letters"},
+                 {"pixel": "mag", "box": [1, 10, 31, 14], "baselines": [14], "text": "NUNCA", "gap": 1, "ink": "letters"},
+                 {"pixel": "mag", "box": [1, 16, 31, 20], "baselines": [20], "text": "PARA", "gap": 1, "ink": "letters"}],
+    },
+    "magazine_001_lifehack-pekka": {
+        "en": "PEKKA / 10! TIPS (Lifehack-Pekka magazine cover)",
+        "note": "Pekka stays; the tiny TIPS is DICAS.",
+        "erase": [{"rect": [44, 38, 61, 42], "mode": "near", "thresh": 120, "k": 7, "grain": 0, "bg": "#ff7b00", "grow": 0, "isolate": True, "scatter": [3, 0]}],
+        "text": [{"pixel": "mag3", "box": [44, 39, 61, 41], "baselines": [41], "text": "DICAS", "align": "right", "gap": 1, "ink": "letters"}],
+    },
+    "Magazine House": {
+        "en": "HOUSE (64-px inventory picture of the magazine)",
+        "note": "The new cover, tilted onto the picture's title area under the picture's own shading (the picture's letters are sharper than the shrunk cover, so only adding the change left them showing).",
+        "warp_from": {"from": "magazine_001_skin3", "src": [32, 0, 61, 44], "quad": [[11.75, -2.0], [56.5, 4.5], [53.25, 70.0], [6.75, 56.5]], "replace": [8, 0, 60, 11]},
+        "text": [],
+    },
+    "Magazine Stalburg Trains": {
+        "en": "STALBURG TRAINS! (64-px inventory picture of the magazine)",
+        "note": "The new cover, tilted onto the picture's title area under the picture's own shading (the picture's letters are sharper than the shrunk cover, so only adding the change left them showing).",
+        "warp_from": {"from": "magazine_001_skin4", "src": [0, 0, 31, 44], "quad": [[11.0, -2.0], [58.0, 0.5], [52.75, 70.0], [0.5, 61.75]], "replace": [6, 0, 60, 19]},
+        "text": [],
+    },
+    "Magazine Stalburg Women": {
+        "en": "STALBURG WOMEN (64-px inventory picture of the magazine)",
+        "note": "The new cover, tilted onto the picture's title area under the picture's own shading (the picture's letters are sharper than the shrunk cover, so only adding the change left them showing).",
+        "warp_from": {"from": "magazine_001_skin1", "src": [0, 0, 31, 44], "quad": [[10.25, -2.0], [58.75, 0.75], [51.25, 63.5], [6.25, 57.25]], "replace": [8, 0, 60, 18]},
+        "text": [],
+    },
+    "books_001_0": {
+        "en": "Book covers: THE PINEAPPLE by Jimmy P. Apple (front, spine, back: WINNER OF 10 STARBURGER AWARDS), HOW TO / APPLY FOR / SOCIAL / SECURITY / BENEFITS, THE BIG BOOK OF BEER (front and spine), ALAN BACON / COOKBOOK / II",
+        "note": "\"O abacaxi\" by Juca A. Bacaxi as on the shipped poster; \"Como pedir / benefícios / da / previdência / social\"; \"O grande / livro da / cerveja\" (front and spine); Alan Bacon stays, COOKBOOK is RECEITAS in the cover's pixel capitals. The leather spines have no readable words and stay. Ships as books_001 (game name; the two exports are identical).",
+        "game_name": "books_001",
+        "erase": [{"rect": [45, 44, 82, 50], "mode": "color", "thresh": 90, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}, {"rect": [39, 45, 44, 80], "mode": "color", "thresh": 90, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [1, 3]}, {"rect": [6, 45, 31, 52], "mode": "dark", "thresh": 40, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}, {"rect": [45, 91, 82, 96], "mode": "dark", "thresh": 40, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}, {"rect": [137, 38, 177, 83], "mode": "color", "thresh": 40, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 2]}, {"rect": [243, 24, 282, 56], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "grow": 1, "only_red": 90, "lama": True}, {"rect": [244, 29, 278, 43], "mode": "near", "thresh": 200, "k": 7, "grain": 0, "bg": "#ece48a", "grow": 1, "lama": True}, {"rect": [230, 27, 236, 84], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [1, 4]}, {"rect": [403, 28, 440, 33], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}],
+        "text": [{"box": [47, 46, 81, 49], "font": "archivo-black", "text": "O ABACAXI", "stretch": True, "ink": "letters", "ink_sigma": 2},
+                 {"box": [40, 47, 43, 78], "font": "archivo-black", "text": "O ABACAXI", "sideways": -90, "stretch": True, "stroke": 0.4, "color": "#e6d468"},
+                 {"box": [10, 47, 28, 49], "font": "archivo-black", "text": "VENCEDOR DE 10", "stretch": True, "ink": "letters", "ink_sigma": 2},
+                 {"box": [7, 50, 30, 51], "font": "archivo-black", "text": "PRÊMIOS STARBURGER", "stretch": True, "ink": "letters", "ink_sigma": 2},
+                 {"box": [47, 92, 82, 96], "font": "archivo-black", "text": "JUCA A. BACAXI", "stretch": True, "ink": "letters", "ink_sigma": 2},
+                 {"box": [141, 41, 173, 45], "font": "barlow-cond-bold", "text": "COMO PEDIR", "stretch": True, "color": "#ecdc6c", "shade": [20, -60]},
+                 {"box": [139, 50, 175, 54], "font": "barlow-cond-bold", "text": "BENEFÍCIOS", "stretch": True, "color": "#ecdc6c", "shade": [20, -60]},
+                 {"box": [151, 59, 163, 63], "font": "barlow-cond-bold", "text": "DA", "stretch": True, "color": "#ecdc6c", "shade": [20, -60]},
+                 {"box": [138, 67, 176, 72], "font": "barlow-cond-bold", "text": "PREVIDÊNCIA", "stretch": True, "color": "#ecdc6c", "shade": [20, -60]},
+                 {"box": [145, 77, 170, 81], "font": "barlow-cond-bold", "text": "SOCIAL", "stretch": True, "color": "#ecdc6c", "shade": [20, -60]},
+                 {"box": [245, 30, 251, 34], "font": "archivo-black", "text": "O", "stretch": True, "color": "#f4ea8c", "shade": [18, -50]},
+                 {"box": [255, 26, 281, 33], "font": "anton", "text": "GRANDE", "stretch": True, "color": "#f00808", "shade": [90, -100]},
+                 {"box": [247, 39, 277, 43], "font": "archivo-black", "text": "LIVRO DA", "stretch": True, "color": "#f4ea8c", "shade": [18, -50]},
+                 {"box": [244, 46, 280, 54], "font": "anton", "text": "CERVEJA", "stretch": True, "color": "#f00808", "shade": [90, -100]},
+                 {"box": [232, 30, 235, 37], "font": "sans-bold", "text": "O", "sideways": -90, "stretch": True, "stroke": 0.4, "color": "#d8cf74"},
+                 {"box": [232, 39, 235, 47], "font": "sans-bold", "text": "GRANDE", "sideways": -90, "stretch": True, "stroke": 0.4, "color": "#e01010"},
+                 {"box": [232, 49, 235, 67], "font": "sans-bold", "text": "LIVRO DA", "sideways": -90, "stretch": True, "stroke": 0.4, "color": "#d8cf74"},
+                 {"box": [232, 69, 235, 82], "font": "sans-bold", "text": "CERVEJA", "sideways": -90, "stretch": True, "stroke": 0.4, "color": "#e01010"},
+                 {"pixel": "mag4", "box": [403, 28, 440, 31], "baselines": [31], "text": "RECEITAS", "gap": 2, "color": "#f4f4f4"}],
+    },
+    "bookset_b": {
+        "en": "Book covers on the police station shelf (the sheet is stored upside down): PLAN F, ALL YOU NEED / TO KNOW / ABOUT / STALBURG, THE LEGEND OF THE / STALBURG / UNDERGROUND, CHEMISTRY, THE TUNNEL OF / WATER TREES",
+        "note": "Only the clearly readable titles (user): \"Plano F\", \"Tudo o que / precisa saber / sobre / Stalburg\", \"A lenda da / Stalburg / subterrânea\", \"Química\", \"O túnel das / árvores d'água\". Stalburg and the authors stay; the blurred titles (The Office Survival Guide, 6 Summer Nights, The Pineapple, Lost in Mountains), the spines and the blurbs stay as they are. Coordinates are on the sheet turned the right way up.",
+        "rot180": True,
+        "erase": [{"rect": [40, 118, 66, 127], "mode": "color", "thresh": 45, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}, {"rect": [39, 209, 70, 227], "mode": "color", "thresh": 45, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}, {"rect": [40, 162, 71, 166], "mode": "color", "thresh": 40, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [16, 0]}, {"rect": [40, 172, 71, 177], "mode": "color", "thresh": 40, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [16, 0]}, {"rect": [110, 210, 145, 216], "color": "#020202"}, {"rect": [181, 209, 216, 222], "mode": "color", "thresh": 40, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [14, 1]}],
+        "text": [{"box": [41, 120, 66, 125], "font": "sans-bold", "text": "PLANO", "stretch": True, "color": "#c0b256"},
+                 {"box": [39, 210, 70, 214], "font": "sans-bold", "text": "TUDO O QUE", "stretch": True, "color": "#b88a44"},
+                 {"box": [40, 216, 69, 220], "font": "sans-bold", "text": "PRECISA SABER", "stretch": True, "color": "#b88a44"},
+                 {"box": [45, 222, 57, 226], "font": "sans-bold", "text": "SOBRE", "stretch": True, "color": "#b88a44"},
+                 {"box": [40, 163, 71, 166], "font": "serif-bold", "text": "A LENDA DA", "stretch": True, "color": "#94823f"},
+                 {"box": [41, 172, 70, 177], "font": "serif-bold", "text": "SUBTERRÂNEA", "stretch": True, "color": "#94823f"},
+                 {"box": [115, 209, 141, 215], "font": "sans", "text": "QUÍMICA", "stretch": True, "color": "#c4ccc4"},
+                 {"box": [184, 209, 215, 214], "font": "serif", "text": "O TÚNEL DAS", "stretch": True, "color": "#949f9f"},
+                 {"box": [182, 215, 216, 221], "font": "serif", "text": "ÁRVORES D'ÁGUA", "stretch": True, "color": "#949f9f"}],
+    },
 }
 
 # Review batches: each is checked by the user, texture by texture, against the original.
@@ -2901,6 +3049,7 @@ BATCHES = {
     "18": ["Decal_002_skin26", "Decal_002_therapy", "Decal_002_kebab", "Decal_002_skin25", "Decal_002_poster_hawaii", "Decal_002_skin24", "brochure_stand_001_pharmacy", "brochure_stand_001", "Decal_002_skin31", "Decal_002_periodic_table", "Poster They Poison Your Mind", "Poster Stalburg Steel", "Poster Internets Old", "Bulletin_board_001"],
     "19": ["Decal_002_poster_keep_your_money_safe", "Decal_002_poster_corruption", "Decal_002_flea_market_001", "Decal_002_flea_market_002", "Decal_002_karaoke", "Decal_002_mushroom_infection", "Decal_002_poster_feeble_screams", "Decal_002_skin21", "Decal_002_skin23", "Decal_002_skin22", "brochure_stand_001_bank", "brochure_stand_001_funeral_home", "brochure_stand_001_gym", "brochure_stand_001_paint_shop", "flyer_001_power"],
     "20": ["Decal_002_grill_menu", "fastfood_restaurant_menu_001", "fastfood_restaurant_menu_001_e", "poster_kino_003", "poster_kino_002", "Decal_003_poster_osmo_brewery", "Decal_002_poster_radiation", "Decal_002_meat_cuts", "email_ankea_0", "background_osmo_olut", "walter_logo_001", "email_cigars_0"],
+    "21": ["magazine_001", "magazine_001_Open_Sewer_readable", "magazine_001_skin3", "magazine_001_skin1", "magazine_001_skin2", "magazine_001_skin4", "magazine_001_skin5", "magazine_001_ARG", "magazine_001_IC", "magazine_001_lifehack-pekka", "Magazine House", "Magazine Stalburg Trains", "Magazine Stalburg Women", "books_001_0", "bookset_b"],
 }
 
 NUMBERS = {}

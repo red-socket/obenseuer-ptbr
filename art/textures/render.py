@@ -513,21 +513,36 @@ def render(name, spec, save=True):
         q = np.float32(wf["quad"])   # fitted to the icon (correlation of the warped original against it)
         qw, qh = int(np.ptp(q[:, 0])) + 1, int(np.ptp(q[:, 1])) + 1
 
+        nearest = wf.get("replace") is not None   # pixel-art sources: keep the letters blocky when enlarging
+
         def warp(im):
-            small = cv2.resize(np.ascontiguousarray(im[y0:y1, x0:x1]), (qw, qh), interpolation=cv2.INTER_AREA)
+            small = cv2.resize(np.ascontiguousarray(im[y0:y1, x0:x1]), (qw, qh),
+                               interpolation=cv2.INTER_NEAREST if nearest else cv2.INTER_AREA)
             sh, sw = small.shape[:2]
             h = cv2.getPerspectiveTransform(np.float32([[0, 0], [sw, 0], [sw, sh], [0, sh]]), q)
             return cv2.warpPerspective(small, h, (icon.shape[1], icon.shape[0]), flags=cv2.INTER_LINEAR)
         w_new, w_old = warp(new), warp(old)
         # the picture is lit differently from the poster: scale the change by the local brightness ratio
         shade = np.clip(cv2.GaussianBlur(icon[:, :, :3], (0, 0), 3) / (cv2.GaussianBlur(w_old, (0, 0), 3) + 1), 0.3, 1.5)
-        icon[:, :, :3] = np.clip(icon[:, :, :3] + (w_new - w_old) * shade * (icon[:, :, 3:] > 0), 0, 255)
+        if nearest:   # "replace": [x0, y0, x1, y1] on the picture: there its letters are sharper than the shrunk
+            # sign, so adding the change leaves them showing; paint the warped new sign there instead, under the
+            # picture's own shading
+            rx0, ry0, rx1, ry1 = wf["replace"]
+            reg = np.zeros(icon.shape[:2], bool); reg[ry0:ry1, rx0:rx1] = True
+            wgt = cv2.GaussianBlur(reg.astype(float), (0, 0), 1.0)[:, :, None] * (icon[:, :, 3:] > 0)   # soft seam
+            # the picture's local mean (its haze and light) plus the new sign's detail
+            paint = cv2.GaussianBlur(icon[:, :, :3], (0, 0), 3) + (w_new - cv2.GaussianBlur(w_old, (0, 0), 3)) * shade
+            icon[:, :, :3] = icon[:, :, :3] * (1 - wgt) + np.clip(paint, 0, 255) * wgt
+        else:
+            icon[:, :, :3] = np.clip(icon[:, :, :3] + (w_new - w_old) * shade * (icon[:, :, 3:] > 0), 0, 255)
         img = Image.fromarray((icon + 0.5).astype(np.uint8), "RGBA")
         if save:
             os.makedirs(OUT, exist_ok=True)
             img.save(os.path.join(OUT, name + ".png"))
         return img
     src = Image.open(os.path.join(GAME, spec.get("source", name) + ".png"))
+    if spec.get("rot180"):   # a sheet of covers stored upside down: work on it turned the right way up, turn back at the end
+        src = src.convert("RGBA").rotate(180) if src.mode in ("RGBA", "LA", "P") else src.convert("RGB").rotate(180)
     has_alpha = src.mode in ("RGBA", "LA") or "transparency" in src.info
     im = src.convert("RGBA")
     rgb = np.array(im)[:, :, :3].copy()
@@ -712,10 +727,19 @@ def render(name, spec, save=True):
             if t.get("quad_crisp"):   # [lo, hi]: re-sharpen after the warp (hard-edged originals)
                 lo, hi = t["quad_crisp"]
                 a = np.clip((a - lo) / (hi - lo), 0, 1)
+        if t.get("flip"):   # upside-down lettering: the drawn line turned 180 degrees inside its box
+            fx0, fy0, fx1, fy1 = t["box"]
+            a[fy0:fy1, fx0:fx1] = a[fy0:fy1, fx0:fx1][::-1, ::-1].copy()
         if t.get("behind_dark"):   # stay behind dark objects in the original (a chair drawn over the text)
             a = a * (orig.max(axis=2) > t["behind_dark"])
         if t.get("under"):   # stay under reddish artwork (e.g. hatching drawn over a street name): r - g above this
             a = a * ((orig[:, :, 0].astype(int) - orig[:, :, 1]) <= t["under"])
+        if t.get("only_on"):   # [[colours], t]: draw only where the original is within t of one of these colours
+            cols, tol = t["only_on"]   # (the old letters and their plain ground), so a photo in front stays in front
+            near = np.zeros(a.shape, bool)
+            for c in cols:
+                near |= np.abs(orig.astype(int) - np.array(hexrgb(c))).sum(axis=2) <= tol
+            a = a * near
         if t.get("clip"):   # [x0, y0, x1, y1]: draw only inside (text partly hidden behind something)
             cx0, cy0, cx1, cy1 = t["clip"]
             keep = np.zeros_like(a); keep[cy0:cy1, cx0:cx1] = 1
@@ -801,6 +825,8 @@ def render(name, spec, save=True):
     res = np.dstack([np.clip(out + 0.5, 0, 255).astype(np.uint8), np.clip(aout + 0.5, 0, 255).astype(np.uint8)])
     mode = "RGBA" if has_alpha else "RGB"
     img = Image.fromarray(res, "RGBA").convert(mode)
+    if spec.get("rot180"):
+        img = img.rotate(180)
     if save:
         os.makedirs(OUT, exist_ok=True)
         img.save(os.path.join(OUT, name + ".png"))
