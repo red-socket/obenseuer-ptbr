@@ -421,6 +421,10 @@ def pixel_layer(size, t, name):
             if t.get("mirror"):
                 big = big[:, ::-1]
             mask[by0:by1, bx0:bx1] = big
+    if t.get("rotate"):   # tilted pixel lettering (degrees, counter-clockwise), nearest neighbour so it stays jagged
+        bx0, by0, bx1, by1 = t["box"]
+        m = cv2.getRotationMatrix2D(((bx0 + bx1) / 2, (by0 + by1) / 2), t["rotate"], 1.0)
+        mask = cv2.warpAffine(mask.astype(np.float32), m, (w, h), flags=cv2.INTER_NEAREST).astype(float)
     if t.get("fade"):
         rng = np.random.default_rng(zlib.crc32(name.encode()))
         mask *= 1 - t["fade"] * rng.random(mask.shape)
@@ -624,6 +628,37 @@ def render(name, spec, save=True):
         # Inpainting leaves flat patches; a little grain makes them match the print.
         rng = np.random.default_rng(len(name))
         rgb = np.clip(rgb.astype(int) + rng.normal(0, spec["noise"], rgb.shape[:2])[:, :, None], 0, 255).astype(np.uint8)
+    # "pattern": a background made of repeated words (CORRUPTION STOP behind a silhouette). Inside rect, the original's
+    # coloured ground (pixels near "ground") is kept, everything else that is not a big dark shape (found by opening the
+    # dark pixels with a "big" kernel) is filled from it, and new lines of "text" are tiled every "pitch" px from
+    # baseline "y", each line shifted by "shift" px, drawn only on the ground (behind the big shapes); "keep" rects
+    # are left alone.
+    pt = spec.get("pattern")
+    if pt:
+        x0, y0, x1, y1 = pt["rect"]
+        inside = np.zeros(rgb.shape[:2], np.uint8); inside[y0:y1, x0:x1] = 1
+        dark = (orig.max(axis=2) < pt.get("dark", 70)).astype(np.uint8)
+        k = pt.get("big", 11)
+        big = cv2.dilate(cv2.morphologyEx(dark, cv2.MORPH_OPEN, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (k, k))),
+                         np.ones((3, 3), np.uint8))
+        ground = np.abs(orig.astype(int) - hexrgb(pt["ground"])).sum(axis=2) <= pt.get("ground_t", 90)
+        area = inside & (1 - big)
+        for kx0, ky0, kx1, ky1 in pt.get("keep", []):   # artwork inside rect that is neither ground nor dark (a collar)
+            area[ky0:ky1, kx0:kx1] = 0
+        hole = (area & ~ground).astype(np.uint8)
+        rgb = cv2.inpaint(np.ascontiguousarray(rgb), hole * 255, 4, cv2.INPAINT_TELEA)
+        rgb = regrain(rgb, hole > 0, (x0, y0, x1, y1), 4, zlib.crc32(name.encode()), False)
+        f = ImageFont.truetype(FONTS[pt["font"]], pt["size"])
+        canvas = Image.new("L", (rgb.shape[1], rgb.shape[0]), 0)
+        d = ImageDraw.Draw(canvas)
+        period = f.getlength(pt["text"])
+        y, i = pt["y"], 0
+        while y < y1 + pt["size"]:
+            x = x0 - ((i * pt["shift"]) % period)
+            d.text((x, y), pt["text"] * (int((x1 - x) / period) + 2), font=f, fill=255, anchor="ls")
+            y += pt["pitch"]; i += 1
+        m = (np.asarray(canvas, float) / 255) * area
+        rgb = np.clip(rgb * (1 - m[:, :, None]) + np.array(hexrgb(pt["color"]), float) * m[:, :, None] + 0.5, 0, 255).astype(np.uint8)
     # The alpha channel is the gloss map on most signs (Standard shader, smoothness from albedo alpha)
     # and often carries the letters too. "alpha": {"erase": [...], "letters": value} redraws them there;
     # "outline": value gives text outlines their own gloss.

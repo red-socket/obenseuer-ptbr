@@ -280,7 +280,8 @@ _STAFF = {
 _STAFF["Ó"] = _accent(_STAFF["O"], ["..#"], 0)
 
 # Accent marks for composed letters (drawn with an outline in the spec).
-_MARKS = {"´": (["..##", ".##.", "##.."], 0)}
+_MARKS = {"´": (["..##", ".##.", "##.."], 0),
+          "^": (["..#..", ".#.#.", "#...#"], 0)}   # Decal_002_karaoke: KARAOKÊ (the circumflex over the original E)
 
 # cash_desk_001_sign (Osmo Olut poster): 1-px capitals 6 rows like DID YOU REMEMBER?. D O U R E M B from the poster,
 # V C L ? drawn to match.
@@ -426,6 +427,9 @@ _WAYUP["Ç"] = (_WAYUP["C"][0] + [".##."], 1)
 _WAYUP["Á"] = _accent(_WAYUP["A"], ["..#."], gap=0)
 _WAYUP["Ú"] = _accent(_WAYUP["U"], ["..#."], gap=0)
 _WAYUP["É"] = _accent(_WAYUP["E"], ["..#"], gap=0)
+_WAYUP["Ó"] = _accent(_WAYUP["O"], ["..#."], gap=0)   # Decal_002_karaoke: SÓ SUCESSOS!
+_WAYUP["3"] = (["###.", "...#", "...#", ".##.", "...#", "...#", "###."], 0)   # Decal_002_karaoke: 3º ANDAR
+_WAYUP["º"] = ([".#.", "#.#", ".#.", "###", "...", "...", "..."], 0)
 _WAYUP_BIG = {
     "S": (["######", "######", "##....", "##....", "######", "######", "....##", "....##", "....##", "######", "######"], 0),
     "U": (["##..##"] * 9 + ["######"] * 2, 0),
@@ -489,6 +493,7 @@ _CALL.update({
 _CALL["Ç"] = (_CALL["C"][0] + [".#."], 1)
 # decal_002_internets: INTERNET = LIBERDADE in the same 3x5 capitals (the poster's own are 4 wide; LIBERDADE needs room).
 _CALL["B"] = (["##.", "#.#", "##.", "#.#", "##."], 0)
+_CALL["Z"] = (["###", "..#", ".#.", "#..", "###"], 0)   # flyer_001_power: SEM LUZ?
 _CALL["="] = (["...", "###", "...", "###", "..."], 0)
 # Decal_002_skin26 (pineapple book): VENCEDOR DE 10 / PRÊMIOS / STARBURGER! in the same 3x5 capitals.
 _CALL.update({

@@ -2507,6 +2507,167 @@ SPECS = {
         "text": [{"pixel": "call", "box": [128, 230, 160, 234], "baselines": [234], "text": "VOCÊ É", "gap": 1, "space": 3, "align": "left", "color": "#d0dcd0"},
                  {"pixel": "call", "box": [128, 239, 170, 243], "baselines": [243], "text": "O PRÓXIMO", "gap": 1, "space": 3, "align": "left", "color": "#d0dcd0", "hide": [[157, 236], [155, 240], [153, 244], [152, 247], [170, 247], [170, 236]]}],
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    # ---- Batch 19: tier 2 posters, flyers and brochure stands ----
+    "Decal_002_poster_keep_your_money_safe": {
+        "en": "KEEP YOUR / MONEY SAFE (bank poster)",
+        "note": "\"Guarde seu / dinheiro seguro\", soft serif capitals like the original.",
+        "erase": [{"rect": [22, 94, 106, 122], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 2, "lama": True}],
+        "text": [{"box": [30, 97, 99, 105], "font": "serif-bold", "text": "GUARDE SEU", "stretch": True, "color": "#f8f6f5", "halo": [1.0, "#201814", 0.5, 1, 1]},
+                 {"box": [25, 111, 103, 119], "font": "serif-bold", "text": "DINHEIRO SEGURO", "stretch": True, "color": "#f8f6f5", "halo": [1.0, "#201814", 0.5, 1, 1]}],
+    },
+    "Decal_002_poster_corruption": {
+        "en": "YOU CAN STOP CORRUPTION (poster; the background is the words CORRUPTION STOP repeated)",
+        "note": "\"Você pode acabar com a corrupção\"; the background pattern is redrawn as CORRUPÇÃO PARE, behind the silhouette like the original.",
+        "erase": [{"rect": [96, 76, 160, 100], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [10, 8]}, {"rect": [40, 226, 214, 251], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 6]}],
+        "pattern": {"rect": [40, 4, 214, 252], "ground": "#a11c17", "keep": [[116, 44, 138, 64]], "font": "sans-bold", "size": 12, "y": 12, "pitch": 9.8, "shift": 23, "text": "CORRUPÇÃO PARE ", "color": "#0e0606"},
+        "text": [{"box": [50, 20, 96, 36], "font": "sans-bold", "text": "VOCÊ", "stretch": True, "color": "#dbd8cc"},
+                 {"box": [153, 20, 199, 36], "font": "sans-bold", "text": "PODE", "stretch": True, "color": "#dbd8cc"},
+                 {"box": [101, 76, 155, 89], "font": "sans-bold", "text": "ACABAR", "stretch": True, "color": "#dbd8cc"},
+                 {"box": [108, 93, 148, 106], "font": "sans-bold", "text": "COM A", "stretch": True, "color": "#dbd8cc"},
+                 {"box": [45, 229, 209, 250], "font": "sans-bold", "text": "CORRUPÇÃO", "stretch": True, "color": "#dbd8cc"}],
+    },
+    "Decal_002_flea_market_001": {
+        "en": "FLEA MAR-KET / EVERY TUESDAY (hand-written flyer, with an arrow)",
+        "note": "\"Feira de pul-gas / toda terça\", hyphenated like MAR-KET, in a thin marker hand with hard edges like the original. The arrow stays.",
+        "erase": [{"rect": [22, 6, 100, 78], "mode": "near", "thresh": 110, "k": 7, "grain": 0, "bg": "#292c29", "grow": 1, "isolate": True, "scatter": [8, 4]}, {"rect": [22, 91, 70, 105], "mode": "near", "thresh": 110, "k": 7, "grain": 0, "bg": "#292c29", "grow": 1, "isolate": True, "scatter": [8, 4]}, {"rect": [22, 105, 106, 121], "mode": "near", "thresh": 110, "k": 7, "grain": 0, "bg": "#292c29", "grow": 1, "isolate": True, "scatter": [8, 4]}],
+        "text": [{"box": [26, 9, 87, 29], "font": "sue-ellen", "text": "FEIRA", "stretch": True, "crisp": 0.5, "color": "#292c29"},
+                 {"box": [32, 33, 95, 51], "font": "sue-ellen", "text": "DE PUL-", "stretch": True, "crisp": 0.5, "color": "#292c29"},
+                 {"box": [39, 55, 89, 76], "font": "sue-ellen", "text": "GAS", "stretch": True, "crisp": 0.5, "color": "#292c29"},
+                 {"box": [25, 92, 62, 104], "font": "sue-ellen", "text": "TODA", "stroke": 0.4, "stretch": True, "crisp": 0.5, "color": "#292c29"},
+                 {"box": [37, 107, 88, 120], "font": "sue-ellen", "text": "TERÇA", "stroke": 0.4, "stretch": True, "crisp": 0.5, "color": "#292c29"}],
+    },
+    "Decal_002_flea_market_002": {
+        "en": "FLEA MAR-KET / EVERY TUESDAY (hand-written flyer)",
+        "note": "\"Feira de pul-gas / toda terça\", hyphenated like MAR-KET, in a thin marker hand with hard edges like the original.",
+        "erase": [{"rect": [22, 6, 100, 78], "mode": "near", "thresh": 110, "k": 7, "grain": 0, "bg": "#292c29", "grow": 1, "isolate": True, "scatter": [8, 4]}, {"rect": [22, 91, 70, 105], "mode": "near", "thresh": 110, "k": 7, "grain": 0, "bg": "#292c29", "grow": 1, "isolate": True, "scatter": [8, 4]}, {"rect": [22, 105, 106, 121], "mode": "near", "thresh": 110, "k": 7, "grain": 0, "bg": "#292c29", "grow": 1, "isolate": True, "scatter": [8, 4]}],
+        "text": [{"box": [26, 9, 87, 29], "font": "sue-ellen", "text": "FEIRA", "stretch": True, "crisp": 0.5, "color": "#292c29"},
+                 {"box": [32, 33, 95, 51], "font": "sue-ellen", "text": "DE PUL-", "stretch": True, "crisp": 0.5, "color": "#292c29"},
+                 {"box": [39, 55, 89, 76], "font": "sue-ellen", "text": "GAS", "stretch": True, "crisp": 0.5, "color": "#292c29"},
+                 {"box": [25, 92, 62, 104], "font": "sue-ellen", "text": "TODA", "stroke": 0.4, "stretch": True, "crisp": 0.5, "color": "#292c29"},
+                 {"box": [37, 107, 88, 120], "font": "sue-ellen", "text": "TERÇA", "stroke": 0.4, "stretch": True, "crisp": 0.5, "color": "#292c29"}],
+    },
+    "Decal_002_karaoke": {
+        "en": "ALL THE HITS! / KARAOKE / FLOOR 3 (poster with a microphone)",
+        "note": "\"Só sucessos!\" (the usual radio slogan; TODOS OS SUCESSOS! is too long for the corner) tilted like the original; KARAOKE keeps its letters and gets the circumflex (KARAOKÊ); \"3º andar\" in the poster's 7-row pixel capitals.",
+        "erase": [{"rect": [60, 3, 106, 34], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 4]}, {"rect": [44, 105, 84, 115], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 2]}],
+        "text": [{"pixel": "wayup", "box": [60, 4, 108, 32], "baselines": [14, 24], "text": "SÓ\nSUCESSOS!", "gap": 2, "space": 3, "rotate": -22, "color": "#ffffff"},
+                 {"pixel": "marks", "box": [95, 85, 106, 87], "baselines": [87], "text": "^", "color": "#ffffff"},
+                 {"pixel": "wayup", "box": [44, 107, 86, 113], "baselines": [113], "text": "3º ANDAR", "gap": 1, "space": 3, "color": "#fefefe"}],
+    },
+    "Decal_002_mushroom_infection": {
+        "en": "Main symptoms of / Mushroom infection (medical chart; the labels are unreadable)",
+        "note": "\"Principais sintomas da / doença fúngica\", the game's name for the infection; the labels stay.",
+        "erase": [{"rect": [30, 15, 94, 27], "mode": "dark", "thresh": 25, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [10, 3]}],
+        "text": [{"box": [44, 17, 82, 20], "font": "sans", "text": "Principais sintomas da", "stretch": True, "color": "#5e5e5e"},
+                 {"box": [42, 21, 82, 26], "font": "sans-bold", "text": "doença fúngica", "stretch": True, "color": "#1e1e1e"}],
+    },
+    "Decal_002_poster_feeble_screams": {
+        "en": "FEEBLE / SCREAMS / FROM / FACTORIES / UNKNOWN (faint album poster)",
+        "note": "\"Gritos / fracos / de / fábricas / desconhecidas\", faint grey serif capitals like the original.",
+        "erase": [{"rect": [36, 13, 98, 53], "mode": "light", "thresh": 20, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 3]}],
+        "text": [{"box": [52, 15, 82, 21], "font": "serif-bold", "text": "GRITOS", "stretch": True, "color": "#8a8c8a", "ink_texture": 0.6, "mottle": 8},
+                 {"box": [44, 23, 90, 29], "font": "serif-bold", "text": "FRACOS", "stretch": True, "color": "#8a8c8a", "ink_texture": 0.6, "mottle": 8},
+                 {"box": [63, 30, 73, 34], "font": "serif-bold", "text": "DE", "stretch": True, "color": "#8a8c8a", "ink_texture": 0.6, "mottle": 8},
+                 {"box": [41, 35, 94, 43], "font": "serif-bold", "text": "FÁBRICAS", "stretch": True, "color": "#8a8c8a", "ink_texture": 0.6, "mottle": 8},
+                 {"box": [40, 45, 95, 51], "font": "serif-bold", "text": "DESCONHECIDAS", "stretch": True, "color": "#8a8c8a", "ink_texture": 0.6, "mottle": 8}],
+    },
+    "Decal_002_skin21": {
+        "en": "CATS ARE AWESOME / BUT SO IS THIS BOOK / WHY DO WE LOVE CATS (book poster)",
+        "note": "\"Gatos são incríveis / mas este livro também / Por que amamos gatos\"; condensed capitals like the original, kept left of the cat. The small print stays.",
+        "erase": [{"rect": [20, 7, 68, 29], "mode": "color", "thresh": 70, "k": 7, "grain": 0, "bg": "#db6900", "grow": 1, "isolate": True, "scatter": [8, 3]}, {"rect": [20, 39, 68, 50], "mode": "color", "thresh": 70, "k": 7, "grain": 0, "bg": "#db6900", "grow": 1, "isolate": True, "scatter": [8, 3]}, {"rect": [20, 50, 68, 63], "mode": "bright", "thresh": 170, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 3]}, {"rect": [20, 88, 80, 98], "mode": "bright", "thresh": 170, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 3]}],
+        "text": [{"box": [22, 9, 51, 17], "font": "oswald-bold", "text": "GATOS SÃO", "stretch": True, "color": "#844510"},
+                 {"box": [22, 19, 61, 28], "font": "oswald-bold", "text": "INCRÍVEIS", "stretch": True, "color": "#844510"},
+                 {"box": [22, 41, 54, 49], "font": "oswald-bold", "text": "MAS ESTE", "stretch": True, "color": "#844510"},
+                 {"box": [22, 51, 68, 62], "font": "oswald-bold", "text": "LIVRO TAMBÉM", "stretch": True, "color": "#ffffff"},
+                 {"box": [22, 90, 79, 97], "font": "oswald-bold", "text": "POR QUE AMAMOS GATOS", "stretch": True, "color": "#ffffff"}],
+    },
+    "Decal_002_skin23": {
+        "en": "HISTORY HAS NEVER BEEN / THIS METAL / THE ROCK BOOK (book poster)",
+        "note": "\"A história nunca foi / tão metal\", the book \"Livro do rock\" (small line, then ROCK big like BOOK; no article, so the small line stays readable). Soft letters like the original; the author's name stays.",
+        "erase": [{"rect": [24, 1, 104, 9], "mode": "color", "thresh": 80, "k": 7, "grain": 0, "bg": "#1c1000", "grow": 1, "isolate": True, "scatter": [10, 3]}, {"rect": [38, 8, 88, 18], "mode": "color", "thresh": 80, "k": 7, "grain": 0, "bg": "#1c1000", "grow": 1, "isolate": True, "scatter": [10, 3]}, {"rect": [36, 35, 65, 65], "mode": "bright", "thresh": 170, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 4], "sample_min": 0, "exclude_dark": 60}],
+        "text": [{"box": [27, 3, 100, 8], "font": "sans-bold", "text": "A HISTÓRIA NUNCA FOI", "stretch": True, "color": "#e2e1e1"},
+                 {"box": [44, 9, 83, 17], "font": "sans-bold", "text": "TÃO METAL", "stretch": True, "color": "#e20200"},
+                 {"box": [36, 37, 62, 46], "font": "oswald-bold", "text": "LIVRO DO", "stretch": True, "color": "#ffffff"},
+                 {"box": [36, 48, 62, 64], "font": "oswald-bold", "text": "ROCK", "stretch": True, "color": "#ffffff"}],
+    },
+    "Decal_002_skin22": {
+        "en": "LEAVE THE GUN / TAKE THE BOOK / HATS GUNS & CANNOLI (book poster, a Godfather joke)",
+        "note": "\"Deixe a arma, / pegue o livro\" (same length); the book \"Chapéus armas & cannoli\" on the poster and on the small cover. Cannoli is the same word in Portuguese, so the red CANNOLI and the & stay.",
+        "erase": [{"rect": [18, 1, 82, 26], "mode": "bright", "thresh": 170, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 3]}, {"rect": [21, 29, 58, 39], "mode": "bright", "thresh": 170, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 3]}, {"rect": [47, 70, 111, 82], "mode": "bright", "thresh": 170, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 3]}],
+        "text": [{"box": [20, 3, 77, 13], "font": "anton", "text": "DEIXE A ARMA,", "stretch": True, "color": "#fffbf7"},
+                 {"box": [20, 16, 79, 25], "font": "anton", "text": "PEGUE O LIVRO", "stretch": True, "color": "#fffbf7"},
+                 {"box": [23, 31, 57, 38], "font": "oswald-bold", "text": "CHAPÉUS ARMAS", "stretch": True, "color": "#f7f7f7"},
+                 {"box": [50, 71, 109, 81], "font": "oswald-bold", "text": "CHAPÉUS ARMAS", "stretch": True, "color": "#ffffff"}],
+    },
+    "brochure_stand_001_bank": {
+        "en": "NEED MONEY? / Don't worry! (bank brochures on a stand)",
+        "note": "\"Precisa de / dinheiro?\", \"Não se preocupe!\"; the tiny print stays.",
+        "erase": [{"rect": [3, 2, 44, 18], "mode": "bright", "thresh": 170, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 3]}, {"rect": [87, 3, 127, 11], "mode": "dark", "thresh": 30, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 2]}],
+        "text": [{"box": [5, 4, 42, 10], "font": "roboto-cond-bold", "text": "PRECISA DE", "stretch": True, "color": "#d6dce4"},
+                 {"box": [5, 11, 42, 17], "font": "roboto-cond-bold", "text": "DINHEIRO?", "stretch": True, "color": "#d8dce0"},
+                 {"box": [89, 4, 126, 10], "font": "roboto-cond-bold", "text": "Não se preocupe!", "stretch": True, "color": "#614a1d"}],
+    },
+    "brochure_stand_001_funeral_home": {
+        "en": "GRAVESTONES / WELCOME / Join our support groups (funeral home brochures on a stand)",
+        "note": "\"Lápides\", \"Bem-vindo\", \"Venha / para / nossos / grupos\" in short lines like the original.",
+        "erase": [{"rect": [3, 2, 40, 8], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 2]}, {"rect": [46, 41, 86, 50], "mode": "bright", "thresh": 120, "k": 7, "grain": 0, "grow": 2, "isolate": True, "scatter": [8, 3]}, {"rect": [87, 26, 109, 58], "mode": "bright", "thresh": 130, "k": 7, "grain": 0, "grow": 1, "lama": True}],
+        "text": [{"box": [6, 4, 32, 7], "font": "sans-bold", "text": "LÁPIDES", "stretch": True, "color": "#b5b3af"},
+                 {"box": [50, 44, 80, 48], "font": "sans-bold", "text": "BEM-VINDO", "stretch": True, "color": "#c1bebd"},
+                 {"box": [88, 28, 109, 32], "font": "sans-bold", "text": "Venha", "size": 7, "baseline": 31, "align": "left", "color": "#d6dcdc"},
+                 {"box": [88, 35, 109, 40], "font": "sans-bold", "text": "para", "size": 7, "baseline": 38, "align": "left", "color": "#d6dcdc"},
+                 {"box": [88, 42, 109, 47], "font": "sans-bold", "text": "nossos", "size": 7, "baseline": 45, "align": "left", "color": "#d6dcdc"},
+                 {"box": [88, 50, 109, 55], "font": "sans-bold", "text": "grupos", "size": 7, "baseline": 53, "align": "left", "color": "#d6dcdc"}],
+    },
+    "brochure_stand_001_gym": {
+        "en": "BOXING SOCIETY / MUSCLE MAX'S / 24H GYM (gym brochures on a stand)",
+        "note": "\"Clube de boxe\", \"Academia 24h\" as on the shipped gym window; Muscle Max's (name) stays.",
+        "erase": [{"rect": [3, 4, 42, 8], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 1]}, {"rect": [88, 16, 123, 25], "mode": "color", "thresh": 90, "k": 7, "grain": 0, "bg": "#2e2e2e", "grow": 1, "isolate": True, "scatter": [8, 3]}],
+        "text": [{"box": [4, 5, 40, 8], "font": "sans-bold", "text": "CLUBE DE BOXE", "stretch": True, "color": "#d1d1d1"},
+                 {"box": [88, 18, 124, 24], "font": "sans-bold", "text": "ACADEMIA 24H", "stretch": True, "color": "#d29064"}],
+    },
+    "brochure_stand_001_paint_shop": {
+        "en": "HAPPY LITTLE PRINTS / PAINT EVERYTHING / Painless strokes (paint shop brochures on a stand)",
+        "note": "\"Pequenas impressões felizes\", \"Pinte tudo\", \"Pinceladas sem dor\"; Rawles Art Prints (name) stays.",
+        "erase": [{"rect": [3, 6, 44, 21], "mode": "bright", "thresh": 190, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 3]}, {"rect": [46, 2, 64, 8], "mode": "bright", "thresh": 190, "k": 7, "grain": 0, "grow": 1, "lama": True}, {"rect": [44, 49, 86, 57], "mode": "bright", "thresh": 190, "k": 7, "grain": 0, "grow": 1, "lama": True}, {"rect": [90, 43, 122, 57], "mode": "color", "thresh": 120, "k": 7, "grain": 0, "bg": "#100c08", "grow": 1, "isolate": True, "scatter": [8, 3]}],
+        "text": [{"box": [4, 6, 42, 10], "font": "sans-bold", "text": "PEQUENAS", "stretch": True, "color": "#ffffff"},
+                 {"box": [4, 11, 42, 15], "font": "sans-bold", "text": "IMPRESSÕES", "stretch": True, "color": "#ffffff"},
+                 {"box": [8, 16, 38, 20], "font": "sans-bold", "text": "FELIZES", "stretch": True, "color": "#ffffff"},
+                 {"box": [48, 3, 62, 7], "font": "sans-bold", "text": "PINTE", "stretch": True, "color": "#ffffff"},
+                 {"box": [52, 51, 76, 56], "font": "sans-bold", "text": "TUDO", "stretch": True, "color": "#ffffff"},
+                 {"box": [92, 45, 121, 50], "font": "sans-bold", "text": "Pinceladas", "stretch": True, "color": "#cdab34"},
+                 {"box": [96, 52, 116, 56], "font": "sans-bold", "text": "sem dor", "stretch": True, "color": "#cdab34"}],
+    },
+    "flyer_001_power": {
+        "en": "NO / POWER? (small flyer)",
+        "note": "\"Sem / luz?\" (what Brazilians say in a power cut), in hard-edged pixel capitals like the original; the lines below are unreadable and stay.",
+        "erase": [{"rect": [30, 21, 61, 34], "mode": "dark", "thresh": 40, "k": 5, "grain": 0, "grow": 0, "isolate": True, "scatter": [8, 3]}],
+        "text": [{"pixel": "call", "box": [31, 22, 60, 26], "baselines": [26], "text": "SEM", "gap": 1, "align": "left", "color": "#1c1c1c"},
+                 {"pixel": "call", "box": [31, 28, 60, 32], "baselines": [32], "text": "LUZ?", "gap": 1, "align": "left", "color": "#1c1c1c"}],
+    },
 }
 
 # Review batches: each is checked by the user, texture by texture, against the original.
@@ -2551,6 +2712,7 @@ BATCHES = {
     "16": ["vending_machine_003_moca_cola", "vending_machine_003_moca_cola_e", "bus_001_linescreen", "vending_machine_display_007", "vending_machine_display_007_e", "vending_machine_display_generic", "tv_004_screen_on_elström", "shroom_extract_machine_001", "newspaper_stand_001", "Sign Biohazard"],
     "17": ["Decal_002_poster_way_up", "Decal_002_poster_miner", "Decal_002_poster_way_up_2", "Decal_002_missing", "Decal_002_stalburg_steel", "Decal_002_poison_mind", "decal_002_internets", "brochure_stand_001_contract_work", "Decal_002_the_engineer", "Decal_002_the_engineer_autographed", "Decal_002_osmo_olut"],
     "18": ["Decal_002_skin26", "Decal_002_therapy", "Decal_002_kebab", "Decal_002_skin25", "Decal_002_poster_hawaii", "Decal_002_skin24", "brochure_stand_001_pharmacy", "brochure_stand_001", "Decal_002_skin31", "Decal_002_periodic_table", "Poster They Poison Your Mind", "Poster Stalburg Steel", "Poster Internets Old", "Bulletin_board_001"],
+    "19": ["Decal_002_poster_keep_your_money_safe", "Decal_002_poster_corruption", "Decal_002_flea_market_001", "Decal_002_flea_market_002", "Decal_002_karaoke", "Decal_002_mushroom_infection", "Decal_002_poster_feeble_screams", "Decal_002_skin21", "Decal_002_skin23", "Decal_002_skin22", "brochure_stand_001_bank", "brochure_stand_001_funeral_home", "brochure_stand_001_gym", "brochure_stand_001_paint_shop", "flyer_001_power"],
 }
 
 NUMBERS = {}
