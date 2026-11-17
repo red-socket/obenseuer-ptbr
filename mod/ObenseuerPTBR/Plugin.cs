@@ -12,6 +12,7 @@ namespace ObenseuerPTBR
     [BepInPlugin(Guid, Name, Version)]
     [BepInProcess("Obenseuer.exe")]
     [BepInDependency(ModStrings.BetterTenementGuid, BepInDependency.DependencyFlags.SoftDependency)]
+    [BepInDependency(ModStrings.FairMarketGuid, BepInDependency.DependencyFlags.SoftDependency)]
     public sealed class Plugin : BaseUnityPlugin
     {
         public const string Guid = "redsocket.obenseuer.ptbr";

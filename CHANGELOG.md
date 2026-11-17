@@ -15,11 +15,13 @@ First public release. The whole translation is a first draft. Every line is stil
 - Text the game puts together from pieces: messages like "Encher um tanque com …", renovation tasks ("Prédio: escadaria (surrado)"), item names ("Pote de vidro (vazio)"), the hostel bed menu, the sleep timer, crafting details, crime notifications and the doctor's addiction diagnosis.
 - 315 textures with English text: signs, notices, screens, maps, posters, menus, magazine and book covers, and packaging. Signs drawn in pixel lettering keep that style. Brand and place names stay as they are. More posters and packaging will follow.
 - With the BetterTenement mod installed, its ledger window, upgrade cards and map tooltips are in Portuguese too. Without it, nothing changes.
+- The same goes for other red-socket mods: the opening hours FairMarket adds to shop doors ("(Fechado, abre 8:00)", "Seg-Sex 8-18, Sáb 10-16, Dom fechado") and the storage buttons from TidyInventory, FewerClicks and BetterTenement ("Esvaziar", "Juntar", "Completar", "Guardar").
 
 ### How it works
 
 - The plugin applies the translation in memory while the game runs. It doesn't change game files or write anything to your saves, so you can remove it at any time and the game goes back to English.
 - The game matches saved tasks and notes by their English titles, so those titles are translated only on screen.
+- Translated textures stay translated when you leave a place and come back. The game reloads the original textures on every visit, so the plugin checks them again after each door.
 - When a Portuguese label is longer than the English one, the plugin widens it or scales the text down a little to fit.
 - The game's typewriter font draws ã and õ with a smudge and puts the accents of capitals like Á on top of the letter. The plugin redraws those letters when the game starts.
 - If a game font has no accented letters, the plugin uses one that does.

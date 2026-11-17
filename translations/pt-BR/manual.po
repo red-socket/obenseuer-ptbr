@@ -1724,3 +1724,28 @@ msgstr "nicotina"
 msgctxt "doctor.name.gambling"
 msgid "gambling"
 msgstr "jogos de azar"
+
+#. Items.json "NoRequiredItems": prompt shown in red when you lack the tool or ingredient ("(Pegar) (No Butter)")
+#, fuzzy
+msgid "No Butter"
+msgstr "Sem manteiga"
+
+#, fuzzy
+msgid "No light"
+msgstr "Sem luz"
+
+#, fuzzy
+msgid "No can opener"
+msgstr "Sem abridor de latas"
+
+#, fuzzy
+msgid "No Axe"
+msgstr "Sem machado"
+
+#, fuzzy
+msgid "Missing syringe"
+msgstr "Falta a seringa"
+
+#, fuzzy
+msgid "No bait"
+msgstr "Sem isca"

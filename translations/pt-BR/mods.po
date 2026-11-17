@@ -1,6 +1,7 @@
-# Text of other mods that draw their own windows, applied by ModStrings.cs to that mod's string literals.
-# msgctxt "mod.<Mod>:<literal>": the literal must match the mod's code exactly (spaces and \n included).
-# Not regenerated: edit by hand when the mod changes. BetterTenement: mods/BetterTenement in red-socket/obenseuer-mods.
+# Text of other red-socket mods (red-socket/obenseuer-mods).
+# msgctxt "mod.<Mod>:<literal>": applied by ModStrings.cs to that mod's string literals; the literal must match the
+# mod's code exactly (spaces and \n included). Other entries are ordinary on-screen labels and templates.
+# Not regenerated: edit by hand when the mods change.
 msgid ""
 msgstr ""
 "Project-Id-Version: Obenseuer PT-BR\n"
@@ -260,3 +261,154 @@ msgstr " de valor · aluguel indisponível (alterado por outro mod)"
 msgctxt "mod.BetterTenement: value · "
 msgid " value · "
 msgstr " de valor · "
+
+#. FairMarket Fmt: weekday names in the opening hours ("Mon-Fri 8-18, Sat 10-16, Sun closed", "(Closed, opens Mon 8:00)")
+#, fuzzy
+msgctxt "mod.FairMarket:Mon"
+msgid "Mon"
+msgstr "Seg"
+
+#, fuzzy
+msgctxt "mod.FairMarket:Tue"
+msgid "Tue"
+msgstr "Ter"
+
+#, fuzzy
+msgctxt "mod.FairMarket:Wed"
+msgid "Wed"
+msgstr "Qua"
+
+#, fuzzy
+msgctxt "mod.FairMarket:Thu"
+msgid "Thu"
+msgstr "Qui"
+
+#, fuzzy
+msgctxt "mod.FairMarket:Fri"
+msgid "Fri"
+msgstr "Sex"
+
+#, fuzzy
+msgctxt "mod.FairMarket:Sat"
+msgid "Sat"
+msgstr "Sáb"
+
+#, fuzzy
+msgctxt "mod.FairMarket:Sun"
+msgid "Sun"
+msgstr "Dom"
+
+#. FairMarket Schedule: a day with no hours, a shop open the same hours every day, one closed every day
+#, fuzzy
+msgctxt "mod.FairMarket:closed"
+msgid "closed"
+msgstr "fechado"
+
+#, fuzzy
+msgctxt "mod.FairMarket:Daily"
+msgid "Daily"
+msgstr "Todos os dias"
+
+#, fuzzy
+msgctxt "mod.FairMarket:Closed all week"
+msgid "Closed all week"
+msgstr "Fechado a semana toda"
+
+#. FairMarket Fmt: closing time 24:00
+#, fuzzy
+msgctxt "mod.FairMarket:midnight"
+msgid "midnight"
+msgstr "meia-noite"
+
+#. FairMarket door prompts, matched on screen: "(Closed, opens 8:00)", "(Enter, open until 21:00)", "(Open) · open until 21:00"
+#, fuzzy
+msgid "(Closed, opens {0})"
+msgstr "(Fechado, abre {0})"
+
+#, fuzzy
+msgid "(Closed today, opens {0})"
+msgstr "(Fechado hoje, abre {0})"
+
+#. Shop doors default to "Enter" (SRC/DoorChangelevel.cs:127); bare "Enter" is the keyboard key, so the common verbs get their own lines
+#, fuzzy
+msgid "(Enter, open until {0})"
+msgstr "(Entrar, aberto até {0})"
+
+#, fuzzy
+msgid "(Enter, open all day)"
+msgstr "(Entrar, aberto o dia todo)"
+
+#, fuzzy
+msgid "(Exit, open until {0})"
+msgstr "(Sair, aberto até {0})"
+
+#, fuzzy
+msgid "(Exit, open all day)"
+msgstr "(Sair, aberto o dia todo)"
+
+#, fuzzy
+msgid "({0}, open until {1})"
+msgstr "({0}, aberto até {1})"
+
+#, fuzzy
+msgid "({0}, open all day)"
+msgstr "({0}, aberto o dia todo)"
+
+#, fuzzy
+msgid "open until {0}"
+msgstr "aberto até {0}"
+
+#, fuzzy
+msgid "open all day"
+msgstr "aberto o dia todo"
+
+#, fuzzy
+msgid "(open until {0})"
+msgstr "(aberto até {0})"
+
+#, fuzzy
+msgid "(open all day)"
+msgstr "(aberto o dia todo)"
+
+#. TidyInventory: buttons on bins ("Empty", then "Sure?" before it empties) and on other storages and the inventory
+#, fuzzy
+msgctxt "scope:TI_EmptyButton:Empty"
+msgid "Empty"
+msgstr "Esvaziar"
+
+#, fuzzy
+msgctxt "scope:TI_EmptyButton:Sure?"
+msgid "Sure?"
+msgstr "Certeza?"
+
+#, fuzzy
+msgctxt "scope:TI_CombineButton:Combine"
+msgid "Combine"
+msgstr "Juntar"
+
+#, fuzzy
+msgctxt "scope:TI_CombineInvButton:Combine"
+msgid "Combine"
+msgstr "Juntar"
+
+#. FewerClicks: storage buttons ("Top up" fills the stacks the storage already has; "Fill all", "Stop" while filling)
+#, fuzzy
+msgctxt "scope:FC_TopUpButton:Top up"
+msgid "Top up"
+msgstr "Completar"
+
+#, fuzzy
+msgctxt "scope:FC_FillAllButton:Fill all"
+msgid "Fill all"
+msgstr "Encher tudo"
+
+#, fuzzy
+msgctxt "scope:FC_FillAllButton:Stop"
+msgid "Stop"
+msgstr "Parar"
+
+#. BetterTenement: stash button on storages
+#, fuzzy
+msgctxt "scope:BT_StashButton:Stash"
+msgid "Stash"
+msgstr "Guardar"

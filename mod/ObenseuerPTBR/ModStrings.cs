@@ -8,7 +8,8 @@ using HarmonyLib;
 namespace ObenseuerPTBR
 {
     /// <summary>
-    /// Text of other mods that draw their own windows (Unity IMGUI), where no label hook can reach it. Entries
+    /// Text of other mods that draw their own windows (Unity IMGUI), where no label hook can reach it, or that they
+    /// build from small pieces (day names) no on-screen template can pick apart. Entries
     /// keyed "mod.&lt;Mod&gt;:&lt;English literal&gt;" in the catalog replace those string literals in the listed
     /// classes of that mod, once at load. Nothing happens when the mod is not installed, and a literal the mod
     /// no longer uses simply stays unused.
@@ -23,6 +24,7 @@ namespace ObenseuerPTBR
 
         // Plugin.cs declares each of these GUIDs as a soft dependency, so the mod is loaded before this runs.
         internal const string BetterTenementGuid = "redsocket.obenseuer.bettertenement";
+        internal const string FairMarketGuid = "redsocket.obenseuer.fairmarket";
 
         private static readonly Target[] Targets =
         {
@@ -30,6 +32,13 @@ namespace ObenseuerPTBR
             {
                 Mod = "BetterTenement", Guid = BetterTenementGuid,
                 Types = new[] { "BetterTenement.LedgerPanel", "BetterTenement.LedgerData", "BetterTenement.LedgerMath", "BetterTenement.LedgerCard" },
+            },
+            // Opening hours on shop doors: the day names and "closed" inside the weekly line. The sentence around them
+            // ("(Closed, opens {0})") is an ordinary template in mods.po, matched on screen.
+            new Target
+            {
+                Mod = "FairMarket", Guid = FairMarketGuid,
+                Types = new[] { "FairMarket.Fmt", "FairMarket.Schedule" },
             },
         };
 
@@ -50,6 +59,7 @@ namespace ObenseuerPTBR
                 {
                     Type type = AccessTools.TypeByName(typeName);
                     if (type == null) continue;
+                    ReplaceArrays(type, map);
                     foreach (MethodInfo m in Methods(type))
                     {
                         try
@@ -65,6 +75,18 @@ namespace ObenseuerPTBR
                     }
                 }
                 Plugin.Log.LogInfo($"{target.Mod}: translated text in {methods} methods");
+            }
+        }
+
+        // Lookup tables built in a static constructor ("Mon", "Tue", ...), which has usually run already: the array's
+        // elements are replaced in place.
+        private static void ReplaceArrays(Type type, Dictionary<string, string> map)
+        {
+            foreach (FieldInfo f in type.GetFields(BindingFlags.Static | BindingFlags.Public | BindingFlags.NonPublic))
+            {
+                if (f.FieldType != typeof(string[]) || !(f.GetValue(null) is string[] values)) continue;
+                for (int i = 0; i < values.Length; i++)
+                    if (values[i] != null && map.TryGetValue(values[i], out string pt)) values[i] = pt;
             }
         }
 
