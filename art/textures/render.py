@@ -663,8 +663,17 @@ def render(name, spec, save=True):
             a = cv2.GaussianBlur(a, (0, 0), t["soften"])
         if t.get("outline"):   # [px, colour]: an outline around the letters, drawn first
             px, oc = t["outline"]
-            ring = cv2.dilate(a.astype(np.float32), cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * px + 1, 2 * px + 1)))
-            ring = np.clip(ring - a, 0, 1)
+            if t.get("outline_vary"):   # [min px, blur(, soft)]: hand-inked outline, its width wanders between min
+                lo, sig = t["outline_vary"][:2]   # and px; soft widens its fading outer edge
+                soft = t["outline_vary"][2] if len(t["outline_vary"]) > 2 else 1.0
+                rng = np.random.default_rng(zlib.crc32((name + "outline" + t.get("text", "")).encode()))
+                u = cv2.GaussianBlur(rng.random(a.shape), (0, 0), sig)
+                u = (u - u.min()) / (np.ptp(u) or 1)
+                d = cv2.distanceTransform((a < 0.5).astype(np.uint8), cv2.DIST_L2, 5)
+                ring = np.clip((lo + (px - lo) * u - d) / soft + 0.5, 0, 1) * (1 - a)
+            else:
+                ring = cv2.dilate(a.astype(np.float32), cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (2 * px + 1, 2 * px + 1)))
+                ring = np.clip(ring - a, 0, 1)
             out = out * (1 - ring[:, :, None]) + np.array(hexrgb(oc), float) * ring[:, :, None]
             if aspec and "outline" in aspec:   # outlines with their own gloss (matte paint on a glossy board)
                 aout = aout * (1 - ring) + aspec["outline"] * ring
@@ -681,9 +690,14 @@ def render(name, spec, save=True):
             col = np.clip(col + t["ink_texture"] * (base - cv2.GaussianBlur(base, (0, 0), 1.5)), 0, 255)
         if not t.get("alpha_only"):   # alpha_only: the letters exist only in the alpha (cutout signs, colour left as is)
             out = out * (1 - a[:, :, None]) + col * a[:, :, None]
+            if t.get("outline") and t.get("outline_inset"):   # px: the outline also covers the letters' outer edge
+                din = cv2.distanceTransform((a >= 0.5).astype(np.uint8), cv2.DIST_L2, 5)
+                inner = np.clip(t["outline_inset"] - din + 0.5, 0, 1) * a
+                out = out * (1 - inner[:, :, None]) + np.array(hexrgb(t["outline"][1]), float) * inner[:, :, None]
         cov = 1 - (1 - cov) * (1 - a)
-        if aspec and "letters" in aspec:
-            aout = aout * (1 - a) + t.get("alpha", aspec["letters"]) * a
+        gl = t.get("alpha", aspec.get("letters")) if aspec else None   # this line's gloss value (none: gloss untouched)
+        if gl is not None:
+            aout = aout * (1 - a) + gl * a
     # "alpha_follow": {"rect", "gain"}: on textures whose gloss map is a greyscale copy of the artwork, move the
     # gloss by the same amount the brightness changed (keeps the original's fine gloss detail).
     # "alpha_follow": {"rect", "gain"}: on textures whose gloss map is a greyscale copy of the artwork, the gloss under

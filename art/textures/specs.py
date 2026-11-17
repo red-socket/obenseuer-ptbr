@@ -2159,6 +2159,8 @@ SPECS = {
 
 
 
+
+
     # ---- Batch 16: tier 1c signs (drinks machine, bus display, rat and Jermu's displays, Elström TV, extractor, newspaper stand, biohazard) ----
     "vending_machine_003_moca_cola": {
         "en": "Ice Tea (one button of a drinks machine; the others are brands)",
@@ -2183,13 +2185,17 @@ SPECS = {
     },
     "vending_machine_display_007": {
         "en": "Cheap / Rats / for / sale (machine display with rat drawings)",
-        "note": "\"Ratos baratos à venda\" in the same rounded letters on the user's clean plates (colour and gloss, art/textures/clean/); the rats stay. The new words are matte in the gloss, like the old ones.",
+        "note": "\"Ratos baratos à venda\" in thin rounded letters with a hand-inked black outline of varying width, on the user's clean plates (art/textures/clean/); the rats stay. The gloss has its own words in rough brush capitals (CHEAP RATS FOR SALE!), now RATOS BARATOS À VENDA! in the same places.",
         "erase": [],
-        "alpha": {"erase": [], "letters": 15, "outline": 15},
-        "text": [{"box": [8, 16, 132, 52], "font": "fredoka", "text": "Ratos", "stretch": True, "outline": [2, "#4b2623"], "color": "#853d39", "ink_texture": 0.8, "mottle": 6, "weight": 500},
-                 {"box": [8, 64, 132, 102], "font": "fredoka", "text": "baratos", "stretch": True, "outline": [2, "#4b2623"], "color": "#853d39", "ink_texture": 0.8, "mottle": 6, "weight": 500},
-                 {"box": [46, 156, 74, 198], "font": "fredoka", "text": "à", "stretch": True, "outline": [2, "#4b2623"], "color": "#853d39", "ink_texture": 0.8, "mottle": 6, "weight": 500},
-                 {"box": [14, 208, 100, 248], "font": "fredoka", "text": "venda", "stretch": True, "outline": [2, "#4b2623"], "color": "#853d39", "ink_texture": 0.8, "mottle": 6, "weight": 500}],
+        "alpha": {"erase": []},
+        "text": [{"box": [8, 16, 132, 52], "font": "fredoka", "text": "Ratos", "stretch": True, "outline": [4, "#140e0c"], "outline_vary": [1.5, 2.5, 1.5], "color": "#853d39", "ink_texture": 0.5, "mottle": 6, "weight": 300},
+                 {"box": [8, 64, 132, 102], "font": "fredoka", "text": "baratos", "stretch": True, "outline": [4, "#140e0c"], "outline_vary": [1.5, 2.5, 1.5], "color": "#853d39", "ink_texture": 0.5, "mottle": 6, "weight": 300},
+                 {"box": [46, 156, 74, 198], "font": "fredoka", "text": "à", "stretch": True, "outline": [4, "#140e0c"], "outline_vary": [1.5, 2.5, 1.5], "color": "#853d39", "ink_texture": 0.5, "mottle": 6, "weight": 300},
+                 {"box": [14, 208, 100, 248], "font": "fredoka", "text": "venda", "stretch": True, "outline": [4, "#140e0c"], "outline_vary": [1.5, 2.5, 1.5], "color": "#853d39", "ink_texture": 0.5, "mottle": 6, "weight": 300},
+                 {"box": [26, 10, 138, 46], "font": "marker", "text": "RATOS", "stretch": True, "alpha_only": True, "alpha": 8, "crisp": 0.5},
+                 {"box": [2, 72, 138, 134], "font": "marker", "text": "BARATOS", "stretch": True, "alpha_only": True, "alpha": 8, "crisp": 0.5},
+                 {"box": [50, 144, 100, 196], "font": "marker", "text": "À", "stretch": True, "alpha_only": True, "alpha": 8, "crisp": 0.5},
+                 {"box": [10, 206, 138, 240], "font": "marker", "text": "VENDA!", "stretch": True, "alpha_only": True, "alpha": 8, "crisp": 0.5}],
     },
     "vending_machine_display_007_e": {
         "en": "Cheap / Rats / for / sale (glow map of the rat display)",
