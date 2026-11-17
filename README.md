@@ -2,7 +2,7 @@
 
 An unofficial Brazilian Portuguese (PT-BR) translation of [Obenseuer](https://store.steampowered.com/app/951240/Obenseuer/) by Loiste Interactive, packaged as a BepInEx 5 plugin. Releases go up on [Nexus Mods](https://www.nexusmods.com/games/obeseuer) and on the GitHub releases page.
 
-Status: the first draft is complete and under review. It covers menus, items, recipes, furniture, interface labels, object names, notifications, tasks, notes, quest items, all dialogue and 315 textures with English text (signs, screens, maps, posters and packaging). See the [CHANGELOG](CHANGELOG.md) for details.
+Status: the first draft is complete and under review. It covers menus, items, recipes, furniture, interface labels, object names, notifications, tasks, notes, quest items, all dialogue and 317 textures with English text (signs, screens, maps, posters and packaging). See the [CHANGELOG](CHANGELOG.md) for details.
 
 The plugin translates the game in memory while it runs. It doesn't change any game files or write anything to your saves, and removing it brings back the English text.
 

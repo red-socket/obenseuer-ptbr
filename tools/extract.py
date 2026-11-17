@@ -53,6 +53,7 @@ FIELDS = {
     "HintContext": ["title", "header", "lines"],
     "manufacturing": ["ManuName"],
     "Growing": ["ManuName"],
+    "Generator": ["ManuName"], "InvoicePaymentMachine": ["ManuName"],
 }
 
 # ScriptableObject classes whose strings get an asset-based key instead of a text key.

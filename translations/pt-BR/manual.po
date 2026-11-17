@@ -1749,3 +1749,37 @@ msgstr "Falta a seringa"
 #, fuzzy
 msgid "No bait"
 msgstr "Sem isca"
+
+#. Power and heat sources and the invoice machine (Generator.ManuName, InvoicePaymentMachine.ManuName): the name shown
+#. when you look at them. Two have a double space in the game data.
+#, fuzzy
+msgid "Portable generator"
+msgstr "Gerador portátil"
+
+#, fuzzy
+msgid "Mobile  generator"
+msgstr "Gerador móvel"
+
+#, fuzzy
+msgid "Diesel  generator"
+msgstr "Gerador a diesel"
+
+#, fuzzy
+msgid "Campfire"
+msgstr "Fogueira"
+
+#, fuzzy
+msgid "Fireplace"
+msgstr "Lareira"
+
+#, fuzzy
+msgid "Metalstove"
+msgstr "Fogão de metal"
+
+#, fuzzy
+msgid "Tilestove"
+msgstr "Fogão de azulejos"
+
+#, fuzzy
+msgid "Payment machine"
+msgstr "Máquina de pagamento"
