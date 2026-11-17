@@ -3026,6 +3026,7 @@ SPECS = {
 
 
 
+
     # ---- Batch 22: tier 4 packaging and labels (first half) ----
     "pill_packet_001_facemasks": {
         "en": "MIASMAFIL / 8PCS (face mask packet; the text runs down the packet)",
@@ -3128,11 +3129,12 @@ SPECS = {
     },
     "paint_bucket_0": {
         "en": "TARFELL / PAINT (paint bucket, a big and a small label)",
-        "note": "Tarfell (brand) stays; PAINT is TINTA on both ovals. Ships as paint_bucket.",
+        "note": "Tarfell (brand) stays; PAINT is TINTA on both ovals, centred by eye (1 px right of the measured centre, as the A's thin right leg makes the measured centre look left). Ships as paint_bucket.",
         "game_name": "paint_bucket",
         "erase": [{"rect": [15, 139, 47, 149], "mode": "color", "thresh": 120, "k": 7, "grain": 0, "bg": "#cf8a2c", "grow": 0, "isolate": True, "scatter": [5, 1]}, {"rect": [19, 219, 42, 227], "mode": "dark", "thresh": 40, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [3, 1]}],
-        "text": [{"box": [15, 141, 42, 148], "font": "patua", "text": "TINTA", "stretch": True, "color": "#1e1b16"},
-                 {"box": [20, 221, 38, 225], "font": "patua", "text": "TINTA", "stretch": True, "color": "#26221c"}],
+        "text": [{"box": [16, 141, 43, 148], "font": "patua", "text": "TINTA", "stretch": True, "color": "#1e1b16"},
+                 {"box": [21, 221, 39, 225], "font": "patua", "text": "TINTA", "stretch": True, "color": "#26221c"}],
+        "alts": {"Measured centre (1 px left)": {"box": [15, 141, 42, 148]}},
     },
 }
 
