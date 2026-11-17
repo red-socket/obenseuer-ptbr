@@ -2267,6 +2267,11 @@ SPECS = {
 
 
 
+
+
+
+
+
     # ---- Batch 17: tier 2 posters (way up, missing dog, Stalburg Steel, poison, internet, contract work, The Engineer, Osmo Olut) ----
     "Decal_002_poster_way_up": {
         "en": "THINK POSITIVELY / WHEN YOU ARE AT THE BOTTOM / THE ONLY WAY IS UP! (pixel poster)",
@@ -2290,8 +2295,8 @@ SPECS = {
     },
     "Decal_002_poster_way_up_2": {
         "en": "THINK POSITIVELY / WHEN YOU ARE AT / THE BOTTOM / THE ONLY WAY IS / UP! (poster with a face)",
-        "note": "Same words as the pixel version: \"Pense positivo / quando se está no / fundo, / o único caminho é / subir!\".",
-        "erase": [{"rect": [66, 75, 190, 122], "mode": "color", "thresh": -1, "k": 7, "grain": 2, "grow": 0, "radius": 6}, {"rect": [70, 132, 188, 167], "mode": "color", "thresh": -1, "k": 7, "grain": 2, "grow": 0, "radius": 6}],
+        "note": "Same words as the pixel version: \"Pense positivo / quando se está no / fundo, / o único caminho é / subir!\", on the user's clean plate (art/textures/clean/), with the soft dark halo redrawn.",
+        "erase": [],
         "text": [{"box": [62, 78, 196, 90], "font": "sans-bold", "text": "PENSE POSITIVO", "baseline": 89, "size": 13, "color": "#dcdad6", "shadow": [1, 1, "#5e5b45"], "halo": [1.6, "#2a281c", 1.1, 1, 1], "squeeze": 0.92},
                  {"box": [62, 92, 196, 104], "font": "sans-bold", "text": "QUANDO SE ESTÁ NO", "baseline": 103, "size": 13, "color": "#dcdad6", "shadow": [1, 1, "#5e5b45"], "halo": [1.6, "#2a281c", 1.1, 1, 1], "squeeze": 0.92},
                  {"box": [62, 107, 196, 119], "font": "sans-bold", "text": "FUNDO,", "baseline": 118, "size": 13, "color": "#dcdad6", "shadow": [1, 1, "#5e5b45"], "halo": [1.6, "#2a281c", 1.1, 1, 1], "squeeze": 0.92},
@@ -2302,14 +2307,14 @@ SPECS = {
         "en": "MISSING / MY DOG? / ... / CALL:035435435 (worn flyer; the small print is unreadable)",
         "note": "\"Perdido / meu cão? / ligue:035435435\"; the blurred body lines stay. Worn red letters like the original's.",
         "erase": [{"rect": [14, 2, 82, 15], "mode": "color", "thresh": 40, "k": 7, "grain": 0, "only_red": 20, "grow": 1, "isolate": True, "scatter": [6, 3]}, {"rect": [30, 15, 72, 21], "mode": "dark", "thresh": 20, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 2]}, {"rect": [12, 89, 80, 96], "mode": "color", "thresh": 40, "k": 7, "grain": 0, "only_red": 20, "grow": 1, "isolate": True, "scatter": [6, 2]}],
-        "text": [{"box": [19, 3, 68, 14], "font": "barlow-cond-semibold", "text": "PERDIDO", "stretch": True, "crisp": 0.4, "speckle": [0.35, 0.8], "color": "#985c55"},
+        "text": [{"box": [21, 4, 78, 14], "font": "barlow-cond-semibold", "text": "PERDIDO", "stretch": True, "hide": [[64, 0], [69, 0], [87, 11], [85, 14], [83, 14], [62, 2]], "crisp": 0.4, "speckle": [0.35, 0.8], "color": "#985c55"},
                  {"pixel": "call", "box": [30, 15, 70, 20], "baselines": [20], "text": "MEU CÃO?", "gap": 1, "space": 3, "speckle": [0.4, 0.6], "color": "#45453b"},
                  {"pixel": "call", "box": [12, 90, 78, 94], "baselines": [94], "text": "LIGUE:035435435", "gap": 1, "speckle": [0.25, 0.6], "color": "#99645b"}],
     },
     "Decal_002_stalburg_steel": {
         "en": "STALBURG / STEEL (logo; STEEL is half hidden) / STRUCTURING THE FUTURE (poster)",
         "note": "Stalburg (name) stays; \"Aço\" for STEEL, as cut off as the original; \"Estruturando o futuro\" in the poster's 3x5 capitals over the same stripes.",
-        "erase": [{"rect": [16, 80, 80, 95], "mode": "near", "thresh": 70, "k": 7, "grain": 0, "bg": "#bbb5a5", "grow": 0, "isolate": True, "scatter": [0, 7]}, {"rect": [34, 70, 64, 74], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "bg": "#000000", "grow": 0, "isolate": True, "scatter": [3, 2]}],
+        "erase": [{"rect": [16, 80, 80, 95], "mode": "near", "thresh": 70, "k": 7, "grain": 0, "bg": "#bbb5a5", "grow": 1, "isolate": True, "scatter": [0, 7]}, {"rect": [34, 70, 64, 74], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "bg": "#000000", "grow": 0, "isolate": True, "scatter": [3, 2]}],
         "text": [{"pixel": "call", "box": [22, 81, 76, 85], "baselines": [85], "text": "ESTRUTURANDO", "gap": 1, "color": "#bbb5a5"},
                  {"pixel": "call", "box": [22, 89, 76, 93], "baselines": [93], "text": "O FUTURO", "gap": 1, "space": 3, "color": "#bbb5a5"},
                  {"pixel": "call", "box": [34, 71, 64, 75], "baselines": [75], "text": "AÇO", "gap": 1, "clip": [34, 71, 64, 73], "color": "#8c2c1c"}],
@@ -2318,10 +2323,10 @@ SPECS = {
         "en": "THEY / POISON / YOUR / MIND (poster with two figures)",
         "note": "\"Eles envenenam sua mente\", as the poster item is called in the game text; same layout and grey grunge letters.",
         "erase": [{"rect": [80, 3, 216, 45], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 2, "lama": True}, {"rect": [108, 45, 218, 69], "mode": "bright", "thresh": 120, "k": 7, "grain": 0, "grow": 2, "lama": True}, {"rect": [54, 152, 200, 196], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 2, "lama": True}, {"rect": [40, 195, 218, 252], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 2, "lama": True}],
-        "text": [{"box": [85, 7, 210, 42], "font": "sans-bold", "text": "ELES", "stretch": True, "color": "#c5c4c3", "ink_texture": 0.8, "mottle": 6},
-                 {"box": [113, 47, 211, 66], "font": "sans-bold", "text": "ENVENENAM", "stretch": True, "color": "#c5c4c3", "ink_texture": 0.8, "mottle": 6},
-                 {"box": [76, 156, 178, 193], "font": "sans-bold", "text": "SUA", "stretch": True, "color": "#c5c4c3", "ink_texture": 0.8, "mottle": 6},
-                 {"box": [43, 199, 213, 249], "font": "sans-bold", "text": "MENTE", "stretch": True, "color": "#c5c4c3", "ink_texture": 0.8, "mottle": 6}],
+        "text": [{"box": [85, 7, 210, 42], "font": "sans-bold", "text": "ELES", "stretch": True, "color": "#c5c4c3", "ink_texture": 0.2, "mottle": 3},
+                 {"box": [113, 47, 211, 66], "font": "sans-bold", "text": "ENVENENAM", "stretch": True, "color": "#c5c4c3", "ink_texture": 0.2, "mottle": 3},
+                 {"box": [76, 156, 178, 193], "font": "sans-bold", "text": "SUA", "stretch": True, "color": "#c5c4c3", "ink_texture": 0.2, "mottle": 3},
+                 {"box": [43, 199, 213, 249], "font": "sans-bold", "text": "MENTE", "stretch": True, "color": "#c5c4c3", "ink_texture": 0.2, "mottle": 3}],
     },
     "decal_002_internets": {
         "en": "INTERNET = FREEDOM / Interne.ts (poster with a globe)",
@@ -2331,12 +2336,9 @@ SPECS = {
     },
     "brochure_stand_001_contract_work": {
         "en": "BLUEPRINTS & BLUEPRINTS / EVERYTHING OK? / We'll fix it! (three brochures on a stand)",
-        "note": "\"Projetos & projetos\", \"Tudo certo?\", \"A gente faz já!\" (we'll do it right away), short lines like We'll / fix / it! so the woman stays clear; the tiny print blocks stay.",
-        "erase": [{"rect": [4, 5, 42, 9], "mode": "light", "thresh": 40, "k": 5, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 2]}, {"rect": [4, 19, 42, 23], "mode": "light", "thresh": 40, "k": 5, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 2]}, {"rect": [45, 3, 83, 9], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 1, "lama": True}, {"rect": [86, 1, 117, 15], "mode": "bright", "thresh": 215, "k": 7, "grain": 0, "grow": 1, "lama": True}, {"rect": [86, 15, 108, 40], "mode": "bright", "thresh": 215, "k": 7, "grain": 0, "grow": 1, "lama": True}],
-        "text": [{"box": [6, 5, 40, 9], "font": "sans-bold", "text": "PROJETOS", "stretch": True, "crisp": 0.4, "color": "#f4f6f9"},
-                 {"box": [6, 19, 40, 23], "font": "sans-bold", "text": "PROJETOS", "stretch": True, "crisp": 0.4, "color": "#f4f6f9"},
-                 {"box": [47, 4, 81, 8], "font": "sans-bold", "text": "TUDO CERTO?", "stretch": True, "crisp": 0.4, "color": "#f3eee7"},
-                 {"box": [88, 2, 116, 14], "font": "roboto-cond-bold", "text": "A gente", "baseline": 13, "color": "#ffffff", "align": "left", "size": 13},
+        "note": "Only We'll fix it! is translated (user, batch 17: the other two brochures stay): \"A gente faz já!\" (we'll do it right away), short lines like We'll / fix / it! so the woman stays clear; the tiny print blocks stay.",
+        "erase": [{"rect": [86, 1, 117, 15], "mode": "bright", "thresh": 215, "k": 7, "grain": 0, "grow": 1, "lama": True}, {"rect": [86, 15, 108, 40], "mode": "bright", "thresh": 215, "k": 7, "grain": 0, "grow": 1, "lama": True}],
+        "text": [{"box": [88, 2, 116, 14], "font": "roboto-cond-bold", "text": "A gente", "baseline": 13, "color": "#ffffff", "align": "left", "size": 13},
                  {"box": [88, 16, 116, 28], "font": "roboto-cond-bold", "text": "faz", "baseline": 28, "color": "#ffffff", "align": "left", "size": 13},
                  {"box": [88, 29, 116, 41], "font": "roboto-cond-bold", "text": "já!", "baseline": 38, "color": "#ffffff", "align": "left", "size": 13}],
     },

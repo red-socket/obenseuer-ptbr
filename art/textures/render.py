@@ -642,6 +642,9 @@ def render(name, spec, save=True):
             cx0, cy0, cx1, cy1 = t["clip"]
             keep = np.zeros_like(a); keep[cy0:cy1, cx0:cx1] = 1
             a = a * keep
+        if t.get("hide"):   # polygon the letters go under (tape or a tear over the old lettering)
+            cover = np.zeros(a.shape, np.uint8); cv2.fillPoly(cover, [np.array(t["hide"], np.int32)], 1)
+            a = a * (1 - cover)
         if t.get("wear"):   # worn ink: fade the mask in uneven patches, up to that fraction
             rng = np.random.default_rng(zlib.crc32((name + "wear" + t.get("text", "")).encode()))
             u = cv2.GaussianBlur(rng.random(a.shape), (0, 0), 1.2)
