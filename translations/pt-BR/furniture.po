@@ -2926,7 +2926,7 @@ msgstr "Lampião amarelo"
 #, fuzzy
 msgctxt "Furniture.Assets/Content/Prefabs/Building System/Furniture/Magazines/Magazine House.asset.title"
 msgid "Magazine: House"
-msgstr "Revista Casa"
+msgstr "Revista Lar"
 
 #: Content/Prefabs/Building System/Furniture/Magazines/Magazine IC.asset
 #, fuzzy
@@ -2956,7 +2956,7 @@ msgstr "Revista Trens de Stalburg"
 #, fuzzy
 msgctxt "Furniture.Assets/Content/Prefabs/Building System/Furniture/Magazines/Magazine Stalburg Women.asset.title"
 msgid "Magazine: Stalburg Women"
-msgstr "Revista Mulheres de Stalburg"
+msgstr "Revista Mulher de Stalburg"
 
 #: Content/Prefabs/Building System/Furniture/Magazines/Magazine The Doctor.asset
 #, fuzzy
