@@ -3025,11 +3025,12 @@ SPECS = {
 
 
 
+
     # ---- Batch 22: tier 4 packaging and labels (first half) ----
     "pill_packet_001_facemasks": {
         "en": "MIASMAFIL / 8PCS (face mask packet; the text runs down the packet)",
         "note": "Miasmafil (brand) stays; 8 PCS is 8 UN. (unidades), in the same blocky black letters turned to run down the packet.",
-        "erase": [{"rect": [87, 40, 103, 63], "mode": "dark", "thresh": 60, "k": 9, "grain": 0, "grow": 1, "isolate": True, "scatter": [3, 4], "sample_min": 170}],
+        "erase": [{"rect": [87, 40, 104, 63], "mode": "dark", "thresh": 60, "k": 9, "grain": 0, "grow": 1, "isolate": True, "scatter": [5, 6], "sample_min": 170}],
         "text": [{"box": [0, 0, 40, 20], "font": "sans", "text": "UN.", "stretch": True, "color": "#000000", "quad": [[102, 44], [102, 57], [93, 57], [93, 44]], "quad_crisp": [0.35, 0.6]}],
     },
     "bottle_set_001_0": {
@@ -3130,8 +3131,8 @@ SPECS = {
         "note": "Tarfell (brand) stays; PAINT is TINTA on both ovals. Ships as paint_bucket.",
         "game_name": "paint_bucket",
         "erase": [{"rect": [15, 139, 47, 149], "mode": "color", "thresh": 120, "k": 7, "grain": 0, "bg": "#cf8a2c", "grow": 0, "isolate": True, "scatter": [5, 1]}, {"rect": [19, 219, 42, 227], "mode": "dark", "thresh": 40, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [3, 1]}],
-        "text": [{"box": [17, 141, 44, 148], "font": "patua", "text": "TINTA", "stretch": True, "color": "#1e1b16"},
-                 {"box": [21, 221, 39, 225], "font": "patua", "text": "TINTA", "stretch": True, "color": "#26221c"}],
+        "text": [{"box": [15, 141, 42, 148], "font": "patua", "text": "TINTA", "stretch": True, "color": "#1e1b16"},
+                 {"box": [20, 221, 38, 225], "font": "patua", "text": "TINTA", "stretch": True, "color": "#26221c"}],
     },
 }
 
