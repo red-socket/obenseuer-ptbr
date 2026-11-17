@@ -1622,3 +1622,105 @@ msgstr "{{Garçom|Garçonete}}"
 msgctxt "npc.Wizard"
 msgid "Wizard"
 msgstr "{{Mago|Maga}}"
+
+#. SRC/TenementUpgradeCleanupArea.cs:439 the count is joined to "packed to make way for"; whole sentences read better
+#, fuzzy
+msgid "1 item was packed to make way for {0}."
+msgstr "1 item foi embalado para dar lugar à {0}."
+
+#, fuzzy
+msgid "{0} items were packed to make way for {1}."
+msgstr "{0} itens foram embalados para dar lugar à {1}."
+
+#. SRC/InteractableLadder.cs:165 "Get off (Level " + n + ")"
+#, fuzzy
+msgid "Get off (Level {0})"
+msgstr "Descer (nível {0})"
+
+#. SRC/StartSelection.cs:113 starting-choice effects, one "Label: +n" per line (the extracted templates keep the "\n")
+#, fuzzy
+msgid "Alcohol addiction"
+msgstr "Vício em álcool"
+
+#, fuzzy
+msgid "Mushroom addiction"
+msgstr "Vício em cogumelo"
+
+#, fuzzy
+msgid "Smoking addiction"
+msgstr "Vício em cigarro"
+
+#, fuzzy
+msgid "Gambling addiction"
+msgstr "Vício em jogos de azar"
+
+#, fuzzy
+msgid "Fungal disease"
+msgstr "Doença fúngica"
+
+#, fuzzy
+msgid "Random addiction"
+msgstr "Vício aleatório"
+
+#. Doctor's addiction diagnosis (SRC/TreatmentAddictions.cs GetDescription), rebuilt from these pieces by DoctorText.cs.
+#. Sentences are joined with a space; {0} is a list of the doctor.name.* entries ("a, b e c").
+#, fuzzy
+msgctxt "doctor.drinking"
+msgid "You have been drinking alcohol recently."
+msgstr "Você bebeu álcool recentemente."
+
+#, fuzzy
+msgctxt "doctor.mushrooms"
+msgid "You have been using mushrooms recently."
+msgstr "Você usou cogumelos recentemente."
+
+#, fuzzy
+msgctxt "doctor.withdrawal"
+msgid "Your {0} addiction withdrawal symptoms are about to start soon."
+msgstr "Os sintomas de abstinência de {0} vão começar em breve."
+
+#, fuzzy
+msgctxt "doctor.high"
+msgid "You're very addicted to {0}."
+msgstr "Você está muito {{viciado|viciada}} em {0}."
+
+#, fuzzy
+msgctxt "doctor.normal"
+msgid "You have an addiction to {0}."
+msgstr "Você tem vício em {0}."
+
+#, fuzzy
+msgctxt "doctor.moderate"
+msgid "You have a moderate {0} addiction."
+msgstr "Você tem um vício moderado em {0}."
+
+#, fuzzy
+msgctxt "doctor.none"
+msgid "I don't know how it's possible but you don't seem to have any addictions!"
+msgstr "Não sei como é possível, mas você não parece ter nenhum vício!"
+
+#. List joiner before the last name: "a, b and c"
+#, fuzzy
+msgctxt "doctor.and"
+msgid " and "
+msgstr " e "
+
+#, fuzzy
+msgctxt "doctor.name.mushroom"
+msgid "green mushrooms"
+msgstr "cogumelos verdes"
+
+#, fuzzy
+msgctxt "doctor.name.alcohol"
+msgid "alcohol"
+msgstr "álcool"
+
+#, fuzzy
+msgctxt "doctor.name.smoking"
+msgid "nicotine"
+msgstr "nicotina"
+
+#, fuzzy
+msgctxt "doctor.name.gambling"
+msgid "gambling"
+msgstr "jogos de azar"

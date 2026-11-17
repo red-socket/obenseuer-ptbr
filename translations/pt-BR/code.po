@@ -171,11 +171,6 @@ msgstr "Todo dia"
 msgid "Every Hour"
 msgstr "Toda hora"
 
-#: SRC/Bank.cs:416
-#, fuzzy
-msgid "{0} with a payment time of {1} months and an interest of {2}%"
-msgstr "{0} com prazo de pagamento de {1} meses e juros de {2}%"
-
 #: SRC/Bank.cs:429
 #: SRC/BankUI.cs:381
 #: SRC/BankUI.cs:404
@@ -195,6 +190,11 @@ msgstr "{0} RM"
 #, fuzzy
 msgid "{0} OC"
 msgstr "{0} OC"
+
+#: SRC/Bank.cs:416
+#, fuzzy
+msgid "{0} with a payment time of {1} months and an interest of {2}%"
+msgstr "{0} com prazo de pagamento de {1} meses e juros de {2}%"
 
 #: SRC/BankExchangeRateSign.cs:55
 #, fuzzy
@@ -391,6 +391,36 @@ msgstr ""
 msgid "Unknown"
 msgstr "Desconhecido"
 
+#: SRC/BottleRecyclingPanel.cs:165
+msgid "Wine bottle"
+msgstr ""
+
+#: SRC/BottleRecyclingPanel.cs:170
+msgid "Glass bottle"
+msgstr ""
+
+#: SRC/BottleRecyclingPanel.cs:175
+msgid "Plastic bottle"
+msgstr ""
+
+#: SRC/BottleRecyclingPanel.cs:180
+msgid "Metal can"
+msgstr ""
+
+#: SRC/BottleRecyclingPanel.cs:185
+#, fuzzy
+msgid "Milk carton"
+msgstr "Caixa de leite"
+
+#: SRC/BottleRecyclingPanel.cs:190
+#, fuzzy
+msgid "Mushroom"
+msgstr "Cogumelo"
+
+#: SRC/BottleRecyclingPanel.cs:391
+msgid "XD"
+msgstr ""
+
 #: SRC/BreakableLock.cs:93
 #, fuzzy
 msgid "Unlocked"
@@ -399,6 +429,21 @@ msgstr "Destrancado"
 #: SRC/BuildingSystem.cs:392
 msgid "BuildingSystem"
 msgstr ""
+
+#: SRC/BuildingSystem.cs:609
+#, fuzzy
+msgid "The area has not been fully examined!"
+msgstr "A área não foi totalmente examinada!"
+
+#: SRC/BuildingSystem.cs:1410
+#, fuzzy
+msgid "Wall already has this wallpaper!"
+msgstr "A parede já tem este papel de parede!"
+
+#: SRC/BuildingSystem.cs:1415
+#, fuzzy
+msgid "No wallpaper to remove!"
+msgstr "Não há papel de parede para remover!"
 
 #: SRC/BuildingSystemMenu.cs:523
 #: SRC/CollectibleCoin.cs:47
@@ -424,6 +469,11 @@ msgstr "LIVRE"
 #, fuzzy
 msgid "SNAP OBJECT"
 msgstr "ENCAIXAR OBJETO"
+
+#: SRC/BuildingSystemMenu.cs:912
+#, fuzzy
+msgid "CHANGE STYLE"
+msgstr "MUDAR ESTILO"
 
 #: SRC/BundleMail.cs:166
 #: SRC/MailController.cs:528
@@ -459,9 +509,10 @@ msgstr "Botão"
 msgid "Press"
 msgstr "Apertar"
 
-#: SRC/CanvasSampleSaveFileText.cs:12
-msgid "Example text created by StandaloneFileBrowser"
-msgstr ""
+#: SRC/Button.cs:448
+#, fuzzy
+msgid "No required items found"
+msgstr "Nenhum dos itens necessários foi encontrado"
 
 #: SRC/CardGameNPCAnimations.cs:8
 msgid "HoldingCards"
@@ -479,6 +530,14 @@ msgstr ""
 msgid "TakeCard"
 msgstr ""
 
+#: SRC/CardGameTable.cs:633
+msgid "Win"
+msgstr ""
+
+#: SRC/CardGameTable.cs:633
+msgid "Loss"
+msgstr ""
+
 #: SRC/CardGameTutorial.cs:23
 msgid "Generic/Card Games"
 msgstr ""
@@ -490,6 +549,171 @@ msgstr ""
 #: SRC/CardGameTutorial.cs:27
 msgid "TutorialShittypantsDone"
 msgstr ""
+
+#: SRC/CardGameTutorial.cs:84
+#, fuzzy
+msgid "Crosseven (Ristiseiska) is the Finnish version of the card game Sevens, where the goal is to get rid of all your cards."
+msgstr "Sete de Paus (Ristiseiska) é a versão finlandesa do jogo de cartas Sevens, em que o objetivo é se livrar de todas as suas cartas."
+
+#: SRC/CardGameTutorial.cs:85
+#, fuzzy
+msgid "The one with the 7 of Clubs starts the game."
+msgstr "Quem tem o 7 de paus começa o jogo."
+
+#: SRC/CardGameTutorial.cs:86
+#, fuzzy
+msgid "If you have it, you must play it."
+msgstr "Se você tiver, é obrigado a jogá-lo."
+
+#: SRC/CardGameTutorial.cs:87
+#, fuzzy
+msgid "You can play another 7 to start a new suit."
+msgstr "Você pode jogar outro 7 para começar um novo naipe."
+
+#: SRC/CardGameTutorial.cs:88
+#, fuzzy
+msgid "Once a 7 is on the table, the next playable card in that suit is the 6. After the 6 is played, the 8 becomes available."
+msgstr "Com um 7 na mesa, a próxima carta jogável desse naipe é o 6. Depois que o 6 for jogado, o 8 fica disponível."
+
+#: SRC/CardGameTutorial.cs:89
+#, fuzzy
+msgid "And after that, you can keep building the sequence, descending from 6 or ascending from 8 in the same suit."
+msgstr "Depois disso, dá para continuar a sequência, descendo a partir do 6 ou subindo a partir do 8 no mesmo naipe."
+
+#: SRC/CardGameTutorial.cs:90
+#, fuzzy
+msgid "You can't play below the 6 until the 8 has also been played in that suit."
+msgstr "Você não pode jogar abaixo do 6 até que o 8 também tenha sido jogado nesse naipe."
+
+#: SRC/CardGameTutorial.cs:92
+#, fuzzy
+msgid "On your first turn, you can pass without requesting a card if you don't have 7 of Clubs."
+msgstr "Na sua primeira vez, você pode passar sem pedir carta se não tiver o 7 de paus."
+
+#: SRC/CardGameTutorial.cs:93
+#, fuzzy
+msgid "Also remember, the first player to get rid of all their cards wins!"
+msgstr "E lembre-se: ganha quem se livrar de todas as cartas primeiro!"
+
+#: SRC/CardGameTutorial.cs:94
+#, fuzzy
+msgid "Playing an Ace or King flips the pile and lets you play again immediately!"
+msgstr "Jogar um ás ou um rei vira o monte e deixa você jogar de novo na hora!"
+
+#: SRC/CardGameTutorial.cs:137
+#, fuzzy
+msgid "Shittypants is a card game where the goal is to get rid of all your cards. The last player with cards loses."
+msgstr "Calça cagada é um jogo de cartas em que o objetivo é se livrar de todas as suas cartas. Perde o último jogador que ficar com cartas."
+
+#: SRC/CardGameTutorial.cs:138
+#, fuzzy
+msgid "You have 9 cards."
+msgstr "Você tem 9 cartas."
+
+#: SRC/CardGameTutorial.cs:139
+#, fuzzy
+msgid "3 face-down on the table."
+msgstr "3 viradas para baixo na mesa."
+
+#: SRC/CardGameTutorial.cs:140
+#, fuzzy
+msgid "3 face-up on top."
+msgstr "3 viradas para cima por cima delas."
+
+#: SRC/CardGameTutorial.cs:141
+#, fuzzy
+msgid "And 3 in your hand."
+msgstr "E 3 na mão."
+
+#: SRC/CardGameTutorial.cs:142
+#, fuzzy
+msgid "You can play cards equal to or higher than the top card. Aces are high."
+msgstr "Você pode jogar cartas iguais ou maiores que a do topo. O ás é a carta mais alta."
+
+#: SRC/CardGameTutorial.cs:143
+#, fuzzy
+msgid "However, you cannot play face cards (Jack, Queen, King, Ace) on cards lower than 7!"
+msgstr "Mas você não pode jogar figuras (valete, dama, rei, ás) sobre cartas menores que 7!"
+
+#: SRC/CardGameTutorial.cs:144
+#, fuzzy
+msgid "You play from your hand first."
+msgstr "Primeiro você joga as cartas da mão."
+
+#: SRC/CardGameTutorial.cs:145
+#, fuzzy
+msgid "And then your face-up cards."
+msgstr "Depois, as viradas para cima."
+
+#: SRC/CardGameTutorial.cs:146
+#, fuzzy
+msgid "And then face-down cards blind."
+msgstr "E depois as viradas para baixo, às cegas."
+
+#: SRC/CardGameTutorial.cs:147
+#, fuzzy
+msgid "If the face-down card can't be played, you pick up the pile with it."
+msgstr "Se a carta virada para baixo não puder ser jogada, você pega o monte junto com ela."
+
+#: SRC/CardGameTutorial.cs:148
+#, fuzzy
+msgid "But first, swap cards between your hand and face-up cards to arrange your strategy."
+msgstr "Mas antes, troque cartas entre a mão e as viradas para cima para montar sua estratégia."
+
+#: SRC/CardGameTutorial.cs:157
+#, fuzzy
+msgid "Two cards have special rules."
+msgstr "Duas cartas têm regras especiais."
+
+#: SRC/CardGameTutorial.cs:158
+#, fuzzy
+msgid "2 resets the pile and lets you play again."
+msgstr "O 2 zera o monte e deixa você jogar de novo."
+
+#: SRC/CardGameTutorial.cs:159
+#, fuzzy
+msgid "10 burns the pile and gives you another turn."
+msgstr "O 10 queima o monte e você joga de novo."
+
+#: SRC/CardGameTutorial.cs:160
+#, fuzzy
+msgid "Also four cards of the same value in a row burns the pile and gives another turn."
+msgstr "Quatro cartas do mesmo valor seguidas também queimam o monte e dão outra jogada."
+
+#: SRC/CardGameTutorial.cs:161
+#, fuzzy
+msgid "After playing a card, you can still throw in more cards of the same value until the next player plays."
+msgstr "Depois de jogar uma carta, você ainda pode soltar mais cartas do mesmo valor até o próximo jogador jogar."
+
+#: SRC/CardGameTutorial.cs:162
+#, fuzzy
+msgid "After your turn, you draw back up to 3 cards as long as there are cards in the deck."
+msgstr "Depois da sua vez, você compra até ficar com 3 cartas, enquanto houver cartas no baralho."
+
+#: SRC/CardGameTutorial.cs:163
+#, fuzzy
+msgid "If you can't play, you can pick up the whole pile, ending your turn."
+msgstr "Se não puder jogar, você pode pegar o monte inteiro, e a sua vez acaba."
+
+#: SRC/CardGameTutorial.cs:164
+#, fuzzy
+msgid "Or take a risk and play the top card of the deck blind. If it can't be played, you pick up the pile with it."
+msgstr "Ou arrisque e jogue às cegas a carta do topo do baralho. Se ela não puder ser jogada, você pega o monte junto com ela."
+
+#: SRC/CardGameTutorial.cs:165
+#, fuzzy
+msgid "Also remember, first to get rid of all cards wins!"
+msgstr "E lembre-se: ganha quem se livrar de todas as cartas primeiro!"
+
+#: SRC/CardGameTutorial.cs:243
+#, fuzzy
+msgid "If you can't play any cards, you must request a card from the previous player."
+msgstr "Se não puder jogar nenhuma carta, você precisa pedir uma carta ao jogador anterior."
+
+#: SRC/CardGameTutorial.cs:247
+#, fuzzy
+msgid "Looks like you don't have any playable cards. You must request a card from the previous player."
+msgstr "Parece que você não tem nenhuma carta jogável. Você precisa pedir uma carta ao jogador anterior."
 
 #: SRC/CardGameUI.cs:177
 #: SRC/CardGameUI.cs:184
@@ -659,6 +883,16 @@ msgstr "NV {0}"
 msgid "{0} XP"
 msgstr "{0} XP"
 
+#: SRC/ChinaHand.cs:52
+#, fuzzy
+msgid "Rearrane cards"
+msgstr "Reorganizar cartas"
+
+#: SRC/ChinaHand.cs:52
+#, fuzzy
+msgid "Call ready"
+msgstr "Avisar que está pronto"
+
 #: SRC/ChinaHand.cs:256
 #, fuzzy
 msgid "Shittypants"
@@ -818,6 +1052,20 @@ msgstr "Moeda do Esgoto Aberto"
 msgid "Steal"
 msgstr "Roubar"
 
+#: SRC/CollectibleItem.cs:624
+#, fuzzy
+msgid "Hands full"
+msgstr "Mãos ocupadas"
+
+#: SRC/GrowItem.cs:223
+#: SRC/InteractableItemGiver.cs:419
+#: SRC/InteractableTicketMachine.cs:284
+#: SRC/RatTrap.cs:158
+#: SRC/grow.cs:433
+#, fuzzy
+msgid "Inventory full"
+msgstr "Inventário cheio"
+
 #: SRC/CollectibleItem.cs:632
 #: SRC/CollectiblePackage.cs:106
 #: SRC/InteractableShower.cs:162
@@ -827,6 +1075,10 @@ msgstr "Roubar"
 #, fuzzy
 msgid "Owned"
 msgstr "Tem dono"
+
+#: SRC/CollectibleItem.cs:676
+msgid "Hold - {0}"
+msgstr ""
 
 #: SRC/CollectibleNote.cs:25
 #, fuzzy
@@ -1342,6 +1594,33 @@ msgstr "Abrir"
 msgid "Enter"
 msgstr ""
 
+#: SRC/Dosimeter.cs:233
+#: SRC/point_radiation_detector.cs:59
+msgid "mSv/h"
+msgstr ""
+
+#: SRC/Dosimeter.cs:237
+#: SRC/point_radiation_detector.cs:63
+msgid "Sv/h"
+msgstr ""
+
+#: SRC/Dosimeter.cs:241
+#: SRC/point_radiation_detector.cs:67
+msgid "Î¼Sv/h"
+msgstr ""
+
+#: SRC/Dosimeter.cs:255
+msgid "mSv"
+msgstr ""
+
+#: SRC/Dosimeter.cs:259
+msgid "Sv"
+msgstr ""
+
+#: SRC/Dosimeter.cs:263
+msgid "Î¼Sv"
+msgstr ""
+
 #: SRC/DrinkingContest.cs:36
 #: SRC/DrinkingContest.cs:42
 #, fuzzy
@@ -1356,6 +1635,10 @@ msgstr ""
 #, fuzzy
 msgid "Edit"
 msgstr "Editar"
+
+#: SRC/FPSDisplay.cs:23
+msgid "{0} ms ({1} fps)"
+msgstr ""
 
 #: SRC/FaceSlotController.cs:8
 msgid "FaceSlotController"
@@ -1674,6 +1957,31 @@ msgstr "Tempo de fabricação: {0}"
 msgid "New item"
 msgstr "Item novo"
 
+#: SRC/InteractableDynamiteCone.cs:96
+#, fuzzy
+msgid "Inventory full: {0}"
+msgstr "Inventário cheio: {0}"
+
+#: SRC/FurniturePlaceable.cs:561
+#, fuzzy
+msgid "Items required: {0}"
+msgstr "Itens necessários: {0}"
+
+#: SRC/FurniturePlaceable.cs:565
+#, fuzzy
+msgid "Item required: {0}"
+msgstr "Item necessário: {0}"
+
+#: SRC/FurniturePlaceable.cs:572
+#, fuzzy
+msgid "Uses items: {0}"
+msgstr "Usa os itens: {0}"
+
+#: SRC/FurniturePlaceable.cs:576
+#, fuzzy
+msgid "Uses item: {0}"
+msgstr "Usa o item: {0}"
+
 #: SRC/FurnitureShopPanelUI.cs:260
 #, fuzzy
 msgid "OC {0}"
@@ -1748,15 +2056,6 @@ msgstr "Longe demais"
 msgid "Not fully grown"
 msgstr "Ainda não cresceu"
 
-#: SRC/GrowItem.cs:223
-#: SRC/InteractableItemGiver.cs:419
-#: SRC/InteractableTicketMachine.cs:284
-#: SRC/RatTrap.cs:158
-#: SRC/grow.cs:433
-#, fuzzy
-msgid "Inventory full"
-msgstr "Inventário cheio"
-
 #: SRC/GrowItem.cs:227
 #: SRC/Growing.cs:65
 #: SRC/grow.cs:439
@@ -1785,11 +2084,24 @@ msgstr ""
 msgid "Hints Overlay Hide"
 msgstr ""
 
+#: SRC/Hotel.cs:130
+msgid "Room: {0} per night"
+msgstr ""
+
+#: SRC/Hotel.cs:178
+msgid "1 night: {0}"
+msgstr ""
+
 #: SRC/Hotel.cs:231
 #: SRC/Hotel.cs:253
 #, fuzzy
 msgid "Room rented"
 msgstr "Quarto alugado"
+
+#: SRC/Hotel.cs:360
+#: SRC/RatFightArena.cs:348
+msgid "Cancel"
+msgstr ""
 
 #: SRC/InputManager.cs:48
 #: SRC/InventoryNavigationHandler.cs:222
@@ -1962,11 +2274,6 @@ msgstr "Computador"
 msgid "No dynamite in inventory: {0}"
 msgstr "Sem dinamite no inventário: {0}"
 
-#: SRC/InteractableDynamiteCone.cs:96
-#, fuzzy
-msgid "Inventory full: {0}"
-msgstr "Inventário cheio: {0}"
-
 #: SRC/InteractableDynamiteCone.cs:100
 #, fuzzy
 msgid "Remove dynamite: {0}"
@@ -1981,6 +2288,10 @@ msgstr "Colocar dinamite: {0}"
 #, fuzzy
 msgid "See cashier to purchase"
 msgstr "Compre no caixa"
+
+#: SRC/InteractableFurnitureDisplay.cs:83
+msgid "Not available"
+msgstr ""
 
 #: SRC/InteractableFurnitureDisplay.cs:103
 #, fuzzy
@@ -2058,6 +2369,10 @@ msgstr "Bloqueado"
 #, fuzzy
 msgid "Get off"
 msgstr "Descer"
+
+#: SRC/InteractableLadder.cs:165
+msgid "Get off (Level "
+msgstr ""
 
 #: SRC/InteractableMoney.cs:56
 #: SRC/MarketShop.cs:268
@@ -2360,6 +2675,10 @@ msgstr "USO SECUNDÁRIO"
 msgid "Use Item Secondary"
 msgstr ""
 
+#: SRC/InventoryNavigationHandler.cs:459
+msgid "   LT)STATS"
+msgstr ""
+
 #: SRC/InventoryNavigationHandler.cs:461
 #: SRC/ShopBaseUI.cs:1087
 #, fuzzy
@@ -2379,6 +2698,28 @@ msgstr "Boleto vencido"
 #, fuzzy
 msgid "Invoice expires today"
 msgstr "O boleto vence hoje"
+
+#: SRC/InvoicePaymentMachine.cs:16
+#, fuzzy
+msgid "Pay Invoice: {0} {1}"
+msgstr "Pagar boleto: {0} {1}"
+
+#: SRC/InvoicePaymentMachine.cs:25
+#, fuzzy
+msgid "Already paid or expired"
+msgstr "Já pago ou vencido"
+
+#: SRC/Item.cs:460
+msgid "Empty {0}"
+msgstr ""
+
+#: SRC/Item.cs:489
+msgid "{0} units of {1} in {2}"
+msgstr ""
+
+#: SRC/Item.cs:493
+msgid "{0} items in {1}"
+msgstr ""
 
 #: SRC/ItemData.cs:283
 #, fuzzy
@@ -2992,6 +3333,11 @@ msgstr "RM"
 msgid "Amount"
 msgstr "Valor"
 
+#: SRC/MoneySliderPanel.cs:160
+#, fuzzy
+msgid "Not enough {0}"
+msgstr "Não há {0} suficiente"
+
 #: SRC/MushroomEffect.cs:10
 msgid "MushroomEffect"
 msgstr ""
@@ -3043,6 +3389,36 @@ msgstr "Vazio..."
 #: SRC/Notifications.cs:13
 msgid "Notifications"
 msgstr ""
+
+#: SRC/ObjectPreview.cs:143
+#, fuzzy
+msgid "Cannot be placed in this area!"
+msgstr "Não pode ser colocado nesta área!"
+
+#: SRC/ObjectPreview.cs:147
+#, fuzzy
+msgid "Can't put this way!"
+msgstr "Não dá para colocar assim!"
+
+#: SRC/ObjectPreview.cs:151
+#, fuzzy
+msgid "Not placeable surface!"
+msgstr "Superfície inadequada!"
+
+#: SRC/ObjectPreview.cs:155
+#, fuzzy
+msgid "Can't be placed on this surface!"
+msgstr "Não pode ser colocado nesta superfície!"
+
+#: SRC/ObjectPreview.cs:159
+#, fuzzy
+msgid "Is inside an object!"
+msgstr "Está dentro de um objeto!"
+
+#: SRC/ObjectPreview.cs:163
+#, fuzzy
+msgid "Can't put it here!"
+msgstr "Não dá para colocar aqui!"
 
 #: SRC/ObjectiveUI.cs:41
 #, fuzzy
@@ -3294,6 +3670,40 @@ msgstr ""
 msgid "Virtanen"
 msgstr ""
 
+#: SRC/PlayerIdentity.cs:95
+#: SRC/PlayerIdentity.cs:96
+#: SRC/PlayerIdentity.cs:97
+msgid "male"
+msgstr ""
+
+#: SRC/PlayerIdentity.cs:95
+msgid "boy"
+msgstr ""
+
+#: SRC/PlayerIdentity.cs:95
+msgid "girl"
+msgstr ""
+
+#: SRC/PlayerIdentity.cs:96
+msgid "young gentleman"
+msgstr ""
+
+#: SRC/PlayerIdentity.cs:96
+msgid "young lady"
+msgstr ""
+
+#: SRC/PlayerIdentity.cs:97
+msgid "sir"
+msgstr ""
+
+#: SRC/PlayerIdentity.cs:97
+msgid "lady"
+msgstr ""
+
+#: SRC/PlayerLockpicking.cs:203
+msgid "(Lockpick"
+msgstr ""
+
 #: SRC/PlayerLockpicking.cs:230
 #, fuzzy
 msgid "(Lockpick broke!)"
@@ -3303,6 +3713,11 @@ msgstr "(A gazua quebrou!)"
 #, fuzzy
 msgid "(Lockpicking)"
 msgstr "(Arrombando)"
+
+#: SRC/PlayerMailSubscription.cs:24
+#: SRC/RandommailSender.cs:45
+msgid "Mail"
+msgstr ""
 
 #: SRC/PlayerSkillIncreaseUI.cs:36
 #, fuzzy
@@ -3405,6 +3820,136 @@ msgstr "sua saúde mental está baixa demais"
 msgid "you're too tired"
 msgstr "você está com cansaço demais"
 
+#: SRC/PlayerStatsToolTipInfo.cs:40
+#, fuzzy
+msgid "Health: "
+msgstr "Saúde: "
+
+#: SRC/PlayerStatsToolTipInfo.cs:42
+#, fuzzy
+msgid "Unkept well will drift the life away into a helpless silence."
+msgstr "Sem os devidos cuidados, a vida se esvai num silêncio impotente."
+
+#: SRC/PlayerStatsToolTipInfo.cs:46
+#, fuzzy
+msgid "Bleeding: "
+msgstr "Sangramento: "
+
+#: SRC/PlayerStatsToolTipInfo.cs:48
+#, fuzzy
+msgid "See a doctor or find a bandage if you bleed too much."
+msgstr "Procure um médico ou um curativo se estiver sangrando muito."
+
+#: SRC/PlayerStatsToolTipInfo.cs:52
+#, fuzzy
+msgid "Hunger: "
+msgstr "Fome: "
+
+#: SRC/PlayerStatsToolTipInfo.cs:54
+#, fuzzy
+msgid "Basic need for nutrition to maintain physical health."
+msgstr "Necessidade básica de nutrição para manter a saúde física."
+
+#: SRC/PlayerStatsToolTipInfo.cs:58
+#, fuzzy
+msgid "Thirst: "
+msgstr "Sede: "
+
+#: SRC/PlayerStatsToolTipInfo.cs:60
+#, fuzzy
+msgid "Basic need for hydration to maintain physical health."
+msgstr "Necessidade básica de hidratação para manter a saúde física."
+
+#: SRC/PlayerStatsToolTipInfo.cs:64
+#, fuzzy
+msgid "Tiredness: "
+msgstr "Cansaço: "
+
+#: SRC/PlayerStatsToolTipInfo.cs:66
+#, fuzzy
+msgid "Exceeded over physical capabilities may meet with sudden collapse into a sleep helplessly."
+msgstr "Passar dos limites do corpo pode levar a um colapso repentino, caindo no sono sem poder evitar."
+
+#: SRC/PlayerStatsToolTipInfo.cs:70
+#, fuzzy
+msgid "Bowel and bladder: "
+msgstr "Intestino e bexiga: "
+
+#: SRC/PlayerStatsToolTipInfo.cs:72
+#, fuzzy
+msgid "Unsatisfied in time will forcefully get satisfied, immediately affecting the physical health negatively."
+msgstr "Se não for atendida a tempo, será atendida à força, prejudicando na hora a saúde física."
+
+#: SRC/PlayerStatsToolTipInfo.cs:76
+#, fuzzy
+msgid "Alcohol need: "
+msgstr "Abstinência de álcool: "
+
+#: SRC/PlayerStatsToolTipInfo.cs:78
+#, fuzzy
+msgid "Unsatisfied need for alcohol will drastically start to affect the mental health negatively."
+msgstr "A vontade não saciada de álcool começa a prejudicar gravemente a saúde mental."
+
+#: SRC/PlayerStatsToolTipInfo.cs:82
+#, fuzzy
+msgid "Mushroom need: "
+msgstr "Abstinência de cogumelo: "
+
+#: SRC/PlayerStatsToolTipInfo.cs:84
+#, fuzzy
+msgid "Unsatisfied need for hallucinogenics will drastically start to affect the mental health negatively."
+msgstr "A vontade não saciada de alucinógenos começa a prejudicar gravemente a saúde mental."
+
+#: SRC/PlayerStatsToolTipInfo.cs:88
+#, fuzzy
+msgid "Smokes need: "
+msgstr "Abstinência de cigarro: "
+
+#: SRC/PlayerStatsToolTipInfo.cs:90
+#, fuzzy
+msgid "Unsatisfied need for nicotine will drastically start to affect the mental health negatively."
+msgstr "A vontade não saciada de nicotina começa a prejudicar gravemente a saúde mental."
+
+#: SRC/PlayerStatsToolTipInfo.cs:94
+#, fuzzy
+msgid "Mental health: "
+msgstr "Saúde mental: "
+
+#: SRC/PlayerStatsToolTipInfo.cs:96
+#, fuzzy
+msgid "Constant deterioration takes away effectiveness of pleasures, exceeded may meet with sudden self-harm and reckless behaviour helplessly."
+msgstr "A deterioração constante tira o efeito dos prazeres. Passando do limite, pode levar de repente à automutilação e a um comportamento imprudente, sem controle."
+
+#: SRC/PlayerStatsToolTipInfo.cs:100
+#, fuzzy
+msgid "Ducks need: "
+msgstr "Abstinência de patos: "
+
+#: SRC/PlayerStatsToolTipInfo.cs:102
+#, fuzzy
+msgid "Unsatisfied need for a little bit of comfort will suddenly start to affect the mental health negatively."
+msgstr "A falta de um pouco de conforto começa de repente a prejudicar a saúde mental."
+
+#: SRC/PlayerStatsToolTipInfo.cs:106
+#, fuzzy
+msgid "Hygiene: "
+msgstr "Higiene: "
+
+#: SRC/PlayerStatsToolTipInfo.cs:108
+#, fuzzy
+msgid "Lack of hygiene leaves you vulnerable for many preventable diseases."
+msgstr "A falta de higiene deixa você vulnerável a muitas doenças evitáveis."
+
+#: SRC/PlayerStatsToolTipInfo.cs:112
+#, fuzzy
+msgid "Gambling: "
+msgstr "Jogos de azar: "
+
+#: SRC/PlayerStatsToolTipInfo.cs:114
+#, fuzzy
+msgid "Unsatisfied need for gambling will drastically start to affect the mental health negatively."
+msgstr "A vontade não saciada de apostar começa a prejudicar gravemente a saúde mental."
+
 #: SRC/PlayerSubscription.cs:191
 #, fuzzy
 msgid "Money removed from bank account: {0}!"
@@ -3443,10 +3988,22 @@ msgstr ""
 msgid "Power Meter"
 msgstr "Medidor de energia"
 
+#: SRC/PowerMeter.cs:149
+msgid "  -  Max: {0}"
+msgstr ""
+
+#: SRC/PowerMeter.cs:149
+msgid "  -  Used: {0}%"
+msgstr ""
+
 #: SRC/PowerMeter.cs:151
 #, fuzzy
 msgid "Current: {0}  -  Cumulative: {1}"
 msgstr "Atual: {0}  -  Acumulado: {1}"
+
+#: SRC/Prison.cs:113
+msgid "prison"
+msgstr ""
 
 #: SRC/ProgressSlot.cs:134
 #, fuzzy
@@ -3498,6 +4055,14 @@ msgstr ""
 msgid "Primary Use"
 msgstr ""
 
+#: SRC/QuickSlotBar.cs:460
+msgid "D-Pad"
+msgstr ""
+
+#: SRC/QuickSlotBar.cs:460
+msgid "Scroll"
+msgstr ""
+
 #: SRC/QuickSlotBar.cs:462
 #, fuzzy
 msgid ""
@@ -3506,6 +4071,15 @@ msgid ""
 msgstr ""
 "{0}\n"
 "({1} para trocar)"
+
+#: SRC/QuickSlotBar.cs:464
+#, fuzzy
+msgid "({0} to {1})"
+msgstr "({0} para {1})"
+
+#: SRC/QuickSlotBar.cs:467
+msgid "<color=#{0}>"
+msgstr ""
 
 #: SRC/Radio.cs:104
 #, fuzzy
@@ -3530,6 +4104,12 @@ msgstr "Trocar de estação"
 #: SRC/RandommailSender.cs:85
 msgid "RandomMail"
 msgstr ""
+
+#: SRC/RatFightArena.cs:319
+#: SRC/RatFightArena.cs:323
+#, fuzzy
+msgid "Bet on {0}"
+msgstr "Apostar no {0}"
 
 #: SRC/RatTrap.cs:101
 #, fuzzy
@@ -3737,6 +4317,21 @@ msgstr ""
 msgid "Relationships"
 msgstr ""
 
+#: SRC/ResidentImageUI.cs:23
+#: SRC/ResidentImageUI.cs:33
+#, fuzzy
+msgid ""
+"Age: {0}\n"
+msgstr ""
+"Idade: {0}\n"
+
+#: SRC/ResidentImageUI.cs:36
+#, fuzzy
+msgid ""
+"Job: Unknown\n"
+msgstr ""
+"Profissão: Desconhecida\n"
+
 #: SRC/ResidentRequirementUI.cs:45
 #, fuzzy
 msgid "Large Apartment"
@@ -3751,6 +4346,11 @@ msgstr "Apartamento médio"
 #, fuzzy
 msgid "Small Apartment"
 msgstr "Apartamento pequeno"
+
+#: SRC/ResidentRequirementUI.cs:59
+#, fuzzy
+msgid "Does not meet the size requirement!"
+msgstr "Não atende ao requisito de tamanho!"
 
 #: SRC/Ristiseiska.cs:235
 #, fuzzy
@@ -3992,6 +4592,10 @@ msgstr "RECURSOS"
 msgid "Resource Slots"
 msgstr "Espaços de recursos"
 
+#: SRC/ShopBaseUI.cs:1085
+msgid "   LT/RT)ROTATE"
+msgstr ""
+
 #: SRC/ShowTime.cs:122
 #, fuzzy
 msgid "Time: "
@@ -4058,6 +4662,48 @@ msgstr ""
 #, fuzzy
 msgid "No effects"
 msgstr "Sem efeitos"
+
+#: SRC/StartSelection.cs:113
+#, fuzzy
+msgid ""
+"Alcohol addiction: +{0}\n"
+msgstr ""
+"Vício em álcool: +{0}\n"
+
+#: SRC/StartSelection.cs:117
+#, fuzzy
+msgid ""
+"Mushroom addiction: +{0}\n"
+msgstr ""
+"Vício em cogumelo: +{0}\n"
+
+#: SRC/StartSelection.cs:121
+#, fuzzy
+msgid ""
+"Smoking addiction: +{0}\n"
+msgstr ""
+"Vício em cigarro: +{0}\n"
+
+#: SRC/StartSelection.cs:125
+#, fuzzy
+msgid ""
+"Gambling addiction: +{0}\n"
+msgstr ""
+"Vício em jogos de azar: +{0}\n"
+
+#: SRC/StartSelection.cs:129
+#, fuzzy
+msgid ""
+"Fungal disease: +{0}\n"
+msgstr ""
+"Doença fúngica: +{0}\n"
+
+#: SRC/StartSelection.cs:133
+#, fuzzy
+msgid ""
+"Random addiction: +{0}\n"
+msgstr ""
+"Vício aleatório: +{0}\n"
 
 #: SRC/StatsAfterCreditsUI.cs:21
 #: SRC/StatsAfterCreditsUI.cs:90
@@ -4321,6 +4967,20 @@ msgstr "Lixeira"
 msgid "Television"
 msgstr "Televisão"
 
+#: SRC/TellTime.cs:63
+msgid "It's {0} o'clock at {1}"
+msgstr ""
+
+#: SRC/TellTime.cs:69
+#, fuzzy
+msgid "Clock is {0}"
+msgstr "O relógio marca {0}"
+
+#: SRC/TellTime.cs:75
+#, fuzzy
+msgid "Now it's {0}"
+msgstr "Agora são {0}"
+
 #: SRC/TenementApartmentPrefabs.cs:645
 msgid "APT_{0}_"
 msgstr ""
@@ -4410,6 +5070,20 @@ msgstr "Despejo concluído"
 msgid "Collateral returned"
 msgstr "Caução devolvida"
 
+#: SRC/TenementController.cs:1312
+#: SRC/TenementController.cs:1320
+msgid ""
+"\n"
+"Required Amount: {0}"
+msgstr ""
+
+#: SRC/TenementController.cs:1319
+msgid ""
+"\n"
+"\n"
+"<b>Required in {0} upgrades</b>"
+msgstr ""
+
 #: SRC/TenementEventController.cs:11
 msgid "TenementEventController"
 msgstr ""
@@ -4428,6 +5102,28 @@ msgstr "Renda diária"
 #, fuzzy
 msgid "The rent paid by the resident is calculated from the value of the apartment to which the basic income is added"
 msgstr "O aluguel pago pelo morador é calculado a partir do valor do apartamento, somado à renda básica"
+
+#: SRC/TenementResidentRentUI.cs:86
+#: SRC/TenementResidentRentUI.cs:90
+#: SRC/TenementResidentRentUI.cs:94
+#, fuzzy
+msgid "Preferred size"
+msgstr "Tamanho preferido"
+
+#: SRC/TenementResidentRentUI.cs:86
+#, fuzzy
+msgid "Small apartment"
+msgstr "Apartamento pequeno"
+
+#: SRC/TenementResidentRentUI.cs:90
+#, fuzzy
+msgid "Medium apartment"
+msgstr "Apartamento médio"
+
+#: SRC/TenementResidentRentUI.cs:158
+#, fuzzy
+msgid "Minimum requirement: {0}"
+msgstr "Requisito mínimo: {0}"
 
 #: SRC/TenementResidentTextList.cs:28
 #, fuzzy
@@ -4693,14 +5389,27 @@ msgstr "Móveis levados para o seu inventário de móveis para dar lugar à {0}.
 msgid "Renovation cleanup"
 msgstr "Limpeza da reforma"
 
+#: SRC/TenementUpgradeCleanupArea.cs:439
+msgid "1 item was"
+msgstr ""
+
+#: SRC/TenementUpgradeCleanupArea.cs:439
+msgid "{0} items were"
+msgstr ""
+
 #: SRC/TenementUpgradeCleanupArea.cs:440
 #, fuzzy
 msgid "{0} packed to make way for {1}."
-msgstr "{0} embalado(s) para dar lugar a {1}."
+msgstr "{0} embalado(s) para dar lugar à {1}."
 
 #: SRC/TenementUpgradeProgress.cs:64
 msgid "Tenement {0}"
 msgstr ""
+
+#: SRC/TenementUpgradeProgress.cs:65
+#, fuzzy
+msgid "You ordered a tenement {0} upgrade from {1}"
+msgstr "Você encomendou uma melhoria de {0} do prédio com {1}"
 
 #: SRC/TenementUpgradeProgress.cs:67
 #, fuzzy
@@ -4710,6 +5419,11 @@ msgstr "Aguarde a conclusão da melhoria de {0} do prédio"
 #: SRC/TenementUpgradeProgress.cs:81
 msgid "Apt {0}"
 msgstr ""
+
+#: SRC/TenementUpgradeProgress.cs:82
+#, fuzzy
+msgid "You ordered an apartment {0} upgrade from {1}"
+msgstr "Você encomendou uma melhoria de {0} do apartamento com {1}"
 
 #: SRC/TenementUpgradeProgress.cs:84
 #, fuzzy
@@ -4897,6 +5611,15 @@ msgstr "Abra a tampa primeiro"
 msgid "Finish"
 msgstr "Terminar"
 
+#: SRC/ToolTip.cs:89
+#, fuzzy
+msgid ""
+"Required skill: <b>{0} {1}</b>\n"
+"\n"
+msgstr ""
+"Habilidade necessária: <b>{0} {1}</b>\n"
+"\n"
+
 #: SRC/ToolTip.cs:356
 #, fuzzy
 msgid "Tenement Resource"
@@ -5034,6 +5757,11 @@ msgstr "Contém: {0} {1}"
 msgid "Quality: Normal"
 msgstr "Qualidade: normal"
 
+#: SRC/ToolTip.cs:593
+#, fuzzy
+msgid "Quality: "
+msgstr "Qualidade: "
+
 #: SRC/ToolTip.cs:642
 #, fuzzy
 msgid "Should not be refrigerated or frozen"
@@ -5074,6 +5802,12 @@ msgstr "Idade: {0}%"
 msgid "Integrity: {0}%"
 msgstr "Integridade: {0}%"
 
+#: SRC/ToolTip.cs:689
+msgid ""
+"\n"
+"Accepts: "
+msgstr ""
+
 #: SRC/ToolTip.cs:704
 #, fuzzy
 msgid ""
@@ -5102,6 +5836,13 @@ msgid ""
 msgstr ""
 "Contém: {0}\n"
 
+#: SRC/ToolTip.cs:731
+#, fuzzy
+msgid ""
+"Unredeemed\n"
+msgstr ""
+"Não resgatado\n"
+
 #: SRC/ToolTip.cs:777
 #, fuzzy
 msgid "Contains {0} OS Coins"
@@ -5111,6 +5852,24 @@ msgstr "Contém {0} OS Coins"
 #, fuzzy
 msgid "Contains:"
 msgstr "Contém:"
+
+#: SRC/ToolTip.cs:799
+msgid "liquid_{0}_"
+msgstr ""
+
+#: SRC/ToolTip.cs:805
+msgid "quality_{0}_"
+msgstr ""
+
+#: SRC/ToolTip.cs:813
+msgid "item_{0}_"
+msgstr ""
+
+#: SRC/ToolTip.cs:845
+msgid ""
+"\n"
+"...And {0} more items"
+msgstr ""
 
 #: SRC/ToolTip.cs:863
 #, fuzzy
@@ -5136,6 +5895,23 @@ msgstr "Certificado de {0:l} com valor nominal de {1} OC"
 #, fuzzy
 msgid "Bricked"
 msgstr "Inutilizado"
+
+#: SRC/ToolTip.cs:887
+msgid "internet connection "
+msgstr ""
+
+#: SRC/ToolTip.cs:895
+msgid "Obenseuer phone network "
+msgstr ""
+
+#: SRC/ToolTip.cs:903
+msgid "outside phone network "
+msgstr ""
+
+#: SRC/ToolTip.cs:907
+#, fuzzy
+msgid "No SIM"
+msgstr "Sem SIM"
 
 #: SRC/ToolTip.cs:918
 #, fuzzy
@@ -5195,6 +5971,58 @@ msgstr "(Negociar)"
 msgid "(Closed)"
 msgstr "(Fechado)"
 
+#: SRC/TreatmentAddictions.cs:77
+msgid "You have been drinking alcohol recently. "
+msgstr ""
+
+#: SRC/TreatmentAddictions.cs:81
+msgid "You have been using mushrooms recently. "
+msgstr ""
+
+#: SRC/TreatmentAddictions.cs:89
+msgid "mushroom addiction"
+msgstr ""
+
+#: SRC/TreatmentAddictions.cs:94
+msgid "alcohol addiction"
+msgstr ""
+
+#: SRC/TreatmentAddictions.cs:104
+#: SRC/TreatmentAddictions.cs:128
+#: SRC/TreatmentAddictions.cs:156
+#: SRC/TreatmentAddictions.cs:184
+msgid "gambling"
+msgstr ""
+
+#: SRC/TreatmentAddictions.cs:113
+msgid "green mushrooms"
+msgstr ""
+
+#: SRC/TreatmentAddictions.cs:118
+#: SRC/TreatmentAddictions.cs:174
+msgid "alcohol"
+msgstr ""
+
+#: SRC/TreatmentAddictions.cs:141
+msgid "a green mushroom addiction"
+msgstr ""
+
+#: SRC/TreatmentAddictions.cs:146
+msgid "an alcohol addiction"
+msgstr ""
+
+#: SRC/TreatmentAddictions.cs:151
+msgid "a smoking addiction"
+msgstr ""
+
+#: SRC/TreatmentAddictions.cs:169
+msgid "mushroom"
+msgstr ""
+
+#: SRC/TreatmentAddictions.cs:179
+msgid "smoking"
+msgstr ""
+
 #: SRC/TreatmentFungalDisease.cs:65
 #, fuzzy
 msgid "Your situation is critical, your chance of seeing tomorrow are very slim!"
@@ -5233,10 +6061,56 @@ msgstr ""
 msgid "Tutorial"
 msgstr ""
 
+#: SRC/UpgradeType.cs enum UpgradeTarget
+#, fuzzy
+msgid "Tenement"
+msgstr "Prédio"
+
 #: SRC/Tutorial.cs:276
 #, fuzzy
 msgid "Look Around"
 msgstr "Olhe em volta"
+
+#: SRC/Tutorial.cs:385
+msgid "Map"
+msgstr ""
+
+#: SRC/Tutorial.cs:401
+msgid "Tasks"
+msgstr ""
+
+#: SRC/Tutorial.cs:448
+#: SRC/Tutorial.cs:453
+#: SRC/Tutorial.cs:468
+msgid ""
+"\n"
+"(Out of batteries)"
+msgstr ""
+
+#: SRC/Tutorial.cs:468
+#, fuzzy
+msgid "Head Lamp"
+msgstr "Lanterna de cabeça"
+
+#: SRC/Tutorial.cs:468
+msgid "Head Use"
+msgstr ""
+
+#: SRC/Tutorial.cs:759
+#: SRC/Tutorial.cs:775
+msgid "Building Menu"
+msgstr ""
+
+#: SRC/Tutorial.cs:759
+msgid ""
+"\n"
+"(Not fully examined!)"
+msgstr ""
+
+#: SRC/Tutorial.cs:775
+#, fuzzy
+msgid "Cleaning Mode"
+msgstr "Modo de limpeza"
 
 #: SRC/UINavigationCore.cs:25
 msgid "InventoryHorizontal"
@@ -5250,6 +6124,19 @@ msgstr ""
 #, fuzzy
 msgid "Current upgrade: "
 msgstr "Melhoria atual: "
+
+#: SRC/UpgradeButtonUI.cs:340
+#, fuzzy
+msgid ""
+"The final payment is required!\n"
+msgstr ""
+"O pagamento final é obrigatório!\n"
+
+#: SRC/UpgradeButtonUI.cs:353
+msgid ""
+"\n"
+"Does not meet the requirements!"
+msgstr ""
 
 #: SRC/UpgradePanel.cs:68
 #, fuzzy
@@ -5340,6 +6227,10 @@ msgstr ""
 
 #: SRC/UseText.cs:129
 msgid "<color="
+msgstr ""
+
+#: SRC/UseTriggerMoney.cs:70
+msgid " OS"
 msgstr ""
 
 #: SRC/VendingMachine.cs:184
@@ -5482,11 +6373,6 @@ msgstr "Fila cheia {0}/{1}"
 #, fuzzy
 msgid "Craft {0}/{1}"
 msgstr "Fabricar {0}/{1}"
-
-#: SRC/UpgradeType.cs enum UpgradeTarget
-#, fuzzy
-msgid "Tenement"
-msgstr "Prédio"
 
 #: SRC/UpgradeType.cs enum UpgradeTarget
 #, fuzzy
@@ -5867,4 +6753,8 @@ msgstr "Informática"
 #, fuzzy
 msgid "Sauna"
 msgstr "Sauna"
+
+#: SRC/CanvasSampleSaveFileText.cs:12
+msgid "Example text created by StandaloneFileBrowser"
+msgstr ""
 

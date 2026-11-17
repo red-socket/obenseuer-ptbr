@@ -70,7 +70,11 @@ UI_SINKS = re.compile(
     r"CreateNotification|ChangeUseText|UseAndHoldText|ShowNotification|UpdateToolTipInfo|"
     r"ToolTip\.instance\.Activate|\.Activate\(|HintContent\(|\.AddText\(|\.AddList\(|KeyCodeInfoToString|"
     r"CreateStatInfoUI|\.text\s*=|\.text\s*\+=|SetText\(|ShowLine\(|Print\(|\breturn\s+\$?\"|useMessage\s*=|"
-    r"\btitle\s*=\s*\$?\"|ChangeUseText|ShowMovingItem|\bstring \w+ = \$?\"[A-Z]|=> \$?\"|\[Description\(\"")
+    r"\btitle\s*=\s*\$?\"|ChangeUseText|ShowMovingItem|\bstring \w+ = \$?\"[A-Z]|=> \$?\"|\[Description\(\"|"
+    r"ShowWarningText|AddTutorialStep\(|SetTutorialMessage\(|ShowTutorialButton\(|CreateRequirements\(|SetInteractable\(|"
+    r"\b(?:text\d*|details|useText|description|\w+Text|Name)\s*\+?=\s*\(*\$?\"|\bstring \w+ = \(+\w")
+# Unity / plugin sample scripts that never show in the game.
+SAMPLES = re.compile(r"BehaviorSelection|BasicSample|CanvasSample")
 NOT_UI = re.compile(r"Debug\.|LogWarning|LogError|Exception\(|Resources\.Load|GetKey|PlayerPrefs|Animator|"
                     r"\.Play\(|SetBool|SetTrigger|Shader\.|Find\(|CompareTag|DialogueLua|Lua\.|GetComponent")
 LITERAL = re.compile(r'\$?@?"((?:[^"\\]|\\.)*)"')
@@ -445,7 +449,7 @@ def extract_csharp(src, cat):
     Composed strings become templates: {0}, {1} ... stand for the non-literal parts, in source order.
     """
     for fn in sorted(os.listdir(src)):
-        if not fn.endswith(".cs") or "DeveloperConsole" in fn:
+        if not fn.endswith(".cs") or "DeveloperConsole" in fn or SAMPLES.search(fn):
             continue
         with open(os.path.join(src, fn), encoding="utf-8", errors="replace") as fh:
             for n, line in enumerate(fh, 1):
