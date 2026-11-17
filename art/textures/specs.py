@@ -3137,6 +3137,120 @@ SPECS = {
         "text": [{"box": [15, 139, 42, 146], "font": "patua", "text": "TINTA", "stretch": True, "color": "#1e1b16"},
                  {"box": [20, 222, 38, 226], "font": "patua", "text": "TINTA", "stretch": True, "color": "#26221c"}],
     },
+
+
+
+
+
+
+
+
+
+
+    # ---- Batch 23: tier 4 packaging and labels (second half) ----
+    "sack_001_ammonium_nitrate": {
+        "en": "AMMONIUM / NITRATE x2 (25 KG sack)",
+        "note": "\"Nitrato de / amônio\" as in the game text, in the sack's 6-row capitals; 25KG stays.",
+        "erase": [{"rect": [5, 59, 55, 77], "mode": "dark", "thresh": 40, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}, {"rect": [70, 59, 120, 77], "mode": "dark", "thresh": 40, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}],
+        "text": [{"pixel": "sack6", "box": [4, 61, 49, 66], "baselines": [66], "text": "NITRATO DE", "gap": 1, "space": 2, "color": "#262626"},
+                 {"pixel": "sack6", "box": [4, 70, 49, 75], "baselines": [75], "text": "AMÔNIO", "gap": 1, "space": 2, "color": "#262626"},
+                 {"pixel": "sack6", "box": [69, 61, 114, 66], "baselines": [66], "text": "NITRATO DE", "gap": 1, "space": 2, "color": "#262626"},
+                 {"pixel": "sack6", "box": [69, 70, 114, 75], "baselines": [75], "text": "AMÔNIO", "gap": 1, "space": 2, "color": "#262626"}],
+    },
+    "sack_001_limestone": {
+        "en": "LIMESTONE x2 (sack)",
+        "note": "CALCÁRIO as in the game text, in the sack's thin 9-row capitals (the accent above).",
+        "erase": [{"rect": [8, 85, 58, 97], "mode": "bright", "thresh": 180, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}, {"rect": [73, 85, 123, 97], "mode": "bright", "thresh": 180, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}],
+        "text": [{"pixel": "thin9", "box": [10, 85, 50, 95], "baselines": [95], "text": "CALCÁRIO", "gap": 1, "align": "left", "color": "#e6e6e6"},
+                 {"pixel": "thin9", "box": [75, 85, 115, 95], "baselines": [95], "text": "CALCÁRIO", "gap": 1, "align": "left", "color": "#e6e6e6"}],
+    },
+    "sack_001_gravel": {
+        "en": "GRAVEL x4 (sack: two labels, and twice on the top, one upside down)",
+        "note": "CASCALHO as in the game text, in the sack's thin capitals; the upside-down copy stays upside down.",
+        "erase": [{"rect": [18, 86, 60, 97], "mode": "bright", "thresh": 180, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}, {"rect": [83, 86, 125, 97], "mode": "bright", "thresh": 180, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}, {"rect": [8, 4, 56, 14], "mode": "bright", "thresh": 180, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}, {"rect": [8, 18, 56, 28], "mode": "bright", "thresh": 180, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}],
+        "text": [{"pixel": "thin9", "box": [20, 87, 60, 95], "baselines": [95], "text": "CASCALHO", "gap": 1, "align": "left", "color": "#e6e6e6"},
+                 {"pixel": "thin9", "box": [85, 87, 125, 95], "baselines": [95], "text": "CASCALHO", "gap": 1, "align": "left", "color": "#e6e6e6"},
+                 {"pixel": "thin8", "box": [10, 5, 49, 13], "baselines": [12], "text": "CASCALHO", "gap": 1, "align": "left", "color": "#e6e6e6"},
+                 {"pixel": "thin8", "box": [10, 19, 49, 27], "baselines": [26], "text": "CASCALHO", "gap": 1, "align": "right", "color": "#e6e6e6", "flip": True}],
+    },
+    "bottle_001_label_moonshine": {
+        "en": "MOON / SHINE (32-px bottle label with a skull)",
+        "note": "CACHA / ÇA (the game calls moonshine cachaça) in the label's 5-row capitals; the skull stays.",
+        "erase": [{"rect": [4, 2, 25, 15], "mode": "dark", "thresh": 40, "k": 5, "grain": 0, "grow": 0, "isolate": True, "scatter": [4, 0]}],
+        "text": [{"pixel": "mag", "box": [4, 3, 25, 7], "baselines": [7], "text": "CACHA", "gap": 1, "color": "#141414"},
+                 {"pixel": "mag", "box": [4, 9, 25, 13], "baselines": [13], "text": "ÇA", "gap": 1, "color": "#141414"}],
+    },
+    "selection_alcohol": {
+        "en": "Otto's / XXX / MOONSHINE (artwork; the letters are cut out of the label)",
+        "note": "Otto's and XXX stay; MOONSHINE is CACHAÇA (game text) in a heavy slab serif like the original, cut out of the label the same way.",
+        "erase": [{"rect": [192, 228, 334, 249], "mode": "dark", "thresh": 40, "k": 9, "grain": 0, "grow": 1, "isolate": True, "scatter": [4, 2]}],
+        "alpha": {"erase": [{"rect": [192, 228, 334, 249], "mode": "dark", "k": 9, "thresh": 100, "grow": 1, "isolate": True, "scatter": [4, 2]}]},
+        "text": [{"box": [201, 230, 323, 244], "font": "alfaslabone", "text": "CACHAÇA", "stretch": True, "color": "#141414", "alpha": 0}],
+    },
+    "bottle_002_homebrew_beer": {
+        "en": "BEER (homebrew bottle label)",
+        "note": "CERVEJA in the label's 5-row capitals, in the gloss too like BEER.",
+        "erase": [{"rect": [29, 25, 49, 34], "mode": "dark", "thresh": 30, "k": 5, "grain": 0, "grow": 0, "isolate": True, "scatter": [5, 0]}],
+        "alpha": {"erase": [{"rect": [29, 25, 49, 34], "mode": "dark", "thresh": 10, "k": 5, "grow": 0, "isolate": True, "scatter": [5, 0]}], "letters": 0},
+        "text": [{"pixel": "mag", "box": [20, 27, 60, 31], "baselines": [31], "text": "CERVEJA", "gap": 1, "color": "#46423c"}],
+    },
+    "snus_001": {
+        "en": "RÖD SNUS / SMOKING KILLS (snus tin)",
+        "note": "Röd Snus (brand) stays; SMOKING KILLS is FUMAR MATA in the warning's 5-row capitals.",
+        "erase": [{"rect": [100, 10, 148, 15], "color": "#ffffff"}],
+        "text": [{"pixel": "mag", "box": [100, 10, 148, 14], "baselines": [14], "text": "FUMAR MATA", "gap": 1, "space": 4, "color": "#000000"}],
+    },
+    "keycard_001_bazaar_jail": {
+        "en": "SECURITY / ASDFOY (jail keycard)",
+        "note": "SEGURANÇA; ASDFOY (a placeholder) stays.",
+        "erase": [{"rect": [4, 10, 52, 18], "mode": "color", "thresh": 40, "k": 7, "grain": 0, "bg": "#9a9a9a", "grow": 0, "isolate": True, "scatter": [10, 0]}],
+        "text": [{"box": [5, 10, 49, 19], "font": "sans", "text": "SEGURANÇA", "stretch": True, "color": "#0c0c0c"}],
+    },
+    "organ_transport_cooler_001": {
+        "en": "HUMAN / ORGAN / FOR TRANSPLANT (organ cooler; the words run down the side, also in the gloss)",
+        "note": "\"Órgão / humano / para transplante\", turned like the original and in the gloss too.",
+        "erase": [{"rect": [8, 87, 62, 172], "mode": "color", "thresh": 60, "k": 7, "grain": 0, "grow": 1, "only_red": 60, "isolate": True, "scatter": [2, 6]}],
+        "alpha": {"erase": [{"rect": [8, 87, 62, 172], "mode": "bright", "thresh": 70, "grow": 1, "isolate": True, "scatter": [2, 6]}]},
+        "text": [{"box": [0, 0, 160, 30], "font": "archivo-black", "text": "ÓRGÃO", "stretch": True, "quad": [[61, 89], [61, 170], [45, 170], [45, 89]], "quad_crisp": [0.4, 0.6], "color": "#b22a2a", "alpha": 180},
+                 {"box": [0, 0, 160, 30], "font": "archivo-black", "text": "HUMANO", "stretch": True, "quad": [[44, 89], [44, 170], [28, 170], [28, 89]], "quad_crisp": [0.4, 0.6], "color": "#b22a2a", "alpha": 180},
+                 {"box": [0, 0, 240, 20], "font": "sans-bold", "text": "PARA TRANSPLANTE", "stretch": True, "quad": [[17, 89], [17, 170], [10, 170], [10, 89]], "quad_crisp": [0.4, 0.6], "color": "#b22a2a", "alpha": 180}],
+    },
+    "toilet_paper_16_pack": {
+        "en": "TOILET / PAPER x2 (16-pack)",
+        "note": "PAPEL / HIGIÊNICO as in the game text: PAPEL in 4-row capitals like TOILET, HIGIÊNICO in 5-row ones like PAPER (the circumflex one row tall, to stay inside the band).",
+        "erase": [{"rect": [2, 11, 30, 23], "mode": "dark", "thresh": 25, "k": 5, "grain": 0, "grow": 0, "isolate": True, "scatter": [14, 0]}, {"rect": [34, 11, 62, 23], "mode": "dark", "thresh": 25, "k": 5, "grain": 0, "grow": 0, "isolate": True, "scatter": [14, 0]}],
+        "text": [{"pixel": "tp4", "box": [0, 12, 30, 15], "baselines": [15], "text": "PAPEL", "gap": 1, "color": "#000000"},
+                 {"pixel": "tp5", "box": [2, 16, 32, 21], "baselines": [21], "text": "HIGIÊNICO", "gap": 1, "color": "#000000"},
+                 {"pixel": "tp4", "box": [32, 12, 62, 15], "baselines": [15], "text": "PAPEL", "gap": 1, "color": "#000000"},
+                 {"pixel": "tp5", "box": [34, 16, 64, 21], "baselines": [21], "text": "HIGIÊNICO", "gap": 1, "color": "#000000"}],
+    },
+    "toilet_paper_6_pack_rotta": {
+        "en": "6PACK (Rotta toilet paper)",
+        "note": "6 ROLOS in the pack's 7-row capitals; Rotta (brand) stays.",
+        "erase": [{"rect": [71, 96, 92, 105], "mode": "bright", "thresh": 180, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [4, 0]}],
+        "text": [{"pixel": "mag7", "box": [72, 97, 99, 103], "baselines": [103], "text": "6 ROLOS", "gap": 1, "space": 2, "align": "left", "color": "#f4f4f4"}],
+    },
+    "postcard_001_parcel": {
+        "en": "YOU GOT / PARCEL! / POST (parcel notice card)",
+        "note": "\"Chegou / encomenda!\" (encomenda as in the game text) in the card's thin capitals, right-aligned like the original; POST is CORREIO.",
+        "erase": [{"rect": [40, 1, 91, 24], "mode": "bright", "thresh": 180, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}, {"rect": [7, 55, 24, 61], "mode": "dark", "thresh": 40, "k": 5, "grain": 0, "grow": 0, "isolate": True, "scatter": [4, 0]}],
+        "text": [{"pixel": "thin9", "box": [40, 3, 91, 11], "baselines": [11], "text": "CHEGOU", "gap": 1, "align": "right", "color": "#f4f4f4"},
+                 {"pixel": "thin9", "box": [40, 14, 91, 22], "baselines": [22], "text": "ENCOMENDA!", "gap": 1, "align": "right", "color": "#f4f4f4"},
+                 {"pixel": "mag", "box": [8, 56, 40, 60], "baselines": [60], "text": "CORREIO", "gap": 1, "align": "left", "color": "#101010"}],
+    },
+    "cardboard_box_006-008_b": {
+        "en": "NAILS (label on a box)",
+        "note": "PREGOS as in the game text, in the label's 2-pixel capitals.",
+        "erase": [{"rect": [37, 48, 74, 59], "mode": "dark", "thresh": 30, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 1]}],
+        "text": [{"pixel": "nails", "box": [37, 49, 73, 58], "baselines": [58], "text": "PREGOS", "gap": 1, "color": "#1b2230"}],
+    },
+    "trash_bag_001_prison": {
+        "en": "PRISONER'S / BELONGINGS (label on a prison bag, upside down and slanted)",
+        "note": "\"Pertences / do preso\" in white condensed capitals on the same slant.",
+        "erase": [{"rect": [0, 15, 70, 75], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [4, 4], "avoid_red": 30, "poly": [[49.2, 65.3], [10.7, 40.4], [20.3, 25.7], [58.8, 50.6]]}],
+        "text": [{"box": [0, 0, 120, 24], "font": "oswald-bold", "text": "PERTENCES", "stretch": True, "color": "#dedede", "quad": [[49.2, 63.4], [12.4, 39.6], [16.1, 34.1], [52.9, 57.9]]},
+                 {"box": [0, 0, 120, 24], "font": "oswald-bold", "text": "DO PRESO", "stretch": True, "color": "#dedede", "quad": [[50.2, 54.7], [20.1, 35.3], [23.6, 29.8], [53.7, 49.2]]}],
+    },
 }
 
 # Review batches: each is checked by the user, texture by texture, against the original.
@@ -3185,6 +3299,7 @@ BATCHES = {
     "20": ["Decal_002_grill_menu", "fastfood_restaurant_menu_001", "fastfood_restaurant_menu_001_e", "poster_kino_003", "poster_kino_002", "Decal_003_poster_osmo_brewery", "Decal_002_poster_radiation", "Decal_002_meat_cuts", "email_ankea_0", "background_osmo_olut", "walter_logo_001", "email_cigars_0"],
     "21": ["magazine_001", "magazine_001_Open_Sewer_readable", "magazine_001_skin3", "magazine_001_skin1", "magazine_001_skin2", "magazine_001_skin4", "magazine_001_skin5", "magazine_001_ARG", "magazine_001_IC", "magazine_001_lifehack-pekka", "Magazine House", "Magazine Stalburg Trains", "Magazine Stalburg Women", "books_001_0", "bookset_b"],
     "22": ["pill_packet_001_facemasks", "bottle_set_001_0", "hot_dog_label", "trash_bag_001b", "trash_bag_001c", "cardboard_box_013_skin1", "bottle_011_label", "asbestos_bag_002", "asbestos_bag_001", "Bag_002_rat_baits", "postcard_001_spade_of_aces_revealed", "postcard_001_OC_pot_revealed", "Bag_002_dog_food", "paint_bucket_0"],
+    "23": ["sack_001_ammonium_nitrate", "sack_001_limestone", "sack_001_gravel", "bottle_001_label_moonshine", "selection_alcohol", "bottle_002_homebrew_beer", "snus_001", "keycard_001_bazaar_jail", "organ_transport_cooler_001", "toilet_paper_16_pack", "toilet_paper_6_pack_rotta", "postcard_001_parcel", "cardboard_box_006-008_b", "trash_bag_001_prison"],
 }
 
 NUMBERS = {}

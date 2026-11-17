@@ -663,8 +663,52 @@ _FLUFF = {c: _fluff(r) for c, r in {
     "N": ["####", "#..#", "#..#", "#..#"], "E": ["####", "#...", "###.", "####"], "L": ["#...", "#...", "#...", "####"]}.items()}
 _FLUFF["B"] = (["###.", "#..#", "#..#", "###.", "#..#", "#..#", "###."], 0)   # a plain B reads better than the doubled one
 
+# sack_001_limestone / _gravel and postcard_001_parcel: thin 1-pixel capitals, 4 wide and 9 rows (GRAVEL, LIMESTONE,
+# YOU GOT PARCEL!); _THIN8 drops the third row for the 8-row GRAVEL on the gravel sack's top.
+_THIN9 = {c: (r, 0) for c, r in {
+    "A": ["####", "#..#", "#..#", "#..#", "####", "#..#", "#..#", "#..#", "#..#"],
+    "C": ["####", "#...", "#...", "#...", "#...", "#...", "#...", "#...", "####"],
+    "D": ["###.", "#..#", "#..#", "#..#", "#..#", "#..#", "#..#", "#..#", "###."],
+    "E": ["####", "#...", "#...", "#...", "###.", "#...", "#...", "#...", "####"],
+    "G": ["####", "#...", "#...", "#...", "#.##", "#..#", "#..#", "#..#", "####"],
+    "H": ["#..#", "#..#", "#..#", "#..#", "####", "#..#", "#..#", "#..#", "#..#"],
+    "I": ["#"] * 9, "L": ["#..."] * 8 + ["####"],
+    "M": ["#...#", "##.##", "#.#.#", "#.#.#", "#...#", "#...#", "#...#", "#...#", "#...#"],
+    "N": ["#..#", "##.#", "##.#", "#.##", "#.##", "#..#", "#..#", "#..#", "#..#"],
+    "O": ["####"] + ["#..#"] * 7 + ["####"],
+    "R": ["####", "#..#", "#..#", "#..#", "####", "#.#.", "#..#", "#..#", "#..#"],
+    "S": ["####", "#...", "#...", "#...", "####", "...#", "...#", "...#", "####"],
+    "U": ["#..#"] * 8 + ["####"], "!": ["#"] * 7 + [".", "#"]}.items()}
+_THIN9["Á"] = _accent(_THIN9["A"], ["..#.", ".#.."], gap=0)
+_THIN8 = {c: (rows[:2] + rows[3:], b) for c, (rows, b) in _THIN9.items() if len(rows) == 9}
+# sack_001_ammonium_nitrate: the 6-row dark capitals of AMMONIUM / NITRATE.
+_SACK6 = {c: (r, 0) for c, r in {
+    "N": ["#..#", "##.#", "##.#", "#.##", "#.##", "#..#"], "I": ["#"] * 6, "T": ["###", ".#.", ".#.", ".#.", ".#.", ".#."],
+    "R": ["###.", "#..#", "###.", "#.#.", "#..#", "#..#"], "A": [".##.", "#..#", "#..#", "####", "#..#", "#..#"],
+    "O": [".##.", "#..#", "#..#", "#..#", "#..#", ".##."], "D": ["###.", "#..#", "#..#", "#..#", "#..#", "###."],
+    "E": ["###", "#..", "##.", "#..", "#..", "###"], "M": ["#...#", "##.##", "#.#.#", "#...#", "#...#", "#...#"]}.items()}
+_SACK6["Ô"] = _accent(_SACK6["O"], [".##.", "#..#"], gap=0)
+# More cover-font letters: J (CERVEJA), Ç (CACHAÇA), Ê (HIGIÊNICO) and the 7-row R, L, S, 6 (6 ROLOS).
+_MAG["J"] = (["..#", "..#", "..#", "#.#", "###"], 0)
+_MAG["Ç"] = (["###", "#..", "#..", "#..", "###", ".#."], 1)
+_MAG["Ê"] = _accent(_MAG["E"], [".#."], gap=0)   # one row, to fit the toilet paper band
+# toilet_paper_16_pack: PAPEL in 4-row capitals with a 3-wide E (the cover font's 2-wide one reads as a 6 here) and
+# HIGIÊNICO with a 2-wide C, so the two copies around the pack keep a gap.
+_TP4 = dict(_MAG4, E=(["###", "#..", "##.", "###"], 0))
+_TP5 = dict(_MAG, C=(["##", "#.", "#.", "#.", "##"], 0))
+_MAG7.update({"R": (["##.", "#.#", "#.#", "##.", "#.#", "#.#", "#.#"], 0), "L": (["#.."] * 6 + ["###"], 0),
+              "S": (["###", "#..", "#..", "###", "..#", "..#", "###"], 0), "6": (["##.", "#..", "#..", "###", "#.#", "#.#", "###"], 0)})
+# cardboard_box_006-008_b: the NAILS label's 10-row capitals with 2-pixel strokes.
+_NAILS = {c: (r, 0) for c, r in {
+    "P": ["####.", "##.##", "##.##", "##.##", "####.", "##...", "##...", "##...", "##...", "##..."],
+    "R": ["####.", "##.##", "##.##", "##.##", "####.", "###..", "##.#.", "##.##", "##.##", "##.##"],
+    "E": ["#####", "##...", "##...", "##...", "####.", "##...", "##...", "##...", "##...", "#####"],
+    "G": [".####", "##...", "##...", "##...", "##.##", "##.##", "##.##", "##.##", "##.##", ".####"],
+    "O": [".###.", "##.##", "##.##", "##.##", "##.##", "##.##", "##.##", "##.##", "##.##", ".###."],
+    "S": [".####", "##...", "##...", "###..", ".###.", "..###", "...##", "...##", "...##", "####."]}.items()}
+
 PIXEL_FONTS = {"oos": _OOS, "bergmann": _BERG, "border-top": _BORDER_TOP, "border-mid": _BORDER_MID,
                "border-low": _BORDER_LOW, "exit": _EXIT, "mall": _MALL,
                "elstrom": _ELSTROM, "skeida": _SKEIDA, "robin": _ROBIN, "taxfree": _TAXFREE,
                "barrel": _BARREL, "dispenser": _DISPENSER,
-               "board": _BOARD, "staff": _STAFF, "osmo": _OSMO, "tiny": _TINY, "keep": _KEEP, "led": _LED, "rob6": _ROB6, "elst": _ELST, "news": _NEWS, "bio": _BIO, "wayup": _WAYUP, "wayup-big": _WAYUP_BIG, "scrawl": _SCRAWL, "call": _CALL, "therapy": _THERAPY, "fast": _FAST, "mag": _MAG, "mag4": _MAG4, "mag6": _MAG6, "mag7": _MAG7, "mag3": _MAG3, "mag-house": _MAG_HOUSE, "soap": _SOAP, "soap3": _SOAP3, "hotdog": _HOTDOG, "nowin": _NOWIN, "fluff": _FLUFF, "fast-narrow": _FAST_NARROW, "baby": _BABY, "marks": _MARKS}
+               "board": _BOARD, "staff": _STAFF, "osmo": _OSMO, "tiny": _TINY, "keep": _KEEP, "led": _LED, "rob6": _ROB6, "elst": _ELST, "news": _NEWS, "bio": _BIO, "wayup": _WAYUP, "wayup-big": _WAYUP_BIG, "scrawl": _SCRAWL, "call": _CALL, "therapy": _THERAPY, "fast": _FAST, "mag": _MAG, "mag4": _MAG4, "mag6": _MAG6, "mag7": _MAG7, "mag3": _MAG3, "mag-house": _MAG_HOUSE, "soap": _SOAP, "soap3": _SOAP3, "hotdog": _HOTDOG, "nowin": _NOWIN, "fluff": _FLUFF, "thin9": _THIN9, "thin8": _THIN8, "sack6": _SACK6, "nails": _NAILS, "tp4": _TP4, "tp5": _TP5, "fast-narrow": _FAST_NARROW, "baby": _BABY, "marks": _MARKS}
