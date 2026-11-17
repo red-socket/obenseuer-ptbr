@@ -2151,6 +2151,14 @@ SPECS = {
 
 
 
+
+
+
+
+
+
+
+
     # ---- Batch 16: tier 1c signs (drinks machine, bus display, rat and Jermu's displays, Elström TV, extractor, newspaper stand, biohazard) ----
     "vending_machine_003_moca_cola": {
         "en": "Ice Tea (one button of a drinks machine; the others are brands)",
@@ -2175,33 +2183,29 @@ SPECS = {
     },
     "vending_machine_display_007": {
         "en": "Cheap / Rats / for / sale (machine display with rat drawings)",
-        "note": "\"Ratos baratos à venda\" in the same rounded letters; the rats stay. The gloss has older, matte words of its own (CHEAP RATS FOR SALE!), erased there and the new words drawn matte.",
-        "erase": [{"rect": [4, 12, 136, 58], "mode": "color", "thresh": 30, "k": 7, "grain": 0, "grow": 2, "isolate": True, "scatter": [40, 14]}, {"rect": [18, 58, 120, 107], "mode": "color", "thresh": 30, "k": 7, "grain": 0, "grow": 2, "isolate": True, "scatter": [40, 14]}, {"rect": [28, 152, 96, 202], "mode": "color", "thresh": 50, "k": 7, "grain": 0, "only_red": 8, "grow": 2, "isolate": True, "scatter": [10, 6]}, {"rect": [10, 204, 102, 252], "mode": "color", "thresh": 50, "k": 7, "grain": 0, "only_red": 8, "grow": 2, "isolate": True, "scatter": [10, 6]}],
-        "alpha": {"erase": [{"rect": [4, 20, 140, 252], "mode": "dark", "k": 21, "thresh": 45, "grow": 2, "isolate": False, "scatter": [60, 40]}], "letters": 15, "outline": 15},
+        "note": "\"Ratos baratos à venda\" in the same rounded letters on the user's clean plates (colour and gloss, art/textures/clean/); the rats stay. The new words are matte in the gloss, like the old ones.",
+        "erase": [],
+        "alpha": {"erase": [], "letters": 15, "outline": 15},
         "text": [{"box": [8, 16, 132, 52], "font": "fredoka", "text": "Ratos", "stretch": True, "outline": [2, "#4b2623"], "color": "#853d39", "ink_texture": 0.8, "mottle": 6, "weight": 500},
                  {"box": [8, 64, 132, 102], "font": "fredoka", "text": "baratos", "stretch": True, "outline": [2, "#4b2623"], "color": "#853d39", "ink_texture": 0.8, "mottle": 6, "weight": 500},
                  {"box": [46, 156, 74, 198], "font": "fredoka", "text": "à", "stretch": True, "outline": [2, "#4b2623"], "color": "#853d39", "ink_texture": 0.8, "mottle": 6, "weight": 500},
                  {"box": [14, 208, 100, 248], "font": "fredoka", "text": "venda", "stretch": True, "outline": [2, "#4b2623"], "color": "#853d39", "ink_texture": 0.8, "mottle": 6, "weight": 500}],
     },
     "vending_machine_display_007_e": {
-        "en": "Cheap / Rats / for / sale (machine display with rat drawings) (glow map)",
-        "note": "Glow map of the display before.",
-        "mask_source": "vending_machine_display_007",
-        "erase": [{"rect": [4, 12, 136, 58], "mode": "color", "thresh": 30, "k": 7, "grain": 0, "grow": 2, "isolate": True, "scatter": [40, 14]}, {"rect": [18, 58, 120, 107], "mode": "color", "thresh": 30, "k": 7, "grain": 0, "grow": 2, "isolate": True, "scatter": [40, 14]}, {"rect": [28, 152, 96, 202], "mode": "color", "thresh": 50, "k": 7, "grain": 0, "only_red": 8, "grow": 2, "isolate": True, "scatter": [10, 6]}, {"rect": [10, 204, 102, 252], "mode": "color", "thresh": 50, "k": 7, "grain": 0, "only_red": 8, "grow": 2, "isolate": True, "scatter": [10, 6]}],
-        "alpha": {"erase": [{"rect": [4, 20, 140, 252], "mode": "dark", "k": 21, "thresh": 45, "grow": 2, "isolate": False, "scatter": [60, 40]}], "letters": 15, "outline": 15},
-        "text": [{"box": [8, 16, 132, 52], "font": "fredoka", "text": "Ratos", "stretch": True, "outline": [2, "#4b2623"], "color": "#853d39", "ink_texture": 0.8, "mottle": 6, "weight": 500, "ink": "letters"},
-                 {"box": [8, 64, 132, 102], "font": "fredoka", "text": "baratos", "stretch": True, "outline": [2, "#4b2623"], "color": "#853d39", "ink_texture": 0.8, "mottle": 6, "weight": 500, "ink": "letters"},
-                 {"box": [46, 156, 74, 198], "font": "fredoka", "text": "à", "stretch": True, "outline": [2, "#4b2623"], "color": "#853d39", "ink_texture": 0.8, "mottle": 6, "weight": 500, "ink": "letters"},
-                 {"box": [14, 208, 100, 248], "font": "fredoka", "text": "venda", "stretch": True, "outline": [2, "#4b2623"], "color": "#853d39", "ink_texture": 0.8, "mottle": 6, "weight": 500, "ink": "letters"}],
+        "en": "Cheap / Rats / for / sale (glow map of the rat display)",
+        "note": "The colour texture above with the original glow map's vignette.",
+        "derive": {"from": "vending_machine_display_007", "shade": 6},
+        "text": [],
     },
     "vending_machine_display_generic": {
         "en": "JERMU'S / STUFF & THINGS / You won't find cheaper anywhere (machine display)",
-        "note": "Jermu's (name) and the & stay; \"Coisas & trecos\", \"Mais barato não existe\".",
-        "erase": [{"rect": [16, 20, 58, 29], "mode": "light", "thresh": 30, "k": 7, "grain": 0, "isolate": True, "scatter": [6, 3]}, {"rect": [12, 40, 60, 50], "mode": "light", "thresh": 30, "k": 7, "grain": 0, "isolate": True, "scatter": [6, 3]}, {"rect": [6, 102, 62, 119], "mode": "light", "thresh": 25, "k": 5, "grain": 0, "isolate": True, "scatter": [6, 3]}],
-        "text": [{"box": [17, 21, 57, 30], "font": "archivo-black", "text": "COISAS", "stretch": True, "color": "#d8d7d7", "shadow": [1, 1, "#6a5050"]},
-                 {"box": [13, 40, 59, 48], "font": "archivo-black", "text": "TRECOS", "stretch": True, "color": "#d8d7d7", "shadow": [1, 1, "#6a5050"]},
-                 {"box": [8, 103, 60, 110], "font": "lato-bold", "text": "Mais barato", "color": "#a39696"},
-                 {"box": [8, 111, 60, 118], "font": "lato-bold", "text": "não existe", "color": "#a39696"}],
+        "note": "Jermu's (name) stays; the whole STUFF & THINGS block is cleared and redrawn as \"Coisas & trecos\" (a new &), and \"Mais barato não existe\" inside the speech bubble (its frame untouched).",
+        "erase": [{"rect": [9, 21, 64, 50], "mode": "color", "thresh": 70, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [56, 30]}, {"rect": [9, 103, 62, 120], "mode": "light", "thresh": 12, "k": 7, "grain": 0, "grow": 2, "lama": True}],
+        "text": [{"box": [15, 22, 57, 31], "font": "sans-bold", "text": "COISAS", "stretch": True, "color": "#cbc5c5"},
+                 {"box": [30, 30, 44, 40], "font": "sans-bold", "text": "&", "stretch": True, "color": "#cbc5c5"},
+                 {"box": [13, 39, 59, 48], "font": "sans-bold", "text": "TRECOS", "stretch": True, "color": "#cbc5c5"},
+                 {"box": [13, 104, 55, 110], "font": "lato-bold", "text": "Mais barato", "stretch": True, "color": "#b4abab"},
+                 {"box": [11, 112, 57, 118], "font": "lato-bold", "text": "não existe", "stretch": True, "color": "#b4abab"}],
     },
     "tv_004_screen_on_elström": {
         "en": "ELSTRöM ELECTRONICS x3 (shop TV screen)",
@@ -2225,9 +2229,10 @@ SPECS = {
     },
     "Sign Biohazard": {
         "en": "BIOHAZARD (sign with the symbol)",
-        "note": "\"Risco biológico\" as on the Bergmann sign; longer, so the letters are narrower.",
-        "erase": [{"rect": [5, 40, 59, 56], "mode": "dark", "thresh": 30, "k": 9, "grain": 0, "isolate": True, "scatter": [6, 3]}],
-        "text": [{"box": [6, 43, 58, 54], "font": "oswald-bold", "text": "RISCO BIOLÓGICO", "stretch": True, "crisp": 0.45, "color": "#1e1808"}],
+        "note": "\"Biorrisco\": nine letters like BIOHAZARD, in the sign's own letters (C and S drawn to match); \"Infectante\" (the Brazilian waste-bag label) as an option. RISCO BIOLÓGICO does not fit a 64-px sign. The frame stays.",
+        "erase": [{"rect": [3, 44, 61, 53], "mode": "dark", "thresh": 25, "k": 9, "grain": 0, "grow": 1, "scatter": [30, 8], "sample_min": 50}],
+        "text": [{"pixel": "bio", "box": [3, 45, 61, 51], "baselines": [51], "text": "BIORRISCO", "gap": 3, "color": "#1f1805"}],
+        "alts": {"INFECTANTE": {"text": "INFECTANTE", "gap": 2}},
     },
 }
 

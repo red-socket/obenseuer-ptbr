@@ -405,8 +405,8 @@ def pixel_layer(size, t, name):
                 top = base + below - len(rows) + 1
                 for dy, row in enumerate(rows):
                     for dx, c in enumerate(row):
-                        if c == "#" and 0 <= top + dy < h and 0 <= x + dx < w:
-                            mask[top + dy, x + dx] = 1
+                        if c in "#+" and 0 <= top + dy < h and 0 <= x + dx < w:   # "+": a half-inked edge pixel
+                            mask[top + dy, x + dx] = 1 if c == "#" else t.get("half", 0.5)
                 x += len(rows[0]) + gap
             x += space - gap
     if t.get("bold"):   # heavier pixel lettering: every stroke one pixel wider to the right
@@ -466,11 +466,18 @@ def ink(t, a, name, rgb, orig, old):
 
 def render(name, spec, save=True):
     der = spec.get("derive")
-    if der:   # {"from": name, "mirror_rgb": bool}: a copy of another sign, e.g. a poster seen from behind whose
+    if der:   # {"from": name, "mirror_rgb": bool, "shade": blur}: a copy of another sign, e.g. a poster seen from behind whose
         # colour is mirrored but whose gloss is not; reuse that sign's render instead of redoing it
         res = np.array(render(der["from"], SPECS[der["from"]], save=False).convert("RGBA"))
         if der.get("mirror_rgb"):
             res[:, :, :3] = res[:, ::-1, :3]
+        if der.get("shade"):   # a glow map that is the base texture darkened by a smooth vignette: measure the
+            # vignette on the two originals and apply it to the new base; the glow map keeps its own alpha
+            mine = np.array(Image.open(os.path.join(GAME, name + ".png")).convert("RGBA")).astype(float)
+            base = np.array(Image.open(os.path.join(GAME, der["from"] + ".png")).convert("RGB")).astype(float)
+            v = cv2.GaussianBlur((mine[:, :, :3].sum(2) + 1) / (base.sum(2) + 1), (0, 0), der["shade"])
+            res[:, :, :3] = np.clip(res[:, :, :3] * v[:, :, None] + 0.5, 0, 255).astype(np.uint8)
+            res[:, :, 3] = mine[:, :, 3].astype(np.uint8)
         img = Image.fromarray(res, "RGBA")
         if save:
             os.makedirs(OUT, exist_ok=True)
@@ -578,6 +585,14 @@ def render(name, spec, save=True):
             rgb = plate.copy()
         else:
             print(f"warning: {clean} is {plate.shape[1]}x{plate.shape[0]}, expected {rgb.shape[1]}x{rgb.shape[0]}; ignored")
+    # The same for the gloss (the alpha channel, saved as a grey image): art/textures/clean/<name>_gloss.png.
+    gclean = os.path.join(HERE, "clean", name + "_gloss.png")
+    if os.path.exists(gclean):
+        gplate = np.array(Image.open(gclean).convert("L"))
+        if gplate.shape == alpha.shape:
+            alpha = gplate.copy()
+        else:
+            print(f"warning: {gclean} is {gplate.shape[1]}x{gplate.shape[0]}, expected {alpha.shape[1]}x{alpha.shape[0]}; ignored")
     if spec.get("noise"):
         # Inpainting leaves flat patches; a little grain makes them match the print.
         rng = np.random.default_rng(len(name))

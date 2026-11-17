@@ -372,6 +372,20 @@ _ELST = {
     "ö": (["#..#", "....", "####", "#..#", "#..#", "#..#", "####"], 0),
     "Ô": ([".##.", "#..#", "####", "#..#", "#..#", "#..#", "####"], 0),
 }
+# Sign Biohazard: the 7-row condensed capitals of BIOHAZARD, "+" for the half-dark edge pixels. C, S, E, F, N, T drawn.
+_BIO = {
+    "B": (["+###+", ".#.##", "+#+#+", "+###.", "+#.##", "+#.##", "+###+"], 0),
+    "I": (["+#"] * 7, 0),
+    "O": (["###+", "#++#", "#++#", "#++#", "#++#", "#++#", "###+"], 0),
+    "R": (["###+", "#+##", "####", "###.", "#+##", "#+##", "#.##"], 0),
+    "A": ([".###.", ".###.", ".#+#.", ".#.#+", ".#+#+", "+#+##", "+#.+#"], 0),
+    "C": (["###+", "#+.#", "#+..", "#+..", "#+..", "#+.#", "###+"], 0),
+    "S": (["###+", "#+..", "#+..", "+##+", "..+#", "..+#", "+###"], 0),
+    "E": (["####", "#+..", "#+..", "###.", "#+..", "#+..", "####"], 0),
+    "F": (["####", "#+..", "#+..", "###.", "#+..", "#+..", "#+.."], 0),
+    "N": (["#..#", "##.#", "##+#", "#+##", "#.##", "#..#", "#..#"], 0),
+    "T": (["####", "+##+", ".##.", ".##.", ".##.", ".##.", ".##."], 0),
+}
 # newspaper_stand_001: the 6-row white capitals of NEW!!; drawn.
 _NEWS = {
     "N": (["#..#", "##.#", "##.#", "#.##", "#.##", "#..#"], 0),
@@ -384,4 +398,4 @@ PIXEL_FONTS = {"oos": _OOS, "bergmann": _BERG, "border-top": _BORDER_TOP, "borde
                "border-low": _BORDER_LOW, "exit": _EXIT, "mall": _MALL,
                "elstrom": _ELSTROM, "skeida": _SKEIDA, "robin": _ROBIN, "taxfree": _TAXFREE,
                "barrel": _BARREL, "dispenser": _DISPENSER,
-               "board": _BOARD, "staff": _STAFF, "osmo": _OSMO, "tiny": _TINY, "keep": _KEEP, "led": _LED, "rob6": _ROB6, "elst": _ELST, "news": _NEWS, "marks": _MARKS}
+               "board": _BOARD, "staff": _STAFF, "osmo": _OSMO, "tiny": _TINY, "keep": _KEEP, "led": _LED, "rob6": _ROB6, "elst": _ELST, "news": _NEWS, "bio": _BIO, "marks": _MARKS}
