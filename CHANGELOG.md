@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.1 (unreleased)
+
+- Recipe and 3D model pickups are translated ("Receita: Pierogi"). The game builds their names from the recipe name and an English suffix.
+
 ## 0.5.0 (2026-11-17)
 
 First public release. The whole translation is a first draft. Every line is still marked as unreviewed in the `.po` files, and the game shows these drafts by default (the `ShowUnreviewedDrafts` setting). Reviews and corrections will come in later versions.

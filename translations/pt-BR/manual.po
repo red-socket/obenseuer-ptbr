@@ -1783,3 +1783,12 @@ msgstr "Fogão de azulejos"
 #, fuzzy
 msgid "Payment machine"
 msgstr "Máquina de pagamento"
+
+#. Recipe and 3D-model pickups: recipe name + " " + GetRecipeEndName (SRC/CollectibleRecipe.cs:17, SRC/RecipeController.cs:210)
+#, fuzzy
+msgid "{0} Recipe"
+msgstr "Receita: {0}"
+
+#, fuzzy
+msgid "{0} 3D Printer Model"
+msgstr "Modelo 3D: {0}"
