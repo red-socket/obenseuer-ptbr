@@ -2534,6 +2534,8 @@ SPECS = {
 
 
 
+
+
     # ---- Batch 19: tier 2 posters, flyers and brochure stands ----
     "Decal_002_poster_keep_your_money_safe": {
         "en": "KEEP YOUR / MONEY SAFE (bank poster)",
@@ -2611,11 +2613,11 @@ SPECS = {
     "Decal_002_skin23": {
         "en": "HISTORY HAS NEVER BEEN / THIS METAL / THE ROCK BOOK (book poster)",
         "note": "\"A história nunca foi / tão metal\", the book \"Livro do rock\" (small line, then ROCK big like BOOK; no article, so the small line stays readable), slanted with the cover. Soft letters like the original; the author's name stays.",
-        "erase": [{"rect": [24, 1, 104, 9], "mode": "color", "thresh": 80, "k": 7, "grain": 0, "bg": "#1c1000", "grow": 1, "isolate": True, "scatter": [10, 3]}, {"rect": [38, 8, 88, 18], "mode": "color", "thresh": 80, "k": 7, "grain": 0, "bg": "#1c1000", "grow": 1, "isolate": True, "scatter": [10, 3]}, {"rect": [36, 35, 65, 65], "mode": "bright", "thresh": 170, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 4], "sample_min": 0, "exclude_dark": 60}],
+        "erase": [{"rect": [24, 1, 104, 9], "mode": "color", "thresh": 80, "k": 7, "grain": 0, "bg": "#1c1000", "grow": 1, "isolate": True, "scatter": [10, 3]}, {"rect": [38, 8, 88, 18], "mode": "color", "thresh": 80, "k": 7, "grain": 0, "bg": "#1c1000", "grow": 1, "isolate": True, "scatter": [10, 3]}, {"rect": [36, 35, 65, 65], "mode": "bright", "thresh": 40, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 4], "sample_min": 0, "exclude_dark": 60}],
         "text": [{"box": [27, 3, 100, 8], "font": "sans-bold", "text": "A HISTÓRIA NUNCA FOI", "stretch": True, "color": "#e2e1e1"},
                  {"box": [44, 9, 83, 17], "font": "sans-bold", "text": "TÃO METAL", "stretch": True, "color": "#e20200"},
-                 {"box": [36, 37, 64, 46], "font": "oswald-bold", "text": "LIVRO DO", "stretch": True, "quad_crisp": [0.25, 0.6], "quad": [[36, 40], [64, 36], [64, 45], [36, 48]], "color": "#ffffff"},
-                 {"box": [36, 48, 64, 64], "font": "oswald-bold", "text": "ROCK", "stretch": True, "quad_crisp": [0.25, 0.6], "quad": [[36, 49], [64, 46], [64, 61], [36, 64]], "color": "#ffffff"}],
+                 {"box": [36, 37, 64, 46], "font": "oswald-bold", "text": "LIVRO DO", "stretch": True, "quad_crisp": [0.4, 0.55], "quad": [[36, 40], [64, 36], [64, 45], [36, 48]], "color": "#ffffff"},
+                 {"box": [36, 48, 64, 64], "font": "oswald-bold", "text": "ROCK", "stretch": True, "quad_crisp": [0.4, 0.55], "quad": [[36, 49], [64, 46], [64, 61], [36, 64]], "color": "#ffffff"}],
     },
     "Decal_002_skin22": {
         "en": "LEAVE THE GUN / TAKE THE BOOK / HATS GUNS & CANNOLI (book poster, a Godfather joke)",
