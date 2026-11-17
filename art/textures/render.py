@@ -472,6 +472,10 @@ def ink(t, a, name, rgb, orig, old):
         ys = np.clip(np.arange(h) + dy, 0, h - 1)
         xs = np.clip(np.arange(w) + dx, 0, w - 1)
         col = rgb[ys][:, xs].astype(float)
+    if t.get("ramp"):   # [[x, colour], ...]: ink that changes from left to right (a sheen across a sign)
+        px = [p[0] for p in t["ramp"]]; pc = np.array([hexrgb(p[1]) for p in t["ramp"]], float)
+        line = np.stack([np.interp(np.arange(w), px, pc[:, i]) for i in range(3)], axis=1)
+        col = np.broadcast_to(line[None, :, :], (h, w, 3)).copy()
     rows = np.nonzero(a.any(axis=1))[0]
     if t.get("shade") and len(rows):
         top, bottom = t["shade"]
