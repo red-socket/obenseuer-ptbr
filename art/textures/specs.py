@@ -2695,6 +2695,20 @@ SPECS = {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     # ---- Batch 20: tier 2 menus, cinema posters, charts, e-mail pictures and logos ----
     "Decal_002_grill_menu": {
         "en": "FOODS / DRINKS grill menu: Hamburger, Glowing Hamburger, Hot Dog, Glowing Hot Dog, Grilled Potato, Grilled Turnip, Sausage, Glowing Sausage; Osmo Olut Can, Osmo Olut Bottle, Milk, Septi Max, Septi Low, Splurt",
@@ -2720,26 +2734,26 @@ SPECS = {
     },
     "fastfood_restaurant_menu_001": {
         "en": "HAMBURGERS / KEBABS / PIZZAS / PIZZAS / DRINKS / SALAD & OTHER (panel headings of a fast-food menu; the item lines are unreadable)",
-        "note": "Headings in the menu's 5-row pixel capitals; SALAD & OTHER is \"Saladas e mais\" (SALADAS E OUTROS does not fit the panel). Kebabs and pizzas stay plural as in Portuguese.",
-        "erase": [{"rect": [10, 13, 72, 19], "mode": "bright", "thresh": 130, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [10, 1]}, {"rect": [82, 13, 144, 19], "mode": "bright", "thresh": 130, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [10, 1]}, {"rect": [155, 13, 217, 19], "mode": "bright", "thresh": 130, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [10, 1]}, {"rect": [10, 99, 72, 105], "mode": "bright", "thresh": 130, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [10, 1]}, {"rect": [82, 99, 144, 105], "mode": "bright", "thresh": 130, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [10, 1]}, {"rect": [155, 99, 217, 105], "mode": "bright", "thresh": 130, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [10, 1]}],
-        "text": [{"pixel": "fast", "box": [9, 14, 73, 18], "baselines": [18], "text": "HAMBÚRGUERES", "gap": 1, "space": 3, "color": "#d6dfd6"},
+        "note": "Headings in the menu's 5-row pixel capitals; SALAD & OTHER is \"Saladas etc\" (longer wordings run off the glow map's red band); HAMBÚRGUERES uses 3-wide E, R, S and U to fit. Kebabs and pizzas stay plural as in Portuguese.",
+        "erase": [{"rect": [10, 13, 69, 21], "mode": "rows", "thresh": 45, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [14, 0]}, {"rect": [83, 13, 143, 21], "mode": "rows", "thresh": 45, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [14, 0]}, {"rect": [157, 13, 216, 21], "mode": "rows", "thresh": 45, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [14, 0]}, {"rect": [10, 99, 71, 107], "mode": "rows", "thresh": 45, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [14, 0]}, {"rect": [83, 99, 143, 107], "mode": "rows", "thresh": 45, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [14, 0]}, {"rect": [157, 99, 215, 107], "mode": "rows", "thresh": 45, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [14, 0]}],
+        "text": [{"pixel": "fast-narrow", "box": [9, 14, 73, 18], "baselines": [18], "text": "HAMBÚRGUERES", "gap": 1, "space": 3, "color": "#d6dfd6"},
                  {"pixel": "fast", "box": [81, 14, 145, 18], "baselines": [18], "text": "KEBABS", "gap": 1, "space": 3, "color": "#d6dfd6"},
                  {"pixel": "fast", "box": [154, 14, 218, 18], "baselines": [18], "text": "PIZZAS", "gap": 1, "space": 3, "color": "#d6dfd6"},
                  {"pixel": "fast", "box": [9, 100, 73, 104], "baselines": [104], "text": "PIZZAS", "gap": 1, "space": 3, "color": "#d6dfd6"},
                  {"pixel": "fast", "box": [81, 100, 145, 104], "baselines": [104], "text": "BEBIDAS", "gap": 1, "space": 3, "color": "#d6dfd6"},
-                 {"pixel": "fast", "box": [154, 100, 218, 104], "baselines": [104], "text": "SALADAS E MAIS", "gap": 1, "space": 3, "color": "#d6dfd6"}],
+                 {"pixel": "fast", "box": [154, 100, 218, 104], "baselines": [104], "text": "SALADAS ETC", "gap": 1, "space": 3, "color": "#d6dfd6"}],
     },
     "fastfood_restaurant_menu_001_e": {
         "en": "HAMBURGERS / KEBABS / PIZZAS / PIZZAS / DRINKS / SALAD & OTHER (panel headings of a fast-food menu; the item lines are unreadable) (glow map)",
         "note": "Glow map of the menu before.",
         "mask_source": "fastfood_restaurant_menu_001",
-        "erase": [{"rect": [10, 13, 72, 19], "mode": "bright", "thresh": 130, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [10, 1]}, {"rect": [82, 13, 144, 19], "mode": "bright", "thresh": 130, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [10, 1]}, {"rect": [155, 13, 217, 19], "mode": "bright", "thresh": 130, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [10, 1]}, {"rect": [10, 99, 72, 105], "mode": "bright", "thresh": 130, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [10, 1]}, {"rect": [82, 99, 144, 105], "mode": "bright", "thresh": 130, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [10, 1]}, {"rect": [155, 99, 217, 105], "mode": "bright", "thresh": 130, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [10, 1]}],
-        "text": [{"pixel": "fast", "box": [9, 14, 73, 18], "baselines": [18], "text": "HAMBÚRGUERES", "gap": 1, "space": 3, "ink": "letters"},
+        "erase": [{"rect": [10, 13, 69, 21], "mode": "rows", "thresh": 45, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [14, 0]}, {"rect": [83, 13, 143, 21], "mode": "rows", "thresh": 45, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [14, 0]}, {"rect": [157, 13, 216, 21], "mode": "rows", "thresh": 45, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [14, 0]}, {"rect": [10, 99, 71, 107], "mode": "rows", "thresh": 45, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [14, 0]}, {"rect": [83, 99, 143, 107], "mode": "rows", "thresh": 45, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [14, 0]}, {"rect": [157, 99, 215, 107], "mode": "rows", "thresh": 45, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [14, 0]}],
+        "text": [{"pixel": "fast-narrow", "box": [9, 14, 73, 18], "baselines": [18], "text": "HAMBÚRGUERES", "gap": 1, "space": 3, "ink": "letters"},
                  {"pixel": "fast", "box": [81, 14, 145, 18], "baselines": [18], "text": "KEBABS", "gap": 1, "space": 3, "ink": "letters"},
                  {"pixel": "fast", "box": [154, 14, 218, 18], "baselines": [18], "text": "PIZZAS", "gap": 1, "space": 3, "ink": "letters"},
                  {"pixel": "fast", "box": [9, 100, 73, 104], "baselines": [104], "text": "PIZZAS", "gap": 1, "space": 3, "ink": "letters"},
                  {"pixel": "fast", "box": [81, 100, 145, 104], "baselines": [104], "text": "BEBIDAS", "gap": 1, "space": 3, "ink": "letters"},
-                 {"pixel": "fast", "box": [154, 100, 218, 104], "baselines": [104], "text": "SALADAS E MAIS", "gap": 1, "space": 3, "ink": "letters"}],
+                 {"pixel": "fast", "box": [154, 100, 218, 104], "baselines": [104], "text": "SALADAS ETC", "gap": 1, "space": 3, "ink": "letters"}],
     },
     "poster_kino_003": {
         "en": "THE DAMNATION / based on True events / December 28 / From the director of THE WASTE DEAL and GROUP 6 SCANDAL / \"documentary of the year\" (cinema poster)",
@@ -2754,14 +2768,13 @@ SPECS = {
     },
     "poster_kino_002": {
         "en": "Hobopolis / The reality for some / A SOUL WRENCHING FILM / FOR OTHERS / December 23. (cinema poster)",
-        "note": "Hobopolis (hobo + polis) becomes Mendigópolis; \"A realidade para alguns / um filme de partir a alma / para outros / 23 de dezembro.\" Hard-edged letters like the original; the tiny side notes stay.",
+        "note": "Hobopolis (hobo + polis) becomes Cracolândia (user's pick, the nickname of São Paulo's crack district) in Rock Salt, a loopy marker hand like the original's; \"A realidade para alguns / um filme de partir a alma / para outros / 23 de dezembro.\" Hard-edged letters like the original; the tiny side notes stay.",
         "erase": [{"rect": [42, 4, 212, 70], "mode": "near", "thresh": 150, "k": 7, "grain": 0, "bg": "#e2ad00", "grow": 1, "lama": True}, {"rect": [60, 196, 200, 233], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [12, 3]}, {"rect": [96, 234, 162, 246], "mode": "near", "thresh": 150, "k": 7, "grain": 0, "bg": "#ffc501", "grow": 1, "isolate": True, "scatter": [10, 3]}],
-        "text": [{"box": [46, 6, 206, 46], "font": "marker", "text": "Mendigópolis", "stretch": True, "crisp": 0.5, "color": "#e2ad00"},
+        "text": [{"box": [42, 3, 208, 66], "font": "rocksalt", "text": "Cracolândia", "stretch": True, "crisp": 0.5, "stroke": 0.8, "color": "#e2ad00"},
                  {"box": [82, 199, 175, 207], "font": "sans-bold", "text": "A realidade para alguns", "stretch": True, "crisp": 0.5, "color": "#ffffff"},
                  {"box": [66, 211, 191, 219], "font": "sans-bold", "text": "UM FILME DE PARTIR A ALMA", "stretch": True, "crisp": 0.5, "color": "#ffffff"},
                  {"box": [100, 223, 159, 231], "font": "sans-bold", "text": "PARA OUTROS", "stretch": True, "crisp": 0.5, "color": "#ffffff"},
                  {"box": [96, 237, 161, 244], "font": "sans-bold", "text": "23 de dezembro.", "stretch": True, "crisp": 0.5, "color": "#ffc501"}],
-        "alts": {"Rock Salt": {"font": "rocksalt"}, "Caveat Brush": {"font": "caveat-brush"}},
     },
     "Decal_003_poster_osmo_brewery": {
         "en": "OSMO OLUT BREWING COMPANY / STRONGEST BEERS / The Master Brewer OSMO SAARINEN / labels MANAGEMENT, OSMO OLUT BREWERY, FERMENTING CELLAR, MALTING (painted poster)",
@@ -2778,19 +2791,19 @@ SPECS = {
     },
     "Decal_002_poster_radiation": {
         "en": "RADIATION DOSE CHART: >10 Sv Fatal / 1-10 Sv Radiation sickness / 50 mSv SNW yearly limit / 10 µSv Background radi(ation)",
-        "note": "\"Tabela de doses / de radiação\", \"Doença da radiação\", \"Limite anual SNW\", \"Radiação de fundo\" (cut at the edge like the original); the doses and Fatal (same in Portuguese) stay. Worn bold monospace letters like the original.",
-        "erase": [{"rect": [24, 3, 110, 25], "mode": "color", "thresh": 110, "k": 7, "grain": 0, "bg": "#bd6d15", "grow": 1, "isolate": True, "scatter": [12, 3]}, {"rect": [20, 65, 110, 75], "mode": "dark", "thresh": 25, "k": 9, "grain": 0, "grow": 1, "isolate": True, "scatter": [12, 2]}, {"rect": [20, 90, 110, 101], "mode": "dark", "thresh": 25, "k": 9, "grain": 0, "grow": 1, "isolate": True, "scatter": [12, 2]}, {"rect": [20, 115, 112, 128], "mode": "dark", "thresh": 25, "k": 9, "grain": 0, "grow": 1, "isolate": True, "scatter": [12, 2]}],
-        "text": [{"box": [27, 3, 107, 12], "font": "mono-bold", "text": "TABELA DE DOSES", "stretch": True, "ink_texture": 0.6, "mottle": 10, "color": "#4a2c10"},
-                 {"box": [30, 13, 104, 26], "font": "mono-bold", "text": "DE RADIAÇÃO:", "stretch": True, "ink_texture": 0.6, "mottle": 10, "color": "#4a2c08"},
-                 {"box": [22, 66, 104, 74], "font": "mono-bold", "text": "Doença da radiação", "stretch": True, "ink_texture": 0.6, "mottle": 10, "color": "#393229"},
-                 {"box": [22, 92, 94, 100], "font": "mono-bold", "text": "Limite anual SNW", "stretch": True, "ink_texture": 0.6, "mottle": 10, "color": "#393229"},
-                 {"box": [22, 116, 124, 128], "font": "mono-bold", "text": "Radiação de fundo", "stretch": True, "clip": [0, 0, 110, 128], "ink_texture": 0.6, "mottle": 10, "color": "#393229"}],
+        "note": "\"Tabela de doses / de radiação\", \"Doença da radiação\", \"Limite anual SNW\", \"Radiação de fundo\" (fits whole, the original is cut short); the doses and Fatal (same in Portuguese) stay. Worn bold monospace letters like the original.",
+        "erase": [{"rect": [24, 3, 106, 25], "mode": "color", "thresh": 110, "k": 7, "grain": 0, "bg": "#bd6d15", "grow": 1, "isolate": True, "scatter": [12, 3]}, {"rect": [20, 64, 107, 75], "mode": "dark", "thresh": 20, "k": 9, "grain": 0, "grow": 2, "scatter": [10, 6], "exclude_red": 50, "avoid_red": 40, "avoid_thresh": 60}, {"rect": [20, 90, 107, 101], "mode": "dark", "thresh": 20, "k": 9, "grain": 0, "grow": 2, "scatter": [10, 6], "exclude_red": 50, "avoid_red": 40, "avoid_thresh": 60}, {"rect": [20, 114, 107, 128], "mode": "dark", "thresh": 20, "k": 9, "grain": 0, "grow": 2, "scatter": [10, 6], "exclude_red": 50, "avoid_red": 40, "avoid_thresh": 60}],
+        "text": [{"box": [29, 3, 101, 12], "font": "mono-bold", "text": "TABELA DE DOSES", "stretch": True, "ink_texture": 0.6, "mottle": 10, "color": "#4a2c10"},
+                 {"box": [33, 13, 99, 25], "font": "mono-bold", "text": "DE RADIAÇÃO:", "stretch": True, "ink_texture": 0.6, "mottle": 10, "color": "#4a2c08"},
+                 {"box": [22, 66, 104, 74], "font": "mono-bold", "text": "Doença da radiação", "stretch": True, "ink_texture": 0.4, "mottle": 8, "color": "#2c2620"},
+                 {"box": [22, 92, 94, 100], "font": "mono-bold", "text": "Limite anual SNW", "stretch": True, "ink_texture": 0.4, "mottle": 8, "color": "#2c2620"},
+                 {"box": [22, 117, 99, 125], "font": "mono-bold", "text": "Radiação de fundo", "stretch": True, "ink_texture": 0.4, "mottle": 8, "color": "#2c2620"}],
     },
     "Decal_002_meat_cuts": {
         "en": "PORK CUTS (butcher chart; the cut labels are unreadable)",
         "note": "\"Cortes suínos\" in thin soft capitals; the labels stay.",
-        "erase": [{"rect": [44, 50, 174, 70], "mode": "dark", "thresh": 60, "k": 9, "grain": 0, "grow": 1, "isolate": True, "scatter": [20, 6]}],
-        "text": [{"box": [48, 49, 172, 68], "font": "sans", "text": "CORTES SUÍNOS", "stretch": True, "color": "#060403"}],
+        "erase": [{"rect": [49, 50, 176, 70], "mode": "dark", "thresh": 60, "k": 9, "grain": 0, "grow": 1, "scatter": [20, 6], "exclude_red": 60, "avoid_red": 60, "avoid_thresh": 150}],
+        "text": [{"box": [52, 49, 174, 68], "font": "sans", "text": "CORTES SUÍNOS", "stretch": True, "color": "#060403"}],
     },
     "email_ankea_0": {
         "en": "Crispy / at ANKEA / New money collection / now in store / New! / Rahastus Painting 50 RM (picture in an Ankea e-mail)",
@@ -2813,9 +2826,9 @@ SPECS = {
     },
     "walter_logo_001": {
         "en": "WALTER / BUILDING FOR THE FUTURE (company logo; the shapes are in the alpha, the colour is black)",
-        "note": "Walter (name) stays; \"Construindo o futuro\" drawn into the alpha at the original's cap height.",
+        "note": "Walter (name) stays; \"Construindo o futuro\" drawn into the alpha at the original's cap height; the colour under the slogan (which still held the old letters) is the logo's own black.",
         "cutout": True,
-        "erase": [],
+        "erase": [{"rect": [0, 888, 1024, 1024], "color": "#101010"}],
         "alpha": {"erase": [{"rect": [0, 890, 1024, 956], "color": "#000000"}]},
         "text": [{"box": [0, 880, 1024, 960], "font": "sans-bold", "text": "CONSTRUINDO O FUTURO", "size": 74, "baseline": 949, "alpha_only": True, "alpha": 255, "color": "#101010"}],
     },

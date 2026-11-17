@@ -97,12 +97,13 @@ def lama_inpaint(rgb, mask):
 
 def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, isolate=False, grain=0, detect=None,
           return_mask=False, poly=None, scatter=None, exclude_red=None, sample_min=None, only_red=None, exclude_dark=None,
-          lama=False):
+          lama=False, avoid_thresh=None, avoid_red=None):
     """Inpaint the old letters inside rect.
 
     mode "color": letters are pixels far from the background colour (flat backgrounds).
     mode "near": letters are pixels close to bg, here the letter colour (crisp one-colour pixel lettering).
     mode "bright": whitish letters on a coloured surface (lowest channel above thresh).
+    mode "rows": letters are pixels off their own row's colour (a band shaded in horizontal stripes).
     mode "dark" / "light": letters are thin strokes darker / lighter than their surroundings
     (black-hat / top-hat with a k x k kernel), so grime and stains on worn signs are left alone.
     isolate: fill only from pixels inside rect, so a frame right next to the letters doesn't bleed in.
@@ -111,6 +112,8 @@ def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, is
     poly: only erase inside this polygon too (slanted text next to other artwork).
     exclude_red: leave pixels with r - g above this alone (red artwork crossing the letters).
     sample_min: scatter only copies pixels whose darkest channel is above this (plain paper, not ink).
+    avoid_thresh: for scatter in dark / light mode, only pixels above this (not thresh) count as ink not to copy,
+    so a mottled surface keeps its darker blotches in the fill. avoid_red: never copy pixels with r - g above this.
     scatter: [rx, ry]: instead of inpainting, give each letter pixel the colour of a random untouched pixel within
     rx/ry, for speckled or grimy surfaces where a smooth fill would show.
     lama: fill with the LaMa model (IOPaint) instead of OpenCV; much better on large letters and textured surfaces.
@@ -128,6 +131,10 @@ def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, is
     elif mode == "near":   # crisp letters in one exact colour: pixels within thresh of bg (artwork around is kept)
         ref = np.array(hexrgb(bg))
         letters = np.abs(region - ref).sum(axis=2) <= thresh
+    elif mode == "rows":   # a band striped row by row: anything off its row's colour (median of the non-white pixels)
+        ref = np.array([np.median(r[r.min(axis=1) < 130], axis=0) if (r.min(axis=1) < 130).any() else np.median(r, axis=0)
+                        for r in region])
+        letters = np.abs(region - ref[:, None, :]).sum(axis=2) > thresh
     else:
         gray = cv2.cvtColor(np.ascontiguousarray(look), cv2.COLOR_RGB2GRAY)
         op = cv2.MORPH_BLACKHAT if mode == "dark" else cv2.MORPH_TOPHAT
@@ -165,11 +172,15 @@ def erase(rgb, rect, bg=None, thresh=40, grow=1, radius=3, mode="color", k=5, is
             like = np.abs(look.astype(int) - ref).sum(axis=2) > thresh
         elif mode == "near":
             like = np.abs(look.astype(int) - ref).sum(axis=2) <= thresh
+        elif mode == "rows":
+            like = np.zeros(m.shape, bool)
         else:
-            like = hat > thresh
+            like = hat > (thresh if avoid_thresh is None else avoid_thresh)
         avoid |= cv2.dilate(like.astype(np.uint8), np.ones((3, 3), np.uint8)) > 0
         if sample_min is not None:
             avoid |= look.min(axis=2) < sample_min
+        if avoid_red is not None:
+            avoid |= (look[:, :, 0].astype(int) - look[:, :, 1]) > avoid_red
         if exclude_dark is not None:
             avoid |= look.max(axis=2) < exclude_dark
         out = cv2.inpaint(rgb, mask, radius, cv2.INPAINT_TELEA)   # fallback where no sample is found
@@ -535,7 +546,7 @@ def render(name, spec, save=True):
                            op.get("mode", "color"), op.get("k", 5), op.get("isolate", False), op.get("grain", 0),
                            detect, return_mask=True, poly=op.get("poly"), scatter=op.get("scatter"),
                            exclude_red=op.get("exclude_red"), sample_min=op.get("sample_min"), only_red=op.get("only_red"), exclude_dark=op.get("exclude_dark"),
-                           lama=op.get("lama", False))
+                           lama=op.get("lama", False), avoid_thresh=op.get("avoid_thresh"), avoid_red=op.get("avoid_red"))
             old |= m
     # "dotmatrix": LED signs. Clear "clear" to black, then stamp the sign's own lit dot (the pitch x pitch block at
     # "dot") on a grid from "origin", one dot per lit cell of the pixel font text.

@@ -567,9 +567,15 @@ _FAST = {
     "Z": (["####", "..#.", ".#..", "#...", "####"], 0),
 }
 _FAST["Ú"] = _accent(_FAST["U"], ["..#."], gap=0)
+_FAST["C"] = ([".###", "#...", "#...", "#...", ".###"], 0)
+_FAST["T"] = (["###", ".#.", ".#.", ".#.", ".#."], 0)
+# 3-wide E, R, S and U for the long HAMBÚRGUERES, which must stay inside the glow map's red band
+_FAST_NARROW = dict(_FAST, E=(["###", "#..", "##.", "#..", "###"], 0), R=(["##.", "#.#", "##.", "#.#", "#.#"], 0),
+                    S=([".##", "#..", ".#.", "..#", "##."], 0), U=(["#.#", "#.#", "#.#", "#.#", "###"], 0))
+_FAST_NARROW["Ú"] = _accent(_FAST_NARROW["U"], ["..#"], gap=0)
 
 PIXEL_FONTS = {"oos": _OOS, "bergmann": _BERG, "border-top": _BORDER_TOP, "border-mid": _BORDER_MID,
                "border-low": _BORDER_LOW, "exit": _EXIT, "mall": _MALL,
                "elstrom": _ELSTROM, "skeida": _SKEIDA, "robin": _ROBIN, "taxfree": _TAXFREE,
                "barrel": _BARREL, "dispenser": _DISPENSER,
-               "board": _BOARD, "staff": _STAFF, "osmo": _OSMO, "tiny": _TINY, "keep": _KEEP, "led": _LED, "rob6": _ROB6, "elst": _ELST, "news": _NEWS, "bio": _BIO, "wayup": _WAYUP, "wayup-big": _WAYUP_BIG, "scrawl": _SCRAWL, "call": _CALL, "therapy": _THERAPY, "fast": _FAST, "baby": _BABY, "marks": _MARKS}
+               "board": _BOARD, "staff": _STAFF, "osmo": _OSMO, "tiny": _TINY, "keep": _KEEP, "led": _LED, "rob6": _ROB6, "elst": _ELST, "news": _NEWS, "bio": _BIO, "wayup": _WAYUP, "wayup-big": _WAYUP_BIG, "scrawl": _SCRAWL, "call": _CALL, "therapy": _THERAPY, "fast": _FAST, "fast-narrow": _FAST_NARROW, "baby": _BABY, "marks": _MARKS}
