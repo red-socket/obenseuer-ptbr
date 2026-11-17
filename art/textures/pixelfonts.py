@@ -625,8 +625,42 @@ _MAG3 = {
     "M": (["#####", "#.#.#", "#.#.#"], 0), "O": (["###", "#.#", "###"], 0), "S": ([".##", ".#.", "##."], 0),
 }
 
+# bottle_set_001: the 5-row capitals of the small SOAP label (drawn level, then turned to run down the label).
+_SOAP = {
+    "S": ([".###", "#...", ".##.", "...#", "###."], 0), "A": ([".##.", "#..#", "####", "#..#", "#..#"], 0),
+    "B": (["##.", "#.#", "##.", "#.#", "##."], 0), "O": ([".##.", "#..#", "#..#", "#..#", ".##."], 0),
+}
+_SOAP["Ã"] = _accent(_SOAP["A"], [".#.#", "#.#."], gap=0)
+# hot_dog_label: HOTDOG's 11-row capitals with 2-pixel strokes (D, O and G are the label's own).
+_HOTDOG = {
+    "D": (["####.", "#####", "##.##", "##.##", "##.##", "##.##", "##.##", "##.##", "##.##", "#####", "####."], 0),
+    "O": ([".###.", "#####", "##.##", "##.##", "##.##", "##.##", "##.##", "##.##", "##.##", "#####", ".###."], 0),
+    "G": ([".###.", "#####", "##.##", "##.##", "##...", "##.##", "##.##", "##.##", "##.##", "#####", ".###."], 0),
+    "A": ([".###.", "#####", "##.##", "##.##", "##.##", "#####", "#####", "##.##", "##.##", "##.##", "##.##"], 0),
+}
+_HOTDOG["Ã"] = _accent(_HOTDOG["A"], [".##.#", "#.##."], gap=1)
+# postcard_001_*_revealed: the scratched panel's NO WIN :( (6 rows, drawn level, then turned).
+_NOWIN = {
+    "N": (["#....#", "##...#", "#.#..#", "#..#.#", "#...##", "#....#"], 0),
+    "O": (["######", "#....#", "#....#", "#....#", "#....#", "######"], 0),
+    "D": (["#####.", "#....#", "#....#", "#....#", "#....#", "#####."], 0),
+    "E": (["######", "#.....", "#####.", "#.....", "#.....", "######"], 0),
+    "U": (["#....#", "#....#", "#....#", "#....#", "#....#", "######"], 0),
+    "A": (["######", "#....#", "######", "#....#", "#....#", "#....#"], 0),
+    "(": ([".#..#.", "......", "......", ".####.", "#....#", "#....#"], 0),   # the sad face :(
+}
+_NOWIN["Ã"] = _accent(_NOWIN["A"], [".##..#", "#..##."], gap=0)
+
+# asbestos_bag_002: STONEFLUFF's thin capitals, 4 wide and 7 rows (a 4-row design with the first three rows doubled).
+def _fluff(rows):
+    return ([rows[0], rows[0], rows[1], rows[1], rows[2], rows[2], rows[3]], 0)
+_FLUFF = {c: _fluff(r) for c, r in {
+    "F": ["####", "#...", "###.", "#..."], "I": ["#", "#", "#", "#"], "B": ["###.", "#.##", "#..#", "####"],
+    "R": ["####", "#..#", "###.", "#..#"], "A": ["####", "#..#", "####", "#..#"], "M": ["#####", "#.#.#", "#.#.#", "#.#.#"],
+    "N": ["####", "#..#", "#..#", "#..#"], "E": ["####", "#...", "###.", "####"], "L": ["#...", "#...", "#...", "####"]}.items()}
+
 PIXEL_FONTS = {"oos": _OOS, "bergmann": _BERG, "border-top": _BORDER_TOP, "border-mid": _BORDER_MID,
                "border-low": _BORDER_LOW, "exit": _EXIT, "mall": _MALL,
                "elstrom": _ELSTROM, "skeida": _SKEIDA, "robin": _ROBIN, "taxfree": _TAXFREE,
                "barrel": _BARREL, "dispenser": _DISPENSER,
-               "board": _BOARD, "staff": _STAFF, "osmo": _OSMO, "tiny": _TINY, "keep": _KEEP, "led": _LED, "rob6": _ROB6, "elst": _ELST, "news": _NEWS, "bio": _BIO, "wayup": _WAYUP, "wayup-big": _WAYUP_BIG, "scrawl": _SCRAWL, "call": _CALL, "therapy": _THERAPY, "fast": _FAST, "mag": _MAG, "mag4": _MAG4, "mag6": _MAG6, "mag7": _MAG7, "mag3": _MAG3, "mag-house": _MAG_HOUSE, "fast-narrow": _FAST_NARROW, "baby": _BABY, "marks": _MARKS}
+               "board": _BOARD, "staff": _STAFF, "osmo": _OSMO, "tiny": _TINY, "keep": _KEEP, "led": _LED, "rob6": _ROB6, "elst": _ELST, "news": _NEWS, "bio": _BIO, "wayup": _WAYUP, "wayup-big": _WAYUP_BIG, "scrawl": _SCRAWL, "call": _CALL, "therapy": _THERAPY, "fast": _FAST, "mag": _MAG, "mag4": _MAG4, "mag6": _MAG6, "mag7": _MAG7, "mag3": _MAG3, "mag-house": _MAG_HOUSE, "soap": _SOAP, "hotdog": _HOTDOG, "nowin": _NOWIN, "fluff": _FLUFF, "fast-narrow": _FAST_NARROW, "baby": _BABY, "marks": _MARKS}

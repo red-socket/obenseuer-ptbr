@@ -3005,6 +3005,131 @@ SPECS = {
                  {"box": [184, 209, 215, 214], "font": "serif", "text": "O TÚNEL DAS", "stretch": True, "color": "#949f9f"},
                  {"box": [182, 215, 216, 221], "font": "serif", "text": "ÁRVORES D'ÁGUA", "stretch": True, "color": "#949f9f"}],
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    # ---- Batch 22: tier 4 packaging and labels (first half) ----
+    "pill_packet_001_facemasks": {
+        "en": "MIASMAFIL / 8PCS (face mask packet; the text runs down the packet)",
+        "note": "Miasmafil (brand) stays; 8 PCS is 8 UN. (unidades), in the same blocky black letters turned to run down the packet.",
+        "erase": [{"rect": [87, 39, 106, 63], "mode": "dark", "thresh": 60, "k": 9, "grain": 0, "grow": 1, "isolate": True, "scatter": [1, 6]}],
+        "text": [{"box": [0, 0, 40, 20], "font": "sans", "text": "UN.", "stretch": True, "color": "#000000", "quad": [[103, 42], [103, 61], [90, 61], [90, 42]], "quad_crisp": [0.35, 0.6]}],
+    },
+    "bottle_set_001_0": {
+        "en": "SOAP (small label on a set of bottles; the word runs down the label)",
+        "note": "SABÃO (user; SABONETE is too long) in the label's 5-row capitals, turned like SOAP. Ships as bottle_set_001.",
+        "game_name": "bottle_set_001",
+        "erase": [{"rect": [36, 50, 45, 73], "mode": "dark", "thresh": 40, "k": 5, "grain": 0, "grow": 0, "isolate": True, "scatter": [0, 3]}],
+        "text": [{"pixel": "soap", "box": [30, 57, 50, 65], "baselines": [64], "text": "SABÃO", "gap": 1, "align": "left", "rotate": -90, "color": "#101010"}],
+    },
+    "hot_dog_label": {
+        "en": "HOTDOG (label)",
+        "note": "DOGÃO (user; Brazilian slang for a big hot dog) in the label's own 11-row letters (D, O and G are the label's).",
+        "erase": [{"rect": [12, 19, 51, 32], "mode": "bright", "thresh": 200, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [6, 0]}],
+        "text": [{"pixel": "hotdog", "box": [12, 17, 51, 31], "baselines": [30], "text": "DOGÃO", "gap": 1, "color": "#ffffff"}],
+    },
+    "trash_bag_001b": {
+        "en": "BIOHAZARD x2 (printed on a yellow bag, at an angle)",
+        "note": "INFECTANTE, the word chosen for the biohazard sign, along each old word's slant.",
+        "erase": [{"rect": [30, 45, 115, 115], "mode": "dark", "thresh": 12, "k": 15, "grain": 0, "grow": 1, "lama": True, "poly": [[97.5, 105.3], [41.2, 59.5], [48.4, 50.7], [104.7, 96.5]]}, {"rect": [140, 130, 215, 195], "mode": "dark", "thresh": 12, "k": 15, "grain": 0, "grow": 1, "lama": True, "poly": [[153.4, 134.7], [209.8, 180.4], [202.7, 189.2], [146.3, 143.5]]}],
+        "text": [{"box": [0, 0, 200, 30], "font": "archivo-black", "text": "INFECTANTE", "stretch": True, "tracking": 0.12, "color": "#2d260f", "quad": [[96.6, 101.7], [45.0, 59.7], [49.3, 54.3], [100.9, 96.3]]},
+                 {"box": [0, 0, 200, 30], "font": "archivo-black", "text": "INFECTANTE", "stretch": True, "tracking": 0.12, "color": "#2d260f", "quad": [[154.3, 138.3], [206.0, 180.2], [201.8, 185.6], [150.1, 143.7]]}],
+    },
+    "trash_bag_001c": {
+        "en": "BIOHAZARD (printed on the torn yellow bag)",
+        "note": "As on the whole bag.",
+        "erase": [{"rect": [140, 130, 215, 195], "mode": "dark", "thresh": 12, "k": 15, "grain": 0, "grow": 1, "lama": True, "poly": [[153.4, 134.7], [209.8, 180.4], [202.7, 189.2], [146.3, 143.5]]}],
+        "text": [{"box": [0, 0, 200, 30], "font": "archivo-black", "text": "INFECTANTE", "stretch": True, "tracking": 0.12, "color": "#2d260f", "quad": [[154.3, 138.3], [206.0, 180.2], [201.8, 185.6], [150.1, 143.7]]}],
+    },
+    "cardboard_box_013_skin1": {
+        "en": "Office MASTER / Copy paper / Premium grade white copy paper (copy-paper box, two of each)",
+        "note": "Office Master (brand) stays; \"Papel sulfite\" (what copy paper is called in Brazil) and \"Papel sulfite branco premium\". The lines in other languages stay.",
+        "erase": [{"rect": [16, 156, 72, 172], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 1]}, {"rect": [235, 197, 291, 213], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 1]}, {"rect": [29, 375, 180, 391], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 1]}, {"rect": [317, 270, 468, 286], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 1]}],
+        "text": [{"box": [18, 158, 76, 170], "font": "roboto-cond", "text": "Papel sulfite", "stretch": True, "ink": "letters", "ink_sigma": 2},
+                 {"box": [237, 199, 295, 211], "font": "roboto-cond", "text": "Papel sulfite", "stretch": True, "ink": "letters", "ink_sigma": 2},
+                 {"box": [31, 377, 172, 389], "font": "roboto-cond-bold", "text": "Papel sulfite branco premium", "stretch": True, "ink": "letters", "ink_sigma": 2},
+                 {"box": [319, 272, 460, 284], "font": "roboto-cond-bold", "text": "Papel sulfite branco premium", "stretch": True, "ink": "letters", "ink_sigma": 2}],
+    },
+    "bottle_011_label": {
+        "en": "Spring / Water / Lähdevesi (water bottle label)",
+        "note": "\"Água de / nascente\" as in the game text; the Finnish line stays.",
+        "erase": [{"rect": [3, 18, 40, 42], "mode": "dark", "thresh": 30, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}],
+        "text": [{"box": [4, 19, 37, 31], "font": "sans-bold", "text": "Água de", "stretch": True, "color": "#0b3f8f"},
+                 {"box": [4, 33, 38, 41], "font": "sans-bold", "text": "nascente", "stretch": True, "color": "#0b3f8f"}],
+    },
+    "asbestos_bag_002": {
+        "en": "STONEFLUFF x4 (asbestos bag: two diagonal, two down the stripes)",
+        "note": "FIBRA MINERAL (user) in the bag's thin pixel capitals, on the same slants.",
+        "erase": [{"rect": [0, 0, 125, 105], "mode": "bright", "thresh": 180, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [4, 4], "poly": [[16, 17], [30, 3], [106, 79], [92, 95]]}, {"rect": [0, 98, 125, 200], "mode": "bright", "thresh": 180, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [4, 4], "poly": [[14, 113], [28, 99], [104, 175], [90, 191]]}, {"rect": [183, 36, 194, 100], "mode": "bright", "thresh": 180, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [2, 4]}, {"rect": [183, 158, 194, 224], "mode": "bright", "thresh": 180, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [2, 4]}],
+        "text": [{"pixel": "fluff", "box": [7, 45, 115, 59], "baselines": [57], "text": "FIBRA MINERAL", "gap": 1, "space": 3, "stretch": True, "rotate": -45, "ink": "letters"},
+                 {"pixel": "fluff", "box": [5, 141, 113, 155], "baselines": [153], "text": "FIBRA MINERAL", "gap": 1, "space": 3, "stretch": True, "rotate": -45, "ink": "letters"},
+                 {"pixel": "fluff", "box": [160, 63, 216, 71], "baselines": [70], "text": "FIBRA MINERAL", "gap": 1, "space": 3, "rotate": -90, "ink": "letters"},
+                 {"pixel": "fluff", "box": [160, 187, 216, 195], "baselines": [194], "text": "FIBRA MINERAL", "gap": 1, "space": 3, "rotate": -90, "ink": "letters"}],
+    },
+    "asbestos_bag_001": {
+        "en": "AsBest / ASBESTOS (label on the asbestos bag)",
+        "note": "AsBest (the brand pun) stays; ASBESTOS is AMIANTO as in the game text.",
+        "erase": [{"rect": [150, 118, 200, 129], "mode": "dark", "thresh": 25, "k": 9, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}],
+        "text": [{"box": [158, 119, 194, 128], "font": "sans-bold", "text": "AMIANTO", "stretch": True, "color": "#363636"}],
+    },
+    "Bag_002_rat_baits": {
+        "en": "RAT BAITS x2 (paper bag)",
+        "note": "\"Iscas para / ratos\" on two lines (user), the bait sticker moved down to make room.",
+        "copy": [{"from": [12, 90, 38, 98], "to": [12, 62]}, {"from": [64, 90, 90, 98], "to": [64, 62]}, {"from": [14, 64, 36, 83], "to": [14, 70]}, {"from": [66, 64, 88, 83], "to": [66, 70]}],
+        "erase": [{"rect": [2, 49, 50, 65], "mode": "dark", "thresh": 25, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 2]}, {"rect": [53, 49, 101, 65], "mode": "dark", "thresh": 25, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 2]}],
+        "text": [{"box": [4, 50, 47, 57], "font": "hand", "text": "ISCAS PARA", "stretch": True, "color": "#363230", "ink_texture": 0.4, "mottle": 6},
+                 {"box": [13, 59, 38, 66], "font": "hand", "text": "RATOS", "stretch": True, "color": "#363230", "ink_texture": 0.4, "mottle": 6},
+                 {"box": [56, 50, 99, 57], "font": "hand", "text": "ISCAS PARA", "stretch": True, "color": "#363230", "ink_texture": 0.4, "mottle": 6},
+                 {"box": [65, 59, 90, 66], "font": "hand", "text": "RATOS", "stretch": True, "color": "#363230", "ink_texture": 0.4, "mottle": 6}],
+    },
+    "postcard_001_spade_of_aces_revealed": {
+        "en": "SPADE OF ACES / NO WIN :( (scratched card)",
+        "note": "\"Espada de Ases\" as in the game text, in the logo's yellow-to-orange capitals with a dark edge (\"de\" small like \"of\"); \"Não deu :(\" (Brazilian for no luck; NÃO GANHOU does not fit the panel) in the panel's 6-row letters, turned like NO WIN.",
+        "erase": [{"rect": [7, 10, 31, 57], "mode": "color", "thresh": 100, "k": 7, "grain": 0, "bg": "#000000", "grow": 1, "only_red": 10, "lama": True}, {"rect": [40, 14, 59, 43], "mode": "dark", "thresh": 50, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [3, 3]}],
+        "text": [{"box": [0, 0, 120, 30], "font": "archivo-black", "text": "ESPADA", "quad": [[10, 57], [10, 19], [18, 19], [18, 57]], "stretch": True, "color": "#f2b21c", "shade": [40, -45], "outline": [1, "#2a1800"]},
+                 {"box": [0, 0, 40, 30], "font": "archivo-black", "text": "de", "quad": [[12, 18], [12, 11], [17, 11], [17, 18]], "stretch": True, "color": "#f2b21c", "shade": [40, -45], "outline": [1, "#2a1800"]},
+                 {"box": [0, 0, 80, 30], "font": "archivo-black", "text": "ASES", "quad": [[20, 46], [20, 18], [28, 18], [28, 46]], "stretch": True, "color": "#f2b21c", "shade": [40, -45], "outline": [1, "#2a1800"]},
+                 {"pixel": "nowin", "box": [35, 19, 63, 35], "baselines": [26, 34], "text": "NÃO (\nDEU", "gap": 1, "space": 3, "align": "left", "rotate": 90, "color": "#1a1a1a"}],
+    },
+    "postcard_001_OC_pot_revealed": {
+        "en": "OC POT / NO WIN :( (scratched card)",
+        "note": "\"Pote de OC\" as in the game text, set along the logo's arc in cream letters with a brown edge; \"Não deu :(\" in the panel's letters, turned like NO WIN.",
+        "erase": [{"rect": [0, 0, 32, 64], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 2, "lama": True, "poly": [[21.6, 70.3], [16.7, 65.8], [12.4, 60.7], [8.8, 55.0], [6.1, 48.9], [4.2, 42.5], [3.3, 35.8], [3.3, 29.2], [4.2, 22.5], [6.1, 16.1], [8.8, 10.0], [12.4, 4.3], [16.7, -0.8], [21.6, -5.3], [30.3, 5.7], [26.7, 8.9], [23.7, 12.5], [21.2, 16.5], [19.3, 20.9], [17.9, 25.4], [17.3, 30.1], [17.3, 34.9], [17.9, 39.6], [19.3, 44.1], [21.2, 48.5], [23.7, 52.5], [26.7, 56.1], [30.3, 59.3]]}, {"rect": [40, 14, 59, 43], "mode": "dark", "thresh": 50, "k": 7, "grain": 0, "grow": 0, "isolate": True, "scatter": [3, 3]}],
+        "text": [{"box": [0, 0, 40, 66], "font": "oswald-bold", "text": "POTE DE OC", "size": 10, "tracking": 0.02, "circle": {"center": [55, 32.5], "radius": 42, "mid": 270, "outward": True}, "color": "#efe4c8", "outline": [1, "#7a5418"]},
+                 {"pixel": "nowin", "box": [35, 19, 63, 35], "baselines": [26, 34], "text": "NÃO (\nDEU", "gap": 1, "space": 3, "align": "left", "rotate": 90, "color": "#1a1a1a"}],
+    },
+    "Bag_002_dog_food": {
+        "en": "WOOF-WOOF / A complete food / for adult dogs / LAMB & RICE (dog food bag; WOOF-WOOF again on the back)",
+        "note": "WOOF-WOOF is AU-AU (user: a Brazilian name, the dog's bark); \"Alimento completo / para cães adultos\", \"CORDEIRO E ARROZ\".",
+        "erase": [{"rect": [8, 86, 92, 99], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 2]}, {"rect": [8, 102, 92, 124], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 2]}, {"rect": [7, 130, 93, 144], "mode": "bright", "thresh": 150, "k": 7, "grain": 0, "grow": 1, "isolate": True, "scatter": [8, 2]}, {"rect": [156, 99, 198, 108], "mode": "dark", "thresh": 10, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [6, 1]}],
+        "text": [{"box": [28, 88, 71, 97], "font": "sans", "text": "AU-AU", "stretch": True, "color": "#f2f2f2"},
+                 {"box": [12, 104, 88, 112], "font": "sans", "text": "Alimento completo", "stretch": True, "color": "#f2f2f2"},
+                 {"box": [13, 114, 87, 122], "font": "sans", "text": "para cães adultos", "stretch": True, "color": "#f2f2f2"},
+                 {"box": [6, 132, 93, 142], "font": "sans-bold", "text": "CORDEIRO E ARROZ", "stretch": True, "color": "#f2f2f2"},
+                 {"box": [166, 101, 188, 106], "font": "sans-bold", "text": "AU-AU", "stretch": True, "color": "#1d2a1b"}],
+    },
+    "paint_bucket_0": {
+        "en": "TARFELL / PAINT (paint bucket, a big and a small label)",
+        "note": "Tarfell (brand) stays; PAINT is TINTA on both ovals. Ships as paint_bucket.",
+        "game_name": "paint_bucket",
+        "erase": [{"rect": [14, 139, 49, 150], "mode": "color", "thresh": 120, "k": 7, "grain": 0, "bg": "#cf8a2c", "grow": 0, "isolate": True, "scatter": [5, 1], "poly": [[46.5, 144.5], [45.6, 146.1], [42.9, 147.5], [38.8, 148.5], [33.7, 149.0], [28.3, 149.0], [23.3, 148.5], [19.1, 147.5], [16.4, 146.1], [15.5, 144.5], [16.4, 142.9], [19.1, 141.5], [23.2, 140.5], [28.3, 140.0], [33.7, 140.0], [38.8, 140.5], [42.9, 141.5], [45.6, 142.9]]}, {"rect": [19, 219, 42, 227], "mode": "dark", "thresh": 40, "k": 5, "grain": 0, "grow": 1, "isolate": True, "scatter": [3, 1]}],
+        "text": [{"box": [17, 141, 44, 148], "font": "patua", "text": "TINTA", "stretch": True, "color": "#1e1b16"},
+                 {"box": [21, 221, 39, 225], "font": "patua", "text": "TINTA", "stretch": True, "color": "#26221c"}],
+    },
 }
 
 # Review batches: each is checked by the user, texture by texture, against the original.
@@ -3052,6 +3177,7 @@ BATCHES = {
     "19": ["Decal_002_poster_keep_your_money_safe", "Decal_002_poster_corruption", "Decal_002_flea_market_001", "Decal_002_flea_market_002", "Decal_002_karaoke", "Decal_002_mushroom_infection", "Decal_002_poster_feeble_screams", "Decal_002_skin21", "Decal_002_skin23", "Decal_002_skin22", "brochure_stand_001_bank", "brochure_stand_001_funeral_home", "brochure_stand_001_gym", "brochure_stand_001_paint_shop", "flyer_001_power"],
     "20": ["Decal_002_grill_menu", "fastfood_restaurant_menu_001", "fastfood_restaurant_menu_001_e", "poster_kino_003", "poster_kino_002", "Decal_003_poster_osmo_brewery", "Decal_002_poster_radiation", "Decal_002_meat_cuts", "email_ankea_0", "background_osmo_olut", "walter_logo_001", "email_cigars_0"],
     "21": ["magazine_001", "magazine_001_Open_Sewer_readable", "magazine_001_skin3", "magazine_001_skin1", "magazine_001_skin2", "magazine_001_skin4", "magazine_001_skin5", "magazine_001_ARG", "magazine_001_IC", "magazine_001_lifehack-pekka", "Magazine House", "Magazine Stalburg Trains", "Magazine Stalburg Women", "books_001_0", "bookset_b"],
+    "22": ["pill_packet_001_facemasks", "bottle_set_001_0", "hot_dog_label", "trash_bag_001b", "trash_bag_001c", "cardboard_box_013_skin1", "bottle_011_label", "asbestos_bag_002", "asbestos_bag_001", "Bag_002_rat_baits", "postcard_001_spade_of_aces_revealed", "postcard_001_OC_pot_revealed", "Bag_002_dog_food", "paint_bucket_0"],
 }
 
 NUMBERS = {}
