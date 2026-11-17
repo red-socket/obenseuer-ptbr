@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.5.0 (unreleased)
+## 0.5.0 (2026-11-17)
 
 First public release. The whole translation is a first draft. Every line is still marked as unreviewed in the `.po` files, and the game shows these drafts by default (the `ShowUnreviewedDrafts` setting). Reviews and corrections will come in later versions.
 
