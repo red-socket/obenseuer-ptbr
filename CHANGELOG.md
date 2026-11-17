@@ -13,7 +13,7 @@ First public release. The whole translation is a first draft. Every line is stil
 - All dialogue: 488 conversations, about 10,500 lines and replies. Lines addressed to your character follow its gender ("Você está cansado/cansada?"), and so do the words the game slips in about your character ("garoto", "senhor").
 - Speaker names that are titles rather than names ("Guarda", "Padre"). People's names stay as they are.
 - Text the game puts together from pieces: messages like "Encher um tanque com …", renovation tasks ("Prédio: escadaria (surrado)"), item names ("Pote de vidro (vazio)"), the hostel bed menu, the sleep timer, crafting details, crime notifications and the doctor's addiction diagnosis.
-- 316 textures with English text: signs, notices, screens, maps, posters, menus, magazine and book covers, and packaging. Signs drawn in pixel lettering keep that style. Brand and place names stay as they are. More posters and packaging will follow.
+- 317 textures with English text: signs, notices, screens, maps, posters, menus, magazine and book covers, and packaging. Signs drawn in pixel lettering keep that style. Brand and place names stay as they are. More posters and packaging will follow.
 - With the BetterTenement mod installed, its ledger window, upgrade cards and map tooltips are in Portuguese too. Without it, nothing changes.
 - The same goes for other red-socket mods: the opening hours FairMarket adds to shop doors ("(Fechado, abre 8:00)", "Seg-Sex 8-18, Sáb 10-16, Dom fechado") and the storage buttons from TidyInventory, FewerClicks and BetterTenement ("Esvaziar", "Juntar", "Completar", "Guardar").
 
