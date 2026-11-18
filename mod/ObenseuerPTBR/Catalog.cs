@@ -58,12 +58,13 @@ namespace ObenseuerPTBR
 
         // Keyed entries that also apply wherever their English text is shown. Dialogue lines, player words,
         // context entries ("scope:<object>:<English>"), other mods' strings ("mod.<Mod>:<English>") and
-        // gendered resident words ("npc.<English>") and the doctor's diagnosis pieces ("doctor.*") only apply to
-        // their own key.
+        // gendered resident words ("npc.<English>"), the doctor's diagnosis pieces ("doctor.*") and 3D letter signs
+        // ("sign.<WORD>") only apply to their own key.
         private static bool Promotable(string ctx) =>
             !ctx.StartsWith("dlg.", StringComparison.Ordinal) && !ctx.StartsWith("player.", StringComparison.Ordinal)
             && !ctx.StartsWith("scope:", StringComparison.Ordinal) && !ctx.StartsWith("mod.", StringComparison.Ordinal)
-            && !ctx.StartsWith("npc.", StringComparison.Ordinal) && !ctx.StartsWith("doctor.", StringComparison.Ordinal);
+            && !ctx.StartsWith("npc.", StringComparison.Ordinal) && !ctx.StartsWith("doctor.", StringComparison.Ordinal)
+            && !ctx.StartsWith("sign.", StringComparison.Ordinal);
 
         /// <summary>True if the text is already a translation (so it is not reported as untranslated).</summary>
         public bool IsTranslation(string text) => values.Contains(text);

@@ -1792,3 +1792,137 @@ msgstr "Receita: {0}"
 #, fuzzy
 msgid "{0} 3D Printer Model"
 msgstr "Modelo 3D: {0}"
+
+#. 3D letter signs (LetterSigns.cs): the word a column of the game's letter models spells. A-Z only, no accents (the
+#. game has no accented letter models), at most as many letters as the English.
+#, fuzzy
+msgctxt "sign.EXCHANGE"
+msgid "EXCHANGE"
+msgstr "CAMBIO"
+
+#. Character creation questions and cards (MonoBehaviour/Selections_*.asset, StartSelection: question,
+#. selections[].title, selections[].description). Card titles describe the player, so they avoid gendered words.
+#. Devil's Angels (a gang name) stays; Police, Crazy neighbor and Shroomshine enjoyer are already translated.
+#, fuzzy
+msgid "Reason why you got relocated to Obenseuer"
+msgstr "Motivo da sua mudança para Obenseuer"
+
+#, fuzzy
+msgid "Do you have any relatives? Family? Close friends?"
+msgstr "Você tem parentes? Família? Amigos próximos?"
+
+#, fuzzy
+msgid "Who exactly?"
+msgstr "Quem, exatamente?"
+
+#, fuzzy
+msgid "Who exactly? Do you have any kids?"
+msgstr "Quem, exatamente? Você tem filhos?"
+
+#, fuzzy
+msgid "Do you have anyone who could pose a risk to you?"
+msgstr "Tem alguém que possa ser um perigo para você?"
+
+#, fuzzy
+msgid "Do you feel dizzy sometimes?"
+msgstr "Você sente tontura às vezes?"
+
+#, fuzzy
+msgid "Have you seen any hallucinations or something strange that has drawn your attention?"
+msgstr "Você já teve alucinações ou viu algo estranho que chamou sua atenção?"
+
+#, fuzzy
+msgid "This choice may have consequences in the future"
+msgstr "Esta escolha pode ter consequências no futuro"
+
+#, fuzzy
+msgid "Mushroom addict"
+msgstr "Vício em cogumelos"
+
+#, fuzzy
+msgid "Filthy poor"
+msgstr "Pobre e imundo"
+
+#, fuzzy
+msgid "I shouldn't be here"
+msgstr "Eu não deveria estar aqui"
+
+#, fuzzy
+msgid "I have a family"
+msgstr "Tenho família"
+
+#, fuzzy
+msgid "I have someone"
+msgstr "Tenho alguém"
+
+#, fuzzy
+msgid "Just a cat"
+msgstr "Só um gato"
+
+#, fuzzy
+msgid "I'm alone"
+msgstr "Não tenho ninguém"
+
+#, fuzzy
+msgid "Wife and kids"
+msgstr "Esposa e filhos"
+
+#, fuzzy
+msgid "Husband and kids"
+msgstr "Marido e filhos"
+
+#, fuzzy
+msgid "Wife"
+msgstr "Esposa"
+
+#, fuzzy
+msgid "Husband"
+msgstr "Marido"
+
+#, fuzzy
+msgid "Girlfriend"
+msgstr "Namorada"
+
+#, fuzzy
+msgid "Boyfriend"
+msgstr "Namorado"
+
+#, fuzzy
+msgid "Very good friend"
+msgstr "Um amigo muito próximo"
+
+#, fuzzy
+msgid "Someone who lives here"
+msgstr "Alguém que mora aqui"
+
+#, fuzzy
+msgid "No one"
+msgstr "Ninguém"
+
+#, fuzzy
+msgid "When drinking alcohol"
+msgstr "Quando bebo álcool"
+
+#, fuzzy
+msgid "When smoking mushrooms"
+msgstr "Quando fumo cogumelos"
+
+#, fuzzy
+msgid "Almost every day"
+msgstr "Quase todo dia"
+
+#, fuzzy
+msgid "Never, I feel healthy"
+msgstr "Nunca, me sinto saudável"
+
+#, fuzzy
+msgid "Black hallucinations"
+msgstr "Vultos escuros"
+
+#, fuzzy
+msgid "Bright colors"
+msgstr "Cores vivas"
+
+#, fuzzy
+msgid "Nothing"
+msgstr "Nada"

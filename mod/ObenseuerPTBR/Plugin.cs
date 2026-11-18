@@ -71,6 +71,8 @@ namespace ObenseuerPTBR
                 AccentGlyphs.FixAll();
                 TextureSwap.Apply();
                 StartCoroutine(TextureSwap.ApplyLater());
+                LetterSigns.Apply();
+                ButtonGap.Apply(scene);
             };
             Enabled.SettingChanged += (s, e) => UiText.AttachAll();
         }

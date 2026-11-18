@@ -211,7 +211,7 @@ namespace ObenseuerPTBR
         }
 
         /// <summary>Width of the longest line in em (multiples of the font size), as TMP lays it out.</summary>
-        private static float Width(TMP_Text label, string s)
+        internal static float Width(TMP_Text label, string s)
         {
             s = Tag.Replace(s, "");
             FontStyles style = label.fontStyle;
