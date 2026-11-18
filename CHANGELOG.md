@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.5.1 (unreleased)
+## 0.5.1 (2026-11-17)
 
 - Recipe and 3D model pickups are translated ("Receita: Pierogi"). The game builds their names from the recipe name and an English suffix.
 - The character creation questions and cards are translated ("Motivo da sua mudança para Obenseuer", "Esta escolha pode ter consequências no futuro"). Before, most of them stayed in English, and "Almost every day" came out as "Almost every dia".
