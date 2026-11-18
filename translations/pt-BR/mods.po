@@ -412,3 +412,1926 @@ msgstr "Parar"
 msgctxt "scope:BT_StashButton:Stash"
 msgid "Stash"
 msgstr "Guardar"
+
+#. SafeTravels: pause menu entries (with a cooldown in seconds) and its messages
+#, fuzzy
+msgid "Get Unstuck"
+msgstr "Destravar personagem"
+
+#, fuzzy
+msgid "Get Unstuck ({0} s)"
+msgstr "Destravar personagem ({0} s)"
+
+#, fuzzy
+msgid "Rerail Train"
+msgstr "Encarrilhar o trem"
+
+#, fuzzy
+msgid "Rerail Train ({0} s)"
+msgstr "Encarrilhar o trem ({0} s)"
+
+#, fuzzy
+msgid "Paid - walk through"
+msgstr "Pago - pode passar"
+
+#, fuzzy
+msgid "You can't do that right now."
+msgstr "Você não pode fazer isso agora."
+
+#, fuzzy
+msgid "Get up first."
+msgstr "Levante-se primeiro."
+
+#, fuzzy
+msgid "Get off the ladder first."
+msgstr "Desça da escada primeiro."
+
+#, fuzzy
+msgid "Get off the train first."
+msgstr "Desça do trem primeiro."
+
+#, fuzzy
+msgid "Not while you're in jail."
+msgstr "Não dá para fazer isso na prisão."
+
+#, fuzzy
+msgid "Not while the police are after you."
+msgstr "Não com a polícia atrás de você."
+
+#, fuzzy
+msgid "Not while you're falling."
+msgstr "Não enquanto você está caindo."
+
+#, fuzzy
+msgid "You can get unstuck again in {0} s."
+msgstr "Você poderá se destravar de novo em {0} s."
+
+#, fuzzy
+msgid "You can rerail again in {0} s."
+msgstr "Você poderá encarrilhar de novo em {0} s."
+
+#, fuzzy
+msgid "There's no safe spot nearby."
+msgstr "Não há nenhum lugar seguro por perto."
+
+#, fuzzy
+msgid "You're back where you last stood safely."
+msgstr "Você voltou ao último lugar seguro onde esteve."
+
+#, fuzzy
+msgid "You've been moved to the nearest entrance."
+msgstr "Agora você está na entrada mais próxima."
+
+#, fuzzy
+msgid "The train is back on its rails."
+msgstr "O trem está de volta aos trilhos."
+
+#, fuzzy
+msgid "The train is back on its rails. Its wagons were uncoupled."
+msgstr "O trem está de volta aos trilhos. Os vagões foram desengatados."
+
+#, fuzzy
+msgid "There's no train nearby to rerail."
+msgstr "Não há nenhum trem por perto para encarrilhar."
+
+#, fuzzy
+msgid "Look at the locomotive to rerail it."
+msgstr "Olhe para a locomotiva para encarrilhá-la."
+
+#, fuzzy
+msgid "The train is still moving."
+msgstr "O trem ainda está em movimento."
+
+#, fuzzy
+msgid "Turn the engine off first."
+msgstr "Desligue o motor primeiro."
+
+#, fuzzy
+msgid "Step off the train first."
+msgstr "Desça do trem primeiro."
+
+#. QuestHelper: pause menu entry (with the number of stuck quests)
+#, fuzzy
+msgid "Quest Helper"
+msgstr "Guia de tarefas"
+
+#, fuzzy
+msgid "Quest Helper ({0})"
+msgstr "Guia de tarefas ({0})"
+
+#. QuestHelper window (Unity IMGUI): the mod's own string literals, replaced in its UI methods by ModStrings.cs.
+#. Fragments keep their spaces: "Couldn't find " + what + " in this area.". "<Type>.<Method>|<word>" keys apply only in
+#. that method (the mod also uses "active", "done" ... as internal keys).
+
+#, fuzzy
+msgctxt "mod.QuestHelper: first."
+msgid " first."
+msgstr "."
+
+#, fuzzy
+msgctxt "mod.QuestHelper: in this area."
+msgid " in this area."
+msgstr " nesta área."
+
+#, fuzzy
+msgctxt "mod.QuestHelper: l of "
+msgid " l of "
+msgstr " l de "
+
+#, fuzzy
+msgctxt "mod.QuestHelper: map)"
+msgid " map)"
+msgstr ")"
+
+#, fuzzy
+msgctxt "mod.QuestHelper: or "
+msgid " or "
+msgstr " ou "
+
+#, fuzzy
+msgctxt "mod.QuestHelper: task"
+msgid " task"
+msgstr " tarefa"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:! the game's records disagree about this objective"
+msgid "! the game's records disagree about this objective"
+msgstr "! os registros do jogo não batem sobre este objetivo"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:(on the "
+msgid "(on the "
+msgstr "(no mapa: "
+
+#, fuzzy
+msgctxt "mod.QuestHelper:) and try again."
+msgid ") and try again."
+msgstr ") e tente de novo."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:). Nothing was changed."
+msgid "). Nothing was changed."
+msgstr "). Nada foi alterado."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:, optional"
+msgid ", optional"
+msgstr ", opcional"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:. Nothing was changed."
+msgid ". Nothing was changed."
+msgstr ". Nada foi alterado."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:1 rat is gone without being counted (slaughtering a rat removes it without counting it)."
+msgid "1 rat is gone without being counted (slaughtering a rat removes it without counting it)."
+msgstr "1 rato sumiu sem ser contado (abater um rato o remove sem contá-lo)."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:1 task rat is left in the canteen."
+msgid "1 task rat is left in the canteen."
+msgstr "Resta 1 rato da tarefa na cantina."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:: this story stops here for now."
+msgid ": this story stops here for now."
+msgstr ": esta história para aqui por enquanto."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:A copy of your latest save goes to "
+msgid "A copy of your latest save goes to "
+msgstr "Antes, uma cópia do seu último jogo salvo vai para "
+
+#, fuzzy
+msgctxt "mod.QuestHelper:A)SELECT"
+msgid "A)SELECT"
+msgstr "A)SELECIONAR"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Abandon"
+msgid "Abandon"
+msgstr "Abandonar"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Abandoned"
+msgid "Abandoned"
+msgstr "Abandonadas"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Active"
+msgid "Active"
+msgstr "Ativas"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Adds \"Get the passport from Eliana\"."
+msgid "Adds \"Get the passport from Eliana\"."
+msgstr "Adiciona \"Pegue o passaporte com a Eliana\"."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Adds \"Pay miner's tax\", the step her talk would have given you. You still pay the 200 RM tax. If the talk was cut right after you paid, the game didn't record the payment, so Tanja asks for it again."
+msgid "Adds \"Pay miner's tax\", the step her talk would have given you. You still pay the 200 RM tax. If the talk was cut right after you paid, the game didn't record the payment, so Tanja asks for it again."
+msgstr "Adiciona \"Pague o imposto de minerador\", o passo que a conversa dela teria dado. Você ainda paga o imposto de 200 RM. Se a conversa foi cortada logo depois que você pagou, o jogo não registrou o pagamento, então a Tanja pede de novo."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Adds \"Show Tanja a valid passport\", the step her talk would have given you. You still need the forged passport and the 200 RM tax."
+msgid "Adds \"Show Tanja a valid passport\", the step her talk would have given you. You still need the forged passport and the 200 RM tax."
+msgstr "Adiciona \"Mostre um passaporte válido à Tanja\", o passo que a conversa dela teria dado. Você ainda precisa do passaporte falsificado e do imposto de 200 RM."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Advanced: changes any task. Finishing or abandoning runs the game's follow-up steps and can block later quests. A backup is made first."
+msgid "Advanced: changes any task. Finishing or abandoning runs the game's follow-up steps and can block later quests. A backup is made first."
+msgstr "Avançado: altera qualquer tarefa. Concluir ou abandonar executa os passos seguintes do jogo e pode bloquear tarefas futuras. Um backup é feito antes."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:B)BACK"
+msgid "B)BACK"
+msgstr "B)VOLTAR"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Back"
+msgid "Back"
+msgstr "Voltar"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Back up and apply"
+msgid "Back up and apply"
+msgstr "Fazer backup e aplicar"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Backup"
+msgid "Backup"
+msgstr "Backup"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Backup: "
+msgid "Backup: "
+msgstr "Backup: "
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Backup: in Save Guard's restore list ("
+msgid "Backup: in Save Guard's restore list ("
+msgstr "Backup: na lista de restauração do Save Guard ("
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Can't check"
+msgid "Can't check"
+msgstr "Não dá para verificar"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Can't fix"
+msgid "Can't fix"
+msgstr "Sem correção"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Casper sent you away to get the money, or the talk was cut short. Either way, \"Talk to Casper\" is marked done, so Gérard won't let you back up to his office."
+msgid "Casper sent you away to get the money, or the talk was cut short. Either way, \"Talk to Casper\" is marked done, so Gérard won't let you back up to his office."
+msgstr "O Casper mandou você buscar o dinheiro, ou a conversa foi cortada. De qualquer forma, \"Fale com o Casper\" está marcado como feito, então o Gérard não deixa você subir de novo até o escritório dele."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Casper's meeting is open again, so Gérard lets you up. Paying Casper still costs 100,000 RM; nothing is given to you. The Seamus and Crazy Neighbor routes were never blocked."
+msgid "Casper's meeting is open again, so Gérard lets you up. Paying Casper still costs 100,000 RM; nothing is given to you. The Seamus and Crazy Neighbor routes were never blocked."
+msgstr "A reunião com o Casper está aberta de novo, então o Gérard deixa você subir. Pagar o Casper ainda custa 100.000 RM; nada é dado a você. Os caminhos pelo Seamus e pelo Vizinho maluco nunca foram bloqueados."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Check there"
+msgid "Check there"
+msgstr "Verifique lá"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Checked: "
+msgid "Checked: "
+msgstr "Verificadas: "
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Checkpoints"
+msgid "Checkpoints"
+msgstr "Postos de controle"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Close"
+msgid "Close"
+msgstr "Fechar"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Collapse hazard: Toivo thinks it's not your tenement"
+msgid "Collapse hazard: Toivo thinks it's not your tenement"
+msgstr "Risco de desabamento: o Toivo acha que o prédio não é seu"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Couldn't find "
+msgid "Couldn't find "
+msgstr "Não foi possível encontrar "
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Couldn't read "
+msgid "Couldn't read "
+msgstr "Não foi possível ler "
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Counts the {0} lost rat{1}, so the counter reads 6 of 6 and Anna's next step opens."
+msgid "Counts the {0} lost rat{1}, so the counter reads 6 of 6 and Anna's next step opens."
+msgstr "Conta o(s) {0} rato(s) perdido(s), então o contador marca 6 de 6 e o próximo passo da Anna é liberado."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Counts the {0} lost rat{1}, so the counter reads {2} of 6. You still catch the {3} left."
+msgid "Counts the {0} lost rat{1}, so the counter reads {2} of 6. You still catch the {3} left."
+msgstr "Conta o(s) {0} rato(s) perdido(s), então o contador marca {2} de 6. Você ainda pega os {3} que restam."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Done"
+msgid "Done"
+msgstr "Pronto"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:ESC)BACK"
+msgid "ESC)BACK"
+msgstr "ESC)VOLTAR"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Eliana Passmore's first talk ended early, so she only says \"Not yet\"."
+msgid "Eliana Passmore's first talk ended early, so she only says \"Not yet\"."
+msgstr "A primeira conversa com a Eliana Passmore terminou cedo, então ela só diz \"Ainda não\"."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Fail"
+msgid "Fail"
+msgstr "Falhar"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Failed"
+msgid "Failed"
+msgstr "Falhadas"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Finish"
+msgid "Finish"
+msgstr "Concluir"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Finish the conversation or wait for loading to end first."
+msgid "Finish the conversation or wait for loading to end first."
+msgstr "Termine a conversa ou espere o carregamento acabar primeiro."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Finished"
+msgid "Finished"
+msgstr "Concluídas"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Finishing, failing or abandoning a task abandons every active objective in it, and their follow-up steps run."
+msgid "Finishing, failing or abandoning a task abandons every active objective in it, and their follow-up steps run."
+msgstr "Concluir, falhar ou abandonar uma tarefa abandona todos os objetivos ativos nela, e os passos seguintes deles são executados."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Fixes applied to this save"
+msgid "Fixes applied to this save"
+msgstr "Correções aplicadas neste jogo salvo"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Full steps"
+msgid "Full steps"
+msgstr "Passo a passo"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Getting a passport: Eliana's first talk was cut off"
+msgid "Getting a passport: Eliana's first talk was cut off"
+msgstr "Arranjando um passaporte: a primeira conversa com a Eliana foi cortada"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Gives you the Deekula apartment B1 keys, only if you don't have them."
+msgid "Gives you the Deekula apartment B1 keys, only if you don't have them."
+msgstr "Dá a você as chaves do apartamento B1 do Deekula, só se você não as tiver."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Go to the Mines canteen and open Quest Helper there."
+msgid "Go to the Mines canteen and open Quest Helper there."
+msgstr "Vá até a cantina das Minas e abra o Guia de tarefas lá."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Gérard sends you to security before he checks for Casper's meeting, so restoring the meeting would not help."
+msgid "Gérard sends you to security before he checks for Casper's meeting, so restoring the meeting would not help."
+msgstr "O Gérard manda você para a segurança antes de verificar a reunião com o Casper, então restaurar a reunião não ajudaria."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Her first objective is in an unexpected state, so Quest Helper leaves it alone."
+msgid "Her first objective is in an unexpected state, so Quest Helper leaves it alone."
+msgstr "O primeiro objetivo dela está num estado inesperado, então o Guia de tarefas não mexe nele."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Hints:   "
+msgid "Hints:   "
+msgstr "Dicas:   "
+
+#, fuzzy
+msgctxt "mod.QuestHelper:It gives no rewards, money or items (apart from a lost key item the quest needs) and skips no part of the story. Fees and items the quest asks for are still yours to pay and find."
+msgid "It gives no rewards, money or items (apart from a lost key item the quest needs) and skips no part of the story. Fees and items the quest asks for are still yours to pay and find."
+msgstr "Não dá recompensas, dinheiro nem itens (a não ser um item-chave perdido de que a tarefa precisa) e não pula nenhuma parte da história. As taxas e os itens que a tarefa pede continuam por sua conta."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Known stuck quests"
+msgid "Known stuck quests"
+msgstr "Tarefas travadas conhecidas"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:LB/RB)SWITCH PAGE"
+msgid "LB/RB)SWITCH PAGE"
+msgstr "LB/RB)TROCAR PÁGINA"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Lets Eliana's first talk play again, so she gives you everything the normal way."
+msgid "Lets Eliana's first talk play again, so she gives you everything the normal way."
+msgstr "Deixa a primeira conversa com a Eliana acontecer de novo, para ela dar tudo do jeito normal."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Lets the task rats out and hides the canteen's other rats, the same switch Anna's talk flips. You still catch all six."
+msgid "Lets the task rats out and hides the canteen's other rats, the same switch Anna's talk flips. You still catch all six."
+msgstr "Solta os ratos da tarefa e esconde os outros ratos da cantina, a mesma chave que a conversa da Anna aciona. Você ainda pega os seis."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Needs: "
+msgid "Needs: "
+msgstr "Precisa de: "
+
+#, fuzzy
+msgctxt "mod.QuestHelper:New item"
+msgid "New item"
+msgstr "Item novo"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:No active objectives."
+msgid "No active objectives."
+msgstr "Nenhum objetivo ativo."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:No known stuck quests in this save."
+msgid "No known stuck quests in this save."
+msgstr "Nenhuma tarefa travada conhecida neste jogo salvo."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:None yet."
+msgid "None yet."
+msgstr "Nenhuma ainda."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Not affected"
+msgid "Not affected"
+msgstr "Não afetada"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Not checked yet"
+msgid "Not checked yet"
+msgstr "Ainda não verificada"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Not enough free disk space for the backup ({0} MB free, {1} MB needed). Nothing was changed."
+msgid "Not enough free disk space for the backup ({0} MB free, {1} MB needed). Nothing was changed."
+msgstr "Não há espaço livre suficiente para o backup ({0} MB livres, {1} MB necessários). Nada foi alterado."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Nothing in your save points to this problem."
+msgid "Nothing in your save points to this problem."
+msgstr "Nada no seu jogo salvo indica esse problema."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Nudge"
+msgid "Nudge"
+msgstr "Dica"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:OK for now"
+msgid "OK for now"
+msgstr "OK por enquanto"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Off"
+msgid "Off"
+msgstr "Desligado"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Open Quest Helper from the pause menu to apply a fix."
+msgid "Open Quest Helper from the pause menu to apply a fix."
+msgstr "Abra o Guia de tarefas no menu de pausa para aplicar uma correção."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Permission to dig: Tanja's talk was cut off"
+msgid "Permission to dig: Tanja's talk was cut off"
+msgstr "Licença para cavar: a conversa com a Tanja foi cortada"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Press again to back up and apply ({0})"
+msgid "Press again to back up and apply ({0})"
+msgstr "Pressione de novo para fazer backup e aplicar ({0})"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Press again: back up and {0} ({1})"
+msgid "Press again: back up and {0} ({1})"
+msgstr "Pressione de novo: fazer backup e {0} ({1})"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:QUEST HELPER"
+msgid "QUEST HELPER"
+msgstr "GUIA DE TAREFAS"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:QUEST HELPER (!)"
+msgid "QUEST HELPER (!)"
+msgstr "GUIA DE TAREFAS (!)"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Quest Helper"
+msgid "Quest Helper"
+msgstr "Guia de tarefas"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Quest Helper ({0})"
+msgid "Quest Helper ({0})"
+msgstr "Guia de tarefas ({0})"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Quest Helper also checked 1 known problem in a quest you don't have yet. Set hints to \"Where\" to see its name."
+msgid "Quest Helper also checked 1 known problem in a quest you don't have yet. Set hints to \"Where\" to see its name."
+msgstr "O Guia de tarefas também verificou 1 problema conhecido numa tarefa que você ainda não tem. Ponha as dicas em \"Onde\" para ver o nome dela."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Quest Helper also checked {0} known problems in quests you don't have yet. Set hints to \"Where\" to see their names."
+msgid "Quest Helper also checked {0} known problems in quests you don't have yet. Set hints to \"Where\" to see their names."
+msgstr "O Guia de tarefas também verificou {0} problemas conhecidos em tarefas que você ainda não tem. Ponha as dicas em \"Onde\" para ver os nomes delas."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Quest Helper can fix a known problem here (pause menu)"
+msgid "Quest Helper can fix a known problem here (pause menu)"
+msgstr "O Guia de tarefas pode corrigir um problema conhecido aqui (menu de pausa)"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Quest: "
+msgid "Quest: "
+msgstr "Tarefa: "
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Rat problem: the six rats"
+msgid "Rat problem: the six rats"
+msgstr "Problema com ratos: os seis ratos"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Received "
+msgid "Received "
+msgstr "Recebida "
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Received from "
+msgid "Received from "
+msgstr "Recebida de "
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Received here"
+msgid "Received here"
+msgstr "Recebida aqui"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:SHOW/HIDE TO BE CONTINUED"
+msgid "SHOW/HIDE TO BE CONTINUED"
+msgstr "MOSTRAR/OCULTAR CONTINUA"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:SWITCH PAGE"
+msgid "SWITCH PAGE"
+msgstr "TROCAR PÁGINA"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Save game..."
+msgid "Save game..."
+msgstr "Salvar jogo..."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Save your game once first, so Quest Helper has something to back up."
+msgid "Save your game once first, so Quest Helper has something to back up."
+msgstr "Salve o jogo uma vez antes, para o Guia de tarefas ter algo de que fazer backup."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Shows names and places you may not have found yet."
+msgid "Shows names and places you may not have found yet."
+msgstr "Mostra nomes e lugares que você talvez ainda não tenha encontrado."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Starts \"Priest's debt\" with \"Go to check the priest's apartment B1\"."
+msgid "Starts \"Priest's debt\" with \"Go to check the priest's apartment B1\"."
+msgstr "Começa \"A dívida do padre\" com \"Vá conferir o apartamento B1 do padre\"."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Stuck"
+msgid "Stuck"
+msgstr "Travada"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Talk to Toivo Malmijoki; he'll bring up your tenement and send you to Ken Nakahara. (Quest Helper sets the flag Tor would have set.)"
+msgid "Talk to Toivo Malmijoki; he'll bring up your tenement and send you to Ken Nakahara. (Quest Helper sets the flag Tor would have set.)"
+msgstr "Fale com o Toivo Malmijoki; ele vai falar do seu prédio e mandar você ao Ken Nakahara. (O Guia de tarefas marca o que o Tor teria marcado.)"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Talk to Toivo."
+msgid "Talk to Toivo."
+msgstr "Fale com o Toivo."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:The Casino Coup: the boss isn't expecting you"
+msgid "The Casino Coup: the boss isn't expecting you"
+msgstr "O golpe no cassino: o chefe não está esperando você"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:The backup failed ("
+msgid "The backup failed ("
+msgstr "O backup falhou ("
+
+#, fuzzy
+msgctxt "mod.QuestHelper:The change is in place and checks out."
+msgid "The change is in place and checks out."
+msgstr "A mudança foi feita e está conferida."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:The change was made, but the follow-up check didn't confirm it. Look at the quest before you save; the backup is there if you need it."
+msgid "The change was made, but the follow-up check didn't confirm it. Look at the quest before you save; the backup is there if you need it."
+msgstr "A mudança foi feita, mas a verificação seguinte não a confirmou. Olhe a tarefa antes de salvar; o backup está lá se precisar."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:The check stopped with an error (see the log)."
+msgid "The check stopped with an error (see the log)."
+msgstr "A verificação parou com um erro (veja o log)."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:The fix stopped partway. Don't save now. Load your save (or the backup at "
+msgid "The fix stopped partway. Don't save now. Load your save (or the backup at "
+msgstr "A correção parou no meio. Não salve agora. Carregue seu jogo salvo (ou o backup em "
+
+#, fuzzy
+msgctxt "mod.QuestHelper:The game doesn't allow saving right now, so Quest Helper won't change anything. Try again once saving is possible."
+msgid "The game doesn't allow saving right now, so Quest Helper won't change anything. Try again once saving is possible."
+msgstr "O jogo não deixa salvar agora, então o Guia de tarefas não vai mudar nada. Tente de novo quando der para salvar."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:The game is saving. Try again in a moment."
+msgid "The game is saving. Try again in a moment."
+msgstr "O jogo está salvando. Tente de novo daqui a pouco."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:The objective now needs {0} rats instead of 6; this game version isn't covered."
+msgid "The objective now needs {0} rats instead of 6; this game version isn't covered."
+msgstr "O objetivo agora pede {0} ratos em vez de 6; esta versão do jogo não é coberta."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:The objectives this one depends on aren't done yet, so the game wouldn't count it as done. Quest Helper won't finish it. Nothing was changed."
+msgid "The objectives this one depends on aren't done yet, so the game wouldn't count it as done. Quest Helper won't finish it. Nothing was changed."
+msgstr "Os objetivos de que este depende ainda não foram feitos, então o jogo não o contaria como feito. O Guia de tarefas não vai concluí-lo. Nada foi alterado."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:The task rats were never let out: Anna's talk was cut off before she released them."
+msgid "The task rats were never let out: Anna's talk was cut off before she released them."
+msgstr "Os ratos da tarefa nunca foram soltos: a conversa da Anna foi cortada antes de ela soltá-los."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:The tax was paid but the permit was never handed over; Quest Helper won't hand out the permit."
+msgid "The tax was paid but the permit was never handed over; Quest Helper won't hand out the permit."
+msgstr "O imposto foi pago, mas a licença nunca foi entregue; o Guia de tarefas não entrega a licença."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:These stories stop here in this version of the game. Nothing is broken in your save; a later update continues them."
+msgid "These stories stop here in this version of the game. Nothing is broken in your save; a later update continues them."
+msgstr "Estas histórias param aqui nesta versão do jogo. Nada está quebrado no seu jogo salvo; uma atualização futura vai continuá-las."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:This change is in your current game. Save to keep it."
+msgid "This change is in your current game. Save to keep it."
+msgstr "Esta mudança está no seu jogo atual. Salve para mantê-la."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:This change is in your current game. Saving isn't possible right now, so it will be kept at the next autosave (going through any door)."
+msgid "This change is in your current game. Saving isn't possible right now, so it will be kept at the next autosave (going through any door)."
+msgstr "Esta mudança está no seu jogo atual. Não dá para salvar agora, então ela será mantida no próximo salvamento automático (ao passar por qualquer porta)."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:This quest isn't in that state any more. Nothing was changed."
+msgid "This quest isn't in that state any more. Nothing was changed."
+msgstr "Esta tarefa não está mais nesse estado. Nada foi alterado."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:To be continued"
+msgid "To be continued"
+msgstr "Continua"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:To be continued ("
+msgid "To be continued ("
+msgstr "Continua ("
+
+#, fuzzy
+msgctxt "mod.QuestHelper:To be continued in a future update"
+msgid "To be continued in a future update"
+msgstr "Continua numa atualização futura"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:To undo: open Save Guard's restore window in the main menu (F6 by default) and pick the entry marked \"before a Quest Helper fix\"."
+msgid "To undo: open Save Guard's restore window in the main menu (F6 by default) and pick the entry marked \"before a Quest Helper fix\"."
+msgstr "Para desfazer: abra a janela de restauração do Save Guard no menu principal (F6, por padrão) e escolha a entrada marcada \"before a Quest Helper fix\"."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:To undo: quit to the main menu and copy the backup folder's files back into Saves/<character>/<slot>."
+msgid "To undo: quit to the main menu and copy the backup folder's files back into Saves/<character>/<slot>."
+msgstr "Para desfazer: saia para o menu principal e copie os arquivos da pasta de backup de volta para Saves/<personagem>/<espaço>."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Tor will send you back to Toivo when you show him your mining permit."
+msgid "Tor will send you back to Toivo when you show him your mining permit."
+msgstr "O Tor vai mandar você de volta ao Toivo quando você mostrar sua licença de mineração."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Turn hints on above to see what you need."
+msgid "Turn hints on above to see what you need."
+msgstr "Ligue as dicas acima para ver do que você precisa."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:What Quest Helper changes"
+msgid "What Quest Helper changes"
+msgstr "O que o Guia de tarefas muda"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:What happened"
+msgid "What happened"
+msgstr "O que aconteceu"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:What it won't do"
+msgid "What it won't do"
+msgstr "O que ele não faz"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Where"
+msgid "Where"
+msgstr "Onde"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Where: "
+msgid "Where: "
+msgstr "Onde: "
+
+#, fuzzy
+msgctxt "mod.QuestHelper:X/ENTER)SELECT"
+msgid "X/ENTER)SELECT"
+msgstr "X/ENTER)SELECIONAR"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:You handed in the permit form, but the talk with Tanja Nypan ended before she asked for the next step."
+msgid "You handed in the permit form, but the talk with Tanja Nypan ended before she asked for the next step."
+msgstr "Você entregou o formulário da licença, mas a conversa com a Tanja Nypan terminou antes de ela pedir o próximo passo."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:You told Toivo Malmijoki it's not your tenement, so he never sent you to Ken Nakahara."
+msgid "You told Toivo Malmijoki it's not your tenement, so he never sent you to Ken Nakahara."
+msgstr "Você disse ao Toivo Malmijoki que o prédio não é seu, então ele nunca mandou você ao Ken Nakahara."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:You're not stuck. The game still has a normal way forward; set hints to \"Where\" to see it."
+msgid "You're not stuck. The game still has a normal way forward; set hints to \"Where\" to see it."
+msgstr "Você não está travado. O jogo ainda tem um caminho normal; ponha as dicas em \"Onde\" para vê-lo."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Your chain"
+msgid "Your chain"
+msgstr "Sua sequência"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:in "
+msgid "in "
+msgstr "em "
+
+#, fuzzy
+msgctxt "mod.QuestHelper:in your inventory"
+msgid "in your inventory"
+msgstr "no seu inventário"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:missing"
+msgid "missing"
+msgstr "faltando"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:near "
+msgid "near "
+msgstr "perto de "
+
+#, fuzzy
+msgctxt "mod.QuestHelper:not enough"
+msgid "not enough"
+msgstr "insuficiente"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:not in your inventory"
+msgid "not in your inventory"
+msgstr "fora do seu inventário"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:not started"
+msgid "not started"
+msgstr "não iniciada"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:the \"Getting a passport\" task"
+msgid "the \"Getting a passport\" task"
+msgstr "a tarefa \"Arranjando um passaporte\""
+
+#, fuzzy
+msgctxt "mod.QuestHelper:the \"Permission to dig\" task"
+msgid "the \"Permission to dig\" task"
+msgstr "a tarefa \"Licença para cavar\""
+
+#, fuzzy
+msgctxt "mod.QuestHelper:the \"Talk to Casper\" objective"
+msgid "the \"Talk to Casper\" objective"
+msgstr "o objetivo \"Fale com o Casper\""
+
+#, fuzzy
+msgctxt "mod.QuestHelper:the game's requirements for \""
+msgid "the game's requirements for \""
+msgstr "os requisitos do jogo para \""
+
+#, fuzzy
+msgctxt "mod.QuestHelper:you have enough"
+msgid "you have enough"
+msgstr "você tem o suficiente"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:you have it"
+msgid "you have it"
+msgstr "você tem"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:you have {0}"
+msgid "you have {0}"
+msgstr "você tem {0}"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:your age"
+msgid "your age"
+msgstr "sua idade"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:your task items"
+msgid "your task items"
+msgstr "seus itens de tarefa"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:{0} of {1} rats counted."
+msgid "{0} of {1} rats counted."
+msgstr "{0} de {1} ratos contados."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:{0} rats are gone without being counted (slaughtering a rat removes it without counting it)."
+msgid "{0} rats are gone without being counted (slaughtering a rat removes it without counting it)."
+msgstr "{0} ratos sumiram sem ser contados (abater um rato o remove sem contá-lo)."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:{0} task rats are left in the canteen."
+msgid "{0} task rats are left in the canteen."
+msgstr "Restam {0} ratos da tarefa na cantina."
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Tenement"
+msgid "Tenement"
+msgstr "Prédio"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Mines"
+msgid "Mines"
+msgstr "Minas"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:other"
+msgid "other"
+msgstr "outro"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Strings.Status|active"
+msgid "active"
+msgstr "ativo"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Strings.Status|done"
+msgid "done"
+msgstr "feito"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Strings.Status|failed"
+msgid "failed"
+msgstr "falhou"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Strings.Status|abandoned"
+msgid "abandoned"
+msgstr "abandonado"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:Strings.Status|hidden"
+msgid "hidden"
+msgstr "oculto"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:BazaarTab.Build|active"
+msgid "active"
+msgstr "em andamento"
+
+#, fuzzy
+msgctxt "mod.QuestHelper:BazaarTab.Build|done"
+msgid "done"
+msgstr "concluída"
+
+#. QuestHelper hint data (curated.json in the mod): hint tiers, requirement labels, Bazaar checkpoints. Applied by
+#. QuestHelperData.cs after the mod loads it.
+
+#. row Started6_RentalMalone26 conv=Resident/Malone Petronis scene= tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Malone wants to hear about it."
+msgid "Malone wants to hear about it."
+msgstr "O Malone quer saber da novidade."
+
+#. row Started6_RentalMalone26 conv=Resident/Malone Petronis scene= tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Malone Petronis."
+msgid "Malone Petronis."
+msgstr "Malone Petronis."
+
+#. row Started6_RentalMalone26 conv=Resident/Malone Petronis scene= tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Ask Malone \"What next?\". He tells you to find someone who makes fake passports."
+msgid "Ask Malone \"What next?\". He tells you to find someone who makes fake passports."
+msgstr "Pergunte ao Malone “E agora?”. Ele manda você procurar alguém que faça passaportes falsos."
+
+#. row GettingPassport5_FindPassports14 conv=Deekula/Hank Möbelmann scene=Interior Tenement Deekula C tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Someone in Deekula C knows who sells passports."
+msgid "Someone in Deekula C knows who sells passports."
+msgstr "Alguém no Deekula C sabe quem vende passaportes."
+
+#. row GettingPassport5_FindPassports14 conv=Deekula/Hank Möbelmann scene=Interior Tenement Deekula C tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Hank Möbelmann, the furniture seller in Deekula C."
+msgid "Hank Möbelmann, the furniture seller in Deekula C."
+msgstr "Hank Möbelmann, o vendedor de móveis do Deekula C."
+
+#. row GettingPassport5_FindPassports14 conv=Deekula/Hank Möbelmann scene=Interior Tenement Deekula C tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Ask Hank if he sells passports. The tip costs about 100 RM: offer 50 and he settles for 75; turn him down first and it costs 120. He gives you the password and sends you to Passmore."
+msgid "Ask Hank if he sells passports. The tip costs about 100 RM: offer 50 and he settles for 75; turn him down first and it costs 120. He gives you the password and sends you to Passmore."
+msgstr "Pergunte ao Hank se ele vende passaportes. A dica custa uns 100 RM: ofereça 50 e ele aceita 75; se você recusar primeiro, sai por 120. Ele te passa a senha e te manda até o Passmore."
+
+#. row GettingPassport5_FindPassports14 conv=Deekula/Hank Möbelmann scene=Interior Tenement Deekula C (requirement label)
+#, fuzzy
+msgctxt "mod.QuestHelper:75 to 120 RM"
+msgid "75 to 120 RM"
+msgstr "75 a 120 RM"
+
+#. row GettingPassport5_PassportC33 conv=Deekula/David Lund scene=Interior Tenement Deekula C tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Not every passport seller here sells one that works."
+msgid "Not every passport seller here sells one that works."
+msgstr "Nem todo vendedor de passaporte daqui vende um que funcione."
+
+#. row GettingPassport5_PassportC33 conv=Deekula/David Lund scene=Interior Tenement Deekula C tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:David Lund in Deekula C draws passports himself."
+msgid "David Lund in Deekula C draws passports himself."
+msgstr "O David Lund, do Deekula C, desenha passaportes à mão."
+
+#. row GettingPassport5_PassportC33 conv=Deekula/David Lund scene=Interior Tenement Deekula C tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:His 100 RM hand-drawn passport is refused at the Bazaar gate and by the metro machines. The one that works comes from Eliana later. This step is optional."
+msgid "His 100 RM hand-drawn passport is refused at the Bazaar gate and by the metro machines. The one that works comes from Eliana later. This step is optional."
+msgstr "O passaporte desenhado à mão dele, de 100 RM, é recusado no portão do Bazar e nas máquinas do metrô. O que funciona vem depois, da Eliana. Esta etapa é opcional."
+
+#. row GettingPassport5_Passmore13 conv=Tenement/Passmore scene=Interior Tenement B tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:That password may be out of date."
+msgid "That password may be out of date."
+msgstr "Essa senha pode estar desatualizada."
+
+#. row GettingPassport5_Passmore13 conv=Tenement/Passmore scene=Interior Tenement B tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Passmore lives behind the O-Market, in Tenement B."
+msgid "Passmore lives behind the O-Market, in Tenement B."
+msgstr "O Passmore mora atrás do O-Market, no Prédio B."
+
+#. row GettingPassport5_Passmore13 conv=Tenement/Passmore scene=Interior Tenement B tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:\"Passed\" is wrong. Hank Möbelmann in Deekula C sells the current password."
+msgid "\"Passed\" is wrong. Hank Möbelmann in Deekula C sells the current password."
+msgstr "“Passou” está errada. O Hank Möbelmann, do Deekula C, vende a senha atual."
+
+#. row GettingPassport5_Password15 conv=Deekula/Hank Möbelmann scene=Interior Tenement Deekula C tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Whoever sends customers to Passmore knows it."
+msgid "Whoever sends customers to Passmore knows it."
+msgstr "Quem manda clientes para o Passmore sabe a senha."
+
+#. row GettingPassport5_Password15 conv=Deekula/Hank Möbelmann scene=Interior Tenement Deekula C tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Hank Möbelmann, Deekula C."
+msgid "Hank Möbelmann, Deekula C."
+msgstr "Hank Möbelmann, Deekula C."
+
+#. row GettingPassport5_Password15 conv=Deekula/Hank Möbelmann scene=Interior Tenement Deekula C tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Pay Hank for the tip; he tells you the password."
+msgid "Pay Hank for the tip; he tells you the password."
+msgstr "Pague a dica ao Hank; ele te diz a senha."
+
+#. row GettingPassport5_PassmoreCorrect24 conv=Tenement/Passmore scene=Interior Tenement B tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Ring Passmore's doorbell."
+msgid "Ring Passmore's doorbell."
+msgstr "Toque a campainha do Passmore."
+
+#. row GettingPassport5_PassmoreCorrect24 conv=Tenement/Passmore scene=Interior Tenement B tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Tenement B, behind the O-Market."
+msgid "Tenement B, behind the O-Market."
+msgstr "Prédio B, atrás do O-Market."
+
+#. row GettingPassport5_PassmoreCorrect24 conv=Tenement/Passmore scene=Interior Tenement B tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Give him the password Hank told you. He no longer sells passports, but he offers a deal."
+msgid "Give him the password Hank told you. He no longer sells passports, but he offers a deal."
+msgstr "Diga a ele a senha que o Hank te passou. Ele não vende mais passaportes, mas propõe um acordo."
+
+#. row GettingPassport5_PassmoreGet53 conv=Tenement/Passmore scene=Interior Tenement B tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:He wants two favours first."
+msgid "He wants two favours first."
+msgstr "Antes, ele quer dois favores."
+
+#. row GettingPassport5_PassmoreGet53 conv=Tenement/Passmore scene=Interior Tenement B tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Passmore, Tenement B."
+msgid "Passmore, Tenement B."
+msgstr "Passmore, Prédio B."
+
+#. row GettingPassport5_PassmoreGet53 conv=Tenement/Passmore scene=Interior Tenement B tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Agree to his tasks; you get the Bergmann tunnel keys. This step later shows as abandoned when he sends you to Eliana. That's normal."
+msgid "Agree to his tasks; you get the Bergmann tunnel keys. This step later shows as abandoned when he sends you to Eliana. That's normal."
+msgstr "Aceite as tarefas dele; você recebe as chaves dos Túneis Bergmann. Depois, quando ele te mandar até a Eliana, esta etapa aparece como abandonada. É normal."
+
+#. row GettingPassport5_Route12 conv= scene=Interior Tenement B tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:The way starts below Passmore's own building. Bring his keys."
+msgid "The way starts below Passmore's own building. Bring his keys."
+msgstr "O caminho começa embaixo do próprio prédio do Passmore. Leve as chaves dele."
+
+#. row GettingPassport5_Route12 conv= scene=Interior Tenement B tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Tenement B basement: the stairs door (Bergmann keys), then the keypad door (the code is in the objective)."
+msgid "Tenement B basement: the stairs door (Bergmann keys), then the keypad door (the code is in the objective)."
+msgstr "Porão do Prédio B: a porta da escada (chaves Bergmann), depois a porta com teclado numérico (o código está no objetivo)."
+
+#. row GettingPassport5_Route12 conv= scene=Interior Tenement B tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Follow the water tunnel toward the Bazaar bank. Orange handwheels found in the building fit the valve sockets. Reaching the blocked ladder under the bank completes this."
+msgid "Follow the water tunnel toward the Bazaar bank. Orange handwheels found in the building fit the valve sockets. Reaching the blocked ladder under the bank completes this."
+msgstr "Siga o túnel de água em direção ao Banco do Bazar. Os volantes de válvula laranja que você encontra no prédio encaixam nas válvulas. Chegar à escada bloqueada embaixo do banco conclui esta etapa."
+
+#. row GettingPassport5_Route12 conv= scene=Interior Tenement B (requirement label)
+#, fuzzy
+msgctxt "mod.QuestHelper:Bergmann tunnel keys"
+msgid "Bergmann tunnel keys"
+msgstr "Chaves da entrada dos Túneis Bergmann"
+
+#. row GettingPassport5_Obstacle16 conv= scene=Interior Tenement B tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Something wooden blocks the tunnel."
+msgid "Something wooden blocks the tunnel."
+msgstr "Tem algo de madeira bloqueando o túnel."
+
+#. row GettingPassport5_Obstacle16 conv= scene=Interior Tenement B tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:In the tunnel toward the bank."
+msgid "In the tunnel toward the bank."
+msgstr "No túnel que vai para o banco."
+
+#. row GettingPassport5_Obstacle16 conv= scene=Interior Tenement B tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Break the wooden planks."
+msgid "Break the wooden planks."
+msgstr "Quebre as tábuas de madeira."
+
+#. row GettingPassport5_FoundBank17 conv=Tenement/Passmore scene=Interior Tenement B tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Report back."
+msgid "Report back."
+msgstr "Volte e conte o que viu."
+
+#. row GettingPassport5_FoundBank17 conv=Tenement/Passmore scene=Interior Tenement B tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Tell him the drain cover won't budge. He sends you to Eliana's photo shop."
+msgid "Tell him the drain cover won't budge. He sends you to Eliana's photo shop."
+msgstr "Diga a ele que a tampa do bueiro não se mexe. Ele te manda ao estúdio de fotografia da Eliana."
+
+#. row GettingPassport5_Eliana11 conv=Tenement/Kolhola/Eliana Passmore scene=Interior Tenement Kolhola tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Tell her who sent you."
+msgid "Tell her who sent you."
+msgstr "Diga a ela quem te mandou."
+
+#. row GettingPassport5_Eliana11 conv=Tenement/Kolhola/Eliana Passmore scene=Interior Tenement Kolhola tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Eliana's photo shop in Kolhola, on the right side of the Bazaar gate, around the corner from Tenement B."
+msgid "Eliana's photo shop in Kolhola, on the right side of the Bazaar gate, around the corner from Tenement B."
+msgstr "O estúdio de fotografia da Eliana, no Kolhola, do lado direito do portão do Bazar, logo depois da esquina do Prédio B."
+
+#. row GettingPassport5_Eliana11 conv=Tenement/Kolhola/Eliana Passmore scene=Interior Tenement Kolhola tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Tell her Passmore says she owes him. She asks you to check on a priest first."
+msgid "Tell her Passmore says she owes him. She asks you to check on a priest first."
+msgstr "Diga a ela que o Passmore falou que ela está devendo para ele. Antes de tudo, ela pede que você vá ver como está um padre."
+
+#. row GettingPassport5_ElianaGet12 conv=Tenement/Kolhola/Eliana Passmore scene=Interior Tenement Kolhola tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:She wants help first, and it's a long road."
+msgid "She wants help first, and it's a long road."
+msgstr "Antes, ela quer ajuda, e o caminho é longo."
+
+#. row GettingPassport5_ElianaGet12 conv=Tenement/Kolhola/Eliana Passmore scene=Interior Tenement Kolhola tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:First she sends you to the priest's apartment, B1 in Deekula B."
+msgid "First she sends you to the priest's apartment, B1 in Deekula B."
+msgstr "Primeiro, ela te manda ao apartamento do padre, o B1 do Deekula B."
+
+#. row GettingPassport5_ElianaGet12 conv=Tenement/Kolhola/Eliana Passmore scene=Interior Tenement Kolhola tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Finish Priest's debt, Who lives in the basement and Glowstick trail. Then tell Eliana about the collapse in the mines and sit for the photo. The passport comes by mail about 30 game hours later."
+msgid "Finish Priest's debt, Who lives in the basement and Glowstick trail. Then tell Eliana about the collapse in the mines and sit for the photo. The passport comes by mail about 30 game hours later."
+msgstr "Conclua “A dívida do padre”, “Quem mora no porão” e “Trilha de bastões luminosos”. Depois conte à Eliana sobre o desabamento nas minas e pose para a foto. O passaporte chega pelo correio umas 30 horas de jogo depois."
+
+#. row GettingPassport5_PassportMail34 conv= scene= tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Give it about a day."
+msgid "Give it about a day."
+msgstr "Espere mais ou menos um dia."
+
+#. row GettingPassport5_PassportMail34 conv= scene= tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Your mailbox."
+msgid "Your mailbox."
+msgstr "Sua caixa de correio."
+
+#. row GettingPassport5_PassportMail34 conv= scene= tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:The mail arrives 30 game hours after the photo. Taking it gives you the forged passport."
+msgid "The mail arrives 30 game hours after the photo. Taking it gives you the forged passport."
+msgstr "A correspondência chega 30 horas de jogo depois da foto. Ao pegá-la, você recebe o passaporte falsificado."
+
+#. row Priest10_PriestApartment26 conv= scene=Interior Tenement Deekula B tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Eliana gave you keys."
+msgid "Eliana gave you keys."
+msgstr "A Eliana te deu umas chaves."
+
+#. row Priest10_PriestApartment26 conv= scene=Interior Tenement Deekula B tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Deekula B, apartment B1."
+msgid "Deekula B, apartment B1."
+msgstr "Deekula B, apartamento B1."
+
+#. row Priest10_PriestApartment26 conv= scene=Interior Tenement Deekula B tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Unlock door 1B with the B1 keys and go in."
+msgid "Unlock door 1B with the B1 keys and go in."
+msgstr "Destranque a porta 1B com as chaves do B1 e entre."
+
+#. row Priest10_PriestApartment26 conv= scene=Interior Tenement Deekula B (requirement label)
+#, fuzzy
+msgctxt "mod.QuestHelper:Deekula apartment B1 keys"
+msgid "Deekula apartment B1 keys"
+msgstr "Chaves do apartamento B1 do Deekula"
+
+#. row Priest10_Investigate27 conv=Deekula/Priest scene=Interior Tenement Deekula B tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Look around, the bedroom too."
+msgid "Look around, the bedroom too."
+msgstr "Dê uma olhada em tudo, no quarto também."
+
+#. row Priest10_Investigate27 conv=Deekula/Priest scene=Interior Tenement Deekula B tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Apartment 1B."
+msgid "Apartment 1B."
+msgstr "Apartamento 1B."
+
+#. row Priest10_Investigate27 conv=Deekula/Priest scene=Interior Tenement Deekula B tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Talking to the priest also completes this."
+msgid "Talking to the priest also completes this."
+msgstr "Falar com o padre também conclui esta etapa."
+
+#. row Priest10_ElianaTell56 conv=Tenement/Kolhola/Eliana Passmore scene=Interior Tenement Kolhola tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Eliana, Kolhola."
+msgid "Eliana, Kolhola."
+msgstr "Eliana, Kolhola."
+
+#. row Priest10_ElianaTell56 conv=Tenement/Kolhola/Eliana Passmore scene=Interior Tenement Kolhola tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Any answer works. She then gives you the basement password."
+msgid "Any answer works. She then gives you the basement password."
+msgstr "Qualquer resposta serve. Depois ela te passa a senha do porão."
+
+#. row basement20_AccessB2Basement59 conv=Tunnels/Anya: Door scene=Interior Tenement Deekula B tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:The basement door has a doorbell."
+msgid "The basement door has a doorbell."
+msgstr "A porta do porão tem campainha."
+
+#. row basement20_AccessB2Basement59 conv=Tunnels/Anya: Door scene=Interior Tenement Deekula B tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:The Deekula B basement."
+msgid "The Deekula B basement."
+msgstr "O porão do Deekula B."
+
+#. row basement20_AccessB2Basement59 conv=Tunnels/Anya: Door scene=Interior Tenement Deekula B tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Ring and give the password from the objective."
+msgid "Ring and give the password from the objective."
+msgstr "Toque a campainha e diga a senha que está no objetivo."
+
+#. row basement20_FindB2Basement58 conv=Tunnels/Anya: Computer room scene=Interior Tenement Deekula Mine Entrance tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Talk to whoever is inside."
+msgid "Talk to whoever is inside."
+msgstr "Fale com quem estiver lá dentro."
+
+#. row basement20_FindB2Basement58 conv=Tunnels/Anya: Computer room scene=Interior Tenement Deekula Mine Entrance tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:The room behind the basement door."
+msgid "The room behind the basement door."
+msgstr "A sala atrás da porta do porão."
+
+#. row basement20_FindB2Basement58 conv=Tunnels/Anya: Computer room scene=Interior Tenement Deekula Mine Entrance tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Talk to Anya and agree to help."
+msgid "Talk to Anya and agree to help."
+msgstr "Fale com a Anya e aceite ajudar."
+
+#. row basement20_Eliana23 conv=Tenement/Kolhola/Eliana Passmore scene=Interior Tenement Kolhola tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Eliana will want to hear this."
+msgid "Eliana will want to hear this."
+msgstr "A Eliana vai querer saber disso."
+
+#. row basement20_Eliana23 conv=Tenement/Kolhola/Eliana Passmore scene=Interior Tenement Kolhola tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:She makes the passport only after Glowstick trail is finished."
+msgid "She makes the passport only after Glowstick trail is finished."
+msgstr "Ela só faz o passaporte depois que você concluir “Trilha de bastões luminosos”."
+
+#. row Glowstick7_Mines21 conv= scene=Interior Tenement Deekula Mine Entrance tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Search the room you're in."
+msgid "Search the room you're in."
+msgstr "Procure na sala onde você está."
+
+#. row Glowstick7_Mines21 conv= scene=Interior Tenement Deekula Mine Entrance tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:A crate in Anya's room."
+msgid "A crate in Anya's room."
+msgstr "Um caixote na sala da Anya."
+
+#. row Glowstick7_Mines21 conv= scene=Interior Tenement Deekula Mine Entrance tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:The crate holds Hanss' hideout keys; they open the way into the mines."
+msgid "The crate holds Hanss' hideout keys; they open the way into the mines."
+msgstr "No caixote estão as chaves do esconderijo do Hanss; elas abrem o caminho para as minas."
+
+#. row Glowstick7_LookMines60 conv= scene= tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Follow the glowsticks."
+msgid "Follow the glowsticks."
+msgstr "Siga os bastões luminosos."
+
+#. row Glowstick7_LookMines60 conv= scene= tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Into the mines through the Deekula basement. The trail leads to the radioactive waste repository gate."
+msgid "Into the mines through the Deekula basement. The trail leads to the radioactive waste repository gate."
+msgstr "Entre nas minas pelo porão do Deekula. A trilha leva ao portão do depósito de lixo radioativo."
+
+#. row Glowstick7_LookMines60 conv= scene= tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Get through the repository gate, then take the door at the far end of the tunnel."
+msgid "Get through the repository gate, then take the door at the far end of the tunnel."
+msgstr "Passe pelo portão do depósito e depois pegue a porta no fim do túnel."
+
+#. row Glowstick7_LookMines60 conv= scene= (requirement label)
+#, fuzzy
+msgctxt "mod.QuestHelper:Hanss' hideout keys"
+msgid "Hanss' hideout keys"
+msgstr "Chaves do esconderijo do Hanss"
+
+#. row Glowstick7_GateMines22 conv=Mines/Other/Heska Pavonen scene=Open Sewer Mines tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Someone lives near the gate."
+msgid "Someone lives near the gate."
+msgstr "Tem alguém morando perto do portão."
+
+#. row Glowstick7_GateMines22 conv=Mines/Other/Heska Pavonen scene=Open Sewer Mines tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Heska Pavonen, near the gate."
+msgid "Heska Pavonen, near the gate."
+msgstr "Heska Pavonen, perto do portão."
+
+#. row Glowstick7_GateMines22 conv=Mines/Other/Heska Pavonen scene=Open Sewer Mines tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:He wants official papers before he opens it, and at least a dosimeter."
+msgid "He wants official papers before he opens it, and at least a dosimeter."
+msgstr "Ele quer papéis oficiais antes de abrir, e no mínimo um dosímetro."
+
+#. row Glowstick7_HeiskaGate41 conv=Mines/Mining Services/Toivo Malmijoki scene=Open Sewer Mines tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:The paperwork starts at OS Mining Services."
+msgid "The paperwork starts at OS Mining Services."
+msgstr "A papelada começa nos Serviços de Mineração OS."
+
+#. row Glowstick7_HeiskaGate41 conv=Mines/Mining Services/Toivo Malmijoki scene=Open Sewer Mines tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Toivo Malmijoki, OS Mining Services (Service Area)."
+msgid "Toivo Malmijoki, OS Mining Services (Service Area)."
+msgstr "Toivo Malmijoki, Serviços de Mineração OS (Área de Serviço)."
+
+#. row Glowstick7_HeiskaGate41 conv=Mines/Mining Services/Toivo Malmijoki scene=Open Sewer Mines tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Toivo hands over the access form once the problem under your tenement is dealt with (Collapse hazard). Take the form to Tanja at Management, then show Heska the permit."
+msgid "Toivo hands over the access form once the problem under your tenement is dealt with (Collapse hazard). Take the form to Tanja at Management, then show Heska the permit."
+msgstr "O Toivo entrega o formulário de acesso depois que o problema embaixo do seu prédio for resolvido (“Risco de desabamento”). Leve o formulário à Tanja na Administração e depois mostre a autorização ao Heska."
+
+#. row Glowstick7_Permit101 conv=Mines/Management/Tanja Nypan scene=Interior Mines Management tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Bring the form to the management office."
+msgid "Bring the form to the management office."
+msgstr "Leve o formulário ao escritório da administração."
+
+#. row Glowstick7_Permit101 conv=Mines/Management/Tanja Nypan scene=Interior Mines Management tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Tanja Nypan, Management (Service Area)."
+msgid "Tanja Nypan, Management (Service Area)."
+msgstr "Tanja Nypan, Administração (Área de Serviço)."
+
+#. row Glowstick7_Permit101 conv=Mines/Management/Tanja Nypan scene=Interior Mines Management tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Give her the form; she gives you the entry permit."
+msgid "Give her the form; she gives you the entry permit."
+msgstr "Entregue o formulário a ela; ela te dá a autorização de entrada."
+
+#. row Glowstick7_Permit101 conv=Mines/Management/Tanja Nypan scene=Interior Mines Management (requirement label)
+#, fuzzy
+msgctxt "mod.QuestHelper:Repository access form"
+msgid "Repository access form"
+msgstr "Formulário de autorização de acesso ao depósito radioativo"
+
+#. row Glowstick7_GateOpen34 conv= scene=Open Sewer Mines tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Use the gate's keypad."
+msgid "Use the gate's keypad."
+msgstr "Use o teclado numérico do portão."
+
+#. row Glowstick7_GateOpen34 conv= scene=Open Sewer Mines tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:The repository gate."
+msgid "The repository gate."
+msgstr "O portão do depósito."
+
+#. row Glowstick7_GateOpen34 conv= scene=Open Sewer Mines tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Enter the code from the objective, then pull the lever."
+msgid "Enter the code from the objective, then pull the lever."
+msgstr "Digite o código que está no objetivo e depois puxe a alavanca."
+
+#. row Glowstick7_GateOpen34 conv= scene=Open Sewer Mines (requirement label)
+#, fuzzy
+msgctxt "mod.QuestHelper:Repository entry permit"
+msgid "Repository entry permit"
+msgstr "Autorização de entrada no depósito radioativo"
+
+#. row Glowstick7_Route76 conv= scene=Interior City Gates tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Keep going past the repository."
+msgid "Keep going past the repository."
+msgstr "Siga em frente, depois do depósito."
+
+#. row Glowstick7_Route76 conv= scene=Interior City Gates tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:The door at the far end of the dumping tunnel leads to the City Gates."
+msgid "The door at the far end of the dumping tunnel leads to the City Gates."
+msgstr "A porta no fim do túnel de descarte leva aos Portões da Cidade."
+
+#. row Glowstick7_Route76 conv= scene=Interior City Gates tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Go through; walking up to the body there completes it."
+msgid "Go through; walking up to the body there completes it."
+msgstr "Atravesse; chegar perto do corpo que está lá conclui esta etapa."
+
+#. row Glowstick7_RedBody23 conv= scene=Interior City Gates tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Look near the big underground gate."
+msgid "Look near the big underground gate."
+msgstr "Procure perto do grande portão subterrâneo."
+
+#. row Glowstick7_RedBody23 conv= scene=Interior City Gates tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:City Gates."
+msgid "City Gates."
+msgstr "Portões da Cidade."
+
+#. row Glowstick7_RedBody23 conv= scene=Interior City Gates tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Examine the body covered in red mushrooms."
+msgid "Examine the body covered in red mushrooms."
+msgstr "Examine o corpo coberto de cogumelos vermelhos."
+
+#. row Glowstick7_WhatFound12 conv=Tunnels/Anya: Computer room scene=Interior Tenement Deekula Mine Entrance tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Report to Anya."
+msgid "Report to Anya."
+msgstr "Conte tudo à Anya."
+
+#. row Glowstick7_WhatFound12 conv=Tunnels/Anya: Computer room scene=Interior Tenement Deekula Mine Entrance tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Anya's room."
+msgid "Anya's room."
+msgstr "A sala da Anya."
+
+#. row Glowstick7_WhatFound12 conv=Tunnels/Anya: Computer room scene=Interior Tenement Deekula Mine Entrance tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Tell her the tunnel collapsed. Then see Eliana for the passport photo."
+msgid "Tell her the tunnel collapsed. Then see Eliana for the passport photo."
+msgstr "Conte a ela que o túnel desabou. Depois procure a Eliana para tirar a foto do passaporte."
+
+#. row Permission32_RautakaivosPermit22 conv=Mines/Office/Reijo Rautakaivos scene=Interior Mines Office tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:His office is by the ore drop-off."
+msgid "His office is by the ore drop-off."
+msgstr "O escritório dele fica no ponto de entrega de minério."
+
+#. row Permission32_RautakaivosPermit22 conv=Mines/Office/Reijo Rautakaivos scene=Interior Mines Office tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Reijo \"Reiska\" Rautakaivos, Ore Drop Off."
+msgid "Reijo \"Reiska\" Rautakaivos, Ore Drop Off."
+msgstr "Reijo “Reiska” Rautakaivos, Entrega de minério."
+
+#. row Permission32_RautakaivosPermit22 conv=Mines/Office/Reijo Rautakaivos scene=Interior Mines Office tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Ask him about a mining permit. He sends you to Management next door."
+msgid "Ask him about a mining permit. He sends you to Management next door."
+msgstr "Pergunte a ele sobre a licença de mineração. Ele te manda à Administração, no prédio ao lado."
+
+#. row Permission32_Management25 conv=Mines/Management/Tanja Nypan scene=Interior Mines Management tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Next door, the sign says Management."
+msgid "Next door, the sign says Management."
+msgstr "É no prédio ao lado, com a placa “Administração”."
+
+#. row Permission32_Management25 conv=Mines/Management/Tanja Nypan scene=Interior Mines Management tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Ask about the permit. She gives you the form recipe; make the form, hand it in, answer her questions, and pay the 200 RM miner's tax."
+msgid "Ask about the permit. She gives you the form recipe; make the form, hand it in, answer her questions, and pay the 200 RM miner's tax."
+msgstr "Pergunte sobre a licença. Ela te dá a receita do formulário; faça o formulário, entregue, responda às perguntas dela e pague os 200 RM do imposto de minerador."
+
+#. row Permission32_FillForm42 conv=Mines/Management/Tanja Nypan scene=Interior Mines Management tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:You need paper and a printer."
+msgid "You need paper and a printer."
+msgstr "Você precisa de papel e de uma impressora."
+
+#. row Permission32_FillForm42 conv=Mines/Management/Tanja Nypan scene=Interior Mines Management tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Tanja says there's a printer upstairs."
+msgid "Tanja says there's a printer upstairs."
+msgstr "A Tanja diz que tem uma impressora lá em cima."
+
+#. row Permission32_FillForm42 conv=Mines/Management/Tanja Nypan scene=Interior Mines Management tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:The \"Mining Permit Filled Form\" recipe turns 1 Paper into the form; it can fail and leave Paper Trash. Hand the form to Tanja."
+msgid "The \"Mining Permit Filled Form\" recipe turns 1 Paper into the form; it can fail and leave Paper Trash. Hand the form to Tanja."
+msgstr "A receita “Formulário de licença de mineração preenchido” transforma 1 Papel no formulário; ela pode falhar e deixar Lixo de papel. Entregue o formulário à Tanja."
+
+#. row Permission32_FillForm42 conv=Mines/Management/Tanja Nypan scene=Interior Mines Management (requirement label)
+#, fuzzy
+msgctxt "mod.QuestHelper:Mining Permit Filled Form or Paper"
+msgid "Mining Permit Filled Form or Paper"
+msgstr "Formulário de licença de mineração preenchido ou Papel"
+
+#. row Permission32_FillFormAgain33 conv=Mines/Management/Tanja Nypan scene=Interior Mines Management tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Make another form."
+msgid "Make another form."
+msgstr "Faça outro formulário."
+
+#. row Permission32_FillFormAgain33 conv=Mines/Management/Tanja Nypan scene=Interior Mines Management tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Tanja."
+msgid "Tanja."
+msgstr "Tanja."
+
+#. row Permission32_FillFormAgain33 conv=Mines/Management/Tanja Nypan scene=Interior Mines Management tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Craft a new filled form and hand it in."
+msgid "Craft a new filled form and hand it in."
+msgstr "Fabrique um novo formulário preenchido e entregue."
+
+#. row Permission32_PassportTanja52 conv=Mines/Management/Tanja Nypan scene=Interior Mines Management tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:She wants a valid Bazaar passport."
+msgid "She wants a valid Bazaar passport."
+msgstr "Ela quer um passaporte válido do Bazar."
+
+#. row Permission32_PassportTanja52 conv=Mines/Management/Tanja Nypan scene=Interior Mines Management tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:See \"Getting a passport\" (Eliana)."
+msgid "See \"Getting a passport\" (Eliana)."
+msgstr "Veja “Arranjando um passaporte” (Eliana)."
+
+#. row Permission32_PassportTanja52 conv=Mines/Management/Tanja Nypan scene=Interior Mines Management tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Only the forged passport completes this."
+msgid "Only the forged passport completes this."
+msgstr "Só o passaporte falsificado conclui esta etapa."
+
+#. row Permission32_PassportTanja52 conv=Mines/Management/Tanja Nypan scene=Interior Mines Management (requirement label)
+#, fuzzy
+msgctxt "mod.QuestHelper:Forged passport"
+msgid "Forged passport"
+msgstr "Passaporte falsificado"
+
+#. row Permission32_TaxPay41 conv=Mines/Management/Tanja Nypan scene=Interior Mines Management tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:It's 200 RM."
+msgid "It's 200 RM."
+msgstr "São 200 RM."
+
+#. row Permission32_TaxPay41 conv=Mines/Management/Tanja Nypan scene=Interior Mines Management tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Ask about the miner's tax and pay. You get the permit at once."
+msgid "Ask about the miner's tax and pay. You get the permit at once."
+msgstr "Pergunte sobre o imposto de minerador e pague. Você recebe a licença na hora."
+
+#. row Permission32_Permit75 conv=Mines/Office/Reijo Rautakaivos scene=Interior Mines Office tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Show your permit to the ore buyer."
+msgid "Show your permit to the ore buyer."
+msgstr "Mostre sua licença ao comprador de minério."
+
+#. row Permission32_Permit75 conv=Mines/Office/Reijo Rautakaivos scene=Interior Mines Office tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Reiska, Ore Drop Off."
+msgid "Reiska, Ore Drop Off."
+msgstr "Reiska, Entrega de minério."
+
+#. row Permission32_Permit75 conv=Mines/Office/Reijo Rautakaivos scene=Interior Mines Office tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Tell him you got the permit. Ore selling then works."
+msgid "Tell him you got the permit. Ore selling then works."
+msgstr "Diga a ele que você conseguiu a licença. Aí a venda de minério passa a funcionar."
+
+#. row Permission32_Permit75 conv=Mines/Office/Reijo Rautakaivos scene=Interior Mines Office (requirement label)
+#, fuzzy
+msgctxt "mod.QuestHelper:Mining permit"
+msgid "Mining permit"
+msgstr "Licença de mineração"
+
+#. row SurfaceElevator99_BazaarPermit44 conv=Bazaar/Industrial/Tor Bergstahl scene=Interior Bazaar Mine tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:The lift permit is handled up in the Bazaar."
+msgid "The lift permit is handled up in the Bazaar."
+msgstr "A autorização do elevador é resolvida lá em cima, no Bazar."
+
+#. row SurfaceElevator99_BazaarPermit44 conv=Bazaar/Industrial/Tor Bergstahl scene=Interior Bazaar Mine tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Tor Bergstahl, in the building by the main elevator (the \"Ore Refinery\" door from the Bazaar)."
+msgid "Tor Bergstahl, in the building by the main elevator (the \"Ore Refinery\" door from the Bazaar)."
+msgstr "Tor Bergstahl, no prédio do elevador principal (a porta “Refinaria de minério”, saindo do Bazar)."
+
+#. row SurfaceElevator99_BazaarPermit44 conv=Bazaar/Industrial/Tor Bergstahl scene=Interior Bazaar Mine tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Tell Tor you want access to the mines. He marks the N-O Company on your map."
+msgid "Tell Tor you want access to the mines. He marks the N-O Company on your map."
+msgstr "Diga ao Tor que você quer acesso às minas. Ele marca a N-O Company no seu mapa."
+
+#. row SurfaceElevator99_BazaarPermit55 conv=Bazaar/Chamber of Commerce/NO Company Doorphone scene=Open Sewer Bazaar tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:There's an intercom by the door."
+msgid "There's an intercom by the door."
+msgstr "Tem um interfone do lado da porta."
+
+#. row SurfaceElevator99_BazaarPermit55 conv=Bazaar/Chamber of Commerce/NO Company Doorphone scene=Open Sewer Bazaar tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:The N-O Company building at the far end of the street (tall wooden building with a round stone tower)."
+msgid "The N-O Company building at the far end of the street (tall wooden building with a round stone tower)."
+msgstr "O prédio da N-O Company, no fim da rua (o prédio alto de madeira com uma torre redonda de pedra)."
+
+#. row SurfaceElevator99_BazaarPermit55 conv=Bazaar/Chamber of Commerce/NO Company Doorphone scene=Open Sewer Bazaar tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Ask to register for mine access. They send you to the main gatehouse."
+msgid "Ask to register for mine access. They send you to the main gatehouse."
+msgstr "Peça para se registrar para ter acesso à mina. Eles te mandam à portaria principal."
+
+#. row SurfaceElevator99_BazaarPermit66 conv=Tenement/Gatehouse/Axel Norberg scene=Interior Tenement Gatehouse tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:The passport inspector handles registrations."
+msgid "The passport inspector handles registrations."
+msgstr "O fiscal de passaportes cuida dos registros."
+
+#. row SurfaceElevator99_BazaarPermit66 conv=Tenement/Gatehouse/Axel Norberg scene=Interior Tenement Gatehouse tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Axel Norberg at the Gatehouse: head toward the Clocktower and turn left."
+msgid "Axel Norberg at the Gatehouse: head toward the Clocktower and turn left."
+msgstr "Axel Norberg, na Portaria: siga em direção à Torre do Relógio e vire à esquerda."
+
+#. row SurfaceElevator99_BazaarPermit66 conv=Tenement/Gatehouse/Axel Norberg scene=Interior Tenement Gatehouse tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Ask about mine access registrations and show your forged passport. You get a blank form and its recipe."
+msgid "Ask about mine access registrations and show your forged passport. You get a blank form and its recipe."
+msgstr "Pergunte sobre o registro de acesso às minas e mostre seu passaporte falsificado. Você recebe um formulário em branco e a receita dele."
+
+#. row SurfaceElevator99_BazaarPermit77 conv=Tenement/Gatehouse/Axel Norberg scene=Interior Tenement Gatehouse tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Fill it in at a paperwork machine. There's a 100 RM fee."
+msgid "Fill it in at a paperwork machine. There's a 100 RM fee."
+msgstr "Preencha numa máquina de escritório. Tem uma taxa de 100 RM."
+
+#. row SurfaceElevator99_BazaarPermit77 conv=Tenement/Gatehouse/Axel Norberg scene=Interior Tenement Gatehouse tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Any typewriter, printer or copy machine; then Axel."
+msgid "Any typewriter, printer or copy machine; then Axel."
+msgstr "Qualquer máquina de escrever, impressora ou copiadora; depois, o Axel."
+
+#. row SurfaceElevator99_BazaarPermit77 conv=Tenement/Gatehouse/Axel Norberg scene=Interior Tenement Gatehouse tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:The recipe turns the blank form into the filled one (it can fail; Axel gives a new blank form if you lost both). Hand it in, show the passport, pay 100 RM."
+msgid "The recipe turns the blank form into the filled one (it can fail; Axel gives a new blank form if you lost both). Hand it in, show the passport, pay 100 RM."
+msgstr "A receita transforma o formulário em branco no preenchido (pode falhar; o Axel te dá outro formulário em branco se você perder os dois). Entregue, mostre o passaporte e pague 100 RM."
+
+#. row SurfaceElevator99_BazaarPermit88 conv= scene= tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:This takes a while."
+msgid "This takes a while."
+msgstr "Isso demora um pouco."
+
+#. row SurfaceElevator99_BazaarPermit88 conv= scene= tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:The registration arrives 5 game days after you pay."
+msgid "The registration arrives 5 game days after you pay."
+msgstr "O registro chega 5 dias de jogo depois do pagamento."
+
+#. row SurfaceElevator99_BazaarPermit99 conv=Bazaar/Industrial/Tor Bergstahl scene=Interior Bazaar Mine tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Show it to the man who sent you."
+msgid "Show it to the man who sent you."
+msgstr "Mostre ao homem que te mandou."
+
+#. row SurfaceElevator99_BazaarPermit99 conv=Bazaar/Industrial/Tor Bergstahl scene=Interior Bazaar Mine tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Tor Bergstahl."
+msgid "Tor Bergstahl."
+msgstr "Tor Bergstahl."
+
+#. row SurfaceElevator99_BazaarPermit99 conv=Bazaar/Industrial/Tor Bergstahl scene=Interior Bazaar Mine tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Tell him you have the registration. He then asks about your mining permit."
+msgid "Tell him you have the registration. He then asks about your mining permit."
+msgstr "Diga a ele que você tem o registro. Aí ele pergunta da sua licença de mineração."
+
+#. row SurfaceElevator99_BazaarPermit110 conv=Bazaar/Industrial/Tor Bergstahl scene=Interior Bazaar Mine tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:You need the mining permit from the mines (Permission to dig)."
+msgid "You need the mining permit from the mines (Permission to dig)."
+msgstr "Você precisa da licença de mineração das minas (“Licença para cavar”)."
+
+#. row SurfaceElevator99_BazaarPermit110 conv=Bazaar/Industrial/Tor Bergstahl scene=Interior Bazaar Mine tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Tanja in the mines. Until then, Tor gives two one-time elevator passes."
+msgid "Tanja in the mines. Until then, Tor gives two one-time elevator passes."
+msgstr "A Tanja, nas minas. Até lá, o Tor te dá dois passes únicos do elevador."
+
+#. row SurfaceElevator99_BazaarPermit110 conv=Bazaar/Industrial/Tor Bergstahl scene=Interior Bazaar Mine tier3 full steps
+#, fuzzy
+msgctxt "mod.QuestHelper:Get the permit and show it to Tor for the permanent mineshaft pass."
+msgid "Get the permit and show it to Tor for the permanent mineshaft pass."
+msgstr "Consiga a licença e mostre ao Tor para ganhar o passe permanente do poço da mina."
+
+#. row joinpontikka10_joinpontikka15 conv= scene= tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Arvo won't name the members, but he says many bar owners around here belong to the co-op."
+msgid "Arvo won't name the members, but he says many bar owners around here belong to the co-op."
+msgstr "O Arvo não revela os membros, mas diz que muitos donos de bar da região fazem parte da cooperativa."
+
+#. row joinpontikka10_joinpontikka30 conv=Bazaar/Pontikka/Arvo Kirkastaja scene=Interior Bazaar Pontikka tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Arvo asks for the 1300 RM membership fee when you hand in the recommendations."
+msgid "Arvo asks for the 1300 RM membership fee when you hand in the recommendations."
+msgstr "O Arvo cobra a taxa de associação de 1300 RM quando você entrega as recomendações."
+
+#. row joinpontikka10_joinpontikka30 conv=Bazaar/Pontikka/Arvo Kirkastaja scene=Interior Bazaar Pontikka tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Arvo Kirkastaja, Moonshining Cooperative."
+msgid "Arvo Kirkastaja, Moonshining Cooperative."
+msgstr "Arvo Kirkastaja, Cooperativa dos Alambiqueiros."
+
+#. row joinpontikka10_joinpontikka21 conv=Resident/Malone Petronis scene= tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:Malone wants a pack of Norts."
+msgid "Malone wants a pack of Norts."
+msgstr "O Malone quer um maço de Norts."
+
+#. row joinpontikka10_joinpontikka22 conv=Tenement/Speakeasy/Pentti Penttilä scene=Interior Tenement Speakeasy tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Pentti Penttilä, Speakeasy."
+msgid "Pentti Penttilä, Speakeasy."
+msgstr "Pentti Penttilä, Bar Clandestino."
+
+#. row joinpontikka10_welhoShrooms31 conv=Bazaar/Trader/Welho scene=Interior Bazaar Welho tier1 nudge
+#, fuzzy
+msgctxt "mod.QuestHelper:He wants one litre of Mushroom Moonshine. Good quality or better is enough for him."
+msgid "He wants one litre of Mushroom Moonshine. Good quality or better is enough for him."
+msgstr "Ele quer um litro de cachaça com cogumelos. Qualidade Boa ou melhor já serve."
+
+#. row joinpontikka10_welhoShrooms31 conv=Bazaar/Trader/Welho scene=Interior Bazaar Welho tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Welhö."
+msgid "Welhö."
+msgstr "Welhö."
+
+#. row joinpontikka10_welhoShrooms31 conv=Bazaar/Trader/Welho scene=Interior Bazaar Welho (requirement label)
+#, fuzzy
+msgctxt "mod.QuestHelper:1 l of Mushroom Moonshine, Good quality or better"
+msgid "1 l of Mushroom Moonshine, Good quality or better"
+msgstr "1 l de Cachaça com cogumelos, qualidade Boa ou melhor"
+
+#. row BankHunt77_EleGuy34 conv=Bazaar/Trader/Jonas Elström scene=Interior Bazaar Electronics tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Jonas Elström, Elektroniks."
+msgid "Jonas Elström, Elektroniks."
+msgstr "Jonas Elström, Elektroniks."
+
+#. row BankHunt77_CafeHeikki22 conv=Bazaar/Trader/Tero Verkko scene=Interior Bazaar Internet Cafe tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Tero Verkko, Internet Cafe."
+msgid "Tero Verkko, Internet Cafe."
+msgstr "Tero Verkko, Lan house."
+
+#. row BankHunt77_CasinoHeikki23 conv=Bazaar/Casino/Gérard Dujardin scene=Interior Bazaar Casino tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Gérard Dujardin, Casino."
+msgid "Gérard Dujardin, Casino."
+msgstr "Gérard Dujardin, Cassino."
+
+#. row BankHunt77_HeikkiMentti27 conv=Bazaar/Mentti/Heikki Mailanen scene=Interior Bazaar Mentti B tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Heikki Mailanen, Mentti B."
+msgid "Heikki Mailanen, Mentti B."
+msgstr "Heikki Mailanen, Mentti B."
+
+#. row Orange9_PotatoMine23 conv= scene=Open Sewer Mines tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:The Potato Mine."
+msgid "The Potato Mine."
+msgstr "A mina de batatas."
+
+#. row Orange9_Seamus52 conv=Mines/Other/Seamus Liepa Doorphone scene=Open Sewer Mines tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Seamus Liepa's door, Potato Mine."
+msgid "Seamus Liepa's door, Potato Mine."
+msgstr "Porta do Seamus Liepa, Mina de batatas."
+
+#. row Orange9_SeamusTalk53 conv=Mines/Other/Seamus Liepa scene=Interior Mines Potato Mine tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Seamus Liepa, Potato Mine."
+msgid "Seamus Liepa, Potato Mine."
+msgstr "Seamus Liepa, Mina de batatas."
+
+#. row Orange9_SeamusRing66 conv=Mines/Other/Saunaklonkku scene=Open Sewer Mines tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Cave Island."
+msgid "Cave Island."
+msgstr "Ilha da Caverna."
+
+#. row Farmer1_Potatoes3 conv=Tenement/Kurahaara/Jomppe Kurahaara scene=Interior Tenement Greenhouse tier2 where
+#, fuzzy
+msgctxt "mod.QuestHelper:Jomppe Kurahaara, Kurahaara Brothers greenhouse."
+msgid "Jomppe Kurahaara, Kurahaara Brothers greenhouse."
+msgstr "Jomppe Kurahaara, estufa dos irmãos Kurahaara."
+
+#. Bazaar checkpoint (task GettingPassport5) title
+#, fuzzy
+msgctxt "mod.QuestHelper:Bazaar gate"
+msgid "Bazaar gate"
+msgstr "Portão do Bazar"
+
+#. Bazaar checkpoint (task GettingPassport5) note
+#, fuzzy
+msgctxt "mod.QuestHelper:A hand-drawn passport is turned away here."
+msgid "A hand-drawn passport is turned away here."
+msgstr "Aqui, passaporte desenhado à mão é recusado."
+
+#. Bazaar checkpoint (task GettingPassport5) where (person, place)
+#, fuzzy
+msgctxt "mod.QuestHelper:Axel Norberg, Gatehouse"
+msgid "Axel Norberg, Gatehouse"
+msgstr "Axel Norberg, Portaria"
+
+#. Bazaar checkpoint (task GettingPassport5) title
+#, fuzzy
+msgctxt "mod.QuestHelper:Metro ticket machines"
+msgid "Metro ticket machines"
+msgstr "Máquinas de bilhetes do metrô"
+
+#. Bazaar checkpoint (task GettingPassport5) (requirement label)
+#, fuzzy
+msgctxt "mod.QuestHelper:25 OC per ticket"
+msgid "25 OC per ticket"
+msgstr "25 OC por bilhete"
+
+#. Bazaar checkpoint (task Glowstick7) title
+#, fuzzy
+msgctxt "mod.QuestHelper:Into the mines from Deekula"
+msgid "Into the mines from Deekula"
+msgstr "Para as minas pelo Deekula"
+
+#. Bazaar checkpoint (task Glowstick7) where (person, place)
+#, fuzzy
+msgctxt "mod.QuestHelper:The Deekula B basement"
+msgid "The Deekula B basement"
+msgstr "O porão do Deekula B"
+
+#. Bazaar checkpoint (task Glowstick7_GateMines22) title
+#, fuzzy
+msgctxt "mod.QuestHelper:Repository gate"
+msgid "Repository gate"
+msgstr "Portão do depósito"
+
+#. Bazaar checkpoint (task Glowstick7_GateMines22) (requirement label, one option)
+#, fuzzy
+msgctxt "mod.QuestHelper:gate already opened"
+msgid "gate already opened"
+msgstr "portão já aberto"
+
+#. Bazaar checkpoint (task SurfaceElevator99) title
+#, fuzzy
+msgctxt "mod.QuestHelper:Mine elevator validators"
+msgid "Mine elevator validators"
+msgstr "Validadores do elevador da mina"
+
+#. Bazaar checkpoint (task SurfaceElevator99) (requirement label)
+#, fuzzy
+msgctxt "mod.QuestHelper:Mineshaft pass or a one-time elevator pass"
+msgid "Mineshaft pass or a one-time elevator pass"
+msgstr "Passe do poço da mina ou um passe único do elevador"
+
+#. Bazaar checkpoint (task SurfaceElevator99) (requirement label, one option)
+#, fuzzy
+msgctxt "mod.QuestHelper:Mineshaft pass"
+msgid "Mineshaft pass"
+msgstr "Passe do poço da mina"
+
+#. Bazaar checkpoint (task Permission32) title
+#, fuzzy
+msgctxt "mod.QuestHelper:Selling ore"
+msgid "Selling ore"
+msgstr "Venda de minério"
+
+#. Bazaar checkpoint (task Permission32) where (person, place)
+#, fuzzy
+msgctxt "mod.QuestHelper:Reiska, Ore Drop Off"
+msgid "Reiska, Ore Drop Off"
+msgstr "Reiska, Entrega de minério"
+
+#. Bazaar checkpoint (task joinpontikka10) title
+#, fuzzy
+msgctxt "mod.QuestHelper:Co-op membership"
+msgid "Co-op membership"
+msgstr "Entrada na cooperativa"
+
+#. Bazaar checkpoint (task joinpontikka10) where (person, place)
+#, fuzzy
+msgctxt "mod.QuestHelper:Arvo Kirkastaja, Moonshining Cooperative"
+msgid "Arvo Kirkastaja, Moonshining Cooperative"
+msgstr "Arvo Kirkastaja, Cooperativa dos Alambiqueiros"
+
+#. chain task GettingPassport5 title (a game task title)
+#, fuzzy
+msgctxt "mod.QuestHelper:Getting a passport"
+msgid "Getting a passport"
+msgstr "Arranjando um passaporte"
+
+#. chain task Permission32 title (a game task title)
+#, fuzzy
+msgctxt "mod.QuestHelper:Permission to dig"
+msgid "Permission to dig"
+msgstr "Licença para cavar"
+
+#. chain task SurfaceElevator99 title (a game task title)
+#, fuzzy
+msgctxt "mod.QuestHelper:Elevator to surface"
+msgid "Elevator to surface"
+msgstr "Elevador para a superfície"

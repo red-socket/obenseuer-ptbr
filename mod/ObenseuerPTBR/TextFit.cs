@@ -4,6 +4,7 @@ using System.Globalization;
 using System.Text.RegularExpressions;
 using TMPro;
 using UnityEngine;
+using UnityEngine.TextCore;
 using UnityEngine.UI;
 
 namespace ObenseuerPTBR
@@ -68,8 +69,10 @@ namespace ObenseuerPTBR
             }
             else
             {
-                // The English was laid out to fit, so count its lines leniently and the Portuguese strictly.
-                int lines = Lines(label, english, unit, box * 1.03f, 1f);
+                // The English was laid out to fit, so count its lines leniently and the Portuguese strictly. The
+                // translation may also use any further lines the box has room for (a card title sized for two lines
+                // whose English needed one) before it is scaled down.
+                int lines = Mathf.Max(Lines(label, english, unit, box * 1.03f, 1f), Room(label, unit));
                 for (scale = 1f; scale > MinUiScale && Lines(label, pt, unit, box * 0.94f, scale) > lines; scale -= 0.05f) { }
                 scale = Mathf.Max(MinUiScale, scale);
             }
@@ -196,6 +199,16 @@ namespace ObenseuerPTBR
         {
             rt.GetWorldCorners(corners);
             return Rect.MinMaxRect(corners[0].x, corners[0].y, corners[2].x, corners[2].y);
+        }
+
+        // Whole lines of text the label's box holds at its full size.
+        private static int Room(TMP_Text label, float unit)
+        {
+            FaceInfo face = label.font.faceInfo;
+            if (face.pointSize <= 0f || face.lineHeight <= 0f) return 0;
+            float line = (face.lineHeight / face.pointSize + label.lineSpacing * 0.01f) * unit;
+            float height = label.rectTransform.rect.height - label.margin.y - label.margin.w;
+            return line > 0f ? Mathf.FloorToInt(height / line) : 0;
         }
 
         // Estimated wrapped line count: each paragraph's width over the (adjusted) box, at a given size scale.

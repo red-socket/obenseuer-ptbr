@@ -13,6 +13,7 @@ namespace ObenseuerPTBR
     [BepInProcess("Obenseuer.exe")]
     [BepInDependency(ModStrings.BetterTenementGuid, BepInDependency.DependencyFlags.SoftDependency)]
     [BepInDependency(ModStrings.FairMarketGuid, BepInDependency.DependencyFlags.SoftDependency)]
+    [BepInDependency(ModStrings.QuestHelperGuid, BepInDependency.DependencyFlags.SoftDependency)]
     public sealed class Plugin : BaseUnityPlugin
     {
         public const string Guid = "redsocket.obenseuer.ptbr";
@@ -63,6 +64,7 @@ namespace ObenseuerPTBR
             catch (Exception e) { Log.LogError($"Patching failed: {e}"); }
             try { ModStrings.Apply(harmony); }
             catch (Exception e) { Log.LogWarning($"Other mods' text not translated: {e.Message}"); }
+            QuestHelperData.Apply();
 
             SceneManager.sceneLoaded += (scene, mode) =>
             {
