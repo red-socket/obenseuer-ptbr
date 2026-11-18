@@ -6,6 +6,7 @@
 - The checkout prompt reads "(Total: 216 OC (escaneando))" instead of staying in English.
 - The other red-socket mods are now in Portuguese too, when they are installed: the windows of VitalSigns, SaveGuard, MessageLog and FairJustice, FairMarket's invoices, BetterTenement's Tenement Doctor, and the prompts, buttons, tooltips and messages of Workshop, FewerClicks, RecipeBook, TidyInventory, TimeKeeper, GridSense, BetterPlacement, GreenThumb, UnofficialPatch and DisplayOptions. A few words stay in English where a mod also uses them internally.
 - Sentences that end in a full stop and lines inside multi-line panels now find their translation more reliably.
+- The two screens on the till were still in English. The customer display now reads BEM-VINDO... and the card terminal DIGITE / SENHA.
 
 ## 0.5.1 (2026-11-17)
 

@@ -3400,6 +3400,40 @@ SPECS = {
         "text": [{"box": [574, 368, 712, 384], "font": "marker", "text": "NASCI PRA VENCER", "stretch": True, "color": "#0c0c0c"},
                  {"box": [574, 389, 712, 404], "font": "marker", "text": "VIVO PRA PERDER", "stretch": True, "color": "#0c0c0c"}],
     },
+
+    # ---- Batch 27: checkout screens (0.5.2) ----
+    "cash_desk_001": {
+        "en": "WELCOME... (till's customer display) and ENTER / PIN (card terminal), two small screens in the checkout counter's atlas",
+        "note": "BEM-VINDO... in the display's thin 9-row letters; DIGITE / SENHA in the terminal's 5-row letters (both lines as wide as ENTER). The PIN dashes stay.",
+        "erase": [{"rect": [7, 892, 109, 905], "color": "#8db87e"}, {"rect": [115, 991, 146, 1007], "color": "#8db87e"}],
+        "text": [{"pixel": "lcd9", "box": [9, 0, 110, 0], "baselines": [902], "text": "BEM-VINDO...", "align": "left", "gap": 2, "color": "#000000"},
+                 {"pixel": "pin5", "box": [118, 0, 146, 0], "baselines": [997], "text": "DIGITE", "align": "left", "gap": 2, "color": "#000000"},
+                 {"pixel": "pin5", "box": [118, 0, 146, 0], "baselines": [1004], "text": "SENHA", "align": "left", "gap": 2, "color": "#000000"}],
+    },
+    "cash_desk_001_e": {
+        "en": "WELCOME... (till's customer display) and ENTER / PIN (card terminal), two small screens in the checkout counter's atlas (glow map)",
+        "note": "BEM-VINDO... in the display's thin 9-row letters; DIGITE / SENHA in the terminal's 5-row letters (both lines as wide as ENTER). The PIN dashes stay.",
+        "erase": [{"rect": [6, 886, 110, 910], "mode": "near", "bg": "#000000", "thresh": 60, "grow": 0, "isolate": True}, {"rect": [114, 991, 147, 1008], "mode": "near", "bg": "#000000", "thresh": 60, "grow": 0, "isolate": True}],
+        "text": [{"pixel": "lcd9", "box": [9, 0, 110, 0], "baselines": [902], "text": "BEM-VINDO...", "align": "left", "gap": 2, "color": "#000000"},
+                 {"pixel": "pin5", "box": [118, 0, 146, 0], "baselines": [997], "text": "DIGITE", "align": "left", "gap": 2, "color": "#000000"},
+                 {"pixel": "pin5", "box": [118, 0, 146, 0], "baselines": [1004], "text": "SENHA", "align": "left", "gap": 2, "color": "#000000"}],
+    },
+    "cash_desk_001_inverted": {
+        "en": "WELCOME... (till's customer display) and ENTER / PIN (card terminal), two small screens in the checkout counter's atlas (mirrored checkout: the screens are flipped)",
+        "note": "BEM-VINDO... in the display's thin 9-row letters; DIGITE / SENHA in the terminal's 5-row letters (both lines as wide as ENTER). The PIN dashes stay. Flipped like the original.",
+        "erase": [{"rect": [7, 892, 109, 905], "color": "#8db87e"}, {"rect": [115, 991, 146, 1007], "color": "#8db87e"}],
+        "text": [{"pixel": "lcd9", "box": [27, 894, 107, 903], "baselines": [902], "text": "BEM-VINDO...", "gap": 2, "stretch": True, "mirror": True, "color": "#000000"},
+                 {"pixel": "pin5", "box": [119, 993, 143, 998], "baselines": [997], "text": "DIGITE", "gap": 2, "stretch": True, "mirror": True, "color": "#000000"},
+                 {"pixel": "pin5", "box": [119, 1000, 143, 1005], "baselines": [1004], "text": "SENHA", "gap": 2, "stretch": True, "mirror": True, "color": "#000000"}],
+    },
+    "cash_desk_001_e_inverted": {
+        "en": "WELCOME... (till's customer display) and ENTER / PIN (card terminal), two small screens in the checkout counter's atlas (mirrored checkout, glow map)",
+        "note": "BEM-VINDO... in the display's thin 9-row letters; DIGITE / SENHA in the terminal's 5-row letters (both lines as wide as ENTER). The PIN dashes stay. Flipped like the original.",
+        "erase": [{"rect": [6, 886, 110, 910], "mode": "near", "bg": "#000000", "thresh": 60, "grow": 0, "isolate": True}, {"rect": [114, 991, 147, 1008], "mode": "near", "bg": "#000000", "thresh": 60, "grow": 0, "isolate": True}],
+        "text": [{"pixel": "lcd9", "box": [27, 894, 107, 903], "baselines": [902], "text": "BEM-VINDO...", "gap": 2, "stretch": True, "mirror": True, "color": "#000000"},
+                 {"pixel": "pin5", "box": [119, 993, 143, 998], "baselines": [997], "text": "DIGITE", "gap": 2, "stretch": True, "mirror": True, "color": "#000000"},
+                 {"pixel": "pin5", "box": [119, 1000, 143, 1005], "baselines": [1004], "text": "SENHA", "gap": 2, "stretch": True, "mirror": True, "color": "#000000"}],
+    },
 }
 
 # Review batches: each is checked by the reviewer, texture by texture, against the original.
@@ -3452,6 +3486,7 @@ BATCHES = {
     "24": ["telephone_directory_001", "Decal_003_aziz"],
     "25": ["sign_drpena_001", "Decal_003_skin19"],
     "26": ["Market_door_002_window_o_market", "Market_door_002_window_o_market_b", "payment_machine_001_em", "parcel_locker_001_e", "Market_window_002_skin1", "rug_002_skin7", "Decal_003_skin21", "Decal_001_emergency_number", "Decal_001_dentist_001", "cereal_box_001", "coffee_packet_cheap", "painting_004_stalburg", "bottle_005_cooking_oil", "bus_001", "bus_001b", "bus_001b_glass_e"],
+    "27": ["cash_desk_001", "cash_desk_001_e", "cash_desk_001_inverted", "cash_desk_001_e_inverted"],
 }
 
 NUMBERS = {}
