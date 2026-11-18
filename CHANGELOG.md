@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.5.2 (unreleased)
+## 0.5.2 (2026-11-18)
 
 - A single word is never broken across two lines any more ("Orden / ar" on the round Sort buttons). If a word doesn't fit, the label's text is made a little smaller instead.
 - The checkout prompt reads "(Total: 216 OC (escaneando))" instead of staying in English.
