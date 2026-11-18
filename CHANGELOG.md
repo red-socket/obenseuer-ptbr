@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.5.3 (unreleased)
+## 0.5.3 (2026-11-18)
 
 - Fixed: with 0.5.2 the game could hang at startup when the other red-socket mods were not installed. Looking for each missing mod's text made the plugin search every loaded class hundreds of times and log a warning each time. It now checks once per mod and skips the mods that aren't there.
 
