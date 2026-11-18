@@ -3267,6 +3267,138 @@ SPECS = {
                  {"box": [166, 111, 192, 125], "font": "reenie", "text": "DE", "stretch": True, "stroke": 0.4, "color": "#c6c7c6", "alpha": 255},
                  {"box": [144, 127, 214, 149], "font": "reenie", "text": "PRÉDIOS", "stretch": True, "stroke": 0.4, "color": "#c6c7c6", "alpha": 255}],
     },
+
+
+
+
+
+
+
+
+
+
+
+
+
+    # ---- Batch 26: textures found in 0.5.0 play (0.5.1) ----
+    "Market_door_002_window_o_market": {
+        "en": "O MARKET / WELCOME (glass door)",
+        "note": "BEM-VINDO, as on the Skeida doors; O Market (name) stays. Letters only in the colour channel.",
+        "erase": [{"rect": [17, 51, 116, 70], "mode": "dark", "thresh": 25, "k": 9, "grain": 2}],
+        "text": [{"box": [20, 54, 113, 67], "font": "sans-bold", "text": "BEM-VINDO", "stretch": True, "color": "#303030"}],
+    },
+    "Market_door_002_window_o_market_b": {
+        "en": "O MARKET / OPEN 0-24 (glass door)",
+        "note": "ABERTO 0-24, as on the Skeida doors.",
+        "erase": [{"rect": [19, 51, 116, 70], "mode": "dark", "thresh": 25, "k": 9, "grain": 2}],
+        "text": [{"box": [20, 54, 113, 67], "font": "sans-bold", "text": "ABERTO 0-24", "stretch": True, "color": "#3a3a39"}],
+    },
+    "payment_machine_001_em": {
+        "en": "WELCOME (the free-standing ATM's screen, a copy of the ATM screen inside its glow map)",
+        "note": "The approved BEM-VINDO screen (ATM_screen_001), shrunk onto this machine's copy of it.",
+        "warp_from": {"from": "ATM_screen_001", "src": [0, 0, 128, 128], "quad": [[192, 959], [333, 959], [333, 1099], [192, 1099]], "smooth": True},
+        "text": [],
+    },
+    "parcel_locker_001_e": {
+        "en": "WELCOME (parcel locker screen, closed; glow map)",
+        "note": "BEM-VINDO in the font of the approved open-door screen (Retirar encomendas).",
+        "erase": [{"rect": [558, 1553, 626, 1566], "mode": "light", "thresh": 30, "k": 9, "isolate": True}],
+        "text": [{"box": [546, 1553, 638, 1565], "font": "sans-bold", "text": "BEM-VINDO", "baseline": 1563, "size": 12, "color": "#f2f8f9"}],
+    },
+    "Market_window_002_skin1": {
+        "en": "WELCOME / 0-24 / 0-24 / 0-24 / O MARKET (shop window; the letters are also cut into the gloss)",
+        "note": "BEM-VINDO; the hours, O Market and the graffiti tags stay.",
+        "erase": [{"rect": [116, 288, 226, 308], "mode": "dark", "thresh": 40, "k": 9, "grain": 2}],
+        "alpha": {"erase": [{"rect": [116, 288, 226, 308], "mode": "dark", "thresh": 40, "k": 9}], "letters": 0},
+        "text": [{"box": [118, 292, 214, 306], "font": "sans-bold", "text": "BEM-VINDO", "stretch": True, "crisp": 0.5, "color": "#282828"}],
+    },
+    "rug_002_skin7": {
+        "en": "WELCOME (doormat, letters pressed into the pile)",
+        "note": "BEM-VINDO in serif capitals like the original, with the mat's own texture showing through.",
+        "erase": [{"rect": [30, 46, 230, 80], "mode": "dark", "thresh": 12, "k": 15, "grain": 0, "lama": True}],
+        "text": [{"box": [35, 52, 225, 74], "font": "serif", "text": "BEM-VINDO", "stretch": True, "color": "#2a2c27", "ink_texture": 0.5}],
+    },
+    "Decal_003_skin21": {
+        "en": "Preach, Prayers and Pea soup (soup kitchen; the letters are cut out of the alpha)",
+        "note": "Sermão, Sopa e Salvação keeps an alliteration (on S instead of P). Hard-edged heavy serif like the original, white; the tilde and cedilla reach a little past the old line.",
+        "cutout": True,
+        "erase": [],
+        "alpha": {"erase": [{"rect": [0, 55, 256, 95], "color": "#000000"}]},
+        "text": [{"box": [34, 61, 222, 85], "font": "patua", "text": "Sermão, Sopa e Salvação", "stretch": True, "crisp": 0.5, "color": "#ffffff", "alpha": 255}],
+    },
+    "Decal_001_emergency_number": {
+        "en": "EMERGENCY / NUMBER / 112 / -POLICE / -FIRE / -AMBULANCE (pixel letters)",
+        "note": "NÚMERO DE / EMERGÊNCIA in the poster's red pixel letters; the list becomes POLÍCIA, BOMBEIROS, AMBULÂNCIA (M and N narrowed in the list so AMBULÂNCIA fits). 112 and the dashes stay.",
+        "erase": [{"rect": [13, 5, 51, 18], "mode": "near", "bg": "#9c2431", "thresh": 80, "grow": 0, "scatter": [3, 1], "isolate": True}, {"rect": [16, 37, 51, 56], "mode": "near", "bg": "#424142", "thresh": 60, "grow": 0, "scatter": [3, 1], "isolate": True}],
+        "text": [{"pixel": "emerg", "box": [14, 0, 50, 0], "baselines": [10], "text": "NÚMERO DE", "align": "left", "color": "#9c2431"},
+                 {"pixel": "emerg", "box": [13, 0, 51, 0], "baselines": [17], "text": "EMERGÊNCIA", "align": "left", "color": "#9c2431"},
+                 {"pixel": "emerg-n", "box": [16, 0, 50, 0], "baselines": [42], "text": "BOMBEIROS", "align": "left", "color": "#424142"},
+                 {"pixel": "emerg-n", "box": [16, 0, 51, 0], "baselines": [48], "text": "AMBULÂNCIA", "align": "left", "color": "#424142"},
+                 {"pixel": "emerg-n", "box": [16, 0, 50, 0], "baselines": [54], "text": "POLÍCIA", "align": "left", "color": "#424142"}],
+    },
+    "Decal_001_dentist_001": {
+        "en": "DENTIST (door poster, pixel letters)",
+        "note": "DENTISTA in the poster's pixel letters; T is a pixel narrower and A is drawn so the word fits the panel.",
+        "erase": [{"rect": [14, 10, 50, 16], "color": "#a5d7bd"}],
+        "text": [{"pixel": "dent", "box": [13, 0, 51, 0], "baselines": [15], "text": "DENTISTA", "color": "#ffffff"}],
+    },
+    "cereal_box_001": {
+        "en": "SUGAR / flakes (cereal box, pixel letters)",
+        "note": "FLOCOS / doces (L a pixel narrower so the F clears the edge): the item is Flocos açucarados in the game, but açucarados is far too long for the box, so doces (sweet).",
+        "erase": [{"rect": [4, 8, 28, 20], "mode": "near", "bg": "#3f130f", "thresh": 90, "grow": 0, "scatter": [6, 3], "sample_min": 200}],
+        "text": [{"pixel": "cereal", "box": [3, 0, 28, 0], "baselines": [12], "text": "FLOCOS", "color": "#3f130f"},
+                 {"pixel": "cereal", "box": [3, 0, 28, 0], "baselines": [18], "text": "doces", "color": "#3f130f"}],
+    },
+    "coffee_packet_cheap": {
+        "en": "PEKKA / COFFEE / 1KG (coffee packet, twice; pixel letters)",
+        "note": "CAFÉ; Pekka (brand) and 1KG stay.",
+        "erase": [{"rect": [12, 25, 33, 28], "color": "#ffffff"}, {"rect": [24, 28, 32, 29], "color": "#ffffff"}, {"rect": [43, 25, 64, 28], "color": "#ffffff"}, {"rect": [55, 28, 63, 29], "color": "#ffffff"}],
+        "text": [{"pixel": "coffee3", "box": [13, 0, 31, 0], "baselines": [28], "text": "CAFÉ", "color": "#000000"},
+                 {"pixel": "coffee3", "box": [44, 0, 62, 0], "baselines": [28], "text": "CAFÉ", "color": "#000000"}],
+    },
+    "painting_004_stalburg": {
+        "en": "CITY OF STALBURG (wall map, pixel letters)",
+        "note": "CIDADE DE STALBURG in the map's pixel letters (D and E drawn).",
+        "erase": [{"rect": [14, 111, 72, 118], "mode": "color", "bg": "#6b84a1", "thresh": 120, "grow": 0, "scatter": [5, 1]}],
+        "text": [{"pixel": "map", "box": [15, 0, 128, 0], "baselines": [116], "text": "CIDADE DE STALBURG", "align": "left", "space": 2, "color": "#000000"}],
+    },
+    "bottle_005_cooking_oil": {
+        "en": "OIL (cooking oil bottle label, pixel letters)",
+        "note": "ÓLEO, as the item is Óleo de cozinha; the letters are a row shorter and a pixel narrower so the accent fits inside the dotted frame.",
+        "erase": [{"rect": [13, 21, 28, 30], "color": "#65821b"}],
+        "text": [{"pixel": "oil", "box": [13, 0, 28, 0], "baselines": [28], "text": "ÓLEO", "color": "#374419"}],
+    },
+    "bus_001": {
+        "en": "STALBURG MASS TRANSIT x2, one mirrored (the clean bus)",
+        "note": "TRANSPORTE COLETIVO DE STALBURG; longer, so it runs further along the roof line, in both copies.",
+        "erase": [{"rect": [128, 7, 300, 27], "mode": "light", "thresh": 25, "k": 11, "grain": 2}, {"rect": [128, 272, 300, 291], "mode": "light", "thresh": 25, "k": 11, "grain": 2}],
+        "alpha": {"erase": [{"rect": [128, 7, 300, 27], "mode": "light", "thresh": 25, "k": 11}, {"rect": [128, 272, 300, 291], "mode": "light", "thresh": 25, "k": 11}], "letters": 165},
+        "text": [{"box": [132, 11, 371, 24], "font": "barlow-cond-semibold", "text": "TRANSPORTE COLETIVO DE STALBURG", "mirror": True, "stretch": True, "color": "#a9b2bd", "ink_texture": 0.5, "alpha": 165},
+                 {"box": [132, 275, 371, 288], "font": "barlow-cond-semibold", "text": "TRANSPORTE COLETIVO DE STALBURG", "stretch": True, "color": "#a9b2bd", "ink_texture": 0.5, "alpha": 165}],
+    },
+    "bus_001b": {
+        "en": "STALBURG MASS TRANSIT x2 + graffiti: YEP YOU ARE / A MOTHERFUCKER, BORN TO WIN / LIVE TO LOSE, NO MONEY / NO PROBLEMS, JONE WAS / HERE (the wrecked bus)",
+        "note": "Roof lines as on the clean bus. Graffiti: É, VOCÊ É UM / FILHO DA PUTA; NASCI PRA VENCER / VIVO PRA PERDER; SEM GRANA / SEM PROBLEMA; JONE / TAVA / AQUI (tava = was, short like WAS). OPEN SEWER, the tags and FAIL! stay.",
+        "erase": [{"rect": [128, 7, 300, 27], "mode": "light", "thresh": 25, "k": 11, "grain": 2}, {"rect": [128, 272, 300, 291], "mode": "light", "thresh": 25, "k": 11, "grain": 2}, {"rect": [4, 476, 92, 502], "mode": "bright", "thresh": 140, "grow": 1, "lama": True}, {"rect": [4, 502, 112, 524], "mode": "bright", "thresh": 140, "grow": 1, "lama": True}, {"rect": [338, 505, 556, 524], "mode": "dark", "thresh": 40, "k": 9, "grain": 0, "grow": 1, "lama": True}, {"rect": [572, 365, 714, 411], "mode": "dark", "thresh": 12, "k": 9, "grain": 0, "grow": 1, "lama": True}, {"rect": [578, 404, 640, 415], "mode": "dark", "thresh": 25, "k": 9, "grain": 0, "grow": 1, "lama": True}, {"rect": [842, 408, 936, 438], "mode": "bright", "thresh": 140, "grow": 1, "lama": True}],
+        "alpha": {"erase": [{"rect": [128, 7, 300, 27], "mode": "light", "thresh": 25, "k": 11}, {"rect": [128, 272, 300, 291], "mode": "light", "thresh": 25, "k": 11}], "letters": 165},
+        "text": [{"box": [132, 11, 371, 24], "font": "barlow-cond-semibold", "text": "TRANSPORTE COLETIVO DE STALBURG", "mirror": True, "stretch": True, "color": "#a9b2bd", "ink_texture": 0.5, "alpha": 165},
+                 {"box": [132, 275, 371, 288], "font": "barlow-cond-semibold", "text": "TRANSPORTE COLETIVO DE STALBURG", "stretch": True, "color": "#a9b2bd", "ink_texture": 0.5, "alpha": 165},
+                 {"box": [6, 478, 90, 499], "font": "hand", "text": "É, VOCÊ É UM", "stretch": True, "alpha": None, "color": "#d9dde2", "ink_texture": 0.4},
+                 {"box": [6, 504, 108, 521], "font": "hand", "text": "FILHO DA PUTA", "stretch": True, "alpha": None, "color": "#d9dde2", "ink_texture": 0.4},
+                 {"box": [340, 505, 430, 521], "font": "marker", "text": "SEM GRANA", "stretch": True, "color": "#151515", "alpha": None},
+                 {"box": [452, 505, 553, 521], "font": "marker", "text": "SEM PROBLEMA", "stretch": True, "color": "#151515", "alpha": None},
+                 {"box": [574, 368, 712, 384], "font": "marker", "text": "NASCI PRA VENCER", "stretch": True, "color": "#1d1d1d", "alpha": None},
+                 {"box": [574, 389, 712, 404], "font": "marker", "text": "VIVO PRA PERDER", "stretch": True, "color": "#1d1d1d", "alpha": None},
+                 {"box": [844, 405, 886, 423], "font": "gochi", "text": "TAVA", "stretch": True, "alpha": None, "color": "#d9dde2", "ink_texture": 0.4},
+                 {"box": [882, 419, 930, 436], "font": "gochi", "text": "AQUI", "stretch": True, "alpha": None, "color": "#d9dde2", "ink_texture": 0.4}],
+    },
+    "bus_001b_glass_e": {
+        "en": "BORN TO WIN / LIVE TO LOSE (the same graffiti in the bus windows' glow map)",
+        "note": "NASCI PRA VENCER / VIVO PRA PERDER, matching the bus.",
+        "erase": [{"rect": [572, 365, 595, 408], "mode": "near", "bg": "#000000", "thresh": 150, "grow": 1, "lama": True}, {"rect": [611, 365, 714, 408], "mode": "near", "bg": "#000000", "thresh": 150, "grow": 1, "lama": True}],
+        "text": [{"box": [574, 368, 712, 384], "font": "marker", "text": "NASCI PRA VENCER", "stretch": True, "color": "#0c0c0c"},
+                 {"box": [574, 389, 712, 404], "font": "marker", "text": "VIVO PRA PERDER", "stretch": True, "color": "#0c0c0c"}],
+    },
 }
 
 # Review batches: each is checked by the reviewer, texture by texture, against the original.
@@ -3318,6 +3450,7 @@ BATCHES = {
     "23": ["sack_001_ammonium_nitrate", "sack_001_limestone", "sack_001_gravel", "bottle_001_label_moonshine", "selection_alcohol", "bottle_002_homebrew_beer", "snus_001", "keycard_001_bazaar_jail", "organ_transport_cooler_001", "toilet_paper_16_pack", "toilet_paper_6_pack_rotta", "postcard_001_parcel", "cardboard_box_006-008_b", "trash_bag_001_prison"],
     "24": ["telephone_directory_001", "Decal_003_aziz"],
     "25": ["sign_drpena_001", "Decal_003_skin19"],
+    "26": ["Market_door_002_window_o_market", "Market_door_002_window_o_market_b", "payment_machine_001_em", "parcel_locker_001_e", "Market_window_002_skin1", "rug_002_skin7", "Decal_003_skin21", "Decal_001_emergency_number", "Decal_001_dentist_001", "cereal_box_001", "coffee_packet_cheap", "painting_004_stalburg", "bottle_005_cooking_oil", "bus_001", "bus_001b", "bus_001b_glass_e"],
 }
 
 NUMBERS = {}

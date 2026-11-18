@@ -740,3 +740,71 @@ PIXEL_FONTS = {"oos": _OOS, "bergmann": _BERG, "border-top": _BORDER_TOP, "borde
                "elstrom": _ELSTROM, "skeida": _SKEIDA, "robin": _ROBIN, "taxfree": _TAXFREE,
                "barrel": _BARREL, "dispenser": _DISPENSER,
                "board": _BOARD, "staff": _STAFF, "osmo": _OSMO, "tiny": _TINY, "keep": _KEEP, "led": _LED, "rob6": _ROB6, "elst": _ELST, "news": _NEWS, "bio": _BIO, "wayup": _WAYUP, "wayup-big": _WAYUP_BIG, "scrawl": _SCRAWL, "call": _CALL, "therapy": _THERAPY, "fast": _FAST, "mag": _MAG, "mag4": _MAG4, "mag6": _MAG6, "mag7": _MAG7, "mag3": _MAG3, "mag-house": _MAG_HOUSE, "soap": _SOAP, "soap3": _SOAP3, "hotdog": _HOTDOG, "nowin": _NOWIN, "fluff": _FLUFF, "thin9": _THIN9, "thin8": _THIN8, "thin9n": _THIN9N, "thin9p": _THIN9P, "thin8n": _THIN8N, "sack6": _SACK6, "nails": _NAILS, "tp4": _TP4, "big52": _BIG52, "tiny3": _TINY3, "mid52": _MID52, "tp5": _TP5, "fast-narrow": _FAST_NARROW, "baby": _BABY, "marks": _MARKS}
+
+# Decal_001_emergency_number: 5-row letters, 1-5 wide (E and C are 2 wide). D, S, Ú, Ê, Í, Â drawn.
+_EMERG = {c: (r, 0) for c, r in {
+    "E": ["##", "#.", "##", "#.", "##"], "M": ["#...#", "##.##", "#.#.#", "#...#", "#...#"],
+    "R": ["##.", "#.#", "##.", "#.#", "#.#"], "G": [".##.", "#...", "#.##", "#..#", ".##."],
+    "N": ["#..#", "##.#", "#.##", "#..#", "#..#"], "C": ["##", "#.", "#.", "#.", "##"],
+    "U": ["#.#", "#.#", "#.#", "#.#", "###"], "B": ["##.", "#.#", "##.", "#.#", "##."],
+    "P": ["###", "#.#", "###", "#..", "#.."], "O": ["###", "#.#", "#.#", "#.#", "###"],
+    "L": ["#.", "#.", "#.", "#.", "##"], "I": ["#", "#", "#", "#", "#"], "A": ["###", "#.#", "###", "#.#", "#.#"],
+    "D": ["##.", "#.#", "#.#", "#.#", "##."], "S": ["###", "#..", "###", "..#", "###"],   # drawn
+}.items()}
+_EMERG["Ú"] = _accent(_EMERG["U"], ["..#"], gap=0)
+_EMERG["Ê"] = _accent((["###", "#..", "##.", "#..", "###"], 0), [".#."], gap=0)   # a 3-wide E under the hat
+_EMERG["Í"] = _accent(_EMERG["I"], ["#"], gap=0)
+_EMERG["Â"] = _accent(_EMERG["A"], [".#."], gap=0)
+# the black list under 112: narrow M and N so AMBULÂNCIA fits between the corner ornaments (drawn)
+_EMERG_N = dict(_EMERG, M=(["#.#", "###", "###", "#.#", "#.#"], 0), N=(["##.", "#.#", "#.#", "#.#", "#.#"], 0))
+
+# Decal_001_dentist_001: DENTIST, 6 rows. T narrowed to 3 and A drawn so DENTISTA fits the panel.
+_DENT = {c: (r, 0) for c, r in {
+    "D": ["####.", "#..##", "#...#", "#...#", "#..##", "####."], "E": ["###", "#..", "###", "#..", "#..", "###"],
+    "N": ["##..#", "##..#", "#.#.#", "#.#.#", "#..##", "#..##"], "T": ["###", ".#.", ".#.", ".#.", ".#.", ".#."],
+    "I": ["#"] * 6, "S": [".###", "#...", "##..", "..##", "...#", "###."],
+    "A": [".##.", "#..#", "#..#", "####", "#..#", "#..#"],   # drawn
+}.items()}
+
+# bottle_005_cooking_oil: OIL's 7-row letters cut to 6 rows and 3 wide, so ÓLEO and its accent fit the label (drawn).
+_OIL = {c: (r, 0) for c, r in {
+    "O": ["###", "#.#", "#.#", "#.#", "#.#", "###"], "L": ["#..", "#..", "#..", "#..", "#..", "###"],
+    "E": ["###", "#..", "##.", "#..", "#..", "###"],
+}.items()}
+_OIL["Ó"] = _accent(_OIL["O"], ["..#"], gap=0)
+
+# painting_004_stalburg: CITY OF STALBURG, 5 rows, 3 wide (G is 4). D, E drawn.
+_MAP = {c: (r, 0) for c, r in {
+    "C": ["###", "#..", "#..", "#..", "###"], "I": ["#"] * 5, "T": ["###", ".#.", ".#.", ".#.", ".#."],
+    "Y": ["#.#", "#.#", ".#.", ".#.", ".#."], "O": ["###", "#.#", "#.#", "#.#", "###"], "F": ["###", "#..", "##.", "#..", "#.."],
+    "S": ["###", "#..", "###", "..#", "###"], "A": ["###", "#.#", "###", "#.#", "#.#"], "L": ["#..", "#..", "#..", "#..", "###"],
+    "B": ["###", "#.#", "###", "#.#", "###"], "U": ["#.#", "#.#", "#.#", "#.#", "###"], "R": ["###", "#.#", "###", "##.", "#.#"],
+    "G": ["####", "#...", "#.##", "#..#", "####"],
+    "D": ["##.", "#.#", "#.#", "#.#", "##."], "E": ["###", "#..", "##.", "#..", "###"],   # drawn
+}.items()}
+
+# cereal_box_001: SUGAR's 4-row capitals and flakes' 5-row lower case (ascender row on top). F, L, O, C, d, o, c drawn;
+# L is 2 wide so FLOCOS clears the box's left edge.
+_CEREAL = {c: (r, 0) for c, r in {
+    "S": ["###", "#..", "..#", "###"], "U": ["#..#", "#..#", "#..#", "####"], "G": ["####", "#...", "#.##", "####"],
+    "A": ["###", "#.#", "###", "#.#"], "R": ["####", "#..#", "###.", "#..#"],
+    "F": ["###", "#..", "##.", "#.."], "L": ["#.", "#.", "#.", "##"], "O": ["###", "#.#", "#.#", "###"],
+    "C": ["###", "#..", "#..", "###"],
+    "a": ["...", "###", "..#", "#.#", "###"], "e": ["...", "###", "#.#", "##.", "###"], "s": ["....", "####", "##..", "..##", "####"],
+    "k": ["#...", "#..#", "###.", "###.", "#..#"], "l": ["#"] * 5, "f": [".##", "###", ".#.", ".#.", ".#."],
+    "d": ["..#", "###", "#.#", "#.#", "###"], "o": ["...", "###", "#.#", "#.#", "###"], "c": ["...", "###", "#..", "#..", "###"],
+}.items()}
+
+# coffee_packet_cheap: COFFEE, 4 rows, 2 wide (O 3).
+_COFFEE = {c: (r, 0) for c, r in {
+    "C": ["##", "#.", "#.", "##"], "O": ["###", "#.#", "#.#", "###"], "F": ["##", "#.", "##", "#."], "E": ["##", "#.", "##", "##"],
+}.items()}
+# CAFÉ is shorter than COFFEE, so its letters can be a pixel wider and easier to read (drawn)
+_COFFEE3 = {c: (r, 0) for c, r in {
+    "C": ["###", "#..", "#..", "###"], "A": ["###", "#.#", "###", "#.#"], "F": ["###", "#..", "##.", "#.."],
+    "E": ["###", "#..", "##.", "###"],
+}.items()}
+_COFFEE3["É"] = _accent(_COFFEE3["E"], ["..#"], gap=0)
+
+PIXEL_FONTS.update({"emerg": _EMERG, "emerg-n": _EMERG_N, "dent": _DENT, "oil": _OIL, "map": _MAP, "cereal": _CEREAL,
+                    "coffee": _COFFEE, "coffee3": _COFFEE3})

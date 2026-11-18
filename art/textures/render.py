@@ -523,10 +523,12 @@ def render(name, spec, save=True):
         qw, qh = int(np.ptp(q[:, 0])) + 1, int(np.ptp(q[:, 1])) + 1
 
         nearest = wf.get("replace") is not None   # pixel-art sources: keep the letters blocky when enlarging
+        # "smooth": the picture is a slightly larger copy of a soft sign (a screen copied into another machine's glow
+        # map); area resampling would double pixel rows unevenly there
+        interp = cv2.INTER_NEAREST if nearest else cv2.INTER_CUBIC if wf.get("smooth") else cv2.INTER_AREA
 
         def warp(im):
-            small = cv2.resize(np.ascontiguousarray(im[y0:y1, x0:x1]), (qw, qh),
-                               interpolation=cv2.INTER_NEAREST if nearest else cv2.INTER_AREA)
+            small = cv2.resize(np.ascontiguousarray(im[y0:y1, x0:x1]), (qw, qh), interpolation=interp)
             sh, sw = small.shape[:2]
             h = cv2.getPerspectiveTransform(np.float32([[0, 0], [sw, 0], [sw, sh], [0, sh]]), q)
             return cv2.warpPerspective(small, h, (icon.shape[1], icon.shape[0]), flags=cv2.INTER_LINEAR)
