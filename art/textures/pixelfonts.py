@@ -766,12 +766,13 @@ _DENT = {c: (r, 0) for c, r in {
     "A": [".##.", "#..#", "#..#", "####", "#..#", "#..#"],   # drawn
 }.items()}
 
-# bottle_005_cooking_oil: OIL's 7-row letters cut to 6 rows and 3 wide, so ÓLEO and its accent fit the label (drawn).
+# bottle_005_cooking_oil: OIL's 7-row letters cut to 6 rows and narrowed (O 3, L and E 2), with a 2-pixel accent so Ó
+# reads as accented (drawn).
 _OIL = {c: (r, 0) for c, r in {
-    "O": ["###", "#.#", "#.#", "#.#", "#.#", "###"], "L": ["#..", "#..", "#..", "#..", "#..", "###"],
-    "E": ["###", "#..", "##.", "#..", "#..", "###"],
+    "O": ["###", "#.#", "#.#", "#.#", "#.#", "###"], "L": ["#.", "#.", "#.", "#.", "#.", "##"],
+    "E": ["##", "#.", "##", "#.", "#.", "##"],
 }.items()}
-_OIL["Ó"] = _accent(_OIL["O"], ["..#"], gap=0)
+_OIL["Ó"] = _accent(_OIL["O"], ["..#", ".#."], gap=0)
 
 # painting_004_stalburg: CITY OF STALBURG, 5 rows, 3 wide (G is 4). D, E drawn.
 _MAP = {c: (r, 0) for c, r in {

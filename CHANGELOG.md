@@ -8,7 +8,7 @@
 - Long titles on the character creation cards wrap onto a second line instead of shrinking ("Apreciador de cachaça de cogumelo"). Any label now uses the lines its box has room for before its text is made smaller.
 - With SafeTravels or QuestHelper installed, their text is in Portuguese too: the pause menu entries ("Destravar personagem", "Guia de tarefas"), SafeTravels' messages, and the whole Quest Helper window with its quest hints.
 - The vertical EXCHANGE sign in the tenement yard now reads CAMBIO. It is built from the game's 3D letters, so the plugin swaps in the game's own letter models. They have no accents, so it can't read CÂMBIO.
-- 13 more textures that were still in English: both buses (TRANSPORTE COLETIVO DE STALBURG and the graffiti on the wrecked one), the O Market doors, the screens of the free-standing ATM and of the closed parcel locker, the soup kitchen sign, the emergency number and dentist posters, the Stalburg wall map, and the cereal and Pekka coffee packets.
+- 15 more textures that were still in English: both buses (TRANSPORTE COLETIVO DE STALBURG and the graffiti on the wrecked one), the O Market doors and a shop window, a doormat, the screens of the free-standing ATM and of the closed parcel locker, the soup kitchen sign, the emergency number and dentist posters, the Stalburg wall map, and the cereal and Pekka coffee packets.
 
 ## 0.5.0 (2026-11-17)
 

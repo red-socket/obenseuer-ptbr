@@ -3280,6 +3280,7 @@ SPECS = {
 
 
 
+
     # ---- Batch 26: textures found in 0.5.0 play (0.5.1) ----
     "Market_door_002_window_o_market": {
         "en": "O MARKET / WELCOME (glass door)",
@@ -3364,7 +3365,7 @@ SPECS = {
     },
     "bottle_005_cooking_oil": {
         "en": "OIL (cooking oil bottle label, pixel letters)",
-        "note": "ÓLEO, as the item is Óleo de cozinha; the letters are a row shorter and a pixel narrower so the accent fits inside the dotted frame.",
+        "note": "ÓLEO, as the item is Óleo de cozinha; the letters are a row shorter and narrower (L and E 2 wide), with a 2-pixel accent on the Ó.",
         "erase": [{"rect": [13, 21, 28, 30], "color": "#65821b"}],
         "text": [{"pixel": "oil", "box": [13, 0, 28, 0], "baselines": [28], "text": "ÓLEO", "color": "#374419"}],
     },
