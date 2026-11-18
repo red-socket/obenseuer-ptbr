@@ -2,7 +2,7 @@
 
 An unofficial Brazilian Portuguese (PT-BR) translation of [Obenseuer](https://store.steampowered.com/app/951240/Obenseuer/) by Loiste Interactive, packaged as a BepInEx 5 plugin. Releases go up on [Nexus Mods](https://www.nexusmods.com/games/obeseuer) and on the GitHub releases page.
 
-Status: the first draft is complete and under review. It covers menus, items, recipes, furniture, interface labels, object names, notifications, tasks, notes, quest items, all dialogue and 333 textures with English text (signs, screens, maps, posters and packaging). See the [CHANGELOG](CHANGELOG.md) for details.
+Status: the first draft is complete and under review. It covers menus, items, recipes, furniture, interface labels, object names, notifications, tasks, notes, quest items, all dialogue and 337 textures with English text (signs, screens, maps, posters and packaging). See the [CHANGELOG](CHANGELOG.md) for details.
 
 The plugin translates the game in memory while it runs. It doesn't change any game files or write anything to your saves, and removing it brings back the English text.
 
@@ -23,7 +23,7 @@ The plugin translates the game in memory while it runs. It doesn't change any ga
 | Dialogue | Dialogue System database | Added in memory as the Dialogue System's own Portuguese fields. Lines addressed to your character use `{{masculine\|feminine}}` forms, picked from your character's gender. |
 | Signs built from 3D letters | Letter models in the scene | The EXCHANGE sign is spelled again with the game's own letter models (`sign.<WORD>` entries in `manual.po`). |
 | Signs, screens, posters, packaging | Textures | Each redrawn texture in `textures/pt-BR/` replaces the game's texture of the same name in memory when the game loads it. The sources and the scripts that draw them are in `art/textures/`. |
-| Other red-socket mods | The mod's own code and data | With BetterTenement, FairMarket, QuestHelper, SafeTravels, TidyInventory or FewerClicks installed, their text is translated too, from the entries in `mods.po`. Text drawn in their own windows is replaced when the game starts; buttons and messages shown in the game's own labels are translated like the game's text. |
+| Other red-socket mods | The mod's own code and data | When any of BetterPlacement, BetterTenement, DisplayOptions, FairJustice, FairMarket, FewerClicks, GreenThumb, GridSense, MessageLog, QuestHelper, RecipeBook, SafeTravels, SaveGuard, TidyInventory, TimeKeeper, UnofficialPatch, VitalSigns and Workshop is installed, its text is translated too, from the entries in `mods.po`. Text drawn in their own windows is replaced when the game starts; buttons and messages shown in the game's own labels are translated like the game's text. |
 
 The translations are gettext `.po` files in `translations/pt-BR/`, one per domain. Each entry has a stable key in `msgctxt` (for example `item.17260.title`), except interface labels, which use their English text as the key. Anything missing or untranslated shows in English.
 
