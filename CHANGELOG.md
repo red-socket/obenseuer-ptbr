@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.5.3 (unreleased)
+
+- Fixed: with 0.5.2 the game could hang at startup when the other red-socket mods were not installed. Looking for each missing mod's text made the plugin search every loaded class hundreds of times and log a warning each time. It now checks once per mod and skips the mods that aren't there.
+
 ## 0.5.2 (2026-11-18)
 
 - A single word is never broken across two lines any more ("Orden / ar" on the round Sort buttons). If a word doesn't fit, the label's text is made a little smaller instead.

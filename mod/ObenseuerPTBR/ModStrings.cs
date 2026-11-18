@@ -91,7 +91,7 @@ namespace ObenseuerPTBR
                 }
                 foreach (string typeName in target.Types)
                 {
-                    Type type = AccessTools.TypeByName(typeName);
+                    Type type = FindType(target.Mod, typeName);
                     if (type == null) continue;
                     ReplaceArrays(type, map);
                     foreach (MethodInfo m in Methods(type))
@@ -110,7 +110,7 @@ namespace ObenseuerPTBR
                 int colon = e.Key.IndexOf(':'), sep = e.Key.IndexOf("::", StringComparison.Ordinal), bar = e.Key.IndexOf('|');
                 if (colon < 0 || sep <= colon || bar <= sep) continue;
                 string mod = e.Key.Substring(0, colon);
-                Type type = AccessTools.TypeByName(e.Key.Substring(colon + 1, sep - colon - 1));
+                Type type = FindType(mod, e.Key.Substring(colon + 1, sep - colon - 1));
                 if (type == null) continue;
                 string method = e.Key.Substring(sep + 2, bar - sep - 2), literal = e.Key.Substring(bar + 1);
                 var one = new Dictionary<string, string>(StringComparer.Ordinal) { [literal] = e.Value };
@@ -138,6 +138,35 @@ namespace ObenseuerPTBR
         }
 
         private static readonly Dictionary<MethodBase, string> owner = new Dictionary<MethodBase, string>();
+
+        // Types are looked up in the mod's own assembly (named like the mod), once each, missing ones included. Most of
+        // the mods in mods.po are usually not installed: Harmony's AccessTools.TypeByName would scan every loaded type
+        // and log a warning for each of hundreds of keys, which stalls the game's start.
+        private static Dictionary<string, Assembly> assemblies;
+        private static readonly Dictionary<string, Type> types = new Dictionary<string, Type>(StringComparer.Ordinal);
+
+        internal static Type FindType(string mod, string typeName)
+        {
+            if (assemblies == null)
+            {
+                assemblies = new Dictionary<string, Assembly>(StringComparer.Ordinal);
+                foreach (Assembly a in AppDomain.CurrentDomain.GetAssemblies())
+                {
+                    try { assemblies[a.GetName().Name] = a; }
+                    catch (Exception) { }
+                }
+            }
+            string key = mod + "/" + typeName;
+            if (types.TryGetValue(key, out Type cached)) return cached;
+            Type type = null;
+            if (assemblies.TryGetValue(mod, out Assembly asm))
+            {
+                try { type = asm.GetType(typeName, false); }
+                catch (Exception) { }
+            }
+            types[key] = type;
+            return type;
+        }
 
         private static void Add(MethodBase m, Dictionary<string, string> entries, string mod)
         {

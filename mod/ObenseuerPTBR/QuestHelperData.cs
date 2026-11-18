@@ -21,7 +21,7 @@ namespace ObenseuerPTBR
             if (!Plugin.Enabled.Value || Plugin.Catalog == null || !Chainloader.PluginInfos.ContainsKey(ModStrings.QuestHelperGuid)) return;
             try
             {
-                Type curated = AccessTools.TypeByName("QuestHelper.Curated");
+                Type curated = ModStrings.FindType("QuestHelper", "QuestHelper.Curated");
                 if (curated == null) return;
                 int n = 0;
                 foreach (string name in new[] { "Rows", "Checkpoints", "Chain" })
