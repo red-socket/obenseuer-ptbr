@@ -72,8 +72,13 @@ namespace ObenseuerPTBR
                 // The English was laid out to fit, so count its lines leniently and the Portuguese strictly. The
                 // translation may also use any further lines the box has room for (a card title sized for two lines
                 // whose English needed one) before it is scaled down.
+                // A word wider than the box would be broken in the middle ("Orden/ar"), so the longest word must fit
+                // too, unless the English already had that problem.
                 int lines = Mathf.Max(Lines(label, english, unit, box * 1.03f, 1f), Room(label, unit));
-                for (scale = 1f; scale > MinUiScale && Lines(label, pt, unit, box * 0.94f, scale) > lines; scale -= 0.05f) { }
+                bool wordsFit = LongestWord(label, english) * unit <= box * 1.03f;
+                for (scale = 1f; scale > MinUiScale
+                     && (Lines(label, pt, unit, box * 0.94f, scale) > lines || wordsFit && LongestWord(label, pt) * unit * scale > box * 0.97f);
+                     scale -= 0.05f) { }
                 scale = Mathf.Max(MinUiScale, scale);
             }
             if (scale >= 0.99f)
@@ -199,6 +204,15 @@ namespace ObenseuerPTBR
         {
             rt.GetWorldCorners(corners);
             return Rect.MinMaxRect(corners[0].x, corners[0].y, corners[2].x, corners[2].y);
+        }
+
+        // Width of the widest single word, in em.
+        private static float LongestWord(TMP_Text label, string text)
+        {
+            float max = 0f;
+            foreach (string word in Tag.Replace(text, "").Split(new[] { ' ', '\n' }, StringSplitOptions.RemoveEmptyEntries))
+                max = Mathf.Max(max, Width(label, word));
+            return max;
         }
 
         // Whole lines of text the label's box holds at its full size.

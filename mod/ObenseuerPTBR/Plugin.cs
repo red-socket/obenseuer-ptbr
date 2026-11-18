@@ -14,11 +14,29 @@ namespace ObenseuerPTBR
     [BepInDependency(ModStrings.BetterTenementGuid, BepInDependency.DependencyFlags.SoftDependency)]
     [BepInDependency(ModStrings.FairMarketGuid, BepInDependency.DependencyFlags.SoftDependency)]
     [BepInDependency(ModStrings.QuestHelperGuid, BepInDependency.DependencyFlags.SoftDependency)]
+    // The other red-socket mods whose text the catalog translates (mods.po): loaded first, so their types exist here.
+    [BepInDependency("redsocket.obenseuer.betterplacement", BepInDependency.DependencyFlags.SoftDependency)]
+    [BepInDependency("redsocket.obenseuer.displayoptions", BepInDependency.DependencyFlags.SoftDependency)]
+    [BepInDependency("redsocket.obenseuer.fairjustice", BepInDependency.DependencyFlags.SoftDependency)]
+    [BepInDependency("redsocket.obenseuer.fewerclicks", BepInDependency.DependencyFlags.SoftDependency)]
+    [BepInDependency("redsocket.obenseuer.greenthumb", BepInDependency.DependencyFlags.SoftDependency)]
+    [BepInDependency("redsocket.obenseuer.gridsense", BepInDependency.DependencyFlags.SoftDependency)]
+    [BepInDependency("redsocket.obenseuer.messagelog", BepInDependency.DependencyFlags.SoftDependency)]
+    [BepInDependency("redsocket.obenseuer.nofloorspill", BepInDependency.DependencyFlags.SoftDependency)]
+    [BepInDependency("redsocket.obenseuer.recipebook", BepInDependency.DependencyFlags.SoftDependency)]
+    [BepInDependency("redsocket.obenseuer.safetravels", BepInDependency.DependencyFlags.SoftDependency)]
+    [BepInDependency("redsocket.obenseuer.saveguard", BepInDependency.DependencyFlags.SoftDependency)]
+    [BepInDependency("redsocket.obenseuer.soundsanity", BepInDependency.DependencyFlags.SoftDependency)]
+    [BepInDependency("redsocket.obenseuer.tidyinventory", BepInDependency.DependencyFlags.SoftDependency)]
+    [BepInDependency("redsocket.obenseuer.timekeeper", BepInDependency.DependencyFlags.SoftDependency)]
+    [BepInDependency("redsocket.obenseuer.unofficialpatch", BepInDependency.DependencyFlags.SoftDependency)]
+    [BepInDependency("redsocket.obenseuer.vitalsigns", BepInDependency.DependencyFlags.SoftDependency)]
+    [BepInDependency("redsocket.obenseuer.workshop", BepInDependency.DependencyFlags.SoftDependency)]
     public sealed class Plugin : BaseUnityPlugin
     {
         public const string Guid = "redsocket.obenseuer.ptbr";
         public const string Name = "Obenseuer PT-BR";
-        public const string Version = "0.5.1";
+        public const string Version = "0.5.2";
         public const string TestedGameVersion = "0.5.19";
 
         internal static ManualLogSource Log;

@@ -1926,3 +1926,8 @@ msgstr "Cores vivas"
 #, fuzzy
 msgid "Nothing"
 msgstr "Nada"
+
+#. SRC/MarketShop.cs:37 checkout prompt; the use text wraps it in another pair of brackets
+#, fuzzy
+msgid "(Total: {0} (Scanning))"
+msgstr "(Total: {0} (escaneando))"

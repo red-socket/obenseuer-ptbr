@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Reflection;
 using System.Reflection.Emit;
 using System.Text.RegularExpressions;
@@ -69,6 +70,9 @@ namespace ObenseuerPTBR
         public static void Apply(Harmony harmony)
         {
             if (!Plugin.Enabled.Value || Plugin.Catalog == null) return;
+            var counts = new Dictionary<string, int>(StringComparer.Ordinal);
+
+            // Listed targets: every changed method of the listed types gets the mod's general keys.
             foreach (Target target in Targets)
             {
                 if (!Chainloader.PluginInfos.ContainsKey(target.Guid)) continue;
@@ -81,10 +85,10 @@ namespace ObenseuerPTBR
                     int bar = e.Key.IndexOf('|');
                     if (bar < 0) { map[e.Key] = e.Value; continue; }
                     string where = e.Key.Substring(0, bar);
+                    if (where.Contains("::")) continue;   // a method named in full: handled below
                     if (!scoped.TryGetValue(where, out var only)) scoped[where] = only = new Dictionary<string, string>(StringComparer.Ordinal);
                     only[e.Key.Substring(bar + 1)] = e.Value;
                 }
-                int methods = 0;
                 foreach (string typeName in target.Types)
                 {
                     Type type = AccessTools.TypeByName(typeName);
@@ -92,28 +96,54 @@ namespace ObenseuerPTBR
                     ReplaceArrays(type, map);
                     foreach (MethodInfo m in Methods(type))
                     {
-                        try
-                        {
-                            if (target.Methods != null && !target.Methods.IsMatch(m.DeclaringType.FullName + "::" + m.Name)) continue;
-                            var forMethod = map;
-                            if (scoped.TryGetValue(m.DeclaringType.Name + "." + m.Name, out var only))
-                            {
-                                forMethod = new Dictionary<string, string>(map, StringComparer.Ordinal);
-                                foreach (var e in only) forMethod[e.Key] = e.Value;
-                            }
-                            if (!UsesAny(m, forMethod)) continue;
-                            perMethod[m] = forMethod;
-                            harmony.Patch(m, transpiler: new HarmonyMethod(typeof(ModStrings), nameof(Transpiler)));
-                            methods++;
-                        }
-                        catch (Exception e)
-                        {
-                            Plugin.Log.LogWarning($"{target.Mod}: {type.Name}.{m.Name} not translated: {e.Message}");
-                        }
+                        if (target.Methods != null && !target.Methods.IsMatch(m.DeclaringType.FullName + "::" + m.Name)) continue;
+                        Add(m, map, target.Mod);
+                        if (scoped.TryGetValue(m.DeclaringType.Name + "." + m.Name, out var only)) Add(m, only, target.Mod);
                     }
                 }
-                Plugin.Log.LogInfo($"{target.Mod}: translated text in {methods} methods");
             }
+
+            // Keys that name their method in full, for any mod: "mod.<Mod>:<Namespace.Type>::<Method>|<literal>". The type
+            // is only found when that mod is installed. "::.cctor" means a lookup table the type built when it loaded.
+            foreach (var e in Plugin.Catalog.KeysWithPrefix("mod."))
+            {
+                int colon = e.Key.IndexOf(':'), sep = e.Key.IndexOf("::", StringComparison.Ordinal), bar = e.Key.IndexOf('|');
+                if (colon < 0 || sep <= colon || bar <= sep) continue;
+                string mod = e.Key.Substring(0, colon);
+                Type type = AccessTools.TypeByName(e.Key.Substring(colon + 1, sep - colon - 1));
+                if (type == null) continue;
+                string method = e.Key.Substring(sep + 2, bar - sep - 2), literal = e.Key.Substring(bar + 1);
+                var one = new Dictionary<string, string>(StringComparer.Ordinal) { [literal] = e.Value };
+                if (method == ".cctor") { ReplaceArrays(type, one); continue; }
+                foreach (MethodInfo m in AccessTools.GetDeclaredMethods(type))
+                    if (m.Name == method && m.GetMethodBody() != null && !m.ContainsGenericParameters) Add(m, one, mod);
+            }
+
+            // One transpiler per method, with everything that method should change.
+            foreach (var e in perMethod.ToList())
+            {
+                try
+                {
+                    if (!UsesAny(e.Key, e.Value)) { perMethod.Remove(e.Key); continue; }
+                    harmony.Patch(e.Key, transpiler: new HarmonyMethod(typeof(ModStrings), nameof(Transpiler)));
+                    string mod = owner[e.Key];
+                    counts[mod] = counts.TryGetValue(mod, out int n) ? n + 1 : 1;
+                }
+                catch (Exception ex)
+                {
+                    Plugin.Log.LogWarning($"{owner[e.Key]}: {e.Key.DeclaringType?.Name}.{e.Key.Name} not translated: {ex.Message}");
+                }
+            }
+            foreach (var c in counts) Plugin.Log.LogInfo($"{c.Key}: translated text in {c.Value} methods");
+        }
+
+        private static readonly Dictionary<MethodBase, string> owner = new Dictionary<MethodBase, string>();
+
+        private static void Add(MethodBase m, Dictionary<string, string> entries, string mod)
+        {
+            if (!perMethod.TryGetValue(m, out var map)) perMethod[m] = map = new Dictionary<string, string>(StringComparer.Ordinal);
+            foreach (var e in entries) map[e.Key] = e.Value;
+            owner[m] = mod;
         }
 
         // Lookup tables built in a static constructor ("Mon", "Tue", ...), which has usually run already: the array's
@@ -138,7 +168,7 @@ namespace ObenseuerPTBR
                     yield return m;
         }
 
-        private static bool UsesAny(MethodInfo m, Dictionary<string, string> map)
+        private static bool UsesAny(MethodBase m, Dictionary<string, string> map)
         {
             foreach (CodeInstruction ci in PatchProcessor.GetOriginalInstructions(m))
                 if (ci.opcode == OpCodes.Ldstr && ci.operand is string s && map.ContainsKey(s))

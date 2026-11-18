@@ -103,15 +103,7 @@ namespace ObenseuerPTBR
                 if (inner != null) return "(" + inner + ")";
             }
 
-            // Warnings and exclamations: "Thirst!" -> "Sede!". Single lines only: on a multi-line text, cutting the
-            // final mark would leave its last line unmatched.
-            char last = text[text.Length - 1];
-            if (text.Length > 2 && (last == '!' || last == '?' || last == '.' || last == ':') && text.IndexOf('\n') < 0)
-            {
-                string inner = Translate(text.Substring(0, text.Length - 1), depth + 1);
-                if (inner != null) return inner + last;
-            }
-
+            // Templates see the whole text first, final full stop included ("Threw away 3 items. Kept 1 stack: {0}.").
             foreach (Template t in templates)
             {
                 Match m = t.Pattern.Match(text);
@@ -121,11 +113,20 @@ namespace ObenseuerPTBR
                 {
                     Group g = m.Groups["a" + p.Groups[1].Value];
                     if (!g.Success) return p.Value;
-                    string v = Translate(g.Value, depth + 1) ?? g.Value;
+                    string v = Translate(g.Value, depth + 1) ?? List(g.Value, depth + 1) ?? g.Value;
                     if (!p.Groups[2].Success || v.Length == 0) return v;
                     char first = p.Groups[2].Value == "l" ? char.ToLower(v[0], PtBr) : char.ToUpper(v[0], PtBr);
                     return first + v.Substring(1);
                 });
+            }
+
+            // Warnings and exclamations: "Thirst!" -> "Sede!". Single lines only: on a multi-line text, cutting the
+            // final mark would leave its last line unmatched.
+            char last = text[text.Length - 1];
+            if (text.Length > 2 && (last == '!' || last == '?' || last == '.' || last == ':') && text.IndexOf('\n') < 0)
+            {
+                string inner = Translate(text.Substring(0, text.Length - 1), depth + 1);
+                if (inner != null) return inner + last;
             }
 
             // "Log storage (Empty)": the name and the state are translated separately.
@@ -188,7 +189,8 @@ namespace ObenseuerPTBR
 
             // "Guard: Halt!" (bark and phone subtitles), "Quality: Good": translate a known label in front of
             // the colon, and the value too if it has a translation (dialogue values arrive already translated).
-            Match labelled = Labelled.Match(text);
+            // Single lines only: on a multi-line text the "value" would swallow the following lines.
+            Match labelled = text.IndexOf('\n') < 0 ? Labelled.Match(text) : Match.Empty;
             if (labelled.Success)
             {
                 string label = labelled.Groups[1].Value;

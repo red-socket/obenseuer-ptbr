@@ -1,5 +1,12 @@
 # Changelog
 
+## 0.5.2 (unreleased)
+
+- A single word is never broken across two lines any more ("Orden / ar" on the round Sort buttons). If a word doesn't fit, the label's text is made a little smaller instead.
+- The checkout prompt reads "(Total: 216 OC (escaneando))" instead of staying in English.
+- The other red-socket mods are now in Portuguese too, when they are installed: the windows of VitalSigns, SaveGuard, MessageLog and FairJustice, FairMarket's invoices, BetterTenement's Tenement Doctor, and the prompts, buttons, tooltips and messages of Workshop, FewerClicks, RecipeBook, TidyInventory, TimeKeeper, GridSense, BetterPlacement, GreenThumb, UnofficialPatch and DisplayOptions. A few words stay in English where a mod also uses them internally.
+- Sentences that end in a full stop and lines inside multi-line panels now find their translation more reliably.
+
 ## 0.5.1 (2026-11-17)
 
 - Recipe and 3D model pickups are translated ("Receita: Pierogi"). The game builds their names from the recipe name and an English suffix.
